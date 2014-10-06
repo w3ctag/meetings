@@ -56,25 +56,25 @@
 
 08:33:45 **Domenic** ScribeNick: Domenic
 
-08:34:11 **Domenic** dka: we are about to send over some technical feedback on the EME spec
+08:34:11 __dka:__ we are about to send over some technical feedback on the EME spec
 
-08:35:13 **Domenic** dka: one of the points of discussion yesterday was about how in some jurisdictions it's illegal to do security testing of DRM mechanisms
+08:35:13 __dka:__ one of the points of discussion yesterday was about how in some jurisdictions it's illegal to do security testing of DRM mechanisms
 
-08:36:26 **Domenic** dka: wondering if we could have some kind of process lever, similar to the patent policy, to compell W3C members who are part of the EME group to agree not to sue companies or individuals doing this kind of security testing
+08:36:26 __dka:__ wondering if we could have some kind of process lever, similar to the patent policy, to compell W3C members who are part of the EME group to agree not to sue companies or individuals doing this kind of security testing
 
-08:37:21 **Domenic** dka: a good point of discussion between the TAG and the AB, as a new kind of policy-level thing
+08:37:21 __dka:__ a good point of discussion between the TAG and the AB, as a new kind of policy-level thing
 
-08:38:16 **Domenic** virginie: are you confident this is illegal?
+08:38:16 __virginie:__ are you confident this is illegal?
 
-08:38:39 **Domenic** Domenic: yes, anti-circumvention law in the DMCA in the US
+08:38:39 __domenic:__ yes, anti-circumvention law in the DMCA in the US
 
-08:39:12 **Domenic** twirl: actually that's very controversial. In theory if you prove you have no intent to crack the system, you wouldn't be in trouble. But in practice it is used a lot.
+08:39:12 __twirl:__ actually that's very controversial. In theory if you prove you have no intent to crack the system, you wouldn't be in trouble. But in practice it is used a lot.
 
 08:39:30 **twirl** http://en.wikipedia.org/wiki/United_States_v._ElcomSoft_and_Sklyarov
 
-08:39:41 **Domenic** twirl: if I were a security specialist I would be scared
+08:39:41 __twirl:__ if I were a security specialist I would be scared
 
-08:40:45 **Domenic** dka: we thought this would be good to bring up because it's not a part of the technical feedback we want to give, but it is important feedback we want to give, if possible. We are not lawyers so we are not sure, but we wanted to bring it up.
+08:40:45 __dka:__ we thought this would be good to bring up because it's not a part of the technical feedback we want to give, but it is important feedback we want to give, if possible. We are not lawyers so we are not sure, but we wanted to bring it up.
 
 08:41:36 **twirl** s/to crack the system/to violate copyright
 
@@ -82,51 +82,51 @@
 
 08:54:43 **virginie** https://www.w3.org/Security/wiki/IG/webcryptonext_workshop
 
-08:56:00 **Domenic** virginie: (reviews slides)
+08:56:00 __virginie:__ (reviews slides)
 
-08:56:27 **Domenic** virginie: it was asked which features you would be willing to contribute to in the WG?
+08:56:27 __virginie:__ it was asked which features you would be willing to contribute to in the WG?
 
-08:57:01 **Domenic** virginie: (reviews wiki link)
+08:57:01 __virginie:__ (reviews wiki link)
 
-08:58:24 **Domenic** virginie: it was unclear where to put new topics as they were raised; this is a more general W3C issue
+08:58:24 __virginie:__ it was unclear where to put new topics as they were raised; this is a more general W3C issue
 
 08:58:29 **virginie** http://lists.w3.org/Archives/Public/public-web-security/
 
-08:58:54 **Domenic** virginie: there were lots of non-members involved in the discussion, so we decided to have the conversation on public-web-security
+08:58:54 __virginie:__ there were lots of non-members involved in the discussion, so we decided to have the conversation on public-web-security
 
 08:59:30 **Domenic** Domenic: does webcrypto not have a public mailing list?
 
-08:59:40 **Domenic** virginie: it is readable to all, but not writable to all
+08:59:40 __virginie:__ it is readable to all, but not writable to all
 
-08:59:49 **Domenic** virginie: also we did not want to disturb the progress on finalizing webcrypto
+08:59:49 __virginie:__ also we did not want to disturb the progress on finalizing webcrypto
 
-08:59:56 **Domenic** Domenic: sounds good :)
+08:59:56 __domenic:__ sounds good :)
 
-09:00:29 **Domenic** virginie: the web security interest group does not have resources at the moment
+09:00:29 __virginie:__ the web security interest group does not have resources at the moment
 
 09:00:44 **Domenic** (next slide, "Other topics")
 
-09:01:27 **dka** Domenic: how much interest was there from implementers on new features for web crypto?
+09:01:27 __Domenic:__ how much interest was there from implementers on new features for web crypto?
 
-09:01:56 **Domenic** virginie: definitely Microsoft is interested in having credentials or sensitive information being stored in something that is external to the browser
+09:01:56 __virginie:__ definitely Microsoft is interested in having credentials or sensitive information being stored in something that is external to the browser
 
-09:02:54 **Domenic** virginie: Mozilla already has an implementation to integrate with **secure** element, but they are not interested in standardizing it
+09:02:54 __virginie:__ Mozilla already has an implementation to integrate with **secure** element, but they are not interested in standardizing it
 
 09:03:27 **dka** https://wiki.mozilla.org/WebAPI/WebNFC#Fifth_iteration:_Secure_Element_.28Firefox_OS_v2.2.29
 
-09:03:46 **Domenic** virginie: we could define a way to integrate with other secure (authentication) services, which could offer some of the stuff a **secure** element could offer, but we would want it to be as open as possible
+09:03:46 __virginie:__ we could define a way to integrate with other secure (authentication) services, which could offer some of the stuff a **secure** element could offer, but we would want it to be as open as possible
 
 09:04:11 **dka** cf http://www.w3.org/TR/nfc/
 
-09:04:30 **Domenic** virginie: FIDO alliance is interested in secure tokens
+09:04:30 __virginie:__ FIDO alliance is interested in secure tokens
 
-09:04:36 **Domenic** Domenic: but they're not a browser vendor, right?
+09:04:36 __domenic:__ but they're not a browser vendor, right?
 
-09:04:37 **Domenic** virginie: right
+09:04:37 __virginie:__ right
 
-09:05:14 **Domenic** virginie: unclear whether these next steps are a high priority in the browsers
+09:05:14 __virginie:__ unclear whether these next steps are a high priority in the browsers
 
-09:05:57 **Domenic** Domenic: I am scared that you guys will do good work coming up with cool things and then it won't be implemented in browsers
+09:05:57 __domenic:__ I am scared that you guys will do good work coming up with cool things and then it won't be implemented in browsers
 
 09:09:18 **virginie** are you talking about http://mikewest.github.io/credentialmanagement/spec/
 
@@ -134,19 +134,19 @@
 
 09:10:20 **Domenic** (Domenic asked about interest within webcrypto about that proposal)
 
-09:10:41 **Domenic** virginie: there is nothing too security-related here; we didn't have a chane to discuss it
+09:10:41 __virginie:__ there is nothing too security-related here; we didn't have a chane to discuss it
 
-09:10:46 **Domenic** virginie: also unclear where it should go
+09:10:46 __virginie:__ also unclear where it should go
 
-09:10:54 **Domenic** virginie: maybe webapps
+09:10:54 __virginie:__ maybe webapps
 
 09:11:03 **mnot** mnot has joined #tagmem
 
-09:11:28 **Domenic** virginie: probably doesn't need cryptographers to review it
+09:11:28 __virginie:__ probably doesn't need cryptographers to review it
 
-09:11:35 **Domenic** virginie: maybe webappssec
+09:11:35 __virginie:__ maybe webappssec
 
-09:11:52 **Domenic** virginie: but once again no security concerns, it's basically about managing data
+09:11:52 __virginie:__ but once again no security concerns, it's basically about managing data
 
 09:12:07 **wycats** adoption hacks ðŸ‘
 
@@ -156,7 +156,7 @@
 
 09:14:48 **Domenic** ScribeNick: wycats
 
-09:15:25 **wycats** Domenic: good job getting it over the finish line. I understand it was long and hard.
+09:15:25 **wycats** domenic: good job getting it over the finish line. I understand it was long and hard.
 
 09:15:31 **wycats** ... and shipping everywhere is good
 
@@ -164,7 +164,7 @@
 
 09:15:44 **twirl_** twirl_ has joined #tagmem
 
-09:15:46 **wycats** Domenic: it's shipping!
+09:15:46 **wycats** domenic: it's shipping!
 
 09:16:13 **wycats** virginie: we have to decide whether to include auth in the WebCrypto charter
 
@@ -174,7 +174,7 @@
 
 09:17:07 **wycats** ... would you create a new auth WG?
 
-09:17:18 **wycats** Domenic: it really depends how people want to work
+09:17:18 **wycats** domenic: it really depends how people want to work
 
 09:17:26 **wycats** ... for example the mega-web-apps WG seems to work fine
 
@@ -210,7 +210,7 @@
 
 09:24:21 **wycats** ... I feel like it should be an issue on Github
 
-09:24:24 **wycats** Domenic: I like Github
+09:24:24 **wycats** domenic: I like Github
 
 09:24:46 **wycats** ... instead of having many mailing list, it seems Specifiction / Discourse's model is one big list
 
@@ -218,7 +218,7 @@
 
 09:26:54 **wycats** wycats: The way Ember uses Discourse is as a place for unstructured comments that can get routed to Github Issues
 
-09:27:08 **wycats** Domenic: this is different from the WHATWG's use of mailing list
+09:27:08 **wycats** domenic: this is different from the WHATWG's use of mailing list
 
 09:29:31 **wycats** wycats: it's good to have a sense of what goes on Github, Stack Overflow, etc.
 
@@ -240,7 +240,7 @@
 
 09:35:45 **wycats** dka: so what's the topic in Discourse?
 
-09:35:55 **wycats** Domenic: "standards / developer interfacing"
+09:35:55 **wycats** domenic: "standards / developer interfacing"
 
 09:43:11 **darobin** darobin has joined #tagmem
 
@@ -260,7 +260,7 @@
 
 09:51:25 **wycats** wycats: the optics of this are very bad
 
-09:52:17 **wycats** Domenic: please proceed Robin
+09:52:17 **wycats** domenic: please proceed Robin
 
 09:52:38 **wycats** darobin: there's a lot of ground to cover
 
@@ -360,7 +360,7 @@
 
 10:07:39 **wycats** ... for example marcos asked why W3C won't accept WHATWG as a peer org
 
-10:07:48 **wycats** Domenic: I would like that to get resolved
+10:07:48 **wycats** domenic: I would like that to get resolved
 
 10:08:11 **wycats** timbl: for example, when you look at the WHATWG charter, it says it's a closed WG by invitation only
 
@@ -400,7 +400,7 @@
 
 10:16:33 **wycats** ... I would like to get it to REC to free up resources
 
-10:18:28 **wycats** Domenic: a core issue is that it's a big web and many orgs doing many things
+10:18:28 **wycats** domenic: a core issue is that it's a big web and many orgs doing many things
 
 10:18:46 **wycats** ... it's unnecessarily combative
 
@@ -430,7 +430,7 @@
 
 10:22:03 **darobin** +1 to Domenic
 
-10:22:18 **wycats** Domenic: I think the WHATWG meets the criteria by any definition
+10:22:18 **wycats** domenic: I think the WHATWG meets the criteria by any definition
 
 10:22:23 **wycats** ... there is just a terminology issue
 
@@ -458,7 +458,7 @@
 
 10:27:52 **wycats** mnot: I don't think the high bar is actually required
 
-10:27:59 **darobin** Domenic: and if you look at the OpenStand principles, I think it is very clear that we [the WHATWG] actually adhere very strongly to those
+10:27:59 **darobin** domenic: and if you look at the OpenStand principles, I think it is very clear that we [the WHATWG] actually adhere very strongly to those
 
 10:28:27 **wycats** obligatory http://imgs.xkcd.com/comics/standards.png
 
@@ -502,13 +502,13 @@
 
 10:38:31 **Domenic** there was also one in C
 
-10:39:18 **wycats** Domenic: can we normatively reference the WHATWG?
+10:39:18 **wycats** domenic: can we normatively reference the WHATWG?
 
 10:39:26 **wycats** dka: the TAG seems to have consensus
 
 10:40:33 **wycats** dka: maybe we can scope to URL?
 
-10:40:44 **wycats** Domenic: we can try to make it precedent
+10:40:44 **wycats** domenic: we can try to make it precedent
 
 10:41:10 **wycats** ... get rid of the bad blood
 
@@ -518,7 +518,7 @@
 
 10:42:15 **wycats** wycats: it's not doing anybody (the WHATWG included) any favors
 
-10:42:22 **wycats** dka and Domenic: confirm
+10:42:22 **wycats** dka and domenic: confirm
 
 10:44:34 **wycats** timbl: things have changed in 25 years
 
@@ -554,7 +554,7 @@
 
 10:55:49 **wycats** wycats: is strict patent policy actually a requirement for normative references?
 
-10:56:03 **wycats** Domenic: points out that non-REC docs don't have patent commitments
+10:56:03 **wycats** domenic: points out that non-REC docs don't have patent commitments
 
 10:56:30 **wycats** darobin: it would be awesome if the W3C would help the WHATWG with patent commitments
 
@@ -562,13 +562,13 @@
 
 10:56:55 **dka** +1
 
-10:57:05 **wycats** Domenic: via the CG FSA form
+10:57:05 **wycats** domenic: via the CG FSA form
 
 10:57:32 **wycats** dka: telefonica is prepared to make a commitment through that mechanism
 
 10:58:30 **dka** confirmed
 
-10:58:32 **wycats** Domenic: helping the WHATWG getting a better patent process in place is a good longer-term work item
+10:58:32 **wycats** domenic: helping the WHATWG getting a better patent process in place is a good longer-term work item
 
 10:59:07 **wycats** ... it seems like a new process would be helpful
 
@@ -618,7 +618,7 @@
 
 12:09:59 **dka** Topic: Modularization / future of specifiction...
 
-12:10:00 **wycats** darobin: I was hoping to have a prototype implementation of the ideas
+12:10:00 __darobin:__ I was hoping to have a prototype implementation of the ideas
 
 12:10:10 **wycats** ... I'm behind schedule
 
@@ -642,7 +642,7 @@
 
 12:14:24 **wycats** ... also we want to standardize on bikeshed
 
-12:21:49 **wycats** wycats: I talked about feature flags once features are being actively implemented so you can build a "canary" version of the spec vs. a "release" build
+12:21:49 __wycats:__ I talked about feature flags once features are being actively implemented so you can build a "canary" version of the spec vs. a "release" build
 
 12:22:10 **wycats** ... as a way to enable a more "living standard" approach with more stability marking
 
@@ -650,41 +650,41 @@
 
 12:22:54 **wycats** **feedback is generally extremely useful**
 
-12:23:16 **wycats** wycats: Yves: yes, you would be able to attach implementation reports to a feature name
+12:23:16 __wycats:__ Yves: yes, you would be able to attach implementation reports to a feature name
 
-12:24:08 **wycats** dka: it seems like there's a lot of synergistic work going on
+12:24:08 __dka:__ it seems like there's a lot of synergistic work going on
 
-12:24:22 **wycats** darobin: we should all be paying attention to what each other are doing
+12:24:22 __darobin:__ we should all be paying attention to what each other are doing
 
 12:25:34 **wycats** my closing slide from my talk yesterday: http://note.io/1rGZOo3
 
-12:26:27 **wycats** dka: so what's the plan?
+12:26:27 __dka:__ so what's the plan?
 
-12:26:41 **wycats** darobin: some tooling and then some experimental work on pulling out a few initial things
+12:26:41 __darobin:__ some tooling and then some experimental work on pulling out a few initial things
 
-12:28:03 **wycats** Domenic: it seems weird to have the W3C do the modularity work
+12:28:03 __domenic:__ it seems weird to have the W3C do the modularity work
 
 12:28:12 **wycats** ... given that it originates with the WHATWG
 
-12:28:17 **wycats** darobin: it's more of a proof of concept
+12:28:17 __darobin:__ it's more of a proof of concept
 
 12:28:36 **wycats** ... some of the work will be on new features
 
-12:29:17 **wycats** plinss: is this like the CSS model (for new work only)
+12:29:17 __plinss:__ is this like the CSS model (for new work only)
 
-12:29:24 **wycats** darobin: we'll start that way
+12:29:24 __darobin:__ we'll start that way
 
 12:29:41 **wycats** ... but it's important to know what's been superseded
 
-12:35:37 **Domenic** Domenic: be clear this is proof of concept so as not to confuse developers, other standards people, etc.
+12:35:37 __domenic:__ be clear this is proof of concept so as not to confuse developers, other standards people, etc.
 
-12:35:40 **Domenic** darobin: sounds good
+12:35:40 __darobin:__ sounds good
 
 12:36:03 **JeniT** JeniT has joined #tagmem
 
-12:36:23 **wycats** wycats: this isn't intended to be hostile, so let's make sure that we don't come off that way by accident
+12:36:23 __wycats:__ this isn't intended to be hostile, so let's make sure that we don't come off that way by accident
 
-12:37:05 **wycats** Domenic: I liked the way you described the different venues for feedback
+12:37:05 __domenic:__ I liked the way you described the different venues for feedback
 
 12:45:54 **dka_** dka_ has joined #tagmem
 
@@ -728,9 +728,9 @@
 
 13:47:22 **Domenic** wycats: see slightlyoff's take above ^
 
-13:47:34 **wycats** slightlyoff: ðŸ‘
+13:47:34 __slightlyoff:__ ðŸ‘
 
-13:48:06 **Domenic** wycats: move to is disruptive in class?
+13:48:06 __wycats:__ move to is disruptive in class?
 
 13:48:15 **wycats** hm
 
@@ -748,7 +748,7 @@
 
 13:49:01 **Domenic** you should be able to get s/C++ DOM/asm.js
 
-13:49:05 **wycats** dherman: what do you know about this?
+13:49:05 __dherman:__ what do you know about this?
 
 13:49:29 **wycats** could in theory be more optimal
 
