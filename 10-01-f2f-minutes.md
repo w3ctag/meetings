@@ -2,19 +2,24 @@
 ## W3C Technical Architecture Group face-to-face
 ## October 1 
 
-## Attendees
-### Present: Daniel Appelquist, Tim Berners-Lee, Domenic Denicola, David Herman (afternoon), Yehuda Katz, Sergey Konstantinov, Yves Lafon, Peter Linss, Mark Nottingham, Alex Russell (afternoon)
-### Regrets: Jeni Tennison
-### Guests: Virginie Galinto (Security / Crypto), Robin Berjon (URL Session)
-### Chairs: Daniel Appelquist, Peter Linss
-### Scribes: Domenic Denicola, Yehuda Katz
+### Attendees
 
-## Contents
-### Security / Crypto
-### Yesterday's Event
-### URL
-### Modularization / future of specifiction...
-### Extensible Web Report Card
+*Present:* Daniel Appelquist, Tim Berners-Lee, Domenic Denicola, David Herman (afternoon), Yehuda Katz, Sergey Konstantinov, Yves Lafon, Peter Linss, Mark Nottingham, Alex Russell (afternoon)
+
+*Regrets:* Jeni Tennison
+
+*Guests:* Virginie Galinto (Security / Crypto), Robin Berjon (URL Session)
+
+*Chairs:* Daniel Appelquist, Peter Linss
+*Scribes:* Domenic Denicola, Yehuda Katz
+
+### Contents
+
+- Security / Crypto
+- Yesterday's Event
+- URL
+- Modularization / future of specifiction...
+- Extensible Web Report Card
 
 ---
 
