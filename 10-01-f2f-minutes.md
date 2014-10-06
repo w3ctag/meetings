@@ -579,11 +579,11 @@ __domenic:__ helping the WHATWG getting a better patent process in place is a go
 
 >  **JeniT** JeniT has joined #tagmem
 
->  **dka** resolution: With regard to normative references from w3c documents, we agree that the whatwg adheres to open standards principles and that in principle there is no barrier to w3c documents refeferencing whatwg documents normatively. In the specific case of URL being rerefenced from HTML5, we recommend that the W3C HTML5 spec should reference the whatwg URL specification and that between W3C and WHATWG we should continue to resolve any remaining technical and editorial
+>  **dka** **Resolution** We welcome present and future moves of the WHATWG to move toward a process which adheres to the openstand principles, and we note that in the case of URL spec, there has been a lot of cross talk, input from other groups, and a Bugzilla and GitHub-based process allows an openness to input which is valuable. In principle there is no barrier to W3C documents referencing WHATWG documents normatively. In the specific case of URL being referenced from HTML5, we would prefer that the W3C HTML5 spec should reference the WHATWG URL specification and that between W3C and WHATWG we should continue to resolve any remaining technical and editorial issues in the spec. [NB: This resolution has been modified from the original minuted text, with new text agreed by all parties present, see https://pad.w3ctag.org/p/resolutions-1oct2014 and the raw IRC log here http://www.w3.org/2014/10/01-tagmem-irc.txt -DKA, *6-Oct-2014*]
 
->  **dka** issues in the spec.
+__wycats__ : [agreed with the proviso that I feels that the WHATWG already adheres to “openstand” principles]
 
->  **dka** resolution: we are heartened that the WHATWG has made moves towards having a stronger IPR policy. We propose to issue a call for patent commitments via the WHATCG's FSA patent commitment form: http://blog.whatwg.org/make-patent-commitments
+>  **dka** **Resolution:** we are heartened that the WHATWG has made moves towards having a stronger IPR policy. We propose to issue a call for patent commitments via the WHATCG's FSA patent commitment form: http://blog.whatwg.org/make-patent-commitments
 
 >  **dka** hm...
 
