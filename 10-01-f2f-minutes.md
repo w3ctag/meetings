@@ -33,27 +33,11 @@
 
 >  **SteveF** SteveF has joined #tagmem
 
->  **dka_air** ok try https://purl-app.com/uhsh43uo
-
 >  **dka** ok
 
 >  **twirl** twirl has joined #tagmem
 
 >  **wycats** Man London traffic in the morning is bad news
-
->  **dka** trackbot, start meeting
-
->  **trackbot** RRSAgent, make logs public
-
->  **Zakim** Zakim has joined #tagmem
-
->  **trackbot** Zakim, this will be TAG
-
->  **Zakim** I do not see a conference matching that name scheduled within the next hour, trackbot
-
->  **trackbot** Meeting: Technical Architecture Group Teleconference
-
->  **trackbot** Date: 01 October 2014
 
 >  **Domenic** ScribeNick: Domenic
 
@@ -155,11 +139,9 @@
 
 >  **Domenic** Yves: they could help review to avoid e.g. exposing credentials when you don't want to
 
->  **Domenic** ScribeNick: wycats
+__domenic:__ good job getting it over the finish line. I understand it was long and hard.
 
->  **wycats** domenic: good job getting it over the finish line. I understand it was long and hard.
-
->  **wycats** ... and shipping everywhere is good
+... and shipping everywhere is good
 
 __virginie__ it's not done yet
 
@@ -169,23 +151,23 @@ __domenic:__ it's shipping!
 
 __virginie:__ we have to decide whether to include auth in the WebCrypto charter
 
->  **wycats** __.__.. we could use help to avoid creating thousands of working groups
+... we could use help to avoid creating thousands of working 
 
->  **wycats** __.__.. your advice would be helpful
+... your advice would be helpful
 
->  **wycats** ... would you create a new auth WG?
+... would you create a new auth WG?
 
 __domenic:__ it really depends how people want to work
 
->  **wycats** ... for example the mega-web-apps WG seems to work fine
+... for example the mega-web-apps WG seems to work fine
 
->  **wycats** ... other people may not
+... other people may not
 
 __wycats:__ it probably depends on whether the exact same group of people in an existing WG is the same group that needs to work on another work item
 
 __dka:__ unless someone doesn't WANT to work on something, expanding the reach of an existing group seems better
 
->  **wycats** ... **thanks virginie**
+... **thanks virginie**
 
 >  **virginie** thanks for listening, will keep you informed about the next achievement of chartering discussion
 
@@ -193,13 +175,13 @@ __dka:__ unless someone doesn't WANT to work on something, expanding the reach o
 
 __dka:__ where should we tell people to engage if they're interested
 
->  **wycats** ... specifically engagement on our developer activities
+... specifically engagement on our developer activities
 
 __mnot:__ perhaps we want a repo for meta-issues
 
 __wycats:__ opening issues about developer meetups on github is weird
 
->  **wycats** ... I think specifiction is the new mailing list
+... I think specifiction is the new mailing list
 
 __mnot:__ who runs specifiction? w3c?
 
@@ -209,13 +191,13 @@ __dka:__ robin
 
 __dka:__ so specifiction
 
->  **wycats** ... I feel like it should be an issue on Github
+... I feel like it should be an issue on Github
 
 __domenic:__ I like Github
 
->  **wycats** ... instead of having many mailing list, it seems Specifiction / Discourse's model is one big list
+... instead of having many mailing list, it seems Specifiction / Discourse's model is one big list
 
->  **wycats** ... Github is a place to talk about concrete issues
+... Github is a place to talk about concrete issues
 
 ______wycats:__ The way Ember uses Discourse is as a place for unstructured comments that can get routed to Github Issues
 
@@ -223,9 +205,9 @@ __domenic:__ this is different from the WHATWG's use of mailing list
 
 >  **wycats** wycats: it's good to have a sense of what goes on Github, Stack Overflow, etc.
 
->  **wycats** ... but if you just semi-automatically close issues on Discourse, people feel bad
+... but if you just semi-automatically close issues on Discourse, people feel bad
 
->  **wycats** ... this was our experience in Ember
+... this was our experience in Ember
 
 >  **wycats** **dka talks about developer participation in the summits**
 
@@ -249,10 +231,6 @@ __domenic:__ "standards / developer interfacing"
 
 >  **darobin** sure!
 
->  **darobin** do I skype you?
-
->  **darobin** or webrtc something?
-
 >  **mnot** http://w3ctag.github.io
 
 ### **wycats** Topic: URL
@@ -265,59 +243,59 @@ __domenic:__ please proceed Robin
 
 __darobin:__ there's a lot of ground to cover
 
->  **wycats** ... the core of the issue is whether the HTML specification can reference the URL specification normatively
+... the core of the issue is whether the HTML specification can reference the URL specification normatively
 
->  **wycats** ... and in particular whether it's the WHATWG authored version or the W3C copy of it
+... and in particular whether it's the WHATWG authored version or the W3C copy of it
 
->  **wycats** ... from a technical perspective I think we're ok
+... from a technical perspective I think we're ok
 
->  **wycats** ... the HTML spec is pretty modular
+... the HTML spec is pretty modular
 
->  **wycats** ... but there are more complex social and political issues
+... but there are more complex social and political issues
 
 __dka:__ this is related to an effort to get the HTML5 spec published
 
->  **wycats** ... I had asked Philippe if the TAG could help
+... I had asked Philippe if the TAG could help
 
->  **wycats** ... I had a goal of trying to figure out where we go from here
+... I had a goal of trying to figure out where we go from here
 
->  **wycats** ... the initial feedback I had from Philippe is that we need a URL spec in W3C space
+... the initial feedback I had from Philippe is that we need a URL spec in W3C space
 
->  **wycats** ... so we talked about using the same approach as the DOM spc
+... so we talked about using the same approach as the DOM spc
 
->  **wycats** ... it's not a copy
+... it's not a copy
 
 __wycats:__ in what important ways is it not a copy?
 
 __dka:__ it's a reprint
 
->  **wycats** ... but I didn't realize that WHATWG agreed to snapshots
+... but I didn't realize that WHATWG agreed to snapshots
 
->  **wycats** ... and that there was ongoing IPR efforts
+... and that there was ongoing IPR efforts
 
->  **wycats** ... I don't think it was the right approach
+... I don't think it was the right approach
 
 __wycats:__ in what way?
 
 __dka:__ because they were pointing to the CG W3C agreement
 
->  **wycats** ... and a stronger approach would be to use the W3C patent policy
+... and a stronger approach would be to use the W3C patent policy
 
 >  **wycats** wycats: it was not clear to me before that the normative reference requirements involve a policy that is as strict as the W3C
 
 __dka:__ moving on...
 
->  **wycats** ... we thought maybe there was a middle ground
+... we thought maybe there was a middle ground
 
 >  **darobin** q+ to try to process the three aspects of this separately
 
 >  **JeniT** JeniT has joined #tagmem
 
->  **wycats** ... to make it explicit that the spec was a reprint
+... to make it explicit that the spec was a reprint
 
->  **wycats** ... but to get the stronger IPR from the Web Apps WG
+... but to get the stronger IPR from the Web Apps WG
 
->  **wycats** ... it feels like we almost got there
+... it feels like we almost got there
 
 __wycats:__ am I correct in understanding that the current state of the debate is about which CSS stylesheet is applied to the document?
 
@@ -327,55 +305,55 @@ __wycats:__ I agree, that's why I phrased it that way ;)
 
 __darobin:__ there are several issues here
 
->  **wycats** ... 1) the core technical problems with URL
+... 1) the core technical problems with URL
 
->  **wycats** ... it is far from perfect
+... it is far from perfect
 
->  **wycats** ... we have browsers that are not aligned with it
+... we have browsers that are not aligned with it
 
->  **wycats** ... how do we unify URLs in browsers with how they are used in other systems
+... how do we unify URLs in browsers with how they are used in other systems
 
->  **wycats** ... we probably can't solve it quickly
+... we probably can't solve it quickly
 
->  **wycats** ... 2) dka said that there was a controversy about what HTML needs to ship
+... 2) dka said that there was a controversy about what HTML needs to ship
 
->  **wycats** ... and this was framed as requiring a W3C spec
+... and this was framed as requiring a W3C spec
 
 >  **darobin** http://www.w3.org/2013/09/normative-references
 
 >  **Domenic** http://www.w3.org/community/w3process/track/issues/124
 
->  **wycats** ... the current normative reference draft provides a set of considerations
+... the current normative reference draft provides a set of considerations
 
 __timbl:__ indeed. I was misquoted.
 
->  **wycats** ... WHATWG specs can be referenced, but there are case-by-case considerations
+... WHATWG specs can be referenced, but there are case-by-case considerations
 
->  **wycats** ... that are defined by the normative reference guidelines
+... that are defined by the normative reference guidelines
 
 >  **wycats** wycats: the mailing list post said "However, based on my conversations with Consortium staff last week, the Director will NOT permit a Proposed Recommendation to include a normative reference to a WHATWG spec"
 
->  **wycats** ... and it would have been good to get clarification
+... and it would have been good to get clarification
 
 __timbl:__ it was hard to figure out how to reply
 
->  **wycats** ... for example marcos asked why W3C won't accept WHATWG as a peer org
+... for example marcos asked why W3C won't accept WHATWG as a peer org
 
 __domenic:__ I would like that to get resolved
 
 __timbl:__ for example, when you look at the WHATWG charter, it says it's a closed WG by invitation only
 
->  **wycats** ... it's good to know the clear process
+... it's good to know the clear process
 
->  **wycats** ... the WHATWG advertises it as an invitation-only group
+... the WHATWG advertises it as an invitation-only group
 
 __darobin:__ my personal analysis is that the way that HTML interfaces with the URL spec is sufficiently modular and orthogonal that it's ok to reference something we know is going to be updated
 
->  **wycats** ... Domenic and I worked hard on figuring out a way to do joint applications
+... Domenic and I worked hard on figuring out a way to do joint applications
 
->  **wycats** ... there are some issues right now but we can find agreement
+... there are some issues right now but we can find agreement
 
->  **wycats** ... I thought the WHATWG did a friendly thing by handing over DOM parsing to W3C
+... I thought the WHATWG did a friendly thing by handing over DOM parsing to W3C
 
 >  **Domenic** domparsing.spec.whatwg.org redirects to https://dvcs.w3.org/hg/innerhtml/raw-file/tip/index.html
 
@@ -395,15 +373,15 @@ __dka:__ they find it important to know
 
 >  **wycats** wycats: nobody is waiting for HTML5 to ship in order to use features that are post-HTML4
 
->  **wycats** ... I think it is self-evidently absurd to claim anything of the sort
+... I think it is self-evidently absurd to claim anything of the sort
 
 __darobin:__ we're not going to get agreement
 
->  **wycats** ... I would like to get it to REC to free up resources
+... I would like to get it to REC to free up resources
 
 __domenic:__ a core issue is that it's a big web and many orgs doing many things
 
->  **wycats** ... it's unnecessarily combative
+... it's unnecessarily combative
 
 >  **darobin** q?
 
@@ -425,15 +403,15 @@ __timbl:__ let me tell you a story
 
 __timbl:__ you said the high order bit is that it's where "cool things are happening"
 
->  **mnot** q+
+... but what about closed membership?
 
->  **wycats** ... but what about closed membership?
+>  **mnot** q+
 
 >  **darobin** +1 to Domenic
 
 __domenic:__ I think the WHATWG meets the criteria by any definition
 
->  **wycats** ... there is just a terminology issue
+... there is just a terminology issue
 
 >  **dka** +1 as well, with explict respect to URL
 
@@ -441,15 +419,15 @@ __domenic:__ I think the WHATWG meets the criteria by any definition
 
 __dka:__ I think WHATWG meets the criteria 100%
 
->  **wycats** ... especially for URL
+... especially for URL
 
 __mnot:__ I have historically been circumspect about the WHATWG
 
->  **wycats** ... it would be ok if it was closed to browser vendors
+... it would be ok if it was closed to browser vendors
 
->  **wycats** ... but with a clear governance model
+... but with a clear governance model
 
->  **wycats** ... but if the lawyers at browser vendors are ok with the WHATWG, it seems fine
+... but if the lawyers at browser vendors are ok with the WHATWG, it seems fine
 
 >  **mnot** http://tools.ietf.org/html/rfc2026#section-7.1
 
@@ -469,13 +447,13 @@ __mnot:__ we'll clean up whatever mess you guys make
 
 >  **dka** :)
 
->  **wycats** ... we are eagerly awaiting the results
+... we are eagerly awaiting the results
 
->  **wycats** ... many IETF people think that this could be solved via a preprocessing step
+... many IETF people think that this could be solved via a preprocessing step
 
->  **wycats** ... where "this" means the difference between the WHATWG spec and the the RFC
+... where "this" means the difference between the WHATWG spec and the the RFC
 
->  **wycats** ... there is a difference between URIs and URLs
+... there is a difference between URIs and URLs
 
 __Domenic and timbl:__ no
 
@@ -497,9 +475,9 @@ __mnot:__ the WHATWG can own URL
 
 __wycats:__ I like how the HTML5 parser works with "error states" + error correction
 
->  **darobin** http://galimatias.mola.io/
+... I think it's analogous to what Tim wants
 
->  **wycats** ... I think it's analogous to what Tim wants
+>  **darobin** http://galimatias.mola.io/
 
 >  **Domenic** there was also one in C
 
@@ -511,11 +489,11 @@ __dka:__ maybe we can scope to URL?
 
 __domenic:__ we can try to make it precedent
 
->  **wycats** ... get rid of the bad blood
+... get rid of the bad blood
 
 __dka:__ the bad blood is there because there is a perception that that the WATWG actors have negative actions
 
->  **wycats** ... we have to end the fighting
+... we have to end the fighting
 
 __wycats:__ it's not doing anybody (the WHATWG included) any favors
 
@@ -559,7 +537,7 @@ __domenic:__ points out that non-REC docs don't have patent commitments
 
 __darobin:__ it would be awesome if the W3C would help the WHATWG with patent commitments
 
->  **wycats** ... for example, an experimental attempt to get patent commitments through the process
+... for example, an experimental attempt to get patent commitments through the process
 
 >  **dka** +1
 
@@ -571,7 +549,7 @@ __dka:__ telefonica is prepared to make a commitment through that mechanism
 
 __domenic:__ helping the WHATWG getting a better patent process in place is a good longer-term work item
 
->  **wycats** ... it seems like a new process would be helpful
+... it seems like a new process would be helpful
 
 >  **wycats** 1+
 
@@ -607,12 +585,6 @@ __domenic:__ helping the WHATWG getting a better patent process in place is a go
 
 >  **dka** resolution: we are heartened that the WHATWG has made moves towards having a stronger IPR policy. We propose to issue a call for patent commitments via the WHATCG's FSA patent commitment form: http://blog.whatwg.org/make-patent-commitments
 
->  **dka** rrsagent, make minutes
-
->  **RRSAgent** I have made the request to generate http://www.w3.org/2014/10/01-tagmem-minutes.html dka
-
->  **dka** rrsagent, make logs public
-
 >  **dka** hm...
 
 >  **dka** This is the raw IRC log: http://www.w3.org/2014/10/01-tagmem-irc
@@ -621,29 +593,29 @@ __domenic:__ helping the WHATWG getting a better patent process in place is a go
 
  __darobin:__ I was hoping to have a prototype implementation of the ideas
 
->  **wycats** ... I'm behind schedule
+... I'm behind schedule
 
->  **wycats** ... The feedback from the EWS was very positive
+... The feedback from the EWS was very positive
 
->  **wycats** ... TLDR modularize HTML to make it easier to contribute to
+... TLDR modularize HTML to make it easier to contribute to
 
->  **wycats** ... put everything on Github
+... put everything on Github
 
->  **wycats** ... use Specifiction for broad feedback
+... use Specifiction for broad feedback
 
->  **wycats** ... specific feedback on Github
+... specific feedback on Github
 
->  **wycats** ... There was a general discussion about the "CSS Problem" aka millions of standards
+... There was a general discussion about the "CSS Problem" aka millions of standards
 
->  **wycats** ... Another thing that came up was that there's quite a bit of interest
+... Another thing that came up was that there's quite a bit of interest
 
->  **wycats** ... people want to submit proposals
+... people want to submit proposals
 
->  **wycats** ... also we want to standardize on bikeshed
+... also we want to standardize on bikeshed
 
  __wycats:__ I talked about feature flags once features are being actively implemented so you can build a "canary" version of the spec vs. a "release" build
 
->  **wycats** ... as a way to enable a more "living standard" approach with more stability marking
+... as a way to enable a more "living standard" approach with more stability marking
 
 >  **Yves** stability markings... and implementation reports linked as well? (ala caniuse with a finer grain)
 
@@ -663,17 +635,17 @@ __domenic:__ helping the WHATWG getting a better patent process in place is a go
 
  __domenic:__ it seems weird to have the W3C do the modularity work
 
->  **wycats** ... given that it originates with the WHATWG
+... given that it originates with the WHATWG
 
  __darobin:__ it's more of a proof of concept
 
->  **wycats** ... some of the work will be on new features
+... some of the work will be on new features
 
  __plinss:__ is this like the CSS model (for new work only)
 
  __darobin:__ we'll start that way
 
->  **wycats** ... but it's important to know what's been superseded
+... but it's important to know what's been superseded
 
  __domenic:__ be clear this is proof of concept so as not to confuse developers, other standards people, etc.
 
@@ -708,8 +680,6 @@ __domenic:__ helping the WHATWG getting a better patent process in place is a go
 >  **slightlyoff** do y'all have a camera on? I can't see London
 
 >  **slightlyoff** no worries
-
->  **Zakim** Zakim has left #tagmem
 
 >  **slightlyoff** isn't there work on ambient light sensors?
 
@@ -1043,10 +1013,6 @@ __domenic:__ helping the WHATWG getting a better patent process in place is a go
 
 >  **virginie** virginie has joined #tagmem
 
->  **virginie** rrsagent, please generate minutes
-
->  **RRSAgent** I have made the request to generate http://www.w3.org/2014/10/01-tagmem-minutes.html virginie
-
 >  **SteveF** SteveF has joined #tagmem
 
 >  **Domenic** plinss: https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages
@@ -1060,10 +1026,6 @@ __domenic:__ helping the WHATWG getting a better patent process in place is a go
 >  **dka** I believe that is https://github.com/w3ctag/spec-reviews/commit/b9643fb8f3a4463ee5084cf2dddab09c561658f3
 
 >  **dka** White boards from todayâ€™s meeting: https://github.com/w3ctag/f2f-meetings/tree/gh-pages/2014/sept29-oct1
-
->  **dka** rrsagent, make minutes
-
->  **RRSAgent** I have made the request to generate http://www.w3.org/2014/10/01-tagmem-minutes.html dka
 
 >  **slightlyoff** love the whiteboards, thankyou!
 
