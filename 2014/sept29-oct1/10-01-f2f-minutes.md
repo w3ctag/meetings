@@ -585,10 +585,6 @@ __wycats__ : [agreed with the proviso that I feels that the WHATWG already adher
 <a name="tag-resolution-01oct2014-2"\>
 >  **dka** **Resolution:** we are heartened that the WHATWG has made moves towards having a stronger IPR policy. We propose to issue a call for patent commitments via the WHATCG's FSA patent commitment form: http://blog.whatwg.org/make-patent-commitments
 
->  **dka** hm...
-
->  **dka** This is the raw IRC log: http://www.w3.org/2014/10/01-tagmem-irc
-
 <a name="modularization"/>
 ### Topic: Modularization / future of specifiction...
 
