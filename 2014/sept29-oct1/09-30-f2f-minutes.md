@@ -18,7 +18,7 @@
 - [EME](#eme)
 - [Tooling / Github / Etc…](#tooling)
 - [Spec Reviews](#spec)
-- [Permissions](#permissioms)
+- [Permissions](#permissions)
 - [Spec Reviews (continued)](#spec_cont)
 - [Pricacy](#privacy)
 
@@ -823,7 +823,7 @@ __mnot:__ we have same problems with proxies
 
 <slightlyoff> timbl: also, I'm going to look into the XHR/fetch credentials thing and see what conditions we can relax it under
 
-<a neme="spec_cont"/>
+<a name="spec_cont"/>
 ### Topic: Spec Reviews (continued)
 
 <slightlyoff> thanks for bringing it up
