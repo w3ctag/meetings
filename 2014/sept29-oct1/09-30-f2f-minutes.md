@@ -87,7 +87,7 @@ __Domenic:__ The main point is that the user should be able to inspect the licen
 
 __Domenic:__ "Fraud" is less concrete than "attacks"
 
-__ACTION:__ Domenic and Sergey to re-phrase "fraud" as "attacks"
+__ACTION__ Domenic and Sergey to re-phrase "fraud" as "attacks"
 
 > **trackbot** Created ACTION-876 - And sergey to re-phrase "fraud" as "attacks" [on Domenic Denicola - due 2014-10-07].
 
@@ -119,7 +119,7 @@ __Sergey:__ So we just add a note
 
 __Domenic:__ yes.
 
-__ACTION:__ Domenic to add a note generally encouraging accessibility in EME opinion
+__ACTION__ Domenic to add a note generally encouraging accessibility in EME opinion
 
 > **trackbot** Created ACTION-877 - Add a note generally encouraging accessibility in eme opinion [on Domenic Denicola - due 2014-10-07].
 
@@ -365,7 +365,7 @@ __Domenic:__ That's it for EME
 
 > **timbl** The web address you have requested is incorrect or does not exist. You could try amending the spelling or check the web address.
 
-> **timbl** “
+> **timbl** ”
 
 > **timbl** Pppht
 
