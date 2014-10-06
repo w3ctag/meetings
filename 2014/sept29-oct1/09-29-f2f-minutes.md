@@ -31,7 +31,7 @@
 <a name="http2"/>
 ###Topic: http2 update
 
-__mnot__ WG last call ended a few weeks ago
+__mnot:__ WG last call ended a few weeks ago
 
 ... there are a few small-medium issues remaining
 
@@ -45,25 +45,25 @@ __mnot__ WG last call ended a few weeks ago
 
 ... IE & ISS, Firefox very eager, Chrome is shipping, Akamai, nginx will implement, Varnish are rewriting their core
 
-__wycats__ isn’t Varnish not compatible with caching?
+__wycats:__ isn’t Varnish not compatible with caching?
 
-__mnot__ it’s an application-specific cache, but http/2 doesn’t say anything about caching really
+__mnot:__ it’s an application-specific cache, but http/2 doesn’t say anything about caching really
 
-__mnot__ Apple, we don’t know, but probably they’ll implement
+__mnot:__ Apple, we don’t know, but probably they’ll implement
 
 ... the big question is Apache; Google has given them the modspdy code base
 
-__dka__ the big question at the NY meeting the sense of urgency was about SPDY having such momentum
+__dka:__ the big question at the NY meeting the sense of urgency was about SPDY having such momentum
 
 ... and the fact that Apple was supporting SPDY
 
 ... leading to the question of whether there would be enough momentum to get off SPDY to http/2
 
-__mnot__ we were a big confused by the Apple announcement
+__mnot:__ we were a big confused by the Apple announcement
 
-__wycats__ they’re doing it because there’s lots of SPDY that exists
+__wycats:__ they’re doing it because there’s lots of SPDY that exists
 
-__mnot__ Twitter have been very active, they’ve shipped very rapidly
+__mnot:__ Twitter have been very active, they’ve shipped very rapidly
 
 ... both Google & Microsoft have said that they’ll turn off SPDY support when http/2 comes through
 
@@ -71,9 +71,9 @@ __mnot__ Twitter have been very active, they’ve shipped very rapidly
 
 > **dka** Related URL: http://http2.github.io
 
-__wycats__ it would only affect super advanced sites in practice anyway
+__wycats:__ it would only affect super advanced sites in practice anyway
 
-__mnot__ they’ve been versioning SPDY very rapidly
+__mnot:__ they’ve been versioning SPDY very rapidly
 
 > **wycats** proof: DEPRECATION WORKS ON THE WEB!
 
@@ -83,69 +83,69 @@ __mnot__ they’ve been versioning SPDY very rapidly
 
 ... lots of privacy & security concerns around that
 
-__wycats__ http/2 doesn’t mandate SSL right?
+__wycats:__ http/2 doesn’t mandate SSL right?
 
-__mnot__ it doesn’t, we decided to move on and not require it
+__mnot:__ it doesn’t, we decided to move on and not require it
 
 ... but the browsers are saying they’ll only support http/2 for SSL
 
-__wycats__ we’ve talked about making it easier to get certs
+__wycats:__ we’ve talked about making it easier to get certs
 
-__mnot__ there’s an active discussion in the community about that
+__mnot:__ there’s an active discussion in the community about that
 
-__timbl__ what kinds of plans are there?
+__timbl:__ what kinds of plans are there?
 
-__Domenic__ Cloudflare have a blog post yesterday spelling out they’re giving free SSL/TLS
+__Domenic:__ Cloudflare have a blog post yesterday spelling out they’re giving free SSL/TLS
 
-__wycats__ that’s great for Cloudflare customers
+__wycats:__ that’s great for Cloudflare customers
 
-__timbl__ I want to enable certificates signed by my family, people I trust
+__timbl:__ I want to enable certificates signed by my family, people I trust
 
-__wycats__ that restricts what content you can see, because other sites aren’t signed by those certificates
+__wycats:__ that restricts what content you can see, because other sites aren’t signed by those certificates
 
-__timbl__ creating socially-signed certificates only as complicated as social network sites
+__timbl:__ creating socially-signed certificates only as complicated as social network sites
 
 ... the existing tools are bad, but they could be redesigned
 
-__wycats__ I don’t think this is a standards issue: I think the standards are there
+__wycats:__ I don’t think this is a standards issue: I think the standards are there
 
 ... I think write it and see
 
-__timbl__ I think it requires some redesign, some P2P-oriented protocols
+__timbl:__ I think it requires some redesign, some P2P-oriented protocols
 
-__wycats__ I don’t think they should be designed up front
+__wycats:__ I don’t think they should be designed up front
 
-__timbl__ it would be nice for the TAG to be somewhere where we can imagine a different world
+__timbl:__ it would be nice for the TAG to be somewhere where we can imagine a different world
 
 > **wycats** "role of the TAG" is a good discussion to have every time we have a new member
 
 > **JeniT** [pop]
 
-__dka__ is there anything that the TAG can do to help http/2?
+__dka:__ is there anything that the TAG can do to help http/2?
 
-__mnot__ in the long run, the issue of the role of the network in communication is interesting
+__mnot:__ in the long run, the issue of the role of the network in communication is interesting
 
 ... comms between client/server is a 2 party problem not a 3 party problem
 
 ... we’ve pushed back around breaking encryption etc
 
-__dka__ what timbl was saying about Verizon putting ads into pages sounds horrifying
+__dka:__ what timbl was saying about Verizon putting ads into pages sounds horrifying
 
-__mnot__ there’s variability in cluefulness in mobile operators
+__mnot:__ there’s variability in cluefulness in mobile operators
 
 ... is it appropriate for the TAG to publish an opinion that says “X on the Internet sucks”
 
-__dka__ it can be useful to publish a blog post or an official Finding
+__dka:__ it can be useful to publish a blog post or an official Finding
 
 ... we can more actively intervene to get people talking
 
-__wycats__ in this case what they’re doing is against existing standards
+__wycats:__ in this case what they’re doing is against existing standards
 
-__dka__ we can also use the relationship between GSMA and W3C
+__dka:__ we can also use the relationship between GSMA and W3C
 
 ... when the issue is about getting information out there we can use that
 
-__mnot__ in the IETF we have a position that writing words down has very little effect & regulation has little effect
+__mnot:__ in the IETF we have a position that writing words down has very little effect & regulation has little effect
 
 ... we’re moving towards enforcing what we believe technically
 
@@ -155,17 +155,17 @@ __mnot__ in the IETF we have a position that writing words down has very little 
 
 ... “standards & protocols & code is making law”
 
-__timbl__ I think that’s a dangerous possible route
+__timbl:__ I think that’s a dangerous possible route
 
 > **dka** CF: https://github.com/w3ctag/secure-the-web
 
 ... it’s going towards an all-out battle of the robots, on who can out-design the other one
 
-__wycats__ we can say what we want in the code protocols, but we have to persuade people too
+__wycats:__ we can say what we want in the code protocols, but we have to persuade people too
 
-__mnot__ it’s not that we’re making law by making code, but the way we write the protocols shapes the world
+__mnot:__ it’s not that we’re making law by making code, but the way we write the protocols shapes the world
 
-__timbl__ I think you need to start off with the principle/rule “your stuff shall not get interfered with”
+__timbl:__ I think you need to start off with the principle/rule “your stuff shall not get interfered with”
 
 ... and if people break that “you’re banned”
 
@@ -173,39 +173,39 @@ __timbl__ I think you need to start off with the principle/rule “your stuff sh
 
 ... you need to have a principle to point to
 
-__wycats__ I think you need human beings talking to other human beings
+__wycats:__ I think you need human beings talking to other human beings
 
 ... you have to get the people in the room
 
 ... most people aren’t acting maliciously, they’re just confused/misinformed
 
-__mnot__ I don’t know, I think it’s a business decision, not confusion
+__mnot:__ I don’t know, I think it’s a business decision, not confusion
 
-__timbl__ it’s a huge income stream, it’s deliberate
+__timbl:__ it’s a huge income stream, it’s deliberate
 
 > **wycats** wycats: opt-outs don't affect the income stream
 
 > **wycats** wycats: this is why ads are ok with DNT opt-outs
 
-__dka__ we talked about writing “Secure the Web”
+__dka:__ we talked about writing “Secure the Web”
 
 ... about crypto everywhere etc
 
 ... it’s out of date now, but we could update it
 
-__mnot__ there are lots of people writing, we could throw our weight behind them
+__mnot:__ there are lots of people writing, we could throw our weight behind them
 
-__Domenic__ there are things we can say around API design
+__Domenic:__ there are things we can say around API design
 
-__wycats__ we can talk about the browser as the platform, and security in the browser
+__wycats:__ we can talk about the browser as the platform, and security in the browser
 
 ...
 
-__Domenic__ our recommendation should say “browsers should tell the user when NX records are compromised”
+__Domenic:__ our recommendation should say “browsers should tell the user when NX records are compromised”
 
-__wycats__ there’s a way that user agents could surface the sniffing/spying more effectively
+__wycats:__ there’s a way that user agents could surface the sniffing/spying more effectively
 
-__mnot__ there are ways to tell the user when the CA isn’t one built in to the OS
+__mnot:__ there are ways to tell the user when the CA isn’t one built in to the OS
 
 ... you get a different icon in the location bar if the CA isn’t one built in to the OS
 
@@ -215,45 +215,45 @@ __mnot__ there are ways to tell the user when the CA isn’t one built in to the
 
 ... but there are users for whom it is important
 
-__wycats__ Chrome makes it hard to click through now
+__wycats:__ Chrome makes it hard to click through now
 
 ... NXDOMAIN hijacking should be pretty easy to detect
 
-__mnot__ easier than captive portal detection
+__mnot:__ easier than captive portal detection
 
 > **wycats**  we could standardize a domain like: iamhijacked.com :P
 
-__dka__ is there an action we could take as the TAG?
+__dka:__ is there an action we could take as the TAG?
 
 > **SteveF** SteveF has joined #tagmem
 
 ... should we be moving towards minimisation, only allowing privacy-infringing information passed through secure channels
 
-__mnot__ we should definitely talk about privacy-sensitive features as the TAG
+__mnot:__ we should definitely talk about privacy-sensitive features as the TAG
 
-__wycats__ Alex has the idea that we could do more with hosted apps if we let them opt in to stricter security
+__wycats:__ Alex has the idea that we could do more with hosted apps if we let them opt in to stricter security
 
-__dka__ the balanced approach: to have access to the camera, I’ll give up something
+__dka:__ the balanced approach: to have access to the camera, I’ll give up something
 
-__wycats__ eg not running third party scripts
+__wycats:__ eg not running third party scripts
 
-__dka__ this runs into permissions, which we’ll discuss Tue afternoon
+__dka:__ this runs into permissions, which we’ll discuss Tue afternoon
 
-__wycats__ there’s a lot that’s already in the platform, there’s a social problem: we need to let people extend the platform
+__wycats:__ there’s a lot that’s already in the platform, there’s a social problem: we need to let people extend the platform
 
-__mnot__ “prefer secure origins” is just about prefering HTTPS
+__mnot:__ “prefer secure origins” is just about prefering HTTPS
 
-__dka__ the thing about third-party ads is important
+__dka:__ the thing about third-party ads is important
 
 ... people don’t want to go to HTTPS because it prevents them displaying the ads & limits their revenue
 
-__wycats__ because if you opt into HTTPS you opt out of mixed content
+__wycats:__ because if you opt into HTTPS you opt out of mixed content
 
-__dka__ moving to HTTPS has major implications
+__dka:__ moving to HTTPS has major implications
 
-__Domenic__ our position should be “privacy sensitive features”: these are things that have the ability to, if they’re man-in-the-middled, compromise people’s privacy
+__Domenic:__ our position should be “privacy sensitive features”: these are things that have the ability to, if they’re man-in-the-middled, compromise people’s privacy
 
-__timbl__ I worry that browser vendors are slapping on security constraints
+__timbl:__ I worry that browser vendors are slapping on security constraints
 
 > **wycats** sigh
 
@@ -265,7 +265,7 @@ __timbl__ I worry that browser vendors are slapping on security constraints
 
 ... but they way Chrome “refused” messages, I get the impression people are slapping on constraints on developers
 
-__wycats__ there are features on the web that expose private information, and web browsers would like to avoid leaking that
+__wycats:__ there are features on the web that expose private information, and web browsers would like to avoid leaking that
 
 ... one large mechanism for leaks is plain text HTTP
 
@@ -273,47 +273,47 @@ __wycats__ there are features on the web that expose private information, and we
 
 ... they want to offer some assurance that the private information is private
 
-__timbl__ as a result, they turned off the ability to read completely public data over HTTP
+__timbl:__ as a result, they turned off the ability to read completely public data over HTTP
 
 ... an intermediate library can’t access it either
 
-__Domenic__ it’s better not to give false positives on privacy
+__Domenic:__ it’s better not to give false positives on privacy
 
-__wycats__ another common way of leakage is third party scripts
+__wycats:__ another common way of leakage is third party scripts
 
 ... the solution the Chrome guys used for mixed content is the same as for connecting to CNN, the ‘ad view’ tag
 
 ... a way of putting in content in a completely sandboxed way
 
-__timbl__ that’s fine in HTML, but when I’m writing a web app, how can I tell Chrome that I want to access stuff that’s completely public
+__timbl:__ that’s fine in HTML, but when I’m writing a web app, how can I tell Chrome that I want to access stuff that’s completely public
 
 ... it’s got a CORS-Origin: * because it’s accessable by everyone
 
-__wycats__ the analogous thing for ‘ad tag’ is to have a sandboxed area that enables your script to access the data
+__wycats:__ the analogous thing for ‘ad tag’ is to have a sandboxed area that enables your script to access the data
 
-__timbl__ no, we have to move towards either writing my code inside browser extensions, or have a way of users saying that they trust scripts from a particular location
+__timbl:__ no, we have to move towards either writing my code inside browser extensions, or have a way of users saying that they trust scripts from a particular location
 
 > **wycats** this is not the correct group to have this discussion
 
 > **wycats** unfortunately
 
-__wycats__ the problem is not that we don’t trust authors, it’s that the authors don’t know what they’re putting in their pages
+__wycats:__ the problem is not that we don’t trust authors, it’s that the authors don’t know what they’re putting in their pages
 
 ... you have to limit what the third-party script can do
 
 ... eg prevent a third-party script from getting your geolocation
 
-__dka__ you can still fingerprint or do other things in that kind of environment
+__dka:__ you can still fingerprint or do other things in that kind of environment
 
-__wycats__ the script would have access to nothing except post message
+__wycats:__ the script would have access to nothing except post message
 
 ... the environment that contains the script could still pass that information
 
 ... but the author that’s installing the script will have to be explicit about what it’s giving the script
 
-__dka__ what’s the status of this work
+__dka:__ what’s the status of this work
 
-__wycats__ iframe sandbox and CSP give you reasonably close to lock down, there’s also realms in Javascript, which could give you a just-Javascript context
+__wycats:__ iframe sandbox and CSP give you reasonably close to lock down, there’s also realms in Javascript, which could give you a just-Javascript context
 
 ... but timbl’s original point is correct: there isn’t a model for how you avoid leakage
 
@@ -327,51 +327,51 @@ __wycats__ iframe sandbox and CSP give you reasonably close to lock down, there�
 
 > **JeniT** [discussion that browser extensions, plugins, wifi etc insert scripts into pages the author never knew about]
 
-__Domenic__ CSP is a pretty big hammer; it would be great if you could allow geolocation but not enable those to be passed to the third party scripts
+__Domenic:__ CSP is a pretty big hammer; it would be great if you could allow geolocation but not enable those to be passed to the third party scripts
 
-__wycats__ the ad tag which the Chrome appstore does is the correct approach
+__wycats:__ the ad tag which the Chrome appstore does is the correct approach
 
-__Domenic__ secure origins is a clear feature which we can recommend
+__Domenic:__ secure origins is a clear feature which we can recommend
 
 > **Yves** tagging data in the engine... but it would require a huge change
 
-__mnot__ the ‘prefer secure origins’ approach has consensus
+__mnot:__ the ‘prefer secure origins’ approach has consensus
 
-__dka__ we have to address the way that impacts people who have ads in pages
+__dka:__ we have to address the way that impacts people who have ads in pages
 
 > **wycats** <adview> would allow mixed content that didn't trigger a mixed content warning
 
-__dka__ what’s the action?
+__dka:__ what’s the action?
 
-__mnot__ we should ratify ‘prefer secure origins’
+__mnot:__ we should ratify ‘prefer secure origins’
 
-__wycats__ a large number of geolocation-using sites would break with this policy
+__wycats:__ a large number of geolocation-using sites would break with this policy
 
-__mnot__ this is for new features, right?
+__mnot:__ this is for new features, right?
 
-__Domenic__ no
+__Domenic:__ no
 
-__timbl__ the resolution is that you should only be able to call features which are sensitive from HTTPS?
+__timbl:__ the resolution is that you should only be able to call features which are sensitive from HTTPS?
 
-__dka__ yes
+__dka:__ yes
 
-__timbl__ my point is if a developer wants to access something which is private, and therefore needs to use a secure page, it means that he can’t access public data
+__timbl:__ my point is if a developer wants to access something which is private, and therefore needs to use a secure page, it means that he can’t access public data
 
-__mnot__ until it goes HTTPS
+__mnot:__ until it goes HTTPS
 
 ... if I’m relying on government data, I’d hope it was from the government
 
-__JeniT__ GOV.UK is https, but that’s not the case for smaller organisations
+__JeniT:__ GOV.UK is https, but that’s not the case for smaller organisations
 
-__dka__ if I take the user’s location in script & make a request to https://gov.uk with my location in the query string, I can do that, right?
+__dka:__ if I take the user’s location in script & make a request to https://gov.uk with my location in the query string, I can do that, right?
 
 ... there are still leakage possibilities
 
-__Domenic__ in theory the browser could surface all the places that have access to your location, but if you allow the page to access http sites then it could be everyone
+__Domenic:__ in theory the browser could surface all the places that have access to your location, but if you allow the page to access http sites then it could be everyone
 
 > **JeniT** [NSA knows everything already]
 
-__dka__ we could draft a statement that says “for new privacy-sensitive APIs, we want these to require secure origin”
+__dka:__ we could draft a statement that says “for new privacy-sensitive APIs, we want these to require secure origin”
 
 ...”
 
@@ -385,8 +385,6 @@ __dka__ we could draft a statement that says “for new privacy-sensitive APIs, 
 
 > **JeniT** [drafting in hackpad not oksoclap]
 
-> **Zakim** Zakim has left #tagmem
-
 > **JeniT** [drafting in oksoclap not hackpad]
 
 > **JeniT** [hackpad requires access to Google contacts, oksoclap isn’t https]
@@ -399,25 +397,25 @@ __dka__ we could draft a statement that says “for new privacy-sensitive APIs, 
 
 > **JeniT** proposed resolution: https://etherpad.mozilla.org/qPTpp2UKfa
 
-__Mnot__ how should the TAG communicate?
+__Mnot:__ how should the TAG communicate?
 
-__Domenic__ on EME they would have preferred us to file a bug rather than issuing an edict
+__Domenic:__ on EME they would have preferred us to file a bug rather than issuing an edict
 
-__wycats__ when it’s more architectural, and there isn’t a spec, then a post etc would be more appropriate
+__wycats:__ when it’s more architectural, and there isn’t a spec, then a post etc would be more appropriate
 
-__mnot__ just having it in the minutes doesn’t work
+__mnot:__ just having it in the minutes doesn’t work
 
-__dka__ we could put it on the blog, or on our GitHub-hosted home page
+__dka:__ we could put it on the blog, or on our GitHub-hosted home page
 
 ... like the http group did
 
-__mnot__ have one place
+__mnot:__ have one place
 
 ... why not move the findings to github, and CNAME tag.w3.org to github
 
-__Domenic__ we have lots of different kinds of things we publish: Findings, guides, short statements
+__Domenic:__ we have lots of different kinds of things we publish: Findings, guides, short statements
 
-__mnot__ TAG Findings are architectural: this is a short one but fits into that scope
+__mnot:__ TAG Findings are architectural: this is a short one but fits into that scope
 
 > **wycats** see https://github.com/tc39/ecma262
 
@@ -425,25 +423,25 @@ __mnot__ TAG Findings are architectural: this is a short one but fits into that 
 
 > **JeniT** Domenic & mnot propose to create a home page for the TAG onto a GitHub Pages page
 
-__dka__ we could use w3ctag.org
+__dka:__ we could use w3ctag.org
 
 ... the W3C page would be static, only change when the membership of the TAG changes
 
-__timbl__ w3.org should have a record of everything that we do
+__timbl:__ w3.org should have a record of everything that we do
 
 ... we need to make sure we have the archive
 
-__mnot__ for IETF we save all the state from GitHub, using API access to the issues as JSON
+__mnot:__ for IETF we save all the state from GitHub, using API access to the issues as JSON
 
 ... we check the JSON into the repo it’s associated with
 
 ... if GitHub were to go down, we’d need to do some work to reconstruct it
 
-__dka__ keeping the history, getting it archived on w3.org, is really important
+__dka:__ keeping the history, getting it archived on w3.org, is really important
 
 ... w3.org has the longer lifetime
 
-__timbl__ I will talk to the sysadmins about the TAG having the subdomain tag.w3.org
+__timbl:__ I will talk to the sysadmins about the TAG having the subdomain tag.w3.org
 
 > **dka** PROPOSED RESOLUTION: We support efforts by browser vendors to restrict privacy-sensitive features to secure origins. This includes ones that have not historically been restricted as such, like geolocation or webcam access.
 
@@ -459,11 +457,11 @@ __timbl__ I will talk to the sysadmins about the TAG having the subdomain tag.w3
 
 > **twirl** +1
 
-__timbl__ I’m concerned this will break code
+__timbl:__ I’m concerned this will break code
 
-__mnot__ I think a little context about medium term pain would be good
+__mnot:__ I think a little context about medium term pain would be good
 
-__Domenic__ this is an aspirational resolution
+__Domenic:__ this is an aspirational resolution
 
 > **dka** Agreed.
 
@@ -479,8 +477,6 @@ __Domenic__ this is an aspirational resolution
 > **dka** We appreciate this could cause some short and medium-term pain (breaking some existing content), and so this needs to be done with care, but it is a worthy goal to aspire to.
 
 > **dka** now lunch
-
-> **RRSAgent** I have made the request to generate http://www.w3.org/2014/09/29-tagmem-minutes.html JeniT
 
 > **JeniT** LUNCH
 
@@ -508,13 +504,13 @@ __Domenic__ this is an aspirational resolution
 
 > **dka** Seems to work best with either Firefox Aurora or Chrome Beta/Canary.
 
-__ScribeNick__ Domenic
+__ScribeNick:__ Domenic
 
-__ScribeNick__ JeniT
+__ScribeNick:__ JeniT
 
 > **Domenic** https://w3ctag.github.io/promises-guide/
 
-__Domenic__ the promises guide has been converted to look fancy
+__Domenic:__ the promises guide has been converted to look fancy
 
 ... also updated the readme, and contacted PLH to get the w3.org URL proxy to here
 
@@ -522,11 +518,11 @@ __Domenic__ the promises guide has been converted to look fancy
 
 ... there are a few issues but none are particularly big
 
-__wycats__ is this where you’re adding the ECMAScript++?
+__wycats:__ is this where you’re adding the ECMAScript++?
 
-__Domenic__ no
+__Domenic:__ no
 
-__dka__ there’s nothing here that states the status of this document
+__dka:__ there’s nothing here that states the status of this document
 
 ... and talks about the stability of the document
 
@@ -536,13 +532,13 @@ __dka__ there’s nothing here that states the status of this document
 
 ... I’m happy with that, don’t care, PLH might say it should have a W3C something or other on it
 
-__Domenic__ I wanted to use the W3CTAG logo
+__Domenic:__ I wanted to use the W3CTAG logo
 
 ... this is using Tab Atkins bikeshed tool
 
 ... people like it and have been using it
 
-__wycats__ I think we should get streams done, because people will be creating promises that should be streams
+__wycats:__ I think we should get streams done, because people will be creating promises that should be streams
 
 > **Yves** +1 to streams
 
@@ -550,35 +546,35 @@ __wycats__ I think we should get streams done, because people will be creating p
 
 ... the new Ember is based on streaming stuff
 
-__Domenic__ ^this^ is now returning a promise
+__Domenic:__ ^this^ is now returning a promise
 
 > **dka** PROPOSED RESOLUTION: pending a couple of document boilerplate changes (document status, logo, etc...) we agree that the Promises Guide is a published finding of the TAG.
 
-__Yves__ I saw the issue about using ‘parallel’ rather than ‘async’, and I didn’t understand why
+__Yves:__ I saw the issue about using ‘parallel’ rather than ‘async’, and I didn’t understand why
 
-__Domenic__ there was a lot of confusion, when we looked at how it was actually be used, it’s actually about using a different thread
+__Domenic:__ there was a lot of confusion, when we looked at how it was actually be used, it’s actually about using a different thread
 
 ... we actually mean ‘don’t block’
 
-__wycats__ maybe you should say ‘concurrently’
+__wycats:__ maybe you should say ‘concurrently’
 
-__Domenic__ all of the uses of ‘in parallel’ are actually in separate threads
+__Domenic:__ all of the uses of ‘in parallel’ are actually in separate threads
 
-__wycats__ it’s all giving instructions to things that actually have threads
+__wycats:__ it’s all giving instructions to things that actually have threads
 
-__Domenic__ right, this is writing specs for browser implementers
+__Domenic:__ right, this is writing specs for browser implementers
 
-__Yves__ I think that’s misleading if you’re writing a guide that’s directed a JS programmers
+__Yves:__ I think that’s misleading if you’re writing a guide that’s directed a JS programmers
 
-__Domenic__ that’s a good point; in the document there are places ‘this is more applicable to spec writers’, it would be worth calling that out
+__Domenic:__ that’s a good point; in the document there are places ‘this is more applicable to spec writers’, it would be worth calling that out
 
 ... and say ‘in JS you would use a WebWorker’
 
-__Yves__ for me, it feels that there are synchronisation things that need to happen
+__Yves:__ for me, it feels that there are synchronisation things that need to happen
 
-__Domenic__ currently when we say ‘in parallel’ we actually do need to double check that
+__Domenic:__ currently when we say ‘in parallel’ we actually do need to double check that
 
-__dka__ we should publish this as a Finding
+__dka:__ we should publish this as a Finding
 
 ... the boilerplate changes don’t change that
 
@@ -589,7 +585,7 @@ __dka__ we should publish this as a Finding
 
 ### Topic: EWS Berlin
 
-__Domenic__ it went pretty well; we got the word out to a lot of developers
+__Domenic:__ it went pretty well; we got the word out to a lot of developers
 
 ... discussions that stood out:
 
@@ -597,57 +593,57 @@ __Domenic__ it went pretty well; we got the word out to a lot of developers
 
 ... contenteditable, intention events like ‘cut’ instead of Ctrl-X
 
-__wycats__ is that because the platforms have different key bindings?
+__wycats:__ is that because the platforms have different key bindings?
 
-__Domenic__ yes
+__Domenic:__ yes
 
 ... the rest of the things are eg cursor support
 
-__wycats__ instead of trying to fix contenteditable, we should figure out what we need
+__wycats:__ instead of trying to fix contenteditable, we should figure out what we need
 
-__Domenic__ that’s what they’re doing
+__Domenic:__ that’s what they’re doing
 
-__dka__ we got some good input from developers who need this
+__dka:__ we got some good input from developers who need this
 
-__Domenic__ I noticed that it’s easy for someone to take over the discussion
+__Domenic:__ I noticed that it’s easy for someone to take over the discussion
 
 ... in the future we should be clearer about the messaging that this is not for you to present
 
 ... this happened in a couple of sessions
 
-__dka__ it’s a fine line: you have to enable people to talk about their project, but you can’t let it overload the session
+__dka:__ it’s a fine line: you have to enable people to talk about their project, but you can’t let it overload the session
 
 ... hosts should be a moderator, not a leader
 
-__dka__ being a moderator is the key thing: you have to be in charge of the conversation, and making sure that everyone has input
+__dka:__ being a moderator is the key thing: you have to be in charge of the conversation, and making sure that everyone has input
 
-__Domenic__ even if the messaging is ‘we don’t want one person to take over the session’
+__Domenic:__ even if the messaging is ‘we don’t want one person to take over the session’
 
 > **dka** yes we do
 
 > **dka** hold on
 
-__dka__ I think we did a better job of talking about moderators at this session
+__dka:__ I think we did a better job of talking about moderators at this session
 
 > **dka** https://opentokrtc.com/w3ctag
 
-__JeniT__ people need to be happy to leave if they are bored of one person hogging the discussion
+__JeniT:__ people need to be happy to leave if they are bored of one person hogging the discussion
 
-__wycats__ sometimes the people who are talking need to have that discussion
+__wycats:__ sometimes the people who are talking need to have that discussion
 
 > **dka** best viewed on Firefox Aurora™
 
 > **dka** (or chrome)
 
-__dka__ the only other thing on EWS is that you’re talking to other people who are taking that name and running something in Oakland
+__dka:__ the only other thing on EWS is that you’re talking to other people who are taking that name and running something in Oakland
 
 ... but we should write a one pager on what EWS is
 
 ... for other people who want to run them
 
-__wycats__ in particular having implementers & practitioners in the same room
+__wycats:__ in particular having implementers & practitioners in the same room
 
-__dka__ I’ll start that document
+__dka:__ I’ll start that document
 
 > **dka** :)
 
@@ -667,7 +663,7 @@ __dka__ I’ll start that document
 
 
 
-__wycats__ we’re still in the process of finishing ES6
+__wycats:__ we’re still in the process of finishing ES6
 
 ... not a huge number of changes in ES6
 
@@ -681,21 +677,21 @@ __wycats__ we’re still in the process of finishing ES6
 
 > **wycats** https://github.com/tc39/ecma262
 
-__wycats__ we’re moving to a process where when it’s implemented we stamp it ‘standard’
+__wycats:__ we’re moving to a process where when it’s implemented we stamp it ‘standard’
 
 ... rather than creating a ‘standard’ which we then expect to be implemented
 
-__dka__ this is also about the pattern of enabling practitioners to extend the web, and how this impacts standards
+__dka:__ this is also about the pattern of enabling practitioners to extend the web, and how this impacts standards
 
 ... this is related to what we have about the future of the future of standards, on our agenda on Wed
 
-__wycats__ also in TC39, we moved the loader into a separate document
+__wycats:__ also in TC39, we moved the loader into a separate document
 
 ... we realised it’s intertangled with the browser loader
 
 ... need to let it evolve with the web and with node
 
-__Domenic__ we also had some discussions about how to make DOM objects subclassable
+__Domenic:__ we also had some discussions about how to make DOM objects subclassable
 
 ... and arrived at a solution which people have varying opinions on
 
@@ -703,17 +699,17 @@ __Domenic__ we also had some discussions about how to make DOM objects subclassa
 
 ... the new process is going well
 
-__wycats__ almost everything that’s happening now is about locking down ES6 and moving to the new process
+__wycats:__ almost everything that’s happening now is about locking down ES6 and moving to the new process
 
-__JeniT__ what counts as implemented?
+__JeniT:__ what counts as implemented?
 
-__wycats__ when web content relies on it, which could mean one browser
+__wycats:__ when web content relies on it, which could mean one browser
 
 > **wycats** depends on reality
 
-__dherman__ it’s been the understanding of TC39 for a while that you need two implementations to advance to one of the last stages
+__dherman:__ it’s been the understanding of TC39 for a while that you need two implementations to advance to one of the last stages
 
-__wycats__ yes, that’s in practice what’s going to happen
+__wycats:__ yes, that’s in practice what’s going to happen
 
 > **wycats** my thinking is that the closer things match realpolitik the more useful they are
 
@@ -1030,15 +1026,15 @@ __JeniT:__ we have a draft ^
 
 __JeniT:__ Noah has some comments he has created an amended version at ^
 
-__Noah__ (recaps comments from email)
+__Noah:__ (recaps comments from email)
 
-__Noah__ could be useful to give more "be careful" advise
+__Noah:__ could be useful to give more "be careful" advise
 
 **Noah** http://lists.w3.org/Archives/Public/www-tag/2014Sep/0045.html
 
-__Noah__: substantive changes in section 4.1.2
+__Noah:__ substantive changes in section 4.1.2
 
-__Noah__: (recaps examples)
+__Noah:__ (recaps examples)
 
 > **Noah** Punchline from example section: It is essential when deploying Capability URLs to analyze risks such as these and to ensure that countermeasures are appropriate to the requirements of the application. For some applications, Capability URLs will not provide sufficient security.
 
