@@ -54,15 +54,13 @@
 
  __domenic:__ yes, anti-circumvention law in the DMCA in the US
 
- __twirl:__ actually that's very controversial. In theory if you prove you have no intent to crack the system, you wouldn't be in trouble. But in practice it is used a lot.
+ __twirl:__ actually that's very controversial. In theory if you prove you have no intent to violate copyright, you wouldn't be in trouble. But in practice it is used a lot.
 
 >  **twirl** http://en.wikipedia.org/wiki/United_States_v._ElcomSoft_and_Sklyarov
 
  __twirl:__ if I were a security specialist I would be scared
 
  __dka:__ we thought this would be good to bring up because it's not a part of the technical feedback we want to give, but it is important feedback we want to give, if possible. We are not lawyers so we are not sure, but we wanted to bring it up.
-
->  **twirl** s/to crack the system/to violate copyright
 
 >  **virginie**  https://www.w3.org/Security/wiki/images/9/98/Web_Authentication_and_other_security_services.pptx
 
@@ -360,7 +358,7 @@ __darobin:__ my personal analysis is that the way that HTML interfaces with the 
 
 >  **Domenic** domparsing.spec.whatwg.org redirects to https://dvcs.w3.org/hg/innerhtml/raw-file/tip/index.html
 
-__dka:__ I think it's good to have HTML5 in the W3C
+__dka:__ I think it's good to have HTML5 in the W3C [go to Rec.]
 
 >  **darobin** and I heartily applaud that
 
@@ -397,8 +395,6 @@ __wycats:__ the high order bit is whether people are implementing
 __timbl:__ let me tell you a story
 
 >  **darobin** [timbl explains how W3C was the WHATWG before the WHATWG was cool]
-
->  **dka** Correction to what I said - I think itâ€™s good to have w3c html5 go to Rec.
 
 >  **mnot** q+
 
@@ -494,7 +490,7 @@ __domenic:__ we can try to make it precedent
 
 ... get rid of the bad blood
 
-__dka:__ the bad blood is there because there is a perception that that the WATWG actors have negative actions
+__dka:__ the bad blood is there [also] because there is a perception that that the WATWG actors have negative actions
 
 ... we have to end the fighting
 
@@ -506,11 +502,9 @@ __timbl:__ things have changed in 25 years
 
 __.__.. we knew we were forking the IETF
 
->  **dka** correction: "also because there is a perception that the whatwg actors have..."
-
 >  **dka** key word "also" - there has been lots of negativity on both "sides" of this topic
 
-__tim:__ [suggests something needs to happen for w3c to consider whatwg to be a â€œfirst class standardsâ€ body]
+__tim:__ [suggests something needs to happen for w3c to consider whatwg to be a “first class standards” body]
 
 >  **dka** [discussion now on what that would be]
 
@@ -526,7 +520,7 @@ __timbl:__ maybe we could look through the openstand principles and see if we wo
 
 >  **dka** Indeed.
 
->  **timbl** TLDR â€œI was a pretty respectful teenagerâ€
+>  **timbl** TLDR “I was a pretty respectful teenager”
 
 >  **wycats** TLDR "When I was a boy, children had respect for their elders" :P
 
