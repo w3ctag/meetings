@@ -1,0 +1,752 @@
+08:26:15 <RRSAgent> RRSAgent has joined #tagmem
+08:26:15 <RRSAgent> logging to http://www.w3.org/2014/09/29-tagmem-irc
+08:26:23 <Zakim> Zakim has joined #tagmem
+08:33:14 <wycats> Will he be calling in?
+08:33:36 <wycats> Domenic and I can probably handle a TC39 update
+08:33:59 <wycats> Good to have Dave on the phone
+08:34:11 <wycats> ETA: 17m
+08:34:34 <wycats> Is there any ibuprofin or naproxen at the Telefonica HQ?
+08:42:20 <wycats> Sweet
+08:42:25 <wycats> I will need some :p
+08:59:26 <plinss> plinss has changed the topic to: WebRTC: https://purl-app.com/pphrqlxo agenda: http://www.w3.org/wiki/TAG/Planning/2014-09-F2F
+09:04:17 <plinss> plinss has changed the topic to: Skype: dappelquist – agenda: http://www.w3.org/wiki/TAG/Planning/2014-09-F2F
+09:05:25 <dka> we are on skype now
+09:05:31 <JeniT> Scribe: JeniT
+09:05:33 <dka> please call me at “dappelquist” to join
+09:05:40 <JeniT> ScribeNick: JeniT
+09:06:39 <JeniT> Agenda: https://www.w3.org/wiki/TAG/Planning/2014-09-F2F
+09:06:45 <JeniT> Chair: Dan Appelquist
+09:07:51 <JeniT> Present: Dan, Dominic, Tim, Peter, Sergey, Mark, Yehuda, Yves (remote)
+09:08:19 <JeniT> Regrets: Alex, Dave
+09:13:20 <JeniT> Topic: http/2 update
+09:13:52 <mnot> mnot has joined #tagmem
+09:13:58 <twirl> twirl has joined #tagmem
+09:14:07 <JeniT> mnot: WG last call ended a few weeks ago
+09:14:14 <JeniT> … there are a few small-medium issues remaining
+09:14:31 <JeniT> … should be closed in week or so
+09:14:37 <JeniT> … IETF last call will take a couple of weeks
+09:14:45 <JeniT> … RFC in Jan/Feb if all goes well
+09:14:55 <JeniT> … large number of implementations (about 20)
+09:15:26 <JeniT> … IE & ISS, Firefox very eager, Chrome is shipping, Akamai, nginx will implement, Varnish are rewriting their core
+09:15:39 <JeniT> wycats: isn’t Varnish not compatible with caching?
+09:15:56 <JeniT> mnot: it’s an application-specific cash, but http/2 doesn’t say anything about caching really
+09:16:03 <JeniT> s/cash/cache
+09:16:32 <JeniT> mnot: Apple, we don’t know, but probably they’ll implement
+09:16:51 <JeniT> … the big question is Apache; Google has given them the modspdy code base
+09:17:19 <JeniT> dka: the big question at the NY meeting the sense of urgency was about SPDY having such momentum
+09:17:29 <JeniT> … and the fact that Apple was supporting SPDY
+09:17:47 <JeniT> … leading to the question of whether there would be enough momentum to get off SPDY to http/2
+09:18:05 <JeniT> mnot: we were a big confused by the Apple announcement
+09:18:19 <JeniT> wycats: they’re doing it because there’s lots of SPDY that exists
+09:18:33 <JeniT> mnot: Twitter have been very active, they’ve shipped very rapidly
+09:19:04 <JeniT> … both Google & Microsoft have said that they’ll turn off SPDY support when http/2 comes through
+09:19:16 <JeniT> … SPDY is really hacky, so they do want to get away from it
+09:19:20 <dka> Related URL: http://http2.github.io
+09:19:38 <JeniT> wycats: it would only affect super advanced sites in practice anyway
+09:19:48 <JeniT> mnot: they’ve been versioning SPDY very rapidly
+09:19:54 <wycats> proof: DEPRECATION WORKS ON THE WEB!
+09:20:05 <JeniT> … after RFC there are a few things more eg opportunistic encryption
+09:20:17 <JeniT> … there are a group of mobile operator vendors talking about proxies
+09:20:39 <JeniT> … lots of privacy & security concerns around that
+09:20:46 <JeniT> wycats: http/2 doesn’t mandate SSL right?
+09:21:06 <JeniT> mnot: it doesn’t, we decided to move on and not require it
+09:21:21 <JeniT> … but the browsers are saying they’ll only support http/2 for SSL
+09:21:30 <JeniT> wycats: we’ve talked about making it easier to get certs
+09:21:39 <JeniT> mnot: there’s an active discussion in the community about that
+09:22:04 <JeniT> timbl: what kinds of plans are there?
+09:22:48 <JeniT> Domenic: Cloudflare have a blog post yesterday spelling out they’re giving free SSL/TLS
+09:23:11 <JeniT> wycats: that’s great for Cloudflare customers
+09:26:55 <JeniT> [off the record discussion]
+09:27:38 <JeniT> timbl: I want to enable certificates signed by my family, people I trust
+09:28:14 <JeniT> wycats: that restricts what content you can see, because other sites aren’t signed by those certificates
+09:28:59 <JeniT> timbl: creating socially-signed certificates only as complicated as social network sites
+09:29:29 <JeniT> … the existing tools are bad, but they could be redesigned
+09:29:47 <JeniT> wycats: I don’t think this is a standards issue: I think the standards are there
+09:30:02 <JeniT> … I think write it and see
+09:30:36 <JeniT> timbl: I think it requires some redesign, some P2P-oriented protocols
+09:30:48 <JeniT> wycats: I don’t think they should be designed up front
+09:31:16 <JeniT> timbl: it would be nice for the TAG to be somewhere where we can imagine a different world
+09:32:07 <wycats> "role of the TAG" is a good discussion to have every time we have a new member
+09:32:11 <JeniT> [pop]
+09:35:33 <JeniT> dka: is there anything that the TAG can do to help http/2?
+09:37:55 <JeniT> mnot: in the long run, the issue of the role of the network in communication is interesting
+09:38:11 <JeniT> … comms between client/server is a 2 party problem not a 3 party problem
+09:38:25 <JeniT> … we’ve pushed back around breaking encryption etc
+09:38:49 <JeniT> dka: what timbl was saying about Verizon putting ads into pages sounds horrifying
+09:39:50 <JeniT> mnot: there’s variability in cluefulness in mobile operators
+09:41:11 <JeniT> … is it appropriate for the TAG to publish an opinion that says “X on the Internet sucks”
+09:41:25 <JeniT> dka: it can be useful to publish a blog post or an official Finding
+09:41:59 <JeniT> … we can more actively intervene to get people talking
+09:42:33 <JeniT> wycats: in this case what they’re doing is against existing standards
+09:42:48 <JeniT> dka: we can also use the relationship between GSMA and W3C
+09:43:16 <JeniT> … when the issue is about getting information out there we can use that
+09:43:41 <JeniT> mnot: in the IETF we have a position that writing words down has very little effect & regulation has little effect
+09:43:52 <JeniT> … we’re moving towards enforcing what we believe technically
+09:44:11 <JeniT> … eg if you think that connections should be end-to-end then use encryption & make it hard to break
+09:44:17 <JeniT> … enforcement through technical means
+09:44:27 <JeniT> … “standards & protocols & code is making law”
+09:44:37 <JeniT> timbl: I think that’s a dangerous possible route
+09:44:51 <dka> CF: https://github.com/w3ctag/secure-the-web
+09:44:54 <JeniT> … it’s going towards an all-out battle of the robots, on who can out-design the other one
+09:45:09 <JeniT> wycats: we can say what we want in the code protocols, but we have to persuade people too
+09:45:38 <JeniT> mnot: it’s not that we’re making law by making code, but the way we write the protocols shapes the world
+09:46:00 <JeniT> timbl: I think you need to start off with the principle/rule “your stuff shall not get interfered with”
+09:46:12 <JeniT> … and if people break that “you’re banned”
+09:46:45 <JeniT> … when you put in your fortress, when they find a way to break it, you need to have a paper trail
+09:47:04 <JeniT> … you need to have a principle to point to
+09:47:16 <JeniT> wycats: I think you need human beings talking to other human beings
+09:47:22 <JeniT> … you have to get the people in the room
+09:47:34 <JeniT> … most people aren’t acting maliciously, they’re just confused/misinformed
+09:48:14 <JeniT> mnot: I don’t know, I think it’s a business decision, not confusion
+09:48:28 <JeniT> timbl: it’s a huge income stream, it’s deliberate
+09:48:42 <wycats> wycats: opt-outs don't affect the income stream
+09:48:50 <wycats> wycats: this is why ads are ok with DNT opt-outs
+09:48:58 <JeniT> dka: we talked about writing “Secure the Web”
+09:49:03 <JeniT> … about crypto everywhere etc
+09:49:12 <JeniT> … it’s out of date now, but we could update it
+09:49:26 <JeniT> mnot: there are lots of people writing, we could throw our weight behind them
+09:49:56 <JeniT> Domenic: there are things we can say around API design
+09:50:15 <JeniT> wycats: we can talk about the browser as the platform, and security in the browser
+09:50:36 <dka> e.g. PROPOSED RESOLUTION: privacy-centric capabilities in the browser should be exposed over SSL…
+09:50:42 <JeniT> Domenic: our recommendation should say “browsers should tell the user when NX records are compromised”
+09:52:13 <JeniT> wycats: there’s a way that user agents could surface the sniffing/spying more effectively
+09:52:43 <JeniT> mnot: there are ways to tell the user when the CA isn’t one built in to the OS
+09:53:48 <JeniT> … you get a different icon in the location bar if the CA isn’t one built in to the OS
+09:53:51 <JeniT> … that’s a step forward
+09:54:04 <JeniT> … the pushback is that users ignore that UX
+09:54:17 <JeniT> … but there are users for whom it is important
+09:54:33 <JeniT> wycats: Chrome makes it hard to click through now
+09:54:50 <JeniT> … NXDOMAIN hijacking should be pretty easy to detect
+09:55:10 <JeniT> mnot: easier than captive portal detection
+09:55:34 <wycats>  we could standardize a domain like: iamhijacked.com :P
+09:55:36 <JeniT> dka: is there an action we could take as the TAG?
+09:56:30 <SteveF> SteveF has joined #tagmem
+09:56:37 <JeniT> … should we be moving towards minimisation, only allowing privacy-infringing information passed through secure channels
+09:58:27 <JeniT> mnot: we should definitely talk about privacy-sensitive features as the TAG
+09:58:58 <JeniT> wycats: Alex has the idea that we could do more with hosted apps if we let them opt in to stricter security
+09:59:23 <JeniT> dka: the balanced approach: to have access to the camera, I’ll give up something
+09:59:30 <JeniT> wycats: eg not running third party scripts
+09:59:46 <JeniT> dka: this runs into permissions, which we’ll discuss Tue afternoon
+10:00:25 <JeniT> wycats: there’s a lot that’s already in the platform, there’s a social problem: we need to let people extend the platform
+10:01:17 <JeniT> mnot: “prefer secure origins” is just about prefering HTTPS
+10:01:57 <JeniT> dka: the thing about third-party ads is important
+10:02:19 <JeniT> … people don’t want to go to HTTPS because it prevents them displaying the ads & limits their revenue
+10:02:34 <JeniT> wycats: because if you opt into HTTPS you opt out of mixed content
+10:02:44 <JeniT> dka: moving to HTTPS has major implications
+10:03:21 <JeniT> Domenic: our position should be “privacy sensitive features”: these are things that have the ability to, if they’re man-in-the-middled, compromise people’s privacy
+10:03:36 <JeniT> timbl: I worry that browser vendors are slapping on security constraints
+10:03:52 <wycats> sigh
+10:03:54 <JeniT> … the mixed content thing that forces abandoning HTTPS or abandoning HTTP
+10:04:26 <JeniT> … is there a model of the world in which we could access HTTP things from HTTPS pages, then fine
+10:04:49 <Yves> talking about UI and mixed-content, https://bugzilla.mozilla.org/show_bug.cgi?id=838395 is not really helping
+10:04:58 <JeniT> … but they way Chrome “refused” messages, I get the impression people are slapping on constraints on developers
+10:05:16 <JeniT> wycats: there are features on the web that expose private information, and web browsers would like to avoid leaking that
+10:05:25 <JeniT> … one large mechanism for leaks is plain text HTTP
+10:05:48 <JeniT> … if you just serve the HTML page over HTTPS, there are many other things (like scripts) that can access that information
+10:05:58 <JeniT> … they want to offer some assurance that the private information is private
+10:06:20 <JeniT> timbl: as a result, they turned off the ability to read completely public data over HTTP
+10:06:31 <JeniT> … an intermediate library can’t access it either
+10:06:38 <JeniT> Domenic: it’s better not to give false positives on privacy
+10:06:48 <JeniT> wycats: another common way of leakage is third party scripts
+10:07:20 <JeniT> … the solution the Chrome guys used for mixed content is the same as for connecting to CNN, the ‘ad view’ tag
+10:07:33 <JeniT> … a way of putting in content in a completely sandboxed way
+10:07:53 <JeniT> timbl: that’s fine in HTML, but when I’m writing a web app, how can I tell Chrome that I want to access stuff that’s completely public
+10:08:16 <JeniT> … it’s got a CORS-Origin: * because it’s accessable by everyone
+10:08:37 <JeniT> wycats: the analogous thing for ‘ad tag’ is to have a sandboxed area that enables your script to access the data
+10:09:08 <JeniT> timbl: no, we have to move towards either writing my code inside browser extensions, or have a way of users saying that they trust scripts from a particular location
+10:09:16 <wycats> this is not the correct group to have this discussion
+10:09:18 <wycats> unfortunately
+10:11:53 <JeniT> wycats: the problem is not that we don’t trust authors, it’s that the authors don’t know what they’re putting in their pages
+10:12:13 <JeniT> … you have to limit what the third-party script can do
+10:12:43 <JeniT> … eg prevent a third-party script from getting your geolocation
+10:13:03 <JeniT> dka: you can still fingerprint or do other things in that kind of environment
+10:13:15 <JeniT> wycats: the script would have access to nothing except post message
+10:13:25 <JeniT> … the environment that contains the script could still pass that information
+10:13:43 <JeniT> … but the author that’s installing the script will have to be explicit about what it’s giving the script
+10:13:50 <JeniT> dka: what’s the status of this work
+10:14:15 <JeniT> wycats: iframe sandbox and CSP give you reasonably close to lock down, there’s also realms in Javascript, which could give you a just-Javascript context
+10:14:29 <JeniT> … but timbl’s original point is correct: there isn’t a model for how you avoid leakage
+10:14:46 <wycats> it isn't coherent
+10:14:53 <wycats> people are just stabbing around trying to lock things down
+10:15:02 <wycats> but it's kind of random
+10:15:16 <wycats> and driven in large part by what you can get away with
+10:17:01 <JeniT> [discussion that browser extensions, plugins, wifi etc insert scripts into pages the author never knew about]
+10:17:31 <JeniT> Domenic: CSP is a pretty big hammer; it would be great if you could allow geolocation but not enable those to be passed to the third party scripts
+10:17:42 <JeniT> wycats: the ad tag which the Chrome appstore does is the correct approach
+10:17:56 <JeniT> Domenic: secure origins is a clear feature which we can recommend
+10:18:16 <Yves> tagging data in the engine... but it would require a huge change
+10:18:23 <JeniT> mnot: the ‘prefer secure origins’ approach has consensus
+10:18:45 <JeniT> dka: we have to address the way that impacts people who have ads in pages
+10:19:04 <wycats> <adview> would allow mixed content that didn't trigger a mixed content warning
+10:21:25 <JeniT> dka: what’s the action?
+10:21:40 <JeniT> mnot: we should ratify ‘prefer secure origins’
+10:22:28 <JeniT> wycats: a large number of geolocation-using sites would break with this policy
+10:22:47 <JeniT> mnot: this is for new features, right?
+10:22:52 <JeniT> Domenic: no
+10:23:25 <JeniT> timbl: the resolution is that you should only be able to call features which are sensitive from HTTPS?
+10:23:29 <JeniT> dka: yes
+10:24:16 <JeniT> timbl: my point is if a developer wants to access something which is private, and therefore needs to use a secure page, it means that he can’t access public data
+10:24:25 <JeniT> mnot: until it goes HTTPS
+10:24:55 <JeniT> … if I’m relying on government data, I’d hope it was from the government
+10:25:23 <JeniT> JeniT: GOV.UK is https, but that’s not the case for smaller organisations
+10:25:48 <JeniT> dka: if I take the user’s location in script & make a request to https://gov.uk with my location in the query string, I can do that, right?
+10:26:34 <JeniT> … there are still leakage possibilities
+10:27:06 <JeniT> Domenic: in theory the browser could surface all the places that have access to your location, but if you allow that then it could be everyone
+10:27:22 <JeniT> [NSA knows everything already]
+10:27:32 <Domenic> s/that/the page to access http sites/
+10:28:06 <JeniT> dka: we could draft a statement that says “for new privacy-sensitive APIs, we want these to require secure origin”
+10:28:52 <JeniT> wycats: “we support efforts by browser vendors…”
+10:29:39 <Domenic> Draft recommendation here http://oksoclap.com/p/kCUkARlDtn
+10:30:33 <wycats> 👍
+10:31:12 <wycats> https://hackpad.com/Untitled-RQucKs6BLTT
+10:33:20 <JeniT> [drafting in oksoclap not hackpad]
+10:35:15 <JeniT> [drafting in hackpad not oksoclap]
+10:35:47 <Zakim> Zakim has left #tagmem
+10:35:56 <JeniT> [drafting in oksoclap not hackpad]
+10:36:38 <JeniT> [hackpad requires access to Google contacts, oksoclap isn’t https]
+10:36:39 <dka> https://etherpad.mozilla.org/qPTpp2UKfa
+10:37:01 <JeniT> [drafting in etherpad]
+10:39:50 <wycats> https://developer.chrome.com/apps/app_runtime
+10:49:55 <JeniT> proposed resolution: https://etherpad.mozilla.org/qPTpp2UKfa
+10:51:26 <JeniT> mnot: how should the TAG communicate?
+10:51:48 <JeniT> Domenic: on EME they would have preferred us to file a bug rather than issuing an edict
+10:52:50 <JeniT> wycats: when it’s more architectural, and there isn’t a spec, then a post etc would be more appropriate
+10:53:07 <JeniT> mnot: just having it in the minutes doesn’t work
+10:54:02 <JeniT> dka: we could put it on the blog, or on our GitHub-hosted home page
+10:54:39 <JeniT> … like the http group did
+10:55:08 <JeniT> mnot: have one place
+10:56:07 <JeniT> … why not move the findings to github, and CNAME tag.w3.org to github
+10:56:45 <JeniT> Domenic: we have lots of different kinds of things we publish: Findings, guides, short statements
+10:57:04 <JeniT> mnot: TAG Findings are architectural: this is a short one but fits into that scope
+10:58:24 <wycats> see https://github.com/tc39/ecma262
+10:59:45 <JeniT> [discussion on publication process]
+11:05:10 <JeniT> Domenic & mnot propose to create a home page for the TAG onto a GitHub Pages page
+11:05:44 <JeniT> dka: we could use w3ctag.org
+11:06:01 <JeniT> … the W3C page would be static, only change when the membership of the TAG changes
+11:09:49 <JeniT> timbl: w3.org should have a record of everything that we do
+11:10:11 <JeniT> … we need to make sure we have the archive
+11:10:47 <JeniT> mnot: for IETF we save all the state from GitHub, using API access to the issues as JSON
+11:11:04 <JeniT> … we check the JSON into the repo it’s associated with
+11:11:20 <JeniT> … if GitHub were to go down, we’d need to do some work to reconstruct it
+11:12:19 <JeniT> dka: keeping the history, getting it archived on w3.org, is really important
+11:12:43 <JeniT> … w3.org has the longer lifetime
+11:14:46 <JeniT> timbl: I will talk to the sysadmins about the TAG having the subdomain tag.w3.org
+11:16:56 <dka> PROPOSED RESOLUTION: We support efforts by browser vendors to restrict privacy-sensitive features to secure origins. This includes ones that have not historically been restricted as such, like geolocation or webcam access.
+11:16:57 <dka> We also support investigation into ways of preventing these features from leaking to third-party scripts within a webpage (although the exact technology to do so is unclear as yet, probably involving some combination of CSP and/or something like <iframe sandbox>).
+11:18:43 <dka> +1
+11:18:44 <Domenic> +1
+11:18:46 <wycats> 👍
+11:18:46 <plinss> +1
+11:18:49 <twirl> +1
+11:19:05 <JeniT> timbl: I’m concerned this will break code
+11:19:31 <JeniT> mnot: I think a little context about medium term pain would be good
+11:19:41 <JeniT> Domenic: this is an aspirational resolution
+11:19:58 <dka> Agreed.
+11:21:39 <wycats> architecture architecture architecture
+11:21:49 <Domenic> Adding: "We appreciate this could cause some short and medium-term pain (breaking some existing content), and so this needs to be done with care, but it is a worthy goal to aspire to."
+11:22:19 <dka> RESOLUTION: We support efforts by browser vendors to restrict privacy-sensitive features to secure origins. This includes ones that have not historically been restricted as such, like geolocation or webcam access.
+11:22:20 <dka> We also support investigation into ways of preventing these features from leaking to third-party scripts within a webpage (although the exact technology to do so is unclear as yet, probably involving some combination of CSP and/or something like <iframe sandbox>).
+11:22:20 <dka> We appreciate this could cause some short and medium-term pain (breaking some existing content), and so this needs to be done with care, but it is a worthy goal to aspire to.
+11:22:28 <dka> now lunch
+11:22:37 <RRSAgent> I have made the request to generate http://www.w3.org/2014/09/29-tagmem-minutes.html JeniT
+11:23:06 <JeniT> LUNCH
+11:23:56 <dka> we will be back at 13:00 UK - for web of things discussion
+11:35:53 <twirl_> twirl_ has joined #tagmem
+11:44:34 <timbl> mnot, code for extracting discussion state and issues into gitable files?
+11:46:24 <dka_air> dka_air has joined #tagmem
+11:46:53 <dka_air> https://call.mozilla.com/#call/awwfKaBNSJk
+11:47:41 <mnot> mnot has joined #tagmem
+11:48:21 <mnot> mnot has joined #tagmem
+11:48:51 <mnot> mnot has joined #tagmem
+11:49:30 <dka_air> https://opentokrtc.com/w3ctag
+11:52:18 <mnot> mnot has joined #tagmem
+11:53:24 <dka> ok that looks stable - we’re going to try to use opentokrtc.com
+11:54:09 <dka> Seems to work best with either Firefox Aurora or Chrome Beta/Canary.
+12:11:02 <JeniT> ScribeNick: Domenic
+12:12:05 <JeniT> ScribeNick: JeniT
+12:12:15 <Domenic> https://w3ctag.github.io/promises-guide/
+12:12:30 <JeniT> Domenic: the promises guide has been converted to look fancy
+12:13:02 <JeniT> … also updated the readme, and contacted PLH to get the w3.org URL proxy to here
+12:13:12 <JeniT> … at which point I can update the links
+12:13:22 <JeniT> … there are a few issues but none are particularly big
+12:13:37 <JeniT> wycats: is this where you’re adding the ECMAScript++?
+12:13:39 <JeniT> Domenic: no
+12:13:58 <JeniT> dka: there’s nothing here that states the status of this document
+12:14:06 <JeniT> … and talks about the stability of the document
+12:14:12 <JeniT> … and the fact that it’s going to be updated etc
+12:14:26 <JeniT> … also you have it as public domain
+12:14:46 <JeniT> … I’m happy with that, don’t care, PLH might say it should have a W3C something or other on it
+12:14:56 <JeniT> Domenic: I wanted to use the W3CTAG logo
+12:15:29 <JeniT> … this is using Tab Atkins bikeshed tool
+12:16:28 <JeniT> … people like it and have been using it
+12:17:11 <JeniT> wycats: I think we should get streams done, because people will be creating promises that should be streams
+12:17:27 <Yves> +1 to streams
+12:17:29 <Domenic> http://w3c.github.io/mediacapture-main/getusermedia.html#dom-mediadevices-getusermedia
+12:17:34 <JeniT> … the new Ember is based on streaming stuff
+12:17:46 <JeniT> Domenic: this is now returning a promise
+12:17:57 <JeniT> s/this/^this^/
+12:18:15 <dka> PROPOSED RESOLUTION: pending a couple of document boilerplate changes (document status, logo, etc…) we agree that the Promises Guide is a published finding of the TAG.
+12:18:20 <JeniT> Yves: I saw the issue about using ‘parallel’ rather than ‘async’, and I didn’t understand why
+12:18:40 <JeniT> Domenic: there was a lot of confusion, when we looked at how it was actually be used, it’s actually about using a different thread
+12:18:47 <JeniT> … we actually mean ‘don’t block’
+12:18:53 <JeniT> wycats: maybe you should say ‘concurrently’
+12:19:15 <JeniT> Domenic: all of the uses of ‘in parallel’ are actually in separate threads
+12:19:24 <JeniT> wycats: it’s all giving instructions to things that actually have threads
+12:19:41 <JeniT> Domenic: right, this is writing specs for browser implementers
+12:19:58 <JeniT> Yves: I think that’s misleading if you’re writing a guide that’s directed a JS programmers
+12:20:19 <JeniT> Domenic: that’s a good point; in the document there are places ‘this is more applicable to spec writers’, it would be worth calling that out
+12:20:36 <JeniT> … and say ‘in JS you would use a WebWorker’
+12:20:50 <JeniT> Yves: for me, it feels that there are synchronisation things that need to happen
+12:21:17 <JeniT> Domenic: currently when we say ‘in parallel’ we actually do need to double check that
+12:22:10 <JeniT> dka: we should publish this as a Finding
+12:23:14 <JeniT> … the boilerplate changes don’t change that
+12:23:31 <dka> RESOLUTION: pending a couple of document boilerplate changes (document status, logo, etc…) we agree that the Promises Guide is a published finding of the TAG.
+12:30:46 <JeniT> Topic: EWS Berlin
+12:30:55 <JeniT> Domenic: it went pretty well; we got the word out to a lot of developers
+12:31:01 <JeniT> … discussions that stood out:
+12:31:08 <JeniT> … editing (guy from MS was there)
+12:31:39 <JeniT> … contenteditable, intention events like ‘cut’ instead of Ctrl-X
+12:31:47 <JeniT> wycats: is that because the platforms have different key bindings?
+12:31:50 <JeniT> Domenic: yes
+12:32:10 <JeniT> … the rest of the things are eg cursor support
+12:32:21 <JeniT> wycats: instead of trying to fix contenteditable, we should figure out what we need
+12:32:25 <JeniT> Domenic: that’s what they’re doing
+12:32:33 <JeniT> dka: we got some good input from developers who need this
+12:33:07 <JeniT> Domenic: I noticed that it’s easy for someone to take over the discussion
+12:33:32 <JeniT> … in the future we should be clearer about the messaging that this is not for you to present
+12:33:43 <JeniT> … this happened in a couple of sessions
+12:34:14 <JeniT> dka: it’s a fine line: you have to enable people to talk about their project, but you can’t let it overload the session
+12:34:51 <JeniT> Domenic: I hosted a future of JS session… hosts should be a moderator, not a leader
+12:35:12 <JeniT> dka: being a moderator is the key thing: you have to be in charge of the conversation, and making sure that everyone has input
+12:35:34 <JeniT> Domenic: even if the messaging is ‘we don’t want one person to take over the session’
+12:36:21 <dka> yes we do
+12:36:24 <dka> hold on
+12:36:28 <JeniT> dka: I think we did a better job of talking about moderators at this session
+12:36:37 <dka> https://opentokrtc.com/w3ctag
+12:36:45 <JeniT> JeniT: people need to be happy to leave if they are bored of one person hogging the discussion
+12:37:11 <JeniT> wycats: sometimes the people who are talking need to have that discussion
+12:37:11 <dka> best viewed on Firefox Aurora™
+12:37:24 <dka> (or chrome)
+12:37:50 <JeniT> dka: the only other thing on EWS is that you’re talking to other people who are taking that name and running something in Oakland
+12:39:49 <JeniT> … but we should write a one pager on what EWS is
+12:39:56 <JeniT> … for other people who want to run them
+12:40:15 <JeniT> wycats: in particular having implementers & practitioners in the same room
+12:41:02 <JeniT> dka: I’ll start that document
+12:41:29 <dka> :)
+12:41:33 <wycats> The place where practitioners and implementors meet is exactly "The Extensible Web"
+12:43:08 <wycats> For the record, I think Hangouts works grea
+12:43:11 <wycats> great*
+12:43:15 <wycats> all hail NaCL
+12:43:33 <JeniT> Topic: TC39 update
+12:43:55 <JeniT> wycats: we’re still in the process of finishing ES6
+12:44:04 <JeniT> … not a huge number of changes in ES6
+12:44:10 <JeniT> … change of process for ES7 is going well
+12:45:13 <JeniT> … there’s a website that have the 17 features in the ES7 features
+12:45:19 <JeniT> … we’re using github
+12:45:36 <JeniT> … github has list of proposals, which you can keep an eye on
+12:46:20 <wycats> https://github.com/tc39/ecma262
+12:49:57 <JeniT> wycats: we’re moving to a process where when it’s implemented we stamp it ‘standard’
+12:50:12 <JeniT> … rather than creating a ‘standard’ which we then expect to be implemented
+12:50:42 <JeniT> dka: this is also about the pattern of enabling practitioners to extend the web, and how this impacts standards
+12:51:00 <JeniT> … this is related to what we have about the future of the future of standards, on our agenda on Wed
+12:51:12 <JeniT> wycats: also in TC39, we moved the loader into a separate document
+12:51:21 <JeniT> … we realised it’s intertangled with the browser loader
+12:51:33 <JeniT> … need to let it evolve with the web and with node
+12:51:50 <JeniT> Domenic: we also had some discussions about how to make DOM objects subclassable
+12:52:01 <JeniT> … and arrived at a solution which people have varying opinions on
+12:52:14 <JeniT> … but that can ship in ES6 without us having to do lots of work
+12:52:35 <JeniT> … the new process is going well
+12:53:07 <JeniT> wycats: almost everything that’s happening now is about locking down ES6 and moving to the new process
+12:54:45 <JeniT> JeniT: what counts as implemented?
+12:55:20 <JeniT> wycats: when web content relies on it, which could mean one browser
+12:55:28 <wycats> depends on reality
+12:56:31 <JeniT> dherman: it’s been the understanding of TC39 for a while that you need two implementations to advance to one of the last stages
+12:56:58 <JeniT> wycats: yes, that’s in practice what’s going to happen
+12:57:22 <wycats> my thinking is that the closer things match realpolitik the more useful they are
+12:57:31 <wycats> so why does 2 impls matter? because it means people rely on it
+12:57:45 <wycats> it says 2 impls
+12:57:48 <Domenic> i agree that the new process document says 2. i find wycats interpretation is good too, possibly better.
+12:58:06 <wycats> the more we can base in on reality, the less standards lawyering can get in the way imo
+12:58:27 <JeniT> /me votes for using technology that works rather than technology you wish would work
+12:58:34 <wycats> dherman: c
+12:58:47 <wycats> my interpretation is derived from Brendan's general analysis
+13:00:41 <wycats> dherman: totally agree
+13:00:48 <wycats> dherman: I understood your point 5m ago :P
+13:00:49 <wycats> dherman: c
+13:00:56 <JeniT> Topic: Packaging on the Web
+13:01:34 <JeniT> ScribeNick: Domenic
+13:01:43 <Domenic> Topic: packaging
+13:02:16 <Domenic> JeniT: we discussed the general issue of how to send packages of files over the web in an efficient, easy-to-deploy way
+13:02:25 <Domenic> JeniT: one of the main drivers of this was JS modules
+13:02:32 <Domenic> JeniT: (but not the only driver)
+13:02:53 <Domenic> JeniT: the initial discussion focused on using special URL syntax
+13:03:00 <JeniT> URL syntax: package/!/filepath
+13:03:17 <wycats> package/!//filepath
+13:03:56 <Domenic> wycats: the point is there is some separator syntax that doesn't conflict with existing web content
+13:04:00 <Yves> what would // uris mean then? (protocol-relative URLs)
+13:04:10 <JeniT> http://example.com/path/to/package.pack/!//home.html#section1
+13:04:32 <Domenic> mnot: so the package is downloaded in toto and deconstructed on the client side?
+13:04:38 <Domenic> JeniT: that is absolutely correct
+13:04:40 <JeniT> http://example.com/path/to/package.pack
+13:05:05 <Domenic> JeniT: so we looked at that, and wrote a readme which was
+13:05:07 <JeniT> https://github.com/w3ctag/packaging-on-the-web
+13:05:30 <Domenic> JeniT: it looked at the various options and decided this wasn't quite the right plan
+13:05:45 <Domenic> JeniT: we decided on a different way of doing it which was using link relations
+13:06:02 <Domenic> JeniT: there would then be a separate syntax within the HTML page which said what the scope of the package was
+13:06:23 <Domenic> timbl: the scope being everything up to the /!//, in the previous proposal
+13:06:27 <JeniT> http://w3ctag.github.io/packaging-on-the-web/
+13:06:30 <Domenic> JeniT: that was written up at ^
+13:06:41 <SteveF> SteveF has joined #tagmem
+13:07:03 <Domenic> JeniT: we then had, via dherman, some pushback (which was from Jonas I think?) but which hasn't yet surfaced on the www-tag list or elsewhere from what I can tell
+13:07:23 <Domenic> wycats: explaining the critique: the proposal you suggested requires that someone navigate to or embed the URL from a document which has the context
+13:07:32 <Domenic> wycats: however you could not give people a link to the document
+13:07:59 <Domenic> wycats: for example you could not give people a link to slide 15 since we no longer have URLs for each part of the package
+13:08:19 <Domenic> dherman: my interpretation of the objection is pretty close but...
+13:08:48 <Domenic> dherman: it is---the only way to understand the contents of a package is by consulting the webpage context that established the <link rel="package">; i.e. it's contextual
+13:09:03 <JeniT> see http://w3ctag.github.io/packaging-on-the-web/#fragment-identifiers
+13:09:07 <Domenic> dherman: you can't hand out the link because to get into the package they have to start from the document which references it via the link tag
+13:09:21 <JeniT> or http://example.org/downloads/editor.pack#url=/root.html;fragment=colophon
+13:09:25 <timbl> q+
+13:09:50 <Domenic> dherman: this is a concern for the far-off future
+13:10:08 <Domenic> dherman: any interim solution will be contextual
+13:10:12 <Domenic> timbl: did we discuss redirections?
+13:10:29 <Domenic> wycats: we discussed lots of things that require a server but we decided it was our constraint to not require a server
+13:10:51 <Domenic> timbl: you could use a 209/303 something
+13:11:19 <Domenic> timbl: the pushback for that from a lot of people was that we want the packaging system to work on gh-pages without GitHub changing their code
+13:11:39 <Domenic> mnot: I have a much bigger problem with this spec, which is that we're spending a lot of effort in HTTP2 to make the web more fine-grained, because it's better for performance
+13:11:57 <Domenic> wycats: we absolutely discussed at great length the objection you are about to raise
+13:12:37 <Domenic> mnot: (continuing) web performance has been moving toward higher granularity because for example when you concatenate libraries it causes large downloading and parsing times
+13:12:47 <Domenic> mnot: finer-grained also gives you more efficient caching
+13:12:58 <Domenic> mnot: it's a little disheartening to see a trend in the other direction
+13:12:59 <Domenic> +1
+13:13:25 <Domenic> wycats: the goal of this spec is absolutely not to replace http2 or to suggest that http2 is not the future
+13:13:35 <Domenic> mnot: but i was reading the goals and they're about e.g. populating caches...
+13:13:53 <Domenic> wycats: there are two primary goals not handled by http2. 1) a transitional technology while people have not deployed http2
+13:14:04 <Domenic> mnot: we'll see....
+13:14:19 <Yves> archive has the advantage that you can send a coherent set of resources, like js files in a library
+13:14:36 <Domenic> wycats: this packaging tech can be polyfilled with service worker, and in general browsers can be deployed to consumers faster than servers
+13:14:52 <Domenic> wycats: there are servers taht will not be upgraded but people have access to what files they store there
+13:15:10 <Domenic> wycats: basically for people who have access to "FTP servers" somewhere they can dump files
+13:15:34 <Domenic> wycats: use case 2) I am ember or jquery and I want an archive I can dump somewhere that includes all the HTTP metadata and semantics
+13:16:10 <Domenic> wycats: in my view the ideal world is that I give you Ember via a package and you serve it via SPDY. But I don't have to configure it on the server, the configuration is in the package.
+13:16:21 <Domenic> mnot: 1) seems iffy, but 2) could be really exciting.
+13:16:59 <dherman> fuuuu
+13:17:42 <Domenic> mnot: other question---why multipart mime instead of .zip?
+13:17:50 <Domenic> wycats/JeniT: streamability
+13:18:00 <dherman> headers!
+13:18:46 <JeniT> http://w3ctag.github.io/packaging-on-the-web/#streamable-package-format is the definition of the format
+13:19:24 <Domenic> mnot: from a performance standpoint, packages are a big footgun. But there are some possibilities too.
+13:19:32 <Domenic> timbl: would you imagine caches understanding this?
+13:19:49 <Domenic> mnot: similar to service worker case; this is a security problem for people using the same use case
+13:20:50 <Domenic> mnot: note that alice's plain HTML page being attacked by bob's JS page on the same origin is a *new* security problem
+13:21:48 <Domenic> JeniT: so should we go back to the URL-pointer issue dherman/wycats raised?
+13:22:22 <JeniT> http://w3ctag.github.io/packaging-on-the-web/#fragment-identifiers
+13:22:22 <Domenic> JeniT: I get what you are saying; the way it is described currently in the spec is that you would use a particular fragment identifier for the files within the package that would be interpreted as reaching into the package
+13:22:29 <Domenic> JeniT: see link
+13:22:38 <JeniT> http://example.org/downloads/editor.pack#url=/root.html;fragment=colophon
+13:22:43 <Domenic> JeniT: it's ugly, but it works, addressing your issue
+13:23:05 <Domenic> wycats: you could also do this with client-side hacks
+13:23:35 <Domenic> dherman: the reason why any of those solutions are scary are that they all rely on everybody doing extra work when they have a package to make the links continue to work
+13:23:49 <Domenic> dherman: the browser has UI e.g. right-clicking on an image
+13:23:54 <Domenic> dherman: and getting a URL
+13:24:26 <Domenic> why doesn't the URLs in JeniT's proposal work for that purpose? Right-click, get fragment-identifier URL
+13:24:39 <JeniT> or just the relative link, I don’t get it
+13:24:51 <Domenic> dherman: if you put some effort into figuring out how to mitigate this cost, i would feel better. e.g. wycats'
+13:25:04 <Domenic> dherman: s suggestion of a JS library
+13:25:41 <Domenic> dherman: my other reason is that we said in the last meeting that there isn't any reason why we couldn't eventually have both solutions
+13:25:50 <wycats> dherman is raising issues related to "open image in new tab" kinds of UIs
+13:26:09 <wycats> the fact that all of these assets are not universally addressable
+13:27:02 <Domenic> dherman: i am not blocking this work i just have this URL issue
+13:27:38 <Domenic> wycats: i just had a spidey-sense realization. people complained that they could not adopt webp because even though it worked on the web people couldn't right-click and save it and view it on their computer
+13:28:40 <Domenic> Domenic: dherman I don't understand; JeniT's proposal has URLs you can get to
+13:29:06 <Domenic> wycats: JeniT's proposal would allow to only serve the package if you knew you were dealing with only a new browser?
+13:29:13 <Domenic> JeniT: yes. But the URL would work in any case.
+13:29:21 <Domenic> wycats: but that won't work with relative URLs
+13:29:24 <Domenic> JeniT: that's right
+13:29:40 <Domenic> dherman: but that's OK! it creates a canonical absolute URL. Oh wait but relative addressing with a HTML file will not work...
+13:30:19 <Domenic> JeniT: right, that won't work. So in the general case you create un-packaged stuff and serve that too.
+13:32:17 <Domenic> dka: what is the status of the actual packages document?
+13:32:33 <Domenic> wycats: maybe the right thing to do is to say the document is done ("a draft") and ask for polyfills on top of service worker
+13:32:41 <Domenic> dka: right but ipr issues
+13:33:52 <Domenic> dka: can we outline the issues and where we agree/disagree?
+13:34:27 <Domenic> JeniT: we are generally happy about streamable package formats and its rough struture, with the proviso that IETF guys may have issues
+13:34:37 <Domenic> mnot: yeah, multipart media types have a long history and set of corner cases
+13:35:20 <Domenic> JeniT: then we have the two alternatives of package link relation or URL separator
+13:36:49 <Domenic> dherman: we could go in this direction, that doesn't preclude is investigating the other direction
+13:36:54 <Domenic> dherman: "also" not "instead of"
+13:37:15 <Domenic> dherman: i also have another set of extensions that i'd like to explore when we have a chance, but that's an orthogonal point
+13:37:45 <Domenic> JeniT: so the question is should we also in parallel with getting package link stuff implemented try to get the URL stuff implemented
+13:37:57 <JeniT> https://github.com/w3ctag/packaging-on-the-web#specialising-urls
+13:38:05 <Domenic> JeniT: my original feeling was that trying to specialize URLs is a bad idea and we shouldn't go there
+13:39:02 <Domenic> wycats: one area of exploration we didn't do because we didn't have dherman's constraint before was separating getting a resource from inside a page that knows about packages, to having a link to a resource that is inside a package. maybe by separating them we can get new design space.
+13:39:32 <Domenic> wycats: e.g. schemes work fine, jar does it, but there were other issues
+13:39:42 <Domenic> wycats: the other issues being about embedding not relative addressing
+13:39:53 <Domenic> dherman: one of the issues is http vs. https, so you need to compose
+13:42:58 <Domenic> dherman: the question is, will I ever shut up about the URL approach? I think I don't need to shut up about it for the <link> approach to proceed.
+13:43:11 <Domenic> dherman: I think it's important for the <link> approach to also solve the linking problem
+13:43:29 <Domenic> dherman: the more we can address the linking constraint the better
+13:44:46 <Domenic> dherman: i will be less worried about the need for an additional URL approach if we can be sure the <link> approach addresses that
+13:47:04 <JeniT> http://w3ctag.github.io/packaging-on-the-web/#installing-web-applications
+13:47:33 <Domenic> (discussion of how to extend the format)
+13:47:52 <Domenic> wycats: what we probably want is a way to register with the service worker a decoder for certain package mime types
+13:48:17 <Domenic> wycats: i.e. with a polyfill you could do this all you want, but if it gets implemented in browsers you'd have to reimplement the entire polyfill to get this extensibility back
+13:48:24 <Domenic> dka: next steps?
+13:48:32 <Domenic> JeniT: who should I contact within webapps to push this forward?
+13:48:51 <Yves> art & chaals, start a CfC to publish a first draft
+13:49:06 <Domenic> dka: send a message to art, cc me, let's get things started
+13:49:44 <Domenic> dka: you may wish to join webapps first
+13:50:29 <Domenic> Yves: note that this work is in the webapps charter that was approved so it won't be a surprise to anyone
+13:50:47 <Domenic> dka: and Yves is the TAG contact for webapps so he should be able to help
+13:51:00 <Domenic> Yves: you should ask Art for a call for CfC if you want to move faster
+13:51:19 <Domenic> JeniT: I think it's good enough for a first working draft
+13:51:49 <Domenic> dka: let's do this!
+13:52:25 <Domenic> wycats: we should find someone good to do the polyfill
+13:52:40 <Domenic> wycats: like maybe guy bedford who has done great module polyfills
+13:52:58 <Domenic> dka: can you contact him?
+13:53:12 <Domenic> wycats: i will ask him to come to tomorrow's developer meetup
+13:53:41 <Domenic> wycats: this is basically http2 in the browser, in the same way service worker is a server in the browser
+13:53:48 <Domenic> mnot: but it's http2 without any of the benefits
+13:53:56 <Domenic> wycats: umm ... no?
+13:54:01 <Domenic> mnot: i want to see some numbers
+13:54:42 <Noah> Noah has joined #tagmem
+13:55:51 <Domenic> plinss: we should use the new pub process
+13:56:03 <noah2> noah2 has joined #tagmem
+13:59:11 <noah2> OK, guessed that would likely happen. No prob. at all. Best guess on end of break?
+14:02:28 <JeniT> Topic: Capability URLs
+14:02:55 <Domenic> JeniT: the current draft came about because of some discussions about a year ago where we thought it'd be a good idea to put down some good practices around capability URLs
+14:03:21 <Domenic> JeniT: recognizing that people are using them; recognizing that there are issues with using them; and trying to get a balanced view between people who thing they're bad and those who think they're useful
+14:03:23 <JeniT> http://w3ctag.github.io/capability-urls/
+14:03:26 <Domenic> JeniT: we have a draft ^
+14:03:34 <JeniT> http://www.eecs.tufts.edu/~noah/w3c/capability-urls/2014-09-27-Noah.html
+14:03:38 <Domenic> JeniT: Noah has some comments he has created an amended version at ^
+14:04:43 <Domenic> noah2: (recaps comments from email)
+14:04:53 <Domenic> noah2: could be useful to give more "be careful" advise
+14:05:16 <noah2> http://lists.w3.org/Archives/Public/www-tag/2014Sep/0045.html
+14:05:40 <Domenic> noah2: substantive changes in section 4.1.2
+14:06:43 <Domenic> noah2: (recaps examples)
+14:07:17 <noah2> Punchline from example section: It is essential when deploying Capability URLs to analyze risks such as these and to ensure that countermeasures are appropriate to the requirements of the application. For some applications, Capability URLs will not provide sufficient security.
+14:08:08 <noah2> Deleted: If you have decided to use capability URLs, depending on the level of risk associated with the discovery of a capability URL, you should employ as many of the following security measures as possible.:
+14:08:20 <noah2> Replaced with: The sections above on Risks of Exposure highlight the challenges of protecting Capability URLs from unintented discovery. When considering use of Capbility URLs it is essential to ensure that such risks can me sufficiently mitigated to provide the security required for the each particular application. The following techniques are recommended and will in many cases provide adequate
+14:08:20 <noah2> security:
+14:09:07 <Domenic> dka: these changes look really good to me. i am happy with the balance
+14:09:10 <Domenic> JeniT: I'm happy
+14:09:54 <Domenic> timbl: did we discuss about browsers indicating capability URLs?
+14:10:01 <Domenic> JeniT: we did, 4.3 "Future Work"
+14:10:10 <JeniT> http://w3ctag.github.io/capability-urls/#future-work
+14:10:22 <noah2> I did not intentionally renumber an appendix to be a section.
+14:10:24 <noah2> oops
+14:10:30 <noah2> Never used respec before
+14:10:33 <Domenic> s/4.3/A/
+14:10:59 <Domenic> JeniT: outside the scope of this document, but in the scope of possible future work
+14:11:04 <Domenic> JeniT: mnot you said you had some comments?
+14:11:12 <Domenic> mnot: nah, i reviewed this a while back and was reasonably happy
+14:12:00 <Domenic> JeniT: we have got this out as a FPWD (the previous version)
+14:12:22 <Domenic> JeniT: there are a few bits I need help with; search for "Issue 1" and "Issue 2"
+14:12:33 <JeniT> http://googleonlinesecurity.blogspot.co.uk/2012/08/content-hosting-for-modern-web.html
+14:13:02 <JeniT> http://lists.w3.org/Archives/Public/www-tag/2014Jun/0003.html
+14:13:03 <noah2> One other thing that we don't need to discuss explicilty: I listed myself as editor for revised draft but that is not intended as a proposal that I be listed as editor of the final document (unless Jeni wants help with that)
+14:13:30 <Domenic> mnot: i would shy away from specific security recommendations
+14:13:43 <Domenic> Domenic: "consult your nearest security professional?"
+14:13:47 <Domenic> mnot/dka: yes
+14:14:04 <Domenic> plinss: but will people do that?
+14:14:13 <Domenic> dka: (this is regarding issue 2 btw)
+14:14:30 <Domenic> dka: this relates to a specific piece of mailing list feedback. did it provide anything more helpful, e.g. suggested tet?
+14:14:35 <Domenic> s/tet/text/
+14:15:15 <Domenic> JeniT: yes, it included some stuff I incoroporated, but not the hard part
+14:16:08 <Domenic> JeniT: can we find someone else who's written a fantastic guide on creating such URLs? Or shoudl we?
+14:17:10 <mnot> http://tools.ietf.org/html/bcp106
+14:17:20 <Domenic> dka: I think it's acceptable to say that it's not in the scope of this document
+14:17:28 <Domenic> timbl/Domenic: there are good xkcds on this subject ;)
+14:17:43 <Domenic> http://xkcd.com/221/
+14:17:56 <Domenic> http://xkcd.com/936/
+14:18:25 <noah2> You should get permission to include those images in the finding.
+14:18:42 <JeniT> noah2: I should get permission to include screenshots?
+14:18:51 <noah2> Said mostly in jest, but yes.
+14:19:02 <noah2> I meant of the xcds
+14:19:06 <JeniT> ah!
+14:19:17 <noah2> s/xcds/xkcds/
+14:20:05 <Domenic> Domenic: web crypto!
+14:20:09 <Domenic> wycats: uuid.js!
+14:20:14 <Domenic> JeniT: or some equivalent rubygem
+14:20:24 <Domenic> JeniT: basically saying "use someone that exists don't invent it yourself"
+14:20:46 <Domenic> dka/wycats: can we say "use something cryptographically secure"
+14:22:20 <slightlyoff> Very sorry for being late. OMW
+14:22:31 <dka> Suggested text fo address issue 2: 2nd para of 5.2 - cut our second sentence and insted just say “you should use the mechanisms cryptographically secure …”
+14:23:21 <JeniT> “you should use the cryptographically secure mechanisms available within your web application framework to create these secure random numbers, rather than trying to invent your own approach”
+14:23:43 <noah2> Is that actually in all cases good advice?
+14:23:44 <slightlyoff> E.g. webcrypto?
+14:23:53 <slightlyoff> Yes.
+14:23:54 <Domenic> +1
+14:23:57 <timbl> +
+14:23:58 <plinss> +1
+14:23:58 <timbl> 1
+14:24:04 <noah2> Are there not cases where a sophisticated corporation, e.g. would know to provide something better than the app framework?
+14:24:20 <timbl> s/+\n1/+1\n/
+14:24:23 <noah2> I think it would be better to say "you should typically use"
+14:24:29 <JeniT> ok
+14:24:45 <slightlyoff> Thanks
+14:24:51 <Yves> +1
+14:25:00 <twirl_> +1
+14:25:09 <dka> +1
+14:25:10 <slightlyoff> It's *always* good advice.
+14:25:31 <JeniT> “issue 1: http://w3ctag.github.io/capability-urls/#managing-access-on-sandboxed-domains”
+14:25:35 <Domenic> JeniT: OK what about issue 1
+14:25:37 <noah2> I suspect the NSA might disagree when they're using it for their own work, but you could be right.
+14:26:07 <slightlyoff> NSA has enough math majors on staff that they don't need our advice
+14:26:26 <slightlyoff> But if they *are* looking for a piece of my mind....
+14:26:34 <noah2> That doesn't make the "always" claim correct does it?
+14:27:03 <slightlyoff> Indistinguishable from "always" is "always"
+14:27:24 <Domenic> JeniT: I didn't understand this feedback enough to really incorporate it
+14:27:43 <Domenic> Domenic: maybe get in touch with the guy who submitted that feedback?
+14:27:48 <Domenic> JeniT: OK, I'll try that
+14:28:13 <Domenic> JeniT: once those are done I'd say it's ready for a new public working draft
+14:28:34 <Domenic> dka: shall we just say it's an agreed finding that we may amend as new information comes in?
+14:28:41 <slightlyoff> Gimmie 3 minutes
+14:28:48 <Domenic> JeniT: sure
+14:28:59 <noah2> Wanted to say that my additions were written in some haste. I would welcome tweaks Jeni might make to either the scenarios or the wording.
+14:29:00 <Domenic> JeniT: it's in /TR/ space currently
+14:29:57 <JeniT> noah2, no problem, I’ll fix up while incorporating
+14:30:27 <Domenic> dka: have findings previously been in TR space?
+14:30:39 <Domenic> noah2: not sure but I believe that the ones that become RECs are
+14:30:58 <Domenic> dka: so if it's REC track ...
+14:31:03 <Domenic> noah2: at times we made findings notes
+14:32:31 <noah2> There's been some history of the community not noticing Findings. Recommendations do get more visibility IMO and have more force, but you sometimes have to work through more process stuff (good and bad) to get there.
+14:32:33 <Domenic> dka: probably best to publish it *somewhere*, TR space may not be the best space
+14:33:13 <Domenic> dka: (recapping) TODO:
+14:33:15 <noah2> BTW: another usage scenario is: user gets Capability URL, user accesses Capability URL, the corporation for which he works logs all URI request, sysadmin finds the URL in the log.
+14:33:23 <Domenic> dka: 2 changes from Noah's draft into updated draft
+14:33:31 <Domenic> dka: change status from "draft" to "TAG finding"
+14:33:34 <noah2> FWIW: the status of document in Jeni's draft says "This is intended to become a TAG finding"
+14:34:09 <noah2> IMPORTANT: TAG Findings have historically been linked from: http://www.w3.org/2001/tag/findings
+14:34:19 <Domenic> Domenic: I think the strategy we like is gh-pages + proxy on w3.org
+14:35:09 <Domenic> Domenic/dka: we can also reduce boilerplate in document heading if it's not REC track, and we can CC0 it
+14:36:54 <slightlyoff> trying to dial in. DKA, can you add me on skype? I'm "alex.russell"
+14:45:03 <Domenic> Topic: Extensible Web Report Card
+14:45:49 <Domenic> slightlyoff: the EdgeConf panel on different image formats was relevant, about how it's not possible to polyfill new image formats or decompression algorithms on the client side in an extensible way
+14:46:36 <slightlyoff> what is an image that doesn't fit in memory?
+14:46:52 <Domenic> Domenic: with service worker you can do this for images that fit in memory. With streams, you can do it for images that don't fit in memory
+14:46:58 <slightlyoff> does any browser currently handle images like that?
+14:47:00 <Domenic> a video :). Or a 5 MB animated gif
+14:47:03 <Domenic> on a mobile phone
+14:47:53 <slightlyoff> yes
+14:47:55 <slightlyoff> navigator.connect()
+14:48:04 <slightlyoff> ah, yes, video
+14:48:29 <Domenic> (discussion turns to exposing hardware capabilities via service workers to allow hardware vendors and not browser vendors to add capabilities)
+14:48:32 <slightlyoff> Domenic: my example was something like new sensors mapped, e.g., to http://device.example.com/apis/v1/thinger/
+14:48:46 <Domenic> wycats: generally we haven't been spending much time talking about ways to add new device capabilities into the platform
+14:48:48 <Domenic> +1
+14:48:56 <slightlyoff> so you'd be able to do navigator.connect("https://device.example.com/apis/v1/thinger")
+14:49:01 <slightlyoff> .then(...)
+14:49:14 <Domenic> dka: let's pop back up from the specifics for one second...
+14:50:18 <Domenic> dka: we want to get the word out to the web developers about what we concretely mean with these extensible web design principles
+14:50:56 <slightlyoff> speaking of scrolling....
+14:51:00 <Domenic> dka: divide things into "Good" vs. "Needs improvement"
+14:51:07 <Domenic> wycats: anything to do with scrolling is "needs improvement"
+14:51:09 <slightlyoff> Apple has done as good thing in iOS 8 with scrolling
+14:51:23 <slightlyoff> they've started to dispatch events such that you can over-ride scrolling more easily
+14:51:31 <slightlyoff> and create your own behavior
+14:51:36 <Domenic> dka: caniextend.it
+14:51:37 <slightlyoff> and that's a great thing for extensibility
+14:52:49 <slightlyoff> I think it's a good idea
+14:53:03 <Domenic> +1
+14:53:19 <Domenic> dka: suggest Wednesday afternoon we collaboratively edit the document
+14:53:43 <slightlyoff> +1
+14:55:53 <slightlyoff> does IE optimize for ASM?
+14:56:05 <Domenic> slightlyoff: not yet but under development
+14:56:10 <Domenic> wycats: asm.js is good
+14:56:23 <Domenic> Domenic: CSS is needs improvement but there are a few steps in the right direction
+14:56:31 <Domenic> wycats: web components are not widely implemented yet
+14:56:34 <slightlyoff> oh, wow, it looks like IE 11 is doinga solid job on ASM
+14:56:52 <Domenic> dka: I think web components would be in the positive side
+14:57:16 <slightlyoff> custom elements are also the easiest thing to polyfill
+14:57:36 <slightlyoff> don't forget O.o and Mutation Observers
+14:57:44 <slightlyoff> we spent years on those = )
+14:57:52 <slightlyoff> and they talk about how other systems' semantics work
+14:58:22 <wycats> O.o has miles to go before we sleep
+14:58:33 <wycats> mutation observers are amazing
+14:59:12 <Domenic> slightlyoff: O.o and Mutation Observers help you understand how you would implement from the browsers perspective the dirty checking etc. that you do within a browser. They help you get grips on how the internal systems watch would otherwise be closed behaviors
+14:59:23 <Domenic> slightlyoff: so e.g. attribute and property values changing the behavior of a system
+14:59:54 <slightlyoff> CSP is interesting
+14:59:59 <slightlyoff> we don't have an API for it yet
+15:00:24 <slightlyoff> but it's good that it controls parts of the system that aren't otherwise controllable
+15:01:20 <slightlyoff> well, the CSP WG was responsive
+15:01:29 <slightlyoff> I wrote
+15:01:30 <slightlyoff> https://infrequently.org/2013/05/use-case-zero/
+15:02:56 <Domenic> slightlyoff: getting CSP to have more API is still in progress and is going well
+15:05:33 <slightlyoff> well, I wouldn't say "going well", I'd say "the window is open for us to collaborate with them again soon"
+15:05:39 <slightlyoff> ARIA is sad-making = (
+15:05:53 <slightlyoff> we don't have a lot of data
+15:06:00 <slightlyoff> e.g., how do I know that I'm in high-contrast mode?
+15:06:06 <slightlyoff> how do we know the zoom level?
+15:06:35 <slightlyoff> also, we should be calling out screen reader vendors for not doing this sort of thing correctly. They get a free pass too frequently
+15:06:51 <Domenic> Domenic: accessibility is not very extensible
+15:07:08 <slightlyoff> it's not shark-infested. It's opinion-infested. Data is immune to opinion
+15:07:30 <Domenic> dka: internationalization?
+15:07:48 <Domenic> wycats: the i18n ecmascript api seems OK? I am not sure.
+15:08:47 <Domenic> wycats: high-level APIs like the compass are underpinned by low-level sensors like a magnetometer. it would be ideal to expose the lower-level sensor
+15:09:43 <slightlyoff> whoa: http://blog.cloudflare.com/introducing-universal-ssl/
+15:11:02 <Domenic> dka: URL parsing?
+15:11:12 <Domenic> Domenic: yes. It previously was locked up in <a> and <base>. It is now exposed.
+15:11:29 <Domenic> wycats: archeaology -> extension
+15:11:38 <Domenic> dka: we should document that topic on this site
+15:13:38 <slightlyoff> document.all's falsyness is just a bug
+15:13:45 <slightlyoff> Brendan was too clever by half
+15:14:04 <Domenic> Domenic: the DOM. Being fixed from two sides: making DOM APIs more JavaScript-ey, and giving JS more capabilities to do powerful things like the DOM does
+15:14:08 <slightlyoff> we need to turn it off and call it a mistake
+15:14:21 <Domenic> wycats: yes, there are no longer host objects; there are exotic objects and users can create exotic objects
+15:14:23 <slightlyoff> there *is* a complexity cost to the system for all of these corner cases
+15:14:38 <slightlyoff> and something like the document.all hack need to die in the fire of history
+15:17:21 <slightlyoff> very sorry about that = |
+15:17:45 <Noah> Noah has joined #tagmem
+15:18:38 <Yves> +1
+15:18:38 <slightlyoff> will be there
+15:19:39 <Domenic> Topic: TPAC Hack on Service Worker
+15:20:17 <Domenic> wycats: will caches be implemented in Canary before TPAC?
+15:20:26 <Domenic> slightlyoff: yes
+15:20:31 <Domenic> slightlyoff: (behind a flag)
+15:20:37 <Domenic> slightlyoff: we also have a polyfill
+15:21:02 <slightlyoff> also, Jake's polyfill lives on: https://github.com/coonsta/cache-polyfill
+15:21:43 <Domenic> dka: how to schedule this?
+15:22:59 <Domenic> mnot: 15 minutes intro, 1-1.5 hour session?
+15:23:02 <Domenic> dka: longer!
+15:23:07 <Domenic> wycats: yes, many hours
+15:23:31 <Domenic> mnot: as long as there is a definite start time
+15:23:36 <Domenic> dka: all afternoon after lunch?
+15:23:54 <Domenic> (monday)
+15:25:18 <Domenic> dka: would it be bad to overlap with webapps?
+15:25:22 <Domenic> Yves: probably yes
+15:25:35 <Domenic> mnot: schedule for TPAC is 11am-3pm ad-hoc meetings
+15:25:54 <Domenic> plinss: a lot of WGs are scheduling joint meetings during that time
+15:27:13 <slightlyoff> QOTD: "TPAC agenda has no concept of lunch"
+15:27:33 <Domenic> dka: starting at 1, going until end of day
+15:27:38 <Domenic> mnot: some people might have to leave at 3
+15:27:43 <Domenic> (general agreement)
+15:29:34 <Domenic> slightlyoff: will we allow people to drop in who aren't officially attending TPAC?
+15:29:44 <Domenic> dka: i will ask, unsure whether it will work
+15:29:55 <slightlyoff> hah. Good point.
+15:30:00 <Domenic> dka: there are concerns about there being enough muffins
+15:32:20 <Domenic> slightlyoff: we should think harder about how to make it not an issue
+15:33:55 <slightlyoff> that said, I think it'd still be valuable
+15:34:03 <slightlyoff> getting browser vendors nearer to actual deployed tech is good
+15:34:07 <slightlyoff> sorry
+15:34:10 <slightlyoff> mute
+15:34:12 <slightlyoff> muted
+15:38:14 <Domenic> Topic: next f2f
+15:38:22 <Domenic> dka: current plan of record is april in san francisco
+15:38:34 <Domenic> dka: however, suboptimal for mark and i
+15:38:52 <Domenic> dka: mnot's proposal was june in melbourne
+15:39:42 <Domenic> mnot: except it's the middle of the winter
+15:40:17 <Domenic> Yves: there was a proposal for Paris as well
+15:41:30 <darobin> I need a heads-up some time in advance to make sure it works out, but I should be able to host a meeting at Le Tank (a nice co-working space)
+15:41:51 <Domenic> mnot: do we want to host another EWS event in April? The last one felt a little unfocused.
+15:43:02 <Domenic> dka: that's kind of the idea, as opposed to a normal conference...
+15:43:15 <Domenic> Domenic: I think the strongest sessions are the ones where implementers are involved
+15:43:21 <Domenic> mnot/wycats: agree
+15:46:17 <Domenic> dka: open to changing the format, making it more relevant, ...
+15:47:03 <Domenic> Domenic: maybe make use of the EdgeConf software? It was very useful
+15:48:38 <Domenic> (discussion of details of colocating with Fluent)
+16:00:34 <twirl> twirl has joined #tagmem
+16:06:40 <dka> adjourned
+16:16:21 <dka> rrsagent, make minutes
+16:16:21 <RRSAgent> I have made the request to generate http://www.w3.org/2014/09/29-tagmem-minutes.html dka
+16:16:26 <dka> rrsagent, make logs public
