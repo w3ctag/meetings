@@ -41,13 +41,13 @@ __Dominic:__ Also, we got a reply from Mark Watson (Netflix) on list, whic is go
 
 __Dominic:__ It'd be great to issue this as a finding that can be referenced as a TAG opinion when closing bugs on the spec.
 
-<mnot> s/Dominic/Domenic/g
+> **mnot** s/Dominic/Domenic/g
 
-<twirl> s/whic is/which is
+> **twirl** s/whic is/which is
 
-<mnot> [ group looks at document ]
+> **mnot** [ group looks at document ]
 
-<twirl> https://github.com/w3ctag/eme/blob/master/EME%20Opinion.md
+> **twirl** https://github.com/w3ctag/eme/blob/master/EME%20Opinion.md
 
 __Domenic:__ Sergey has an alternative design that he'll take to the group as potential future work.
 
@@ -57,11 +57,11 @@ __Domenic:__ We may still get EMEv2 or DRMv2 e.g., based upon public key cryptog
 
 __TimBL:__ I'd encouarge Sergey to do that.
 
-<twirl> Further reading: https://github.com/w3ctag/eme/pull/8
+> **twirl** Further reading: https://github.com/w3ctag/eme/pull/8
 
-<twirl> And http://lists.w3.org/Archives/Public/www-tag/2014Sep/0039.html
+> **twirl** And http://lists.w3.org/Archives/Public/www-tag/2014Sep/0039.html
 
-<mnot> [ group reviews pull request ]
+> **mnot** [ group reviews pull request ]
 
 __Domenic:__ Sergey proposed sections on fraud prevention, accessability, fair use, anti-circumvention
 
@@ -77,7 +77,7 @@ __Domenic:__ That could be OK; "attack vector" is better
 
 __Sergey:__ I agree with Domenic; this shouldn't be limited to criminal behaviour. I'm 100% sure that some vendors will give you a license with additional restrictions. So let's make it clear that the user has to be able to read the license.
 
-<JeniT> JeniT has joined #tagmem
+> **JeniT** JeniT has joined #tagmem
 
 __TimBL:__ ... or you could leave affordances for regulators so that they can make appropriate limitations.
 
@@ -89,9 +89,9 @@ __Domenic:__ "Fraud" is less concrete than "attacks"
 
 __ACTION:__ Domenic and Sergey to re-phrase "fraud" as "attacks"
 
-<trackbot> Created ACTION-876 - And sergey to re-phrase "fraud" as "attacks" [on Domenic Denicola - due 2014-10-07].
+> **trackbot** Created ACTION-876 - And sergey to re-phrase "fraud" as "attacks" [on Domenic Denicola - due 2014-10-07].
 
-<mnot> Next - Accessibility
+> **mnot** Next - Accessibility
 
 __Domenic:__ I don't think this works. It's saying that in a hypothetical future when they can translate video, we should punch a hole in EME for that technology.
 
@@ -121,9 +121,9 @@ __Domenic:__ yes.
 
 __ACTION:__ Domenic to add a note generally encouraging accessibility in EME opinion
 
-<trackbot> Created ACTION-877 - Add a note generally encouraging accessibility in eme opinion [on Domenic Denicola - due 2014-10-07].
+> **trackbot** Created ACTION-877 - Add a note generally encouraging accessibility in eme opinion [on Domenic Denicola - due 2014-10-07].
 
-<mnot> Next - fair use
+> **mnot** Next - fair use
 
 __Sergey:__ Amazon displays books in the browser, and you can't copy it. The HTML was a complete mess of iframes, etc.
 
@@ -145,7 +145,7 @@ __TimBL:__ Yes they do
 
 __JeniT:__ It was never there as far as I'm aware, at least called "fair use"
 
-<mnot> Torgo radiates joy
+> **mnot** Torgo radiates joy
 
 __Torgo:__ There's work going on on a EU copyright overhaul
 
@@ -157,7 +157,7 @@ __Sergey:__ video companies think that all copying of videos is illegal
 
 __Domenic:__ Do we want to soften this to something like "We know that DRM and Fair Use have been in conflict, and would encorage discussion"
 
-<mnot> [ derision erupts ]
+> **mnot** [ derision erupts ]
 
 __Torgo:__ My thinking is that it'd be useful to say something like "DRM often foils people from doing something that's legal for them to do, according to their copyright law. This issue is not addressed in this document."
 
@@ -195,9 +195,9 @@ __Domenic:__ That might be a good motivator for DRMv2
 
 __Domenic:__ Kill it?
 
-<mnot> [ group seems to agree ]
+> **mnot** [ group seems to agree ]
 
-<mnot> Next - Anti-Cirumvention law
+> **mnot** Next - Anti-Cirumvention law
 
 __Domenic:__ This is an interesting one; not sure what to do with it.
 
@@ -213,21 +213,21 @@ __Domenic:__ agreed, but it's a good problem to bring up
 
 __TimBL:__ why is this a legal problem?
 
-<Domenic> mnot: the problem is stated that there's legal exposure for people who try to do penetration testing. that's in the legal realm
+> **Domenic** mnot: the problem is stated that there's legal exposure for people who try to do penetration testing. that's in the legal realm
 
-<Domenic> timbl: so it's a problem that should be solved by changing the law, not changing the technology?
+> **Domenic** timbl: so it's a problem that should be solved by changing the law, not changing the technology?
 
-<Domenic> mnot: i don't see how else
+> **Domenic** mnot: i don't see how else
 
-<Domenic> timbl: well, if the whole setup was different (e.g. open source DRM), it would no longer be a legal problem
+> **Domenic** timbl: well, if the whole setup was different (e.g. open source DRM), it would no longer be a legal problem
 
-<Domenic> mnot: but that's a pretty radical thing to put into the document
+> **Domenic** mnot: but that's a pretty radical thing to put into the document
 
-<Domenic> timbl: agreed, not at this point, although a radical re-engineering is still a good idea over a longer timescale
+> **Domenic** timbl: agreed, not at this point, although a radical re-engineering is still a good idea over a longer timescale
 
-<Domenic> timbl: but we should raise the concern
+> **Domenic** timbl: but we should raise the concern
 
-<Domenic> mnot: indeed, if only to give affordances to lawymakers later
+> **Domenic** mnot: indeed, if only to give affordances to lawymakers later
 
 __Domenic:__ My intuition is that you couldn't design a spec to make it not possible to sue (sergey's suggestion)
 
@@ -273,9 +273,9 @@ __mnot:__ As long as we make it clear that we don't expect them to solve this pr
 
 __Domenic:__ I appreciate the notion that this could be built on top of web crypto, but don't think it's directly relevant
 
-<mnot> group resolves to rephrase, make it clear that this is an action for the TAG, not EME; make it clear that this is a security risk, put under security section ]
+> **mnot** group resolves to rephrase, make it clear that this is an action for the TAG, not EME; make it clear that this is a security risk, put under security section ]
 
-<mnot> Looking at Mark Watson's feedback
+> **mnot** Looking at Mark Watson's feedback
 
 __Domenic:__ There are four points.
 
@@ -335,7 +335,7 @@ __mnot:__ We're not writing a requirements document; it doesn't have to be compl
 
 __Domenic:__ Maybe he's concerned that we're mischaracterising it
 
-<mnot> [ side conversation between Domenic and Sergey ]
+> **mnot** [ side conversation between Domenic and Sergey ]
 
 __Domenic:__ Tim's point is that we shouldn't say "necessary for robustness" as if that were a feature for all DRM
 
@@ -355,25 +355,25 @@ __Torgo:__ Keep silent on the motivation
 
 __Domenic:__ That's it for EME
 
-<timbl> http://tag.w3ctag.org
+> **timbl** http://tag.w3ctag.org
 
-<plinss> https://pad.w3ctag.org/
+> **plinss** https://pad.w3ctag.org/
 
-<timbl> “
+> **timbl** “
 
-<timbl> The web address you've requested doesn't exist
+> **timbl** The web address you've requested doesn't exist
 
-<timbl> The web address you have requested is incorrect or does not exist. You could try amending the spelling or check the web address.
+> **timbl** The web address you have requested is incorrect or does not exist. You could try amending the spelling or check the web address.
 
-<timbl> “
+> **timbl** “
 
-<timbl> Pppht
+> **timbl** Pppht
 
-<mnot> [ group agreed to send this as spec feedback ]
+> **mnot** [ group agreed to send this as spec feedback ]
 
-<timbl> https://pad.w3ctag.org/p/eme
+> **timbl** https://pad.w3ctag.org/p/eme
 
-<Domenic> { "&" : "&"} ===> <json:string name="&amp;">&amp;</json:string>
+> **Domenic** { "&" : "&"} ===> <json:string name="&amp;">&amp;</json:string>
 
 
 __mnot:__ we've talked about captive portals a lot in the IETF and elsewhere
@@ -390,13 +390,13 @@ __mnot:__ we have a status code in HTTP for this, but you can't intercept that w
 
 __mnot:__ anecdotally I've been seeing fewer captive portals, just WiFi passwords
 
-<Domenic> (the room disagrees)
+> **Domenic** (the room disagrees)
 
 __mnot:__ a common use case is just showing some text before a user connects
 
-<Yves> well, ssl should show certificate issues if connected to a captive portal
+> **Yves** well, ssl should show certificate issues if connected to a captive portal
 
-<Domenic> (discussion of various problems with bad cert errors upon connecting to a network and how this is only getting worse)
+> **Domenic** (discussion of various problems with bad cert errors upon connecting to a network and how this is only getting worse)
 
 __timbl:__ i could see OS designers lying, saying "there is no network," until they can detect actual internet
 
@@ -420,11 +420,11 @@ __plinss:__ what about DHCP?
 
 __mnot:__ we're trying to get away from that; inherently insecure
 
-<plinss> s/plinss:/timbl:/
+> **plinss** s/plinss:/timbl:/
 
 __timbl:__ "here's your IP address; it's not going to work until you visit this web address"
 
-<Yves> DHCP is insecure, but still you configure your interface (and dns settings) using dhcp replies
+> **Yves** DHCP is insecure, but still you configure your interface (and dns settings) using dhcp replies
 
 __mnot:__ but because of how DHCP works, anyone can announce that to you, so it's a great way to phish someone in a coffeeshop
 
@@ -438,19 +438,19 @@ __mnot:__ well universities have alreayd solved this with e.g. eduroam...
 
 __plinss:__ (but it's still a crappy implementation)
 
-<dka> http://www.btplc.com/news/articles/showarticle.cfm?articleid=%7B2b5f7e38-2551-47d6-9d01-21f44cb25d26%7D
+> **dka** http://www.btplc.com/news/articles/showarticle.cfm?articleid=%7B2b5f7e38-2551-47d6-9d01-21f44cb25d26%7D
 
 __plinss:__ opportunity to invite some of the other parties around TPAC?
 
 __mnot:__ I was thinking more a full-day workshop. And TPAC is only a couple weeks away
 
-<mnot> https://github.com/httpwg/http-extensions/wiki/CaptivePortals
+> **mnot** https://github.com/httpwg/http-extensions/wiki/CaptivePortals
 
-<timbl> timbl has joined #tagmem
+> **timbl** timbl has joined #tagmem
 
 __plinss:__ I'd like to see an end result of "ideally, here's a spec for a good captive portal"
 
-<Domenic> (discussion of a "brand" for well-designed captive portals and related stuff)
+> **Domenic** (discussion of a "brand" for well-designed captive portals and related stuff)
 
 __mnot:__ my gut feeling is that this is a long-term thing
 
@@ -460,377 +460,375 @@ __plinss:__ perhaps adjacent to EWS in April
 
 __mnot:__ concrete next steps---work on the wiki, talk to people to set up a meeting, maybe come up with a plan for a plan
 
-<Zakim> Zakim has left #tagmem
+> **Zakim** Zakim has left #tagmem
 
-<timbl> Hitler reacts to the HTML5 URL normative reference controversy - See more at: http://meemsy.com/v/22036#sthash.I7RqFP9V.dpuf
+> **timbl** Hitler reacts to the HTML5 URL normative reference controversy - See more at: http://meemsy.com/v/22036#sthash.I7RqFP9V.dpuf
 
-<timbl> The last bit was snuck in by the site — how?
+> **timbl** The last bit was snuck in by the site — how?
 
-<twirl> ScribeNick: twirl
+> **twirl** ScribeNick: twirl
 
-<dka> Starting Up Again
+> **dka** Starting Up Again
 
 <a name="tooling"/>
 ### Topic: Tooling / Github / Etc…
 
-<twirl> mnot: <presented his concept of TAG homepage>
+> **twirl** mnot: <presented his concept of TAG homepage>
 
-<twirl> mnot: <shows script which uses Github API to get all issues>
+> **twirl** mnot: <shows script which uses Github API to get all issues>
 
-<twirl> mnot: <reviewing w3ctag repositories>
+> **twirl** mnot: <reviewing w3ctag repositories>
 
-<twirl> mnot: Markdown rules
+> **twirl** mnot: Markdown rules
 
-<twirl> mnot: The hardest decision is doing something with our home page
+> **twirl** mnot: The hardest decision is doing something with our home page
 
-<twirl> dka: I think it's a high priority task
+> **twirl** dka: I think it's a high priority task
 
-<twirl> dka: EME is a good example, it's actually spec review but it's not in spec reviews repo
+> **twirl** dka: EME is a good example, it's actually spec review but it's not in spec reviews repo
 
-<twirl> mnot: Chairs should control repo creation
+> **twirl** mnot: Chairs should control repo creation
 
-<twirl> [ disagreement ]
+> **twirl** [ disagreement ]
 
-<twirl> [ mnot is very persuasive ]
+> **twirl** [ mnot is very persuasive ]
 
-<twirl> [ discussion on whether github wiki is better than TAG Wiki or not ]
+> **twirl** [ discussion on whether github wiki is better than TAG Wiki or not ]
 
-<twirl> [ discussion on using wiki vs repos ]
+> **twirl** [ discussion on using wiki vs repos ]
 
-<twirl> mnot: Repos could be used offline
+> **twirl** mnot: Repos could be used offline
 
 <bkardell_> bkardell_ has joined #tagmem
 
-<twirl> mnot: And github wiki too :)
+> **twirl** mnot: And github wiki too :)
 
-<twirl> mnot: github wiki is a separate repo
+> **twirl** mnot: github wiki is a separate repo
 
-<twirl> [ mnot explains how HTTP2 repos are organized ]
+> **twirl** [ mnot explains how HTTP2 repos are organized ]
 
-<twirl> [ discussion on organizing indexes ]
+> **twirl** [ discussion on organizing indexes ]
 
-<twirl> dka: proposes (a) move to tag.w3.org -> w3tag.github.io, (b) move meeting organization to github, (c) move minutes to github
+> **twirl** dka: proposes (a) move to tag.w3.org -> w3tag.github.io, (b) move meeting organization to github, (c) move minutes to github
 
-<twirl> (d) move all current work to main page, (e) move EME to Spec Reviews repo, (f) clean up repos, (g) backup everything, (h) elaborate policy on repo creation
+> **twirl** (d) move all current work to main page, (e) move EME to Spec Reviews repo, (f) clean up repos, (g) backup everything, (h) elaborate policy on repo creation
 
-<twirl> mnot: are we ok with breaking URLs?
+> **twirl** mnot: are we ok with breaking URLs?
 
-<twirl> timbl: I think its important to preserve URLs
+> **twirl** timbl: I think its important to preserve URLs
 
-<twirl> s/its/it's
+> **twirl** s/its/it's
 
-<twirl> [ dka explains our current policy ]
+> **twirl** [ dka explains our current policy ]
 
-<twirl> plinss: let's proxy all URLs into W3C space
+> **twirl** plinss: let's proxy all URLs into W3C space
 
-<twirl> [ timbl explains how to convert cvs subtree ]
+> **twirl** [ timbl explains how to convert cvs subtree ]
 
-<twirl> [ plinss explains how to synchronize github and w3c space ]
+> **twirl** [ plinss explains how to synchronize github and w3c space ]
 
-<twirl> plinss: Minutes URLs MUST be preserved
+> **twirl** plinss: Minutes URLs MUST be preserved
 
-<twirl> dka: Having our documents in github, having clear repos are good ideas
+> **twirl** dka: Having our documents in github, having clear repos are good ideas
 
-<twirl> dka: But I'm very concerned about preserving URLs history
+> **twirl** dka: But I'm very concerned about preserving URLs history
 
-<twirl> [ general discussion ]
+> **twirl** [ general discussion ]
 
-<twirl> dka: We could put on our home page everything which changes rarely, and have a separate gh-page for current work
+> **twirl** dka: We could put on our home page everything which changes rarely, and have a separate gh-page for current work
 
-<twirl> mnot: I could try to convert our old stuff
+> **twirl** mnot: I could try to convert our old stuff
 
-<twirl> [ discussion on CVS -> git conversion ]
+> **twirl** [ discussion on CVS -> git conversion ]
 
-<twirl> mnot: what about gh issue tracker?
+> **twirl** mnot: what about gh issue tracker?
 
-<twirl> mnot: two trackers are confusing
+> **twirl** mnot: two trackers are confusing
 
-<twirl> [ historical joke from dka ]
+> **twirl** [ historical joke from dka ]
 
 <bkardell_> ...But GH is very Dev friendly
 
-<twirl> dka: the problem is that each repo has its own tracker, so you can't see all w3c tag issues
+> **twirl** dka: the problem is that each repo has its own tracker, so you can't see all w3c tag issues
 
-<twirl> mnot: let's use Arch tracker for long-living issues
+> **twirl** mnot: let's use Arch tracker for long-living issues
 
-<twirl> [ discussion on confusing trackers ]
+> **twirl** [ discussion on confusing trackers ]
 
-<JeniT> all issues: https://github.com/organizations/w3ctag/dashboard/issues/repos
+> **JeniT** all issues: https://github.com/organizations/w3ctag/dashboard/issues/repos
 
-<twirl> dka: let's setup a repository for "TAG" issues
+> **twirl** dka: let's setup a repository for "TAG" issues
 
-<twirl> dka: and close w3 issues
+> **twirl** dka: and close w3 issues
 
-<twirl> mnot: what to do with spec reviews wiki page? let's put in README in specreviews repo
+> **twirl** mnot: what to do with spec reviews wiki page? let's put in README in specreviews repo
 
-<twirl> [ dka tells the story about agendas in cvs ]
+> **twirl** [ dka tells the story about agendas in cvs ]
 
-<twirl> dka: let's move agendas to github
+> **twirl** dka: let's move agendas to github
 
-<twirl> mnot: what's the metrics of success?
+> **twirl** mnot: what's the metrics of success?
 
-<twirl> [ memes, videos, number of documents ... ]
+> **twirl** [ memes, videos, number of documents ... ]
 
 <a name="spec"/>
 ### Topic: Spec Reviews
 
-<twirl> Domenic: we were asked to review WebApps specs
+> **twirl** Domenic: we were asked to review WebApps specs
 
-<twirl> Domenic: WebCrypto is done
+> **twirl** Domenic: WebCrypto is done
 
-<twirl> twirl: Web Animations review is done
+> **twirl** twirl: Web Animations review is done
 
-<twirl> mnot: HTTP2 reviewed
+> **twirl** mnot: HTTP2 reviewed
 
-<twirl> [ reviewing w3c issue tracker ]
+> **twirl** [ reviewing w3c issue tracker ]
 
-<twirl> mnot: Get off My Lawn: closed
+> **twirl** mnot: Get off My Lawn: closed
 
-<twirl> http://lists.w3.org/Archives/Public/www-tag/2014Jun/0004.html
+> **twirl** http://lists.w3.org/Archives/Public/www-tag/2014Jun/0004.html
 
-<twirl> http://lists.w3.org/Archives/Public/www-tag/2014Jun/0002.html
+> **twirl** http://lists.w3.org/Archives/Public/www-tag/2014Jun/0002.html
 
-<twirl> mnot: CSS Regions?
+> **twirl** mnot: CSS Regions?
 
-<twirl> [ plinss explains elements flows ]
+> **twirl** [ plinss explains elements flows ]
 
-<twirl> dherman: Is there any progress with box trees?
+> **twirl** dherman: Is there any progress with box trees?
 
-<twirl> plinss: yes, we are moving
+> **twirl** plinss: yes, we are moving
 
 <bkardell_> Was a task force set up?
 
-<Yves> good also to put the discussed scope in the issue description
+> **Yves** good also to put the discussed scope in the issue description
 
-<twirl> [ looking at: CSP2, Mixed Content, Referrer Policy, ... ]
+> **twirl** [ looking at: CSP2, Mixed Content, Referrer Policy, ... ]
 
-<twirl> Domenic: I've reviewed Referrer spec, found some issues
+> **twirl** Domenic: I've reviewed Referrer spec, found some issues
 
-<twirl> [ mnot and Domenic take this issue ]
+> **twirl** [ mnot and Domenic take this issue ]
 
-<twirl> [ Domenic explains SRI problem ]
+> **twirl** [ Domenic explains SRI problem ]
 
-<twirl> mnot: there severals spec related to URL metadata
+> **twirl** mnot: there severals spec related to URL metadata
 
-<twirl> s/spec/specs
+> **twirl** s/spec/specs
 
-<twirl> s/there/there are
+> **twirl** s/there/there are
 
-<twirl> https://github.com/w3ctag/spec-reviews/issues/36#issuecomment-57311652
+> **twirl** https://github.com/w3ctag/spec-reviews/issues/36#issuecomment-57311652
 
-<twirl> Domenic: best way to do spec reviews is talking to author directly
+> **twirl** Domenic: best way to do spec reviews is talking to author directly
 
-<dherman> "on their turf" is a powerful point
+> **dherman** "on their turf" is a powerful point
 
-<dherman> "TAG is here as a service" <== good attitude
+> **dherman** "TAG is here as a service" <== good attitude
 
-<twirl> [ Screen Orientation is done ]
+> **twirl** [ Screen Orientation is done ]
 
-<dherman> "come over to my house and let me tell you how you're wrong" <== bad attitude
+> **dherman** "come over to my house and let me tell you how you're wrong" <== bad attitude
 
-<dherman> TAGaaS
+> **dherman** TAGaaS
 
-<twirl> [ multipart/form-data ]
+> **twirl** [ multipart/form-data ]
 
-<twirl> mnot: it's already Last Call
+> **twirl** mnot: it's already Last Call
 
-<JeniT> http://www.ietf.org/rfc/rfc2388.txt
+> **JeniT** http://www.ietf.org/rfc/rfc2388.txt
 
-<JeniT> (presumably the previous version)
+> **JeniT** (presumably the previous version)
 
-<twirl> Domenic: looks cool, there are tests
+> **twirl** Domenic: looks cool, there are tests
 
-<twirl> [ work suddenly stopped ]
+> **twirl** [ work suddenly stopped ]
 
-<twirl> https://github.com/w3ctag/spec-reviews/issues/34#issuecomment-57313078
+> **twirl** https://github.com/w3ctag/spec-reviews/issues/34#issuecomment-57313078
 
 __https:__//github.com/masinter/multipart-form-data/issues/17#issuecomment-48077041
 
-<twirl> [ reviewing multipart-form-data issues ]
+> **twirl** [ reviewing multipart-form-data issues ]
 
-<twirl> [ off-topic: mnot complains about implementing HTML5 ]
+> **twirl** [ off-topic: mnot complains about implementing HTML5 ]
 
-<twirl> [ agreed to propose something by TPAC ]
+> **twirl** [ agreed to propose something by TPAC ]
 
-<twirl> mnot: Wake Lock
+> **twirl** mnot: Wake Lock
 
-<twirl> Domenic: I'm already involved
+> **twirl** Domenic: I'm already involved
 
-<twirl> I'd prefer to have a simple API
+> **twirl** I'd prefer to have a simple API
 
-<twirl> s/I'd prefer/Domenic: I'd prefer
+> **twirl** s/I'd prefer/Domenic: I'd prefer
 
-<twirl> http://w3c.github.io/wake-lock/
+> **twirl** http://w3c.github.io/wake-lock/
 
-<twirl> [ reviewing proposed use-cases ]
+> **twirl** [ reviewing proposed use-cases ]
 
-<twirl> mnot; Full Screen: closed
+__mnot:__ Full Screen: closed
 
-<twirl> s/mnot;/mnot:
+> **twirl** mnot: Manifest?
 
-<twirl> mnot: Manifest?
+> **twirl** Domenic: It's for installable webapps; related to packaging
 
-<twirl> Domenic: It's for installable webapps; related to packaging
+> **twirl** mnot: WebRTC Identity Provider Selection
 
-<twirl> mnot: WebRTC Identity Provider Selection
+> **twirl** Domenic: bizzare thing, something like invisible iframe
 
-<twirl> Domenic: bizzare thing, something like invisible iframe
+> **twirl** https://github.com/w3ctag/spec-reviews/issues/28#issuecomment-57316875
 
-<twirl> https://github.com/w3ctag/spec-reviews/issues/28#issuecomment-57316875
+> **slightlyoff** OMW
 
-<slightlyoff> OMW
+> **slightlyoff** hey all
 
-<slightlyoff> hey all
+> **slightlyoff** terribly sorry
 
-<slightlyoff> terribly sorry
+> **slightlyoff** meant to join 2 hours ago and failed = \
 
-<slightlyoff> meant to join 2 hours ago and failed = \
+> **dom** dom has joined #tagmem
 
-<dom> dom has joined #tagmem
-
-<slightlyoff> worse in many, many ways = )
+> **slightlyoff** worse in many, many ways = )
 
 <a name="permissions"/>
 ### Topic: Permissions
 
-<slightlyoff> terribly sorry for how long that tool
+> **slightlyoff** terribly sorry for how long that tool
 
-<slightlyoff> s/tool/took/
+> **slightlyoff** s/tool/took/
 
-<dka> https://gist.github.com/slightlyoff/43cd8c2f64a0719358fe
+> **dka** https://gist.github.com/slightlyoff/43cd8c2f64a0719358fe
 
-<twirl> Alex: there are several key aspects
+> **twirl** Alex: there are several key aspects
 
-<twirl> ... you can request a permission at page load
+> **twirl** ... you can request a permission at page load
 
-<twirl> ... you may build UI using API calls results
+> **twirl** ... you may build UI using API calls results
 
-<twirl> ... all these things are async
+> **twirl** ... all these things are async
 
-<twirl> ... and user can always say no
+> **twirl** ... and user can always say no
 
-<twirl> ... we can imagine lighter UI than prompts if user trusts that app
+> **twirl** ... we can imagine lighter UI than prompts if user trusts that app
 
-<twirl> ... we have lots of experience with mobile apps sync permission dialogs, and its disappointing
+> **twirl** ... we have lots of experience with mobile apps sync permission dialogs, and its disappointing
 
-<twirl> ... there is a trade of remembering webapp permissions vs. leaking this information
+> **twirl** ... there is a trade of remembering webapp permissions vs. leaking this information
 
-<twirl> twirl: how to revoke permissions?
+> **twirl** twirl: how to revoke permissions?
 
-<twirl> Alex: I separated UI from API in a document
+> **twirl** Alex: I separated UI from API in a document
 
-<twirl> twirl: but how will webapp know its permission revoked?
+> **twirl** twirl: but how will webapp know its permission revoked?
 
-<twirl> Alex: ask each time
+> **twirl** Alex: ask each time
 
-<twirl> Domenic: but how to restyle UI?
+> **twirl** Domenic: but how to restyle UI?
 
-<twirl> Alex: probably perission change event
+> **twirl** Alex: probably perission change event
 
-<twirl> Dom: I like this proposal
+> **twirl** Dom: I like this proposal
 
-<twirl> ... we discussed those questions, I think it's a good starting point
+> **twirl** ... we discussed those questions, I think it's a good starting point
 
-<twirl> [ discussion on requests ]
+> **twirl** [ discussion on requests ]
 
-<twirl> Alex: the question is whether it reasonable to create separate APIs to each action
+> **twirl** Alex: the question is whether it reasonable to create separate APIs to each action
 
-<twirl> mnot: there is no easy answer, in mobile APIs too
+> **twirl** mnot: there is no easy answer, in mobile APIs too
 
-<twirl> Alex: you should have a freedom to change your mind
+> **twirl** Alex: you should have a freedom to change your mind
 
-<twirl> s/separate APIs/separate API requests
+> **twirl** s/separate APIs/separate API requests
 
-<twirl> Alex: we could do that in extensible way, with low-level API
+> **twirl** Alex: we could do that in extensible way, with low-level API
 
-<twirl> dom: It would be great if TAG provides more guidance on securing the Web
+> **twirl** dom: It would be great if TAG provides more guidance on securing the Web
 
-<slightlyoff> I am still working on the origin post, it's much harder
+> **slightlyoff** I am still working on the origin post, it's much harder
 
-<slightlyoff> so I have an idea of where we're going here
+> **slightlyoff** so I have an idea of where we're going here
 
-<slightlyoff> I can outline it briefly
+> **slightlyoff** I can outline it briefly
 
-<twirl> dom: We need a clear picture of future web security
+> **twirl** dom: We need a clear picture of future web security
 
-<twirl> Alex: there are good success stories from OSes, we should work on browser UI
+> **twirl** Alex: there are good success stories from OSes, we should work on browser UI
 
-<twirl> ... we should think about "installation" for webapps
+> **twirl** ... we should think about "installation" for webapps
 
-<slightlyoff> I don't think WG's are the right place to be litigating these issues
+> **slightlyoff** I don't think WG's are the right place to be litigating these issues
 
-<twirl> dom: we need even broader picture
+> **twirl** dom: we need even broader picture
 
-<slightlyoff> nearly all the important security UI is owned by the UA
+> **slightlyoff** nearly all the important security UI is owned by the UA
 
-<Domenic> permissions, origins, crypto, UI
+> **Domenic** permissions, origins, crypto, UI
 
-<slightlyoff> and that's increasing over time
+> **slightlyoff** and that's increasing over time
 
-<Domenic> (i really like this idea that we should lay out the landscape of how all those things interact)
+> **Domenic** (i really like this idea that we should lay out the landscape of how all those things interact)
 
 __Alex:__ we now have some legacy, files, we can't ask, for example, a single contact information
 
-<dka> ok thanks Dom!
+> **dka** ok thanks Dom!
 
 __timbl:__ I need to understand why app wants to have some particular access, I have to trust it completely
 
 __Alex:__ we may think for example about manifest, so user could understand what application is
 
-<twirl> ... I don't believe we have answers; for example, should permissions be granted to app working in iframe, etc
+> **twirl** ... I don't believe we have answers; for example, should permissions be granted to app working in iframe, etc
 
-<twirl> s/answers/all answers
+> **twirl** s/answers/all answers
 
-<twirl> [ timbl on peculiar requests bouncing in Chrome ]
+> **twirl** [ timbl on peculiar requests bouncing in Chrome ]
 
-<dka> dka has joined #tagmem
+> **dka** dka has joined #tagmem
 
-<twirl> [ discussing the problem of sending credentials with CORS ]
+> **twirl** [ discussing the problem of sending credentials with CORS ]
 
 __Alex:__ Credentials are the most valuable permission, more sensitive than raw socket access
 
 __timbl:__ imagine that I'm trying to write really good calendar, I need to be able to get information from all other sources
 
-<twirl> ... at present moment ony Facebook could be such super application
+> **twirl** ... at present moment ony Facebook could be such super application
 
-<twirl> ... that's reputation question
+> **twirl** ... that's reputation question
 
 __Alex:__ my experience tells that user doesn't understand what really happens
 
-<twirl> [ discussion on service workers which help to solve these problems ]
+> **twirl** [ discussion on service workers which help to solve these problems ]
 
 __dka:__ Dom asked could we document security model beyond permissions
 
-<timbl> timbl has joined #tagmem
+> **timbl** timbl has joined #tagmem
 
-<twirl> ... and that's an action for the TAG in my view
+> **twirl** ... and that's an action for the TAG in my view
 
 __Alex:__ I've been working on origins post
 
-<twirl> ... we need to evaluate question how much more could you trust smth, there is no answer right now
+> **twirl** ... we need to evaluate question how much more could you trust smth, there is no answer right now
 
-<twirl> ... Service Worker is a thing which controls origins since it sees all requests
+> **twirl** ... Service Worker is a thing which controls origins since it sees all requests
 
 __mnot:__ we have same problems with proxies
 
-<twirl> [ Service Worker Union, we need it ]
+> **twirl** [ Service Worker Union, we need it ]
 
-<timbl> http://www.seiu.org
+> **timbl** http://www.seiu.org
 
-<timbl> clientside proxy
+> **timbl** clientside proxy
 
-<slightlyoff> timbl: we avoided that because it doesn't describe the other background stuff we can do with it, e.g. responding to Push messages
+> **slightlyoff** timbl: we avoided that because it doesn't describe the other background stuff we can do with it, e.g. responding to Push messages
 
-<slightlyoff> timbl: also, I'm going to look into the XHR/fetch credentials thing and see what conditions we can relax it under
+> **slightlyoff** timbl: also, I'm going to look into the XHR/fetch credentials thing and see what conditions we can relax it under
 
 <a name="spec_cont"/>
 ### Topic: Spec Reviews (continued)
 
-<slightlyoff> thanks for bringing it up
+> **slightlyoff** thanks for bringing it up
 
 __mnot:__ Shadow DOM
 
-<twirl> [ awwwww ]
+> **twirl** [ awwwww ]
 
 __mnot:__ Closed!
 
@@ -846,11 +844,11 @@ __Alex:__ API is ok, but there could be some implementation problems
 
 __mnot:__ NFC API
 
-<slightlyoff> this API doesn't look half bad!
+> **slightlyoff** this API doesn't look half bad!
 
-<twirl> so many abbreviations
+> **twirl** so many abbreviations
 
-<slightlyoff> questions for NFC: what about "background" NFC? integration with SW's?
+> **slightlyoff** questions for NFC: what about "background" NFC? integration with SW's?
 
 __mnot:__ CSS Font Loading
 
@@ -858,23 +856,23 @@ __Domenic:__ nearly done
 
 __mnot:__ Web MIDID
 
-<twirl> s/MIDID/MIDI
+> **twirl** s/MIDID/MIDI
 
 __mnot:__ Closed
 
 __mnot:__ WebRTC
 
-<slightlyoff> I think we should perhps try to get the ORTC folks to present?
+> **slightlyoff** I think we should perhps try to get the ORTC folks to present?
 
-<slightlyoff> maybe have them talk to us?
+> **slightlyoff** maybe have them talk to us?
 
 __dka:__ let's organize a call
 
-<slightlyoff> thanks
+> **slightlyoff** thanks
 
-<slightlyoff> I would also like to let both "sides" know that we're paying attention
+> **slightlyoff** I would also like to let both "sides" know that we're paying attention
 
-<slightlyoff> and would like to see resolution + interop
+> **slightlyoff** and would like to see resolution + interop
 
 __mnot:__ Web Components
 
@@ -892,26 +890,26 @@ __mnot:__ Compositing and Blending
 
 __mnot:__ Closed
 
-<slightlyoff> the only thing about Push that's nasty is the verbosity in the API: https://w3c.github.io/push-api/#example
+> **slightlyoff** the only thing about Push that's nasty is the verbosity in the API: https://w3c.github.io/push-api/#example
 
-<slightlyoff> but otherwise I think it's in good shape
+> **slightlyoff** but otherwise I think it's in good shape
 
-<twirl> verbosity is better than letter-saving
+> **twirl** verbosity is better than letter-saving
 
 __Domenic:__ next time we should ask authors about preferred form of communication
 
-<slightlyoff> the call is SUPER static-y now
+> **slightlyoff** the call is SUPER static-y now
 
-<slightlyoff> gonna re-dial
+> **slightlyoff** gonna re-dial
 
-<slightlyoff> thanks
+> **slightlyoff** thanks
 
 <a name="privacy/>
 ### Topic: Privacy
 
 __mnot:__ I talked with Chrome and HTTP teams, they were frustrated with Privacy mode understanded by users
 
-<twirl> s/understanded/understood
+> **twirl** s/understanded/understood
 
 __mnot:__ people don't understand what Privacy Mode guarantees and what does not
 
@@ -921,21 +919,21 @@ __mnot:__ users and websites will learn what it means
 
 __mnot:__ it's probably a proper moment to act
 
-<slightlyoff> link?
+> **slightlyoff** link?
 
 __mnot:__ I tried to define what browser privacy mode is
 
 __mnot:__ hiding clues from other users of the computer
 
-<slightlyoff> I'd LOVE for sites to get unique storage in this mode
+> **slightlyoff** I'd LOVE for sites to get unique storage in this mode
 
 __mnot:__ hiding from external observers
 
 __mnot:__ hide identity from websites
 
-<slightlyoff> the measurement APIs are an area we can do better in a privacy mode
+> **slightlyoff** the measurement APIs are an area we can do better in a privacy mode
 
-<slightlyoff> also font access
+> **slightlyoff** also font access
 
 __dka:__ fingerprinting is important too; I can be okay with tracking in regular mode, but I'd like to be not tracked in privacy mode
 
@@ -953,7 +951,7 @@ __Alex:__ I think in privacy mode access to storages should be restricted
 
 __dherman:__ how could this affect the platform?
 
-<slightlyoff> specifically I was saying that you might be able to partition storage
+> **slightlyoff** specifically I was saying that you might be able to partition storage
 
 __mnot:__ spec editors will be aware of several browser modes
 
@@ -965,23 +963,22 @@ __dherman:__ it's a product decision, not platform
 
 __timbl:__ that's just a switcher saying "I will be embarassed if anyone knows"
 
-<timbl> s/knows/knows — it is up to the tech community t try to anctipate the attack vectors, not the user/
+> **timbl** s/knows/knows — it is up to the tech community t try to anctipate the attack vectors, not the user/
 
 __dka:__ there are too less knowledge about when you'd better use privacy modes
 
-<twirl> s/there are too less knowledge about/people know very little
+> **twirl** s/there are too less knowledge about/people know very little
 
 __JeniT:__ does this affect server-side?
 
 __mnot:__ in general not; maybe in a form of profiles and cookie politics
 
-<dka> adjourned
+> **dka** adjourned
 
-<slightlyoff> heading off
+> **slightlyoff** heading off
 
-<slightlyoff> later all!
+> **slightlyoff** later all!
 
-<dka> thx!
+> **dka** thx!
 
-<SteveF> SteveF has joined #tagmem
 
