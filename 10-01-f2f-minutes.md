@@ -17,14 +17,15 @@
 
 ### Contents
 
-- Security / Crypto
-- Yesterday's Event
-- URL
-- Modularization / future of specifiction...
-- Extensible Web Report Card
+- [Security / Crypto](#security)
+- [Yesterday's Event](#yesterday)
+- [URL](#url)
+- [Modularization / future of specifiction](#modularization)
+- [Extensible Web Report Card](#reportcard)
 
 ---
 
+<a name="security"/>
 ### Topic: Security / Crypto
 
 >  **wycats** Hiiii
@@ -171,7 +172,8 @@ __dka:__ unless someone doesn't WANT to work on something, expanding the reach o
 
 >  **virginie** thanks for listening, will keep you informed about the next achievement of chartering discussion
 
-### Topic: Yesterday's event
+<a name="event"/>
+### Topic: Yesterday's event & Web Developer Outreach
 
 __dka:__ where should we tell people to engage if they're interested
 
@@ -233,6 +235,7 @@ __domenic:__ "standards / developer interfacing"
 
 >  **mnot** http://w3ctag.github.io
 
+<a name="url"/>
 ### **wycats** Topic: URL
 
 >  **wycats** **discussion about TC39 and normative references**
@@ -589,6 +592,7 @@ __wycats__ : [agreed with the proviso that I feels that the WHATWG already adher
 
 >  **dka** This is the raw IRC log: http://www.w3.org/2014/10/01-tagmem-irc
 
+<a name="modularization"/>
 ### Topic: Modularization / future of specifiction...
 
  __darobin:__ I was hoping to have a prototype implementation of the ideas
@@ -661,6 +665,7 @@ __wycats__ : [agreed with the proviso that I feels that the WHATWG already adher
 
 >  **slightlyoff** morning all.
 
+<a name="reportcard"/>
 ### Topic: Extensible Web Report Card
 
 >  **dka_** hi alex!
