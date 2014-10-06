@@ -1,6 +1,8 @@
-## - DRAFT -
 ## W3C Technical Architecture Group face-to-face
-## October 1 
+### - DRAFT -
+### October 1 
+
+---
 
 ### Attendees
 
