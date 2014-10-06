@@ -1,1092 +1,1086 @@
+## - DRAFT -
+## W3C Technical Architecture Group face-to-face
+## October 1 
 
+## Attendees
+### Present: Daniel Appelquist, Tim Berners-Lee, Domenic Denicola, David Herman (afternoon), Yehuda Katz, Sergey Konstantinov, Yves Lafon, Peter Linss, Mark Nottingham, Alex Russell (afternoon)
+### Regrets: Jeni Tennison
+### Guests: Virginie Galinto (Security / Crypto), Robin Berjon (URL Session)
+### Chairs: Daniel Appelquist, Peter Linss
+### Scribes: Domenic Denicola, Yehuda Katz
 
-## W3C TAG
-## October 1 f2f Minutes
-## DRAFT
-## 
+## Contents
+### Security / Crypto
+### Yesterday's Event
+### URL
+### Modularization / future of specifiction...
+### Extensible Web Report Card
 
 ---
 
+### Topic: Security / Crypto
 
-> 00:49:29 **marcosc** marcosc has joined #tagmem
+>  **wycats** Hiiii
 
-> 05:01:35 **JeniT*** JeniT has joined #tagmem
+>  **virginie** note that I have created some material to discuss here https://www.w3.org/Security/wiki/images/9/98/Web_Authentication_and_other_security_services.pptx
 
-> 06:34:56 **SteveF** SteveF has joined #tagmem
+>  **SteveF** SteveF has joined #tagmem
 
-> 06:54:39 **timbl** timbl has joined #tagmem
+>  **dka_air** ok try https://purl-app.com/uhsh43uo
 
-> 07:23:38 **darobin** darobin has joined #tagmem
+>  **dka** ok
 
-> 07:45:14 **timbl** timbl has joined #tagmem
+>  **twirl** twirl has joined #tagmem
 
-> 08:00:23 **wycats** On my way, running late
+>  **wycats** Man London traffic in the morning is bad news
 
-> 08:05:32 **dka** dka has joined #tagmem
+>  **dka** trackbot, start meeting
 
-> 08:08:29 **virginie** virginie has joined #tagmem
+>  **trackbot** RRSAgent, make logs public
 
-> 08:09:33 **wycats** Hiiii
+>  **Zakim** Zakim has joined #tagmem
 
-> 08:17:15 **virginie** note that I have created some material to discuss here https://www.w3.org/Security/wiki/images/9/98/Web_Authentication_and_other_security_services.pptx
+>  **trackbot** Zakim, this will be TAG
 
-> 08:17:18 **SteveF** SteveF has joined #tagmem
+>  **Zakim** I do not see a conference matching that name scheduled within the next hour, trackbot
 
-> 08:18:38 **dka_air** ok try https://purl-app.com/uhsh43uo
+>  **trackbot** Meeting: Technical Architecture Group Teleconference
 
-> 08:19:50 **dka** ok
+>  **trackbot** Date: 01 October 2014
 
-> 08:20:55 **twirl** twirl has joined #tagmem
+>  **Domenic** ScribeNick: Domenic
 
-> 08:23:35 **wycats** Man London traffic in the morning is bad news
+ __dka:__ we are about to send over some technical feedback on the EME spec
 
-> 08:33:38 **dka** trackbot, start meeting
+ __dka:__ one of the points of discussion yesterday was about how in some jurisdictions it's illegal to do security testing of DRM mechanisms
 
-> 08:33:40 **trackbot** RRSAgent, make logs public
+ __dka:__ wondering if we could have some kind of process lever, similar to the patent policy, to compell W3C members who are part of the EME group to agree not to sue companies or individuals doing this kind of security testing
 
-> 08:33:40 **Zakim** Zakim has joined #tagmem
+ __dka:__ a good point of discussion between the TAG and the AB, as a new kind of policy-level thing
 
-> 08:33:42 **trackbot** Zakim, this will be TAG
+ __virginie:__ are you confident this is illegal?
 
-> 08:33:42 **Zakim** I do not see a conference matching that name scheduled within the next hour, trackbot
+ __domenic:__ yes, anti-circumvention law in the DMCA in the US
 
-> 08:33:43 **trackbot** Meeting: Technical Architecture Group Teleconference
+ __twirl:__ actually that's very controversial. In theory if you prove you have no intent to crack the system, you wouldn't be in trouble. But in practice it is used a lot.
 
-> 08:33:43 **trackbot** Date: 01 October 2014
+>  **twirl** http://en.wikipedia.org/wiki/United_States_v._ElcomSoft_and_Sklyarov
 
-> 08:33:45 **Domenic** ScribeNick: Domenic
+ __twirl:__ if I were a security specialist I would be scared
 
-08:34:11 __dka:__ we are about to send over some technical feedback on the EME spec
+ __dka:__ we thought this would be good to bring up because it's not a part of the technical feedback we want to give, but it is important feedback we want to give, if possible. We are not lawyers so we are not sure, but we wanted to bring it up.
 
-08:35:13 __dka:__ one of the points of discussion yesterday was about how in some jurisdictions it's illegal to do security testing of DRM mechanisms
+>  **twirl** s/to crack the system/to violate copyright
 
-08:36:26 __dka:__ wondering if we could have some kind of process lever, similar to the patent policy, to compell W3C members who are part of the EME group to agree not to sue companies or individuals doing this kind of security testing
+>  **virginie**  https://www.w3.org/Security/wiki/images/9/98/Web_Authentication_and_other_security_services.pptx
 
-08:37:21 __dka:__ a good point of discussion between the TAG and the AB, as a new kind of policy-level thing
+>  **virginie** https://www.w3.org/Security/wiki/IG/webcryptonext_workshop
 
-08:38:16 __virginie:__ are you confident this is illegal?
+ __virginie:__ (reviews slides)
 
-08:38:39 __domenic:__ yes, anti-circumvention law in the DMCA in the US
+ __virginie:__ it was asked which features you would be willing to contribute to in the WG?
 
-08:39:12 __twirl:__ actually that's very controversial. In theory if you prove you have no intent to crack the system, you wouldn't be in trouble. But in practice it is used a lot.
+ __virginie:__ (reviews wiki link)
 
-> 08:39:30 **twirl** http://en.wikipedia.org/wiki/United_States_v._ElcomSoft_and_Sklyarov
+ __virginie:__ it was unclear where to put new topics as they were raised; this is a more general W3C issue
 
-08:39:41 __twirl:__ if I were a security specialist I would be scared
+>  **virginie** http://lists.w3.org/Archives/Public/public-web-security/
 
-08:40:45 __dka:__ we thought this would be good to bring up because it's not a part of the technical feedback we want to give, but it is important feedback we want to give, if possible. We are not lawyers so we are not sure, but we wanted to bring it up.
+ __virginie:__ there were lots of non-members involved in the discussion, so we decided to have the conversation on public-web-security
 
-> 08:41:36 **twirl** s/to crack the system/to violate copyright
+>  **Domenic** Domenic: does webcrypto not have a public mailing list?
 
-> 08:50:13 **virginie**  https://www.w3.org/Security/wiki/images/9/98/Web_Authentication_and_other_security_services.pptx
+ __virginie:__ it is readable to all, but not writable to all
 
-> 08:54:43 **virginie** https://www.w3.org/Security/wiki/IG/webcryptonext_workshop
+ __virginie:__ also we did not want to disturb the progress on finalizing webcrypto
 
-08:56:00 __virginie:__ (reviews slides)
+ __domenic:__ sounds good :)
 
-08:56:27 __virginie:__ it was asked which features you would be willing to contribute to in the WG?
+ __virginie:__ the web security interest group does not have resources at the moment
 
-08:57:01 __virginie:__ (reviews wiki link)
+>  **Domenic** (next slide, "Other topics")
 
-08:58:24 __virginie:__ it was unclear where to put new topics as they were raised; this is a more general W3C issue
+ __Domenic:__ how much interest was there from implementers on new features for web crypto?
 
-> 08:58:29 **virginie** http://lists.w3.org/Archives/Public/public-web-security/
+ __virginie:__ definitely Microsoft is interested in having credentials or sensitive information being stored in something that is external to the browser
 
-08:58:54 __virginie:__ there were lots of non-members involved in the discussion, so we decided to have the conversation on public-web-security
+>  __virginie:__ Mozilla already has an implementation to integrate with **secure** element, but they are not interested in standardizing it
 
-> 08:59:30 **Domenic** Domenic: does webcrypto not have a public mailing list?
+>  **dka** https://wiki.mozilla.org/WebAPI/WebNFC#Fifth_iteration:_Secure_Element_.28Firefox_OS_v2.2.29
 
-08:59:40 __virginie:__ it is readable to all, but not writable to all
+>  __virginie:__ we could define a way to integrate with other secure (authentication) services, which could offer some of the stuff a **secure** element could offer, but we would want it to be as open as possible
 
-08:59:49 __virginie:__ also we did not want to disturb the progress on finalizing webcrypto
+>  **dka** cf http://www.w3.org/TR/nfc/
 
-08:59:56 __domenic:__ sounds good :)
+ __virginie:__ FIDO alliance is interested in secure tokens
 
-09:00:29 __virginie:__ the web security interest group does not have resources at the moment
+ __domenic:__ but they're not a browser vendor, right?
 
-> 09:00:44 **Domenic** (next slide, "Other topics")
+ __virginie:__ right
 
-09:01:27 __Domenic:__ how much interest was there from implementers on new features for web crypto?
+ __virginie:__ unclear whether these next steps are a high priority in the browsers
 
-09:01:56 __virginie:__ definitely Microsoft is interested in having credentials or sensitive information being stored in something that is external to the browser
+ __domenic:__ I am scared that you guys will do good work coming up with cool things and then it won't be implemented in browsers
 
-> 09:02:54 __virginie:__ Mozilla already has an implementation to integrate with **secure** element, but they are not interested in standardizing it
+>  **virginie** are you talking about http://mikewest.github.io/credentialmanagement/spec/
 
-> 09:03:27 **dka** https://wiki.mozilla.org/WebAPI/WebNFC#Fifth_iteration:_Secure_Element_.28Firefox_OS_v2.2.29
+>  **Domenic** yes
 
-> 09:03:46 __virginie:__ we could define a way to integrate with other secure (authentication) services, which could offer some of the stuff a **secure** element could offer, but we would want it to be as open as possible
+>  **Domenic** (Domenic asked about interest within webcrypto about that proposal)
 
-> 09:04:11 **dka** cf http://www.w3.org/TR/nfc/
+ __virginie:__ there is nothing too security-related here; we didn't have a chane to discuss it
 
-09:04:30 __virginie:__ FIDO alliance is interested in secure tokens
+ __virginie:__ also unclear where it should go
 
-09:04:36 __domenic:__ but they're not a browser vendor, right?
+ __virginie:__ maybe webapps
 
-09:04:37 __virginie:__ right
+>  **mnot** mnot has joined #tagmem
 
-09:05:14 __virginie:__ unclear whether these next steps are a high priority in the browsers
+ __virginie:__ probably doesn't need cryptographers to review it
 
-09:05:57 __domenic:__ I am scared that you guys will do good work coming up with cool things and then it won't be implemented in browsers
+ __virginie:__ maybe webappssec
 
-> 09:09:18 **virginie** are you talking about http://mikewest.github.io/credentialmanagement/spec/
+ __virginie:__ but once again no security concerns, it's basically about managing data
 
-> 09:09:57 **Domenic** yes
+>  **wycats** adoption hacks ðŸ‘
 
-> 09:10:20 **Domenic** (Domenic asked about interest within webcrypto about that proposal)
+>  **Domenic** Yves: webappssec would be a nice place to have this kind of work
 
-09:10:41 __virginie:__ there is nothing too security-related here; we didn't have a chane to discuss it
+>  **Domenic** Yves: they could help review to avoid e.g. exposing credentials when you don't want to
 
-09:10:46 __virginie:__ also unclear where it should go
+>  **Domenic** ScribeNick: wycats
 
-09:10:54 __virginie:__ maybe webapps
+>  **wycats** domenic: good job getting it over the finish line. I understand it was long and hard.
 
-> 09:11:03 **mnot** mnot has joined #tagmem
+>  **wycats** ... and shipping everywhere is good
 
-09:11:28 __virginie:__ probably doesn't need cryptographers to review it
+__virginie__ it's not done yet
 
-09:11:35 __virginie:__ maybe webappssec
+>  **twirl_** twirl_ has joined #tagmem
 
-09:11:52 __virginie:__ but once again no security concerns, it's basically about managing data
+__domenic:__ it's shipping!
 
-> 09:12:07 **wycats** adoption hacks ðŸ‘
+__virginie:__ we have to decide whether to include auth in the WebCrypto charter
 
-> 09:12:22 **Domenic** Yves: webappssec would be a nice place to have this kind of work
+>  **wycats** __.__.. we could use help to avoid creating thousands of working groups
 
-> 09:12:36 **Domenic** Yves: they could help review to avoid e.g. exposing credentials when you don't want to
+>  **wycats** __.__.. your advice would be helpful
 
-> 09:14:48 **Domenic** ScribeNick: wycats
+>  **wycats** ... would you create a new auth WG?
 
-> 09:15:25 **wycats** domenic: good job getting it over the finish line. I understand it was long and hard.
+__domenic:__ it really depends how people want to work
 
-> 09:15:31 **wycats** ... and shipping everywhere is good
+>  **wycats** ... for example the mega-web-apps WG seems to work fine
 
-> 09:15:41 **wycats** virginie: it's not done yet
+>  **wycats** ... other people may not
 
-> 09:15:44 **twirl_** twirl_ has joined #tagmem
+__wycats:__ it probably depends on whether the exact same group of people in an existing WG is the same group that needs to work on another work item
 
-> 09:15:46 **wycats** domenic: it's shipping!
+__dka:__ unless someone doesn't WANT to work on something, expanding the reach of an existing group seems better
 
-> 09:16:13 **wycats** virginie: we have to decide whether to include auth in the WebCrypto charter
+>  **wycats** ... **thanks virginie**
 
-> 09:16:26 **wycats** ... we could use help to avoid creating thousands of working groups
+>  **virginie** thanks for listening, will keep you informed about the next achievement of chartering discussion
 
-> 09:16:58 **wycats** ... your advice would be helpful
+### Topic: Yesterday's event
 
-> 09:17:07 **wycats** ... would you create a new auth WG?
+__dka:__ where should we tell people to engage if they're interested
 
-> 09:17:18 **wycats** domenic: it really depends how people want to work
+>  **wycats** ... specifically engagement on our developer activities
 
-> 09:17:26 **wycats** ... for example the mega-web-apps WG seems to work fine
+__mnot:__ perhaps we want a repo for meta-issues
 
-> 09:17:30 **wycats** ... other people may not
+__wycats:__ opening issues about developer meetups on github is weird
 
-> 09:18:20 **wycats** wycats: it probably depends on whether the exact same group of people in an existing WG is the same group that needs to work on another work item
+>  **wycats** ... I think specifiction is the new mailing list
 
-> 09:18:51 **wycats** dka: unless someone doesn't WANT to work on something, expanding the reach of an existing group seems better
+__mnot:__ who runs specifiction? w3c?
 
-> 09:19:21 **wycats** ... **thanks virginie**
+__dka:__ robin
 
-> 09:20:10 **virginie** thanks for listening, will keep you informed about the next achievement of chartering discussion
+>  **wycats** **scattered discussion about mailing lists**
 
-> 09:20:10 **wycats** Topic: Yesterday's event
+__dka:__ so specifiction
 
-> 09:20:34 **wycats** dka: where should we tell people to engage if they're interested
+>  **wycats** ... I feel like it should be an issue on Github
 
-> 09:20:54 **wycats** ... specifically engagement on our developer activities
+__domenic:__ I like Github
 
-> 09:21:15 **wycats** mnot: perhaps we want a repo for meta-issues
+>  **wycats** ... instead of having many mailing list, it seems Specifiction / Discourse's model is one big list
 
-> 09:21:48 **wycats** wycats: opening issues about developer meetups on github is weird
+>  **wycats** ... Github is a place to talk about concrete issues
 
-> 09:22:02 **wycats** ... I think specifiction is the new mailing list
+______wycats:__ The way Ember uses Discourse is as a place for unstructured comments that can get routed to Github Issues
 
-> 09:22:11 **wycats** mnot: who runs specifiction? w3c?
+__domenic:__ this is different from the WHATWG's use of mailing list
 
-> 09:22:14 **wycats** dka: robin
+>  **wycats** wycats: it's good to have a sense of what goes on Github, Stack Overflow, etc.
 
-> 09:23:44 **wycats** **scattered discussion about mailing lists**
+>  **wycats** ... but if you just semi-automatically close issues on Discourse, people feel bad
 
-> 09:23:50 **wycats** dka: so specifiction
+>  **wycats** ... this was our experience in Ember
 
-> 09:24:21 **wycats** ... I feel like it should be an issue on Github
+>  **wycats** **dka talks about developer participation in the summits**
 
-> 09:24:24 **wycats** domenic: I like Github
+__dka:__ it seems good to have a developer outreach component to our f2f meetups
 
-> 09:24:46 **wycats** ... instead of having many mailing list, it seems Specifiction / Discourse's model is one big list
+__wycats:__ it seems like the group of people who show up are from a closed circle
 
-> 09:25:04 **wycats** ... Github is a place to talk about concrete issues
+__dka:__ it depends on the city
 
-> 09:26:54 **wycats** wycats: The way Ember uses Discourse is as a place for unstructured comments that can get routed to Github Issues
+__wycats:__ I think that JS users are our dominant audience
 
-> 09:27:08 **wycats** domenic: this is different from the WHATWG's use of mailing list
+__dka:__ last night about 1/2 the audience didn't identify as JS developers
 
-> 09:29:31 **wycats** wycats: it's good to have a sense of what goes on Github, Stack Overflow, etc.
+__dka:__ so what's the topic in Discourse?
 
-> 09:29:54 **wycats** ... but if you just semi-automatically close issues on Discourse, people feel bad
+__domenic:__ "standards / developer interfacing"
 
-> 09:29:59 **wycats** ... this was our experience in Ember
+>  **darobin** darobin has joined #tagmem
 
-> 09:30:25 **wycats** **dka talks about developer participation in the summits**
+>  **dka** darobin ready to join us?
 
-> 09:30:41 **wycats** dka: it seems good to have a developer outreach component to our f2f meetups
+>  **darobin** sure!
 
-> 09:32:10 **wycats** wycats: it seems like the group of people who show up are from a closed circle
+>  **darobin** do I skype you?
 
-> 09:32:44 **wycats** dka: it depends on the city
+>  **darobin** or webrtc something?
 
-> 09:33:57 **wycats** wycats: I think that JS users are our dominant audience
+>  **mnot** http://w3ctag.github.io
 
-> 09:34:23 **wycats** dka: last night about 1/2 the audience didn't identify as JS developers
+### **wycats** Topic: URL
 
-> 09:35:45 **wycats** dka: so what's the topic in Discourse?
+>  **wycats** **discussion about TC39 and normative references**
 
-> 09:35:55 **wycats** domenic: "standards / developer interfacing"
+__wycats:__ the optics of this are very bad
 
-> 09:43:11 **darobin** darobin has joined #tagmem
+__domenic:__ please proceed Robin
 
-> 09:44:46 **dka** darobin ready to join us?
+__darobin:__ there's a lot of ground to cover
 
-> 09:44:50 **darobin** sure!
+>  **wycats** ... the core of the issue is whether the HTML specification can reference the URL specification normatively
 
-> 09:44:57 **darobin** do I skype you?
+>  **wycats** ... and in particular whether it's the WHATWG authored version or the W3C copy of it
 
-> 09:45:19 **darobin** or webrtc something?
+>  **wycats** ... from a technical perspective I think we're ok
 
-> 09:46:30 **mnot** http://w3ctag.github.io
+>  **wycats** ... the HTML spec is pretty modular
 
-> 09:48:10 **wycats** Topic: URL
+>  **wycats** ... but there are more complex social and political issues
 
-> 09:50:17 **wycats** **discussion about TC39 and normative references**
+__dka:__ this is related to an effort to get the HTML5 spec published
 
-> 09:51:25 **wycats** wycats: the optics of this are very bad
+>  **wycats** ... I had asked Philippe if the TAG could help
 
-> 09:52:17 **wycats** domenic: please proceed Robin
+>  **wycats** ... I had a goal of trying to figure out where we go from here
 
-> 09:52:38 **wycats** darobin: there's a lot of ground to cover
+>  **wycats** ... the initial feedback I had from Philippe is that we need a URL spec in W3C space
 
-> 09:52:55 **wycats** ... the core of the issue is whether the HTML specification can reference the URL specification normatively
+>  **wycats** ... so we talked about using the same approach as the DOM spc
 
-> 09:53:09 **wycats** ... and in particular whether it's the WHATWG authored version or the W3C copy of it
+>  **wycats** ... it's not a copy
 
-> 09:53:24 **wycats** ... from a technical perspective I think we're ok
+__wycats:__ in what important ways is it not a copy?
 
-> 09:53:31 **wycats** ... the HTML spec is pretty modular
+__dka:__ it's a reprint
 
-> 09:53:46 **wycats** ... but there are more complex social and political issues
+>  **wycats** ... but I didn't realize that WHATWG agreed to snapshots
 
-> 09:54:30 **wycats** dka: this is related to an effort to get the HTML5 spec published
+>  **wycats** ... and that there was ongoing IPR efforts
 
-> 09:54:39 **wycats** ... I had asked Philippe if the TAG could help
+>  **wycats** ... I don't think it was the right approach
 
-> 09:55:16 **wycats** ... I had a goal of trying to figure out where we go from here
+__wycats:__ in what way?
 
-> 09:55:34 **wycats** ... the initial feedback I had from Philippe is that we need a URL spec in W3C space
+__dka:__ because they were pointing to the CG W3C agreement
 
-> 09:55:48 **wycats** ... so we talked about using the same approach as the DOM spc
+>  **wycats** ... and a stronger approach would be to use the W3C patent policy
 
-> 09:56:02 **wycats** ... it's not a copy
+>  **wycats** wycats: it was not clear to me before that the normative reference requirements involve a policy that is as strict as the W3C
 
-> 09:56:12 **wycats** wycats: in what important ways is it not a copy?
+__dka:__ moving on...
 
-> 09:56:16 **wycats** dka: it's a reprint
+>  **wycats** ... we thought maybe there was a middle ground
 
-> 09:56:36 **wycats** ... but I didn't realize that WHATWG agreed to snapshots
+>  **darobin** q+ to try to process the three aspects of this separately
 
-> 09:56:47 **wycats** ... and that there was ongoing IPR efforts
+>  **JeniT** JeniT has joined #tagmem
 
-> 09:57:03 **wycats** ... I don't think it was the right approach
+>  **wycats** ... to make it explicit that the spec was a reprint
 
-> 09:57:06 **wycats** wycats: in what way?
+>  **wycats** ... but to get the stronger IPR from the Web Apps WG
 
-> 09:57:16 **wycats** dka: because they were pointing to the CG W3C agreement
+>  **wycats** ... it feels like we almost got there
 
-> 09:57:40 **wycats** ... and a stronger approach would be to use the W3C patent policy
+__wycats:__ am I correct in understanding that the current state of the debate is about which CSS stylesheet is applied to the document?
 
-> 09:58:38 **wycats** wycats: it was not clear to me before that the normative reference requirements involve a policy that is as strict as the W3C
+__dka:__ that would be very silly
 
-> 09:58:43 **wycats** dka: moving on...
+__wycats:__ I agree, that's why I phrased it that way ;)
 
-> 09:58:56 **wycats** ... we thought maybe there was a middle ground
+__darobin:__ there are several issues here
 
-> 09:58:59 **darobin** q+ to try to process the three aspects of this separately
+>  **wycats** ... 1) the core technical problems with URL
 
-> 09:59:01 **JeniT** JeniT has joined #tagmem
+>  **wycats** ... it is far from perfect
 
-> 09:59:12 **wycats** ... to make it explicit that the spec was a reprint
+>  **wycats** ... we have browsers that are not aligned with it
 
-> 09:59:23 **wycats** ... but to get the stronger IPR from the Web Apps WG
+>  **wycats** ... how do we unify URLs in browsers with how they are used in other systems
 
-> 09:59:39 **wycats** ... it feels like we almost got there
+>  **wycats** ... we probably can't solve it quickly
 
-> 10:00:26 **wycats** wycats: am I correct in understanding that the current state of the debate is about which CSS stylesheet is applied to the document?
+>  **wycats** ... 2) dka said that there was a controversy about what HTML needs to ship
 
-> 10:00:33 **wycats** dka: that would be very silly
+>  **wycats** ... and this was framed as requiring a W3C spec
 
-> 10:00:40 **wycats** wycats: I agree, that's why I phrased it that way ;)
+>  **darobin** http://www.w3.org/2013/09/normative-references
 
-> 10:00:46 **wycats** darobin: there are several issues here
+>  **Domenic** http://www.w3.org/community/w3process/track/issues/124
 
-> 10:01:09 **wycats** ... 1) the core technical problems with URL
+>  **wycats** ... the current normative reference draft provides a set of considerations
 
-> 10:01:13 **wycats** ... it is far from perfect
+__timbl:__ indeed. I was misquoted.
 
-> 10:01:22 **wycats** ... we have browsers that are not aligned with it
+>  **wycats** ... WHATWG specs can be referenced, but there are case-by-case considerations
 
-> 10:01:47 **wycats** ... how do we unify URLs in browsers with how they are used in other systems
+>  **wycats** ... that are defined by the normative reference guidelines
 
-> 10:02:18 **wycats** ... we probably can't solve it quickly
+>  **wycats** wycats: the mailing list post said "However, based on my conversations with Consortium staff last week, the Director will NOT permit a Proposed Recommendation to include a normative reference to a WHATWG spec"
 
-> 10:03:16 **wycats** ... 2) dka said that there was a controversy about what HTML needs to ship
+>  **wycats** ... and it would have been good to get clarification
 
-> 10:03:22 **wycats** ... and this was framed as requiring a W3C spec
+__timbl:__ it was hard to figure out how to reply
 
-> 10:04:21 **darobin** http://www.w3.org/2013/09/normative-references
+>  **wycats** ... for example marcos asked why W3C won't accept WHATWG as a peer org
 
-> 10:04:32 **Domenic** http://www.w3.org/community/w3process/track/issues/124
+__domenic:__ I would like that to get resolved
 
-> 10:04:40 **wycats** ... the current normative reference draft provides a set of considerations
+__timbl:__ for example, when you look at the WHATWG charter, it says it's a closed WG by invitation only
 
-> 10:05:22 **wycats** timbl: indeed. I was misquoted.
+>  **wycats** ... it's good to know the clear process
 
-> 10:05:36 **wycats** ... WHATWG specs can be referenced, but there are case-by-case considerations
+>  **wycats** ... the WHATWG advertises it as an invitation-only group
 
-> 10:05:45 **wycats** ... that are defined by the normative reference guidelines
+__darobin:__ my personal analysis is that the way that HTML interfaces with the URL spec is sufficiently modular and orthogonal that it's ok to reference something we know is going to be updated
 
-> 10:07:08 **wycats** wycats: the mailing list post said "However, based on my conversations with Consortium staff last week, the Director will NOT permit a Proposed Recommendation to include a normative reference to a WHATWG spec"
+>  **wycats** ... Domenic and I worked hard on figuring out a way to do joint applications
 
-> 10:07:13 **wycats** ... and it would have been good to get clarification
+>  **wycats** ... there are some issues right now but we can find agreement
 
-> 10:07:22 **wycats** timbl: it was hard to figure out how to reply
+>  **wycats** ... I thought the WHATWG did a friendly thing by handing over DOM parsing to W3C
 
-> 10:07:39 **wycats** ... for example marcos asked why W3C won't accept WHATWG as a peer org
+>  **Domenic** domparsing.spec.whatwg.org redirects to https://dvcs.w3.org/hg/innerhtml/raw-file/tip/index.html
 
-> 10:07:48 **wycats** domenic: I would like that to get resolved
+__dka:__ I think it's good to have HTML5 in the W3C
 
-> 10:08:11 **wycats** timbl: for example, when you look at the WHATWG charter, it says it's a closed WG by invitation only
+>  **darobin** and I heartily applaud that
 
-> 10:08:50 **wycats** ... it's good to know the clear process
+>  **Domenic** as it was realized the W3C is doing a better job there
 
-> 10:09:02 **wycats** ... the WHATWG advertises it as an invitation-only group
+__dka:__ enterprise IT consultants want to know that it's stable
 
-> 10:09:54 **wycats** darobin: my personal analysis is that the way that HTML interfaces with the URL spec is sufficiently modular and orthogonal that it's ok to reference something we know is going to be updated
+__timbl:__ people working in the government want to know if they should revise their procurement policy
 
-> 10:10:46 **wycats** ... Domenic and I worked hard on figuring out a way to do joint applications
+__dka:__ they find it important to know
 
-> 10:11:06 **wycats** ... there are some issues right now but we can find agreement
+>  **darobin** q+ to close that rathole
 
-> 10:11:42 **wycats** ... I thought the WHATWG did a friendly thing by handing over DOM parsing to W3C
+>  **wycats** wycats: nobody is waiting for HTML5 to ship in order to use features that are post-HTML4
 
-> 10:12:25 **Domenic** domparsing.spec.whatwg.org redirects to https://dvcs.w3.org/hg/innerhtml/raw-file/tip/index.html
+>  **wycats** ... I think it is self-evidently absurd to claim anything of the sort
 
-> 10:12:37 **wycats** dka: I think it's good to have HTML5 in the W3C
+__darobin:__ we're not going to get agreement
 
-> 10:12:38 **darobin** and I heartily applaud that
+>  **wycats** ... I would like to get it to REC to free up resources
 
-> 10:12:43 **Domenic** as it was realized the W3C is doing a better job there
+__domenic:__ a core issue is that it's a big web and many orgs doing many things
 
-> 10:13:19 **wycats** dka: enterprise IT consultants want to know that it's stable
+>  **wycats** ... it's unnecessarily combative
 
-> 10:13:37 **wycats** timbl: people working in the government want to know if they should revise their procurement policy
+>  **darobin** q?
 
-> 10:13:49 **wycats** dka: they find it important to know
+>  **darobin** ack dar
 
-> 10:14:58 **darobin** q+ to close that rathole
+>  **Zakim** darobin, you wanted to try to process the three aspects of this separately and to close that rathole
 
-> 10:16:03 **wycats** wycats: nobody is waiting for HTML5 to ship in order to use features that are post-HTML4
+__wycats:__ the high order bit is whether people are implementing
 
-> 10:16:16 **wycats** ... I think it is self-evidently absurd to claim anything of the sort
+__timbl:__ let me tell you a story
 
-> 10:16:21 **wycats** darobin: we're not going to get agreement
+>  **darobin** [timbl explains how W3C was the WHATWG before the WHATWG was cool]
 
-> 10:16:33 **wycats** ... I would like to get it to REC to free up resources
+>  **dka** Correction to what I said - I think itâ€™s good to have w3c html5 go to Rec.
 
-> 10:18:28 **wycats** domenic: a core issue is that it's a big web and many orgs doing many things
+>  **mnot** q+
 
-> 10:18:46 **wycats** ... it's unnecessarily combative
+>  **dka** q?
 
-> 10:18:52 **darobin** q?
+__timbl:__ you said the high order bit is that it's where "cool things are happening"
 
-> 10:18:54 **darobin** ack dar
+>  **mnot** q+
 
-> 10:18:54 **Zakim** darobin, you wanted to try to process the three aspects of this separately and to close that rathole
+>  **wycats** ... but what about closed membership?
 
-> 10:19:22 **wycats** wycats: the high order bit is whether people are implementing
+>  **darobin** +1 to Domenic
 
-> 10:19:38 **wycats** timbl: let me tell you a story
+__domenic:__ I think the WHATWG meets the criteria by any definition
 
-> 10:20:33 **darobin** [timbl explains how W3C was the WHATWG before the WHATWG was cool]
+>  **wycats** ... there is just a terminology issue
 
-> 10:21:16 **dka** Correction to what I said - I think itâ€™s good to have w3c html5 go to Rec.
+>  **dka** +1 as well, with explict respect to URL
 
-> 10:21:25 **mnot** q+
+>  **timbl** q?
 
-> 10:21:31 **dka** q?
+__dka:__ I think WHATWG meets the criteria 100%
 
-> 10:21:44 **wycats** timbl: you said the high order bit is that it's where "cool things are happening"
+>  **wycats** ... especially for URL
 
-> 10:21:46 **mnot** q+
+__mnot:__ I have historically been circumspect about the WHATWG
 
-> 10:22:01 **wycats** ... but what about closed membership?
+>  **wycats** ... it would be ok if it was closed to browser vendors
 
-> 10:22:03 **darobin** +1 to Domenic
+>  **wycats** ... but with a clear governance model
 
-> 10:22:18 **wycats** domenic: I think the WHATWG meets the criteria by any definition
+>  **wycats** ... but if the lawyers at browser vendors are ok with the WHATWG, it seems fine
 
-> 10:22:23 **wycats** ... there is just a terminology issue
+>  **mnot** http://tools.ietf.org/html/rfc2026#section-7.1
 
-> 10:22:23 **dka** +1 as well, with explict respect to URL
+__mnot:__ there is precedent for incorporating proprietary specifications
 
-> 10:22:48 **timbl** q?
+__wycats:__ and proprietary standards are strictly worse than what the WHATWG is doing
 
-> 10:23:30 **wycats** dka: I think WHATWG meets the criteria 100%
+__mnot:__ I don't think the high bar is actually required
 
-> 10:23:37 **wycats** ... especially for URL
+__domenic:__ and if you look at the OpenStand principles, I think it is very clear that we [the WHATWG] actually adhere very strongly to those
 
-> 10:24:21 **wycats** mnot: I have historically been circumspect about the WHATWG
+>  **wycats** http://imgs.xkcd.com/comics/standards.png
 
-> 10:24:35 **wycats** ... it would be ok if it was closed to browser vendors
+__dka:__ what does the IETF think
 
-> 10:24:42 **wycats** ... but with a clear governance model
+__mnot:__ we'll clean up whatever mess you guys make
 
-> 10:24:56 **wycats** ... but if the lawyers at browser vendors are ok with the WHATWG, it seems fine
+>  **dka** :)
 
-> 10:25:28 **mnot** http://tools.ietf.org/html/rfc2026#section-7.1
+>  **wycats** ... we are eagerly awaiting the results
 
-> 10:26:50 **wycats** mnot: there is precedent for incorporating proprietary specifications
+>  **wycats** ... many IETF people think that this could be solved via a preprocessing step
 
-> 10:27:20 **wycats** wycats: and proprietary standards are strictly worse than what the WHATWG is doing
+>  **wycats** ... where "this" means the difference between the WHATWG spec and the the RFC
 
-> 10:27:52 **wycats** mnot: I don't think the high bar is actually required
+>  **wycats** ... there is a difference between URIs and URLs
 
-> 10:27:59 **darobin** domenic: and if you look at the OpenStand principles, I think it is very clear that we [the WHATWG] actually adhere very strongly to those
+__Domenic and timbl:__ no
 
-> 10:28:27 **wycats** obligatory http://imgs.xkcd.com/comics/standards.png
+>  **wycats** wycats: real-world cases need to worry about the browser's version of "URL"
 
-> 10:29:10 **wycats** dka: what does the IETF think
+__timbl:__ keeping things as a preprocessor ("liberal" vs. "conservative" spec) is a good idea
 
-> 10:29:18 **wycats** mnot: we'll clean up whatever mess you guys make
+>  **Yves** wycats, which browser version. The unparsed one or the parsed one? (or both)
 
-> 10:29:28 **dka** :)
+__Yves:__ the semantics of a URL defined in the platform
 
-> 10:29:33 **wycats** ... we are eagerly awaiting the results
+>  **wycats** which includes both
 
-> 10:29:59 **wycats** ... many IETF people think that this could be solved via a preprocessing step
+__wycats:__ 100% of web servers in the real world do some error correction
 
-> 10:30:23 **wycats** ... where "this" means the difference between the WHATWG spec and the the RFC
+__darobin:__ we had to write a special server for the platform test
 
-> 10:30:50 **wycats** ... there is a difference between URIs and URLs
+__mnot:__ the WHATWG can own URL
 
-> 10:30:55 **wycats** Domenic and timbl: no
+__wycats:__ I like how the HTML5 parser works with "error states" + error correction
 
-> 10:33:37 **wycats** wycats: real-world cases need to worry about the browser's version of "URL"
+>  **darobin** http://galimatias.mola.io/
 
-> 10:33:51 **wycats** timbl: keeping things as a preprocessor ("liberal" vs. "conservative" spec) is a good idea
+>  **wycats** ... I think it's analogous to what Tim wants
 
-> 10:34:33 **Yves** wycats, which browser version. The unparsed one or the parsed one? (or both)
+>  **Domenic** there was also one in C
 
-> 10:34:51 **wycats** Yves: the semantics of a URL defined in the platform
+__domenic:__ can we normatively reference the WHATWG?
 
-> 10:34:58 **wycats** which includes both
+__dka:__ the TAG seems to have consensus
 
-> 10:35:22 **wycats** wycats: 100% of web servers in the real world do some error correction
+__dka:__ maybe we can scope to URL?
 
-> 10:35:35 **wycats** darobin: we had to write a special server for the platform test
+__domenic:__ we can try to make it precedent
 
-> 10:36:07 **wycats** mnot: the WHATWG can own URL
+>  **wycats** ... get rid of the bad blood
 
-> 10:38:13 **wycats** wycats: I like how the HTML5 parser works with "error states" + error correction
+__dka:__ the bad blood is there because there is a perception that that the WATWG actors have negative actions
 
-> 10:38:13 **darobin** http://galimatias.mola.io/
+>  **wycats** ... we have to end the fighting
 
-> 10:38:20 **wycats** ... I think it's analogous to what Tim wants
+__wycats:__ it's not doing anybody (the WHATWG included) any favors
 
-> 10:38:31 **Domenic** there was also one in C
+__dka and domenic__ confirm
 
-> 10:39:18 **wycats** domenic: can we normatively reference the WHATWG?
+__timbl:__ things have changed in 25 years
 
-> 10:39:26 **wycats** dka: the TAG seems to have consensus
+__.__.. we knew we were forking the IETF
 
-> 10:40:33 **wycats** dka: maybe we can scope to URL?
+>  **dka** correction: "also because there is a perception that the whatwg actors have..."
 
-> 10:40:44 **wycats** domenic: we can try to make it precedent
+>  **dka** key word "also" - there has been lots of negativity on both "sides" of this topic
 
-> 10:41:10 **wycats** ... get rid of the bad blood
+__tim:__ [suggests something needs to happen for w3c to consider whatwg to be a â€œfirst class standardsâ€ body]
 
-> 10:41:28 **wycats** dka: the bad blood is there because there is a perception that that the WATWG actors have negative actions
+>  **dka** [discussion now on what that would be]
 
-> 10:41:56 **wycats** ... we have to end the fighting
+>  **dka** My pereception is that it is a first class standards body.
 
-> 10:42:15 **wycats** wycats: it's not doing anybody (the WHATWG included) any favors
+__timbl:__ maybe we could look through the openstand principles and see if we would want to add things, to define how we should interact with any group
 
-> 10:42:22 **wycats** dka and domenic: confirm
+>  **wycats** I ____think it's very destructive to say that a standard that is interoperably implemented is "not a standard"
 
-> 10:44:34 **wycats** timbl: things have changed in 25 years
+>  **dka** Tim is talking about a specific thing when he mentions OpenStand: http://open-stand.org
 
-> 10:44:40 **wycats** ... we knew we were forking the IETF
+>  **darobin** more specifically http://open-stand.org/about-us/principles/
 
-> 10:44:41 **dka** correction â€œalso because there is a perception that the whatwg actors have ..."
+>  **dka** Indeed.
 
-> 10:45:08 **dka** key word â€œalsoâ€ - there has been lots of negativity on both â€œsidesâ€ of this topic
+>  **timbl** TLDR â€œI was a pretty respectful teenagerâ€
 
-> 10:46:49 **dka** tim: [suggests something needs to happen for w3c to consider whatwg to be a â€œfirst class standardsâ€ body]
+>  **wycats** TLDR "When I was a boy, children had respect for their elders" :P
 
-> 10:46:57 **dka** [discussion now on what that would be]
+>  **darobin** q+ to point out that the H264 case is at the extreme end of the spectrum
 
-> 10:47:14 **dka** My pereception is that it is a first class standards body.
+>  **darobin** ack mnot
 
-> 10:47:18 **darobin** timbl: maybe we could look through the openstand principles and see if we would want to add things, to define how we should interact with any group
+__wycats:__ is strict patent policy actually a requirement for normative references?
 
-> 10:47:38 **wycats** I think it's very destructive to say that a standard that is interoperably implemented is "not a standard"
+__domenic:__ points out that non-REC docs don't have patent commitments
 
-> 10:47:49 **dka** Tim is talking about a specific thing when he mentions OpenStand: http://open-stand.org
+__darobin:__ it would be awesome if the W3C would help the WHATWG with patent commitments
 
-> 10:48:09 **darobin** more specifically http://open-stand.org/about-us/principles/
+>  **wycats** ... for example, an experimental attempt to get patent commitments through the process
 
-> 10:48:25 **dka** Indeed.
+>  **dka** +1
 
-> 10:50:32 **timbl** TLDR â€œI was a pretty respectful teenagerâ€
+__domenic:__ via the CG FSA form
 
-> 10:51:05 **wycats** TLDR "When I was a boy, children had respect for their elders" :P
+__dka:__ telefonica is prepared to make a commitment through that mechanism
 
-> 10:53:47 **darobin** q+ to point out that the H264 case is at the extreme end of the spectrum
+>  **dka** confirmed
 
-> 10:53:52 **darobin** ack mnot
+__domenic:__ helping the WHATWG getting a better patent process in place is a good longer-term work item
 
-> 10:55:49 **wycats** wycats: is strict patent policy actually a requirement for normative references?
+>  **wycats** ... it seems like a new process would be helpful
 
-> 10:56:03 **wycats** domenic: points out that non-REC docs don't have patent commitments
+>  **wycats** 1+
 
-> 10:56:30 **wycats** darobin: it would be awesome if the W3C would help the WHATWG with patent commitments
+>  **wycats** q+
 
-> 10:56:46 **wycats** ... for example, an experimental attempt to get patent commitments through the process
+>  **darobin** q-
 
-> 10:56:55 **dka** +1
+>  **dka** https://pad.w3ctag.org/p/resolutions-1oct2014
 
-> 10:57:05 **wycats** domenic: via the CG FSA form
+>  **dka** q?
 
-> 10:57:32 **wycats** dka: telefonica is prepared to make a commitment through that mechanism
+>  **dka** A proposed resolution here: https://pad.w3ctag.org/p/resolutions-1oct2014 - please help me wordsmith this so that we can have lunch.
 
-> 10:58:30 **dka** confirmed
+>  **darobin** [I just want to go on the record as strongly supporting the idea that we as a community need to do a much better job at flagging what's implemented and what's a proposal]
 
-> 10:58:32 **wycats** domenic: helping the WHATWG getting a better patent process in place is a good longer-term work item
+>  **Domenic** +1
 
-> 10:59:07 **wycats** ... it seems like a new process would be helpful
+>  **wycats** wycats: if the W3C is pointing at a WHATWG spec that is interoperably implemented, it can sure it will not change
 
-> 11:01:23 **wycats** 1+
+>  **marcosc** marcosc has joined #tagmem
 
-> 11:01:24 **wycats** q+
+>  **wycats** **working on the resolution**
 
-> 11:01:28 **darobin** q-
+>  **dka** http://www.w3.org/2013/09/normative-references
 
-> 11:01:33 **dka** https://pad.w3ctag.org/p/resolutions-1oct2014
+>  **timbl** wycats, IPR in OpenStand is not very strong but is there â€” Affirming standards organizations have defined procedures to develop specifications that can be implemented under fair terms. Given market diversity, fair terms may vary from royalty-free to fair, reasonable, and non-discriminatory terms (FRAND).
 
-> 11:01:37 **dka** q?
+>  **JeniT** JeniT has joined #tagmem
 
-> 11:05:45 **dka** A proposed resolution here: https://pad.w3ctag.org/p/resolutions-1oct2014 - please help me wordsmith this so that we can have lunch.
+>  **dka** resolution: With regard to normative references from w3c documents, we agree that the whatwg adheres to open standards principles and that in principle there is no barrier to w3c documents refeferencing whatwg documents normatively. In the specific case of URL being rerefenced from HTML5, we recommend that the W3C HTML5 spec should reference the whatwg URL specification and that between W3C and WHATWG we should continue to resolve any remaining technical and editorial
 
-> 11:06:52 **darobin** [I just want to go on the record as strongly supporting the idea that we as a community need to do a much better job at flagging what's implemented and what's a proposal]
+>  **dka** issues in the spec.
 
-> 11:07:01 **Domenic** +1
+>  **dka** resolution: we are heartened that the WHATWG has made moves towards having a stronger IPR policy. We propose to issue a call for patent commitments via the WHATCG's FSA patent commitment form: http://blog.whatwg.org/make-patent-commitments
 
-> 11:07:18 **wycats** wycats: if the W3C is pointing at a WHATWG spec that is interoperably implemented, it can sure it will not change
+>  **dka** rrsagent, make minutes
 
-> 11:09:04 **marcosc** marcosc has joined #tagmem
+>  **RRSAgent** I have made the request to generate http://www.w3.org/2014/10/01-tagmem-minutes.html dka
 
-> 11:10:33 **wycats** **working on the resolution**
+>  **dka** rrsagent, make logs public
 
-> 11:10:52 **dka** http://www.w3.org/2013/09/normative-references
+>  **dka** hm...
 
-> 11:11:11 **timbl** wycats, IPR in OpenStand is not very strong but is there â€” Affirming standards organizations have defined procedures to develop specifications that can be implemented under fair terms. Given market diversity, fair terms may vary from royalty-free to fair, reasonable, and non-discriminatory terms (FRAND).
+>  **dka** This is the raw IRC log: http://www.w3.org/2014/10/01-tagmem-irc
 
-> 11:14:30 **JeniT** JeniT has joined #tagmem
+### Topic: Modularization / future of specifiction...
 
-> 11:15:11 **dka** resolution: With regard to normative references from w3c documents, we agree that the whatwg adheres to open standards principles and that in principle there is no barrier to w3c documents refeferencing whatwg documents normatively. In the specific case of URL being rerefenced from HTML5, we recommend that the W3C HTML5 spec should reference the whatwg URL specification and that between W3C and WHATWG we should continue to resolve any remaining technical and editorial
+ __darobin:__ I was hoping to have a prototype implementation of the ideas
 
-> 11:15:12 **dka** issues in the spec.
+>  **wycats** ... I'm behind schedule
 
-> 11:15:17 **dka** resolution: we are heartened that the WHATWG has made moves towards having a stronger IPR policy. We propose to issue a call for patent commitments via the WHATCG's FSA patent commitment form: http://blog.whatwg.org/make-patent-commitments
+>  **wycats** ... The feedback from the EWS was very positive
 
-> 11:23:34 **dka** rrsagent, make minutes
+>  **wycats** ... TLDR modularize HTML to make it easier to contribute to
 
-> 11:23:34 **RRSAgent** I have made the request to generate http://www.w3.org/2014/10/01-tagmem-minutes.html dka
+>  **wycats** ... put everything on Github
 
-> 11:23:39 **dka** rrsagent, make logs public
+>  **wycats** ... use Specifiction for broad feedback
 
-> 11:30:33 **dka** hm...
+>  **wycats** ... specific feedback on Github
 
-> 11:31:44 **dka** This is the raw IRC log: http://www.w3.org/2014/10/01-tagmem-irc
+>  **wycats** ... There was a general discussion about the "CSS Problem" aka millions of standards
 
-> 12:09:59 **dka** Topic: Modularization / future of specifiction...
+>  **wycats** ... Another thing that came up was that there's quite a bit of interest
 
-12:10:00 __darobin:__ I was hoping to have a prototype implementation of the ideas
+>  **wycats** ... people want to submit proposals
 
-> 12:10:10 **wycats** ... I'm behind schedule
+>  **wycats** ... also we want to standardize on bikeshed
 
-> 12:10:20 **wycats** ... The feedback from the EWS was very positive
+ __wycats:__ I talked about feature flags once features are being actively implemented so you can build a "canary" version of the spec vs. a "release" build
 
-> 12:10:53 **wycats** ... TLDR modularize HTML to make it easier to contribute to
+>  **wycats** ... as a way to enable a more "living standard" approach with more stability marking
 
-> 12:10:57 **RRSAgent** I have made the request to generate http://www.w3.org/2014/10/01-tagmem-minutes.html dka
+>  **Yves** stability markings... and implementation reports linked as well? (ala caniuse with a finer grain)
 
-> 12:10:57 **wycats** ... put everything on Github
+>  **wycats** **feedback is generally extremely useful**
 
-> 12:11:06 **wycats** ... use Specifiction for broad feedback
+ __wycats:__ Yves: yes, you would be able to attach implementation reports to a feature name
 
-> 12:11:10 **wycats** ... specific feedback on Github
+ __dka:__ it seems like there's a lot of synergistic work going on
 
-> 12:12:17 **wycats** ... There was a general discussion about the "CSS Problem" aka millions of standards
+ __darobin:__ we should all be paying attention to what each other are doing
 
-> 12:13:37 **wycats** ... Another thing that came up was that there's quite a bit of interest
+>  **wycats** my closing slide from my talk yesterday: http://note.io/1rGZOo3
 
-> 12:14:17 **wycats** ... people want to submit proposals
+ __dka:__ so what's the plan?
 
-> 12:14:24 **wycats** ... also we want to standardize on bikeshed
+ __darobin:__ some tooling and then some experimental work on pulling out a few initial things
 
-12:21:49 __wycats:__ I talked about feature flags once features are being actively implemented so you can build a "canary" version of the spec vs. a "release" build
+ __domenic:__ it seems weird to have the W3C do the modularity work
 
-> 12:22:10 **wycats** ... as a way to enable a more "living standard" approach with more stability marking
+>  **wycats** ... given that it originates with the WHATWG
 
-> 12:22:51 **Yves** stability markings... and implementation reports linked as well? (ala caniuse with a finer grain)
+ __darobin:__ it's more of a proof of concept
 
-> 12:22:54 **wycats** **feedback is generally extremely useful**
+>  **wycats** ... some of the work will be on new features
 
-12:23:16 __wycats:__ Yves: yes, you would be able to attach implementation reports to a feature name
+ __plinss:__ is this like the CSS model (for new work only)
 
-12:24:08 __dka:__ it seems like there's a lot of synergistic work going on
+ __darobin:__ we'll start that way
 
-12:24:22 __darobin:__ we should all be paying attention to what each other are doing
+>  **wycats** ... but it's important to know what's been superseded
 
-> 12:25:34 **wycats** my closing slide from my talk yesterday: http://note.io/1rGZOo3
+ __domenic:__ be clear this is proof of concept so as not to confuse developers, other standards people, etc.
 
-12:26:27 __dka:__ so what's the plan?
+ __darobin:__ sounds good
 
-12:26:41 __darobin:__ some tooling and then some experimental work on pulling out a few initial things
+>  **JeniT** JeniT has joined #tagmem
 
-12:28:03 __domenic:__ it seems weird to have the W3C do the modularity work
+ __wycats:__ this isn't intended to be hostile, so let's make sure that we don't come off that way by accident
 
-> 12:28:12 **wycats** ... given that it originates with the WHATWG
+ __domenic:__ I liked the way you described the different venues for feedback
 
-12:28:17 __darobin:__ it's more of a proof of concept
+>  **dka_** dka_ has joined #tagmem
 
-> 12:28:36 **wycats** ... some of the work will be on new features
+>  **slightlyoff** morning all.
 
-12:29:17 __plinss:__ is this like the CSS model (for new work only)
+### Topic: Extensible Web Report Card
 
-12:29:24 __darobin:__ we'll start that way
+>  **dka_** hi alex!
 
-> 12:29:41 **wycats** ... but it's important to know what's been superseded
+>  **dka_** we are about to start in on extensible web report card brainstorming
 
-12:35:37 __domenic:__ be clear this is proof of concept so as not to confuse developers, other standards people, etc.
+>  **dka_** can you join?
 
-12:35:40 __darobin:__ sounds good
+>  **slightlyoff** yep
 
-> 12:36:03 **JeniT** JeniT has joined #tagmem
+>  **dka_** domenic will be live-editing an etherpad and we hope to transfer this over to a github repo before the end of the day
 
-12:36:23 __wycats:__ this isn't intended to be hostile, so let's make sure that we don't come off that way by accident
+>  **Domenic** https://pad.w3ctag.org/p/ew_report_card
 
-12:37:05 __domenic:__ I liked the way you described the different venues for feedback
+>  **slightlyoff** and you still can't participte in serializing something that submits a file
 
-> 12:45:54 **dka_** dka_ has joined #tagmem
+>  **slightlyoff** do y'all have a camera on? I can't see London
 
-> 12:48:12 **slightlyoff** morning all.
+>  **slightlyoff** no worries
 
-> 12:48:16 **dka_** hi alex!
+>  **Zakim** Zakim has left #tagmem
 
-> 12:48:31 **dka_** we are about to start in on extensible web report card brainstorming
+>  **slightlyoff** isn't there work on ambient light sensors?
 
-> 12:48:34 **dka_** can you join?
+>  **slightlyoff** https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/AAtN0xjI9Gc
 
-> 12:48:41 **slightlyoff** yep
+>  **slightlyoff** brb, coffee
 
-> 12:48:54 **dka_** domenic will be live-editing an etherpad and we hope to transfer this over to a github repo before the end of the day
+>  **slightlyoff** back,s orry
 
-> 12:50:44 **Domenic** https://pad.w3ctag.org/p/ew_report_card
+>  **slightlyoff** so I'm not 100% sold that ASM.js plays well with others; its default model makes FFI hard from JS and doesn't exactly have a mapping to DOM
 
-> 12:52:04 **slightlyoff** and you still can't participte in serializing something that submits a file
+>  **slightlyoff** it's good, and enabling, but I'm not sure it's "there"
 
-> 12:54:51 **slightlyoff** do y'all have a camera on? I can't see London
+>  **slightlyoff** minor quibbles
 
-> 12:57:34 **slightlyoff** no worries
+>  **slightlyoff** on it
 
-> 13:02:04 **Zakim** Zakim has left #tagmem
+>  **Domenic** wycats: see slightlyoff's take above ^
 
-> 13:10:08 **slightlyoff** isn't there work on ambient light sensors?
+ __slightlyoff:__ ðŸ‘
 
-> 13:10:34 **slightlyoff** https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/AAtN0xjI9Gc
+ __wycats:__ move to is disruptive in class?
 
-> 13:36:55 **slightlyoff** brb, coffee
+>  **wycats** hm
 
-> 13:44:02 **slightlyoff** back,s orry
+>  **wycats** I am concerned
 
-> 13:44:47 **slightlyoff** so I'm not 100% sold that ASM.js plays well with others; its default model makes FFI hard from JS and doesn't exactly have a mapping to DOM
+>  **wycats** because I am unsure if FFI ever can be optimal
 
-> 13:45:05 **slightlyoff** it's good, and enabling, but I'm not sure it's "there"
+>  **wycats** what do you mean by mapping to DOM?
 
-> 13:45:19 **slightlyoff** minor quibbles
+>  **wycats** I agree that these are good things to research
 
-> 13:47:04 **slightlyoff** on it
+>  **Domenic** it seems like it could be as optimal as the C++ DOM **-** JS mappings that exist
 
-> 13:47:22 **Domenic** wycats: see slightlyoff's take above ^
+>  **wycats** sure
 
-13:47:34 __slightlyoff:__ ðŸ‘
+>  **Domenic** you should be able to get s/C++ DOM/asm.js
 
-13:48:06 __wycats:__ move to is disruptive in class?
+ __dherman:__ what do you know about this?
 
-> 13:48:15 **wycats** hm
+>  **wycats** could in theory be more optimal
 
-> 13:48:18 **wycats** I am concerned
+>  **wycats** since you could imagine stronger inlining
 
-> 13:48:31 **wycats** because I am unsure if FFI ever can be optimal
+>  **wycats** but I don't know
 
-> 13:48:40 **wycats** what do you mean by mapping to DOM?
+>  **dherman** we've talked about ways to improve the FFI
 
-> 13:48:46 **wycats** I agree that these are good things to research
+>  **dherman** I agree it's an area that needs research
 
-> 13:48:51 **Domenic** it seems like it could be as optimal as the C++ DOM **-** JS mappings that exist
+>  **dherman** it's better than its competitors at FFI ;)
 
-> 13:48:58 **wycats** sure
+>  **wycats** lolol
 
-> 13:49:01 **Domenic** you should be able to get s/C++ DOM/asm.js
+>  **slightlyoff** "better than competitors at FFI" -- I want that shirt
 
-13:49:05 __dherman:__ what do you know about this?
+>  **slightlyoff** "ASM.js -- it's not SWIG"
 
-> 13:49:29 **wycats** could in theory be more optimal
+>  **dka** dka has joined #tagmem
 
-> 13:49:34 **wycats** since you could imagine stronger inlining
+>  **slightlyoff** brb
 
-> 13:49:40 **wycats** but I don't know
+>  **slightlyoff** agree that the event loop is something we can call out
 
-> 13:50:22 **dherman** we've talked about ways to improve the FFI
+>  **slightlyoff** also, coordination with other threads
 
-> 13:50:28 **dherman** I agree it's an area that needs research
+>  **slightlyoff** e.g., render thread
 
-> 13:50:36 **dherman** it's better than its competitors at FFI ;)
+>  **slightlyoff** audio thread
 
-> 13:51:32 **wycats** lolol
+>  **slightlyoff** etc.
 
-> 13:51:45 **slightlyoff** "better than competitors at FFI" -- I want that shirt
+>  **wycats** sniffing is not exposed
 
-> 13:51:56 **slightlyoff** "ASM.js -- it's not SWIG"
+>  **wycats** would be a trivial API
 
-> 14:03:51 **dka** dka has joined #tagmem
+>  **wycats** window.sniff(blob) :P
 
-> 14:17:48 **slightlyoff** brb
+>  **wycats** window.ðŸ‘ƒ(blob)
 
-> 14:18:04 **slightlyoff** agree that the event loop is something we can call out
+>  **slightlyoff** back, sorry
 
-> 14:18:10 **slightlyoff** also, coordination with other threads
+>  **wycats** welcome back
 
-> 14:18:21 **slightlyoff** e.g., render thread
+>  **slightlyoff** what is this URL?
 
-> 14:18:23 **slightlyoff** audio thread
+>  **slightlyoff** can someone paste it here?
 
-> 14:18:24 **slightlyoff** etc.
+>  **wycats** unknown
 
-> 14:24:48 **wycats** sniffing is not exposed
+>  **dka** dka has joined #tagmem
 
-> 14:24:52 **wycats** would be a trivial API
+>  **Domenic** http://w3ctag.github.io/extensible-web-report-card/ but wanted it auto-generated from markdown so that's not good...
 
-> 14:24:57 **wycats** window.sniff(blob) :P
+>  **slightlyoff** thanks
 
-> 14:25:09 **wycats** window.ðŸ‘ƒ(blob)
+>  **twirl** looks ok to me
 
-> 14:29:29 **slightlyoff** back, sorry
+>  **twirl** except fonts
 
-> 14:30:20 **wycats** welcome back
+>  **slightlyoff** so a question
 
-> 14:30:20 **slightlyoff** what is this URL?
+>  **slightlyoff** the Scrolling section says "scrolling is a fundamentally native capability", but I don't think this is true
 
-> 14:30:25 **slightlyoff** can someone paste it here?
+>  **slightlyoff** input handling is
 
-> 14:30:44 **wycats** unknown
+>  **slightlyoff** scrolling is what a system does in response to input handling
 
-> 14:34:23 **dka** dka has joined #tagmem
+>  **slightlyoff** disconnected = \
 
-> 14:35:17 **Domenic** http://w3ctag.github.io/extensible-web-report-card/ but wanted it auto-generated from markdown so that's not good...
+>  **slightlyoff** will get coffee = )
 
-> 14:35:42 **slightlyoff** thanks
+>  **Domenic** wycats ^
 
-> 14:37:15 **twirl** looks ok to me
+>  **wycats** hello
 
-> 14:37:19 **twirl** except fonts
+>  **Yves** disconnected as well, needs to drop soon anyway
 
-> 14:38:28 **slightlyoff** so a question
+>  **slightlyoff** so I'm pretty sure that the bit that isn't being currently standardized for push is the low-level protoocol set (e.g., GCM)
 
-> 14:38:49 **slightlyoff** the Scrolling section says "scrolling is a fundamentally native capability", but I don't think this is true
+>  **wycats** what I mean is that what happens when the user moves his finger is always intermediated by the system
 
-> 14:38:51 **slightlyoff** input handling is
+>  **wycats** and trying to reinvent that in JS is insane
 
-> 14:39:06 **slightlyoff** scrolling is what a system does in response to input handling
+>  **wycats** and basically impossible to do reliably
 
-> 14:40:30 **slightlyoff** disconnected = \
+>  **wycats** finger/mouse/etc
 
-> 14:40:46 **slightlyoff** will get coffee = )
+>  **slightlyoff** that doesn't make sense to me
 
-> 14:41:02 **Domenic** wycats ^
+>  **wycats** then I'm being unclear
 
-> 14:41:08 **wycats** hello
+>  **slightlyoff** the reason we can't do it reliably is that we haven't been given events
 
-> 14:41:10 **Yves** disconnected as well, needs to drop soon anyway
+>  **slightlyoff** at least not until recently
 
-> 14:41:34 **slightlyoff** so I'm pretty sure that the bit that isn't being currently standardized for push is the low-level protoocol set (e.g., GCM)
+>  **wycats** deny
 
-> 14:41:36 **wycats** what I mean is that what happens when the user moves his finger is always intermediated by the system
+>  **wycats** we have the events
 
-> 14:41:41 **wycats** and trying to reinvent that in JS is insane
+>  **wycats** the user moved his finger
 
-> 14:41:48 **wycats** and basically impossible to do reliably
+>  **slightlyoff** no, we don't
 
-> 14:41:55 **wycats** finger/mouse/etc
+>  **wycats** how fast should the content move in the viewport?
 
-> 14:41:59 **slightlyoff** that doesn't make sense to me
+>  **slightlyoff** I know from an engine perspective that we weren't giving them to you
 
-> 14:42:05 **wycats** then I'm being unclear
+>  **slightlyoff** up to the program.
 
-> 14:42:08 **slightlyoff** the reason we can't do it reliably is that we haven't been given events
+>  **wycats** how do you know if the user meant to scroll or click?
 
-> 14:42:12 **slightlyoff** at least not until recently
+>  **wycats** it's actually NOT up to the program
 
-> 14:42:13 **wycats** deny
+>  **slightlyoff** sure it is
 
-> 14:42:16 **wycats** we have the events
+>  **wycats** you do NOT want to do that
 
-> 14:42:19 **wycats** the user moved his finger
+>  **wycats** no
 
-> 14:42:19 **slightlyoff** no, we don't
+>  **wycats** absolutely not
 
-> 14:42:31 **wycats** how fast should the content move in the viewport?
+>  **slightlyoff** I *MIGHT* want to do that
 
-> 14:42:31 **slightlyoff** I know from an engine perspective that we weren't giving them to you
+>  **wycats** you might
 
-> 14:42:44 **slightlyoff** up to the program.
+>  **wycats** it is good to be able to
 
-> 14:42:46 **wycats** how do you know if the user meant to scroll or click?
+>  **slightlyoff** and when I do, the system damned well better let me
 
-> 14:42:50 **wycats** it's actually NOT up to the program
+>  **wycats** but in most cases you want the system to decide things like momentum, what happens when you get to the top, etc.
 
-> 14:42:55 **slightlyoff** sure it is
+>  **wycats** because they are OS-wide policies
 
-> 14:42:56 **wycats** you do NOT want to do that
+>  **wycats** and you would like consistency with the OS
 
-> 14:42:57 **wycats** no
+>  **wycats** trying to reverse engineer the OS policy *per device* and write JS libraries is crazy
 
-> 14:43:00 **wycats** absolutely not
+>  **wycats** people do it and it's horrible
 
-> 14:43:06 **slightlyoff** I *MIGHT* want to do that
+>  **wycats** they end up just applying the iOS policy to android
 
-> 14:43:08 **wycats** you might
+>  **wycats** etc.
 
-> 14:43:12 **wycats** it is good to be able to
+>  **wycats** and when iOS tweaks the global policy, you're stuck with an old algorithm
 
-> 14:43:14 **slightlyoff** and when I do, the system damned well better let me
+>  **slightlyoff** sorry...was getting coffee
 
-> 14:43:28 **wycats** but in most cases you want the system to decide things like momentum, what happens when you get to the top, etc.
+>  **slightlyoff** so you get to decide: do you want to empower developers or not?
 
-> 14:43:34 **wycats** because they are OS-wide policies
+>  **wycats** you would like a way to delegate to the native policy but still understand what is happening so you can put things on the moving element
 
-> 14:43:39 **wycats** and you would like consistency with the OS
+>  **wycats** deny
 
-> 14:43:59 **wycats** trying to reverse engineer the OS policy *per device* and write JS libraries is crazy
+>  **wycats** layering bro
 
-> 14:44:03 **wycats** people do it and it's horrible
+>  **slightlyoff** if the answer is yes, then we must accept that there will be both high and low level
 
-> 14:44:11 **wycats** they end up just applying the iOS policy to android
+>  **wycats** there is always an intermediate layer
 
-> 14:44:12 **wycats** etc.
+>  **slightlyoff** and not deny developers the low-level power just because there is high-level interaction
 
-> 14:44:31 **wycats** and when iOS tweaks the global policy, you're stuck with an old algorithm
+>  **wycats** which does the native functionality with hooks
 
-> 14:44:46 **slightlyoff** sorry...was getting coffee
+>  **wycats** that is the hardest part of web dev
 
-> 14:44:56 **slightlyoff** so you get to decide: do you want to empower developers or not?
+>  **slightlyoff** I think you're used to having your SDK fused into the platform
 
-> 14:44:59 **wycats** you would like a way to delegate to the native policy but still understand what is happening so you can put things on the moving element
+>  **wycats** it's where "rebuilding the stack" happens the most
 
-> 14:45:02 **wycats** deny
+>  **slightlyoff** in a really unhelpful way
 
-> 14:45:04 **wycats** layering bro
+>  **wycats** disagree
 
-> 14:45:06 **slightlyoff** if the answer is yes, then we must accept that there will be both high and low level
+>  **wycats** people want the ability to have consistency with the native SDK on the web
 
-> 14:45:25 **wycats** there is always an intermediate layer
+>  **slightlyoff** look at "pull to refresh" as a gesture
 
-> 14:45:30 **slightlyoff** and not deny developers the low-level power just because there is high-level interaction
+>  **wycats** not always
 
-> 14:45:34 **wycats** which does the native functionality with hooks
+>  **wycats** but sometimes
 
-> 14:45:53 **wycats** that is the hardest part of web dev
+>  **slightlyoff** it didn't come from iOS
 
-> 14:45:56 **slightlyoff** I think you're used to having your SDK fused into the platform
+>  **slightlyoff** or android
 
-> 14:45:59 **wycats** it's where "rebuilding the stack" happens the most
+>  **slightlyoff** it came from programs having the freedom and power to do the Right Thing (TM) becaues they had low-level, synchronous access to events
 
-> 14:46:02 **slightlyoff** in a really unhelpful way
+>  **wycats** not originally
 
-> 14:46:06 **wycats** disagree
+>  **wycats** you're misunderstanding me but I don't know why
 
-> 14:46:14 **wycats** people want the ability to have consistency with the native SDK on the web
+>  **wycats** I absolutely want people to have access to the low level
 
-> 14:46:17 **slightlyoff** look at "pull to refresh" as a gesture
+>  **wycats** absolutely 100%
 
-> 14:46:17 **wycats** not always
+>  **slightlyoff** great, then we agree
 
-> 14:46:19 **wycats** but sometimes
+>  **wycats** but I think you can assume that once you've done that you're "done"
 
-> 14:46:26 **slightlyoff** it didn't come from iOS
+>  **wycats** or once you've done that plus the high level you're "done"
 
-> 14:46:28 **slightlyoff** or android
+>  **wycats** and I'm saying there's a specific interaction that is the hard part
 
-> 14:46:49 **slightlyoff** it came from programs having the freedom and power to do the Right Thing (TM) becaues they had low-level, synchronous access to events
+>  **wycats** that we do very poorly
 
-> 14:46:50 **wycats** not originally
+>  **wycats** which is the interaction between content and native display/interactions
 
-> 14:46:59 **wycats** you're misunderstanding me but I don't know why
+>  **slightlyoff** thinking specifically about scrolling, it's hard
 
-> 14:47:05 **wycats** I absolutely want people to have access to the low level
+>  **slightlyoff** so there's a threaded scrolling system in most impls
 
-> 14:47:08 **wycats** absolutely 100%
+>  **slightlyoff** where a texture is sent to a separate thread to move in order to prevent main-thread jank
 
-> 14:47:19 **slightlyoff** great, then we agree
+>  **slightlyoff** (this is slow, BTW, but less janky)
 
-> 14:47:19 **wycats** but I think you can assume that once you've done that you're "done"
+>  **slightlyoff** "native" apps don't do this
 
-> 14:47:28 **wycats** or once you've done that plus the high level you're "done"
+>  **slightlyoff** they just implement scrolling in direct response in their input handling thread
 
-> 14:47:35 **wycats** and I'm saying there's a specific interaction that is the hard part
+>  **slightlyoff** and now we're in a place with beforescroll that we can hint the system to say "no, I want to behave like a real boy and do my scrolling on the main thread"
 
-> 14:47:38 **wycats** that we do very poorly
+>  **slightlyoff** "don't context switch me, bro"
 
-> 14:47:49 **wycats** which is the interaction between content and native display/interactions
+>  **slightlyoff** this is both potentially quite a bit faster/more-responsive and more like what "regular" programs can do
 
-> 14:48:31 **slightlyoff** thinking specifically about scrolling, it's hard
+>  **slightlyoff** but it means taking over the control
 
-> 14:48:38 **slightlyoff** so there's a threaded scrolling system in most impls
+>  **slightlyoff** by _switching model_
 
-> 14:48:52 **slightlyoff** where a texture is sent to a separate thread to move in order to prevent main-thread jank
+>  **slightlyoff** the alternative is to expose the off-thread scroll behavior and...I dunno...invent a "scroll worker"?
 
-> 14:49:03 **slightlyoff** (this is slow, BTW, but less janky)
+>  **slightlyoff** but that's not actually something anyone wants
 
-> 14:49:10 **slightlyoff** "native" apps don't do this
+>  **slightlyoff** and we frequently have this issue where control means switching systems or models
 
-> 14:49:32 **slightlyoff** they just implement scrolling in direct response in their input handling thread
+>  **slightlyoff** e.g., JS and __proto__
 
-> 14:49:57 **slightlyoff** and now we're in a place with beforescroll that we can hint the system to say "no, I want to behave like a real boy and do my scrolling on the main thread"
+>  **slightlyoff** you go slow path for using it
 
-> 14:50:14 **slightlyoff** "don't context switch me, bro"
+>  **slightlyoff** it's the price of control
 
-> 14:50:40 **slightlyoff** this is both potentially quite a bit faster/more-responsive and more like what "regular" programs can do
+>  **slightlyoff** there seems to me to be something fundamental in the idea that you'll have 2 systems and, as much as everyone hates it, it's unavoidable
 
-> 14:50:48 **slightlyoff** but it means taking over the control
+>  **wycats** I agree
 
-> 14:50:56 **slightlyoff** by _switching model_
+>  **slightlyoff** I think dherman makes this point frequently and better than I can
 
-> 14:51:13 **slightlyoff** the alternative is to expose the off-thread scroll behavior and...I dunno...invent a "scroll worker"?
+>  **wycats** :P
 
-> 14:51:33 **slightlyoff** but that's not actually something anyone wants
+>  **wycats** I think this point of interaction is the key thing that triggers stack rebuilding
 
-> 14:51:46 **slightlyoff** and we frequently have this issue where control means switching systems or models
+>  **wycats** so if you don't want people to have to rebuild stacks
 
-> 14:51:53 **slightlyoff** e.g., JS and __proto__
+>  **wycats** you need to contend with it
 
-> 14:52:01 **slightlyoff** you go slow path for using it
+>  **slightlyoff** yeah
 
-> 14:52:07 **slightlyoff** it's the price of control
+>  **slightlyoff** and there needs to be general advice to implementers in the form of "get over it"
 
-> 14:53:29 **slightlyoff** there seems to me to be something fundamental in the idea that you'll have 2 systems and, as much as everyone hates it, it's unavoidable
+>  **wycats** similar things happen with form elements
 
-> 14:53:37 **wycats** I agree
+>  **wycats** you have to choose between "black box" and "I'll do it myself"
 
-> 14:53:40 **slightlyoff** I think dherman makes this point frequently and better than I can
+>  **slightlyoff** yep yep
 
-> 14:53:45 **wycats** :P
+>  **dherman** what'd I do?
 
-> 14:53:58 **wycats** I think this point of interaction is the key thing that triggers stack rebuilding
+>  **slightlyoff** hah
 
-> 14:54:06 **wycats** so if you don't want people to have to rebuild stacks
+>  **dherman** http://38.media.tumblr.com/tumblr_m9027aTjbq1qkthyyo2_400.gif
 
-> 14:54:10 **wycats** you need to contend with it
+>  **wycats** All I know is that Stalin still uses Geocities
 
-> 14:54:37 **slightlyoff** yeah
+>  **wycats** sbb
 
-> 14:54:50 **slightlyoff** and there needs to be general advice to implementers in the form of "get over it"
+>  **JeniT** JeniT has joined #tagmem
 
-> 14:54:57 **wycats** similar things happen with form elements
+>  **slightlyoff** my fault, sorry = \
 
-> 14:55:04 **wycats** you have to choose between "black box" and "I'll do it myself"
+>  **slightlyoff** what's the repo?
 
-> 14:55:06 **slightlyoff** yep yep
+>  **dka** https://github.com/w3ctag/extensible-web-report-card/tree/gh-pages
 
-> 14:57:25 **dherman** what'd I do?
+>  **slightlyoff** thanks!
 
-> 14:57:40 **slightlyoff** hah
+>  **dka** See http://w3ctag.github.io/extensible-web-report-card/
 
-> 14:58:49 **dherman** http://38.media.tumblr.com/tumblr_m9027aTjbq1qkthyyo2_400.gif
+>  **JeniT** JeniT has joined #tagmem
 
-> 14:58:58 **wycats** All I know is that Stalin still uses Geocities
+>  **virginie** virginie has joined #tagmem
 
-> 15:00:10 **wycats** sbb
+>  **virginie** rrsagent, please generate minutes
 
-> 15:02:06 **JeniT** JeniT has joined #tagmem
+>  **RRSAgent** I have made the request to generate http://www.w3.org/2014/10/01-tagmem-minutes.html virginie
 
-> 15:02:15 **slightlyoff** my fault, sorry = \
+>  **SteveF** SteveF has joined #tagmem
 
-> 15:03:23 **slightlyoff** what's the repo?
+>  **Domenic** plinss: https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages
 
-> 15:03:53 **dka** https://github.com/w3ctag/extensible-web-report-card/tree/gh-pages
+>  **JeniT** JeniT has joined #tagmem
 
-> 15:03:58 **slightlyoff** thanks!
+>  **slightlyoff** it occurs to me that the report card maybe should have letter grades?
 
-> 15:04:47 **dka** See http://w3ctag.github.io/extensible-web-report-card/
+>  **Domenic** it's more like a kindergarten report card, I think :P
 
-> 15:11:28 **JeniT** JeniT has joined #tagmem
+>  **dka** I believe that is https://github.com/w3ctag/spec-reviews/commit/b9643fb8f3a4463ee5084cf2dddab09c561658f3
 
-> 15:12:56 **virginie** virginie has joined #tagmem
+>  **dka** White boards from todayâ€™s meeting: https://github.com/w3ctag/f2f-meetings/tree/gh-pages/2014/sept29-oct1
 
-> 15:14:24 **virginie** rrsagent, please generate minutes
+>  **dka** rrsagent, make minutes
 
-> 15:14:24 **RRSAgent** I have made the request to generate http://www.w3.org/2014/10/01-tagmem-minutes.html virginie
+>  **RRSAgent** I have made the request to generate http://www.w3.org/2014/10/01-tagmem-minutes.html dka
 
-> 15:18:25 **SteveF** SteveF has joined #tagmem
+>  **slightlyoff** love the whiteboards, thankyou!
 
-> 15:23:06 **Domenic** plinss: https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages
+>  **slightlyoff** so good
 
-> 15:24:58 **JeniT** JeniT has joined #tagmem
+>  **Domenic** plinss: https://github.com/jasonlong/architect-theme
 
-> 15:33:43 **slightlyoff** it occurs to me that the report card maybe should have letter grades?
+>  **Domenic** http://extensiblewebreportcard.org/
 
-> 15:35:37 **Domenic** it's more like a kindergarten report card, I think :P
+>  **marcosc** marcosc has joined #tagmem
 
-> 15:36:18 **dka** I believe that is https://github.com/w3ctag/spec-reviews/commit/b9643fb8f3a4463ee5084cf2dddab09c561658f3
+>  **rubys** rubys has joined #tagmem
 
-> 15:43:11 **dka** White boards from todayâ€™s meeting: https://github.com/w3ctag/f2f-meetings/tree/gh-pages/2014/sept29-oct1
+>  **rubys** The following is what the AC reviewed in the Proposed Recommendation:
 
-> 15:43:20 **dka** rrsagent, make minutes
+>  **rubys** http://www.w3.org/TR/html5/references.html#refsURL
 
-> 15:43:20 **RRSAgent** I have made the request to generate http://www.w3.org/2014/10/01-tagmem-minutes.html dka
+>  **rubys** The following is what the TAG recommends:
 
-> 15:43:36 **slightlyoff** love the whiteboards, thankyou!
+>  **rubys** http://www.w3.org/2014/10/01-tagmem-minutes.html#item02
 
-> 15:44:10 **slightlyoff** so good
+>  **rubys** This is what I would like to suggest as a replacement:
 
-> 15:47:25 **Domenic** plinss: https://github.com/jasonlong/architect-theme
-
-> 15:48:15 **Domenic** http://extensiblewebreportcard.org/
-
-> 15:51:55 **marcosc** marcosc has joined #tagmem
-
-> 15:57:00 **rubys** rubys has joined #tagmem
-
-> 15:57:20 **rubys** The following is what the AC reviewed in the Proposed Recommendation:
-
-> 15:57:20 **rubys** http://www.w3.org/TR/html5/references.html#refsURL
-
-> 15:57:20 **rubys** The following is what the TAG recommends:
-
-> 15:57:20 **rubys** http://www.w3.org/2014/10/01-tagmem-minutes.html#item02
-
-> 15:57:20 **rubys** This is what I would like to suggest as a replacement:
-
-> 15:57:20 **rubys** http://intertwingly.net/tmp/references.html#refsURL
+>  **rubys** http://intertwingly.net/tmp/references.html#refsURL
 
 
 
