@@ -8,7 +8,7 @@
 
 *Present:* Daniel Appelquist, Tim Berners-Lee, Domenic Denicola, David Herman (afternoon), Yehuda Katz, Sergey Konstantinov, Yves Lafon (remote), Peter Linss, Mark Nottingham, Alex Russell (afternoon), Jeni Tennison
 
-*Guests:* Noah Noah Mendelsohn (for discussion on Capability URLs)
+*Guests:* Noah Mendelsohn (for discussion on Capability URLs)
 
 *Chairs:* Daniel Appelquist, Peter Linss
 *Scribes:* Domenic Denicola, Yehuda Katz
@@ -31,10 +31,6 @@
 <a name="http2"/>
 ###Topic: http2 update
 
-> **mnot** mnot has joined #tagmem
-
-> **twirl** twirl has joined #tagmem
-
 __mnot__ WG last call ended a few weeks ago
 
 ... there are a few small-medium issues remaining
@@ -51,9 +47,7 @@ __mnot__ WG last call ended a few weeks ago
 
 __wycats__ isn’t Varnish not compatible with caching?
 
-__mnot__ it’s an application-specific cash, but http/2 doesn’t say anything about caching really
-
-> **JeniT** s/cash/cache
+__mnot__ it’s an application-specific cache, but http/2 doesn’t say anything about caching really
 
 __mnot__ Apple, we don’t know, but probably they’ll implement
 
@@ -373,11 +367,9 @@ __dka__ if I take the user’s location in script & make a request to https://go
 
 ... there are still leakage possibilities
 
-__Domenic__ in theory the browser could surface all the places that have access to your location, but if you allow that then it could be everyone
+__Domenic__ in theory the browser could surface all the places that have access to your location, but if you allow the page to access http sites then it could be everyone
 
 > **JeniT** [NSA knows everything already]
-
-> **Domenic** s/that/the page to access http sites/
 
 __dka__ we could draft a statement that says “for new privacy-sensitive APIs, we want these to require secure origin”
 
@@ -407,7 +399,7 @@ __dka__ we could draft a statement that says “for new privacy-sensitive APIs, 
 
 > **JeniT** proposed resolution: https://etherpad.mozilla.org/qPTpp2UKfa
 
-__mnot__ how should the TAG communicate?
+__Mnot__ how should the TAG communicate?
 
 __Domenic__ on EME they would have preferred us to file a bug rather than issuing an edict
 
@@ -479,6 +471,7 @@ __Domenic__ this is an aspirational resolution
 
 > **Domenic** Adding: "We appreciate this could cause some short and medium-term pain (breaking some existing content), and so this needs to be done with care, but it is a worthy goal to aspire to."
 
+<a name="tag-resolution-29sep2014-2"\>
 > **dka** RESOLUTION: We support efforts by browser vendors to restrict privacy-sensitive features to secure origins. This includes ones that have not historically been restricted as such, like geolocation or webcam access.
 
 > **dka** We also support investigation into ways of preventing these features from leaking to third-party scripts within a webpage (although the exact technology to do so is unclear as yet, probably involving some combination of CSP and/or something like <iframe sandbox>).
@@ -557,11 +550,9 @@ __wycats__ I think we should get streams done, because people will be creating p
 
 ... the new Ember is based on streaming stuff
 
-__Domenic__ this is now returning a promise
+__Domenic__ ^this^ is now returning a promise
 
-> **JeniT** s/this/^this^/
-
-...) we agree that the Promises Guide is a published finding of the TAG.
+> **dka** PROPOSED RESOLUTION: pending a couple of document boilerplate changes (document status, logo, etc...) we agree that the Promises Guide is a published finding of the TAG.
 
 __Yves__ I saw the issue about using ‘parallel’ rather than ‘async’, and I didn’t understand why
 
@@ -591,15 +582,12 @@ __dka__ we should publish this as a Finding
 
 ... the boilerplate changes don’t change that
 
-...) we agree that the Promises Guide is a published finding of the TAG.
-
-
+<a name="tag-resolution-29sep2014-1"\>
+> **dka** RESOLUTION: pending a couple of document boilerplate changes (document status, logo, etc...) we agree that the Promises Guide is a published finding of the TAG.
 
 <a name="ews"/>
 
 ### Topic: EWS Berlin
-
-
 
 __Domenic__ it went pretty well; we got the word out to a lot of developers
 
