@@ -6,7 +6,7 @@
 
 ### Attendees
 
-*Present:* Daniel Appelquist, Tim Berners-Lee, Domenic Denicola, David Herman (afternoon), Yehuda Katz, Sergey Konstantinov, Yves Lafon, Peter Linss, Mark Nottingham, Alex Russell (afternoon)
+*Present:* Daniel Appelquist, Tim Berners-Lee, Domenic Denicola, David Herman (afternoon), Yehuda Katz, Sergey Konstantinov, Yves Lafon (remote), Peter Linss, Mark Nottingham, Alex Russell (afternoon)
 
 *Regrets:* Jeni Tennison
 
@@ -23,6 +23,7 @@
 - [Modularization / future of specifiction](#modularization)
 - [Extensible Web Report Card](#reportcard)
 
+[Agenda](https://www.w3.org/wiki/TAG/Planning/2014-09-F2F)
 ---
 
 <a name="security"/>
