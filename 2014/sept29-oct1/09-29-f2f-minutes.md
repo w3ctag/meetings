@@ -15,7 +15,7 @@
 
 ### Contents
 
-- [HTTP/2 Update](#http)
+- [HTTP/2 Update](#http2)
 - [EWS Berlin](#ews)
 - [Packaging on the Web](#packaging)
 - [Capability URLs](#capability)
@@ -87,7 +87,9 @@ __wycats:__ http/2 doesn’t mandate SSL right?
 
 __mnot:__ it doesn’t, we decided to move on and not require it
 
-... but the browsers are saying they’ll only support http/2 for SSL
+... but the [Firefox and Chrome] browsers are saying they’ll only support http/2 for SSL
+
+> [it was mentioned that Microsoft has stated they intend to support unencrypted http/2 in IE - clarification added 7-Oct-2014 by DKA]
 
 __wycats:__ we’ve talked about making it easier to get certs
 
