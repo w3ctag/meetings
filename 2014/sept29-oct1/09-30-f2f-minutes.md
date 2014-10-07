@@ -29,21 +29,17 @@
 <a name="eme"/>
 ### Topic: EME
 
-__Dominic:__ Spec editor came to us at the last meeting and asked for guidance on EME.
+__Domenic:__ Spec editor came to us at the last meeting to help us understand the current state of EME and answer our questions.
 
-__Dominic:__ I worked out a proposal to make EME more "webby" -- more conformant to shared values of privacy, platform independence
+__Domenic:__ I worked out a proposal to make EME more "webby" -- more conformant to shared values of privacy, platform independence
 
-__Dominic:__ I submitted a revised version of our opinion, stating concerns rather than solutions
+__Domenic:__ I submitted a revised version of our opinion, stating concerns rather than solutions
 
-__Dominic:__ Sergey reviewed, accepted pull request, then sent a followup which we need to discuss
+__Domenic:__ Sergey reviewed, accepted pull request, then sent a followup which we need to discuss
 
-__Dominic:__ Also, we got a reply from Mark Watson (Netflix) on list, whic is good. His feedback was mostly about phrasing, softening things, etc. which I think we can address and is worth doing.
+__Domenic:__ Also, we got a reply from Mark Watson (Netflix) on list, which is good. His feedback was mostly about phrasing, softening things, etc. which I think we can address and is worth doing.
 
-__Dominic:__ It'd be great to issue this as a finding that can be referenced as a TAG opinion when closing bugs on the spec.
-
-> **mnot** s/Dominic/Domenic/g
-
-> **twirl** s/whic is/which is
+__Domenic:__ It'd be great to issue this as a finding that can be referenced as a TAG opinion when closing bugs on the spec.
 
 > **mnot** [ group looks at document ]
 
@@ -55,7 +51,7 @@ __Domenic:__ EME has momentum; it's shipping in most browsers, vendor-prefixed; 
 
 __Domenic:__ We may still get EMEv2 or DRMv2 e.g., based upon public key cryptography, but that's a multi-year effort.
 
-__TimBL:__ I'd encouarge Sergey to do that.
+__TimBL:__ I'd encourage Sergey to do that.
 
 > **twirl** Further reading: https://github.com/w3ctag/eme/pull/8
 
