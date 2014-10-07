@@ -372,6 +372,9 @@ __Domenic:__ That's it for EME
 > **Domenic** { "&" : "&"} ===> <json:string name="&amp;">&amp;</json:string>
 
 
+<a name="captive-portals"/>
+### Topic: Captive Portals
+
 __mnot:__ we've talked about captive portals a lot in the IETF and elsewhere
 
 __mnot:__ if we wanted to try to do something, we could probably get the right people from places like Cisco, Microsoft, Apple, the browsers, ...
