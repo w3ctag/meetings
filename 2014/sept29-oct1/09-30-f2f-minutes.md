@@ -900,7 +900,7 @@ __Domenic:__ next time we should ask authors about preferred form of communicati
 
 > **slightlyoff** thanks
 
-<a name="privacy/>
+<a name="privacy"/>
 ### Topic: Privacy
 
 __mnot:__ I talked with Chrome and HTTP teams, they were frustrated with Privacy mode understanded by users
