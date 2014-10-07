@@ -16,6 +16,7 @@
 ### Contents
 
 - [EME](#eme)
+- [Captive Portals](#captive-portals)
 - [Tooling / Github / Etc…](#tooling)
 - [Spec Reviews](#spec)
 - [Permissions](#permissions)
