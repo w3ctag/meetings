@@ -691,57 +691,53 @@ __mnot:__ Full Screen: closed
 <a name="permissions"/>
 ### Topic: Permissions
 
-> **slightlyoff** terribly sorry for how long that tool
-
-> **slightlyoff** s/tool/took/
+> **slightlyoff** terribly sorry for how long that took
 
 > **dka** https://gist.github.com/slightlyoff/43cd8c2f64a0719358fe
 
-> **twirl** Alex: there are several key aspects
+__Alex__ there are several key aspects
 
-> **twirl** ... you can request a permission at page load
+... you can request a permission at page load
 
-> **twirl** ... you may build UI using API calls results
+... you may build UI using API calls results
 
-> **twirl** ... all these things are async
+... all these things are async
 
-> **twirl** ... and user can always say no
+... and user can always say no
 
-> **twirl** ... we can imagine lighter UI than prompts if user trusts that app
+... we can imagine lighter UI than prompts if user trusts that app
 
-> **twirl** ... we have lots of experience with mobile apps sync permission dialogs, and its disappointing
+... we have lots of experience with mobile apps sync permission dialogs, and its disappointing
 
-> **twirl** ... there is a trade of remembering webapp permissions vs. leaking this information
+... there is a trade of remembering webapp permissions vs. leaking this information
 
-> **twirl** twirl: how to revoke permissions?
+__twirl:__ how to revoke permissions?
 
-> **twirl** Alex: I separated UI from API in a document
+__Alex:__ I separated UI from API in a document
 
-> **twirl** twirl: but how will webapp know its permission revoked?
+__twirl:__ but how will webapp know its permission revoked?
 
-> **twirl** Alex: ask each time
+__Alex:__ ask each time
 
-> **twirl** Domenic: but how to restyle UI?
+__Domenic:__ but how to restyle UI?
 
-> **twirl** Alex: probably perission change event
+__Alex:__ probably perission change event
 
-> **twirl** Dom: I like this proposal
+__Dom:__ I like this proposal
 
-> **twirl** ... we discussed those questions, I think it's a good starting point
+... we discussed those questions, I think it's a good starting point
 
-> **twirl** [ discussion on requests ]
+> [ discussion on requests ]
 
-> **twirl** Alex: the question is whether it reasonable to create separate APIs to each action
+__Alex:__ the question is whether it reasonable to create separate API requests to each action
 
-> **twirl** mnot: there is no easy answer, in mobile APIs too
+__mnot:__ there is no easy answer, in mobile APIs too
 
-> **twirl** Alex: you should have a freedom to change your mind
+__Alex:__ you should have a freedom to change your mind
 
-> **twirl** s/separate APIs/separate API requests
+__Alex:__ we could do that in extensible way, with low-level API
 
-> **twirl** Alex: we could do that in extensible way, with low-level API
-
-> **twirl** dom: It would be great if TAG provides more guidance on securing the Web
+__dom:__ It would be great if TAG provides more guidance on securing the Web
 
 > **slightlyoff** I am still working on the origin post, it's much harder
 
@@ -749,15 +745,15 @@ __mnot:__ Full Screen: closed
 
 > **slightlyoff** I can outline it briefly
 
-> **twirl** dom: We need a clear picture of future web security
+__dom:__ We need a clear picture of future web security
 
-> **twirl** Alex: there are good success stories from OSes, we should work on browser UI
+__Alex:__ there are good success stories from OSes, we should work on browser UI
 
-> **twirl** ... we should think about "installation" for webapps
+... we should think about "installation" for webapps
 
 > **slightlyoff** I don't think WG's are the right place to be litigating these issues
 
-> **twirl** dom: we need even broader picture
+__dom:__ we need even broader picture
 
 > **slightlyoff** nearly all the important security UI is owned by the UA
 
