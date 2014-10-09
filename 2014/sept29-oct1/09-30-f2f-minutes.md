@@ -903,9 +903,7 @@ __Domenic:__ next time we should ask authors about preferred form of communicati
 <a name="privacy"/>
 ### Topic: Privacy
 
-__mnot:__ I talked with Chrome and HTTP teams, they were frustrated with Privacy mode understanded by users
-
-> **twirl** s/understanded/understood
+__mnot:__ I talked with Chrome and HTTP teams, they were frustrated with Privacy mode [not] understood by users
 
 __mnot:__ people don't understand what Privacy Mode guarantees and what does not
 
