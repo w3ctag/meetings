@@ -11,6 +11,7 @@
 *Guests:* Dominique Hazaël-Massieux (for discussion on Permissions)
 
 *Chairs:* Daniel Appelquist, Peter Linss
+
 *Scribes:* Mark Nottingham, Domenic Denicola, Sergey Konstantinov
 
 ### Contents
