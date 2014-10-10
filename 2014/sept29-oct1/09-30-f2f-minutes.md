@@ -960,7 +960,7 @@ __timbl:__ that's just a switcher saying "I will be embarassed if anyone knows"
 
 > **timbl** s/knows/knows — it is up to the tech community t try to anctipate the attack vectors, not the user/
 
-__dka:__ there are too less knowledge about when you'd better use privacy modes
+__dka:__ there is not enough knowledge [in the public sphere] about when it's a good idea to use privacy modes [i.e. not only when you are trying to "hide" something]
 
 > **twirl** s/there are too less knowledge about/people know very little
 
