@@ -4,7 +4,7 @@ Tuesday 6 Jan
 
 Wednesdat 7 Jan
 
-Thursday 8 Jam
+Thursday 8 Jan
 
 
 Topic list:
