@@ -22,7 +22,7 @@
 - [Spec Reviews](#spec)
 - [Permissions](#permissions)
 - [Spec Reviews (continued)](#spec_cont)
-- [Pricacy](#privacy)
+- [Privacy](#privacy)
 
 [Agenda](https://www.w3.org/wiki/TAG/Planning/2014-09-F2F)
 
