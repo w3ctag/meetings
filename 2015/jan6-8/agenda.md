@@ -2,7 +2,9 @@ Agenda for January 2015 Face-To-Face
 
 Tuesday 6 Jan
 
-Wednesdat 7 Jan
+Wednesday 7 Jan
+
+Dev meetup in evening of the 7th from 18:00 to 21:00
 
 Thursday 8 Jan
 
