@@ -10,9 +10,8 @@ Thursday 8 Jan
 
 
 Topic list:
-Presentation Extensibility TF Status
-
-PGP Key Signing Party
+ * Presentation Extensibility TF Status
+ * PGP Key Signing Party
 
 Location:  
 Google's Offices in New York: http://www.google.com/about/locations/new-york/
