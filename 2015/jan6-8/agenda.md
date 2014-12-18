@@ -30,4 +30,4 @@ Topic list:
 
 Location & Logistics:  
 Google's Offices in New York: http://www.google.com/about/locations/new-york/  
-Local Hotels : [Eventi](http://www.eventihotel.com), Dream Hotel(http://www.dreamdowntown.com), Gansevoort Hotel(http://www.gansevoorthotelgroup.com/hotels/gansevoort-meatpacking-nyc)  
+Local Hotels : [Eventi](http://www.eventihotel.com), [Dream Hotel](http://www.dreamdowntown.com), [Gansevoort Hotel](http://www.gansevoorthotelgroup.com/hotels/gansevoort-meatpacking-nyc)  
