@@ -8,6 +8,8 @@ Tuesday 6 Jan
 * 12:30 - 13:30 - lunch
 * 
 
+TAG Dinner Tuesday Night
+
 Wednesday 7 Jan 
 * 8:30 - 9:00 - Set-up & Breakfast
 * 9:00 - 12:30 - https everywhere (Yan dialing in)
