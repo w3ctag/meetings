@@ -28,5 +28,6 @@ Topic list:
  * Private Browsing Modes
  * Parting shots of various parties
 
-Location:  
+Location & Logistics:
 Google's Offices in New York: http://www.google.com/about/locations/new-york/
+Local Hotels : [Eventi](Gansevoort Hotel), Dream Hotel, Gansevoort Hotel
