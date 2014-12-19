@@ -31,6 +31,7 @@ Topic list:
  * Parting shots of various parties
  * [Sensitivity of URIs to AUCs](http://lists.w3.org/Archives/Public/www-tag/2014Nov/0009.html)
  * [WedIDL 1 vs 2](http://lists.w3.org/Archives/Public/www-tag/2014Dec/0005.html)
+ * URL with Sam dialing in
 
 Location & Logistics:  
 Google's Offices in New York: http://www.google.com/about/locations/new-york/  
