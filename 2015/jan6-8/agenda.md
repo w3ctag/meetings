@@ -14,7 +14,7 @@ Wednesday 7 Jan
 * 8:30 - 9:00 - Set-up & Breakfast
 * 9:00 - 12:30 - https everywhere (Yan dialing in)
 * 12:30 - 13:30 - lunch
-* 
+* afternoon - extensible web report card working session with Brian joining us
 
 Dev meetup in evening of the 7th from 18:00 to 21:00 (hosted at Google - see http://lanyrd.com/2015/meetthetag-nyc/)
 
