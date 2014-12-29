@@ -8,8 +8,7 @@
 * 
 * 12:30 - 13:30 - lunch
 * 
-
-TAG Dinner Tuesday Night
+* 20:15 - dinner at Buddakan
 
 ## Wednesday 7 Jan 
 
