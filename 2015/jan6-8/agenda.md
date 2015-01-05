@@ -36,6 +36,7 @@ Dev meetup in evening of the 7th from 18:00 to 21:00 (hosted at Google - see htt
  * URL with Sam dialing in
  * Work mode of the TAG
  * DNT
+ * Spec reviews
 
 ## Location & Logistics:  
 Google's Offices in New York: http://www.google.com/about/locations/new-york/  
