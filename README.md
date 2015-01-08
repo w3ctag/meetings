@@ -2,7 +2,7 @@
 
 This repository contains agendas, minutes and other materials from W3C TAG meetings.
 
-
+See also [older materials on w3.org](http://www.w3.org/wiki/TAG/Planning).
 
 ## Structure
 
