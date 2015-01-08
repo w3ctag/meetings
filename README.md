@@ -13,6 +13,6 @@ The structure of the repo is as follows:
         agenda.md
         mm-dd-minutes.md  <-- daily minutes
         mm-dd-irc.txt  <-- irc logs
-      teleconferences/  <-- all telcon materials for year
+      telcons/  <-- all telconference materials for year
         mm-dd[-topic]-agenda.md
         mm-dd[-topic]-minutes.md
