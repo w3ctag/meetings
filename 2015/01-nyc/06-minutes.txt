@@ -1,7 +1,7 @@
 TAG f2f
 6 Jan 2015 - NYC - Google - Earth
 
-Present: Alex, Sergey, Yves, Domenic, Tim, Mark, Peter, Jeni
+Present: Alex, Sergey, Yves, Domenic, Tim, Mark, Peter, Jeni, Dan
 Regrets: Yehuda
 
 ---
