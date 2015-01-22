@@ -6,3 +6,5 @@ Call Agenda
   https://w3ctag.github.io/web-https/
 
 * Mailing list issues
+
+Raw minutes: http://www.w3.org/2015/01/22-tagmem-minutes.html
