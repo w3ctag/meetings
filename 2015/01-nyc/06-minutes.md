@@ -164,7 +164,7 @@ mnot: lots of these floating around. Akamai has a product. MSFT research. etc.
 
 domenic: MinimaLT was an impressive experiment in this area. Also like the HTTP/2 working mode where experiments come back to the spec over time.
 
-mnot: encouraged that we now *have* an HTTP community. We didn't have one 5-10 years ago. Lots of new participants. Lots of focus on long-term evolution.
+mnot: encouraged that we now *have* an HTTP community. We didn't have one 10 years ago. Lots of new participants. Lots of focus on long-term evolution.
 
 slightlyoff: what changed?
 
