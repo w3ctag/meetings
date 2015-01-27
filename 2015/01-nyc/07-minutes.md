@@ -195,7 +195,7 @@ dka: is there something we could say in the document about equivalence of "http:
 plinss: I think we should publish mark's document like it is but also publish a document about best practices for deploying https where we can say things like "your http and your https should be equivalent."
 
 mnot: I would hope we would focus on the content implications of the conversion.
-res[e
+
 plinss: I agree, but it should be a separate document.
 
 [discussion about default apache configuration]
