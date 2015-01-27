@@ -8,7 +8,7 @@
 #### Chair: Dan
 #### Scribe: Domenic
 
-#### Topics:
+[TOC]
 
 --
 
