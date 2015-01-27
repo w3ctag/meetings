@@ -461,21 +461,21 @@ plinss: I think I read the automotive working group is looking at using a differ
 
 topics to cover:
             
-  - what is same origin policy
-  - explain cross-origin canvases, why you can't access pixel information
-  - scripts execute in an origin
-  - CORS headers
-    - they're almost always safe
-    - why opt-in instead of opt-out
- - granfathered stuff: `<img>` & `<script>`
- - synchronous script access (oop iframe?)
- - abstract agent model
-	 - isolated by default
-	- compare with OS processes
-  - isolation allows permission-granting (mic, camera, etc)
-  - permission grants to HTTP = grants to all origins
-  - cookies break this mostly
-  - document.domain
+- what is same origin policy
+- explain cross-origin canvases, why you can't access pixel information
+- scripts execute in an origin
+- CORS headers
+ - they're almost always safe
+ - why opt-in instead of opt-out
+- granfathered stuff: `<img>` & `<script>`
+- synchronous script access (oop iframe?)
+- abstract agent model
+ - isolated by default
+ - compare with OS processes
+- isolation allows permission-granting (mic, camera, etc)
+- permission grants to HTTP = grants to all origins
+- cookies break this mostly
+- document.domain
 
 timbl: I have an app that doesn't work at the moment because originally it just could use XHR, but now it doesn't work. It used to be that in Firefox you just had to ask for permission (universal browser read), and it would remember that you'd granted the permission. It doesn't work any more because the user isn't trusted to give permission to scripts.
 
