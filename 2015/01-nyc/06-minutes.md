@@ -61,11 +61,11 @@ alex: tool vendors such as sass and less should be involved...they're the consti
 <a name="TC39"></a>
 #### Topic: TC39 update
 
-domenic: ES6 is going to be finalized soon...published officially in May/June. Last-minute snag about built-in subclassing from implementer feedback. Mailing lists are a-flutter. Somewhat worrying.
+domenic: ES6 is going to be finalized soon... published officially in May/June. Last-minute snag about built-in subclassing from implementer feedback. Mailing lists are a-flutter. Somewhat worrying.
 
 slightlyoff: what's your sense for timing?
 
-domenic: schedule slippage not likley to happen.
+domenic: schedule slippage not likely to happen.
 
 dka: what does that mean for Joe User?
 
@@ -75,13 +75,13 @@ dka: what's the intention for terminology post-ES6?
 
 domenic: ES-2015, ES-2016, e.g.
 
-ylaffon: discusison about streams?
+ylaffon: discussion about streams?
 
 domenic: streams are going to stay where they are for now (WHATWG). I'm sympathetic to only wanting a single standards body.
 
 slightlyoff: what's the status of the patent/cc0/etc?
 
-dka: are they openstand compatible?
+dka: are they [openstand](https://open-stand.org) compatible?
 
 domenic: no. Brian Terrelson (MSFT) is doing a lot of work on this. better-than-zero chance of changing the rules, but going slow.
 
@@ -89,13 +89,13 @@ domenic: copyright is still ECMA. Patent process is in process for ES6, going we
 
 dka: is there any area that the TAG can help with?
 
-[jokesa about JSON. Too soon?]
+[jokes about JSON. Too soon?]
 
 domenic: there's a WebIDL patchwork of use of ES features. Probably needs and update. Something we can highlight. Also, post ES6, there's a lot of work on tooling to let the spec be edited as HTML, in plain-text (not MSWord), on github, etc.
 
 [digression about C++]
 
-domenic: works continues on specifying the event-loop in ES6. Currently in HTML, and I'm not sure that ES6 is doing the best job about the portions it's taking on, but will get better. Promises forced this, O.o needs it, generality ahoy. Will enable setTimeout() to be in the language, e.g.
+domenic: work continues on specifying the event-loop in ES6. Currently in HTML, and I'm not sure that ES6 is doing the best job about the portions it's taking on, but will get better. Promises forced this, O.o needs it, generality ahoy. Will enable setTimeout() to be in the language, e.g.
 
 mnot: Python did this in Python3. In PEPs [3153](https://www.python.org/dev/peps/pep-3153/), [3156](https://www.python.org/dev/peps/pep-3156/).
 
