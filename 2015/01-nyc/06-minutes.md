@@ -1,12 +1,12 @@
 ## TAG f2f
-### 6 Jan 2015 - NYC - Google - Earth
+#### 6 Jan 2015 - NYC - Google - Earth
 
-### Present: Alex, Sergey, Yves, Domenic, Tim, Mark, Peter, Jeni, Dan
-### Regrets: Yehuda
-### Chair: Dan
-### Scribe: Alex
+#### Present: Alex, Sergey, Yves, Domenic, Tim, Mark, Peter, Jeni, Dan
+#### Regrets: Yehuda
+#### Chair: Dan
+#### Scribe: Alex
 
-###Topics:
+####Topics:
 - <a href="#Houdini">Houdini Task Force</a>
 - <a href="#TC39">TC39 Update</a>
 - <a href="#HTTP2">HTTP/2</a>
