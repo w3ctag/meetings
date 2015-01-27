@@ -182,7 +182,7 @@ mnot: expect something to get published, but not sure if it'll actually get used
 
 [discussion about scenarios about opportunistic encryption; problems with cert deployment, e.g. to printers]
 
-mnot: the bit carrot is low-friction; not validating the server is part of that.
+mnot: the big carrot is low-friction; not validating the server is part of that.
 
 dka: what's the view to how HTTP/2 will get used inside data-centers?
 
