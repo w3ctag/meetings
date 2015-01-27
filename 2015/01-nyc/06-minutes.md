@@ -467,7 +467,7 @@ topics to cover:
   - CORS headers
     - they're almost always safe
     - why opt-in instead of opt-out
- - granfathered stuff: ‘\<img\>‘ & ‘\<script\>‘
+ - granfathered stuff: `\<img\>` & `\<script\>`
  - synchronous script access (oop iframe?)
  - abstract agent model
 	 - isolated by default
@@ -490,7 +490,7 @@ ToC:
 - intro: completely separate agents
 	- can't XHR to another origin by default
 	- message passing
-	- exceptions: ‘<img>‘ & ‘<script>‘
+	- exceptions: `\<img\>` & `\<script\>`
 		- cannot read img contents, only paint them
 		- script executes in the context of effective origin (JSON-P)
 	- CORS headers allowing collab [where to talk about turning these on all the time] (vs server proxy)
