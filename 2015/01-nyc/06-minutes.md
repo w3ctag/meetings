@@ -192,8 +192,10 @@ mnot: one of the issues with HTTP/1 was connection handling; e.g. at Yahoo, a co
 
 dka: other topics that aren't encryption?
 
-mnot: we're starting to talk about 451 again -- "you're being censored". 2 use-cases:
-	- the server is being asked in a certain jurisdiction to block some content
+mnot: we're starting to talk about
+[451](https://tools.ietf.org/html/draft-tbray-http-legally-restricted-status-05) again -- "you're
+being censored". 2 use-cases: - the server is being asked in a certain jurisdiction to block some
+content
 
 mnot: if people have thoughts about if it's a good idea, now's the time.
 
@@ -204,8 +206,6 @@ mnot: if people have thoughts about if it's a good idea, now's the time.
 [everyone plays with their cookie- and ad-blocking settings]
 
 [discussion of how sometimes third-party cookies are not malware]
-
-[451 draft: https://tools.ietf.org/html/draft-tbray-http-legally-restricted-status-05]
 
 mnot: there are upcoming IETF meetings. TLS 1.3 is coming along. RTCweb is coming along. 
 
