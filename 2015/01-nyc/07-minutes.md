@@ -318,7 +318,7 @@ https://github.com/w3ctag/capability-urls/pull/5
 
 [discussion on this topic]
 
-[Resolved to make appropriate chanegs to doc, Jeni to continue to be attached to this unless workload gets too high. Yves will finalize getting it published formally as an approved finding.]
+[Resolved to make appropriate changes to doc, Jeni to continue to be attached to this unless workload gets too high. Yves will finalize getting it published formally as an approved finding.]
 URL-n-stuff
 URL-n-stuff 
 URL-n-stuff  
@@ -336,13 +336,13 @@ Peter: Let's start.
 
 Sam: https://url.spec.whatwg.org/interop/test-results/
 
-Sam: The URL spec [whatwg] had technical issues - test failures. [See https://url.spec.whatwg.org/interop/test-results/]. Confirming URLs I've evolved the whatwg standard to be confirming URLs are a subset of URI references. Even so, some differences - departures from the spec in the existing implementations. In some sense the problem reduce the impetus for people to change. I'd like to come out of this with at least a subset that [is guaranteed to] work. These were the test cases that were put forward for the transition request.  Trying to motivate people to discuss this.  URLs are an important architectureal [component] of the web.
+Sam: The URL spec [whatwg] had technical issues - test failures. [See https://url.spec.whatwg.org/interop/test-results/]. Confirming URLs I've evolved the whatwg standard to be confirming URLs are a subset of URI references. Even so, some differences - departures from the spec in the existing implementations. In some sense the problem reduce the impetus for people to change. I'd like to come out of this with at least a subset that [is guaranteed to] work. These were the test cases that were put forward for the transition request.  Trying to motivate people to discuss this.  URLs are an important architectural [component] of the web.
 
 Mark: the space of URLs is huge. A lot of these test cases are valid in the RFC-3986 sense but not in the [general use?]. 
 
 [discussion on what "conforming URLs" means]
 
-Sam: I've evolve Anne's spec to have every contraint that I can find in theexisting epsecs.
+Sam: I've evolve Anne's spec to have every constraint that I can find in the existing epsecs.
 
 Mark: looking at test 11 - IE is highlighted yellow because it's port 80 / that's not functionally different
 
@@ -352,13 +352,13 @@ Mark: We could filter out the default port issue, paging around it looks like th
 
 [discussion on the Python library...particularly how old and grotty it is]
 
-Sam: https://github.com/webspecs/url#the-url-standard is the verison I am working on. Changes will be mergerd back into the whatwg version when it's ready. My goal is to broaden the number of people participaring. This will go back to whatwg. Anything pushed back there I can push back to the TAG repo.
+Sam: https://github.com/webspecs/url#the-url-standard is the verison I am working on. Changes will be mergerd back into the whatwg version when it's ready. My goal is to broaden the number of people participating. This will go back to whatwg. Anything pushed back there I can push back to the TAG repo.
 
 Dka: do we need the TAG version any more?
 
-Sam: yes possibly - some people want stable snapshots. when it gets to that point you know it's been widely reviewed, etc...  on the URL standard I can get this to the point where it's good stuff with more [future-loooking] features split off. Whatwg isn't currently set up to 
+Sam: yes possibly - some people want stable snapshots. when it gets to that point you know it's been widely reviewed, etc...  on the URL standard I can get this to the point where it's good stuff with more [future-looking] features split off. Whatwg isn't currently set up to 
 
-Sam: plan was end of q1 to have a stable references to the URL spec. No options off the table. one possible answer is to have a living standard and stable snapshots, possibly hosting snaphots at w3c. would argue against changing logo / copyright / etc... but would argue for a stable snapshot.
+Sam: plan was end of q1 to have a stable references to the URL spec. No options off the table. one possible answer is to have a living standard and stable snapshots, possibly hosting snapshots at w3c. would argue against changing logo / copyright / etc... but would argue for a stable snapshot.
 
 Domenic: i think it's problematic to how it's currently done. The fork in the tag repo is not a result of collaboration.
 
@@ -378,9 +378,9 @@ Sam: We also need more tests.
 
 Domenic: I should contribute the node.js tests.
 
-Tim: looking through the API - is it too high level to crtitcise it for not having a serializer relative to the base.
+Tim: looking through the API - is it too high level to criticize it for not having a serializer relative to the base.
 
-Sam: At the moment it's basd on what's implemented.
+Sam: At the moment it's based on what's implemented.
 
 Sam: given a result and a base, what would the reference be?
 
@@ -396,7 +396,7 @@ Domenic: a lack of implementation - browsers have not updated their parsers.
 
 Domenic: when you put a href with a file URL in it what happens - it's not about what you type.
 
-Sam: some are sitting on the sidelings because it's not endorsed by people they care about.
+Sam: some are sitting on the sidelines because it's not endorsed by people they care about.
 
 DKA: we should continue to add positive reinforcement to this.
 
@@ -408,7 +408,7 @@ Tim: is there a GH pages page?
 
 [discussion on unicorns]
 
-Sam: I 've added railroad diagrams and it's split up more functionally. 
+Sam: I've added railroad diagrams and it's split up more functionally. 
 
 Sam: I can put it on github pages.
 
@@ -421,7 +421,7 @@ PLH: you don't have PHP [in your implementation list]
 
 Sam: [I could.]
 
-Domenic: we all want everybody to parse URLs the same way - to get there is a long and hard process that Sam has volunteered to work on - the clients that we should look to are the browsers - then we have to look at the edge cases where others discsagree. We need to create a coalition of people who start agreeing [to engage e.g. PHP URL parsing].
+Domenic: we all want everybody to parse URLs the same way - to get there is a long and hard process that Sam has volunteered to work on - the clients that we should look to are the browsers - then we have to look at the edge cases where others disagree. We need to create a coalition of people who start agreeing [to engage e.g. PHP URL parsing].
 
 Sam: I agree with that goal - browsers will be the tail that wags the dog. Some people say "you start with RFC-3986". 
 
@@ -433,7 +433,7 @@ Mark: I think getting more data about the real delta would be good.
 
 Sam: whatever you throw at a URL parser, the output is a proper subset, a document that describes that subset might be useful. An interesting criteria of outputs is that they should round-trip.
 
-Tim: a discussion we had a while back in the TAG with Larry & Roy - related to cannocalization. TAG looked at it and noted that there are different levels of cannonicalization - TAG pointed out that you can think of this as a ladder - when you know that somethings a domain name you can c-z it to lower case. you can remove ./ - further down the line you can use knowledge of http spec to do more c-zing. does it c-z DNS names to lower case?
+Tim: a discussion we had a while back in the TAG with Larry & Roy - related to canonicalization. TAG looked at it and noted that there are different levels of canonicalization - TAG pointed out that you can think of this as a ladder - when you know that somethings a domain name you can c-z it to lower case. you can remove ./ - further down the line you can use knowledge of http spec to do more c-zing. does it c-z DNS names to lower case?
 
 Sam: yes.
 
@@ -447,7 +447,7 @@ Sam: ultimately what the browsers do - people will converge on this.  Example of
 
 Domenic: you could imagine a def of c-zing where this would be the same.
 
-Tim: The TAG has said "there is no one c-zing". Different systems will apply different levels of c-zing by applying knowlegde about the relevant specs.
+Tim: The TAG has said "there is no one c-zing". Different systems will apply different levels of c-zing by applying knowledge about the relevant specs.
 
 Sam: Part of that shows up in 3987.
 
@@ -459,13 +459,9 @@ https://url.spec.whatwg.org/reference-implementation/liveview2.html#http%3A%2F%2
 
 [discussion of perhaps using a CSP directive to force translation of "http://" urls to "https://"]
 
-timbl: there are cases where it's reasonable to give users some control over relativeization in some cases. A standard API might have preferences for this sort of thing.
-captive portals
-privacy interest group: http://www.w3.org/Privacy/
-captive portals 
-privacy interest group: http://www.w3.org/Privacy/ 
+timbl: there are cases where it's reasonable to give users some control over relativization in some cases. A standard API might have preferences for this sort of thing.
 
-sam: there are lots of cases where this doesn't make sense; we can do that if it makes sense to end-uesrs -- IDNA is a place where options haven't helped
+sam: there are lots of cases where this doesn't make sense; we can do that if it makes sense to end-users -- IDNA is a place where options haven't helped
 
 sam: my interest is in getting people engaged in this process
 
@@ -473,7 +469,7 @@ sam: my interest is in getting people engaged in this process
 
 [possibly back from break...]
 
-Sam: Work-moe stuff. Question do we still need the TAG version. I still think there is a value to stable snapshots being published in a recognized space.
+Sam: Work-mode stuff. Question do we still need the TAG version. I still think there is a value to stable snapshots being published in a recognized space.
 
 Mark: In IETF you just publish an update.
 
@@ -501,9 +497,9 @@ Plh: Fine.
 
 Sam: can we get more people involved?
 
-DKA: I can make suggested editorial changes - e.g. approaching the document from a naiive reader pov and adding bits fo editorial to clarify, etc...
+DKA: I can make suggested editorial changes - e.g. approaching the document from a naive reader pov and adding bits for editorial to clarify, etc...
 
-Sam: If it's stuff like status text you can just do it as pull requetss in the web platform version of the document.
+Sam: If it's stuff like status text you can just do it as pull requests in the web platform version of the document.
 
 [ending discussion on URL]
 
@@ -520,7 +516,7 @@ timbl: network access is blocked until you visit?
 
 mnot: there's perhaps some difference what the authors intend vs what will get deployed
 
-mnot: there are cases where portals try to work around the OS's protections and they are teh most interesting
+mnot: there are cases where portals try to work around the OS's protections and they are the most interesting
 
 timbl: why would they do that?
 
@@ -536,7 +532,7 @@ mnot: lots of people who run portals don't play well with others. It makes it ha
 
 timbl: how else can one persuade them?
 
-timbl: there seem to be 2 kinds: folks who are trying to do the right thing and folks who aren't. You can imagine something (the OS) leaves open a "thanks to our sponsors". If you're Google/a University/etc., you can imagine just want to require them to accept terms/conditions. Terms/conditions could be in a JSON format or something that allows you to come up with a protocol about neogiating access.
+timbl: there seem to be 2 kinds: folks who are trying to do the right thing and folks who aren't. You can imagine something (the OS) leaves open a "thanks to our sponsors". If you're Google/a University/etc., you can imagine just want to require them to accept terms/conditions. Terms/conditions could be in a JSON format or something that allows you to come up with a protocol about negotiating access.
 
 [discussion of AT&T, payment, etc.]
 
