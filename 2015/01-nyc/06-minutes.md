@@ -467,7 +467,7 @@ topics to cover:
   - CORS headers
     - they're almost always safe
     - why opt-in instead of opt-out
- - granfathered stuff: ‘<img>‘ & ‘<script>‘
+ - granfathered stuff: ‘\<img\>‘ & ‘\<script\>‘
  - synchronous script access (oop iframe?)
  - abstract agent model
 	 - isolated by default
