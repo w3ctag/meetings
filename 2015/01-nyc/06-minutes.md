@@ -97,7 +97,7 @@ domenic: there's a WebIDL patchwork of use of ES features. Probably needs and up
 
 domenic: works continues on specifying the event-loop in ES6. Currently in HTML, and I'm not sure that ES6 is doing the best job about the portions it's taking on, but will get better. Promises forced this, O.o needs it, generality ahoy. Will enable setTimeout() to be in the language, e.g.
 
-mnot: Python did this in Python3. In PEPs.
+mnot: Python did this in Python3. In PEPs [3153](https://www.python.org/dev/peps/pep-3153/), [3156](https://www.python.org/dev/peps/pep-3156/).
 
 domenic: one more thing! Modules have been split into syntax (which is stable) and loaders which are still speculative and are now in a separate spec. This allows implementers to get a start on syntax.
 
