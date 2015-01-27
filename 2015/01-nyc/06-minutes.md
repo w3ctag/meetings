@@ -1,8 +1,8 @@
-TAG f2f
-6 Jan 2015 - NYC - Google - Earth
+# TAG f2f
+## 6 Jan 2015 - NYC - Google - Earth
 
-Present: Alex, Sergey, Yves, Domenic, Tim, Mark, Peter, Jeni, Dan
-Regrets: Yehuda
+## Present: Alex, Sergey, Yves, Domenic, Tim, Mark, Peter, Jeni, Dan
+## Regrets: Yehuda
 
 ---
 
@@ -11,13 +11,11 @@ Scribe: Alex
 
 Topic: Houdini Task Force
 
-<derailed!>
-
 mnot: there's an effort in IETF to register .onion, there's also decentralized naming on the horizon
 
-<marking for discussion pre-lunch>
+[marking for discussion pre-lunch]
 
-Topic: Houdini Task Force
+*Topic*: Houdini Task Force
 
 plinss: not sure what's new except the name. Meeting scheduled in Feb in SYD the 2 days before the CSS WG mtg. Some discussions about opening up CSS parsing via API.
 
@@ -31,7 +29,7 @@ plinss: extensibility to CSS; notably:
     - also looking at missing extensibility points (parser, cascade/resolution)
 	    related: https://github.com/glitterOrg/pipeline
 	
-<discussion about security/privacy implications of desugaring CSS work to JS; e.g. CSS Shaders>
+[discussion about security/privacy implications of desugaring CSS work to JS; e.g. CSS Shaders]
 
 plinss: opening up the CSS parser is the first thing; writing polyfills is too hard
 
@@ -47,9 +45,9 @@ plinss: mozilla, google, css wg members...
 
 alex: tool vendors such as sass and less should be involved...they're the constituency who is feeling this pain most and I'd be worried if they're not at your early f2f meetings
 
-<how many engineers does it take to present a demo?>
+[how many engineers does it take to present a demo?]
 
-<looking at glitter demos...they're neat! custom properties and drawing>
+[looking at glitter demos...they're neat! custom properties and drawing]
 
 Topic: TC39 update
 
@@ -81,11 +79,11 @@ domenic: copyright is still ECMA. Patent process is in process for ES6, going we
 
 dka: is there any area that the TAG can help with?
 
-<jokesa about JSON. Too soon?>
+[jokesa about JSON. Too soon?]
 
 domenic: there's a WebIDL patchwork of use of ES features. Probably needs and update. Something we can highlight. Also, post ES6, there's a lot of work on tooling to let the spec be edited as HTML, in plain-text (not MSWord), on github, etc.
 
-<digression about C++>
+[digression about C++]
 
 domenic: works continues on specifying the event-loop in ES6. Currently in HTML, and I'm not sure that ES6 is doing the best job about the portions it's taking on, but will get better. Promises forced this, O.o needs it, generality ahoy. Will enable setTimeout() to be in the language, e.g.
 
@@ -119,11 +117,11 @@ timbl: what if I use the short-name in that case?
 
 domenic: the loader can satisfy that based on the caller.
 
-<discussion about table population and timing of i/o>
+[discussion about table population and timing of i/o]
 
-<discussion about require()>
+[discussion about require()]
 
-<discussion about agenda additions, privacy IG, etc.>
+[discussion about agenda additions, privacy IG, etc.]
 
 TOPIC: coffee.
 
@@ -131,7 +129,7 @@ TOPIC: HTTP/2
 
 mnot: at IETF last-call, ends on Jan 14; goes to IESG on Jan 22. Will have an RFC shortly thereafter.
 
-<discussion about treating comments with due respect>
+[discussion about treating comments with due respect]
 
 dka: that's HTTP/2 & HPACK
 
@@ -143,7 +141,7 @@ timbl: why is Apache not interested?
 
 mnot: not sure. Not a string impetus in that community to do it yet. Perf benefits are uncontroversial and that's going to create some market pressure to implement.
 
-<discussion about how to get the benefits>
+[discussion about how to get the benefits]
 
 mnot: expect to see the webperf community align around experiences about this.
 
@@ -171,7 +169,7 @@ mnot: only on impl on the client (FF), but it doesn't seem to be getting tremend
 
 mnot: expect something to get published, but not sure if it'll actually get used on the web.
 
-<discussion about scenarios about opportunistic encryption; problems with cert deployment, e.g. to printers>
+[discussion about scenarios about opportunistic encryption; problems with cert deployment, e.g. to printers]
 
 mnot: the bit carrot is low-friction; not validating the server is part of that.
 
@@ -188,15 +186,15 @@ mnot: we're starting to talk about 451 again -- "you're being censored". 2 use-c
 
 mnot: if people have thoughts about if it's a good idea, now's the time.
 
-<discussion about gag order vs. transparent blockage>
+[discussion about gag order vs. transparent blockage]
 
-<note that we should talk about captive portals>
+[note that we should talk about captive portals]
 
-<everyone plays with their cookie- and ad-blocking settings>
+[everyone plays with their cookie- and ad-blocking settings]
 
-<discussion of how sometimes third-party cookies are not malware>
+[discussion of how sometimes third-party cookies are not malware]
 
-<451 draft: https://tools.ietf.org/html/draft-tbray-http-legally-restricted-status-05>
+[451 draft: https://tools.ietf.org/html/draft-tbray-http-legally-restricted-status-05]
 
 mnot: there are upcoming IETF meetings. TLS 1.3 is coming along. RTCweb is coming along. 
 
@@ -212,7 +210,7 @@ yves: Robin offered to host us in Paris
 
 dka: usually April, June, Sept, TPAC, ...
 
-<discussion of scheduling relative to www conference; AC meeting; hot Australian summers; ...>
+[discussion of scheduling relative to www conference; AC meeting; hot Australian summers; ...]
 
 Proposal:
 
@@ -255,7 +253,7 @@ mnot: you can't have an HTTP header that stops the messages being used
 
 dka: in the context of private browsing modes: should we add DNT: 1 to private browsing mode? it would be in the best interests to pay attention to the bit in that case because everything in private browsing mode isn't untrackable anyway, so you're not going to get paid for that anyway
 
-<domenic suggests in that case serving porn ads>
+[domenic suggests in that case serving porn ads]
 
 mnot: that would give an incentive to browsers to always send DNT
 
@@ -453,13 +451,13 @@ domenic: this stuff is about reading/executing stuff from another site, whereas 
 
 mnot: we could talk about same origin in relation to cookies
 
-<discussion of use of cookies & origins>
+[discussion of use of cookies & origins]
 
 slightlyoff: writing document.domain should be covered - you can write it to be a more general origin
 
 plinss: I think I read the automotive working group is looking at using a different origin model
 
-<digression into gun type ENUM>
+[digression into gun type ENUM]
 
 topics to cover:
             
@@ -469,7 +467,7 @@ topics to cover:
   - CORS headers
     - they're almost always safe
     - why opt-in instead of opt-out
- - granfathered stuff: <img> & <script>
+ - granfathered stuff: ‘<img>‘ & ‘<script>‘
  - synchronous script access (oop iframe?)
  - abstract agent model
 	 - isolated by default
@@ -492,10 +490,10 @@ ToC:
 - intro: completely separate agents
 	- can't XHR to another origin by default
 	- message passing
-	- exceptions: <img> & <script>
+	- exceptions: ‘<img>‘ & ‘<script>‘
 		- cannot read img contents, only paint them
 		- script executes in the context of effective origin (JSON-P)
-	- CORS headers allowing collab <where to talk about turning these on all the time> (vs server proxy)
+	- CORS headers allowing collab [where to talk about turning these on all the time] (vs server proxy)
 	- granting sensible permissions (mic etc)
 
 A: ambient authority / CORS / credentials
@@ -503,7 +501,7 @@ B: HTTP = all origin
 
 domenic: I'm happy to start writing prose. I'm not sure how to frame the CORS story & make the recommendation to use it.
 
-<timbl writes matrix of no cors / cors / wildcard cors vs origin, different origin, http vs credentials flag>
+[timbl writes matrix of no cors / cors / wildcard cors vs origin, different origin, http vs credentials flag]
 
 timbl: In case it isn't obvious, I feel this is terribly broken. When you're writing code that's going to do general stuff, you can't determine whether to set the credentials flag for example. We've cheated for scripts & images. It comes down to that I can't build apps with the power of a native app because of this policy.
 
@@ -549,7 +547,7 @@ dka: do we have enough to write a document on the here & now?
 
 domenic: yes. I want to bring up a crazy idea: what if browsers came with a proxy so you could do anonymised XHR & have browser vendors host a proxy that the traffic all runs through
 
-<everyone: err, maybe not>
+[everyone: err, maybe not]
 
 slightlyoff: there are browsers that sort of do that with an optimising proxy
 
@@ -641,9 +639,9 @@ mnot: I reviewed a number of specs because they're making amendments to HTTP. Th
 
 dka: that seems like something we should add to our list of things we're keeping an eye on, maybe an action on mnot to add it to our Github issue list?
 
-<discussion of potential April 1st TAG Findings>
+[discussion of potential April 1st TAG Findings]
 
-<Bittorrent browser: http://blog.bittorrent.com/2014/12/10/project-maelstrom-the-internet-we-build-next/>
+[Bittorrent browser: http://blog.bittorrent.com/2014/12/10/project-maelstrom-the-internet-we-build-next/]
 
 Dka: question - does anyone know anyone at Bittorrent?
 
