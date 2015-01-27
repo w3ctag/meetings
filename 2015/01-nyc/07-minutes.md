@@ -11,10 +11,10 @@
 #### Topics:
 - <a href="#HTTPS">HTTPS</a>
 - <a href="#packaging">packaging</a>
-- <a href="#capability URLs">Capability URLs</a>
+- <a href="#capability">Capability URLs</a>
 - <a href="#URL">URL-n-stuff</a>
-- <a href="#captive portals">captive portals</a>
-- <a href="#privacy interest group">privacy interest group</a>
+- <a href="#captive">captive portals</a>
+- <a href="#privacy">privacy interest group</a>
 
 ---
 
