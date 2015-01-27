@@ -1,4 +1,4 @@
-## TAG f2f
+## TAG F2F
 #### 6 Jan 2015 - NYC - Google - Earth
 
 #### Present: Alex, Sergey, Yves, Domenic, Tim, Mark, Peter, Jeni, Dan
@@ -31,11 +31,11 @@ dka: charter?
 
 plinss: extensibility to CSS; notably:
     
-    - defining the box model
-    - creating APIs to the box tree
-    - ways to interact with the box tree at layout time (e.g., Layout Workers that can participate in box creation, layout, etc)
-    - also looking at missing extensibility points (parser, cascade/resolution)
-	    related: https://github.com/glitterOrg/pipeline
+- defining the box model
+- creating APIs to the box tree
+- ways to interact with the box tree at layout time (e.g., Layout Workers that can participate in box creation, layout, etc)
+- also looking at missing extensibility points (parser, cascade/resolution)
+ related: https://github.com/glitterOrg/pipeline
 	
 [discussion about security/privacy implications of desugaring CSS work to JS; e.g. CSS Shaders]
 
