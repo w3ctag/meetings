@@ -8,11 +8,18 @@
 #### Chair: Dan
 #### Scribe: Domenic
 
-[TOC]
+#### Topics:
+- <a href="#HTTPS">HTTPS</a>
+- <a href="#packaging">packaging</a>
+- <a href="#capability URLs">Capability URLs</a>
+- <a href="#URL">URL-n-stuff</a>
+- <a href="#captive portals">captive portals</a>
+- <a href="#privacy interest group">privacy interest group</a>
 
---
+---
 
-#### Topic: HTTPS
+<a name="HTTPS"></a>
+#### Topic: HTTPS 
 
 (with special guest Yan Zhu)
 
@@ -158,7 +165,11 @@ mnot: so, the document already talks about performance. What is your concrete fe
 
 dka: I feel like there should be an issues section, both containing issues and explaining mitigations, to clear the air of objections that might potentially be in peoples' mines.
 
-mnot: [reads from the document]: "Historically, the perceived performance of HTTPS has been worse than that of cleartext HTTP, because of the protocol overhead. However, recent developments such as HTTP/2, OCSP Stapling and TLS session tickets have reduced this overhead to the point where the deficit is minor -- often, inperceptible (see Is TLS Fast Yet? for details). We expect that future developments (such as TLS/1.3) will further reduce the performance penalty of encryption."
+mnot: [reads from the document]: "Historically, the perceived performance of HTTPS has been worse than that of cleartext HTTP, because of the protocol ovpackaging
+erhead. However, rCapability URLs
+ecent developmentsCapability URLs 
+packaging 
+ such as HTTP/2, OCSP Stapling and TLS session tickets have reduced this overhead to the point where the deficit is minor -- often, inperceptible (see Is TLS Fast Yet? for details). We expect that future developments (such as TLS/1.3) will further reduce the performance penalty of encryption."
 
 domenic: comes down to audience and vision for this document
 
@@ -227,7 +238,8 @@ plinss: the difficulty is that you want the site to fail when insecure.
 [discussion of three documents: Mark's finding; best practices; and secure "http:". The second two are potential new work.]
 
 
-#### Topic: packaging
+<a name="packaging"></a>
+#### Topic: packaging 
 
 http://w3ctag.github.io/packaging-on-the-web/
 
@@ -294,7 +306,8 @@ Mark: whilst liaison is good and we might consider using that if it's ready, thi
 
  https://github.com/w3ctag/packaging-on-the-web/issues/12
 
-#### Topic: Capability URLs
+<a name="capability"></a>
+#### Topic: Capability URLs 
 
 DKA: As far as I'm concerned this is a published finding.
 
@@ -305,6 +318,9 @@ https://github.com/w3ctag/capability-urls/pull/5
 [discussion on this topic]
 
 [Resolved to make appropriate chanegs to doc, Jeni to continue to be attached to this unless workload gets too high. Yves will finalize getting it published formally as an approved finding.]
+URL-n-stuff
+URL-n-stuff 
+URL-n-stuff  
 
 ---
 
@@ -312,8 +328,8 @@ https://github.com/w3ctag/capability-urls/pull/5
 #### Chair: Peter
 #### Guest: Sam Ruby
 
+<a name="URL"></a>
 #### Topic: URL-n-stuff
-
 
 Peter: Let's start.
 
@@ -443,6 +459,10 @@ https://url.spec.whatwg.org/reference-implementation/liveview2.html#http%3A%2F%2
 [discussion of perhaps using a CSP directive to force translation of "http://" urls to "https://"]
 
 timbl: there are cases where it's reasonable to give users some control over relativeization in some cases. A standard API might have preferences for this sort of thing.
+captive portals
+privacy interest group: http://www.w3.org/Privacy/
+captive portals 
+privacy interest group: http://www.w3.org/Privacy/ 
 
 sam: there are lots of cases where this doesn't make sense; we can do that if it makes sense to end-uesrs -- IDNA is a place where options haven't helped
 
@@ -486,6 +506,7 @@ Sam: If it's stuff like status text you can just do it as pull requetss in the w
 
 [ending discussion on URL]
 
+<a name="captive"></a>
 #### Topic: captive portals
 
 mnot: there's a proposal that's getting traction about a DHCP flag to note captive portals
@@ -542,7 +563,10 @@ plinss: we've talked about getting people together at TPAC, anything else we can
 
 [it's a long slog]
 
-#### Topic: privacy interest group: http://www.w3.org/Privacy/
+<a name="privacy"></a>
+#### Topic: privacy interest group
+
+http://www.w3.org/Privacy/ 
 
 dka: there is a privacy interest group in the W3C...a doc that describes privacy considerations for API design.
 
