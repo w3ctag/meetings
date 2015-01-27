@@ -230,8 +230,10 @@ Proposal:
 - Sept 14-16 MIT
 - Jan 12-14 Melbourne (tentative)
 
-Chair: Peter
-Scribe: Jeni
+---
+
+#### Chair: Peter
+#### Scribe: Jeni
 
 <a name="DNT"></a>
 #### Topic: Do Not Track

@@ -1,19 +1,24 @@
-TAG f2f
-7 Jan 2015 - NYC - Google - Earth
+### TAG F2F
+#### 7 Jan 2015 - NYC - Google - Earth
 
-Present: Alex, Sergey, Yves, Domenic, Tim, Mark, Peter, Jeni, Dan
-Regrets: Yehuda
-Special Guest: Yan Zhu
+#### Present: Alex, Sergey, Yves, Domenic, Tim, Mark, Peter, Jeni, Dan
+#### Regrets: Yehuda
+#### Special Guests: Yan Zhu (morning), Sam Ruby (afternoon)
+
+#### Chair: Dan
+#### Scribe: Domenic
+
+#### Topics:
 
 --
 
-TOPIC: HTTPS
+#### Topic: HTTPS
 
 (with special guest Yan Zhu)
 
 mnot: We have [this draft](https://w3ctag.github.io/web-https/) I started thinking about this back when I saw the IAB statement on internet confidentiality, and thinking about it and the similarities between the IAB and the TAG, and was thinking that we should have a similar statement on the W3C side for the web. From an architectural standpoint especially, what can we state about the use of encryption and why that is or is not important. I wrote that down...
 
-<discussion about how gists are not very good at auto-saving things you type and forget to save>
+[discussion about how gists are not very good at auto-saving things you type and forget to save]
 
 mnot: ... shopped it around to a few people, opened it up to the TAG. We've had a few issues raised on it; as I'm sure you all know a fair amount of discussion on-list. Where we're at now I think is that we have probably some discussion to have today about it. A lot of the issues have been addressed to some degree; I'd love to hear what people think. Both in the large and in terms of going through the spec and making sure the language is appropriate; I am more than happy to take guidance on the specific langauge. There has been a kind of constant pressure to make this a very specific document, but I've been trying to resist that. Specific stuff needs to go in Recommendations; it needs to be a product of the consensus proccess. I also think the specific stuff needs to be taken care of by people closer to the matter. So in particular we have an Implementations section; my inclination is to if anything make it a little more generic than it is now.
 
@@ -87,7 +92,7 @@ plinss: what if when you type "http://example.com" the browser first tried TLS o
 
 mnot: separate question, when you type "example.com", what about first trying "https://example.com". There are performance issues here, and also the case of HTTP and HTTPS being purposefully different.
 
-<discussion about this kind of scheme>
+[discussion about this kind of scheme]
 
 mnot: the details of *how* to encourage HTTPS is a much longer discussion. For me I'd like this finding to set a longer-term goal and explore the space of what things need to be done, in our coordinating role as the TAG. Not a decision-makling role.
 
@@ -139,9 +144,9 @@ mnot: there's a lot of permutations; 0RT vs. 1RT; (a few other technologies I di
 
 domenic: best case scenario is zero extra round trips with properly configured software.
 
-<https://istlsfastyet.com>
+https://istlsfastyet.com
 
-<https://www.igvita.com/2013/12/16/optimizing-nginx-tls-time-to-first-byte/>
+https://www.igvita.com/2013/12/16/optimizing-nginx-tls-time-to-first-byte/
 
 timbl: that's pretty amazing. what about client certs?
 
@@ -153,7 +158,7 @@ mnot: so, the document already talks about performance. What is your concrete fe
 
 dka: I feel like there should be an issues section, both containing issues and explaining mitigations, to clear the air of objections that might potentially be in peoples' mines.
 
-mnot: <reads from the document>: "Historically, the perceived performance of HTTPS has been worse than that of cleartext HTTP, because of the protocol overhead. However, recent developments such as HTTP/2, OCSP Stapling and TLS session tickets have reduced this overhead to the point where the deficit is minor -- often, inperceptible (see Is TLS Fast Yet? for details). We expect that future developments (such as TLS/1.3) will further reduce the performance penalty of encryption."
+mnot: [reads from the document]: "Historically, the perceived performance of HTTPS has been worse than that of cleartext HTTP, because of the protocol overhead. However, recent developments such as HTTP/2, OCSP Stapling and TLS session tickets have reduced this overhead to the point where the deficit is minor -- often, inperceptible (see Is TLS Fast Yet? for details). We expect that future developments (such as TLS/1.3) will further reduce the performance penalty of encryption."
 
 domenic: comes down to audience and vision for this document
 
@@ -171,7 +176,7 @@ mnot: as domenic was saying earlier, people in the HTTP world would say the answ
 
 timbl: there is impact on the semantic web community where they compare strings instead of comparing resolved URLs.
 
-<discussion of semantic web comparing URLs as strings and how this works with a web full of redirects>
+[discussion of semantic web comparing URLs as strings and how this works with a web full of redirects]
 
 dka: is there something we could say in the document about equivalence of "http:" and "https:" that would be forward-looking
 
@@ -181,7 +186,7 @@ mnot: I would hope we would focus on the content implications of the conversion.
 res[e
 plinss: I agree, but it should be a separate document.
 
-<discussion about default apache configuration>
+[discussion about default apache configuration]
 
 dka: relates to [what w3c currently tells "webmasters" about configuring security](http://www.w3.org/Security/faq/ ). You don't even want to look at this page; it will burn your eyes. We should make a new version of this and deprecate the old one.
 
@@ -195,9 +200,9 @@ timbl: this document is about the current situation.
 
 domenic: I re-read the paragraph and don't think it's dismissive. But if there's a concrete change you'd like...
 
-<discussion of the paragraph in specific>
+[discussion of the paragraph in specific]
 
-<discussion of gogo mitm'ing websites>
+[discussion of gogo mitm'ing websites]
 
 dka: yan, anything from you?
 
@@ -215,14 +220,14 @@ plinss: I'm fine with that, I just don't see that needing to be predicated on th
 
 dka: agree.
 
-<discussion of secure "http">
+[discussion of secure "http"]
 
 plinss: the difficulty is that you want the site to fail when insecure.
 
-<discussion of three documents: Mark's finding; best practices; and secure "http:". The second two are potential new work.>
+[discussion of three documents: Mark's finding; best practices; and secure "http:". The second two are potential new work.]
 
 
-TOPIC: packaging
+#### Topic: packaging
 
 http://w3ctag.github.io/packaging-on-the-web/
 
@@ -248,7 +253,7 @@ jeni: the issues I'm thinking of are the ones Dave raised at the last F2F he att
 
 alex: doesn't seem like actionable feedback. OK, so now that we have a packaging format, with issues that we can't identify (which seems like a good place to be), I'm curious about how we could go about providing signing for that packaging format. You could provide a signature out of band, e.g. in the meta tag. Or it could be in-band, presumably at the end of the bundle?
 
-<discussion of signature position>
+[discussion of signature position]
 
 mnot: I'd really hope that this would not be reinventing HTTP.
 
@@ -289,7 +294,7 @@ Mark: whilst liaison is good and we might consider using that if it's ready, thi
 
  https://github.com/w3ctag/packaging-on-the-web/issues/12
 
-Topic: Capability URLs
+#### Topic: Capability URLs
 
 DKA: As far as I'm concerned this is a published finding.
 
@@ -301,12 +306,14 @@ https://github.com/w3ctag/capability-urls/pull/5
 
 [Resolved to make appropriate chanegs to doc, Jeni to continue to be attached to this unless workload gets too high. Yves will finalize getting it published formally as an approved finding.]
 
+---
 
-Topic: URL-n-stuff
+#### Scribe: Dan
+#### Chair: Peter
+#### Guest: Sam Ruby
 
-Scribe: Dan
-Chair: Peter
-Guest joining: Sam Ruby
+#### Topic: URL-n-stuff
+
 
 Peter: Let's start.
 
@@ -441,7 +448,7 @@ sam: there are lots of cases where this doesn't make sense; we can do that if it
 
 sam: my interest is in getting people engaged in this process
 
-TOPIC: break.
+[break]
 
 [possibly back from break...]
 
@@ -479,7 +486,7 @@ Sam: If it's stuff like status text you can just do it as pull requetss in the w
 
 [ending discussion on URL]
 
-Topic: captive portals
+#### Topic: captive portals
 
 mnot: there's a proposal that's getting traction about a DHCP flag to note captive portals
 
@@ -535,7 +542,7 @@ plinss: we've talked about getting people together at TPAC, anything else we can
 
 [it's a long slog]
 
-TOPIC: privacy interest group: http://www.w3.org/Privacy/
+#### Topic: privacy interest group: http://www.w3.org/Privacy/
 
 dka: there is a privacy interest group in the W3C...a doc that describes privacy considerations for API design.
 
@@ -544,8 +551,6 @@ dka: they were looking for a privacy review for all new specs.
 dka: perhaps we need a call with them? their chairs could introduce their work.
 
 slightlyoff: it'd be great to get on the same page with them about what aspects of privacy they're looking at to make sure we understand each other
-
-TOPIC: finishing up and discussion of tomorrow's agenda
 
 FINI
 
