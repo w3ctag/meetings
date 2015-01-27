@@ -8,14 +8,14 @@
 
 ###Topics:
 - <a href="#Houdini">Houdini Task Force</a>
-- <a href="TC39">TC39 Update</a>
-- <a href="HTTP2">HTTP/2</a>
-- <a href="future">future meetings</a>
-- <a href="DNT">Do Not Track</a>
-- <a href="private">private browsing</a>
-- <a href="same">"same origin"</a>
-- <a href="WebIDL">WebIDL</a>
-- <a href="spec">spec review planning</a>
+- <a href="#TC39">TC39 Update</a>
+- <a href="#HTTP2">HTTP/2</a>
+- <a href="#future">future meetings</a>
+- <a href="#DNT">Do Not Track</a>
+- <a href="#private">private browsing</a>
+- <a href="#same">"same origin"</a>
+- <a href="#WebIDL">WebIDL</a>
+- <a href="#spec">spec review planning</a>
 
 ---
 
