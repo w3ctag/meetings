@@ -27,13 +27,13 @@ mnot: We have [this draft](https://w3ctag.github.io/web-https/) I started thinki
 
 [discussion about how gists are not very good at auto-saving things you type and forget to save]
 
-mnot: ... shopped it around to a few people, opened it up to the TAG. We've had a few issues raised on it; as I'm sure you all know a fair amount of discussion on-list. Where we're at now I think is that we have probably some discussion to have today about it. A lot of the issues have been addressed to some degree; I'd love to hear what people think. Both in the large and in terms of going through the spec and making sure the language is appropriate; I am more than happy to take guidance on the specific langauge. There has been a kind of constant pressure to make this a very specific document, but I've been trying to resist that. Specific stuff needs to go in Recommendations; it needs to be a product of the consensus proccess. I also think the specific stuff needs to be taken care of by people closer to the matter. So in particular we have an Implementations section; my inclination is to if anything make it a little more generic than it is now.
+mnot: ... shopped it around to a few people, opened it up to the TAG. We've had a few issues raised on it; as I'm sure you all saw a fair amount of discussion on-list. Where we're at now I think is that we have probably some discussion to have today about it. A lot of the issues have been addressed to some degree; I'd love to hear what people think. Both in the large and in terms of going through the spec and making sure the language is appropriate; I am more than happy to take guidance on the specific language. There has been a kind of constant pressure to make this a very specific document, but I've been trying to resist that. Specific stuff needs to go in Recommendations; it needs to be a product of the consensus process. I also think the specific stuff needs to be taken care of by people closer to the matter. So in particular we have an Implementations section; my inclination is if anything to make it a little more generic than it is now.
 
 dka: also see [Yan's blog post](https://zyan.scripts.mit.edu/blog/tls-everything/). One of the things I found interesting about the post is that it helps refute some of the points people bring up against the move to HTTPS. These are points that I hear a lot in various contexts, e.g. TLS are slow. I think it might be helpful to structure some discussion around your points. I think w.r.t. Mark's document, the abstract needs some work; I'm also curious how it relates to the document about [requirements for powerful features](https://w3c.github.io/webappsec/specs/powerfulfeatures/).
 
 yan: note that the blog post was only a few things I've heard. You guys may have more.
 
-timbl: a while ago the TAG said to the W3C, "can't you make everthing available over HTTPS." However the webmaster said existing HTTP links would be impacted; it would be destructive to incoming links and internal links. He didn't want multiple caches for e.g. DTDs and so on. Given that we don't have any technology that allows browsers to understand that the "s" is irrelevant, we couldn't get him to move. And I sympathize completely since it's bad to break the links.
+timbl: a while ago the TAG said to the W3C, "can't you make everything available over HTTPS." However the webmaster said existing HTTP links would be impacted; it would be destructive to incoming links and internal links. He didn't want multiple caches for e.g. DTDs and so on. Given that we don't have any technology that allows browsers to understand that the "s" is irrelevant, we couldn't get him to move. And I sympathize completely since it's bad to break the links.
 
 domenic: why can't you just 301 the http to new https links?
 
@@ -101,7 +101,7 @@ mnot: separate question, when you type "example.com", what about first trying "h
 
 [discussion about this kind of scheme]
 
-mnot: the details of *how* to encourage HTTPS is a much longer discussion. For me I'd like this finding to set a longer-term goal and explore the space of what things need to be done, in our coordinating role as the TAG. Not a decision-makling role.
+mnot: the details of *how* to encourage HTTPS is a much longer discussion. For me I'd like this finding to set a longer-term goal and explore the space of what things need to be done, in our coordinating role as the TAG. Not a decision-making role.
 
 jeni: I think this is really important it's really useful for the TAG to be making these kinds of statements. Reading it, I was left with a "aah! what am I supposed to do?" feeling. I think answering that would be useful. There are some specific things around how to handle mixed content, from a data-serving point of view, saying that if you're serving data on the web you should be thinking right now of how you're going to move to HTTPS. I also think that flagging up the transition stories in more detail would be incredibly helpful and would help explain that this will be a longer journey and help give practical steps.
 
@@ -133,7 +133,7 @@ timbl: I think it's not doing our job if we don't address those issues. Maybe th
 
 mnot: I have a counter-counter-counter proposal. I think this document should be very brief. Two or three paragraphs; high level; we can open a number of issues and link to them.
 
-alex: I am not sure that woul be productive, because when we are engaging with working groups, they will have a series of questions that we'll have to answer, and it would be bad to answer them ad-hoc. It seems to me that part of the utility of this document is a coherent and concise explanation of why this is a good thing to do.
+alex: I am not sure that would be productive, because when we are engaging with working groups, they will have a series of questions that we'll have to answer, and it would be bad to answer them ad-hoc. It seems to me that part of the utility of this document is a coherent and concise explanation of why this is a good thing to do.
 
 mnot: I just don't want it to be an issues list. Issues should be in the issues list.
 
@@ -145,7 +145,7 @@ mnot: I don't disagree, but I'm a little uncomfortable with how verbose the docu
 
 yan: one of the things I've noticed from anti-HTTPS people is they complain about costs; we should tell them about the benefits and that will answer lots.
 
-timbl: one thing I've asked for is a comparisong of round trip times. Nobody has given that to me.
+timbl: one thing I've asked for is a comparison of round trip times. Nobody has given that to me.
 
 mnot: there's a lot of permutations; 0RT vs. 1RT; (a few other technologies I didn't catch); there's a matrix---it's pretty complex.
 
@@ -157,7 +157,7 @@ https://www.igvita.com/2013/12/16/optimizing-nginx-tls-time-to-first-byte/
 
 timbl: that's pretty amazing. what about client certs?
 
-mnot: client certs are kind of a corner case but also used enough that we can't ignore. But they're not recommend and I'm not sure where they come in to things. In general there is lots of old software but there's a lot of work going in to making TLS have less and less overhead from a user-percieved latency standpoint. Certainly on a standards timescale we can rely on that.
+mnot: client certs are kind of a corner case but also used enough that we can't ignore. But they're not recommend and I'm not sure where they come in to things. In general there is lots of old software but there's a lot of work going in to making TLS have less and less overhead from a user-perceived latency standpoint. Certainly on a standards timescale we can rely on that.
 
 dka: back to the document. We could say something like "some people say there's performance issues but the consensus in the deployment community is that these are addressed or in the process of being addressed."
 
