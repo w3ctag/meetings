@@ -1,4 +1,4 @@
-## TAG F2F
+### TAG F2F
 #### 6 Jan 2015 - NYC - Google - Earth
 
 #### Present: Alex, Sergey, Yves, Domenic, Tim, Mark, Peter, Jeni, Dan
@@ -19,7 +19,7 @@
 
 ---
 
-<a name="Houdini">*Topic*: Houdini Task Force</a>
+<a name="Houdini"></a>**Topic**: Houdini Task Force
 
 mnot: there's an effort in IETF to register .onion, there's also decentralized naming on the horizon
 
@@ -57,7 +57,7 @@ alex: tool vendors such as sass and less should be involved...they're the consti
 
 [looking at glitter demos...they're neat! custom properties and drawing]
 
-<a name="TC39">*Topic*: TC39 update</a>
+<a name="TC39"></a>**Topic**: TC39 update
 
 domenic: ES6 is going to be finalized soon...published officially in May/June. Last-minute snag about built-in subclassing from implementer feedback. Mailing lists are a-flutter. Somewhat worrying.
 
@@ -133,7 +133,7 @@ domenic: the loader can satisfy that based on the caller.
 
 [coffee break]
 
-<a name="HTTP2">*Topic*: HTTP/2"</a>
+<a name="HTTP2"></a>**Topic**: HTTP/2"
 
 mnot: at IETF last-call, ends on Jan 14; goes to IESG on Jan 22. Will have an RFC shortly thereafter.
 
@@ -206,7 +206,7 @@ mnot: if people have thoughts about if it's a good idea, now's the time.
 
 mnot: there are upcoming IETF meetings. TLS 1.3 is coming along. RTCweb is coming along. 
 
-<a name="future">*Topic*: future meetings</a>
+<a name="future"></a>**Topic**: future meetings
 
 dka: April 20th Extensible Web Summit, with O'Rielly space that sounds suitable; April 21st-23rd F2F needs host. Possible hosts: Mozilla, Akamai, Telefonica.
 
@@ -229,7 +229,7 @@ Proposal:
 Chair: Peter
 Scribe: Jeni
 
-<a name="DNT">*Topic*: Do Not Track</a>
+<a name="DNT"></a>**Topic**: Do Not Track
 
 mnot: so what do we think?
 
@@ -339,7 +339,7 @@ slightlyoff: I'm trying to figure out how we could assess the cost
 
 mnot: it's hard to quantify because there are so many ways in which people use the web
 
-<a name="private">*Topic*: private browsing</a>
+<a name="private"></a>**Topic**: private browsing
 
 http://w3ctag.github.io/private-mode/
 
@@ -413,7 +413,7 @@ slightlyoff: I'd like to know what TOR does & doesn't turn off.
 
 mnot: look at https://www.torproject.org/projects/torbrowser/design/#fingerprinting-linkability
 
-<a name="same">*Topic*: "same origin"</a>
+<a name="same"></a>**Topic**: "same origin"
 
 [Related news: http://www.theverge.com/2015/1/5/7494731/gogo-in-flight-wi-fi-is-spoofing-its-own-customers]
 
@@ -593,7 +593,7 @@ domenic: I could bang this out in an afternoon
 
 slightlyoff: I think you're optimistic, how about I volunteer instead as an "interested outsider"?
 
-<a name="WebIDL">*Topic*: WebIDL</a>
+<a name="WebIDL"></a>**Topic**: WebIDL
 
 domenic: this topic was brought up on the mailing list a while ago. WebIDL has a v1 and a v2 branch, neither of which are complete or publishable. v1 is generally not maintained, whereas v2 is growing and in non-backwards-compatible ways. Someone was saying they wanted to push v1 to Rec, and that would be the wrong thing to do. WebIDL spec editor is overburdened. There are tons of open bugs on both versions. I don't know where that leads us; the discussion died down. v1 is factually incorrect, no one should use it.
 
@@ -631,7 +631,7 @@ yves: if v1 has most of v2, maybe we could publish what's currently in v2 as Rec
 
 pliss: pull it out of CR, go back to WD with the v2 material in it
 
-<a name="spec">*Topic*: spec review planning</a>
+<a name="spec"></a>**Topic**: spec review planning
 
 dka: new stuff that we're not currently reviewing: what should we be adding to our spec review queue?
 
