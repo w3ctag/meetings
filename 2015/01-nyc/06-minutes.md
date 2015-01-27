@@ -156,7 +156,7 @@ mnot: not sure. Not a string impetus in that community to do it yet. Perf benefi
 
 mnot: expect to see the webperf community align around experiences about this.
 
-mnot: background discussions about HTTP/3. Lots to do; connection coalescing, security, UDP transport. IAB workshop in Jan about UDP-based transports. Feedback will filter back to IETF.
+mnot: background discussions about next steps. Lots to do; connection coalescing, security, UDP transport. IAB workshop in Jan about UDP-based transports. Feedback will filter back to IETF.
 
 slightlyoff: what experiments besides QUIC are happening for UDP transport?
 
