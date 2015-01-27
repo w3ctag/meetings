@@ -351,7 +351,7 @@ mnot: it's hard to quantify because there are so many ways in which people use t
 
 http://w3ctag.github.io/private-mode/
 
-mnot: I did a proto spec on private browsing mode last year; during TPAC we had a dinner on Monday night with good representation from all the browsers except Chrome, though I've had other discussions with them; also UK government; we had a good discussion about the document. I want to pare it down to get to a Recommendation that defines "private browsing mode" for other specs to reference, eg 'and when in privacy mode you do X'. It doesn't seem controversial to document what private browsing mode is right now. There's more in the document about machine, server etc. Right now it's just the on disk attacker or person using the browser next etc. So let's document that and extend the scope later. I want to think through a bit more what that roadmap would look like.
+mnot: I did a proto spec on private browsing mode last year; during TPAC we had a dinner on Monday night with good representation from all the browsers except Chrome, though I've had other discussions with them; also UK government; we had a good discussion about the document. I want to pare it down to get to a Recommendation that defines "private browsing mode" for other specs to reference, e.g. 'and when in privacy mode you do X'. It doesn't seem controversial to document what private browsing mode is right now. There's more in the document about machine, server etc. Right now it's just the on disk attacker or person using the browser next etc. So let's document that and extend the scope later. I want to think through a bit more what that roadmap would look like.
 
 domenic: what have you found about divergence between browsers currently?
 
@@ -363,7 +363,7 @@ mnot: I'd like conformant browsers to point out that people aren't being protect
 
 domenic: the incentives aren't there
 
-mnot: the nice thing about private browsing mode is that it's a flag from the user about the expectations they have, eg if they try to navigate to an HTTP site then warn them
+mnot: the nice thing about private browsing mode is that it's a flag from the user about the expectations they have, e.g. if they try to navigate to an HTTP site then warn them
 
 domenic: most of the time I use private browsing mode is not about privacy (it's about shopping for my girlfriend, obviously)
 
@@ -428,7 +428,7 @@ mnot: look at https://www.torproject.org/projects/torbrowser/design/#fingerprint
 
 domenic: I'd like to get to a ToC for this document. We need to discuss the target audience
 
-slightlyoff: start from the idealised multi-agent model & build from there including all the stuff that's grandfathered in
+slightlyoff: start from the idealized multi-agent model & build from there including all the stuff that's grandfathered in
 
 timbl: in all this there's no concept of a trusted app
 
@@ -510,7 +510,7 @@ ToC:
 	- exceptions: `<img>` & `<script>`
 		- cannot read img contents, only paint them
 		- script executes in the context of effective origin (JSON-P)
-	- CORS headers allowing collab [where to talk about turning these on all the time] (vs server proxy)
+	- CORS headers allowing collab (where to talk about turning these on all the time) (vs server proxy)
 	- granting sensible permissions (mic etc)
 
 A: ambient authority / CORS / credentials
@@ -542,9 +542,9 @@ slightlyoff: CSP is an enforcement model there. CSP is a policy enforcement mech
 
 timbl: CSP can only decrease my power.
 
-slightlyoff: we've tried the appstore thing: Chrome has had multiple appstores, Firefox too. Packages have lots of downsides. You could imagine a developer programme so you can verify the developer.
+slightlyoff: we've tried the appstore thing: Chrome has had multiple appstores, Firefox too. Packages have lots of downsides. You could imagine a developer program so you can verify the developer.
 
-timbl: I've discussed 'beneficient app', a branding label. Meanwhile, why do we have to have CORS on everything.
+timbl: I've discussed 'beneficent app', a branding label. Meanwhile, why do we have to have CORS on everything.
 
 slightlyoff: it's a question of balance, who is it good for
 
@@ -566,7 +566,7 @@ domenic: yes. I want to bring up a crazy idea: what if browsers came with a prox
 
 [everyone: err, maybe not]
 
-slightlyoff: there are browsers that sort of do that with an optimising proxy
+slightlyoff: there are browsers that sort of do that with an optimizing proxy
 
 dka: those proxies don't work on HTTPS content, right?
 
@@ -590,7 +590,7 @@ mnot: UC browser mini is a split browser. Opera mini actually say what they do &
 
 dka: I think it's specifically interesting in the context of the move to HTTPS
 
-mnot: in terms of the pressure that it might add to that tendancy?
+mnot: in terms of the pressure that it might add to that tendency?
 
 dka: it's one thing to consider Opera mini in the context of unencrypted sites, but something different with HTTPS where they're essentially MITMing
 
@@ -609,7 +609,7 @@ domenic: this topic was brought up on the mailing list a while ago. WebIDL has a
 
 dka: is there value in putting effort into bolstering v2?
 
-yves: v2 evolved because of new types and promises, parameterised types etc. v2 is where new technologies from TC39 are put, so it can't be stable.
+yves: v2 evolved because of new types and promises, parameterized types etc. v2 is where new technologies from TC39 are put, so it can't be stable.
 
 domenic: it's fine to have a master branch & an outdated branch, but we shouldn't be keeping them in parallel. The assumption was for v1 to go to Rec, but that's not how things have worked out
 
@@ -660,19 +660,19 @@ dka: that seems like something we should add to our list of things we're keeping
 
 [discussion of potential April 1st TAG Findings]
 
-[Bittorrent browser: http://blog.bittorrent.com/2014/12/10/project-maelstrom-the-internet-we-build-next/]
+[BitTorrent browser: http://blog.bittorrent.com/2014/12/10/project-maelstrom-the-internet-we-build-next/]
 
-Dka: question - does anyone know anyone at Bittorrent?
+Dka: question - does anyone know anyone at BitTorrent?
 
-dka: the TAG has often touched on what a P2P architecture for the web might look like - is this something that could be speccable? do we know what the Bittorrent folks are doing? Should we be thinking about it?
+dka: the TAG has often touched on what a P2P architecture for the web might look like - is this something that could be speccable? do we know what the BitTorrent folks are doing? Should we be thinking about it?
 
-mnot: I've looked at it: Bittorrent is all poprietary. They have a P2P web caching thing now. This goes back to SRI & privacy & the tradeoffs inherent in that. If you're using a P2P model you're broadcasting everything you browse.
+mnot: I've looked at it: BitTorrent is all proprietary. They have a P2P web caching thing now. This goes back to SRI & privacy & the tradeoffs inherent in that. If you're using a P2P model you're broadcasting everything you browse.
 
 dka: that argument is often used to stop any line of thinking around P2P caching. When this news item came up, it struck me that there could be another approach that could allow the community to have their cake & eat it.
 
 mnot: there's a technique called 'private information retrieval' but it's not practical at web scale (according to AT&T researchers). there are other ways to slice this, SRI seems like it's the best hope we have right now. It allows an origin to flag the content that it thinks is public for reuse. My understanding is that the browser security guys are interested in that use case, but they want more experience first.
 
-dka: as far as we know, we think the Bittorrent thing is proprietary so we shouldn't comment on it?
+dka: as far as we know, we think the BitTorrent thing is proprietary so we shouldn't comment on it?
 
 mnot: yeah
 
