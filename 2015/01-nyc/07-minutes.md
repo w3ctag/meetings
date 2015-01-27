@@ -157,7 +157,12 @@ https://www.igvita.com/2013/12/16/optimizing-nginx-tls-time-to-first-byte/
 
 timbl: that's pretty amazing. what about client certs?
 
-mnot: client certs are kind of a corner case but also used enough that we can't ignore. But they're not recommend and I'm not sure where they come in to things. In general there is lots of old software but there's a lot of work going in to making TLS have less and less overhead from a user-perceived latency standpoint. Certainly on a standards timescale we can rely on that.
+mnot: client certs are kind of a corner case, but also used enough that we
+can't just ignore them. That said, they're not part of the finding, so I'm not
+sure where they come in to things here. In general there is lots of old
+software, but there's a lot of work going into making TLS have less and less
+overhead from a user-perceived latency standpoint. Certainly on a standards
+timescale we can rely on that.
 
 dka: back to the document. We could say something like "some people say there's performance issues but the consensus in the deployment community is that these are addressed or in the process of being addressed."
 
