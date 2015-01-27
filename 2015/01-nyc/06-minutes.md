@@ -144,7 +144,7 @@ mnot: at IETF last-call, ends on Jan 14; goes to IESG on Jan 22. Will have an RF
 
 dka: that's HTTP/2 & HPACK
 
-mnot: yes, we have 25-30 impls. Shipping in Chrome, IE, & FF. Rumors about Safari. Akamai, nginx looking at it, varnish is rearchitecting to support, IIS should support
+mnot: yes, we have 25-30 impls. Shipping in Chrome, IE, FF, Akamai. Rumors about Safari. Nginx looking at it, varnish is apparently re-architecting to support, IIS should support
 
 mnot: lots of tests, particularly of Japan.
 
