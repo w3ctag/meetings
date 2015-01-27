@@ -9,10 +9,10 @@
 #### Scribe: Sergey
 
 #### Topics:
-<a href="#elections">Elections</a>
-<a href="#reportcard">Report Card</a>
-<a href="#practices">TAG Working Practices</a>
-<a href="#reviews">Spec Reviews Review</a>
+- <a href="#elections">Elections</a>
+- <a href="#reportcard">Report Card</a>
+- <a href="#practices">TAG Working Practices</a>
+- <a href="#reviews">Spec Reviews Review</a>
 
 ---
 
