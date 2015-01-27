@@ -144,9 +144,9 @@ mnot: at IETF last-call, ends on Jan 14; goes to IESG on Jan 22. Will have an RF
 
 dka: that's HTTP/2 & HPACK
 
-mnot: yes, we have 25-30 impls. Shipping in Chrome, IE, & FF. Rumors about Safari. Akami, nginx looking at it, varnish is rearchitecting to support, IIS should support
+mnot: yes, we have 25-30 impls. Shipping in Chrome, IE, & FF. Rumors about Safari. Akamai, nginx looking at it, varnish is rearchitecting to support, IIS should support
 
-mnot: lots of tests, partiuclarly of Japan.
+mnot: lots of tests, particularly of Japan.
 
 timbl: why is Apache not interested?
 
@@ -158,9 +158,9 @@ mnot: expect to see the webperf community align around experiences about this.
 
 mnot: background discussions about HTTP/3. Lots to do; connection coalescing, security, UDP transport. IAB workshop in Jan about UDP-based transports. Feedback will filter back to IETF.
 
-slightlyoff: what experiements besides QUIC are happening for UDP transport?
+slightlyoff: what experiments besides QUIC are happening for UDP transport?
 
-mnot: lots of these floating around. Akami has a product. MSFT research. etc.
+mnot: lots of these floating around. Akamai has a product. MSFT research. etc.
 
 domenic: MinimaLT was an impressive experiment in this area. Also like the HTTP/2 working mode where experiments come back to the spec over time.
 
@@ -174,7 +174,7 @@ dka: having a metric was great.
 
 mnot: there was an existing web-perf community that we could talk to and that helped us connect to the rest of the world.
 
-dka: one of the other docus you were working on was about opportunistic encryption. What's going on with that?
+dka: one of the other docs you were working on was about opportunistic encryption. What's going on with that?
 
 mnot: only on impl on the client (FF), but it doesn't seem to be getting tremendous momentum yet. Lots of discussions about tradeoffs; does it make the security a tri-state (vs on/off)?
 
@@ -188,7 +188,7 @@ dka: what's the view to how HTTP/2 will get used inside data-centers?
 
 mnot: HTTP versioning is hop-by-hop; lots of systems can insulate those systems with a front-end
 
-mnot: one of the issues with HTTP/1 was connection handling; e.g. at Yahoo, a constraint was the # of the open connections supported by a switch in the middle of a system. HTTP/2 makes some of this better. Front-end/back-end conversations can *probably* benefit from encryption, but there's lots of ways ot meet that requirement.
+mnot: one of the issues with HTTP/1 was connection handling; e.g. at Yahoo, a constraint was the # of the open connections supported by a switch in the middle of a system. HTTP/2 makes some of this better. Front-end/back-end conversations can *probably* benefit from encryption, but there's lots of ways to meet that requirement.
 
 dka: other topics that aren't encryption?
 
