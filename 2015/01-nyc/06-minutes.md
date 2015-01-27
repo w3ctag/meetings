@@ -274,19 +274,19 @@ mnot: that would give an incentive to browsers to always send DNT
 
 dka: I'm saying that would be an alignment of concerns
 
-mnot: but it doesn't cost them anything to do it, and the session might give information even if it's epheremal
+mnot: but it doesn't cost them anything to do it, and the session might give information even if it's ephemeral
 
 domenic: I think it could be an interesting bit in that case
 
-dka: isn't there legislation in eg CA that mentions DNT?
+dka: isn't there legislation in e.g. CA that mentions DNT?
 
 mnot: I don't know what the regulatory situation is in America & Europe; if Europe were involved in this more, it would be something stronger. It seems pessimistic to design for America
 
 dka: Wikipedia: http://en.wikipedia.org/wiki/Do_Not_Track_legislation - not all of this is existing legislation, some is just proposed
 
-[see california California Assembly Bill AB 370 - passed legislation which references DNT]
+[see California California Assembly Bill AB 370 - passed legislation which references DNT]
 
-mnot: I brought this up because whenever I talk to technical people about DNT, it's refered to as a cautionary tale, something that is broken. As the TAG, should we try to position it, what the longer term vision is? Should we try to affect it? Is there something we could do? I feel that it's making W3C look bad.
+mnot: I brought this up because whenever I talk to technical people about DNT, it's referred to as a cautionary tale, something that is broken. As the TAG, should we try to position it, what the longer term vision is? Should we try to affect it? Is there something we could do? I feel that it's making W3C look bad.
 
 domenic: I wouldn't even try to salvage it.
 
@@ -300,7 +300,7 @@ mnot: the semantics of that were 'I prefer not to see particular types of conten
 
 plinss: but a flag that said, 'It's illegal to show me particular types of content'
 
-mnot: the 'safe' hint isn't about ads, it's about objectionable content, where there's a good alignment of concerns, eg porn sites are under legislation about not serving porn to children. 'Safe' hint is going out for last call now. It's in IE, Firefox, YouTube, Bing support it.
+mnot: the 'safe' hint isn't about ads, it's about objectionable content, where there's a good alignment of concerns, e.g. porn sites are under legislation about not serving porn to children. 'Safe' hint is going out for last call now. It's in IE, Firefox, YouTube, Bing support it.
 
 dka: I'm not sure there's anything the TAG could say that would help or hurt
 
@@ -312,7 +312,7 @@ timbl: right now we should be steering the W3C to do useful things, it's the TAG
 
 mnot: maybe we should educate ourselves more and see what its current status is
 
-JeniT: there's a bunch of things matching policy & technical eg robots.txt, POWDER
+JeniT: there's a bunch of things matching policy & technical e.g. robots.txt, POWDER
 
 plinss: DNT isn't going to work because it doesn't make you untrackable, bad guys will ignore it
 
@@ -332,7 +332,7 @@ plinss: say there's 20 ways I can fingerprint a browser; if I add 5 more ways th
 
 slightlyoff: I'd like to work on problems we can actually solve
 
-mnot: there are people who are actively trying to minimise their profile (eg TOR browser) and we shouldn't make their lives harder
+mnot: there are people who are actively trying to minimize their profile (eg TOR browser) and we shouldn't make their lives harder
 
 slightlyoff: does the TOR browser remove all persistent features?
 
