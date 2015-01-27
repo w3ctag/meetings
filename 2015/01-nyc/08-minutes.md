@@ -1,21 +1,28 @@
-TAG f2f
-8 Jan 2015 - NYC - Google - Earth
+### TAG f2f
+#### 8 Jan 2015 - NYC - Google - Earth
 
-Present: Alex, Sergey, Yves, Domenic, Tim, Mark, Peter, Jeni, Dan
-Regrets: Yehuda
-Special Guest: Brian Kardell
+#### Present: Alex, Sergey, Yves, Domenic, Tim, Mark, Peter, Jeni, Dan
+#### Regrets: Yehuda
+#### Special Guest: Brian Kardell
+
+#### Chair: Dan
+#### Scribe: Sergey
+
+#### Topics:
+<a href="#elections">Elections</a>
+<a href="#reportcard">Report Card</a>
+<a href="#practices">TAG Working Practices</a>
+<a href="#reviews">Spec Reviews Review</a>
 
 ---
 
-Chair: Dan
-Scribe: Sergey
-
-
-TOPIC: Elections
+<a name="elections"></a>
+#### Topic: Elections
 
 [Funny jokes]
 
-TOPIC: Extensible Web Report Card 
+<a name="reportcard"></a>
+#### Topic: Extensible Web Report Card 
 
 https://extensiblewebreportcard.org
 
@@ -84,7 +91,8 @@ Domenic: Need. More. Text.
 
 On suggestion of Brian, have added an issue on JSON form submission to the spec review list: https://github.com/w3ctag/spec-reviews/issues/40
 
-TOPIC: TAG Work
+<a name="practices"></a>
+#### Topic: TAG Working Practices
 
 [discussion Github vs. maillists vs. Specifiction]
 
@@ -101,15 +109,17 @@ mnot: let mailing list be a reservoir of unstructured discussion, and Github con
 [JeniT proposes to focus on output]
 
 Agreed:
-      calls at 15:00 Zakim time
-      output-focused calls
-      canceling if there is to nopic
-      topics are driven by members: ‘I made progress on <XYZ>, like to get feedback’
-      one-day meeting at TPAC
+- calls at 15:00 Zakim time
+- output-focused calls
+- canceling if there is to nopic
+- topics are driven by members: ‘I made progress on <XYZ>, like to get feedback’
+- one-day meeting at TPAC
 
+<a name="reviews"></a>
+#### Topic: Spec Review Review
 
-TOPIC: Spec Review Review
+[we went through our reviews in github and updated / added as necessary]
 
 <SO META>
 
-
+Adjourned.
