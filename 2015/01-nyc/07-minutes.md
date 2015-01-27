@@ -170,11 +170,7 @@ mnot: so, the document already talks about performance. What is your concrete fe
 
 dka: I feel like there should be an issues section, both containing issues and explaining mitigations, to clear the air of objections that might potentially be in peoples' mines.
 
-mnot: [reads from the document]: "Historically, the perceived performance of HTTPS has been worse than that of cleartext HTTP, because of the protocol ovpackaging
-erhead. However, rCapability URLs
-ecent developmentsCapability URLs 
-packaging 
- such as HTTP/2, OCSP Stapling and TLS session tickets have reduced this overhead to the point where the deficit is minor -- often, inperceptible (see Is TLS Fast Yet? for details). We expect that future developments (such as TLS/1.3) will further reduce the performance penalty of encryption."
+mnot: [reads from the document]: "Historically, the perceived performance of HTTPS has been worse than that of cleartext HTTP, because of the protocol overhead. However, recent developments such as HTTP/2, OCSP Stapling and TLS session tickets have reduced this overhead to the point where the deficit is minor -- often, imperceptible (see Is TLS Fast Yet? for details). We expect that future developments (such as TLS/1.3) will further reduce the performance penalty of encryption."
 
 domenic: comes down to audience and vision for this document
 
