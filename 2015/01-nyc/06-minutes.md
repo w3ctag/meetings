@@ -61,11 +61,11 @@ alex: tool vendors such as sass and less should be involved...they're the consti
 <a name="TC39"></a>
 #### Topic: TC39 update
 
-domenic: ES6 is going to be finalized soon...published officially in May/June. Last-minute snag about built-in subclassing from implementer feedback. Mailing lists are a-flutter. Somewhat worrying.
+domenic: ES6 is going to be finalized soon... published officially in May/June. Last-minute snag about built-in subclassing from implementer feedback. Mailing lists are a-flutter. Somewhat worrying.
 
 slightlyoff: what's your sense for timing?
 
-domenic: schedule slippage not likley to happen.
+domenic: schedule slippage not likely to happen.
 
 dka: what does that mean for Joe User?
 
@@ -75,13 +75,13 @@ dka: what's the intention for terminology post-ES6?
 
 domenic: ES-2015, ES-2016, e.g.
 
-ylaffon: discusison about streams?
+ylaffon: discussion about streams?
 
 domenic: streams are going to stay where they are for now (WHATWG). I'm sympathetic to only wanting a single standards body.
 
 slightlyoff: what's the status of the patent/cc0/etc?
 
-dka: are they openstand compatible?
+dka: are they [openstand](https://open-stand.org) compatible?
 
 domenic: no. Brian Terrelson (MSFT) is doing a lot of work on this. better-than-zero chance of changing the rules, but going slow.
 
@@ -89,15 +89,15 @@ domenic: copyright is still ECMA. Patent process is in process for ES6, going we
 
 dka: is there any area that the TAG can help with?
 
-[jokesa about JSON. Too soon?]
+[jokes about JSON. Too soon?]
 
 domenic: there's a WebIDL patchwork of use of ES features. Probably needs and update. Something we can highlight. Also, post ES6, there's a lot of work on tooling to let the spec be edited as HTML, in plain-text (not MSWord), on github, etc.
 
 [digression about C++]
 
-domenic: works continues on specifying the event-loop in ES6. Currently in HTML, and I'm not sure that ES6 is doing the best job about the portions it's taking on, but will get better. Promises forced this, O.o needs it, generality ahoy. Will enable setTimeout() to be in the language, e.g.
+domenic: work continues on specifying the event-loop in ES6. Currently in HTML, and I'm not sure that ES6 is doing the best job about the portions it's taking on, but will get better. Promises forced this, O.o needs it, generality ahoy. Will enable setTimeout() to be in the language, e.g.
 
-mnot: Python did this in Python3. In PEPs.
+mnot: Python did this in Python3. In PEPs [3153](https://www.python.org/dev/peps/pep-3153/), [3156](https://www.python.org/dev/peps/pep-3156/).
 
 domenic: one more thing! Modules have been split into syntax (which is stable) and loaders which are still speculative and are now in a separate spec. This allows implementers to get a start on syntax.
 
@@ -144,9 +144,9 @@ mnot: at IETF last-call, ends on Jan 14; goes to IESG on Jan 22. Will have an RF
 
 dka: that's HTTP/2 & HPACK
 
-mnot: yes, we have 25-30 impls. Shipping in Chrome, IE, & FF. Rumors about Safari. Akami, nginx looking at it, varnish is rearchitecting to support, IIS should support
+mnot: yes, we have 25-30 impls. Shipping in Chrome, IE, FF, Akamai. Rumors about Safari. Nginx looking at it, varnish is apparently re-architecting to support, IIS should support
 
-mnot: lots of tests, partiuclarly of Japan.
+mnot: lots of tests, particularly of Japan.
 
 timbl: why is Apache not interested?
 
@@ -156,15 +156,15 @@ mnot: not sure. Not a string impetus in that community to do it yet. Perf benefi
 
 mnot: expect to see the webperf community align around experiences about this.
 
-mnot: background discussions about HTTP/3. Lots to do; connection coalescing, security, UDP transport. IAB workshop in Jan about UDP-based transports. Feedback will filter back to IETF.
+mnot: background discussions about next steps. Lots to do; connection coalescing, security, UDP transport. IAB workshop in Jan about UDP-based transports. Feedback will filter back to IETF.
 
-slightlyoff: what experiements besides QUIC are happening for UDP transport?
+slightlyoff: what experiments besides QUIC are happening for UDP transport?
 
-mnot: lots of these floating around. Akami has a product. MSFT research. etc.
+mnot: lots of these floating around. Akamai has a product. MSFT research. etc.
 
 domenic: MinimaLT was an impressive experiment in this area. Also like the HTTP/2 working mode where experiments come back to the spec over time.
 
-mnot: encouraged that we now *have* an HTTP community. We didn't have one 5-10 years ago. Lots of new participants. Lots of focus on long-term evolution.
+mnot: encouraged that we now *have* an HTTP community. We didn't have one 10 years ago. Lots of new participants. Lots of focus on long-term evolution.
 
 slightlyoff: what changed?
 
@@ -174,7 +174,7 @@ dka: having a metric was great.
 
 mnot: there was an existing web-perf community that we could talk to and that helped us connect to the rest of the world.
 
-dka: one of the other docus you were working on was about opportunistic encryption. What's going on with that?
+dka: one of the other docs you were working on was about opportunistic encryption. What's going on with that?
 
 mnot: only on impl on the client (FF), but it doesn't seem to be getting tremendous momentum yet. Lots of discussions about tradeoffs; does it make the security a tri-state (vs on/off)?
 
@@ -182,18 +182,20 @@ mnot: expect something to get published, but not sure if it'll actually get used
 
 [discussion about scenarios about opportunistic encryption; problems with cert deployment, e.g. to printers]
 
-mnot: the bit carrot is low-friction; not validating the server is part of that.
+mnot: the big carrot is low-friction; not validating the server is part of that.
 
 dka: what's the view to how HTTP/2 will get used inside data-centers?
 
 mnot: HTTP versioning is hop-by-hop; lots of systems can insulate those systems with a front-end
 
-mnot: one of the issues with HTTP/1 was connection handling; e.g. at Yahoo, a constraint was the # of the open connections supported by a switch in the middle of a system. HTTP/2 makes some of this better. Front-end/back-end conversations can *probably* benefit from encryption, but there's lots of ways ot meet that requirement.
+mnot: one of the issues with HTTP/1 was connection handling; e.g. at Yahoo, a constraint was the # of the open connections supported by a switch in the middle of a system. HTTP/2 makes some of this better. Front-end/back-end conversations can *probably* benefit from encryption, but there's lots of ways to meet that requirement.
 
 dka: other topics that aren't encryption?
 
-mnot: we're starting to talk about 451 again -- "you're being censored". 2 use-cases:
-	- the server is being asked in a certain jurisdiction to block some content
+mnot: we're starting to talk about
+[451](https://tools.ietf.org/html/draft-tbray-http-legally-restricted-status-05) again -- "you're
+being censored". 2 use-cases: - the server is being asked in a certain jurisdiction to block some
+content
 
 mnot: if people have thoughts about if it's a good idea, now's the time.
 
@@ -204,8 +206,6 @@ mnot: if people have thoughts about if it's a good idea, now's the time.
 [everyone plays with their cookie- and ad-blocking settings]
 
 [discussion of how sometimes third-party cookies are not malware]
-
-[451 draft: https://tools.ietf.org/html/draft-tbray-http-legally-restricted-status-05]
 
 mnot: there are upcoming IETF meetings. TLS 1.3 is coming along. RTCweb is coming along. 
 
@@ -274,19 +274,19 @@ mnot: that would give an incentive to browsers to always send DNT
 
 dka: I'm saying that would be an alignment of concerns
 
-mnot: but it doesn't cost them anything to do it, and the session might give information even if it's epheremal
+mnot: but it doesn't cost them anything to do it, and the session might give information even if it's ephemeral
 
 domenic: I think it could be an interesting bit in that case
 
-dka: isn't there legislation in eg CA that mentions DNT?
+dka: isn't there legislation in e.g. CA that mentions DNT?
 
 mnot: I don't know what the regulatory situation is in America & Europe; if Europe were involved in this more, it would be something stronger. It seems pessimistic to design for America
 
 dka: Wikipedia: http://en.wikipedia.org/wiki/Do_Not_Track_legislation - not all of this is existing legislation, some is just proposed
 
-[see california California Assembly Bill AB 370 - passed legislation which references DNT]
+[see California California Assembly Bill AB 370 - passed legislation which references DNT]
 
-mnot: I brought this up because whenever I talk to technical people about DNT, it's refered to as a cautionary tale, something that is broken. As the TAG, should we try to position it, what the longer term vision is? Should we try to affect it? Is there something we could do? I feel that it's making W3C look bad.
+mnot: I brought this up because whenever I talk to technical people about DNT, it's referred to as a cautionary tale, something that is broken. As the TAG, should we try to position it, what the longer term vision is? Should we try to affect it? Is there something we could do? I feel that it's making W3C look bad.
 
 domenic: I wouldn't even try to salvage it.
 
@@ -300,7 +300,7 @@ mnot: the semantics of that were 'I prefer not to see particular types of conten
 
 plinss: but a flag that said, 'It's illegal to show me particular types of content'
 
-mnot: the 'safe' hint isn't about ads, it's about objectionable content, where there's a good alignment of concerns, eg porn sites are under legislation about not serving porn to children. 'Safe' hint is going out for last call now. It's in IE, Firefox, YouTube, Bing support it.
+mnot: the 'safe' hint isn't about ads, it's about objectionable content, where there's a good alignment of concerns, e.g. porn sites are under legislation about not serving porn to children. 'Safe' hint is going out for last call now. It's in IE, Firefox, YouTube, Bing support it.
 
 dka: I'm not sure there's anything the TAG could say that would help or hurt
 
@@ -312,7 +312,7 @@ timbl: right now we should be steering the W3C to do useful things, it's the TAG
 
 mnot: maybe we should educate ourselves more and see what its current status is
 
-JeniT: there's a bunch of things matching policy & technical eg robots.txt, POWDER
+JeniT: there's a bunch of things matching policy & technical e.g. robots.txt, POWDER
 
 plinss: DNT isn't going to work because it doesn't make you untrackable, bad guys will ignore it
 
@@ -332,7 +332,7 @@ plinss: say there's 20 ways I can fingerprint a browser; if I add 5 more ways th
 
 slightlyoff: I'd like to work on problems we can actually solve
 
-mnot: there are people who are actively trying to minimise their profile (eg TOR browser) and we shouldn't make their lives harder
+mnot: there are people who are actively trying to minimize their profile (eg TOR browser) and we shouldn't make their lives harder
 
 slightlyoff: does the TOR browser remove all persistent features?
 
@@ -351,7 +351,7 @@ mnot: it's hard to quantify because there are so many ways in which people use t
 
 http://w3ctag.github.io/private-mode/
 
-mnot: I did a proto spec on private browsing mode last year; during TPAC we had a dinner on Monday night with good representation from all the browsers except Chrome, though I've had other discussions with them; also UK government; we had a good discussion about the document. I want to pare it down to get to a Recommendation that defines "private browsing mode" for other specs to reference, eg 'and when in privacy mode you do X'. It doesn't seem controversial to document what private browsing mode is right now. There's more in the document about machine, server etc. Right now it's just the on disk attacker or person using the browser next etc. So let's document that and extend the scope later. I want to think through a bit more what that roadmap would look like.
+mnot: I did a proto spec on private browsing mode last year; during TPAC we had a dinner on Monday night with good representation from all the browsers except Chrome, though I've had other discussions with them; also UK government; we had a good discussion about the document. I want to pare it down to get to a Recommendation that defines "private browsing mode" for other specs to reference, e.g. 'and when in privacy mode you do X'. It doesn't seem controversial to document what private browsing mode is right now. There's more in the document about machine, server etc. Right now it's just the on disk attacker or person using the browser next etc. So let's document that and extend the scope later. I want to think through a bit more what that roadmap would look like.
 
 domenic: what have you found about divergence between browsers currently?
 
@@ -363,7 +363,7 @@ mnot: I'd like conformant browsers to point out that people aren't being protect
 
 domenic: the incentives aren't there
 
-mnot: the nice thing about private browsing mode is that it's a flag from the user about the expectations they have, eg if they try to navigate to an HTTP site then warn them
+mnot: the nice thing about private browsing mode is that it's a flag from the user about the expectations they have, e.g. if they try to navigate to an HTTP site then warn them
 
 domenic: most of the time I use private browsing mode is not about privacy (it's about shopping for my girlfriend, obviously)
 
@@ -428,7 +428,7 @@ mnot: look at https://www.torproject.org/projects/torbrowser/design/#fingerprint
 
 domenic: I'd like to get to a ToC for this document. We need to discuss the target audience
 
-slightlyoff: start from the idealised multi-agent model & build from there including all the stuff that's grandfathered in
+slightlyoff: start from the idealized multi-agent model & build from there including all the stuff that's grandfathered in
 
 timbl: in all this there's no concept of a trusted app
 
@@ -510,7 +510,7 @@ ToC:
 	- exceptions: `<img>` & `<script>`
 		- cannot read img contents, only paint them
 		- script executes in the context of effective origin (JSON-P)
-	- CORS headers allowing collab [where to talk about turning these on all the time] (vs server proxy)
+	- CORS headers allowing collab (where to talk about turning these on all the time) (vs server proxy)
 	- granting sensible permissions (mic etc)
 
 A: ambient authority / CORS / credentials
@@ -542,9 +542,9 @@ slightlyoff: CSP is an enforcement model there. CSP is a policy enforcement mech
 
 timbl: CSP can only decrease my power.
 
-slightlyoff: we've tried the appstore thing: Chrome has had multiple appstores, Firefox too. Packages have lots of downsides. You could imagine a developer programme so you can verify the developer.
+slightlyoff: we've tried the appstore thing: Chrome has had multiple appstores, Firefox too. Packages have lots of downsides. You could imagine a developer program so you can verify the developer.
 
-timbl: I've discussed 'beneficient app', a branding label. Meanwhile, why do we have to have CORS on everything.
+timbl: I've discussed 'beneficent app', a branding label. Meanwhile, why do we have to have CORS on everything.
 
 slightlyoff: it's a question of balance, who is it good for
 
@@ -566,7 +566,7 @@ domenic: yes. I want to bring up a crazy idea: what if browsers came with a prox
 
 [everyone: err, maybe not]
 
-slightlyoff: there are browsers that sort of do that with an optimising proxy
+slightlyoff: there are browsers that sort of do that with an optimizing proxy
 
 dka: those proxies don't work on HTTPS content, right?
 
@@ -590,7 +590,7 @@ mnot: UC browser mini is a split browser. Opera mini actually say what they do &
 
 dka: I think it's specifically interesting in the context of the move to HTTPS
 
-mnot: in terms of the pressure that it might add to that tendancy?
+mnot: in terms of the pressure that it might add to that tendency?
 
 dka: it's one thing to consider Opera mini in the context of unencrypted sites, but something different with HTTPS where they're essentially MITMing
 
@@ -609,7 +609,7 @@ domenic: this topic was brought up on the mailing list a while ago. WebIDL has a
 
 dka: is there value in putting effort into bolstering v2?
 
-yves: v2 evolved because of new types and promises, parameterised types etc. v2 is where new technologies from TC39 are put, so it can't be stable.
+yves: v2 evolved because of new types and promises, parameterized types etc. v2 is where new technologies from TC39 are put, so it can't be stable.
 
 domenic: it's fine to have a master branch & an outdated branch, but we shouldn't be keeping them in parallel. The assumption was for v1 to go to Rec, but that's not how things have worked out
 
@@ -660,19 +660,19 @@ dka: that seems like something we should add to our list of things we're keeping
 
 [discussion of potential April 1st TAG Findings]
 
-[Bittorrent browser: http://blog.bittorrent.com/2014/12/10/project-maelstrom-the-internet-we-build-next/]
+[BitTorrent browser: http://blog.bittorrent.com/2014/12/10/project-maelstrom-the-internet-we-build-next/]
 
-Dka: question - does anyone know anyone at Bittorrent?
+Dka: question - does anyone know anyone at BitTorrent?
 
-dka: the TAG has often touched on what a P2P architecture for the web might look like - is this something that could be speccable? do we know what the Bittorrent folks are doing? Should we be thinking about it?
+dka: the TAG has often touched on what a P2P architecture for the web might look like - is this something that could be speccable? do we know what the BitTorrent folks are doing? Should we be thinking about it?
 
-mnot: I've looked at it: Bittorrent is all poprietary. They have a P2P web caching thing now. This goes back to SRI & privacy & the tradeoffs inherent in that. If you're using a P2P model you're broadcasting everything you browse.
+mnot: I've looked at it: BitTorrent is all proprietary. They have a P2P web caching thing now. This goes back to SRI & privacy & the tradeoffs inherent in that. If you're using a P2P model you're broadcasting everything you browse.
 
 dka: that argument is often used to stop any line of thinking around P2P caching. When this news item came up, it struck me that there could be another approach that could allow the community to have their cake & eat it.
 
 mnot: there's a technique called 'private information retrieval' but it's not practical at web scale (according to AT&T researchers). there are other ways to slice this, SRI seems like it's the best hope we have right now. It allows an origin to flag the content that it thinks is public for reuse. My understanding is that the browser security guys are interested in that use case, but they want more experience first.
 
-dka: as far as we know, we think the Bittorrent thing is proprietary so we shouldn't comment on it?
+dka: as far as we know, we think the BitTorrent thing is proprietary so we shouldn't comment on it?
 
 mnot: yeah
 

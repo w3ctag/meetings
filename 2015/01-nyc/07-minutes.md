@@ -27,13 +27,13 @@ mnot: We have [this draft](https://w3ctag.github.io/web-https/) I started thinki
 
 [discussion about how gists are not very good at auto-saving things you type and forget to save]
 
-mnot: ... shopped it around to a few people, opened it up to the TAG. We've had a few issues raised on it; as I'm sure you all know a fair amount of discussion on-list. Where we're at now I think is that we have probably some discussion to have today about it. A lot of the issues have been addressed to some degree; I'd love to hear what people think. Both in the large and in terms of going through the spec and making sure the language is appropriate; I am more than happy to take guidance on the specific langauge. There has been a kind of constant pressure to make this a very specific document, but I've been trying to resist that. Specific stuff needs to go in Recommendations; it needs to be a product of the consensus proccess. I also think the specific stuff needs to be taken care of by people closer to the matter. So in particular we have an Implementations section; my inclination is to if anything make it a little more generic than it is now.
+mnot: ... shopped it around to a few people, opened it up to the TAG. We've had a few issues raised on it; as I'm sure you all saw a fair amount of discussion on-list. Where we're at now I think is that we have probably some discussion to have today about it. A lot of the issues have been addressed to some degree; I'd love to hear what people think. Both in the large and in terms of going through the spec and making sure the language is appropriate; I am more than happy to take guidance on the specific language. There has been a kind of constant pressure to make this a very specific document, but I've been trying to resist that. Specific stuff needs to go in Recommendations; it needs to be a product of the consensus process. I also think the specific stuff needs to be taken care of by people closer to the matter. So in particular we have an Implementations section; my inclination is if anything to make it a little more generic than it is now.
 
 dka: also see [Yan's blog post](https://zyan.scripts.mit.edu/blog/tls-everything/). One of the things I found interesting about the post is that it helps refute some of the points people bring up against the move to HTTPS. These are points that I hear a lot in various contexts, e.g. TLS are slow. I think it might be helpful to structure some discussion around your points. I think w.r.t. Mark's document, the abstract needs some work; I'm also curious how it relates to the document about [requirements for powerful features](https://w3c.github.io/webappsec/specs/powerfulfeatures/).
 
 yan: note that the blog post was only a few things I've heard. You guys may have more.
 
-timbl: a while ago the TAG said to the W3C, "can't you make everthing available over HTTPS." However the webmaster said existing HTTP links would be impacted; it would be destructive to incoming links and internal links. He didn't want multiple caches for e.g. DTDs and so on. Given that we don't have any technology that allows browsers to understand that the "s" is irrelevant, we couldn't get him to move. And I sympathize completely since it's bad to break the links.
+timbl: a while ago the TAG said to the W3C, "can't you make everything available over HTTPS." However the webmaster said existing HTTP links would be impacted; it would be destructive to incoming links and internal links. He didn't want multiple caches for e.g. DTDs and so on. Given that we don't have any technology that allows browsers to understand that the "s" is irrelevant, we couldn't get him to move. And I sympathize completely since it's bad to break the links.
 
 domenic: why can't you just 301 the http to new https links?
 
@@ -101,7 +101,7 @@ mnot: separate question, when you type "example.com", what about first trying "h
 
 [discussion about this kind of scheme]
 
-mnot: the details of *how* to encourage HTTPS is a much longer discussion. For me I'd like this finding to set a longer-term goal and explore the space of what things need to be done, in our coordinating role as the TAG. Not a decision-makling role.
+mnot: the details of *how* to encourage HTTPS is a much longer discussion. For me I'd like this finding to set a longer-term goal and explore the space of what things need to be done, in our coordinating role as the TAG. Not a decision-making role.
 
 jeni: I think this is really important it's really useful for the TAG to be making these kinds of statements. Reading it, I was left with a "aah! what am I supposed to do?" feeling. I think answering that would be useful. There are some specific things around how to handle mixed content, from a data-serving point of view, saying that if you're serving data on the web you should be thinking right now of how you're going to move to HTTPS. I also think that flagging up the transition stories in more detail would be incredibly helpful and would help explain that this will be a longer journey and help give practical steps.
 
@@ -133,7 +133,7 @@ timbl: I think it's not doing our job if we don't address those issues. Maybe th
 
 mnot: I have a counter-counter-counter proposal. I think this document should be very brief. Two or three paragraphs; high level; we can open a number of issues and link to them.
 
-alex: I am not sure that woul be productive, because when we are engaging with working groups, they will have a series of questions that we'll have to answer, and it would be bad to answer them ad-hoc. It seems to me that part of the utility of this document is a coherent and concise explanation of why this is a good thing to do.
+alex: I am not sure that would be productive, because when we are engaging with working groups, they will have a series of questions that we'll have to answer, and it would be bad to answer them ad-hoc. It seems to me that part of the utility of this document is a coherent and concise explanation of why this is a good thing to do.
 
 mnot: I just don't want it to be an issues list. Issues should be in the issues list.
 
@@ -145,7 +145,7 @@ mnot: I don't disagree, but I'm a little uncomfortable with how verbose the docu
 
 yan: one of the things I've noticed from anti-HTTPS people is they complain about costs; we should tell them about the benefits and that will answer lots.
 
-timbl: one thing I've asked for is a comparisong of round trip times. Nobody has given that to me.
+timbl: one thing I've asked for is a comparison of round trip times. Nobody has given that to me.
 
 mnot: there's a lot of permutations; 0RT vs. 1RT; (a few other technologies I didn't catch); there's a matrix---it's pretty complex.
 
@@ -157,7 +157,12 @@ https://www.igvita.com/2013/12/16/optimizing-nginx-tls-time-to-first-byte/
 
 timbl: that's pretty amazing. what about client certs?
 
-mnot: client certs are kind of a corner case but also used enough that we can't ignore. But they're not recommend and I'm not sure where they come in to things. In general there is lots of old software but there's a lot of work going in to making TLS have less and less overhead from a user-percieved latency standpoint. Certainly on a standards timescale we can rely on that.
+mnot: client certs are kind of a corner case, but also used enough that we
+can't just ignore them. That said, they're not part of the finding, so I'm not
+sure where they come in to things here. In general there is lots of old
+software, but there's a lot of work going into making TLS have less and less
+overhead from a user-perceived latency standpoint. Certainly on a standards
+timescale we can rely on that.
 
 dka: back to the document. We could say something like "some people say there's performance issues but the consensus in the deployment community is that these are addressed or in the process of being addressed."
 
@@ -165,11 +170,7 @@ mnot: so, the document already talks about performance. What is your concrete fe
 
 dka: I feel like there should be an issues section, both containing issues and explaining mitigations, to clear the air of objections that might potentially be in peoples' mines.
 
-mnot: [reads from the document]: "Historically, the perceived performance of HTTPS has been worse than that of cleartext HTTP, because of the protocol ovpackaging
-erhead. However, rCapability URLs
-ecent developmentsCapability URLs 
-packaging 
- such as HTTP/2, OCSP Stapling and TLS session tickets have reduced this overhead to the point where the deficit is minor -- often, inperceptible (see Is TLS Fast Yet? for details). We expect that future developments (such as TLS/1.3) will further reduce the performance penalty of encryption."
+mnot: [reads from the document]: "Historically, the perceived performance of HTTPS has been worse than that of cleartext HTTP, because of the protocol overhead. However, recent developments such as HTTP/2, OCSP Stapling and TLS session tickets have reduced this overhead to the point where the deficit is minor -- often, imperceptible (see Is TLS Fast Yet? for details). We expect that future developments (such as TLS/1.3) will further reduce the performance penalty of encryption."
 
 domenic: comes down to audience and vision for this document
 
@@ -194,7 +195,7 @@ dka: is there something we could say in the document about equivalence of "http:
 plinss: I think we should publish mark's document like it is but also publish a document about best practices for deploying https where we can say things like "your http and your https should be equivalent."
 
 mnot: I would hope we would focus on the content implications of the conversion.
-res[e
+
 plinss: I agree, but it should be a separate document.
 
 [discussion about default apache configuration]
@@ -317,7 +318,7 @@ https://github.com/w3ctag/capability-urls/pull/5
 
 [discussion on this topic]
 
-[Resolved to make appropriate chanegs to doc, Jeni to continue to be attached to this unless workload gets too high. Yves will finalize getting it published formally as an approved finding.]
+[Resolved to make appropriate changes to doc, Jeni to continue to be attached to this unless workload gets too high. Yves will finalize getting it published formally as an approved finding.]
 URL-n-stuff
 URL-n-stuff 
 URL-n-stuff  
@@ -335,13 +336,13 @@ Peter: Let's start.
 
 Sam: https://url.spec.whatwg.org/interop/test-results/
 
-Sam: The URL spec [whatwg] had technical issues - test failures. [See https://url.spec.whatwg.org/interop/test-results/]. Confirming URLs I've evolved the whatwg standard to be confirming URLs are a subset of URI references. Even so, some differences - departures from the spec in the existing implementations. In some sense the problem reduce the impetus for people to change. I'd like to come out of this with at least a subset that [is guaranteed to] work. These were the test cases that were put forward for the transition request.  Trying to motivate people to discuss this.  URLs are an important architectureal [component] of the web.
+Sam: The URL spec [whatwg] had technical issues - test failures. [See https://url.spec.whatwg.org/interop/test-results/]. Confirming URLs I've evolved the whatwg standard to be confirming URLs are a subset of URI references. Even so, some differences - departures from the spec in the existing implementations. In some sense the problem reduce the impetus for people to change. I'd like to come out of this with at least a subset that [is guaranteed to] work. These were the test cases that were put forward for the transition request.  Trying to motivate people to discuss this.  URLs are an important architectural [component] of the web.
 
 Mark: the space of URLs is huge. A lot of these test cases are valid in the RFC-3986 sense but not in the [general use?]. 
 
 [discussion on what "conforming URLs" means]
 
-Sam: I've evolve Anne's spec to have every contraint that I can find in theexisting epsecs.
+Sam: I've evolve Anne's spec to have every constraint that I can find in the existing epsecs.
 
 Mark: looking at test 11 - IE is highlighted yellow because it's port 80 / that's not functionally different
 
@@ -351,13 +352,13 @@ Mark: We could filter out the default port issue, paging around it looks like th
 
 [discussion on the Python library...particularly how old and grotty it is]
 
-Sam: https://github.com/webspecs/url#the-url-standard is the verison I am working on. Changes will be mergerd back into the whatwg version when it's ready. My goal is to broaden the number of people participaring. This will go back to whatwg. Anything pushed back there I can push back to the TAG repo.
+Sam: https://github.com/webspecs/url#the-url-standard is the verison I am working on. Changes will be mergerd back into the whatwg version when it's ready. My goal is to broaden the number of people participating. This will go back to whatwg. Anything pushed back there I can push back to the TAG repo.
 
 Dka: do we need the TAG version any more?
 
-Sam: yes possibly - some people want stable snapshots. when it gets to that point you know it's been widely reviewed, etc...  on the URL standard I can get this to the point where it's good stuff with more [future-loooking] features split off. Whatwg isn't currently set up to 
+Sam: yes possibly - some people want stable snapshots. when it gets to that point you know it's been widely reviewed, etc...  on the URL standard I can get this to the point where it's good stuff with more [future-looking] features split off. Whatwg isn't currently set up to 
 
-Sam: plan was end of q1 to have a stable references to the URL spec. No options off the table. one possible answer is to have a living standard and stable snapshots, possibly hosting snaphots at w3c. would argue against changing logo / copyright / etc... but would argue for a stable snapshot.
+Sam: plan was end of q1 to have a stable references to the URL spec. No options off the table. one possible answer is to have a living standard and stable snapshots, possibly hosting snapshots at w3c. would argue against changing logo / copyright / etc... but would argue for a stable snapshot.
 
 Domenic: i think it's problematic to how it's currently done. The fork in the tag repo is not a result of collaboration.
 
@@ -377,9 +378,9 @@ Sam: We also need more tests.
 
 Domenic: I should contribute the node.js tests.
 
-Tim: looking through the API - is it too high level to crtitcise it for not having a serializer relative to the base.
+Tim: looking through the API - is it too high level to criticize it for not having a serializer relative to the base.
 
-Sam: At the moment it's basd on what's implemented.
+Sam: At the moment it's based on what's implemented.
 
 Sam: given a result and a base, what would the reference be?
 
@@ -395,7 +396,7 @@ Domenic: a lack of implementation - browsers have not updated their parsers.
 
 Domenic: when you put a href with a file URL in it what happens - it's not about what you type.
 
-Sam: some are sitting on the sidelings because it's not endorsed by people they care about.
+Sam: some are sitting on the sidelines because it's not endorsed by people they care about.
 
 DKA: we should continue to add positive reinforcement to this.
 
@@ -407,7 +408,7 @@ Tim: is there a GH pages page?
 
 [discussion on unicorns]
 
-Sam: I 've added railroad diagrams and it's split up more functionally. 
+Sam: I've added railroad diagrams and it's split up more functionally. 
 
 Sam: I can put it on github pages.
 
@@ -420,7 +421,7 @@ PLH: you don't have PHP [in your implementation list]
 
 Sam: [I could.]
 
-Domenic: we all want everybody to parse URLs the same way - to get there is a long and hard process that Sam has volunteered to work on - the clients that we should look to are the browsers - then we have to look at the edge cases where others discsagree. We need to create a coalition of people who start agreeing [to engage e.g. PHP URL parsing].
+Domenic: we all want everybody to parse URLs the same way - to get there is a long and hard process that Sam has volunteered to work on - the clients that we should look to are the browsers - then we have to look at the edge cases where others disagree. We need to create a coalition of people who start agreeing [to engage e.g. PHP URL parsing].
 
 Sam: I agree with that goal - browsers will be the tail that wags the dog. Some people say "you start with RFC-3986". 
 
@@ -432,7 +433,7 @@ Mark: I think getting more data about the real delta would be good.
 
 Sam: whatever you throw at a URL parser, the output is a proper subset, a document that describes that subset might be useful. An interesting criteria of outputs is that they should round-trip.
 
-Tim: a discussion we had a while back in the TAG with Larry & Roy - related to cannocalization. TAG looked at it and noted that there are different levels of cannonicalization - TAG pointed out that you can think of this as a ladder - when you know that somethings a domain name you can c-z it to lower case. you can remove ./ - further down the line you can use knowledge of http spec to do more c-zing. does it c-z DNS names to lower case?
+Tim: a discussion we had a while back in the TAG with Larry & Roy - related to canonicalization. TAG looked at it and noted that there are different levels of canonicalization - TAG pointed out that you can think of this as a ladder - when you know that somethings a domain name you can c-z it to lower case. you can remove ./ - further down the line you can use knowledge of http spec to do more c-zing. does it c-z DNS names to lower case?
 
 Sam: yes.
 
@@ -446,7 +447,7 @@ Sam: ultimately what the browsers do - people will converge on this.  Example of
 
 Domenic: you could imagine a def of c-zing where this would be the same.
 
-Tim: The TAG has said "there is no one c-zing". Different systems will apply different levels of c-zing by applying knowlegde about the relevant specs.
+Tim: The TAG has said "there is no one c-zing". Different systems will apply different levels of c-zing by applying knowledge about the relevant specs.
 
 Sam: Part of that shows up in 3987.
 
@@ -458,13 +459,9 @@ https://url.spec.whatwg.org/reference-implementation/liveview2.html#http%3A%2F%2
 
 [discussion of perhaps using a CSP directive to force translation of "http://" urls to "https://"]
 
-timbl: there are cases where it's reasonable to give users some control over relativeization in some cases. A standard API might have preferences for this sort of thing.
-captive portals
-privacy interest group: http://www.w3.org/Privacy/
-captive portals 
-privacy interest group: http://www.w3.org/Privacy/ 
+timbl: there are cases where it's reasonable to give users some control over relativization in some cases. A standard API might have preferences for this sort of thing.
 
-sam: there are lots of cases where this doesn't make sense; we can do that if it makes sense to end-uesrs -- IDNA is a place where options haven't helped
+sam: there are lots of cases where this doesn't make sense; we can do that if it makes sense to end-users -- IDNA is a place where options haven't helped
 
 sam: my interest is in getting people engaged in this process
 
@@ -472,7 +469,7 @@ sam: my interest is in getting people engaged in this process
 
 [possibly back from break...]
 
-Sam: Work-moe stuff. Question do we still need the TAG version. I still think there is a value to stable snapshots being published in a recognized space.
+Sam: Work-mode stuff. Question do we still need the TAG version. I still think there is a value to stable snapshots being published in a recognized space.
 
 Mark: In IETF you just publish an update.
 
@@ -500,9 +497,9 @@ Plh: Fine.
 
 Sam: can we get more people involved?
 
-DKA: I can make suggested editorial changes - e.g. approaching the document from a naiive reader pov and adding bits fo editorial to clarify, etc...
+DKA: I can make suggested editorial changes - e.g. approaching the document from a naive reader pov and adding bits for editorial to clarify, etc...
 
-Sam: If it's stuff like status text you can just do it as pull requetss in the web platform version of the document.
+Sam: If it's stuff like status text you can just do it as pull requests in the web platform version of the document.
 
 [ending discussion on URL]
 
@@ -519,7 +516,7 @@ timbl: network access is blocked until you visit?
 
 mnot: there's perhaps some difference what the authors intend vs what will get deployed
 
-mnot: there are cases where portals try to work around the OS's protections and they are teh most interesting
+mnot: there are cases where portals try to work around the OS's protections and they are the most interesting
 
 timbl: why would they do that?
 
@@ -535,7 +532,7 @@ mnot: lots of people who run portals don't play well with others. It makes it ha
 
 timbl: how else can one persuade them?
 
-timbl: there seem to be 2 kinds: folks who are trying to do the right thing and folks who aren't. You can imagine something (the OS) leaves open a "thanks to our sponsors". If you're Google/a University/etc., you can imagine just want to require them to accept terms/conditions. Terms/conditions could be in a JSON format or something that allows you to come up with a protocol about neogiating access.
+timbl: there seem to be 2 kinds: folks who are trying to do the right thing and folks who aren't. You can imagine something (the OS) leaves open a "thanks to our sponsors". If you're Google/a University/etc., you can imagine just want to require them to accept terms/conditions. Terms/conditions could be in a JSON format or something that allows you to come up with a protocol about negotiating access.
 
 [discussion of AT&T, payment, etc.]
 
