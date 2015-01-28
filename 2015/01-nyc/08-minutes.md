@@ -53,7 +53,7 @@ bkardell: People don't track W3C activity. Where could they find proposed ideas,
 
 [discussion on how to make participation more friendly]
 
-dka: There are people with expertise in some areas (like WebAudio) but they have no experince with W3C tools and they might not understand how to use them.
+dka: There are people with expertise in some areas (like WebAudio) but they have no experience with W3C tools and they might not understand how to use them.
 
 bkardell: We also want people to make experiments. For example, some companies don't use Web Components since they're not standards
 
