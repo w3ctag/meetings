@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang='en' xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for Linux (vers 25 March 2009), see www.w3.org" />
+
+  <title>Technical Architecture Group Teleconference -- 29 Jan
+  2015</title>
+  <link type="text/css" rel="STYLESHEET" href=
+  "/StyleSheets/base.css" />
+  <link type="text/css" rel="STYLESHEET" href=
+  "/StyleSheets/public.css" />
+  <link type="text/css" rel="STYLESHEET" href=
+  "/2004/02/minutes-style.css" />
+  <meta content="Technical Architecture Group Teleconference" name=
+  "Title" />
+  <meta content="text/html; charset=utf-8" http-equiv=
+  "Content-Type" />
+</head>
+
+<body>
+  <p><a href="http://www.w3.org/"><img src="/Icons/w3c_home" alt=
+  "W3C" border="0" height="48" width="72" /></a></p>
+
+  <h1>Technical Architecture Group Teleconference</h1>
+
+  <h2>29 Jan 2015</h2>
+
+  <p>See also: <a href=
+  "http://www.w3.org/2015/01/29-tagmem-irc">IRC log</a></p>
+
+  <h2><a name="attendees" id="attendees">Attendees</a></h2>
+
+  <div class="intro">
+    <dl>
+      <dt>Present</dt>
+
+      <dl>Dan, Peter, Mark, Yan, Yves, Yehuda</dl>
+
+      <dt>Regrets</dt>
+
+      <dd>slightlyoff</dd>
+
+      <dt>Chair</dt>
+
+      <dd>Dan</dd>
+
+      <dt>Scribe</dt>
+
+      <dd>dka</dd>
+    </dl>
+  </div>
+
+  <h2>Contents</h2>
+
+  <ul>
+    <li>
+      <a href="#agenda">Topics</a>
+
+      <ol>
+        <li><a href="#item01">Spec Reviews &amp; Future
+        Calls</a></li>
+      </ol>
+    </li>
+
+    <li><a href="#ActionSummary">Summary of Action Items</a></li>
+  </ul>
+  <hr />
+
+  <div class="meeting">
+    <p class='phone'></p>
+
+    <p class='phone'></p>
+
+    <p class='irc'>&lt;<cite>plinss</cite>&gt; trackbot, prepare
+    telcon</p>
+
+    <p class='irc'>&lt;<cite>trackbot</cite>&gt; Date: 29 January
+    2015</p>
+
+    <p class='phone'><cite>Yves:</cite> hasn’t been that much
+    discussion on the webapps list -</p>
+
+    <p class='phone'>… we discuss the use case.</p>
+
+    <p class='phone'>…and if the use case is just performance or
+    something else.</p>
+
+    <p class='phone'>… if it’s just performance than tthere are
+    other ideas - e.g. manifest - that have surfaced on the mailing
+    list. So in that case do we really need a packaging format or
+    is http/2 enough.</p>
+
+    <p class='phone'>… we should ask Anne what his thinking is -
+    since it started with a request from mozilla to address content
+    in apackage.</p>
+
+    <p class='phone'>… was it linked to mobile or a general web use
+    case?</p>
+
+    <p class='phone'><cite>Peter:</cite> another use case -
+    ebooks.</p>
+
+    <p class='phone'><cite>Yves:</cite> another discussion -
+    sending package - serialization of a library...</p>
+
+    <p class='phone'><cite>Mark:</cite> that’s an archive
+    format.</p>
+
+    <p class='phone'><cite>Dan:</cite> I remeber support foor this
+    from Yehuda, Dave…</p>
+
+    <p class='phone'><cite>Yves:</cite> yes for javascript
+    libraries - internal dependencies…</p>
+
+    <p class='phone'>… also don’t need to serialize all requests to
+    the wire...</p>
+
+    <p class='phone'>… and links to an issue raised on the
+    packaging spec re: service worker.</p>
+
+    <p class='phone'><cite>mark:</cite> not seralizing all requests
+    to the wire seems like a performance concern.</p>
+
+    <p class='phone'>… last discussion on ml seems to call for
+    working through the use cases more carefully. There are some
+    use cases that may or not may not make sense. I find the idea
+    of a package for a js library or an ebook - reasonably
+    intriguing.</p>
+
+    <p class='phone'>… but the stretch is –&nbsp;not necessarilly a
+    good performance technique.</p>
+
+    <p class='phone'>… moving the web towards single page flash app
+    kind of experience.</p>
+
+    <p class='phone'><cite>Dan:</cite> is it reasonable to say that
+    we need to look to non-performance use cases? since people are
+    looking to http/2 for performance...</p>
+
+    <p class='phone'><cite>Yves:</cite> I think looking only to
+    http2 for certain cases - lots of files - I think a package is
+    a good option...</p>
+
+    <p class='phone'><cite>Mark:</cite> it’s not onerous to have
+    multiple requests with http/2 – the mantra of reducing number
+    of requests changes with http/2</p>
+
+    <p class='phone'><cite>Yan:</cite> I had a non-performance use
+    case - which I opened up as a github issue...</p>
+
+    <p class='phone'>… my use case was for package signing - having
+    one file with a well defined signature seems really useful to
+    me.</p>
+
+    <p class='phone'>+1</p>
+
+    <p class='phone'><cite>Yves:</cite> the conclusion is that we
+    need to continue working on the use case.</p>
+
+    <p class='phone'>… which was the conclusion of the email thread
+    as well.</p>
+
+    <p class='phone'><cite>Dan:</cite> What about the logistics of
+    how we work on this...</p>
+
+    <p class='phone'>… what is Marcos’s role?</p>
+
+    <p class='phone'><cite>Yves:</cite> Marcos is working on the
+    manfiest file [and we want to avoid conflicts]<br />
+    ... I can step in as editor [for now]</p>
+
+    <p class='phone'><cite>Dan:</cite> we drive the discussion on
+    the use case on Github -</p>
+
+    <p class='phone'>… really need to reach back out to Anne,
+    Wycats, Dave, .. also Marcos, also Jonas from Mozilla.. Any
+    others?</p>
+
+    <p class='irc'>&lt;<cite>wycats____</cite>&gt; sounds good
+    :)</p>
+
+    <p class='phone'>… Maybe alex can comment on the chrome side…
+    Likewise Travis from a MS perspective.</p>
+
+    <p class='phone'>yay!</p>
+
+    <p class='phone'>wycats do you have any quick words of support
+    for the ongoing work on packaging?</p>
+
+    <p class='irc'>&lt;<cite>wycats</cite>&gt; dka: I continue to
+    disagree that HTTP/2 solves the issues</p>
+
+    <p class='irc'>&lt;<cite>wycats</cite>&gt; for all of the
+    reasons we've discussed</p>
+
+    <p class='phone'>ok thanks for that -</p>
+
+    <p class='irc'>&lt;<cite>wycats</cite>&gt; count me among the
+    supporters!</p>
+
+    <p class='phone'>Would be good to get your feedback and
+    continued support in the github discussion.</p>
+
+    <p class='phone'>awesome.</p>
+
+    <p class='irc'>&lt;<cite>wycats</cite>&gt; +1</p>
+
+    <p class='phone'>thx!</p>
+
+    <p class='phone'><cite>Peter:</cite> when we initially
+    discussed - talking about the use cases - idea of installing it
+    on yourserver and also uninflate it on your server - so
+    browsers that aren’t aware of the format could make individual
+    requests… you don’t necesarilly have to pull the whole package
+    down. Not necesarilly forcing people to retreive the whole
+    package every single time.</p>
+
+    <p class='phone'><cite>Mark:</cite> I agree that that’s a
+    reasonable case - as far as I can tell we havem’t had interest
+    in server side folks in doing that.</p>
+
+    <p class='phone'>… makes me question if we have the right
+    people involved…</p>
+
+    <p class='phone'>… also that could be supported by service
+    worker…</p>
+
+    <p class='phone'><cite>Peter:</cite> a polyfil in serviceworker
+    could be equivelent.</p>
+
+    <p class='phone'>… on the ebook side, the resources might not
+    be delivered over the web.</p>
+
+    <p class='phone'>[discussion on the definition of the web]</p>
+
+    <p class='phone'>[and multi-part mime]</p>
+
+    <h3 id="item01">Spec Reviews &amp; Future Calls</h3>
+
+    <p class='phone'><cite>Peter:</cite> Houdini session in 3
+    weeks…</p>
+
+    <p class='irc'>&lt;<cite>wycats</cite>&gt; I'm not on the call,
+    but we have been over and over the "HTTP/2 solves everything"
+    argument</p>
+
+    <p class='irc'>&lt;<cite>wycats</cite>&gt; one rationale is
+    just having a standardized way to package up a bunch of assets
+    (the Ember library as modules for example) with HTTP
+    metadata</p>
+
+    <p class='irc'>&lt;<cite>mnot</cite>&gt; wycats, no one is
+    saying that "HTTP/2 solves everything." They quesiton is
+    whether the motivating use cases for this are really
+    performance, or something else.</p>
+
+    <p class='irc'>&lt;<cite>wycats</cite>&gt; mnot: aha!</p>
+
+    <p class='irc'>&lt;<cite>wycats</cite>&gt; in the fullness of
+    time, it's likely that the motivating use-case is a way to
+    package up the HTTP metadata in a way that a smart HTTP server
+    can use to distribute the assets as efficiently as it can</p>
+
+    <p class='irc'>&lt;<cite>wycats</cite>&gt; in the short-run it
+    has other benefits</p>
+
+    <p class='irc'>&lt;<cite>wycats</cite>&gt; (I mean a smart
+    HTTP/2 server here)</p>
+
+    <p class='irc'>&lt;<cite>wycats</cite>&gt; ha</p>
+
+    <p class='phone'>thanks yehuda</p>
+
+    <p class='irc'>&lt;<cite>wycats</cite>&gt; dka: np</p>
+
+    <p class='irc'>&lt;<cite>wycats</cite>&gt; thanks for
+    pinging</p>
+
+    <p class='irc'>&lt;<cite>mnot</cite>&gt; wycats: yes, I'm very
+    interested in that. Would love to get server-side folks
+    involved</p>
+
+    <p class='irc'>&lt;<cite>wycats</cite>&gt; mnot: agreed</p>
+
+    <p class='irc'>&lt;<cite>wycats</cite>&gt; Service Worker is a
+    plausible vector for prototyping too</p>
+
+    <p class='irc'>&lt;<cite>mnot</cite>&gt; wycats: +1</p>
+
+    <p class='phone'>[discussion of mailing list use / moderation /
+    etc...]</p>
+
+    <p class='phone'><cite>Dan:</cite> I can start the thing in a
+    gist however it’s pronounced...</p>
+
+    <p class='irc'>&lt;<cite>wycats</cite>&gt; I have heard people
+    pronounce github as "jit-hub"</p>
+  </div>
+
+  <h2><a name="ActionSummary" id="ActionSummary">Summary of Action
+  Items</a></h2><!-- Action Items -->
+  [End of minutes]<br />
+  <hr />
+
+  <address>
+    Minutes formatted by David Booth's <a href=
+    "http://dev.w3.org/cvsweb/~checkout~/2002/scribe/scribedoc.htm">
+    scribe.perl</a> version 1.140 (<a href=
+    "http://dev.w3.org/cvsweb/2002/scribe/">CVS log</a>)<br />
+    $Date: 2015-01-29 20:39:08 $
+  </address>
+
+</body>
+</html>
+
