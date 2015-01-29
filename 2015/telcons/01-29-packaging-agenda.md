@@ -8,3 +8,4 @@ Call Agenda
 * Spec Feedback
   https://github.com/w3ctag/spec-reviews/issues
 
+Raw minutes: http://www.w3.org/2015/01/29-tagmem-minutes.html
