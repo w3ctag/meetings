@@ -1,5 +1,7 @@
 12 Feb ; 15:00 GMT-5 (Zakim Standard)  
 
+Invited guests: Wendy Seltzer, Brad Hill, Mike West, Daniel Veditz
+
 Call Agenda  
 
 * Powerful Features Draft (http://www.w3.org/TR/powerful-features/)  
