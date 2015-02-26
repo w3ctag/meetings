@@ -171,11 +171,11 @@ travis: yeah, division of a single logical element doesn't exist today. I wonder
 
 plinss: the idea with houdini is to stop lying  
 
-<discussion about where name came from, credit to bkardell>  
+[discussion about where name came from, credit to bkardell]
 
 dka: bkardell *IS* the unofficial marketing manager for the TAG ;-)  
 
-<marketing jokes>  
+[marketing jokes]
 
 travis: thank you for the update! When's the next f2f?  
 
