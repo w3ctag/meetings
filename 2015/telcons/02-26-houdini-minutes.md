@@ -3,18 +3,18 @@
 
 ## [Agenda](https://github.com/w3ctag/meetings/blob/gh-pages/2015/telcons/02-26-houdini.md):
 
-CSS Extensibility / Houdini TF
-WebRTC privacy issues?
-Progressing Domenic's draft on promoting Polyfils
-Mailing List Code of Conduct
+* CSS Extensibility / Houdini TF
+* WebRTC privacy issues?
+* Progressing Domenic's draft on promoting Polyfils
+* Mailing List Code of Conduct
 
 Attending:
-    * dka
-    * plinss
-    * timbl
-    * mnot
-    * slightlylate
-    * travis
+* dka
+* plinss
+* timbl
+* mnot
+* slightlylate
+* travis
 
 ## [Mailing List Code of Conduct](https://github.com/w3ctag/w3ctag.github.io/blob/conducttweak/about/tagmlcode.md)
 
