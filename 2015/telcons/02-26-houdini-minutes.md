@@ -9,12 +9,12 @@
 * Mailing List Code of Conduct
 
 Attending:
-* dka
-* plinss
-* timbl
-* mnot
-* slightlylate
-* travis
+* Dan Appelquist (dka)
+* Peter Linss (plinss)
+* Tim Berners-lee (timbl)
+* Mark Nottingham (mnot)
+* Alex Russell (slightlylate)
+* Travis Leithead (travis)
 
 ## [Mailing List Code of Conduct](https://github.com/w3ctag/w3ctag.github.io/blob/conducttweak/about/tagmlcode.md)
 
