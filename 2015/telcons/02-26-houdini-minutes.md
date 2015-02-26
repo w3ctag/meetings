@@ -3,10 +3,11 @@
 
 ## [Agenda](https://github.com/w3ctag/meetings/blob/gh-pages/2015/telcons/02-26-houdini.md):
 
-* CSS Extensibility / Houdini TF
-* WebRTC privacy issues?
-* Progressing Domenic's draft on promoting Polyfils
-* Mailing List Code of Conduct
+* [Mailing List Code of Conduct](https://github.com/w3ctag/meetings/blob/gh-pages/2015/telcons/02-26-houdini-minutes.md#mailing-list-code-of-conduct)
+* [CSS Extensibility / Houdini TF](https://github.com/w3ctag/meetings/blob/gh-pages/2015/telcons/02-26-houdini-minutes.md#css-extensibilityhoudini)
+* [Meetings & Events](https://github.com/w3ctag/meetings/blob/gh-pages/2015/telcons/02-26-houdini-minutes.md#meetingsmeetups)
+* [WebRTC privacy issues?](https://github.com/w3ctag/meetings/blob/gh-pages/2015/telcons/02-26-houdini-minutes.md#webrtc-privacy-issues)
+* [Progressing Domenic's draft on promoting Polyfils](https://github.com/w3ctag/meetings/blob/gh-pages/2015/telcons/02-26-houdini-minutes.md#draft-on-promoting-polyfills)
 
 Attending:
 * Dan Appelquist (dka)
