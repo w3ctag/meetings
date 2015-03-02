@@ -17,13 +17,14 @@ Attending:
 * Alex Russell (slightlylate)
 * Travis Leithead (travis)
 
-## [Mailing List Code of Conduct](https://github.com/w3ctag/w3ctag.github.io/blob/conducttweak/about/tagmlcode.md)
+## Mailing List Code of Conduct
+See [draft document](https://github.com/w3ctag/w3ctag.github.io/blob/conducttweak/about/tagmlcode.md)
 
 dka: one of the things we're discussing is the mailing list thing.... I was calling it a code-of-conduct...but call it what you will, it's a mailing list FAQ or best-practice document.  
 
 dka: mnot and I have been collaborating on it. If people are happy with it, suggest we make a resolution on it + publish.  
 
-dka: how do people feel abou that?  
+dka: how do people feel about hat?  
 
 mnot: I got some input privately that it's surprising that TAG members aren't under an obligation to read all the messages on the list  
 
