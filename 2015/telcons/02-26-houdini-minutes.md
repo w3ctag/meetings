@@ -18,7 +18,7 @@ Attending:
 * Travis Leithead (travis)
 
 ## Mailing List Code of Conduct
-See [draft document](https://github.com/w3ctag/w3ctag.github.io/blob/conducttweak/about/tagmlcode.md)
+See [draft code of conduct](https://github.com/w3ctag/w3ctag.github.io/blob/conducttweak/about/tagmlcode.md)
 
 dka: one of the things we're discussing is the mailing list thing.... I was calling it a code-of-conduct...but call it what you will, it's a mailing list FAQ or best-practice document.  
 
@@ -223,7 +223,7 @@ http://extensiblewebsummit.org
   
 
 ## WebRTC Privacy Issues
-See [blog post](http://www.unhappyghost.com/2015/02/webrtc-killing-tor-vpn-ip-masking-privacy.html)  
+See [WebRTC blog post](http://www.unhappyghost.com/2015/02/webrtc-killing-tor-vpn-ip-masking-privacy.html)  
   
 
 dka: worrying. When I saw it sent around, it was worrying because it was sent to me by a security expert.  
@@ -271,7 +271,7 @@ dka: Dom's point was that some of these things take different requests
 slightlyoff: I'm pretty sure we should ask the browsers to get their houses in order before we go specing this.  
 
 ## Draft on promoting polyfills
-See [related document](https://code.stypi.com/domenic/Polyfills%20are%20Good%20Finding.md)
+See [polyfills document](https://code.stypi.com/domenic/Polyfills%20are%20Good%20Finding.md)
 
 dka: something bryan brought to my attention  
 
