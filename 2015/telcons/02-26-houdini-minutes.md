@@ -24,7 +24,7 @@ dka: one of the things we're discussing is the mailing list thing.... I was call
 
 dka: mnot and I have been collaborating on it. If people are happy with it, suggest we make a resolution on it + publish.  
 
-dka: how do people feel about hat?  
+dka: how do people feel about that?  
 
 mnot: I got some input privately that it's surprising that TAG members aren't under an obligation to read all the messages on the list  
 
