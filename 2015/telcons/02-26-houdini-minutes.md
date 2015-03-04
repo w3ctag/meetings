@@ -17,13 +17,14 @@ Attending:
 * Alex Russell (slightlylate)
 * Travis Leithead (travis)
 
-## [Mailing List Code of Conduct](https://github.com/w3ctag/w3ctag.github.io/blob/conducttweak/about/tagmlcode.md)
+## Mailing List Code of Conduct
+See [draft code of conduct](https://github.com/w3ctag/w3ctag.github.io/blob/conducttweak/about/tagmlcode.md)
 
 dka: one of the things we're discussing is the mailing list thing.... I was calling it a code-of-conduct...but call it what you will, it's a mailing list FAQ or best-practice document.  
 
 dka: mnot and I have been collaborating on it. If people are happy with it, suggest we make a resolution on it + publish.  
 
-dka: how do people feel abou that?  
+dka: how do people feel about that?  
 
 mnot: I got some input privately that it's surprising that TAG members aren't under an obligation to read all the messages on the list  
 
@@ -221,8 +222,8 @@ http://extensiblewebsummit.org
 
   
 
-## [WebRTC Privacy Issues](http://www.unhappyghost.com/2015/02/webrtc-killing-tor-vpn-ip-masking-privacy.html)  
-
+## WebRTC Privacy Issues
+See [WebRTC blog post](http://www.unhappyghost.com/2015/02/webrtc-killing-tor-vpn-ip-masking-privacy.html)  
   
 
 dka: worrying. When I saw it sent around, it was worrying because it was sent to me by a security expert.  
@@ -269,7 +270,8 @@ dka: Dom's point was that some of these things take different requests
 
 slightlyoff: I'm pretty sure we should ask the browsers to get their houses in order before we go specing this.  
 
-## [Draft on promoting polyfills](https://code.stypi.com/domenic/Polyfills%20are%20Good%20Finding.md)
+## Draft on promoting polyfills
+See [polyfills document](https://code.stypi.com/domenic/Polyfills%20are%20Good%20Finding.md)
 
 dka: something bryan brought to my attention  
 
