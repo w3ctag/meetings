@@ -14,3 +14,7 @@ Call Agenda
 
 * [CSS Regions Feedback](https://github.com/w3ctag/spec-reviews/blob/master/2015/01/CSS%20Regions.md)
 * IETF Notes
+
+Some key issues for discussion:  
+* https://github.com/w3ctag/spec-reviews/issues/37#issuecomment-82118013
+* …
