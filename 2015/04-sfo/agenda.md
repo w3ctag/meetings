@@ -39,3 +39,5 @@ Our meeting will be hosted at Akamai's Offices on Market Street:
 * Captive Portals (of course)
 * Private Browsing
 * Election
+* CSS Regions Feedback
+* Beyond http/2
