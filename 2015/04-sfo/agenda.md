@@ -1,6 +1,12 @@
 ### Logistics
 
-Our meeting will be hosted at Akamai's Offices on Market Street
+Our meeting will be hosted at Akamai's Offices on Market Street:
+
+    Akamai San Francisco
+    799 Market Street
+    6th Floor
+    San Francisco, CA 94103
+
 
 ### Agenda
 
