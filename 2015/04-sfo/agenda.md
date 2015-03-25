@@ -23,6 +23,8 @@ Lunch will be provided.
 
 * 08:30 Settling in / coffee
 * 09:00 Start
+* 11:00 Security/Privacy draft review process
+  (https://mikewest.github.io/spec-questionnaire/security-privacy/)
 * ...
 * 17:30 End
 
@@ -44,7 +46,8 @@ Lunch will be provided.
 * CSS Regions Feedback
 * Beyond http/2
 * AB plan to expand the TAG
-* Spec reviews 
+* Spec reviews
+* Security/Privacy draft review process
 * Future Meetings
   * July - Berlin / Paris? EWS with security focus? Co-locate with WebAppSec meeting?
   * September - Boston?
