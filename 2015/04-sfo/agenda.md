@@ -43,3 +43,5 @@ Lunch will be provided.
 * Election
 * CSS Regions Feedback
 * Beyond http/2
+* AB plan to expand the TAG
+* Spec reviews 
