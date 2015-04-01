@@ -45,3 +45,6 @@ Lunch will be provided.
 * Beyond http/2
 * AB plan to expand the TAG
 * Spec reviews 
+* Future Meetings
+  * July - Berlin / Paris? EWS with security focus? Co-locate with WebAppSec meeting?
+  * September - Boston?
