@@ -1,16 +1,13 @@
-Call Minutes – 2 April 2015
+# Call Minutes – 2 April 2015
+## Topic: F2F Agenda Planning  
 
-Present: Dan, Tim, Peter, Mark, Yves
-Regrets: Travis, Yan
+### Present: Dan, Tim, Peter, Mark, Yves
+### Regrets: Travis, Yan
 
 Chair: Peter  
 Scribe: Dan  
 
-[Agenda](\url{https://github.com/w3ctag/meetings/blob/gh-pages/2015/telcons/04-02-f2fagenda.md)}
-
-F2F Agenda Planning  
-IETF Updates  
-Election Progress?  
+[Agenda](https://github.com/w3ctag/meetings/blob/gh-pages/2015/telcons/04-02-f2fagenda.md)
 
 --
 Topic: F2F Agenda Planning
@@ -51,7 +48,7 @@ Alex: I'm satisfied, but maybe others have questions...
 
 Dan: I'm interested in what the web components lifecycle <-> standards lifecycle will look like.
 
-Alex: There's been some stuff around [linked data and web components](\url{http://googlewebmastercentral.blogspot.com/2015/03/easier-website-development-with-web.html)}...
+Alex: There's been some stuff around [linked data and web components](http://googlewebmastercentral.blogspot.com/2015/03/easier-website-development-with-web.html)...
 
 Alex: Dimitri is best place to discuss shadow dom and other web components specs...
 
