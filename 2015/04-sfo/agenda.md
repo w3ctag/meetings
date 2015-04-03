@@ -33,6 +33,9 @@ Lunch will be provided.
 * 08:30 Settling in / coffee
 * 09:00 Start
 * ...
+* 12:30 Lunch
+* 13:30 Web Components w/ Guest Dimitri Glazkov
+* ...
 * 17:30 End
 
 
