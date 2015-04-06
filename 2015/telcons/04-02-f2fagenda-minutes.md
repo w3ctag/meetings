@@ -18,21 +18,21 @@ Dan: Can we get flip charts?
 
 Mark: Will look into it.
 
-Dan: have discussed with Alex about hvaing ilya join for a discussion on packaging.  When should we ask him to join / be there?
+Dan: have discussed with Alex about hvaing Ilya join for a discussion on packaging.  When should we ask him to join / be there?
 
 Alex: What other things in web performance wg could use discussion? Ilya is involved in those things. It would be good to look at what those APIs and features are or to talk with him about which ones might need review?
 
-Dan: So Ilya for lunch and the session after on wednesday, for a discusion on web perf wg and also packaging.
+Dan: So Ilya for lunch and the session after on wednesday, for a discussion on web perf wg and also packaging.
 
 Peter: Tantek and Nick Doty coming Wednesday morning for security and privacy reviews, mike west to join remotely.
 
-Tim: for people joining remotely can we have a big screen?
+Tim: for people joining remotely, can we have a big screen?
 
 Mark: We have video conferencing in the rooms. Not sure what they will interop with – we can use webrtc.  Will bring some [kit] as well.
 
 Peter: what's going on with Mike?
 
-Yves: Mike will be there - he should be able to give us ststus report on a few htings - HTML working group stuff.
+Yves: Mike will be there - he should be able to give us status report on a few things - HTML working group stuff.
 
 Dan: Yves can you talk to mike about this and come back with a proposal.  Maybe ask Mike to present that on Tuesday afternoon.
 
@@ -94,7 +94,7 @@ Tim: other spec is useless
 
 Alex: that's untrue
 
-Alex: many sites many many documents which they can't audiit. subresources being requested which would trigger mixed content warning.
+Alex: many sites many many documents which they can't audit. Sub-resources being requested which would trigger mixed content warning.
 
 Mark: Safari doesn't enforce mixed content; other browsers do --
 
@@ -106,7 +106,7 @@ Mark: Yes.
 
 Tim: We should have a tag [finding?] about what these things do and don't do.
 
-Alex; We shoud figure out a way to document it better.
+Alex; We should figure out a way to document it better.
 
 Mark: for spec reviews - it took a couple of hours – should we set aside a portion of each f2f.
 
@@ -120,13 +120,13 @@ Peter: anyone else we want to invite?
 
 Mark: Some Mozilla people. 
 
-Dan: I don't feel like we need a focused disucssion on WebRTC.
+Dan: I don't feel like we need a focused discussion on WebRTC.
 
-Mark: I am feeling like maybe we should - particuarly on the privacy and security aspects.
+Mark: I am feeling like maybe we should - particularly on the privacy and security aspects.
 
 Dan: Maybe part of the spec reviews discussion - what ought we to be doing on webrtc?
 
-Dan: should we have like a general what it is the tag is doing ... how we work ... what role we play, especially in how W3C starts new work...
+Dan: should we have like a general what the TAG is doing ... how we work ... what role we play, especially in how W3C starts new work...
 
 Mark: Yes
 
@@ -141,6 +141,3 @@ Dan: Maybe sometime between now and next f2f...
 [discussion on the next f2f]
 
 Mark: had a discussion with wendy / webapop sec chairs about europe f2f dovetailing with next f2f - a possibility
-
-
-
