@@ -1,4 +1,4 @@
-09 Apr ; 15:00 GMT-5 (Zakim Standard)
+09 Apr ; 15:00 GMT-4 (Zakim Standard)
 
 San Francisco (U.S.A. - California)	Thursday, March 19, 2015 at 12:00:00 Noon	PDT	UTC-7 hours  
 Boston (U.S.A. - Massachusetts)	Thursday, March 19, 2015 at 3:00:00 PM	EDT	UTC-4 hours  
