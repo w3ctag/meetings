@@ -15,7 +15,8 @@ Lunch will be provided.
 #### Day 1 (Tuesday 21 April)
 
 * 08:30 Settling in / coffee
-* 09:00 Start
+* 09:00 Agenda setting
+* 11:00 Reports from various fora : IETF, TC39
 * ...
 * 17:30 End
 
@@ -27,6 +28,8 @@ Lunch will be provided.
   (https://mikewest.github.io/spec-questionnaire/security-privacy/)
 * ...
 * 17:30 End
+
+* 18:30 TAG Team Building Event - somewhere in San Francisco tba
 
 #### Day 3 (Thursday 23 April)
 
