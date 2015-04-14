@@ -17,7 +17,10 @@ Lunch will be provided.
 * 08:30 Settling in / coffee
 * 09:00 Agenda setting
 * 11:00 Reports from various fora : IETF, TC39
-* ...
+* …
+* 12:30 Lunch
+* 13:30 HTML5 status with Mike Smith
+* 14:30 WAI reviews with Chaals
 * 17:30 End
 
 #### Day 2 (Wednesday 22 April)
