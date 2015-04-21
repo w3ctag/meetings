@@ -27,7 +27,7 @@ Lunch will be provided.
 
 * 08:30 Settling in / coffee
 * 09:00 Start
-* 11:00 Security/Privacy draft review process
+* 10:00 Security/Privacy draft review process
   (https://mikewest.github.io/spec-questionnaire/security-privacy/)
   with special guests Nick Doty, Tantek and Mike West via Web
 * 12:30 Lunch
@@ -57,7 +57,7 @@ Lunch will be provided.
 * Election
 * CSS Regions Feedback
 * Beyond http/2
-* AB plan to expand the TAG
+* AB plan to explode the TAG
 * Spec reviews
 * HTTP status
 * Security/Privacy draft review process
