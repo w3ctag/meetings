@@ -30,12 +30,12 @@ Lunch will be provided.
 
 * 08:30 Settling in / coffee
 * 09:00 General public policy advice from TAG
-* 10:00 Security/Privacy draft review process
-  (https://mikewest.github.io/spec-questionnaire/security-privacy/)
-  with special guests Nick Doty
-* 11:00 How we work
+* 10:00 Future of the future of the TAG
+* 11:00 …
 * 12:00 Lunch
-* 13:00 Powerful features with Mike West
+* 13:00 Powerful features, Security/Privacy draft review process
+  (https://mikewest.github.io/spec-questionnaire/security-privacy/)
+  with special guests Nick Doty and Mike West
 * 14:00 Packaging with special guest Ilya
 * 15:00 Web perf with special guest Ilya
 * 16:00 Storage Review
