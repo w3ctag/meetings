@@ -29,7 +29,10 @@ Lunch will be provided.
 * 09:00 Start
 * 11:00 Security/Privacy draft review process
   (https://mikewest.github.io/spec-questionnaire/security-privacy/)
-* ...
+  with special guests Nick Doty, Tantek and Mike West via Web
+* 12:30 Lunch
+* 13:30 Packaging with special guest Ilya
+* 14:30 Web perf with special guest Ilya
 * 17:30 End
 
 * 18:30 TAG Team Building Event - somewhere in San Francisco tba
@@ -40,7 +43,7 @@ Lunch will be provided.
 * 09:00 Start
 * ...
 * 12:30 Lunch
-* 13:30 Web Components w/ Guest Dimitri Glazkov
+* 13:30 Web Components with special guest Dimitri Glazkov
 * ...
 * 17:30 End
 
