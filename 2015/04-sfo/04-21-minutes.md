@@ -12,6 +12,7 @@
 * HTML5'n'stuff
 * Interaction Events
 * CSS Regions Draft Feedback
+* Captive Portals
 
 [#tagmem IRC Log from this day](http://www.w3.org/2015/04/21-tagmem-irc)  
 [Agenda](https://github.com/w3ctag/meetings/blob/gh-pages/2015/04-sfo/agenda.md)
@@ -612,7 +613,48 @@ ACTION: Travis to write some feedback on the work of the html accessibility task
 
 Mark: have we moved on from a keyboard and a screen? What is the abstraction?
 
+When you mutate the DOM as a result of layout, it can be horribly inefficient. Iwont the ability to be able to have two different views — layouts — of the same dm tree in principle
 
+Alan: We ahd to allow people to make boxes with divs to be pragmatic - no other way
 
+Peter: Boxes should be long term generated from the DOM tree, or declared in templates
 
+Alan: Flow into anything which has a selector
 
+DKA: Does this mean we can move on from regions — we have had sufficuent discussion
+
+Alex: I think we can say we are excited about a box-tree based future  
+…Need more work for users to be accss this but that should not block this work.
+
+RESOLVED: close the review issue
+
+[Exit Alan Stearns]
+
+### Captive Portals
+
+https://github.com/httpwg/wiki/wiki/Captive-Portals
+
+Mark: The IETF recongize this as a major problem.  
+…There is a DHCP option to indicate where you need t log into a captive portal. The orginal discussions had not onvolved the operators. The  
+…soluion was actually godo but insuficiently discussed around  
+…So we had a great discuss of all of this  
+…Hotspot 2.0 is a new wifi roaming alloiance spec — we discussed  
+…This if for when a huge movile business gets its phones to auto login to a set of wifi suppliers, like att wifi on apple.  
+…A lot of places in fact nowadays are dropping the captive portal and just usig WEP security and a password.  
+…There will porbably be a working group around captive portals — it will be important to get the operators to come and be invoolved.
+
+DKA: There is an arms race bwteeen the captove portal people trying to catpture people baut the apple-like software trying to automate the process or put it itno a specially constraine bowser context
+
+[discussion of advertizing based business models etc]
+
+Tim: Why do CPs bitehr intercepting and rerouting HTTS connections anyway?
+
+Peter: They want to be able to show you soemthing even if you strat looking for https: somehting
+
+Mark: We need to tell people who want to do the right thing — like a home or a university — how to do the right thing.
+
+Peter: And we need to alos talk about what haooens with th old providers who are not
+
+[We Adjoun for the day.]
+
+DKA: resolved: 🍺
