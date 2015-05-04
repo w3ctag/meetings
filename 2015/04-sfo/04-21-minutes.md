@@ -397,7 +397,7 @@ Ch: All the above
 
 Charles: Access key is not briolliant but works
 
-___: Screen readers can pull out access keys — and tell a screen reader what is available.
+Léonie: Screen readers can pull out access keys — and tell a screen reader what is available.
 
 Ch: Opera — pressing dot “.” would pop up a menu of access keys, which you wcould work from te menu or just use the key  
 …Worked better than any other browser
