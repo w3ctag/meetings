@@ -1,5 +1,8 @@
-<green>
-##   Intros from new TAG members
+## W3C Technical Architecture Group face-to-face
+### - DRAFT -
+### April 21 2015
+
+###   Intros from new TAG members
 
 Travis: my background is more on the programming, object-model, JavaScript side, rather than CSS
 ... super-excited to be here
@@ -207,8 +210,6 @@ ACTION: Travis to write some feedback on the work of the html accessibility task
 
 Mark: have we moved on from a keyboard and a screen? What is the abstraction?
 
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
