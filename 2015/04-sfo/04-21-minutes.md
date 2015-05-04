@@ -4,15 +4,15 @@
 
 [#tagmem IRC Log from this day](http://www.w3.org/2015/04/21-tagmem-irc)
 
-#### Present: Daniel Appelquist, Hadley Beeman, Tim Berners-Lee, Yves Lafon, Travis Leithead,  Peter Linss, Mark Nottingham, Alex Russell, Yan Zhu
+Present: Daniel Appelquist, Hadley Beeman, Tim Berners-Lee, Yves Lafon, Travis Leithead,  Peter Linss, Mark Nottingham, Alex Russell, Yan Zhu
 
-#### Guests: Mike Smith (all day); Chaals (for discussion on Interaction Events); Alan Stearns (for discussion on CSS Regions); Brian Kardell (for discussions on Houdini and HTML5)
+Guests: Mike Smith (all day); Chaals (for discussion on Interaction Events); Alan Stearns (for discussion on CSS Regions); Brian Kardell (for discussions on Houdini and HTML5)
 
-#### Chairs: Dan Appelquist, Peter Linss
+Chairs: Dan Appelquist, Peter Linss
 
-#### Scribes: Mike Smith, Tim Berners-Lee
+Scribes: Mike Smith, Tim Berners-Lee
 
-#### Intros from new TAG members
+### Intros from new TAG members
 
 Travis: my background is more on the programming, object-model, JavaScript side, rather than CSS
 … super-excited to be here
