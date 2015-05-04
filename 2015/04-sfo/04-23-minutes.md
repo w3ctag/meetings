@@ -126,7 +126,7 @@ mnot: the issue is mostly deciding to load or not load mixed content, from an us
 DKA draws a picture on the board where 'foo' import things from 'bar' and 'baz' -> 'foo' can't upgrade to https without 'bar' and 'baz' doing so as it would not work bevause of mixed-content blocking.  
 There is a dependency graph required for upgrading to https.
 
-Mnot: I would like to see numbers on how much imported content through img/script/style/... compared to <a href> links
+Mnot: I would like to see numbers on how much imported content through img/script/style/... compared to `<a href>` links
 
 DKA: for blogs, lots of people are embedding images.
 
