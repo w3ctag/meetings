@@ -17,7 +17,7 @@
 
 *Present:* Daniel Appelquist, Hadley Beeman, Tim Berners-Lee, Yves Lafon, Travis Leithead,  Peter Linss, Mark Nottingham, Alex Russell, Yan Zhu
 
-*Special Guests:* Mike Smith, Cullent "Fluffy" Jennings, Tantek Çelik
+*Special Guests:* Mike Smith, Cullent "Fluffy" Jennings, Tantek Çelik, Dimitri Glazkov
 
 *Chairs:* Dan Appelquist, Peter Linss
 
