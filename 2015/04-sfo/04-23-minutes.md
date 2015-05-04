@@ -1,42 +1,86 @@
-# TAG f2f Day 3
-# 23 April 2015
+## W3C Technical Architecture Group face-to-face
+### - DRAFT -
+### April 23 2015
+
+### Contents
 
 
-Topic: WebRTC update
+
+[#tagmem IRC Log from this day](http://www.w3.org/2015/04/22-tagmem-irc)  
+[Agenda](https://github.com/w3ctag/meetings/blob/gh-pages/2015/04-sfo/agenda.md)
+
+*Present:* Daniel Appelquist, Hadley Beeman, Tim Berners-Lee, Yves Lafon, Travis Leithead,  Peter Linss, Mark Nottingham, Alex Russell, Yan Zhu
+
+*Special Guests:* Mike Smith, Cullent "Fluffy" Jennings, Tantek Çelik
+
+*Chairs:* Dan Appelquist, Peter Linss
+
+*Scribes:* Yves Lafon, Mark Nottingham, Travis Leithead
+
+### WebRTC update
+
 Travis: No big news. Discussion about rechartering.
-DKA: there is a new charter proposal \url{https://cdn.rawgit.com/w3c/webrtc-charter/revision/webrtc-charter.html}
+
+DKA: there is a new charter proposal https://cdn.rawgit.com/w3c/webrtc-charter/revision/webrtc-charter.html
+
 Mike: Were the technical differences documented somewhere?
+
 Travis: yes, and there are interop issues as well
+
 Mnot: if there are interop issues at the protocol level, maybe it should be dealt with at the IETF level.
+
 Mnot: there are issues around privacy no?
+
 Travis: the spec requires a level of anonymity when the device is read.
+
 DKA: If there are underspecified stuff or interop issues, there might be a need, and we might help.
+
 Hadley: Why WebRTC didn't take off (ie: why isn't it fully mature?)
+
 DKA: I see it taking off, there are more and more services using it
+
 Mike: the issue is that there are no implementations from MS or Apple.
+
 DKA: talking to people working on an implementation, they are working on a "jQuery-like library for WebRTC" .
+
 Mike: The interesting side is that it's peer-to-peer.
+
 DKA: I don't know any service using this for flie sharing.
+
 Mnot: if would be good to gather more information before stepping in this.
+
 Alex: The TAG got a discussion with WebRTC and ORTC people. It seems that the back history of the low-level vs high-level is a source of the issues.
+
 API design, codecs, legacy interop, IPR etc... The plan was to move to 1.1, a plan that looks viable.
+
 (discussion about the potential uses of the data channel)
+
 Travis: the spec doesn't define the discovery of endpoints.
+
 (discussion about the possibility of having a URL for the data channel)
+
 [fluffy joins]
+
 Fluffy: there is agreement on the 1.1, but there is disagreement on deprecating 1.0.
-DKA: I wasn't aware that deprecation of 1.0 was part of the discussion.
-Summary of the FOs: \url{http://lists.w3.org/Archives/Public/public-webrtc/2015Apr/0001.html}
+
+DKA: I wasn't aware that deprecation of 1.0 was part of the discussion.  
+Summary of the FOs: http://lists.w3.org/Archives/Public/public-webrtc/2015Apr/0001.html  
+
 mnot: what could the TAG do to help ?
+
 Fluffy: the real point of disagreement is about the deprecation of 1.0, apart from that, having a clear explanation of where the disagreements are would be helpful.
+
 Travis: The low level is getting lots of traction.  I think ORTC is the way to go, and that is what should be implemented and written down.
+
 Fluffy: +1 all around.
 
-Topic: Future TAG f2f
+### Future TAG f2f
+
 (discussion about Extensible Web Summit, TAG events, etc...)
+
 mnot: it would be good to change the Extensible Web Summit name, as it's not speaking to some people in the targeted audience.
 
-Future Meetings
+Future Meetings  
 - July 15-17 - Berlin
 - Sept 14-16 Boston (MIT)
 - Sept 17 - Summit
@@ -46,45 +90,58 @@ Future Meetings
 - March 29-31: Brasil / Paris - summit
 - July 26-28: Paris / London - summit? 
 
+### Telcon time
 
-Topic: Telcon time.
 RESOLUTION: time changed to Wednesday SFO 1pm / BOS 4pm / LHR 9pm / NCE 10pm / MEL 6am (thu).
 next telcon cancelled, next telcon  Wed may 6th (7th in Australia)
 
-Topic: Private Browsing.
+### Private Browsing.
+
 DKA: is there agreement that it is a good idea?
+
 Mnot: the goal is more framing, documenting the complexities around the concept as the first step.
+
 Hadley: Your plan is ot use this to springboard a WG?
+
 Mnot: not at this point. Next step is to document the current state of play.
+
 Hadley: so coming to an understanding of what needs or not to be standardized ?
+
 Mnot: yes.
+
 DKA: Having different behaviour amongst browser is bad about raising awareness on what private browsing is.
+
 Mnot: there are people in browser community with deep knowledge of the issue, we absolutely need to engage them.
 
-Topic: http and https, part deux.
-Yan: See \url{http://discourse.specifiction.org/t/is-https-everywhere-harmful/821}
-description of the different use cases.
-1/ A website with lots of historical content, http links going outside and lots of incoming http links.
-2/ A site 'A' importing icons and style from site 'B'
+### http and https, part deux.
+
+Yan: See http://discourse.specifiction.org/t/is-https-everywhere-harmful/821  
+description of the different use cases.  
+1 A website with lots of historical content, http links going outside and lots of incoming http links.
+2 A site 'A' importing icons and style from site 'B'
+
 mnot: the issue is mostly deciding to load or not load mixed content, from an user-experience standpoint.
 
-DKA draws a picture on the board where 'foo' import things from 'bar' and 'baz' -> 'foo' can't upgrade to https without 'bar' and 'baz' doing so as it would not work bevause of mixed-content blocking.
+DKA draws a picture on the board where 'foo' import things from 'bar' and 'baz' -> 'foo' can't upgrade to https without 'bar' and 'baz' doing so as it would not work bevause of mixed-content blocking.  
 There is a dependency graph required for upgrading to https.
+
 Mnot: I would like to see numbers on how much imported content through img/script/style/... compared to <a href> links
+
 DKA: for blogs, lots of people are embedding images.
 
 Plinss: Mixed content handling has to be done differently if you are:
-    1/ using https where you \_want\_ security, so blocking mixed content make sense
-    2/ using upgraded http, where you want to see mixed content, and flag the content as being insecure.
+
+1 using https where you *want* security, so blocking mixed content make sense
+2 using upgraded http, where you want to see mixed content, and flag the content as being insecure.
     
 Yan: 2 ideas to service the "blg blog" community
 
-   * 1. don't throw a mixed content warning in certain cases (e.g. referencing an external image) but then don't mark the page as secure
-   * 2. use CSP to upgrade the connection (in the browser) but don't require CSP headers
-   * 
+1 don't throw a mixed content warning in certain cases (e.g. referencing an external image) but then don't mark the page as secure
+2 use CSP to upgrade the connection (in the browser) but don't require CSP headers
+
 Opportunity to discuss further in Berlin - focused discssion on this topic. In the mean time work on refining our proposals.
 
-Tim: Is \url{http://w3.org} the same as \url{https://w3.org} ?  What Brad has said is "no".
+Tim: Is http://w3.org the same as https://w3.org ?  What Brad has said is "no".
 
 Alex: what he has said is that they have different guarantees.
 
@@ -172,9 +229,9 @@ Alex: It sounds like there's a real tension there. The WG and browser vendors ar
 Peter: The CSS WG doesn't have power over implementation of the form controls. It's a black box within the CSS black box.
 Dan: I assigned an action to Travis to explore a TAG best practices here, it might align with your existing work. This feels like it should be documented somewhere.
 The original set of Web Components proposals included something called *Decorators*
-[“A **decorator** is something that enhances or overrides the presentation of an existing element.”](\url{http://www.w3.org/TR/2013/WD-components-intro-20130606/#decorator-section)}
-[HTML as Custom Elements](\url{https://domenic.github.io/html-as-custom-elements/)}
-[HTML as Custom Elements repo](\url{https://github.com/domenic/html-as-custom-elements)}
+[“A **decorator** is something that enhances or overrides the presentation of an existing element.”](http://www.w3.org/TR/2013/WD-components-intro-20130606/#decorator-section)
+[HTML as Custom Elements](https://domenic.github.io/html-as-custom-elements/)
+[HTML as Custom Elements repo](https://github.com/domenic/html-as-custom-elements)
 peter: If we could style form controls, how would we expose that to custom elements? The way we were doing this historically, we exposed style through pseudo-elements; i.e., you expose bits that can be styled. There have been proposals to give that capability to custom elements, rather than shadow piercing. The consumer won't know if they're dealing with a web component or a built-in.
 Alex: It doesn't resolve the question of "I'm trying to achieve the same level of styling" -- it would be assured by a compatible styling system with compatible DOM layout.
 dimitri: This is the network effect style change; until every browser does it, and it's in the wild, it won't be used.
@@ -184,7 +241,7 @@ Alex: sometimes the native element doesn't fit all uses, and a replacement could
 
 Topic: Spec Review
 
-[API reviews](\url{https://github.com/w3ctag/spec-reviews/issues/)}
+[API reviews](https://github.com/w3ctag/spec-reviews/issues/)
 
 Daniel: More spec reviews that aren't on our list?
 Spec- document.scrollingElement
@@ -195,9 +252,9 @@ Spec- document.scrollingElement
 Spec Proceedure
 Daniel: Is it OK to just open an issue in the repo?
 Group: form to provide: timelines, security review, discoverability of the form, documenting the process.
-Alex: we should our spec issue tracking in one place (Github if at all possible). (this might be an option: \url{http://issuetemplate.com} )
+Alex: we should our spec issue tracking in one place (Github if at all possible). (this might be an option: http://issuetemplate.com )
 
-Spec Review: Permissions API (\url{https://github.com/w3ctag/spec-reviews/issues/45)}
+Spec Review: Permissions API (https://github.com/w3ctag/spec-reviews/issues/45)
 
 Thoughts on Registries:
     It's nice to have registries separate from the main document so that they can be updated indpendently. 
