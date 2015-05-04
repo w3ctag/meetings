@@ -117,8 +117,9 @@ Mnot: there are people in browser community with deep knowledge of the issue, we
 
 Yan: See http://discourse.specifiction.org/t/is-https-everywhere-harmful/821  
 description of the different use cases.  
-1 A website with lots of historical content, http links going outside and lots of incoming http links.
-2 A site 'A' importing icons and style from site 'B'
+
+1. A website with lots of historical content, http links going outside and lots of incoming http links.
+2. A site 'A' importing icons and style from site 'B'
 
 mnot: the issue is mostly deciding to load or not load mixed content, from an user-experience standpoint.
 
@@ -131,13 +132,13 @@ DKA: for blogs, lots of people are embedding images.
 
 Plinss: Mixed content handling has to be done differently if you are:
 
-1 using https where you *want* security, so blocking mixed content make sense
-2 using upgraded http, where you want to see mixed content, and flag the content as being insecure.
+1. using https where you *want* security, so blocking mixed content make sense
+2. using upgraded http, where you want to see mixed content, and flag the content as being insecure.
     
 Yan: 2 ideas to service the "blg blog" community
 
-1 don't throw a mixed content warning in certain cases (e.g. referencing an external image) but then don't mark the page as secure
-2 use CSP to upgrade the connection (in the browser) but don't require CSP headers
+1. don't throw a mixed content warning in certain cases (e.g. referencing an external image) but then don't mark the page as secure
+2. use CSP to upgrade the connection (in the browser) but don't require CSP headers
 
 Opportunity to discuss further in Berlin - focused discssion on this topic. In the mean time work on refining our proposals.
 
