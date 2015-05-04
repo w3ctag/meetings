@@ -1,18 +1,14 @@
-### Logistics
+### Minutes
 
-Our meeting will be hosted at Akamai's Offices on Market Street:
+Please see the minutes for the fully updated agenda and list of topics.
 
-    Akamai San Francisco
-    799 Market Street
-    6th Floor
-    San Francisco, CA 94103
-
-Lunch will be provided.
-
+* [Minutes of April 21st](https://github.com/w3ctag/meetings/blob/gh-pages/2015/04-sfo/04-21-minutes.md)
+* [Minutes of April 22nd](https://github.com/w3ctag/meetings/blob/gh-pages/2015/04-sfo/04-22-minutes.md)
+* [Minutes of April 23rd](https://github.com/w3ctag/meetings/blob/gh-pages/2015/04-sfo/04-23-minutes.md)
 
 ### Agenda
 
-#### Day 1 (Tuesday 21 April)
+#### Day 1 (Tuesday 21 April 2015)
 
 * 08:30 Settling in / coffee
 * 09:00 Agenda setting
@@ -26,7 +22,7 @@ Lunch will be provided.
 * 17:00 Captive portals
 * 17:30 End
 
-#### Day 2 (Wednesday 22 April)
+#### Day 2 (Wednesday 22 April 2015)
 
 * 08:30 Settling in / coffee
 * 09:00 General public policy advice from TAG
@@ -43,7 +39,7 @@ Lunch will be provided.
 
 * 18:30 TAG Team Building Event - somewhere in San Francisco tba
 
-#### Day 3 (Thursday 23 April)
+#### Day 3 (Thursday 23 April 2015 )
 
 * 08:30 Settling in / coffee
 * 09:00 WebRTC
@@ -56,7 +52,7 @@ Lunch will be provided.
 * 16:00 End
 
 
-### Topics
+### Other Topics
 
 * CSS Extensibility (Houdini)
 * Privileged Contexts
@@ -74,3 +70,14 @@ Lunch will be provided.
   * September - Boston?
 * CSV on the web
 * Data on the web
+
+### Logistics
+
+Our meeting will be hosted at Akamai's Offices on Market Street:
+
+    Akamai San Francisco
+    799 Market Street
+    6th Floor
+    San Francisco, CA 94103
+
+Lunch will be provided.
