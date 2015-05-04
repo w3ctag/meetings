@@ -51,7 +51,7 @@ DKA: talking to people working on an implementation, they are working on a "jQue
 
 Mike: The interesting side is that it's peer-to-peer.
 
-DKA: I don't know any service using this for flie sharing.
+DKA: I don't know any service using this for file sharing.
 
 Mnot: if would be good to gather more information before stepping in this.
 
@@ -152,7 +152,7 @@ Tim: Is http://w3.org the same as https://w3.org ?  What Brad has said is "no".
 
 Alex: what he has said is that they have different guarantees.
 
-Tim: From most perople's point of view when you're linking to something the interesting thing is the thing (e.g. json file of weather) - and the security you get it with is incidental.
+Tim: From most people's point of view when you're linking to something the interesting thing is the thing (e.g. json file of weather) - and the security you get it with is incidental.
 
 Mnot: In SW is there a notion of the trust level assigned to a particular statement or triple?
 
@@ -174,14 +174,14 @@ dimitri: I'm a repeat visitor!
 … Reflecting back on the last year:  
 
 1. Several classes of features on the platform. Those that have networking components are hard. Incremental features are somewhat easier (can get opt-in usage).  
-Web Components are a network-effect kind of feature. It redefines DOM, HTML, and is \_complicated\_. It's a heavy burden to bear (er... get implemented)  
+Web Components are a network-effect kind of feature. It redefines DOM, HTML, and is _complicated_. It's a heavy burden to bear (er... get implemented)  
 Expectations for adoption need to be adjusted (probably lengthened)  
 Cost of Web Components--it can only be hyped for so long before folks come back to reality due to lack of browser adoption.  
 I would like to fix how this works (in my next lifetime)
 
 2. Finding the primitives, rationalizing existing behavior also seem like good ideas.... I'm optimistic! about the upcoming f2f tomorrow. All vendors understand and have vetted their concerns  
 … I'm hopeful we can now drive to consensus which should lead to browser implementations.  
-… Proceedurally: I would like to drive a 'task force' style of editing. Designate folks to take specific features and mold them.  
+… Procedurally: I would like to drive a 'task force' style of editing. Designate folks to take specific features and mold them.  
 
 Lets us divide and conquer and also get cross-vendor help.  
 Still lots of work to do. Spent some time triaging web components bugs this morning.  
@@ -195,7 +195,7 @@ dimitri: Sitting down with folks; have realized there are lots of things "bolted
 * Most things that look like a button on the web are actually divs. 
 * `<sad face>` for accessibility
 
-Tantec: perhaps the button only works for 90% of the time where the div is 100%.
+Tantek: perhaps the button only works for 90% of the time where the div is 100%.
 
 dimitri: Date picker is another example where things are very different between implementations
 … there will be multiple actors across web components, but accssibility wants to apply behavior globally!!
@@ -250,7 +250,7 @@ dimitri: Accessibility is one of those actors that really does want to see a glo
 
 dimitri: With power comes responsibility :)
 
-Alex: It doesn't seem like there's anything on the HTML WG's plate to explain how its built-ins are constructed. This is a persistent request; e.g., for customisation of input elements, for accessibilty. We've had multiple conversations this week about this. We don't have any mental model for what happens when you type a keystroke. Is it our job to ask the HTML WG to address this? Is there some other group?
+Alex: It doesn't seem like there's anything on the HTML WG's plate to explain how its built-ins are constructed. This is a persistent request; e.g., for customisation of input elements, for accessibility. We've had multiple conversations this week about this. We don't have any mental model for what happens when you type a keystroke. Is it our job to ask the HTML WG to address this? Is there some other group?
 
 Travis: Who else would do that other than HTML WG?
 
@@ -272,7 +272,7 @@ Travis: e.g., file upload has changed over time.
 
 Alex: When you start to customise via CSS, you get a default version. That default also isn't specified.
 
-Peter: Some are; e.g., in the UA stylesheet. Not always true.  It's been contentious as to whether they should be styleable. 
+Peter: Some are; e.g., in the UA stylesheet. Not always true. It's been contentious as to whether they should be styleable. 
 
 Alex: It sounds like there's a real tension there. The WG and browser vendors are the only ones that have had a say.
 
@@ -306,7 +306,7 @@ Daniel: More spec reviews that aren't on our list?
 Spec- document.scrollingElement  
 * Different browsers use different elements as the root scroller.
 * The API returns which element is the root scroller
-[discussion about how CSS creates/manages scrolling region vs. viewport, who in CSS has reviwed, etc.]
+[discussion about how CSS creates/manages scrolling region vs. viewport, who in CSS has reviewed, etc.]
 
 Spec Proceedure  
 
