@@ -30,7 +30,7 @@ mnot: loves talking about the french situation
 … we should publish docs that talk about how the web works and how certain legislation might contradict that direction  
 … and fostering direct interaction and a resource for policy makers
 
-Related link: \url{http://www.w3.org/TR/publishing-linking/} (publishing \& linking draft, which was intended in some way as a response to some  
+Related link: [publishing & linking draft](http://www.w3.org/TR/publishing-linking/), which was intended in some way as a response to some  
 
 dka: context: were discussing "linking" and its affect on copyright infringement.  
 … part of the idea for the doc was to establish common terminology.  
@@ -46,7 +46,7 @@ hadley: very useful for the press too.
 
 dka: there was some pushback: "hey, you're not lawers and are weighing on a subject you're not part of"... (original request was for an "amicus brief")
 
-timbl: we stopped short of saying "you \_should\_ do this"  
+timbl: we stopped short of saying "you *should* do this"  
 … if you're just linking to legal content, you should be safe.
 
 Spam: the great inbox-filler
@@ -63,23 +63,23 @@ timbl: every single protocol we create has a social aspect.
 … Google works because people have created links from their sites, because they find value in those links, and because sharing that information in ingrained in them.  
 … We must be aware of these implicit social assumptions present around a protocol.  
 … Sometimes we should say what the implications are for breaking the social contract around the protocol.  
-… as in TCP, you can cheat the exponential backoff. There are impliciations for subverting the system.  
+… as in TCP, you can cheat the exponential backoff. There are implications for subverting the system.  
 
 mnot: I'm comfortable explaining the technical details and interactions between various mechanisms  
 … we can describe: if you take advantage of these things, here's what happens.  
 
 timbl: that's what the TAG should do (should have done) since the beginning.
 
-hadley: government's power is in regulating behavior; W3c'sp ower is in building things.  
+hadley: government's power is in regulating behavior; W3C'sp ower is in building things.  
 … when we see spam/captive portals, we can consider building something else.  
-… we usual don't take a stand on the behavioral issue: e.g., "you should not send spam"  
+… we usually don't take a stand on the behavioral issue: e.g., "you should not send spam"  
 … do folks agree?
 
-mnot: folks establish metaphores for understanding varoius systems, then governments establish laws and regs based on those metaphores...  
-… but these metaphores can break down.
+mnot: folks establish metaphors for understanding various systems, then governments establish laws and regs based on those metaphores...  
+… but these metaphors can break down.
 
 timbl: the distinction is what I'm pushing back against  
-… Separate social pieces and technical piece. When considered together, they work together because both consituent systems are designed together.  
+… Separate social pieces and technical piece. When considered together, they work together because both constituent systems are designed together.  
 … These things are coupled (say a "microscopic relationship--two people exchanging an email)  
 … Then you couple these microscopic interactions together and you have "facebook" and "twitter"  
 … This leads to more complex issues when in turn geminates new ideas which results in social+technical issues (it's a closed-loop cycle)  
@@ -97,7 +97,7 @@ hadley: that's important context, thanks.
 … it's helping me shape my thoughts on social networking.  
 … such things like distribution of child porn, while a polarizing topic, has some social aspects.
 
-dka: so... obvoiusly it would not be appropriate for the TAG to take a stand on gambling (example). I think it is appropriate to say: the web is a tool for free speech.
+dka: so... obviously it would not be appropriate for the TAG to take a stand on gambling (example). I think it is appropriate to say: the web is a tool for free speech.
 
 yves: "free speech" is not accepted in all countries
 
@@ -111,7 +111,7 @@ hadley: that sounds "functional" not a social statement...
 timbl: we're bikeshedding.
 … another example, if you talk JSON and say it must translate to RDF, then that's clearly technical...  
 
-alex: If you bring the social/politial assumptions to the room then we have a clear ability to make progress. When folks in the interaction don't share the same assumptions, then it's not so easy...
+alex: If you bring the social/political assumptions to the room then we have a clear ability to make progress. When folks in the interaction don't share the same assumptions, then it's not so easy...
 
 timbl: maybe we shouldn't be so concerned about splitting hairs here, since the social+technical are so intertwined.
 
@@ -177,7 +177,7 @@ Different Storage Technologies in web standards:
 * indexed db - transaction-based (thread-safe) key/object pairs
 * web sql - (obsolete? yet folks still asking for it at #extwebsummit)
 * File system API
-* Caching API (fetch) [Cache objects (from Service Workers spec)](\url{https://github.com/slightlyoff/ServiceWorker/blob/master/explainer.md#the-cache)}
+* Caching API (fetch) [Cache objects (from Service Workers spec)](https://github.com/slightlyoff/ServiceWorker/blob/master/explainer.md#the-cache)
 * HTTP Caching - no API :(
 
 [FYI, Mozilla Device Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Device\_Storage\_API) (non-standard, only for privileged apps)
@@ -198,7 +198,7 @@ Alex: No.
 TimBL: Thinking of the XKCD cartoon where it looks like it's locked up, but it's opened another modal window behind the screen.  
 …If you're waiting for another application that happens to run on the same origin.... could be any of the same LibreOffice suite, or Office 365 — your spreadsheet could be waiting for your calendar or whatever.
 
-Travis: Browsers have this assumption that sotrage is boxed into an origin. Origin is a representaiton of an app or a suite of apps, but is restrictive about granting storage to other origins. In non-sandboxed, you have a storage layer that is common to all applications.  My question: Is that view of origin-tied storage — do we want to explore sharing storage, to allow it to be more of a substrate than it is today?  There are use cases, but.. .security?
+Travis: Browsers have this assumption that storage is boxed into an origin. Origin is a representation of an app or a suite of apps, but is restrictive about granting storage to other origins. In non-sandboxed, you have a storage layer that is common to all applications.  My question: Is that view of origin-tied storage — do we want to explore sharing storage, to allow it to be more of a substrate than it is today?  There are use cases, but... security?
 
 TimBL: Totally. For example, in cloud storage, — what about interoperability of data formats?  Eg: .ODT file.  I want to share with other people (access control), but also, ' I want to say this can go to LibreOffice'.
 
@@ -208,9 +208,9 @@ TimBL: in read-write linked data apps, people are fed up with CORS getting in th
 
 Yan: I see why that's useful if you want everyone to access your data, but security people freak out when they see that.  If your website is a bank, and you see a wildcard CORS header, it's probably really bad.
 
-Tim: If I have my data somewhere on the Web, and I want to sue a cool web service to use it — like Mint — which i trust... but my bank hasn't said they approve it.  I'm never going to think of the list of all the apps I want to use this.  Then I have to turn CORS off.
+Tim: If I have my data somewhere on the Web, and I want a cool web service to use it — like Mint — which i trust... but my bank hasn't said they approve it.  I'm never going to think of the list of all the apps I want to use this.  Then I have to turn CORS off.
 
-Yan: IN your model, the user hads to make the decision of "I trust mint.com with my data."  In the CORS model, the bank says "Yes, I trust mint.com".
+Yan: In your model, the user has to make the decision of "I trust mint.com with my data."  In the CORS model, the bank says "Yes, I trust mint.com".
 
 Travis; Or they give you your data in a portable format to send to mint.
 
@@ -218,14 +218,14 @@ Tim: Yes, but that's not sharing.  That's downloading.
 
 DKA: This is theoretical though, but in the real world — if I go to TurboTax and ask it to get my data from eTrade, it can do that because i give it my eTrade password.
 
-Yan: I think it woudl be more wrong for eTrade to allow access through CORS.  In that case the user has no idea that a malicious party might have access to their data.
+Yan: I think it would be more wrong for eTrade to allow access through CORS.  In that case the user has no idea that a malicious party might have access to their data.
 
 Tim: So what should happen is that the user shoudl authenticate to both services.  Delegate access.
 
-Travis: In that case, every piece of ata should have an access policy, integrated.
+Travis: In that case, every piece of data should have an access policy, integrated.
 
-DKA: back to the initial discussion.  Perhaps a separate discussion about problems with CORS?  But here, let's talk about using the CORS model to let some piece of local storage to be accessed by different applications.  
-…If you have two web apps in the service worker world, that are executing locally  on your device, and you wnat them both to access data on your device and you're not online, then you're screwed.  We don't enable that.  
+DKA: back to the initial discussion. Perhaps a separate discussion about problems with CORS?  But here, let's talk about using the CORS model to let some piece of local storage be accessed by different applications.  
+…If you have two web apps in the service worker world, that are executing locally on your device, and you wnat them both to access data on your device and you're not online, then you're screwed.  We don't enable that.  
 … Example:  A photo retouching application as a web app.  I want it to access photos in a photo storage app (which is a web app).  
 … On mobile OSes, a dialog box asks you for permission.  Is there something similar we ned to do for local storage to make this work?
 
@@ -233,21 +233,21 @@ Travis: That prompt in an installed app? Then the API isn't one of ours; it's at
 
 DKA: I'm thinking about the user model.  Has this been discussed?  Alex?
 
-Alex: It's hard for me to unpack all the roles I'm playign here.  What's likely to happen, and what's reasonable, and what the opportunities are:
+Alex: It's hard for me to unpack all the roles I'm playing here.  What's likely to happen, and what's reasonable, and what the opportunities are:
 
-* It's likely we'll struggle with the storage mechanismsm we have right now, because they're not integrated. Re the locking propblem: IndexDB has a similar problem. The Cache API has to preserve opacity for non-CORS cross-origin content. 
+* It's likely we'll struggle with the storage mechanisms we have right now, because they're not integrated. Re the locking problem: IndexDB has a similar problem. The Cache API has to preserve opacity for non-CORS cross-origin content. 
 * It's attributed to your origin storage.  You can set whatever mode for the Fetch that you would like (CORS, no CORS). You'll receive a different type in return: a regular response, or an opaque response (which doesn't allow you to see hte content).
 
-Tim: I have an outstanding issue on the Fetch spec.  The credentials flag.  Will we get rid of that?
+Tim: I have an outstanding issue on the Fetch spec. The credentials flag.  Will we get rid of that?
 
 Alex: Not sure.
 
 Tim: Good issue for the TAG. With the credentials flag is a different space, produces different results. If you mistakently set/don't set it, you can't go back.
 
 Alex: Dont' have an easy answer for that.  
-… We have two classes of content: the image element and the CSS link rel system and sciptSource= allow you to fetch and exzecute third party content without CORS, and without being able to see the content.  
+… We have two classes of content: the image element and the CSS link rel system and sciptSource= allow you to fetch and execute third party content without CORS, and without being able to see the content.  
 … You can't read back the pixels from a third party image fetched with CORS.  
-… It is a little incoherent. How do we get to a place where applications can colaborate re their storage. One option: allow apps to install services that other apps can consult. 
+… It is a little incoherent. How do we get to a place where applications can collaborate re their storage. One option: allow apps to install services that other apps can consult. 
 
 Travis: vs allowing them to have direct access.
 
@@ -255,9 +255,9 @@ Alex: Both are available.
 
 Tim: If one option to the data is ID reference and the other is a fetch to a service on the machine, and get back the data, parse it, and instatiate it — the first option is preferable (when I'm writing code)
 
-DKA: Are you suggesting this is an ealboration to service worker?
+DKA: Are you suggesting this is an elaboration to service worker?
 
-Alex: Yes, and there are proposals out.  You can do most of this with appcache and iframes. But that doesn't work from workers, which can't talk to documents they haven't created or create new subdocuments.  
+Alex: Yes, and there are proposals out.  You can do most of this with appcache and iframes. But that doesn't work from workers, which can't talk to documents they haven't created or create new sub-documents.  
 … There are interesting protocol-level considerations... does this happen transparently when you make a fetch? Explicitly when you call out over an RPC? Who owns that data? Can we preserve the opacity of an opaque response? postmessage doesn't have an opaque object type.  
 … Another option would be a shared storage pool. Assuming you had  asynchronous APIs only.  
 
@@ -277,15 +277,15 @@ DKA: Part of my mental model: FirefoxOS, where the Web environment is the OS, yo
 Mike: Alex, when you were talking about cache, you meant objects from service worker?
 
 Alex: Yes. They happen as a side effect of the service worker design. In next release of Chrome, we're making cached objects available as well.  
-… How do we deal with storage locking? Now, IndexDB has a nasty way of daling with this: it closes transactions at the end of the task.  You could extend the life of the transaction (artifically), — but it's there to keep developers from getting themselves into an inconsistent state.  
+… How do we deal with storage locking? Now, IndexDB has a nasty way of daling with this: it closes transactions at the end of the task.  You could extend the life of the transaction (artificially), — but it's there to keep developers from getting themselves into an inconsistent state.  
 … This goes badly with other apps wanting access to the storage and trying to coordinate about the transaction lifetime.
 
 Travis: Transaction closes when there are no more pending events on the transaction.  
-… There shouldn't be any race conditions... The design was to avoid introdcing a javascript locking primitive.
+… There shouldn't be any race conditions... The design was to avoid introducing a javascript locking primitive.
 
 Alex: But now, It isn't possible to coordinate your rights to a cached storage area with a indexDB transaction.  We're clearly missing a locking system.
 
-Travis: Such a mechanism could be safe, same properties that indexdb guarantess, but less complexities.
+Travis: Such a mechanism could be safe, same properties that indexdb guarantees, but less complexities.
 
 Alex: Upside: Indexdb could provide an extended lifetime for transactions without extra I/O.  
 … For the cache API, allowing transactional behaviour that isn't implicit or underspecified.  
@@ -308,15 +308,15 @@ DKA: This was the second time I've seen this.
 
 Tim:  This is separate rule to the number of people in the TAG.
 
-Mark: This was disucssed in the process group, the AC and the AB. Lots of proposals.  Most reasonable: if there's a change of employment, those people can serve out their terms but to be rebalanced at next elections.  
+Mark: This was discussed in the process group, the AC and the AB. Lots of proposals.  Most reasonable: if there's a change of employment, those people can serve out their terms but to be rebalanced at next elections.  
 … Others said limits re company representation weren't reasonable.  
-… In that, Chaals as one of the chairs proposed that we change the rules as above — AND expand the TAG to 13 people.  To me, that second bit seemd out of left field.  
-… If yo ugrow a body like this too large, it can become unweidly.  
+… In that, Chaals as one of the chairs proposed that we change the rules as above — AND expand the TAG to 13 people. To me, that second bit seemd out of left field.  
+… If you grow a body like this too large, it can become unweidly.  
 
 Yves: it can expand by creating task forces. We did this with HTML.  
 … There is no need to expand the size of the TAG to an abritrary number.
 
-Peter: Chaals wasn't proposing loosening hte restriction to TAG members per company.  He's in favour of keeping that.
+Peter: Chaals wasn't proposing loosening the restriction to TAG members per company.  He's in favour of keeping that.
 
 Mark: Several other AC reps, including David Singer, were concerned about expanding the size of the TAG.  
 … Also, the TAG didn't ask for that. Maybe we should ask the TAG  
@@ -339,7 +339,7 @@ Tim: What would be our goal in doing that?
 Mark: Speaking as an AC rep: I'm concerned that chartering happens with lots of control to the W3C; opaque to the membership.  Others have remarked that they expect the TAG to have input on that.  That seems odd.  
 … I come from an IETF background; the people making those decisions are technical and have a view on the architecture.
 
-DKA:  This is when charters are initially crafted, before they get to the AC?
+DKA: This is when charters are initially crafted, before they get to the AC?
 
 Mark: Yes.
 
@@ -353,7 +353,7 @@ Tim: And they don't just do it in a vacuum!
 
 Alex: to Mark: If the problem is the AC having issues with the W3C staff, is that our issue?
 
-Tim: Why should the TAG be involved?  To what view/activity?  To have an opinion about the technical architure?   
+Tim: Why should the TAG be involved?  To what view/activity?  To have an opinion about the technical architecture?   
 … Also need to know who will be in the working group; does the membership want it? The staff know these things, and the TAG won't.
 
 Mark:  Yes — so run new charters through the TAG.
@@ -362,13 +362,13 @@ Tim: Another process: the headlights
 
 Mark: and the workshop process.
 
-Tim:  Perhasp we shoudl have the TAG in the headlights process of new things we ought to be working on and haven't thunk of yet.
+Tim: Perhasp we should have the TAG in the headlights process of new things we ought to be working on and haven't thought of yet.
 
-Mark: yes.  I don't want to take the team out of the equaltion, or 
+Mark: yes. I don't want to take the team out of the equation, or 
 
 Peter: I don't think the TAG should be affected by concerns of who may be a new member
 
-Alex: M yconcern is that, should the TAG be asked to contribute in areas where we don't have much expertise, that may impact our work in other areas.  
+Alex: My concern is that, should the TAG be asked to contribute in areas where we don't have much expertise, that may impact our work in other areas.  
 … What is the situation in which we can provide valuable feedback that wouldn't be caught in any other way?  
 … As we discussed in the proposed HTML process yesterday, there are moments when we could be involved.  
 
@@ -401,9 +401,9 @@ Tim: Can you think of a time when that HASN'T happened?
 
 Peter: Not right now.
 
-Tim:  Gues it's also the staff contact's responsibility.
+Tim:  Guess it's also the staff contact's responsibility.
 
-Mike: Offeirng a viewpoint as osmeone who has written a number of charters... I'd welcome TAG feedback. Never been a possibility before.  I don't see anything in the proess that would prevent me from doing it.  I will bring the next charter to the TAG.
+Mike: Offering a viewpoint as someone who has written a number of charters... I'd welcome TAG feedback. Never been a possibility before. I don't see anything in the process that would prevent me from doing it.  I will bring the next charter to the TAG.
 
 DKA: The process generally is that this doc is shared around between a select group of people (previous chairs, a few interested parties, influential companies who are interested) — not that that's bad — and then at some point it's shoved out into the light for comment.  Mike, I think you're talking about including the TAG in that closed group for comment?
 
@@ -465,11 +465,11 @@ Tantek: the question of course is how you determine minimum viability. I've aske
 
 DKA: mike, anything to add?
 
-mkwst: I see two distinct topics: the first is what should we be specifying. The second is, once specified, how do we evaluate these thigns...particularly as we need to help designers who might not be experts in privacy/security.
+mkwst: I see two distinct topics: the first is what should we be specifying. The second is, once specified, how do we evaluate these things...particularly as we need to help designers who might not be experts in privacy/security.
 
 mkwst: I put together a very straw-man document with many broad questions. The intent of the questions is to help focus spec authors on things that they might not be expecting. I tried to lay out important areas (passive/active network attackers, same origin violations, etc.). The document isn't finished yet, but the goal is to have a reasonable explanation about what the questions are meant to address.
 
-mkwst: at the bottom, there's a discussion of general mitigation strategies. This has some overlap with secure origins/etc. Another strategy is to ask the user, and this is difficult. Many prompts are hard to do and @\_\_apf\_\_ has been looking hard at this. The last way of approaching these features is to perhaps drop a feature to reduce the risk. 
+mkwst: at the bottom, there's a discussion of general mitigation strategies. This has some overlap with secure origins/etc. Another strategy is to ask the user, and this is difficult. Many prompts are hard to do and @__apf__ has been looking hard at this. The last way of approaching these features is to perhaps drop a feature to reduce the risk. 
 
 mkwst: I'm not sure that these topics go together, though. Minimum viability might be different than trying to decide what to build.
 
@@ -517,7 +517,7 @@ mkwst: don't care. Could be webappsec as a Note. Talked to privacy. Have shopped
 
 hbeeman: do you think this needs to be an official part of the W3C process?
 
-mkwst: the value would be visiblity. Don't think it needs to be an official part of the process, but might potentially be useful to have it as part of the process. The TAG review process could ask "have security and privacy been considered?", if not, could point to this doc.
+mkwst: the value would be visibility. Don't think it needs to be an official part of the process, but might potentially be useful to have it as part of the process. The TAG review process could ask "have security and privacy been considered?", if not, could point to this doc.
 
 Tantek: dissagree with mike, I think this is as important as all the other reviews we require.
 
@@ -531,7 +531,7 @@ ndoty: we've had various places where people can look. It would be good to have 
 
 Tantek: a straw man: require this for CR entry?
 
-timbl: every time you make another explicit step required, it's a risk. It's good to document what we learned from the previous attempts, but we should be careful about burecracy. It's easy to write process documents that make life hard for other people.
+timbl: every time you make another explicit step required, it's a risk. It's good to document what we learned from the previous attempts, but we should be careful about bureaucracy. It's easy to write process documents that make life hard for other people.
 
 timbl: we want them to not be immigration/tax-style questions
 
@@ -547,7 +547,7 @@ ndoty: many were one line
 
 mnot: it's pro-forma now, but there's a process you go through
 
-ndoty: we know from experience that if yo uadd the requirement without giving them help, it won't work
+ndoty: we know from experience that if you add the requirement without giving them help, it won't work
 
 [deck-chair re-arrangement]
 
@@ -559,9 +559,9 @@ Alex: I'm worried that this won't be part of a larger process...that it'll be di
 
 DKA: I'm concerend about the production of the document...if we keep it as a self-review questionaire, then it could earn its place in the process vs. if we invest our hopes into the document and then need to make sure it's fit for purpose
 
-mnot: I'm worried about making this a joint-effort with WebAppSec because I've heard concerns that there are WGs who aren't happy with WebAPpSec creating constraints on other groups. IF it's published, would like to see it published by us
+mnot: I'm worried about making this a joint-effort with WebAppSec because I've heard concerns that there are WGs who aren't happy with WebAppSec creating constraints on other groups. IF it's published, would like to see it published by us.
 
-mkwst: if the TAG wants to pick it up and publish/use it, then that'll mean I hsould sit down and finish it. I know some things about security/privcy, but my opinion alone won't produce a document that's comprehensive. Input will be required.
+mkwst: if the TAG wants to pick it up and publish/use it, then that'll mean I should sit down and finish it. I know some things about security/privcy, but my opinion alone won't produce a document that's comprehensive. Input will be required.
 
 mnot: does anyone think this needs to be a Rec? A finding might be an appropriate agreement.
 
@@ -599,8 +599,7 @@ mnot: it doesn't reflect my understanding about how the browser folks feel...
 
 ndoty: I've tried to update the document to reflect skeptical views, but maybe not enough
 
-
-timbl: I've expressed before that SOP is too big. Browser folks have expressed that they dont' see how they can do path-based restrictions. I would love to have a spoof version of the W3C site where all the slashes are replaced by dots just to prove the point.
+timbl: I've expressed before that SOP is too big. Browser folks have expressed that they don't see how they can do path-based restrictions. I would love to have a spoof version of the W3C site where all the slashes are replaced by dots just to prove the point.
 
 Tantek: you want sub-directories to be separate origins?
 
@@ -633,7 +632,7 @@ tnatek: looking forward to seeing the TAG repo URL - will be adding non-normativ
 
 mkwst: there was a lot of debate, held up rechartering, etc. Long story short, there's now a document. There's a definition that scopes it to particular types of connections.
 
-dka: I understood it when it was called "powerful features" and "priviledged contexts" as it felt like we were discussing the nature of the powerful feature, but I don't understand it if we're just talking about it in terms of features that need security...talking about "secure features" seems like a loop.
+dka: I understood it when it was called "powerful features" and "privileged contexts" as it felt like we were discussing the nature of the powerful feature, but I don't understand it if we're just talking about it in terms of features that need security... talking about "secure features" seems like a loop.
 
 mkwst: I agree. It feels like a challenge to lay out a story in this spec because if how we had to navigate the chartering. The objections were about the tone of the document and I think we can say the same thigns without falling into language that's too advisory towards other WGs.
 
@@ -645,9 +644,9 @@ mkwst: we're looking at many features that are currently available over plaintex
 
 mnot: what's the timeline?
 
-mkwst: 2 questions: how long will it take and when cna I start. Won't take long. Substantial agreement about defintion of priviledged context. Rewriting the spec will take a few weeks. Getting consensus a few more weeks. Starting now, middle-of-the-year.
+mkwst: 2 questions: how long will it take? and when can I start? Won't take long. Substantial agreement about definition of priviledged context. Rewriting the spec will take a few weeks. Getting consensus a few more weeks. Starting now, middle-of-the-year.
 
-mkwst: yan and I hsould sit down and get it done. There hasnt' been a whole lot of practical impetus to get the doc done because Chrome \& Mozilla are already doing the right things. THe right stuff is already happening.
+mkwst: yan and I should sit down and get it done. There hasn't been a whole lot of practical impetus to get the doc done because Chrome \& Mozilla are already doing the right things. THe right stuff is already happening.
 
 Tantek: disagree. Documenting it will have strong value for developers and other companies to point to. It lets them say "W3C is going down this path..."
 
@@ -677,7 +676,7 @@ mkwst: there's a section that talks about problematic charachteristics.
 
 hbeeman: threat model section?
 
-mkwst: Section 3. bing maps, yandex/yahoo/someone have a mapping service over HTTP and do geolocation; they'll break. Many WebRTC demos are over http and we'd like to turn getUserMedia() off over HTTP. EME also shold have been HTTPS-only. Going forward, Mozilla has announced a desire to deprecate HTTP. They'd like new features to exist on HTTPS and not HTTP.
+mkwst: Section 3. bing maps, yandex/yahoo/someone have a mapping service over HTTP and do geolocation; they'll break. Many WebRTC demos are over http and we'd like to turn getUserMedia() off over HTTP. EME also should have been HTTPS-only. Going forward, Mozilla has announced a desire to deprecate HTTP. They'd like new features to exist on HTTPS and not HTTP.
 
 timbl: so Mozilla wants to deprecate the existing web?
 
@@ -687,12 +686,11 @@ mkwst: need to find the actual thread to avoid misquoting.
 
 [intent to deprecate HTTP](https://groups.google.com/forum/#!topic/mozilla.dev.platform/xaGffxAM-hs%5B1-25%5D)
 
-DKA: can we have a more focused conversation? BUilding on top of the "securing the web" publication seems more focused.
-
+DKA: can we have a more focused conversation? Building on top of the "securing the web" publication seems more focused.
 
 DKA: I think we should have a conversation about geolocation because I do see it abused in the wild. The prompting when you land on a page, e.g.
 
-slightlyoff: if we're going to talk about geolocation ,I think we should talk to that WG...there's lots wrong with it, we should discuss with them
+slightlyoff: if we're going to talk about geolocation ,I think we should talk to that WG... there's lots wrong with it, we should discuss with them
 
 mikesmith: they are also working on geofencing. That happened after a discussion with them about powerful features. You didn't have the opportunity then but you do now.
 
@@ -802,22 +800,22 @@ ilya: reverse terminology - "inflated" package can be achieved through multiple 
 
 dka: what can tag do to help?
 
-ilya: we are rechartering the web perf group. there is github repo with the current charter. we get a lot of feedback in the group about performance, like developers who want to know when something is visible on the screen. digress into deep discussion of rendering engines. we're trying to figure out how to charter so we can divert feedback to other groups productively. effectively agreed on this today.
+ilya: we are rechartering the web perf group. there is a github repo with the current charter. we get a lot of feedback in the group about performance, like developers who want to know when something is visible on the screen. digress into deep discussion of rendering engines. We're trying to figure out how to charter so we can divert feedback to other groups productively. effectively agreed on this today.
 
 [Web Performance Group draft charter](https://w3c.github.io/charter-webperf/)
 
 [scribe problems and catch-and-release portal commentary]
 
-Travis: I was drawing a parallel to what we discussed with the security considerations document. In WebAppsSec, we got pretty far along and decided to publish it.  Here, this is a set of use cases — performance is cross-cutting.  Could ultimately be a document the TAG could adopt. Perhaps add that to your charter?  To collect the feedback you're receiving, so that it's official, and that the TAG may be involved in what happens next.
+Travis: I was drawing a parallel to what we discussed with the security considerations document. In WebAppsSec, we got pretty far along and decided to publish it. Here, this is a set of use cases — performance is cross-cutting.  Could ultimately be a document the TAG could adopt. Perhaps add that to your charter?  To collect the feedback you're receiving, so that it's official, and that the TAG may be involved in what happens next.
 
-Ilya: With a view that publishing by the TAG would get other groups to ...
+Ilya: With a view that publishing by the TAG would get other groups to...
 
 Travis: in the extreme, to create a new working group to handle something.  
 … Is that crazy?
 
 Alex: Not sure. Curious: are there areas where we could help create more or better channels to help you get things done with other groups?
 
-Ilya: Right now: visilibilty observer. General concept of: I want to know when something is shown on the screen. Turns out to be complicated.
+Ilya: Right now: visilbilty observer. General concept of: I want to know when something is shown on the screen. Turns out to be complicated.
 
 Tim: And then what do they want to do? Change the DOM?
 
@@ -826,21 +824,20 @@ Tantek: count it as a view on the ad server?
 Alex: Three use cases.  
 … 1 Count as that – the IAB has a viewability requirement for ad impressions.  50% viewable for one second, then a transitionary period of 70% viewable for a period. People are running inefficient polling code, draining batteries. CPU wakeups, all the rest.  
 … 2. Scrolling — I don't want to have to stamp out the DOM for all the potential elements in the list (or load all the data for them) when you only need to stamp out the DOM for the visible elements (Facebook has given feedback about scrolling as a use-case)  
-… 3. Delayed loading. People don't want heavy resources until they're in/near the primary viewport.  Common across panel-based UIs in iOS or Android.  Today's JS application architures are heavily penalised for not knowing what's on the screen.
+… 3. Delayed loading. People don't want heavy resources until they're in/near the primary viewport. Common across panel-based UIs in iOS or Android. Today's JS application architecutures are heavily penalised for not knowing what's on the screen.
 
 FYI in the WebDriver spec we have a [element displayed algorithm](https://w3c.github.io/webdriver/webdriver-spec.html#dfn-element-displayed) for ascertaining an element's visibility.
 
-Ilya: We're being asked: give us a better way to measure our performance for what we care about. If I'm amazon, it's about the product. On-load firing is arbitrary.
+Ilya: We're being asked: give us a better way to measure our performance for what we care about. If I'm Amazon, it's about the product. On-load firing is arbitrary.
 
 Alex: Do you think the Web Perf group is the right home for that?
 
-Ilya: I don't konw. There is a big audience for that group who are really interested in it.  The group has concrete and useful feedback for these questions.  
+Ilya: I don't know. There is a big audience for that group who are really interested in it.  The group has concrete and useful feedback for these questions.  
 … At a minimum, we can document these things.  Running list of complaints, similar things.  Then we can discuss what to do with them (TAG or not)
 
 Peter: Crosses into the Houdini task force as well.  It would be polyfillable, with Houdini APIs in place
 
-Ilya: these discussions happen — somebody comes up with some idea — but then I get feedback from a rendering team or someone else which disagrees and asks us for time to solve it.  We don't know what they're doing, what their timing is, if we agree…  
-… Just drafting a document would be a good start.
+Ilya: these discussions happen — somebody comes up with some idea — but then I get feedback from a rendering team or someone else which disagrees and asks us for time to solve it.  We don't know what they're doing, what their timing is, if we agree…  … Just drafting a document would be a good start.
 
 ### HTTP to HTTPS
 
