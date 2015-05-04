@@ -12,7 +12,7 @@
 * Web Components
 * Spec Reviews
 
-[#tagmem IRC Log from this day](http://www.w3.org/2015/04/22-tagmem-irc)  
+[#tagmem IRC Log from this day](http://www.w3.org/2015/04/23-tagmem-irc)  
 [Agenda](https://github.com/w3ctag/meetings/blob/gh-pages/2015/04-sfo/agenda.md)
 
 *Present:* Daniel Appelquist, Hadley Beeman, Tim Berners-Lee, Yves Lafon, Travis Leithead,  Peter Linss, Mark Nottingham, Alex Russell, Yan Zhu
