@@ -717,7 +717,7 @@ plinss: then there's the ePub use case. There is a collection of web resources t
 
 alex: so the proposal is change the spec to allow references to other resources? instead of inlining?
 
-mark: lot of concern in http2 WG that this is uncharted territory. Seems odd to standardize package format, expecting that we'll meet all these needs.
+mark: lot of concern in http2 server community that this is uncharted territory. Seems odd to standardize package format, expecting that we'll meet all these needs.
 
 alex: sounds like large community of http1.1 people for whom this is a net win as long as the packaging format is reasonable. HTTP2 is a separate issue. It doesn't codify any practices at the wire level - can feed resources preemptively out of cache.
 
