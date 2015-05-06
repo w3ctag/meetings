@@ -46,8 +46,6 @@ Peter: Implemented NgLayout gecko  layout engine
 
 Alex: Trying to make the Web a real application platform
 
-Mark: I work on HTTP
-
 Tim: I am 100% American and 100% British
 
 Dan: I live in London but I'm all American
