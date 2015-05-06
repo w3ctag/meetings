@@ -56,7 +56,7 @@ timbl: folks get major benefit by contributing to the common open relay (smtp); 
 … There is human duplicity in the system which leads to things like PGP...  
 … however over the years SMTP is still the same  
 
-mnot: deacon, spf, etc. were also proposed
+mnot: DKIM, spf, etc. were also specified
 
 timbl: every single protocol we create has a social aspect.  
 … Google works because people have created links from their sites, because they find value in those links, and because sharing that information in ingrained in them.  
