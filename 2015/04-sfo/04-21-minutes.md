@@ -139,7 +139,7 @@ Mark: Patting the government on the back is a relatively easy thing to do
 
 Dan: I'm talking about giving out some carrots instead of just smacking the French government with a stick
 
-Mark: Once we start going after governments, where do we stop? Do we go after Thailand next?
+Mark: Once we start going after governments, where do we stop? Do we go after e.g., Thailand next?
 
 Yves: It's not about being against the French government; it's about using [this as an opportunity to make a clear position]
 
