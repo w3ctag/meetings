@@ -26,8 +26,7 @@
 
 ### General public policy advice from the TAG
 
-mnot: loves talking about the french situation  
-… we should publish docs that talk about how the web works and how certain legislation might contradict that direction  
+mnot: We should publish docs that talk about how the web works and how certain legislation might contradict that direction  
 … and fostering direct interaction and a resource for policy makers
 
 Related link: [publishing & linking draft](http://www.w3.org/TR/publishing-linking/), which was intended in some way as a response to some  
