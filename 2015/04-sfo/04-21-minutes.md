@@ -38,7 +38,7 @@ Tim: Spent time trying to get people to not just write technical specs but also 
 
 Hadley: Most of the decision makers and policy makers are not technologists
 
-Mark: Australia, government discussions… people have very little context, and they make judgements based on metaphors
+Mark: Australia, HTTP.
 
 Yves: 1994 I implemented my first HTTP implementation, CSS implementation after that
 
