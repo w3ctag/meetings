@@ -95,6 +95,7 @@ Mark: the strongest argument… create a playing field.. ["Tussle in Cyberspace"
 
 Tim: You're at the W3C. We can argue that we are making the world better
 … that can be our starting point
+
 Mark: I wonder how the membership will react to that
 
 Tim: If you don't start out with that… you can end up with this great gaping sore in the system
