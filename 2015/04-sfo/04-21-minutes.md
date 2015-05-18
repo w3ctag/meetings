@@ -272,19 +272,20 @@ Mark: there is a spec from Google, and it's implemented in Chrome
 
 ### Houdini
 
-Alex: Theer is a long-running challenge - imagine doing CCS regions in user \_\_ \_-- you eant to cancuate is inrinctsic width rather tan minwidth --- imagine ehwn you have to do tos ecaculations… You can use htings like th fonts. You want to avoid doing that inthe docuent befoe you actually insert the frame… you wanto know what the size of the frame would be if it were inserted.Lots of areas whether you want to do cascading style --- you need an API which will allow you to cooperate with the style resolverand take things into your own hands.
+Alex: There is a long-running challenge - imagine doing CCS regions in user \_\_ \_-- you want to calcuate its intrinsic width rather than min-width --- imagine when you have to do those calculations… You can use things like the fonts. You want to avoid doing that in the document before you actually insert the frame… you want to know what the size of the frame would be if it were inserted. Lots of areas whether you want to do cascading style --- you need an API which will allow you to cooperate with the style resolver and take things into your own hands.
 
-Text measurement is it own part of this … if you do something like GoogleDocs where yo doi all your own layout and line-breaking, you need this.Text is going to have its own APIs in this area.
+Text measurement is its own part of this … if you do something like Google Docs where yo dou all your own layout and line-breaking, you need this. Text is going to have its own APIs in this area.
 
-Suppose you had Illustrator in the browser taking a font and turning into art.   Or you build your own 3D renderer for generating fonts [missed]
+Suppose you had Illustrator in the browser taking a font and turning into art. Or you build your own 3D renderer for generating fonts [missed]
 
 ### HTML 5 AND STUFF
 
-Mike:  Robin B, a few years ago, was hired to be the editor of the W3C version of the HTML spec.  Hixie was still the editor on WHATWG.  I was staff contact.  When Hixie resigned from being the edito, and so did Majek @@ and so did I …. Robin was paid under contract from MS Google and Adobe.  I put a lot of working to making sure we kept Robin on.
+Mike:  Robin B, a few years ago, was hired to be the editor of the W3C version of the HTML spec.  Hixie was still the editor on WHATWG.  I was staff contact.  When Hixie resigned from being the editor, and so did Majek @@ and so did I …. Robin was paid under contract from MS Google and Adobe.  I put a lot of working to making sure we kept Robin on.
 …Then we got to Rec.  Now we have a plan to do dot releases (as in original plan) but a lot of things have changed.  It is becoming clear that the structure of the WG is non-optimal.  Scope creep is what we do best ==> HTML scope is now creep.
 …We have had some discussions with some of the people who have been supporting the work for a long time.
 […]
-…We are also going to "modularise" the HTML spec (no relation to XHTML modularization!).   Lots of the HTML spec isn't so much about te HTML language as about how you actualy load web pages.
+…We are also going to "modularise" the HTML spec (no relation to XHTML modularization!). Lots of the HTML spec isn't so much about the HTML language as about how you actually load web pages.
+
 …Robin has made it much easier for more people to contribute to the spec.  He has set up a github repo, people can edit the specs in github.
 
 Travis: There is a general culture in the WHAT WG of "oh, I have a great idea -- I will ask the WHATWG editor to write it up".   Here is an alternative, that you just do it yourself.
@@ -293,9 +294,9 @@ Travis: There is a general culture in the WHAT WG of "oh, I have a great idea --
 
 DKA: How do others feel about this process?
 
-Alex: Cautious about process changes ion th is area. We do need changes -- big ones.    We need to address why the W3C spec is inferior to the WHATWG
+Alex: Cautious about process changes in this area. We do need changes -- big ones. We need to address why the W3C spec is inferior to the WHATWG.
 
-The table sorting algo like many things in fact is which are badly designed  — just like the sorting algo is not what people actually need or use…  Similarly other things  like meaning of name, section etc … so the overall quality of the work in whatwhg is low ,  ut why is it w3c where things happens
+The table sorting algo like many things in fact is which are badly designed  — just like the sorting algo is not what people actually need or use…  Similarly other things  like meaning of name, section etc … so the overall quality of the work in whatwg is low, but why is it w3c where things happens.
 
 Tim: Compromise good/fair/fast -- drop any one and you can do well on the others.
 
