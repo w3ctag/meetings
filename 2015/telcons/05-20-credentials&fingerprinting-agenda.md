@@ -9,6 +9,7 @@ Corresponding UTC (GMT)	Wednesday, May 20, 2015 at 20:00:00
 
 Call Agenda  
 
+* [F2F minutes](https://github.com/w3ctag/meetings/tree/gh-pages/2015/04-sfo) good to go?
 * [Credentials API review](https://github.com/w3ctag/spec-reviews/issues/49)
 * [Browser Fingerprinting](https://github.com/w3ctag/spec-reviews/issues/38)
 * Late-breaking: do we have any comment on [Media Capture & Streams](https://lists.w3.org/Archives/Member/chairs/2015AprJun/0017.html)?
