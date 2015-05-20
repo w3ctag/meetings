@@ -5,7 +5,7 @@
 
 ###Chair: Dan  
 
-###Scribe: The Awesome Travis  
+###Scribe: Travis  
 
 ###Topics: 
 
