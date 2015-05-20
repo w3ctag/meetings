@@ -12,3 +12,4 @@ Call Agenda
 * [Credentials API review](https://github.com/w3ctag/spec-reviews/issues/49)
 * [Browser Fingerprinting](https://github.com/w3ctag/spec-reviews/issues/38)
 
+Minutes: https://etherpad.w3ctag.org/p/05-22-2015-minutes.md
