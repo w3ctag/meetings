@@ -1,20 +1,20 @@
 #
 #TAG Teleconference - 20 May 2015
 ##
-Present: Dan A., Mike West, Travis, Hadley, Alex Russell, Yves, Mark, David Baron
-Chair: Dan
-Scribe: The Awesome Travis
+Present: Dan A., Mike West, Travis, Hadley, Alex Russell, Yves, Mark, David Baron  
+Chair: Dan  
+Scribe: The Awesome Travis  
 
 Topics: 
 
-   * Review F2F Minutes from SFO
-   * Credentials API review
-   * Browser Fingerprinting
-   * Next Call: CSV review : \url{https://github.com/w3ctag/spec-reviews/issues/55}
-Agenda: \url{https://github.com/w3ctag/meetings/blob/gh-pages/2015/telcons/05-20-credentials\&fingerprinting-agenda.md}
+* Review F2F Minutes from SFO
+* Credentials API review
+* Browser Fingerprinting
+* Next Call: [CSV review](https://github.com/w3ctag/spec-reviews/issues/55)  
 
-**Call for review** - F2F minutes from San Francisco:
-\url{https://github.com/w3ctag/meetings/tree/gh-pages/2015/04-sfo}
+[Agenda](https://github.com/w3ctag/meetings/blob/gh-pages/2015/telcons/05-20-credentials\&fingerprinting-agenda.md)
+
+**Call for review** - [F2F minutes from San Francisco](https://github.com/w3ctag/meetings/tree/gh-pages/2015/04-sfo)
 
 **Credentials Review**: \url{https://github.com/w3ctag/spec-reviews/issues/49}
 **Spec**: \url{https://w3c.github.io/webappsec/specs/credentialmanagement/}
