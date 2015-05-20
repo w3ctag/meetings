@@ -214,7 +214,7 @@ E.g., my collegue Dimitri created: https://github.com/dglazkov/nope-js to turn o
 
 [now is the winter of our fingerprinting discontent]
 
-**:)
+:)
 
 
 
