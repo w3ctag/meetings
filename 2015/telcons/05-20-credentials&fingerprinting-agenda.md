@@ -11,5 +11,6 @@ Call Agenda
 
 * [Credentials API review](https://github.com/w3ctag/spec-reviews/issues/49)
 * [Browser Fingerprinting](https://github.com/w3ctag/spec-reviews/issues/38)
+* Late-breaking: do we have any comment on [Media Capture & Streams](https://lists.w3.org/Archives/Member/chairs/2015AprJun/0017.html)?
 
 Minutes: https://etherpad.w3ctag.org/p/05-22-2015-minutes.md
