@@ -15,5 +15,5 @@ Call Agenda
 * Late-breaking: do we have any comment on [Media Capture & Streams](https://lists.w3.org/Archives/Member/chairs/2015AprJun/0017.html)?
 * Next call: [CSV on the Web](https://github.com/w3ctag/spec-reviews/issues/55)
 
-Raw Minutes: https://etherpad.w3ctag.org/p/20-05-2015-minutes.md
+Raw Minutes: https://etherpad.w3ctag.org/p/20-05-2015-minutes.md  
 Edited Miuntes: https://github.com/w3ctag/meetings/blob/gh-pages/2015/telcons/05-20-credentials%26fingerprinting-minutes.md
