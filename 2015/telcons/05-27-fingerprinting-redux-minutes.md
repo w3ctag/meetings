@@ -3,7 +3,7 @@
 ###27 May 2015
 
 
-###Present: Dan, Hadley, Peter, Mark, Yan, Travis, Tim
+###Present: Dan (dka), Hadley, Peter, Mark (mnot), Yan, Travis, Tim
 
 ###Guests: Nick Doty (W3C), Wendy Seltzer (W3C), Javun (Mozilla)
 
@@ -104,5 +104,6 @@ Talking about https://github.com/w3ctag/spec-reviews/blob/master/2015/05/fingerp
 
 *dka:* next topic - any comment on media capture and streams? https://lists.w3.org/Archives/Member/chairs/2015AprJun/0017.html
 
+[nothing raised]
 
-
+*dka:* Meeting adjourned.
