@@ -1,4 +1,4 @@
-### TAG Teleconference – 3 June ; 20:00 UTC
+### TAG Teleconference – 3 June 2015 ; 20:00 UTC
 
 San Francisco (U.S.A. - California)	Wednesday, June 3, 2015 at 01:00:00 PM	PDT	UTC-7 hours  
 Boston (U.S.A. - Massachusetts)	Wednesday, June 3, 2015 at 4:00:00 PM	EDT	UTC-4 hours  
