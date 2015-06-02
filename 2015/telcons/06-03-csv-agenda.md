@@ -11,6 +11,8 @@ Corresponding UTC (GMT)	Wednesday, June 3, 2015 at 20:00:00
 
 * [CSV on the Web](https://github.com/w3ctag/spec-reviews/issues/55)
 
+### Logistics
+
 IRC : irc.w3.org / #tagmem
 
 JOIN WEBEX MEETING  
