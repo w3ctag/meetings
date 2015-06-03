@@ -10,6 +10,8 @@ Corresponding UTC (GMT)	Wednesday, June 3, 2015 at 20:00:00
 ### Call Agenda  
 
 * [CSV on the Web](https://github.com/w3ctag/spec-reviews/issues/55)
+* [URL comparisons when retrieving metadata files](https://github.com/w3c/csvw/issues/562) (see also: https://lists.w3.org/Archives/Public/www-tag/2015May/0014.html)
+* [resolution to publish the security questionnaire as a NOTE](https://github.com/w3ctag/security-questionnaire/issues/6)
 
 ### Logistics
 
