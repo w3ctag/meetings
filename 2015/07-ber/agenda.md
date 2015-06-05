@@ -10,4 +10,14 @@
 and in the same building as that [SAS Radisson hotel](http://www.radissonblu.com/hotel-berlin) -
 where Yandex has a corporate rate of €142”
 
+### Agenda
+
+Day 1 - 15 July
+
+- evening developer meet-up most likely on this day
+
+Day 2 - 16 July
+
+Day 3 - 17 July
+
 ### More detials to be published soon.
