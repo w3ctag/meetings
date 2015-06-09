@@ -23,3 +23,5 @@ Meeting number: 648 852 626
 Meeting password: will be shared on IRC  
 
 *Please note*: this meeting is open to TAG memebrs and invited guests. If you would like to participate, please email the chairs.
+
+[Minutes](https://github.com/w3ctag/meetings/blob/gh-pages/2015/telcons/06-03-csv-minutes.md)
