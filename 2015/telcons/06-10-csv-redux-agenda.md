@@ -17,8 +17,8 @@ Associated milestone: https://github.com/w3ctag/spec-reviews/milestones/2015-06-
 
 ### Logistics
 
-Chair: Peter
-Special guests: Jeni Tennison
+Chair: Peter  
+Special guests: Jeni Tennison  
 Scribe: ?
 
 IRC : irc.w3.org / #tagmem
