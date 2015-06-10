@@ -27,7 +27,7 @@ mnot: .wellknown location stuff … folks working through options on list and on
 
 jenit: the latest suggestion I made was https://lists.w3.org/Archives/Public/www-tag/2015May/0029.html - I suggested having a default file wen that was missing – same behoviour of what we currently have. Allow people to use .well-known file to adjust behavior.
 
-mnot: in terms of the fault - makes me feel a little weird. assumptions of default. if you have early implementtions/ deployments that would [be good]
+mnot: in terms of the fault - makes me feel a little weird. assumptions of default. if you have early implementions/ deployments that would [be good]
 
 jenit: yes makes sense. we can do that with the test suite – we can do that with the CSV – with an example site that we have. and that we can maintain on github – that would work.
 
