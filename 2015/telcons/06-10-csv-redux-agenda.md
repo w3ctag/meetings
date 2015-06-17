@@ -26,3 +26,8 @@ IRC : irc.w3.org / #tagmem
 We will not be using Webex.
 
 *Please note*: this meeting is open to TAG memebrs and invited guests. If you would like to participate, please email the chairs.
+
+[Minutes](https://github.com/w3ctag/meetings/blob/gh-pages/2015/telcons/06-10-csv-redux-minutes.md)  
+[Raw minutes](https://etherpad.w3ctag.org/p/06-10-2015-minutes.md)
+
+
