@@ -20,4 +20,9 @@ Day 2 - 16 July
 
 Day 3 - 17 July
 
-### More detials to be published soon.
+### Agenda topics
+
+- CSV on the Web (with Jeni joining)
+- Security-Related Documents (with Mike West joining)
+- API Guidelines Document (with Domenic joining)
+- Spec reviews
