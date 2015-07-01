@@ -34,3 +34,4 @@ Day 3 - 17 July
 - fingerprinting guidance (DKA will ask Nick to join)
 - Private browsing
 - Houdini
+- Accessibility topics following on from last F2F (with special guest Chaals)
