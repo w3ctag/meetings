@@ -28,4 +28,5 @@ Day 3 - 17 July
 - Spec reviews
 - IETF coorgination
 - incubation community group
-- NFC
+- NFC / Bluetooth
+- 
