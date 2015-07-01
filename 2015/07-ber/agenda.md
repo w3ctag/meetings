@@ -26,3 +26,6 @@ Day 3 - 17 July
 - Security-Related Documents (with Mike West joining)
 - API Guidelines Document (with Domenic joining)
 - Spec reviews
+- IETF coorgination
+- incubation community group
+- NFC
