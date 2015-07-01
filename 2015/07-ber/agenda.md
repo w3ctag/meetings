@@ -31,5 +31,5 @@ Day 3 - 17 July
 - IETF coorgination
 - incubation community group
 - NFC / Bluetooth
-- fingerprinting guidance
+- fingerprinting guidance (DKA will ask Nick to join)
 - private browsing
