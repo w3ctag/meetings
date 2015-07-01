@@ -24,9 +24,12 @@ Day 3 - 17 July
 
 - CSV on the Web (with Jeni joining)
 - Security-Related Documents (with Mike West joining)
-  - priveledged contexts
+  - privileged contexts
+  - privacy & sercuriy review
 - API Guidelines Document (with Domenic joining)
 - Spec reviews
 - IETF coorgination
 - incubation community group
 - NFC / Bluetooth
+- fingerprinting guidance
+- private browsing
