@@ -32,4 +32,5 @@ Day 3 - 17 July
 - incubation community group
 - NFC / Bluetooth
 - fingerprinting guidance (DKA will ask Nick to join)
-- private browsing
+- Private browsing
+- Houdini
