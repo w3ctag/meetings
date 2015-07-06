@@ -15,6 +15,7 @@ where Yandex has a corporate rate of €142”
 Day 1 - 15 July
 
 - evening developer meet-up most likely on this day
+- Brad Hill will come in to summarize the WebAppSec F2F
 
 Day 2 - 16 July
 
