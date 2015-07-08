@@ -41,11 +41,12 @@ Day 3 - 17 July
   - privacy & sercuriy review
 - API Guidelines Document (with Domenic joining)
 - Spec reviews
-- IETF coorgination
+- IETF coordination
 - incubation community group
 - NFC / Bluetooth
 - fingerprinting guidance (DKA will ask Nick to join)
 - Private browsing
 - Houdini
 - Accessibility topics following on from last F2F (with special guest Chaals)
-- State of the extensible web - [comments from Mat Marquis](http://lanyrd.com/2015/meetthetag/) as one input.  
+- State of the extensible web - [comments from Mat Marquis](https://bocoup.com/weblog/extensible-web-manifesto/) as one input.
+- Request for review of persentation API: https://lists.w3.org/Archives/Public/www-tag/2015Jul/0001.html
