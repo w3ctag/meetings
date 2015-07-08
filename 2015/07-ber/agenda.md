@@ -36,7 +36,6 @@ Day 3 - 17 July
 
 ### Agenda topics
 
-- CSV on the Web (with Jeni joining)
 - Security-Related Documents (with Mike West joining)
   - privileged contexts
   - privacy & sercuriy review
