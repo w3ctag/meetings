@@ -16,6 +16,8 @@ Day 1 - 15 July
 
 9:00 - Agenda Settting
 
+11:00 - IETF Liaison Issues
+
 12:00 - Lunch (in)
 
 15:00 - Web security items with special guest Mike West (tbc)
