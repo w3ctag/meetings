@@ -12,30 +12,23 @@ where Yandex has a corporate rate of €142”
 
 ### Agenda
 
-Day 1 - 15 July
+#### Day 1 - Wednesday 15 July
 
-9:00 - Agenda Settting
-
-11:00 - IETF Liaison Issues
-
-12:00 - Lunch (in)
-
-15:00 - Web security items with special guest Mike West (tbc)
-
-17:30 - early dinner prior to meet-up
-
+9:00 - Agenda Settting  
+11:00 - IETF Liaison Issues  
+12:00 - Lunch (in)  
+15:00 - Web security items with special guest Mike West (tbc)  
+17:30 - early dinner prior to meet-up  
 18:30 - evening developer meet-up at wikimedia foundation: http://lanyrd.com/2015/meetthetag/
 
-Day 2 - 16 July
+#### Day 2 - Thursday 16 July
 
 12:00 - Lunch (out)
 
-Day 3 - 17 July
+#### Day 3 - Friday 17 July
 
-12:00 - Lunch
-
-Afternoon - Fingerprinting with Nick Doty
-
+12:00 - Lunch  
+Afternoon - Fingerprinting with Nick Doty  
 16:00 - Adjourn
 
 ### Agenda topics
