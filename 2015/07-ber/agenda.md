@@ -23,7 +23,8 @@ where Yandex has a corporate rate of €142”
 
 #### Day 2 - Thursday 16 July
 
-12:00 - Lunch (out)
+12:00 - Lunch (out)  
+Evening - TAG dinner - tbc
 
 #### Day 3 - Friday 17 July
 
