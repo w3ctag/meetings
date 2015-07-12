@@ -32,6 +32,8 @@ Day 3 - 17 July
 
 12:00 - Lunch
 
+Afternoon - Fingerprinting with Nick Doty
+
 16:00 - Adjourn
 
 ### Agenda topics
