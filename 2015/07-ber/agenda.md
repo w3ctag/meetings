@@ -12,7 +12,7 @@ where Yandex has a corporate rate of €142”
 
 ### Agenda
 
-#### Day 1 - Wednesday 15 July
+#### Day 1 - Wednesday 15 July ([Etherpad for minutes](https://etherpad.w3ctag.org/p/berlin-2015-day1))
 
 9:00 - Agenda Settting  
 11:00 - IETF Liaison Issues  
