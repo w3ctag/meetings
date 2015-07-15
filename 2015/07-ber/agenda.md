@@ -23,14 +23,27 @@ where Yandex has a corporate rate of €142”
 
 #### Day 2 - Thursday 16 July
 
-12:00 - Lunch (out)  
+9:00 - Spec Reviews
+12:00 - Lunch (out)
+13:00
+14:00
+15:00
+16:00
+17:00
+18:00
 Evening - TAG dinner - tbc
 
 #### Day 3 - Friday 17 July
 
+9:00
+10:00
+11:00
 12:00 - Lunch  
-Afternoon - Fingerprinting with Nick Doty  
-16:00 - Adjourn
+13:00
+14:00
+15:00 - API design guidelines (w/Dominic)
+16:00 - Fingerprinting with Nick Doty
+Adjourn
 
 ### Agenda topics
 
