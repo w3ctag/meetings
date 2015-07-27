@@ -3,9 +3,19 @@
 
 ### Contents
 
+* Agenda Setting
+* IETF Update / Liaison Issues
+* End-to-End Encryption
+* Security / Joint Work with WebAppSec
+*
+
 *Present:* Daniel Appelquist, Hadley Beeman, Tim Berners-Lee, Yves Lafon, Travis Leithead,  Peter Linss, Mark Nottingham, Alex Russell, Yan Zhu, David Baron
 
 *Special Guests*: Brad Hill, Wendy Seltzer, Charles McCathieNevile, Mike West
+
+*Scribes*: Mike West, Travis
+
+*Chairs:* Dan Appelquist, Peter Linss
 
 [Scribe setup]  
     Wed AM - Mike West  
@@ -17,7 +27,7 @@
 
 [Agenda](https://github.com/w3ctag/meetings/blob/gh-pages/2015/07-ber/agenda.md)
 
-*Topic*: IETF stuff.
+*Topic*: IETF updates
 
 mnot: IETF is meeting in Prague next week.  
 ... Haven't had a liason call in a little while.  
@@ -64,7 +74,7 @@ mnot: Not clear whether we just need to leave the door open for that in the OE s
 
 tbl: Current OE draft hasn't moved much?
 
-mnot: \url{https://httpwg.github.io/http-extensions/encryption.html}  
+mnot: https://httpwg.github.io/http-extensions/encryption.html
 ... Implemented by Mozilla (Fx39).  
 ... Only thing it helps with is passive attackers.  
 ... Downgrade, MITM can easily subvert.  
@@ -140,7 +150,7 @@ mnot: Sure, as an extension, or by using the existing scheme in a constrained wa
 ... Might want to do the same thing at TPAC.
 
 wendy: Few other bits and pieces that I'm watching.  
-... dbound (\url{http://datatracker.ietf.org/wg/dbound/charter/)}
+... dbound http://datatracker.ietf.org/wg/dbound/charter/
 
 dan: What is that?
 
@@ -153,7 +163,7 @@ brad: Ambitions to make it bidirectional as well.
 
 mnot: Better than PSL, but feels very hope-based.
 
-wendy: ICANN SSAC report was even more hope-based. \url{https://www.icann.org/en/system/files/files/sac-070-en.pdf}
+wendy: ICANN SSAC report was even more hope-based. https://www.icann.org/en/system/files/files/sac-070-en.pdf
 
 [Dan realized that we didn't actually do introductions; we're doing them now]
 
@@ -323,7 +333,7 @@ mnot: Right now, "root status code", details in extensions.
 
 [And we're back!]
 
-mnot: HTTP Workshop: \url{https://httpworkshop.github.io/}
+mnot: HTTP Workshop: https://httpworkshop.github.io/
 
 dan: Will there be a dial-in?
 
@@ -362,7 +372,7 @@ What's the TAG's role in this? The TAG might draw a few conclusions:
 
 alex: To what extent does encrypted communication actually hinder the ability of intelligence services?
 
-mnot/wseltzer: We could throw our weight behind particular documents, e.g. \url{http://www.cl.cam.ac.uk/~rja14/Papers/doormats.pdf}
+mnot/wseltzer: We could throw our weight behind particular documents, e.g. http://www.cl.cam.ac.uk/~rja14/Papers/doormats.pdf
 
 tbl: From reading reviews of it, it makes a statement that keys under doormats are a bad idea.
 
@@ -574,7 +584,7 @@ david: in some ways, browsers wanted to make the lock icon mean something. In mi
 brad: if we imagine a world where...  
 ... https and http are equivalently secure...  
 ... on server side we don't discriminate based on schemes, we expect a policy to be applied. This would be a necesary thing to add to get to this new world (no write down).
-We are exploring this in our Upgrade and Secure spec: \url{http://w3c.github.io/webappsec/specs/upgrade/}
+We are exploring this in our Upgrade and Secure spec: http://w3c.github.io/webappsec/specs/upgrade/
 
 [Tranquility]
 brad: means: an application does not change between secure/insecure while it is being accessed.
@@ -588,7 +598,7 @@ brad: webappsec is working on building strong containment models. Once you have 
 
 dan: What do you mean by how do we handle tranquility in an upgrade model.
 
-brad: Start with \url{http://example}  
+brad: Start with `http://example`
 ... later through magic, it is upgraded via TLS  
 ... it's tranquil  
 ... we then load a sub-resource over http, but something causes the resource to not be upgraded, what is done?  
@@ -624,22 +634,22 @@ tim: reporting will be important
 
 brad: yes, these could be fairly easily instrumented.
 
-mike: Mike's Documents:
-...Content Security Policy 2 \url{http://www.w3.org/TR/CSP2/}
-...Mixed Content \url{http://www.w3.org/TR/mixed-content/}
-...Definition of Secure Context \url{http://www.w3.org/TR/powerful-features/}
-...Credential Management API \url{http://www.w3.org/TR/credential-management/}
-...Clear Site Data API \url{https://w3c.github.io/webappsec/specs/clear-site-data/}  
-... CSP Pinning \url{http://www.w3.org/TR/csp-pinning/}
-...Upgrade Inecure Requests \url{http://www.w3.org/TR/upgrade-insecure-requests/}
-...Sub-resource Integrity \url{http://www.w3.org/TR/SRI/}
-...Referrer Policy \url{http://www.w3.org/TR/referrer-policy/}
-...Entry-point Regulation \url{http://www.w3.org/TR/epr/}           
-... Specs moving at a good clip: CSP2 (->CR), Mixed Content (->PR, level 2 including more feature creeps), Upgrade Sec. Request (in FF/Ch already, expecting CR soon - after adding a feature requested by TAG).  
+mike: Mike's Documents:  
+...Content Security Policy 2 http://www.w3.org/TR/CSP2/  
+...Mixed Content http://www.w3.org/TR/mixed-content/  
+...Definition of Secure Context http://www.w3.org/TR/powerful-features/  
+...Credential Management API http://www.w3.org/TR/credential-management/  
+...Clear Site Data API https://w3c.github.io/webappsec/specs/clear-site-data/  
+...CSP Pinning http://www.w3.org/TR/csp-pinning/  
+...Upgrade Inecure Requests http://www.w3.org/TR/upgrade-insecure-requests/  
+...Sub-resource Integrity http://www.w3.org/TR/SRI/  
+...Referrer Policy http://www.w3.org/TR/referrer-policy/  
+...Entry-point Regulation http://www.w3.org/TR/epr/  
+...Specs moving at a good clip: CSP2 (->CR), Mixed Content (->PR, level 2 including more feature creeps), Upgrade Sec. Request (in FF/Ch already, expecting CR soon - after adding a feature requested by TAG).  
 ... Not going anywhere: CSP Pinning, EPR is theoretical at the moment  
-... Referrer Policy is being specced (has shipped for a while)
-Sub-resource integrity (shipping or will-ship soon)
-...Secure Context (working with Yan)  
+... Referrer Policy is being specced (has shipped for a while)  
+... Sub-resource integrity (shipping or will-ship soon)  
+... Secure Context (working with Yan)  
 ... Firefox/Chrome have implemented CSP2, IE has implemented CSP1.
 
 mark: concerns about site-wide CSP. Looking for a well-known location.
