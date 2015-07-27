@@ -9,7 +9,7 @@ Corresponding UTC (GMT)	Wednesday, July 29, 2015 at 20:00:00
 
 ### Call Agenda  
 
-* Agree to publish F2F Minutes 
+* Agree to publish [F2F Minutes](https://github.com/w3ctag/meetings/blob/gh-pages/2015/07-ber/agenda.md)
 * [Presentation API Feedbac](https://github.com/w3ctag/spec-reviews/issues/61)
 * [File URI Scheme](https://github.com/w3ctag/spec-reviews/issues/59)
 
