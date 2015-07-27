@@ -1,13 +1,14 @@
 ## TAG F2F - Berlin (Day 1)
 ### July 15 2015
 
+[Main Agenda](https://github.com/w3ctag/meetings/blob/gh-pages/2015/07-ber/agenda.md)
+
 ### Contents
 
 * Agenda Setting
 * IETF Update / Liaison Issues
 * End-to-End Encryption
 * Security / Joint Work with WebAppSec
-*
 
 *Present:* Daniel Appelquist, Hadley Beeman, Tim Berners-Lee, Yves Lafon, Travis Leithead,  Peter Linss, Mark Nottingham, Alex Russell, Yan Zhu, David Baron
 
@@ -24,8 +25,6 @@
     Thu PM - David  
     Fri AM - Yves  
     Fri PM - Wendy  
-
-[Agenda](https://github.com/w3ctag/meetings/blob/gh-pages/2015/07-ber/agenda.md)
 
 *Topic*: IETF updates
 

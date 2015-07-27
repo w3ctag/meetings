@@ -1,6 +1,8 @@
 ## TAG F2F - Berlin (Day 2)
 ### July 16 2015
 
+[Main Agenda](https://github.com/w3ctag/meetings/blob/gh-pages/2015/07-ber/agenda.md)
+
 ### Contents
 
 * Dev meetup roundup
