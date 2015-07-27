@@ -1,4 +1,4 @@
-## TAG F2F - Berlin (Day 1)
+## TAG F2F - Berlin (Day 2)
 ### July 16 2015
 
 ### Contents
