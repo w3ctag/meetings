@@ -5,7 +5,7 @@
 
 ### Agenda
 
-#### Day 1 - Wednesday 15 July ([Minutes](https://github.com/w3ctag/meetings/blob/gh-pages/2015/07-ber/07-15.minutes.md))
+#### Day 1 - Wednesday 15 July ([Minutes](https://github.com/w3ctag/meetings/blob/gh-pages/2015/07-ber/07-15-minutes.md))
 
 9:00 - Agenda Settting  
 11:00 - IETF Liaison Issues  
@@ -17,7 +17,7 @@
 17:30 - early dinner prior to meet-up  
 18:30 - evening developer meet-up at wikimedia foundation: http://lanyrd.com/2015/meetthetag/
 
-#### Day 2 - Thursday 16 July ([Minutes](https://github.com/w3ctag/meetings/blob/gh-pages/2015/07-ber/07-16.minutes.md))
+#### Day 2 - Thursday 16 July ([Minutes](https://github.com/w3ctag/meetings/blob/gh-pages/2015/07-ber/07-16-minutes.md))
 
 9:00 - Spec Reviews  
 12:00 - Lunch (out)  
@@ -29,7 +29,7 @@
 18:00 -   
 Evening - TAG dinner - tbc
 
-#### Day 3 - Friday 17 July ([Minutes](https://github.com/w3ctag/meetings/blob/gh-pages/2015/07-ber/07-17.minutes.md))
+#### Day 3 - Friday 17 July ([Minutes](https://github.com/w3ctag/meetings/blob/gh-pages/2015/07-ber/07-17-minutes.md))
 
 9:00 - Incubation Group and TAG involvement   
 10:00 -   
