@@ -1,5 +1,4 @@
 ## W3C Technical Architecture Group face-to-face
-### - DRAFT -
 ### April 23 2015
 
 ### Contents
