@@ -1,14 +1,7 @@
 ##TAG F2F Meeting
 ### Dates: 15-17 July 2015
 ### Location: Berlin, Germany
-### Host: Yandex
-
-## Logistics
-### Venue: Yandex's Offices at 1 Karl Liebknecht Straße
-
-“It's on the river, across the river from the Dom, across the park from AlexanderPlatz 
-and in the same building as that [SAS Radisson hotel](http://www.radissonblu.com/hotel-berlin) -
-where Yandex has a corporate rate of €142”
+### Host: Yandex's offices in Berlin
 
 ### Agenda
 
@@ -19,7 +12,8 @@ where Yandex has a corporate rate of €142”
 11:30 - End-2-end encryption  
 11:45 - HTTP IETF topics  
 12:00 - Lunch (in)  
-15:00 - Web security items with special guest Mike West (tbc)  
+15:00 - Web security items with special guest Mike West
+
 17:30 - early dinner prior to meet-up  
 18:30 - evening developer meet-up at wikimedia foundation: http://lanyrd.com/2015/meetthetag/
 
@@ -30,7 +24,7 @@ where Yandex has a corporate rate of €142”
 13:00 - Accessibility topics  
 14:00 - Extensible Web (are we extensible yet?)  
 15:00 - Houdini  
-16:00 -   
+16:00 - 
 17:00 -   
 18:00 -   
 Evening - TAG dinner - tbc
@@ -50,9 +44,7 @@ Adjourn
 
 ### Agenda topics
 
-- Security-Related Documents (with Mike West joining)
-  - privileged contexts
-  - privacy & sercuriy review
+
 - API Guidelines Document (with Domenic joining)
 - Spec reviews
 - IETF coordination
