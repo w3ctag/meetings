@@ -23,3 +23,5 @@ IRC : irc.w3.org / #tagmem
 We will be using Webex. Details to be shared in the IRC.
 
 *Please note*: this meeting is open to TAG memebrs and invited guests. If you would like to participate, please email the chairs.
+
+Raw minutes: https://etherpad.w3ctag.org/p/29-07-2015-minutes.md
