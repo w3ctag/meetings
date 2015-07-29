@@ -135,9 +135,9 @@ chaals: it happens in establishing the channel to make the request.
 
 dka: Permission there then?
 
-yan: Peope use it for things that don't require camera/microphone; just to chat.
+yan: People use it for things that don't require camera/microphone; just to chat.
 
-David: Someone on the WebRTC team was quite opposed to having a permissions dialoge aorund that, but I forgot why.
+David: Someone on the WebRTC team was quite opposed to having a permissions dialog around that, but I forgot why.
 
 mnot: p2p caching on the data channel... makes a privacy tradeoff that the user many not understand.
 

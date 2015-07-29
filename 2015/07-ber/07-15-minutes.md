@@ -578,7 +578,7 @@ tim: well, there's no attack there (https: to http: ).
 brad: the browser's related dialog has been removed
 
 david: in some ways, browsers wanted to make the lock icon mean something. In mixed content, you may not want to show the lock icon.  
-... the dialog was meant to cause the common mistake of https -> http -> https through XHR.  
+... the dialog was meant to catch the common mistake of https -> http -> https.  
 
 brad: if we imagine a world where...  
 ... https and http are equivalently secure...  
@@ -687,7 +687,7 @@ mike: our group is trying to tackle a few things:
 ... Thinking of publishing as REC.  
 ... Or perhaps use a review procss to decide what to do.
 
-david: during recharting, had some conversations with EKR.  
+david: during rechartering, had some conversations with EKR.  
 ... one of EKR's objections was the correlation between the feature's actions and data isn't so strong.
 
 mike: I don't want to talk about the recharter, btw.
@@ -710,7 +710,7 @@ mike: powerful things are a great way to prioritize.
 
 alex: it's an incentive mechanism
 
-david: one other point: things that requrire permission grants shouldn't be permanent.
+david: one other point: things that require permission grants shouldn't be permanent.
 
 mike: http shouldn't be more persistent. Follks proposed that cookies should expire sooner over http. (I think the cookie claim may be more about privacy than security.)  
 ... generally we haven't had a lot of success in talking with various WGs. Geoloc WG hasn't been able to give an answer.  

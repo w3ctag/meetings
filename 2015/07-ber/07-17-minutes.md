@@ -754,7 +754,7 @@ dbaron: there's been a lot of back/forth recently...the feedback from browser im
 
 dka: I chaired an early workshop around this and co-presented with Mozilla on payment API issues and the feeling I had was "what are we asking implementers to do?" What is actually being asked? What requires standardization here? Do vendors now thing there are things to standardize?
 
-dbaron: yes; I can say what the advantages are from a user perspective. Not having to type your credit card details into a page you dont' fully trust via tokenization is valuable. Security advantage there, particularly for small sites you might not fully trust. Another advantage is that payments that can be initiated without long-winded form input can be better for both users and merchants who want to complete a transaction.
+dbaron: yes; I can say what the advantages are from a user perspective. Not having to type your credit card details into a page you don't fully trust via tokenization is valuable. Security advantage there, particularly for small sites you might not fully trust. Another advantage is that payments that can be initiated without long-winded form input can be better for both users and merchants who want to complete a transaction.
 
 dbaron: other browser vendors want that too
 
