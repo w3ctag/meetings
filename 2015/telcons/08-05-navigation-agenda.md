@@ -16,7 +16,7 @@ Corresponding UTC (GMT)	Wednesday, August 05, 2015 at 20:00:00
 
 ### Logistics
 
-Chair: Peter
+Chair: Dan
 
 Scribe: ?
 
