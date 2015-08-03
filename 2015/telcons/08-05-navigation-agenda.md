@@ -12,7 +12,7 @@ Corresponding UTC (GMT)	Wednesday, August 05, 2015 at 20:00:00
 * [Navigation Error Logging](https://github.com/w3ctag/spec-reviews/issues/24)
 * [Navigation Timing 2](https://github.com/w3ctag/spec-reviews/issues/18)
 * [Frame Timing API](https://github.com/w3ctag/spec-reviews/issues/56)
-* [Web NFC API](https://github.com/w3ctag/spec-reviews/issues/22)
+* [Web NFC API](https://github.com/w3ctag/spec-reviews/issues/22) - if time permits
 
 ### Logistics
 
