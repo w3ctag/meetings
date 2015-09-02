@@ -17,3 +17,5 @@
 #### Day 3 - Wednesday 16 September 
 
 #### Topics List
+
+* Discussion with Jeff and/or other W3C team members at MIT
