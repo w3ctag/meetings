@@ -26,4 +26,4 @@
 * Keygen
 * Revisiting the same-origin policy
 * spec reviews (at least one day)
-* 
+* Discussion on EME secure release
