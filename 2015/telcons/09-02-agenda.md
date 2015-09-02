@@ -27,4 +27,4 @@ We will be using Webex. Details to be shared in the IRC.
 
 *Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
-Raw minutes: https://pad.w3ctag.org/p/19-08-2015-minutes.md
+Raw minutes: https://pad.w3ctag.org/p/09-02-2015-minutes.md
