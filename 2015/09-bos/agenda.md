@@ -5,15 +5,15 @@
 
 ### Agenda
 
-#### Day 1 - Wednesday 14 September 
+#### Day 1 - Monday 14 September 
 
 * Agenda Setting
 * IETF Update / Liaison Issues
 * Lunch
 * [Special Guest]
 
-#### Day 2 - Thursday 15 September 
+#### Day 2 - Tuesday 15 September 
 
-#### Day 3 - Friday 16 September 
+#### Day 3 - Wednesday 16 September 
 
 #### Topics List
