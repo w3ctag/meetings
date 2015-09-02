@@ -22,4 +22,4 @@
 
 * Discussion with Jeff and/or other W3C team members at MIT
 * Keygen
-* 
+* Revisiting the same-origin policy
