@@ -27,3 +27,4 @@
 * Revisiting the same-origin policy
 * spec reviews (at least one day)
 * Discussion on EME secure release
+* [AvK's inquiry about CORS + font foundry licensing restrictions](https://lists.w3.org/Archives/Public/www-tag/2015Aug/0002.html)
