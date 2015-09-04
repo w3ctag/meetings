@@ -28,3 +28,4 @@
 * spec reviews (at least one day)
 * Discussion on EME secure release
 * [AvK's inquiry about CORS + font foundry licensing restrictions](https://lists.w3.org/Archives/Public/www-tag/2015Aug/0002.html)
+* [HbbTV](https://github.com/w3ctag/wiki/wiki/HbbTV)
