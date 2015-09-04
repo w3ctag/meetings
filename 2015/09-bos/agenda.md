@@ -1,4 +1,4 @@
-##TAG F2F Meeting
+## TAG F2F Meeting
 ### Dates: 14-16 September 2015
 ### Location: Boston, Massachusetts, USA
 ### Host: MIT
