@@ -12,7 +12,7 @@
 * Lunch
 * [Special Guest]
 
-* Casual Developer Meetup at MIT details tbc
+* 18:30 [Developer Meetup at MIT](http://lanyrd.com/2015/w3ctag/)
 
 #### Day 2 - Tuesday 15 September 
 
