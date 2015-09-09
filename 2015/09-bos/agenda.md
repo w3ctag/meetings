@@ -9,7 +9,7 @@
 
 * Agenda Setting
 * IETF Update / Liaison Issues
-* 12:30 - 13:30 Lunch - maybe 
+* 12:30 - 13:30 Lunch  
 * [Special Guest]
 
 * 18:30 [Developer Meetup at MIT](http://lanyrd.com/2015/w3ctag/)
