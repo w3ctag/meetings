@@ -33,3 +33,4 @@
 * [HbbTV](https://github.com/w3ctag/wiki/wiki/HbbTV)
 * [Ad Blocking](https://github.com/w3ctag/wiki/wiki/AdBlocking)
 * Distributed Web
+* TAG role in group chartering
