@@ -9,7 +9,7 @@
 
 * Agenda Setting
 * IETF Update / Liaison Issues
-* Lunch
+* 12:00 - 13:00 [Berkman Center Lunceon Talk on Hyperlocal Webservers](https://cyber.law.harvard.edu/events/luncheon/2015/09/Griffey) [registration required]
 * [Special Guest]
 
 * 18:30 [Developer Meetup at MIT](http://lanyrd.com/2015/w3ctag/)
@@ -18,9 +18,13 @@
 
 * 09:00 - Mike West Joins via Teleconf - [Credentials Management](https://github.com/w3ctag/spec-reviews/issues/49#issuecomment-137444228)
 * … [more security & privacy related stuff]
+* 12:30 - 13:30 Lunch - maybe 
 * Spec Review Fun Time
 
 #### Day 3 - Wednesday 16 September 
+
+* 12:30 - 13:30 Lunch
+* 13:30 - 14:30 W3C Management Key Issues & Technical Stewardship discussion with Jeff Jaffe
 
 #### Topics List
 
