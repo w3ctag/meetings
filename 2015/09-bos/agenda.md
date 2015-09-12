@@ -18,7 +18,7 @@
 
 * 09:00 - Mike West Joins via Teleconf - [Credentials Management](https://github.com/w3ctag/spec-reviews/issues/49#issuecomment-137444228)
 * … [more security & privacy related stuff]
-* 12:00 - 13:00 [Berkman Center Lunceon Talk on Hyperlocal Webservers](https://cyber.law.harvard.edu/events/luncheon/2015/09/Griffey) [registration required]
+* 12:00 - 13:00 [Berkman Center Luncheon Talk on Hyperlocal Webservers](https://cyber.law.harvard.edu/events/luncheon/2015/09/Griffey) [registration required]
 * Spec Review Fun Time
 
 #### Day 3 - Wednesday 16 September 
