@@ -38,4 +38,5 @@
 * [Ad Blocking](https://github.com/w3ctag/wiki/wiki/AdBlocking)
 * Distributed Web
 * TAG role in group chartering
+* WebPlatform.org
 * Short discussion of role of TAG in guiding implementations re: experimental features in browsers (see [Issue 21 of design-principles](https://github.com/w3ctag/design-principles/issues/21)).
