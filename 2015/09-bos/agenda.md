@@ -1,6 +1,7 @@
 ## TAG F2F Meeting
 ### Dates: 14-16 September 2015
-### Location: Boston, Massachusetts, USA
+### Location: Cambridge, Massachusetts, USA
+### Stata Center Building (32 Vasser Street) / G882 (reading room) 
 ### Host: MIT
 
 ### Agenda
