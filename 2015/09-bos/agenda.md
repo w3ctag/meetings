@@ -7,6 +7,7 @@
 
 #### Day 1 - Monday 14 September 
 
+* 08:30 - arrive / breakfast / setup
 * Agenda Setting
 * IETF Update / Liaison Issues
 * 12:30 - 13:30 Lunch 
@@ -16,6 +17,7 @@
 
 #### Day 2 - Tuesday 15 September 
 
+* 08:30 - arrive / breakfast / setup
 * 09:00 - Mike West Joins via Teleconf - [Credentials Management](https://github.com/w3ctag/spec-reviews/issues/49#issuecomment-137444228)
 * … [more security & privacy related stuff]
 * 12:00 - 13:00 [Berkman Center Luncheon Talk on Hyperlocal Webservers](https://cyber.law.harvard.edu/events/luncheon/2015/09/Griffey) [registration required]
@@ -23,6 +25,7 @@
 
 #### Day 3 - Wednesday 16 September 
 
+* 08:30 - arrive / breakfast / setup
 * 12:30 - 13:30 Lunch
 * 13:30 - 14:30 W3C Management Key Issues & Technical Stewardship discussion with Jeff Jaffe
 
