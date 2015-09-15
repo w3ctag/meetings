@@ -4,6 +4,11 @@
 ### [Stata Center](http://whereis.mit.edu/?go=32) Building (32 Vassar Street) / G882 (reading room)
 ### Host: MIT
 
+### Minutes
+
+Day 1: https://pad.w3ctag.org/p/09-19-2015-minutes
+Day 2: https://pad.w3ctag.org/p/09-15-2015-minutes
+
 ### Agenda
 
 #### Day 1 - Monday 14 September 
