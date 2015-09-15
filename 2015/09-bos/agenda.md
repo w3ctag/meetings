@@ -6,7 +6,7 @@
 
 ### Minutes
 
-Day 1: https://pad.w3ctag.org/p/09-19-2015-minutes
+Day 1: https://pad.w3ctag.org/p/09-14-2015-minutes
 Day 2: https://pad.w3ctag.org/p/09-15-2015-minutes
 
 ### Agenda
