@@ -12,12 +12,9 @@ Corresponding UTC (GMT)	Wednesday, September 30, 2015 at 20:00:00
 * [Performance API](https://github.com/w3ctag/spec-reviews/issues/83)
 * [Keygen Feedback](https://github.com/w3ctag/spec-reviews/issues/82)
 * [Security Questionnaire](https://github.com/w3ctag/spec-reviews/issues/77) @diracdeltas
-* [requestIdleCallback](https://github.com/w3ctag/spec-reviews/issues/70) @dbaron
 * [Cross-spec device identification & association](https://github.com/w3ctag/spec-reviews/issues/64) @slightlylate
 * [CSSOM View document.scrollingElement](https://github.com/w3ctag/spec-reviews/issues/51) @slightlylate
-* [Credential Management API](https://github.com/w3ctag/spec-reviews/issues/49) @travisleithead
 * [Navigation Timing 2](https://github.com/w3ctag/spec-reviews/issues/18) @slightlilate
-
 
 ### Logistics
 
