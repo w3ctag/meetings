@@ -15,6 +15,7 @@ Corresponding UTC (GMT)	Wednesday, October 7, 2015 at 20:00:00
 * [CSSOM View document.scrollingElement](https://github.com/w3ctag/spec-reviews/issues/51) @slightlylate
 * [Cross-spec device identification & association](https://github.com/w3ctag/spec-reviews/issues/64) @slightlylate
 * [Navigation Timing 2](https://github.com/w3ctag/spec-reviews/issues/18) @slightlylate
+* Safe Harbour @hadleybeeman
 
 ### Logistics
 
