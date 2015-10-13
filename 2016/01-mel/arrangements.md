@@ -6,6 +6,7 @@
 
 ## Guides
 
+* [An Opinionated Guide to Melbourne](https://www.mnot.net/guides/melbourne/)
 
 
 ## Local Events of Interest
