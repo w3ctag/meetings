@@ -18,13 +18,13 @@ Corresponding UTC (GMT)	Wednesday, October 14, 2015 at 20:00:00
 
 ### Logistics
 
-Chair: Dan
+Chair: Peter
 
 Scribe: ?
 
 IRC : irc.w3.org / #tagmem
 
-We will be using Webex. Details to be shared in the IRC.
+We will be using Webex. Call in details: https://lists.w3.org/Archives/Member/tag/2015Jun/0017.html
 
 *Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
