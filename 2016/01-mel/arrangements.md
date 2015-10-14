@@ -1,8 +1,10 @@
 # TAG F2F Meeting Arrangements
 
+Location: TBD (should be finalised by 30-10-15).
 
-## Hotels
+## Recommended Hotels
 
+TBD, depending on venue selection
 
 ## Guides
 
