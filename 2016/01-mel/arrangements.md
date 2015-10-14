@@ -11,9 +11,9 @@ TBD, depending on venue selection
 
 Getting to/from the airport: [Uber](https://www.uber.com) is about AU$100 to the city; a taxi is about AU$70. [Skybus](https://www.skybus.com.au) is considerably cheaper, but slower.
 
-Renting a car is not recommended, unless you're comfortable with driving on the left, paying tolls and high parking fees, and [hook turns](https://en.wikipedia.org/wiki/Hook_turn).
-
 Get a [Myki](http://ptv.vic.gov.au/tickets/myki) when you arrive; they're available at the airport, major train stations and 7-11 stores.
+
+Renting a car is not recommended, unless you're comfortable with driving on the left, paying tolls and high parking fees, and [hook turns](https://en.wikipedia.org/wiki/Hook_turn).
 
 ## Guides
 
