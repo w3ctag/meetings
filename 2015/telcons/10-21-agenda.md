@@ -14,6 +14,7 @@ Corresponding UTC (GMT)	Wednesday, October 21, 2015 at 20:00:00
 * [Performance API review](https://github.com/w3ctag/spec-reviews/issues/83) @slightlylate
 * [General review of Shadow DOM 2015 updates](https://github.com/w3ctag/spec-reviews/issues/79) @travisleithhead
 * [Cross-spec device identification & association](https://github.com/w3ctag/spec-reviews/issues/64) @slightlylate
+* [W3C JSON](https://w3c.github.io/w3c.json.html)
 
 ### Logistics
 
