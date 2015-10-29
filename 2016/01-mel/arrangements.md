@@ -12,8 +12,8 @@ Location: [depo8](http://depo8.com) Boardroom.
 
 You can also stay in the **C**entral **B**usiness **D**istrict; the venue is closest to:
 
-* [Prahran](http://www.metrotrains.com.au/stations/prahran/) train station on the Sandringham line (~20 minutes from Flinders Street to the venue) 
-* [Number 6](http://www.yarratrams.com.au/using-trams/route-guides/route-6/) tram, stop 32 (~30 minutes from Flinders Street to the venue)
+* [Prahran train station](http://www.metrotrains.com.au/stations/prahran/) on the Sandringham line (~20 minutes from Flinders Street to the venue) 
+* [Number 6 tram](http://www.yarratrams.com.au/using-trams/route-guides/route-6/), stop 32 (~30 minutes from Flinders Street to the venue)
 
 ## Transport
 
