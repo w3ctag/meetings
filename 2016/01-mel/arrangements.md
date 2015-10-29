@@ -2,7 +2,7 @@
 
 Location: [depo8](http://depo8.com) Boardroom.
 
-39 – 41 Mount Street, Prahran, VIC, 3181 ([map](https://goo.gl/maps/fau26mMi3cA2))
+39 – 41 Mount Street, Prahran, VIC, 3181 AU ([map](https://goo.gl/maps/fau26mMi3cA2))
 
 ## Recommended Hotels
 
@@ -10,7 +10,7 @@ Location: [depo8](http://depo8.com) Boardroom.
 * [The Olsen](http://www.artserieshotels.com.au/olsen/) - ~15 minutes on a tram / 20 minute walk
 * [Pullman Albert Park](http://www.pullmanhotels.com/gb/hotel-8788-pullman-melbourne-albert-park/index.shtml) - ~15 minutes walking + tram
 
-You can also stay in the **C**entral **B**usiness **D**district; the venue is closest to:
+You can also stay in the **C**entral **B**usiness **D**istrict; the venue is closest to:
 
 * [Prahran](http://www.metrotrains.com.au/stations/prahran/) train station on the Sandringham line (~20 minutes from Flinders Street to the venue) 
 * [Number 6](http://www.yarratrams.com.au/using-trams/route-guides/route-6/) tram, stop 32 (~30 minutes from Flinders Street to the venue)
