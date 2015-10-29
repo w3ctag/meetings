@@ -1,17 +1,25 @@
 # TAG F2F Meeting Arrangements
 
-Location: TBD (should be finalised by 30-10-15).
+Location: [depo8](http://depo8.com) Boardroom.
+
+39 – 41 Mount Street, Prahran, VIC, 3181 ([map](https://goo.gl/maps/fau26mMi3cA2))
 
 ## Recommended Hotels
 
-TBD, depending on venue selection
+* **[The Cullen](http://www.artserieshotels.com.au/cullen/)** - ~10 minute walk
+* [The Olsen](http://www.artserieshotels.com.au/olsen/) - ~15 minutes on a tram / 20 minute walk
+* [Pullman Albert Park](http://www.pullmanhotels.com/gb/hotel-8788-pullman-melbourne-albert-park/index.shtml) - ~15 minutes walking + tram
 
+You can also stay in the **C**entral **B**business **D**district; the venue is closest to:
+
+* [Prahran](http://www.metrotrains.com.au/stations/prahran/) train station on the Sandringham line (~20 minutes from Flinders Street to the venue) 
+* [Number 6](http://www.yarratrams.com.au/using-trams/route-guides/route-6/) tram, stop 32 (~30 minutes from Flinders Street to the venue)
 
 ## Transport
 
 Getting to/from the airport: [Uber](https://www.uber.com) is about AU$100 to the city; a taxi is about AU$70. [Skybus](https://www.skybus.com.au) is considerably cheaper, but slower.
 
-Get a [Myki](http://ptv.vic.gov.au/tickets/myki) when you arrive; they're available at the airport, major train stations and 7-11 stores.
+For public transport, get a [Myki](http://ptv.vic.gov.au/tickets/myki) when you arrive; they're available at the airport, major train stations and 7-11 stores. See also the [journey planner](https://ptv.vic.gov.au/journey).
 
 Renting a car is not recommended, unless you're comfortable with driving on the left, paying tolls and high parking fees, and [hook turns](https://en.wikipedia.org/wiki/Hook_turn).
 
