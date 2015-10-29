@@ -43,3 +43,10 @@ _If you're interested in giving a talk / attending a meetup, take a look at:_
 * [MelbJS](http://melbjs.com) - no meetings planned in Jan yet, contact if you want to speak
 * [MelbCSS](http://www.meetup.com/MelbCSS/) - no meetings planned in Jan yet, contact if you want to speak
 * [linux.conf.au](https://linux.conf.au) - 1-5 Febrary, Geelong
+
+
+## General Notes
+
+January in Melbourne can be very hot, but it usually doesn't stay hot for long. Keep in mind that
+the sun is **very** strong here, and you can get sunburn in as little as 15 minutes. Wear sunscreen
+when you go outside!
