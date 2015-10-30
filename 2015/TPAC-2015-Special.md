@@ -4,7 +4,8 @@ TPAC TAG afternoon wrap-up
 
 Agenda:  
 rigo's issue;  
-security & privacy questionnaire; Melbourne planning;  
+security & privacy questionnaire;  
+Melbourne planning;  
 Spec review review;  
 general TPAC catch-up  
 AOB
