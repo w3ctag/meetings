@@ -6,6 +6,7 @@ Agenda:
 rigo's issue;  
 security & privacy questionnaire;  
 Melbourne planning;  
+Cory Doctorow proposal & follow-up;  
 Spec review review;  
 general TPAC catch-up  
 AOB
