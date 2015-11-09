@@ -1,10 +1,10 @@
 ### TAG Teleconference – 11 November 2015 ; 20:00 UTC
 
-San Francisco (U.S.A. - California)	Wednesday, 11 November 2015, 12:00:00	PST	UTC-8 hours
-Boston (U.S.A. - Massachusetts)	Wednesday, 11 November 2015, 15:00:00	EST	UTC-5 hours
-London (United Kingdom - England)	Wednesday, 11 November 2015, 20:00:00	GMT	UTC
-Paris (France)	Wednesday, 11 November 2015, 21:00:00	CET	UTC+1 hour
-Melbourne (Australia - Victoria)	Thursday, 12 November 2015, 07:00:00	AEDT	UTC+11 hours
+San Francisco (U.S.A. - California)	Wednesday, 11 November 2015, 12:00:00	PST	UTC-8 hours  
+Boston (U.S.A. - Massachusetts)	Wednesday, 11 November 2015, 15:00:00	EST	UTC-5 hours  
+London (United Kingdom - England)	Wednesday, 11 November 2015, 20:00:00	GMT	UTC  
+Paris (France)	Wednesday, 11 November 2015, 21:00:00	CET	UTC+1 hour  
+Melbourne (Australia - Victoria)	Thursday, 12 November 2015, 07:00:00	AEDT	UTC+11 hours  
 Corresponding UTC (GMT)	Wednesday, 11 November 2015, 20:00:00	 
 
 ### Call Agenda
