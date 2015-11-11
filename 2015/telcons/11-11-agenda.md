@@ -25,4 +25,4 @@ We will be using Webex. Call in details: https://lists.w3.org/Archives/Member/ta
 
 *Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
-Raw minutes: https://pad.w3ctag.org/p/21-10-2015-minutes.md
+Raw minutes: https://pad.w3ctag.org/p/11-11-2015-minutes.md
