@@ -9,6 +9,7 @@ Corresponding UTC (GMT)	Wednesday, 11 November 2015, 20:00:00
 
 ### Call Agenda
 * Reviewing and hopefully agreeing our TPAC resolution on security reviews
+* [Secuirty Questionnaire Status](https://github.com/w3ctag/security-questionnaire/issues)
 * [Geofencing](https://github.com/w3ctag/spec-reviews/issues/89) - needs assigned
 * [Bluetooth API](https://github.com/w3ctag/spec-reviews/issues/90) - needs assigned
 * General review of our [issues register](https://github.com/w3ctag/spec-reviews/issues)
