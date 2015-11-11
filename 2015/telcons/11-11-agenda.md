@@ -22,6 +22,8 @@ Scribe: ?
 
 IRC : irc.w3.org / #tagmem
 
+Trying out WebRTC : https://appear.in/w3ctag
+
 We will be using Webex. Call in details: https://lists.w3.org/Archives/Member/tag/2015Jun/0017.html
 
 *Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
