@@ -10,6 +10,9 @@ Corresponding UTC (GMT)	Wednesday, 18 November 2015, 20:00:00
 ### Call Agenda
 * [Audio Output Devices API](https://github.com/w3ctag/spec-reviews/issues/91) - Travis
 * [Secure Stop Issue](https://github.com/w3ctag/spec-reviews/issues/73) - Alex
+* EU Linking legislation
+* IETF special domains
+* Keygen
 
 
 ### Logistics
