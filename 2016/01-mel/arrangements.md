@@ -43,6 +43,7 @@ _If you're interested in giving a talk / attending a meetup, take a look at:_
 
 * [MelbJS](http://melbjs.com) - no meetings planned in Jan yet, contact if you want to speak
 * [MelbCSS](http://www.meetup.com/MelbCSS/) - no meetings planned in Jan yet, contact if you want to speak
+* [BeResponsive](http://www.beresponsive.io/) - no meetings planned in Jan yet, contat if you want to speak
 * [linux.conf.au](https://linux.conf.au) - 1-5 Febrary, Geelong
 
 
