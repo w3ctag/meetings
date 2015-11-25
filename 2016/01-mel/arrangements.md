@@ -14,7 +14,7 @@ You can also stay in the [**C**entral **B**usiness **D**istrict](https://www.goo
 have many many hotels); the venue is closest to:
 
 * [Prahran train station](http://www.metrotrains.com.au/stations/prahran/) on the Sandringham line (~20 minutes from Flinders Street to the venue) 
-* [Number 6 tram](http://www.yarratrams.com.au/using-trams/route-guides/route-6/), stop 32 (~30 minutes from Flinders Street to the venue). Ask the driver to tell you when you get to Banks Street (it's one stop after Chapel Street).
+* [Number 6 tram](http://www.yarratrams.com.au/using-trams/route-guides/route-6/), stop 32 (~30 minutes from Flinders Street to the venue). Ask the driver to tell you when you get to Bangs Street (it's one stop after Chapel Street).
 
 ## Transport
 
