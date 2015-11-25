@@ -10,7 +10,7 @@ Location: [depo8](http://depo8.com) Boardroom.
 * [The Olsen](http://www.artserieshotels.com.au/olsen/) - ~15 minutes on a tram / 20 minute walk
 * [Pullman Albert Park](http://www.pullmanhotels.com/gb/hotel-8788-pullman-melbourne-albert-park/index.shtml) - ~15 minutes walking + tram
 
-You can also stay in the **C**entral **B**usiness **D**istrict, or on St Kilda Road (both of which
+You can also stay in the [**C**entral **B**usiness **D**istrict](https://www.google.com.au/maps/place/Melbourne+VIC+3000/@-37.8147713,144.9527324,14z/data=!3m1!4b1!4m2!3m1!1s0x6ad642b8c21cb29b:0x1c045678462e3510?hl=en) or in [Southbank](https://www.google.com.au/maps/place/Southbank+VIC/@-37.8253684,144.9503953,15z/data=!3m1!4b1!4m2!3m1!1s0x6ad65d450a8be10f:0x5045675218cfec0?hl=en) (both of which
 have many many hotels); the venue is closest to:
 
 * [Prahran train station](http://www.metrotrains.com.au/stations/prahran/) on the Sandringham line (~20 minutes from Flinders Street to the venue) 
