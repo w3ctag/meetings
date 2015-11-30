@@ -8,10 +8,6 @@ Melbourne (Australia - Victoria)	Thursday, 3 December 2015, 07:00:00	AEDT	UTC+11
 Corresponding UTC (GMT)	Wednesday, 2 December 2015, 20:00:00	 
 
 ### Call Agenda
-* [Notifications API](https://github.com/w3ctag/spec-reviews/issues/94) (Travis)
-* [Web Annotations](https://github.com/w3ctag/spec-reviews/issues/93) (Mark)
-* [Keygen Update](https://github.com/w3ctag/spec-reviews/issues/82) (Travis)
-
 * [Bluetooth API Security Model](https://github.com/w3ctag/spec-reviews/issues/90) (Dan/Alex)
 * [Keygen Update](https://github.com/w3ctag/spec-reviews/issues/82) (Travis)
 * [Security Questionnaire](https://github.com/w3ctag/spec-reviews/issues/77) (Yves)
