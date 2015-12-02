@@ -12,7 +12,7 @@ Corresponding UTC (GMT)	Wednesday, 2 December 2015, 20:00:00
 * [Keygen Update](https://github.com/w3ctag/spec-reviews/issues/82) (Travis)
 * [Security Questionnaire](https://github.com/w3ctag/spec-reviews/issues/77) (Yves)
 * [Secure Stop](https://github.com/w3ctag/spec-reviews/issues/73) (Alex)
-* [Presentaion API Followup](https://github.com/w3ctag/spec-reviews/issues/) (Travis)
+* [Presentaion API Followup](https://github.com/w3ctag/spec-reviews/issues/61) (Travis)
 
 
 ### Logistics
