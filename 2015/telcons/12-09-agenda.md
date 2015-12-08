@@ -9,7 +9,8 @@ Corresponding UTC (GMT)	Wednesday, 9 December 2015, 20:00:00
 
 ### Call Agenda
 * [More Fun with Keygen](https://github.com/w3ctag/spec-reviews/issues/82) (Travis)  
-Especially [Issued Rasied by Brad](https://github.com/w3ctag/client-certificates/issues/1)
+Especially [Issued Rasied by Brad](https://github.com/w3ctag/client-certificates/issues/1)  
+Guests Brad Hill and Mike West invited to join  
 * [Security Questionnaire](https://github.com/w3ctag/spec-reviews/issues/77) (Yves)
 * [F2F Meeting Planning](https://github.com/w3ctag/meetings/tree/gh-pages/2016/01-mel) (Dan/Peter)
 
