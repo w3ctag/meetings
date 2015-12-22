@@ -14,10 +14,15 @@
 * Agenda Setting
 * 12:30 - 13:30 Lunch 
 
+_Dinner_ - out?
+
+
 ## Day 2 - Thursday 14 January 
 
 * 08:30 - arrive / breakfast / setup
 * 12:30 - 13:30 Lunch
+
+_Dinner_ - BBQ @ mnot?
 
 ## Day 3 - Friday 15 January
 
