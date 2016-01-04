@@ -11,6 +11,7 @@ Corresponding UTC (GMT)	Wednesday, 6 January 2016, 20:00:00
 * [agenda](https://github.com/w3ctag/meetings/blob/gh-pages/2016/01-mel/agenda.md) bashing for f2f
 * Agenda for Summit
 * Triage: [451 Question](https://github.com/w3ctag/spec-reviews/issues/99)
+* Confirm March F2F dates/location
 
 ### Logistics
 
