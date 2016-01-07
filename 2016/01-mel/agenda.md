@@ -33,3 +33,4 @@ _Dinner_ - BBQ @ mnot?
 ## Topics List
 
 * Spec Reviews
+* EME Secure Release ([Issue #73](https://github.com/w3ctag/spec-reviews/issues/73))
