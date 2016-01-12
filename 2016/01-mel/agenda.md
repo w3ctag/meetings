@@ -34,3 +34,9 @@ _Dinner_ - BBQ @ mnot?
 
 * Spec Reviews
 * EME Secure Release ([Issue #73](https://github.com/w3ctag/spec-reviews/issues/73))
+
+### Raw Minutes
+
+* [Raw minutes day 1](https://etherpad.w3ctag.org/p/13-01-2016-minutes.md)
+* [Raw minutes day 2](https://etherpad.w3ctag.org/p/14-01-2016-minutes.md)
+* [Raw minutes day 3](https://etherpad.w3ctag.org/p/15-01-2016-minutes.md)
