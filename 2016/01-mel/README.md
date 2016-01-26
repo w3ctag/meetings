@@ -1,4 +1,5 @@
-Planning for Melbourne F2F
+ # Melbourne F2F  
+ ## 13-15 January, 2016
 
 [Logistics](https://github.com/w3ctag/meetings/blob/gh-pages/2016/01-mel/arrangements.md)  
 [Agenda](https://github.com/w3ctag/meetings/blob/gh-pages/2016/01-mel/agenda.md)  
