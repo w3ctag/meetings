@@ -8,7 +8,6 @@ Melbourne (Australia - Victoria)	Thursday, 28 January 2016, 07:00:00	AEDT	UTC+11
 Corresponding UTC (GMT)	Wednesday, 27 January 2016, 20:00:00	 
 
 ### Call Agenda
-* [Fingerprinting](https://github.com/w3ctag/spec-reviews/issues/38) with Nick Doty
 * CORS Discussion (hopefully)
 * Changing the call time? (Mark)
 
