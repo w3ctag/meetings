@@ -4,7 +4,7 @@ Present: Peter, Alex, Mark, Hadley, David, Travis, Yves
 via Teleconference: Dan, Andrew Betts (Welcome!)  
 Regrets: Tim (in Italy)  
 
-Of note: W3C announcing move to https on their site: \url{https://lists.w3.org/Archives/Member/w3c-ac-forum/2016JanMar/0028.html} (references our securing the web finding).
+Of note: W3C announcing move to https on their site: https://lists.w3.org/Archives/Member/w3c-ac-forum/2016JanMar/0028.html (references our securing the web finding).
 
 ## Wednesday
 
@@ -13,7 +13,6 @@ Of note: W3C announcing move to https on their site: \url{https://lists.w3.org/A
 - 11:00 - 12:30 
 
 - Revisiting deliverables: 
-
    *  Packaging on the Web
    *  Design Principles
    *  Security Questionnaire
@@ -42,52 +41,34 @@ Of note: W3C announcing move to https on their site: \url{https://lists.w3.org/A
  * CORS...
  * Tim's questions about certain kinds of fetches...  (slightlylate to find URL)
  *  status of secure contexts document https://github.com/w3ctag/spec-reviews/issues/75
- *  https://github.com/w3ctag/spec-reviews/issues/74
+ * https://github.com/w3ctag/spec-reviews/issues/74
 
-- 10:00 - 10:30 
-
-- Debrief from the Extensible Web Summit
-- New name?
-
+- 10:00 - 10:30  Debrief from the Extensible Web Summit
+  * New name?
 - 10:30 - 12:30 Spec reviews
-
 - lunch 12:00 - 13:00
-
 - 13:00 - 14:00 Fido (+ Keygen bonus discussion)
-
 - 14:00 - 15:00 Web Payments Discussion
-
 - 15:00 - 15:15 Break
-
 - 15:15 - 15;30 [EME Secure Release](https://github.com/w3ctag/spec-reviews/issues/73)
-
-- 15:30 - 17:00 Brainstorm IA for the TAG's web site(s) https://github.com/w3ctag/spec-reviews/issues/53
-
-*  Stuff we haven't fit in anywhere else
+- 15:30 - 17:00 Brainstorm IA for the TAG's web site(s) https://github.com/w3ctag/spec-reviews/issues/
+  *  Stuff we haven't fit in anywhere else
 
 ## Friday
 
 - 9:00 - 9:15 Schedule next meetings
-
 - 9:15 - 11:15 Spec reviews
-
 - 11:45 - 12:30
-
-* What role should TAG take in charter development
-* Role of TAG in guiding expermental features in browsers?
-
+  * What role should TAG take in charter development
+  * Role of TAG in guiding expermental features in browsers?
 - lunch 12:30 - 13:30
-
 - 13:30 - 14:30 Accessibliity with Chaals
-
 - 14:30 - 16:00
-
-* Web components update
-* IETF update, Captive portals
-* Houdini Update
-* EME and the non-sue covenant... (Cory discussion) -Yves gave an update on that and the proposed extension to the HTML Media Extensions group
-* Policy interest group
-
+  * Web components update
+  * IETF update, Captive portals
+  * Houdini Update
+  * EME and the non-sue covenant... (Cory discussion) -Yves gave an update on that and the proposed extension to the HTML Media Extensions group
+  * Policy interest group
 - 16:00 - 17:00 Stuff we haven't fit in anywhere else
 
 # Topic: Spec Reviews
@@ -210,9 +191,6 @@ yves: it's not a big issue to keep as it.
 mnot: I want to have a conversatoin with marcos about it. Otherwise, we can defer this discussion to later.  
 yves: digi-pub group looked at it, considered it, but given lack of stability assurance on the doc, they weren't confident to use it.  
   
-   *   
-  
-   *   
 ## Design Principles https://github.com/w3ctag/design-principles  
 Travis: We've seen some good mileage from this document.  
 mnot: someone on the current TAG should own and drive it forward.  
@@ -223,7 +201,7 @@ yves: like the security-questionnaire.
 mnot: let's look through the issues and decide which ones should be addressed before publishing first-edition Note.  
 Travis: Sounds good, I can bring the results to the group at a following telco. I'll create an issue.  
   
-<scribe name and shame: slightlyoff should have been scribing>  
+[scribe name and shame: slightlyoff should have been scribing]
   
 ## Security Questionaire: https://github.com/w3ctag/spec-reviews/issues/77  
 https://www.w3.org/TR/2015/NOTE-security-privacy-questionnaire-20151210/  
@@ -242,7 +220,7 @@ hadley: secondarily: the doc hasn't been updated since April of 2015, and I have
 alex: who's going to follow up with Mike?  
 mnot: we'll talk to him tomorrow.  
 ... I can take this on to ensure we don't drop it.  
-<and there was much celebration>  
+[and there was much celebration]
   
 Alex: we need a doc for "how to work with the TAG" that we can wordsmith together  
 hadley: plus our selection of tools/forms for self-assessment.  
@@ -280,8 +258,8 @@ Travis: Let's create an issue and assign it to me. I'll start by gathering infor
   
   
   
-   * ##Report Card (update? close it and declare success?)  
-   *   
+##Report Card (update? close it and declare success?)  
+
 https://github.com/w3ctag/extensible-web-report-card  
 https://github.com/w3ctag/extensible-web-report-card/issues  
 Hadley: I remember dka asking what we wanted to do with this in a previous f2f...  
@@ -317,7 +295,7 @@ mnot: I think it's served its purpose. We're past the Extensible Web being new.
 hadley: Does anyone disagree with these views, that his has largely passed its utility?  
 all: no  
 mnot: What's the next step?  If this disappeared tomorrow, would anyone notice? Do we have usage stats?  
-plinss: <checking> Excluding bots, probably <1 person per day on average.  
+plinss: [checking] Excluding bots, probably <1 person per day on average.  
 Hadley: that's pretty clear. What do we do... put a "no longer maintained" label on it?  
 Travis: shall we ask Dan to briefly voice his thoughts before we unplug it...?  
 Alex: I think some TAG members have been surprised at the state of some of these features... Perhaps we should pull out some issues and track them in github.  
@@ -326,10 +304,8 @@ Alex: I think some TAG members have been surprised at the state of some of these
   
 dbaron: Interestingly, if you search for "extensible web report card" on google, you get the github repo, not the actual site.  
   
-   *   
-  
-   * ##Private Mode  
-   *   
+##Private Mode  
+
 Travis: We have 15 issues.  
 mnot: I think I owe everyone a pretty substantial revision of this doc... and I'm in a good place to do that now.  Will be ready for review before London.  
 ...It'll be lightweight, a target to point to for other specs to work with.    
@@ -340,13 +316,13 @@ mnot: I think I owe everyone a pretty substantial revision of this doc... and I'
   
   
   
-   * ##Privileged Contexts   
-   *   
+##Privileged Contexts   
+
 alex: The draft has been working its way through. There have been changes landing in Chrome, at least, to remove iFrame capabilities.   
 ...Restricting powerful capabilities to things like secure connections only. And making sure you can't abuse a securely connected iFrame from an insecure context.  
 hadley: So what do we need to do?  
-alex: let's ask Mike West when we speak to him tomorrow.  
-<added to the agenda>  
+alex: let's ask Mike West when we speak to him tomorrow.
+[added to the agenda]
   
   
 # Spec reviews (cont)  
@@ -391,7 +367,7 @@ travis: didn't we say earlier we want to work on this?
 ...Where would this go? on our homepage?  
 hadley: We deferred that discussion to later in the week.  
   
-<deferred>  
+[deferred]
   
 ## Presentation API Request for Feedback #61  
   
@@ -456,7 +432,7 @@ hadley: prefer leaving the security questionnaire as a set of links to things ma
   
 Travis:  I'll take this action then.  
   
-<Gelato break (temperature outside is 40C)>  
+[Gelato break (temperature outside is 40C)]
 Scribe: dbaron  
   
 ## Motion path spec  
