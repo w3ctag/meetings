@@ -62,7 +62,8 @@
 = Notes
 =================
 
-### Present: plinss, yves, dbaron, mnot, slightlyoff (aka: "alex"), bradhill, mkwst, andrew betts, travis  
+### Present: plinss, yves, dbaron, mnot, slightlyoff (aka: "alex"), bradhill, mkwst, travis  
+via Teleconference: Andrew, Dan (for morning session)  
 Regrets: hadley  
   
 TOPIC: special guest, Mike West \& Brad Hill  

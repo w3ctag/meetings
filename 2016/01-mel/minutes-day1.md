@@ -1,7 +1,7 @@
 # Melbourne F2F  Minutes
 
 Present: Peter, Alex, Mark, Hadley, David, Travis, Yves  
-via Teleconference: Dan, Andrew Betts (Welcome!)  
+via Teleconference: Dan, Andrew Betts (Welcome!) (for morning session)
 Regrets: Tim (in Italy)  
 
 Of note: W3C announcing move to https on their site: https://lists.w3.org/Archives/Member/w3c-ac-forum/2016JanMar/0028.html (references our securing the web finding).

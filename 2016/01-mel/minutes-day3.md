@@ -24,9 +24,9 @@
  *Stuff we haven't fit in anywhere else
 
 ===========================================================  
-Present: alex, plinss, travis, david, mark, yves, hadley  
-Remotely: andrew  
-Guest starring (afternoon only): chaals  
+Present: Alex, Peter, Travis, David, Mark, Yves, Hadley  
+via Teleconference: Andrew, Dan (for morning session)  
+Guest starring (afternoon only): Chaals  
   
 # Spec Reviews, cont.  
   
