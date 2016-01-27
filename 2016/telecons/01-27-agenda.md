@@ -10,7 +10,7 @@ Corresponding UTC (GMT)	Wednesday, 27 January 2016, 20:00:00
 ### Call Agenda
 * [Automotive](https://github.com/w3ctag/spec-reviews/issues/81) (Travis)
 * ["With Credentials" flag](https://github.com/w3ctag/spec-reviews/issues/76)
-* Changing the call time? (Mark)
+* Changing the call time? (Mark) (see [potential times](https://github.com/w3ctag/meetings/wiki/Potential-teleconference-times))
 
 ### Logistics
 
