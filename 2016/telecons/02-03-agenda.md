@@ -1,11 +1,11 @@
 ### TAG Teleconference – 2 February 2016 ; 20:00 UTC
 
-San Francisco (U.S.A. - California)	Wednesday, 2 February 2016, 12:00:00	PST	UTC-8 hours  
-Boston (U.S.A. - Massachusetts)	Wednesday, 2 February 2016, 15:00:00	EST	UTC-5 hours  
-London (United Kingdom - England)	Wednesday, 2 February 2016, 20:00:00	GMT	UTC  
-Paris (France)	Wednesday, 2 February 2016, 21:00:00	CET	UTC+1 hour  
-Melbourne (Australia - Victoria)	Thursday, 3 February 2016, 07:00:00	AEDT	UTC+11 hours  
-Corresponding UTC (GMT)	Wednesday, 2 February 2016, 20:00:00	 
+San Francisco (U.S.A. - California)	Wednesday, 3 February 2016, 12:00:00	PST	UTC-8 hours  
+Boston (U.S.A. - Massachusetts)	Wednesday, 3 February 2016, 15:00:00	EST	UTC-5 hours  
+London (United Kingdom - England)	Wednesday, 3 February 2016, 20:00:00	GMT	UTC  
+Paris (France)	Wednesday, 3 February 2016, 21:00:00	CET	UTC+1 hour  
+Melbourne (Australia - Victoria)	Thursday, 4 February 2016, 07:00:00	AEDT	UTC+11 hours  
+Corresponding UTC (GMT)	Wednesday, 3 February 2016, 20:00:00	 
 
 ### Call Agenda
 * [Automotive](https://github.com/w3ctag/spec-reviews/issues/81) (Travis)
@@ -25,4 +25,4 @@ We will be using Webex. Call in details: https://lists.w3.org/Archives/Member/ta
 
 *Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
-Raw minutes: https://pad.w3ctag.org/p/27-01-2016-minutes.md
+Raw minutes: https://pad.w3ctag.org/p/03-02-2016-minutes.md
