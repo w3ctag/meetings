@@ -1,4 +1,4 @@
-### TAG Teleconference – 2 February 2016 ; 20:00 UTC
+### TAG Teleconference – 3 February 2016 ; 20:00 UTC
 
 San Francisco (U.S.A. - California)	Wednesday, 3 February 2016, 12:00:00	PST	UTC-8 hours  
 Boston (U.S.A. - Massachusetts)	Wednesday, 3 February 2016, 15:00:00	EST	UTC-5 hours  
