@@ -12,6 +12,7 @@ Corresponding UTC (GMT)	Wednesday, 17 February 2016, 20:00:00
 * [Dated Space](https://github.com/w3ctag/spec-reviews/issues/102) (Dan)
 * [FIDO](https://github.com/w3ctag/spec-reviews/issues/97) (Travis)
 * [Notifications API](https://github.com/w3ctag/spec-reviews/issues/94) (Alex)
+* Stockholm F2F Arrangements
 
 ### Logistics
 
