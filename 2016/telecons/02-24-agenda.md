@@ -4,7 +4,7 @@ San Francisco (U.S.A. - California)	Wednesday, 24 February 2016, 14:00:00	PST	UT
 Boston (U.S.A. - Massachusetts)	Wednesday, 24 February 2016, 17:00:00	EST	UTC-5 hours  
 London (United Kingdom - England)	Wednesday, 24 February 2016, 22:00:00	GMT	UTC  
 Paris (France)	Wednesday, 24 February 2016, 23:00:00	CET	UTC+1 hour  
-Tokyo (Japan)	Thursday, 25 February 2016, 07:00	JST	UTC+9 hours
+Tokyo (Japan)	Thursday, 25 February 2016, 07:00	JST	UTC+9 hours  
 Melbourne (Australia - Victoria)	Thursday, 25 February 2016, 09:00:00	AEDT	UTC+11 hours  
 Corresponding UTC (GMT)	Wednesday, 24 February 2016, 22:00:00	 
 
