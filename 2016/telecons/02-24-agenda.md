@@ -14,6 +14,7 @@ Corresponding UTC (GMT)	Wednesday, 24 February 2016, 22:00:00
 * [Web Background Sync](https://github.com/w3ctag/spec-reviews/issues/95) (Mark)
 * [Notifications API](https://github.com/w3ctag/spec-reviews/issues/94) (Alex)
 * Stockholm F2F Arrangements
+* Future developer engagement (ie 'new EWS' and 'new MTT') (Andrew)
 
 ### Logistics
 
