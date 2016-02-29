@@ -9,6 +9,7 @@
 * 08:30 - arrive / breakfast / setup
 * Agenda Setting
 * 12:30 - 13:30 Lunch 
+* 18:30 - 20:00 Meet the TAG
 
 _Dinner_ - out?
 
@@ -20,7 +21,7 @@ _Dinner_ - out?
 
 _Dinner_ - 
 
-## Day 3 - Thursday 31 Marchy
+## Day 3 - Thursday 31 March
 
 * 08:30 - arrive / breakfast / setup
 * 12:30 - 13:30 Lunch
