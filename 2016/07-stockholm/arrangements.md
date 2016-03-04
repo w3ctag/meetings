@@ -4,5 +4,7 @@
 
 Location: Google Stockholm (is this fully confirmed?!)
 
-Note:  This follows IETF 96 (July 17-22, Berlin) and an HTTP Workshop
-(July 25-27, tentative??, where??)
+Note:  This follows
+[IETF 96](https://www.ietf.org/meeting/96/index.html) (July 17-22, Berlin)
+and an
+[HTTP Workshop](https://httpworkshop.github.io/) (July 25-27, Stockholm)
