@@ -35,6 +35,7 @@ _Dinner_ -
 * Service Worker - preview of next f2f?
 * Update/followup on keygen?
 * Data on the web (Hadley)
+* Charters: WebVR Community Group, Automotive ...
 
 ### Raw Minutes
 
