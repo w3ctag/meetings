@@ -30,6 +30,11 @@ _Dinner_ -
 ## Topics List
 
 * TV Control / JS APIs vs Network Resources
+* FIDO & Web Auth Update?
+* With Credentials discussion?
+* Service Worker - preview of next f2f?
+* Update/followup on keygen?
+* Data on the web (Hadley)
 
 ### Raw Minutes
 
