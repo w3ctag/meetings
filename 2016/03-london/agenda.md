@@ -49,8 +49,7 @@ Some agenda bashing has happened on the [call 16-3-2016](https://pad.w3ctag.org/
 * Ad and the IAB lean standard - “light encrypted ad-choice supported non-invasive” (Andrew)
 * Streams (Travis) - https://github.com/w3ctag/spec-reviews/issues/92
 * Houdini Update
-* Responses to the event survey / TAG event discussions...
-
+* Responses to the event survey / TAG event discussions
 * Should we have webappsec people dial in to the f2f for some part?
 
 ### Raw Minutes
