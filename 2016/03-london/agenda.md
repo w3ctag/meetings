@@ -29,13 +29,22 @@ _Dinner_ -
 
 ## Topics List
 
+Some agenda bashing has happened on the [call 16-3-2016](https://pad.w3ctag.org/p/16-03-2016-minutes.md).
+
 * TV Control / JS APIs vs Network Resources
-* FIDO & Web Auth Update?
-* With Credentials discussion?
+* HBBTV, ATSV, OITF – subsetting of the web platform (Alex)... https://github.com/w3ctag/spec-reviews/issues/105
+* Enouraging custom device APIs vs Restful Architecture (Hadley)
+* FIDO & Web Auth Update? - Invite someone from that working group to talk about use cases...
 * Service Worker - preview of next f2f?
-* Update/followup on keygen?
+* Update/followup on keygen? & on Fido proposed to w3c and potential overlap there.
+* http/2 client certs http://www.ietf.org/id/draft-thomson-http2-client-certs-02.txt (will be discussed at IETF week after the TAG meeting) - should the TAG weigh in on this?
 * Data on the web (Hadley)
-* Charters: WebVR Community Group, Automotive ...
+* Charters: WebVR Community Group, Automotive …
+* ARIA (with special guest Léonie)
+* CORS + Credentials + Tim's Concern
+* Building an APP vs Native Environment
+* Mark's [work on Privacy](https://gist.github.com/mnot/96440a5ca74fcf328d23)
+* 
 
 ### Raw Minutes
 
