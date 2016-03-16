@@ -24,6 +24,7 @@ _Dinner_ -
 ## Day 3 - Thursday 31 March
 
 * 08:30 - arrive / breakfast / setup
+* 10:30 - 12:30 ARIA with special guest Léonie Watson
 * 12:30 - 13:30 Lunch
 * 17:00 - end
 
