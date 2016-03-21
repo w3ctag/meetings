@@ -51,6 +51,7 @@ Some agenda bashing has happened on the [call 16-3-2016](https://pad.w3ctag.org/
 * Houdini Update
 * Responses to the event survey / TAG event discussions
 * Should we have webappsec people dial in to the f2f for some part?
+* Update our homepage
 
 ### Raw Minutes
 
