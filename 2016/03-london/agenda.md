@@ -42,7 +42,7 @@ Some agenda bashing has happened on the [call 16-3-2016](https://pad.w3ctag.org/
 * Data on the web (Hadley)
 * Charters: WebVR Community Group, Automotive.
 * ARIA (with special guest Léonie)
-* CORS + Credentials + Tim's Concern
+* Fetch + CORS + Credentials + Tim's Concern
 * Building an APP vs Native Environment
 * Mark's [work on Privacy](https://gist.github.com/mnot/96440a5ca74fcf328d23) - https://github.com/w3ctag/spec-reviews/issues/101
 * WebVR - can we take a look at the spec? http://webvr.info - also https://github.com/w3ctag/spec-reviews/issues/106
