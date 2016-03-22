@@ -33,7 +33,7 @@ _Dinner_ -
 Some agenda bashing has happened on the [call 16-3-2016](https://pad.w3ctag.org/p/16-03-2016-minutes.md).
 
 * TV Control (charter) / JS APIs vs Network Resources
-* HBBTV, ATSV, OITF – subsetting of the web platform (Alex)... https://github.com/w3ctag/spec-reviews/issues/105
+* HBBTV, ATSV, OITF – subsetting of the web platform (Alex)... https://github.com/w3ctag/spec-reviews/issues/105 (PLH?)
 * Enouraging custom device APIs vs Restful Architecture (Hadley) - e.g. Cars, TVs... the issue keeps coming up... can we come up with an architectural resolution?
 * FIDO & Web Auth Update? - Invite someone from that working group to talk about use cases...
 * Service Worker - preview of next f2f?
