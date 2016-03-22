@@ -13,10 +13,11 @@
 
 _Dinner_ - out?
 
-
 ## Day 2 - Wednesday 30 March 
 
 * 08:30 - arrive / breakfast / setup
+* 10:00 - Fido / Web Auth (with Wendy)
+* 11:00 - CORS / Credentials / etc... (with Wendy)
 * 12:30 - 13:30 Lunch
 
 _Dinner_ - 
