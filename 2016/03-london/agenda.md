@@ -37,7 +37,7 @@ _Dinner_ - out?
 ## Day 2 - Wednesday 30 March 
 
 * 08:30 - arrive / breakfast / setup
-* Streams (Travis) - [issue 92](https://github.com/w3ctag/spec-reviews/issues/92)
+* 9:00 - Web & TV
 * 10:00 - Fido / Web Auth (with Wendy)
 * FIDO & Web Auth Update? - Invite someone from that working group to talk about use cases...
 * Update/followup on keygen? & on Fido proposed to w3c and potential overlap there.
@@ -57,6 +57,7 @@ _Dinner_ -
 * Data on the web (Hadley)
 * 10:30 - 12:30 ARIA with special guest Léonie Watson
 * 12:30 - 13:30 Lunch
+* Streams (Travis) - [issue 92](https://github.com/w3ctag/spec-reviews/issues/92)
 * Meeting planning
 * Update our homepage
 * 17:00 - end
