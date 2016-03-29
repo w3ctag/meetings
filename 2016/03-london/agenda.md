@@ -4,7 +4,7 @@
 * Location: London, England
 * Host: Dan, apparently.
 
-   ` Scribe assignments:
+Scribe assignments:
     
     Tues AM: MN
     Tues PM: HB
@@ -13,7 +13,7 @@
     Thurs AM: AB
     Thurs PM: DB
     
-    MAKE THE WEB GREAT AGAIN`
+    MAKE THE WEB GREAT AGAIN
 
 ## Day 1 - Tuesday 29 March
 
