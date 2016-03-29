@@ -4,7 +4,7 @@
 * Location: Melbourne, Victoria, AU
 * Host: Akamai
 
-## Dat 0 - Tuesday 12 January
+## Day 0 - Tuesday 12 January
 
 * 13:00 - 18:00 - [Extensible Web Summit](https://ti.to/torgo/ews-melbourne)
 
