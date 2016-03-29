@@ -4,6 +4,17 @@
 * Location: London, England
 * Host: Dan, apparently.
 
+Scribe assignments:
+    
+    Tues AM: MN
+    Tues PM: HB
+    Weds AM: AR
+    Weds PM: TL
+    Thurs AM: AB
+    Thurs PM: DB
+    
+    MAKE THE WEB GREAT AGAIN
+
 ## Day 1 - Tuesday 29 March
 
 * 08:30 - arrive / breakfast / setup
