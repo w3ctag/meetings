@@ -4,7 +4,7 @@
 * Location: London, England
 * Host: Dan, apparently.
 
-Scribe assignments:
+    Scribe assignments:
     
     Tues AM: MN
     Tues PM: HB
