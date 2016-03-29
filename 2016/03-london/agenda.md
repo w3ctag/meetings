@@ -4,16 +4,16 @@
 * Location: London, England
 * Host: Dan, apparently.
 
-Scribe assignments:
+## Scribe assignments:
     
-    Tues AM: MN
-    Tues PM: HB
-    Weds AM: AR
-    Weds PM: TL
-    Thurs AM: AB
-    Thurs PM: DB
+* Tues AM: MN
+* Tues PM: HB
+* Weds AM: AR
+* Weds PM: TL
+* Thurs AM: AB
+* Thurs PM: DB
     
-    MAKE THE WEB GREAT AGAIN
+* MAKE THE WEB GREAT AGAIN
 
 ## Day 1 - Tuesday 29 March
 
@@ -47,7 +47,7 @@ _Dinner_ - out?
 * 12:30 - 13:30 Lunch
 * Mark's [work on Privacy](https://gist.github.com/mnot/96440a5ca74fcf328d23) - [issue 101](https://github.com/w3ctag/spec-reviews/issues/101)
 * Ad and the IAB LEAN standard - “light encrypted ad-choice supported non-invasive” (Andrew)
-
+* 17:00 - Web Payments Discussion - [issue 109](https://github.com/w3ctag/spec-reviews/issues/109)
 
 _Dinner_ - 
 
