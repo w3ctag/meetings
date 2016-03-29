@@ -13,7 +13,7 @@
 * Thurs AM: AB
 * Thurs PM: DB
     
-* MAKE THE WEB GREAT AGAIN
+`MAKE THE WEB GREAT AGAIN`
 
 ## Day 1 - Tuesday 29 March
 
