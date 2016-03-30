@@ -56,7 +56,7 @@ _Dinner_ -
 * 08:30 - arrive / breakfast / setup
 * Data on the web (Hadley)
 * 10:00 - [Improving AccessKey](https://github.com/w3ctag/spec-reviews/issues/113) with Chaals
-* 10:30 - 12:30 ARIA with special guest Léonie Watson
+* 10:30 - 12:30 [ARIA review](https://github.com/w3ctag/spec-reviews/issues/107) with special guest Léonie Watson
 * 12:30 - 13:30 Lunch
 * Streams (Travis) - [issue 92](https://github.com/w3ctag/spec-reviews/issues/92)
 * Meeting planning
