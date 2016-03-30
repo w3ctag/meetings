@@ -46,7 +46,7 @@ _Dinner_ - out?
 * 11:00 - CORS / Credentials / etc... (with Wendy)
 * 12:30 - 13:30 Lunch
 * Mark's [work on Privacy](https://gist.github.com/mnot/96440a5ca74fcf328d23) - [issue 101](https://github.com/w3ctag/spec-reviews/issues/101)
-* Ad and the IAB LEAN standard - “light encrypted ad-choice supported non-invasive” (Andrew)
+* 16:00 - Ad and the IAB LEAN standard - “light encrypted ad-choice supported non-invasive” (Andrew) with guest Brendan from IAB tech lab
 * 17:00 - Web Payments Discussion - [issue 109](https://github.com/w3ctag/spec-reviews/issues/109)
 
 _Dinner_ - 
