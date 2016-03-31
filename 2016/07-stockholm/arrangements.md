@@ -2,7 +2,7 @@
 
 2016 July 28-30 (Thursday-Saturday)
 
-Location: Google Stockholm (is this fully confirmed?!)
+Location: Google Stockholm
 
 Note:  This follows
 [IETF 96](https://www.ietf.org/meeting/96/index.html) (July 17-22, Berlin)
