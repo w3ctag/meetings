@@ -54,6 +54,8 @@ _Dinner_ -
 ## Day 3 - Thursday 31 March
 
 * 08:30 - arrive / breakfast / setup
+* Issue triage
+* Packaging (Yves)
 * Data on the web (Hadley)
 * 10:00 - [Improving AccessKey](https://github.com/w3ctag/spec-reviews/issues/113) with Chaals
 * 10:30 - 12:30 [ARIA review](https://github.com/w3ctag/spec-reviews/issues/107) with special guest Léonie Watson
