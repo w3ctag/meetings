@@ -1,5 +1,5 @@
 # TAG F2F Meeting Arrangements
-## ***DATES/LOCATION NOT YET FINAL ***
+## ***DATES/LOCATION NOT YET FINAL***
 
 2017 January 31 - February 2 (Tuesday-Thursday)
 
