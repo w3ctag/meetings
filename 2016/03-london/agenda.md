@@ -69,6 +69,11 @@ _Dinner_ -
 
 Some agenda bashing has happened on the [call 16-3-2016](https://pad.w3ctag.org/p/16-03-2016-minutes.md).
 
+### Formatted Minutes
+
+* [Minutes for Day 1](https://github.com/w3ctag/meetings/blob/gh-pages/2016/03-london/29-03-2016-minutes.md) (Draft)  
+* [Minutes for Day 2](https://github.com/w3ctag/meetings/blob/gh-pages/2016/03-london/30-03-2016-minutes.md) (Draft)  
+* [Minutes for Day 3](https://github.com/w3ctag/meetings/blob/gh-pages/2016/03-london/31-03-2016-minutes.md) (Draft)  
 
 ### Raw Minutes
 
