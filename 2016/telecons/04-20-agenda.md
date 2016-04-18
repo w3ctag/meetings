@@ -11,13 +11,15 @@ Corresponding UTC (GMT)	Wednesday, 20 April 2016, 21:00:00
 ### Call Agenda
 * [Sensor API](https://github.com/w3ctag/spec-reviews/issues/110) - Travis
 * [WebUSB](https://github.com/w3ctag/spec-reviews/issues/108) - David
-* [requestIdleCallback)(https://github.com/w3ctag/spec-reviews/issues/70) - David
+* [requestIdleCallback](https://github.com/w3ctag/spec-reviews/issues/70) - David
 
 ### Logistics
 
 Chair: Dan
 
 Scribe: ?
+
+Special guest: Tobie
 
 IRC : irc.w3.org / #tagmem
 
