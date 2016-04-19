@@ -447,7 +447,7 @@ __timbl:__ I will talk to the sysadmins about the TAG having the subdomain tag.w
 
 > **dka** PROPOSED RESOLUTION: We support efforts by browser vendors to restrict privacy-sensitive features to secure origins. This includes ones that have not historically been restricted as such, like geolocation or webcam access.
 
-> **dka** We also support investigation into ways of preventing these features from leaking to third-party scripts within a webpage (although the exact technology to do so is unclear as yet, probably involving some combination of CSP and/or something like <iframe sandbox>).
+> **dka** We also support investigation into ways of preventing these features from leaking to third-party scripts within a webpage (although the exact technology to do so is unclear as yet, probably involving some combination of CSP and/or something like \<iframe sandbox>).
 
 > **dka** +1
 
@@ -474,7 +474,7 @@ __Domenic:__ this is an aspirational resolution
 <a name="tag-resolution-29sep2014-2"\>
 > **dka** RESOLUTION: We support efforts by browser vendors to restrict privacy-sensitive features to secure origins. This includes ones that have not historically been restricted as such, like geolocation or webcam access.
 
-> **dka** We also support investigation into ways of preventing these features from leaking to third-party scripts within a webpage (although the exact technology to do so is unclear as yet, probably involving some combination of CSP and/or something like <iframe sandbox>).
+> **dka** We also support investigation into ways of preventing these features from leaking to third-party scripts within a webpage (although the exact technology to do so is unclear as yet, probably involving some combination of CSP and/or something like \<iframe sandbox>).
 
 > **dka** We appreciate this could cause some short and medium-term pain (breaking some existing content), and so this needs to be done with care, but it is a worthy goal to aspire to.
 
