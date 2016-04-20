@@ -12,6 +12,7 @@ Corresponding UTC (GMT)	Wednesday, 20 April 2016, 21:00:00
 * [Sensor API](https://github.com/w3ctag/spec-reviews/issues/110) - Travis
 * [WebUSB](https://github.com/w3ctag/spec-reviews/issues/108) - David
 * [requestIdleCallback](https://github.com/w3ctag/spec-reviews/issues/70) - David
+* [CORS for Developers draft](https://docs.google.com/document/d/1AtxTDw-g9BSRW9n9kGTTqNkDTGcVfSKPAOjVGkPFu2k/edit) - how do we want to engage?
 
 ### Logistics
 
