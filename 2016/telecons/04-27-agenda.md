@@ -1,9 +1,9 @@
 ### TAG Teleconference – 27 April 2016 ; 21:00 UTC
 
-San Francisco (U.S.A. - California)	Wednesday, 27 April 2016, 14:00:00	PST	UTC-7 hours  
-Boston (U.S.A. - Massachusetts)	Wednesday, 27 April 2016, 17:00:00	EST	UTC-5 hours  
+San Francisco (U.S.A. - California)	Wednesday, 27 April 2016, 14:00:00	PDT	UTC-7 hours  
+Boston (U.S.A. - Massachusetts)	Wednesday, 27 April 2016, 17:00:00	EDT	UTC-4 hours  
 London (United Kingdom - England)	Wednesday, 27 April 2016, 22:00:00	BST	UTC+1 hour  
-Paris (France)	Wednesday, 27 April 2016, 23:00:00	CET	UTC+2 hours  
+Paris (France)	Wednesday, 27 April 2016, 23:00:00	CEST	UTC+2 hours  
 Tokyo (Japan)	Thursday, 28 April 2016, 06:00	JST	UTC+9 hours  
 Melbourne (Australia - Victoria)	Thursday, 28 April 2016, 07:00:00	AEST	UTC+10 hours  
 Corresponding UTC (GMT)	Wednesday, 27 April 2016, 21:00:00	 

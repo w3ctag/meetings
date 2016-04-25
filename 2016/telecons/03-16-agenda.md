@@ -1,7 +1,7 @@
 ### TAG Teleconference – 16 March 2016 ; 21:00 UTC
 
-San Francisco (U.S.A. - California)	Wednesday, 16 March 2016, 14:00:00	PST	UTC-7 hours  
-Boston (U.S.A. - Massachusetts)	Wednesday, 16 March 2016, 17:00:00	EST	UTC-5 hours  
+San Francisco (U.S.A. - California)	Wednesday, 16 March 2016, 14:00:00	PDT	UTC-7 hours  
+Boston (U.S.A. - Massachusetts)	Wednesday, 16 March 2016, 17:00:00	EDT	UTC-4 hours  
 London (United Kingdom - England)	Wednesday, 16 March 2016, 21:00:00	GMT	UTC  
 Paris (France)	Wednesday, 16 March 2016, 22:00:00	CET	UTC+1 hour  
 Tokyo (Japan)	Thursday, 17 March 2016, 06:00	JST	UTC+9 hours  
