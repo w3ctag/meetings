@@ -23,8 +23,6 @@ Chair: Peter
 
 Scribe: ?
 
-Special guest: Tobie
-
 IRC : irc.w3.org / #tagmem
 
 We will be attempting to use WebRTC, if that fails, fallback to Webex.
