@@ -28,4 +28,4 @@ WebEx call in details: https://lists.w3.org/Archives/Member/tag/2015Jun/0017.htm
 
 *Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
-Raw minutes: https://pad.w3ctag.org/p/04-05-2016-minutes.md
+Raw minutes: https://pad.w3ctag.org/p/11-05-2016-minutes.md
