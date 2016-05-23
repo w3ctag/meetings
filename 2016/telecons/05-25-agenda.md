@@ -16,7 +16,7 @@ Corresponding UTC (GMT)	Wednesday, 25 May 2016, 21:00:00
 
 ### Logistics
 
-Chair: Peter
+Chair: Dan
 
 Scribe: ?
 
