@@ -31,4 +31,4 @@ We will try holding the call on https://appear.in/w3ctag
 
 *Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
-Raw minutes: https://pad.w3ctag.org/p/01-06-2016-minutes.md
+Raw minutes: https://pad.w3ctag.org/p/08-06-2016-minutes.md
