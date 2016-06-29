@@ -2,7 +2,10 @@
 
 2016 July 28-30 (Thursday-Saturday)
 
-Location: Google Stockholm
+Location:  
+Google Stockholm  
+Kungsbron 2  
+111 22 Stockholm  
 
 Note:  This follows
 [IETF 96](https://www.ietf.org/meeting/96/index.html) (July 17-22, Berlin)
