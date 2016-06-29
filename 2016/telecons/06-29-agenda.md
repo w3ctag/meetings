@@ -31,4 +31,4 @@ We will try holding the call on Spreed.me https://cloud.w3ctag.org/
 
 *Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
-Raw minutes: https://pad.w3ctag.org/p/15-06-2016-minutes.md
+Raw minutes: https://pad.w3ctag.org/p/29-06-2016-minutes.md
