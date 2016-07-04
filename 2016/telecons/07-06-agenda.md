@@ -29,8 +29,8 @@ Scribe: ?
 
 IRC : irc.w3.org / #tagmem
 
-We will try holding the call on Spreed.me https://cloud.w3ctag.org/ 
+WebRTC Call: https://appear.in/w3ctag
 
 *Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
-Raw minutes: https://pad.w3ctag.org/p/29-06-2016-minutes.md
+Raw minutes: https://pad.w3ctag.org/p/06-07-2016-minutes.md
