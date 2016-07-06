@@ -20,6 +20,7 @@ Corresponding UTC (GMT)	Wednesday, 6 July 2016, 21:00:00
 * [WAPA Proposal](https://github.com/w3ctag/spec-reviews/issues/63) - Alex
 * [Performance Observer](https://github.com/w3ctag/spec-reviews/issues/18) - Alex
 * [Meet the TAG Stockholm event](https://ti.to/w3c-tag/meet-the-tag-stockholm) - Dan
+* [WebAppSec thinks Secure Contexts is ready for CR](https://w3c.github.io/webappsec-secure-contexts/)
 
 ### Logistics
 
