@@ -10,7 +10,6 @@ Corresponding UTC (GMT)	Wednesday, 6 July 2016, 21:00:00
 
 ### Call Agenda
 * Tokyo - decision on moving meeting dates
-
 * TPAC Planning
 
 #### Left over from last call
@@ -20,6 +19,7 @@ Corresponding UTC (GMT)	Wednesday, 6 July 2016, 21:00:00
 * [Indexed DB](https://github.com/w3ctag/spec-reviews/issues/84) - Alex
 * [WAPA Proposal](https://github.com/w3ctag/spec-reviews/issues/63) - Alex
 * [Performance Observer](https://github.com/w3ctag/spec-reviews/issues/18) - Alex
+* [Meet the TAG Stockholm event](https://ti.to/w3c-tag/meet-the-tag-stockholm) - Dan
 
 ### Logistics
 
