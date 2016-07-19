@@ -12,7 +12,7 @@
 ## Day 2 (Friday July 29th) 
 
 * 12:00 - 13:00 - lunch
-* 15:00 - 16:00 - ARIA 2.0 Discussion
+* 15:00 - 17:00 - ARIA 2.0 Discussion
 
 ## Day 3 (Saturday July 30th)
 
