@@ -6,12 +6,13 @@
 * 10:00 - 11:00 - tbd
 * 11:00 - 12:00 - QUIC update with special guest Jana (see [IETF materials](https://datatracker.ietf.org/meeting/96/materials.html))
 * 12:00 - 13:00 - lunch
+* 16:00 - 18:00 – WICG Overview with special guests Marcos and Chris Wilson
 * 18:00 – Developer Meet-up
 
 ## Day 2 (Friday July 29th) 
 
 * 12:00 - 13:00 - lunch
-* 16:00 - 18:00 – WICG Overview with special guests Marcos and Chris Wilson
+* 15:00 - 16:00 - ARIA 2.0 Discussion
 
 ## Day 3 (Saturday July 30th)
 
