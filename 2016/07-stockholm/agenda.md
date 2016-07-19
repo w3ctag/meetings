@@ -4,7 +4,7 @@
 
 * 9:00 - 10:00 – Agenda Bashing
 * 10:00 - 11:00 - tbd
-* 11:00 - 12:00 - QUIC update with special guest Jana
+* 11:00 - 12:00 - QUIC update with special guest Jana (see [IEFT BoF Minutes](https://datatracker.ietf.org/meeting/96/materials.html))
 * 12:00 - 13:00 - lunch
 * 18:00 – Developer Meet-up
 
