@@ -6,6 +6,7 @@
 * 10:00 - 11:00 - tbd
 * 11:00 - 12:00 - QUIC update with special guest Jana (see [IETF materials](https://datatracker.ietf.org/meeting/96/materials.html))
 * 12:00 - 13:00 - lunch
+* 13:00 - 14:00 - events in general and specifically what we want to do with the meet the tag event this evening
 * 15:00 - 17:00 – WICG Overview with special guests Marcos Cáceres and Chris Wilson
 * 18:00 – Developer Meet-up
 
