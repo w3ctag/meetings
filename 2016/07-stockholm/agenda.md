@@ -25,4 +25,5 @@
 * secure contexts review (with Wendy?)
 * Accessibility topics review (with Léonie, Richard Schwerdtfeger)
 * [IndexDB](https://github.com/w3ctag/spec-reviews/issues/84) - try to close this one off
+* update on LEAN - from Andrew
 
