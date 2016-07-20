@@ -13,6 +13,7 @@
 
 * 12:00 - 13:00 - lunch
 * 15:00 - 17:00 - ARIA 2.0 Discussion
+* 17:00 - 18:00 - WAPA placeholder (Travis)
 
 ## Day 3 (Saturday July 30th)
 
