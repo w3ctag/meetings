@@ -14,7 +14,7 @@
 
 * 12:00 - 13:00 - lunch
 * 13:00 - 15:00 - secure contexts and other security topics with Wendy Seltzer and Mike West [tbc] 
-* 15:00 - 17:00 - ARIA 2.0 Discussion
+* 15:00 - 17:00 - ARIA 2.0 Discussion (with Léonie Watson, Richard Schwerdtfeger)
 * 17:00 - 18:00 - WAPA placeholder (Travis)
 * 19:00 TAG dinner details tba
 
@@ -25,8 +25,6 @@
 
 ## Topics to be scheduled
 
-* secure contexts review (with Wendy?)
-* Accessibility topics review (with Léonie, Richard Schwerdtfeger)
 * [IndexDB](https://github.com/w3ctag/spec-reviews/issues/84) - try to close this one off
 * update on LEAN - from Andrew
 
