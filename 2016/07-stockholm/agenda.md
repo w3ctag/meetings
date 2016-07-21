@@ -16,9 +16,11 @@
 * 13:00 - 15:00 - secure contexts and other security topics with Wendy Seltzer and Mike West [tbc] 
 * 15:00 - 17:00 - ARIA 2.0 Discussion
 * 17:00 - 18:00 - WAPA placeholder (Travis)
+* 19:00 TAG dinner details tba
 
 ## Day 3 (Saturday July 30th)
 
+* 9:00 - 12:00 Spec reviews
 * 12:00 - 13:00 - lunch
 
 ## Topics to be scheduled
