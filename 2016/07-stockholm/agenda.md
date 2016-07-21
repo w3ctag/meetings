@@ -13,6 +13,7 @@
 ## Day 2 (Friday July 29th) 
 
 * 12:00 - 13:00 - lunch
+* 13:00 - 15:00 - secure contexts and other security topics with Wendy and Mike West [tbc] 
 * 15:00 - 17:00 - ARIA 2.0 Discussion
 * 17:00 - 18:00 - WAPA placeholder (Travis)
 
