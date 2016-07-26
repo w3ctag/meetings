@@ -3,7 +3,7 @@
 ## Day 1 (Thursday July 28th)
 
 * 9:00 - 10:00 – Agenda Bashing
-* 10:00 - 11:00 - tbd
+* 10:00 - 11:00 - WebRTC / Keygen with guest EKR
 * 11:00 - 12:00 - QUIC update with special guest Jana  
 (see [IETF materials](https://datatracker.ietf.org/meeting/96/materials.html))
 * 12:00 - 13:00 - lunch
