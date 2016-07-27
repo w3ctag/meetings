@@ -17,7 +17,7 @@
 * 13:00 - 15:00 - secure contexts and other security topics with Wendy Seltzer and Mike West  
 see [issue](https://github.com/w3ctag/spec-reviews/issues/124) and [latest draft](https://w3c.github.io/webappsec-secure-contexts/)
 * 15:00 - 17:00 - ARIA 2.0 Discussion (with Léonie Watson, Richard Schwerdtfeger)
-* 17:00 - 18:00 - WAPA placeholder (Travis)
+* 17:00 - 18:00 - WAPA placeholder (Travis) (see [Issue 63](https://github.com/w3ctag/spec-reviews/issues/63])) 
 * 19:00 TAG dinner details tba
 
 ## Day 3 (Saturday July 30th)
