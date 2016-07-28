@@ -1,6 +1,6 @@
 # TAG F2F Meeting Arrangements
 
-2016 November 8-11 (Tuesday-Friday)
+2016 October 31 - November 2 (Monday-Wednesday)
 
 Location: Nikkei, Tokyo
 - Address in English:  1-3-7 Otemachi, Chiyoda-ku, Tokyo 100-8066, Japan
