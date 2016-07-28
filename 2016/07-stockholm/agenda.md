@@ -32,6 +32,11 @@ see [issue](https://github.com/w3ctag/spec-reviews/issues/124) and [latest draft
 * [IndexDB](https://github.com/w3ctag/spec-reviews/issues/84) - try to close this one off
 * 12:00 - 13:00 - lunch
 
+## Minutes
+* [Thurs](https://pad.w3ctag.org/p/2016-07-28)
+* [Fri](https://pad.w3ctag.org/p/2016-07-29)
+* [Sat](https://pad.w3ctag.org/p/2016-07-30)
+
 ## Scribes
 * Thurs AM - Mark
 * Thurs PM - Hadley
