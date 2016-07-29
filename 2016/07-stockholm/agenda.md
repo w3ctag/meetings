@@ -17,7 +17,7 @@
 
 * 9:00 - 10:00 TAG's Role
 * 10:00 - 11:00 Ads & Tracking Brainstorm
-* 11:00 - 12:00 EME (think of the children)
+* 11:00 - 12:00 EME
 * 12:00 - 13:00 - lunch
 * 13:00 - 15:00 - secure contexts and other security topics with Wendy Seltzer and Mike West  
 see [issue](https://github.com/w3ctag/spec-reviews/issues/124) and [latest draft](https://w3c.github.io/webappsec-secure-contexts/)
