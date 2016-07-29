@@ -19,12 +19,12 @@
 * 10:00 - 11:00 Ads & Tracking Brainstorm
 * 11:00 - 12:00 EME
 * 12:00 - 13:00 - lunch
+* 12:40 - 13:00 - WAPA placeholder (Travis) (see [Issue 63](https://github.com/w3ctag/spec-reviews/issues/63)) 
 * 13:00 - 15:00 - secure contexts and other security topics with Wendy Seltzer and Mike West  
 see [issue](https://github.com/w3ctag/spec-reviews/issues/124) and [latest draft](https://w3c.github.io/webappsec-secure-contexts/)
 * 15:00 - 17:00 - ARIA 2.0 Discussion (with Léonie Watson, Richard Schwerdtfeger)
-* 17:00 - 18:00 - WAPA placeholder (Travis) (see [Issue 63](https://github.com/w3ctag/spec-reviews/issues/63])) 
-* 18:00 - 19:00 - Data on the Web update
-* 19:00 TAG dinner details tba
+* 17:00 - 18:00 - Data on the Web update
+* 18:30 TAG dinner details tba
 
 ## Day 3 (Saturday July 30th)
 
