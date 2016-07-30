@@ -29,7 +29,7 @@ see [issue](https://github.com/w3ctag/spec-reviews/issues/124) and [latest draft
 ## Day 3 (Saturday July 30th)
 
 * 9:00 - 12:00 Spec reviews
-* [IndexDB](https://github.com/w3ctag/spec-reviews/issues/84) - try to close this one off
+* [IndexedDB](https://github.com/w3ctag/spec-reviews/issues/84) - try to close this one off
 * 12:00 - 13:00 - lunch
 
 ## Minutes
