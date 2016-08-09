@@ -9,8 +9,11 @@ Melbourne (Australia - Victoria)	Thursday, 11 August 2016, 07:00:00	AEST	UTC+10 
 Corresponding UTC (GMT)	Wednesday, 10 August 2016, 21:00:00	 
 
 ### Call Agenda
-* TPAC Planning
 
+* Triage [Review window.visualViewport API](https://github.com/w3ctag/spec-reviews/issues/128)
+* [Same Origin Policy](https://github.com/w3ctag/spec-reviews/issues/127)
+* more tbd...
+* TPAC Planning
 
 #### Backlog
 
