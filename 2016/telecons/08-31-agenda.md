@@ -18,6 +18,7 @@ Corresponding UTC (GMT)	Wednesday, 31 August 2016, 21:00:00
 * [Data on the Web CR](https://www.w3.org/TR/2016/CR-dwbp-20160830/)
 * [Generic Sensor API](https://www.w3.org/TR/2016/WD-generic-sensor-20160830/)
 * [Ambient Light API](https://www.w3.org/TR/2016/WD-ambient-light-20160830/)
+* [A11y Object Model](https://a11y-api.github.io/a11y-api/spec/)
 
 #### Backlog
 
