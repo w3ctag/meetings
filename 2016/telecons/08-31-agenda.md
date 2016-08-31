@@ -19,6 +19,10 @@ Corresponding UTC (GMT)	Wednesday, 31 August 2016, 21:00:00
 * [Generic Sensor API](https://www.w3.org/TR/2016/WD-generic-sensor-20160830/)
 * [Ambient Light API](https://www.w3.org/TR/2016/WD-ambient-light-20160830/)
 * [A11y Object Model](https://a11y-api.github.io/a11y-api/spec/)
+* [Media Capture from DOM Element](https://github.com/w3ctag/spec-reviews/issues/130)
+* [Media Stream Recorder](https://github.com/w3ctag/spec-reviews/issues/131)
+* [Audio Ouput Device APIs](https://github.com/w3ctag/spec-reviews/issues/132)
+* [Media Stream Image Capture](https://github.com/w3ctag/spec-reviews/issues/133)
 
 #### Backlog
 
