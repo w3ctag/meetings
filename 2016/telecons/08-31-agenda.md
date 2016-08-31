@@ -12,6 +12,8 @@ Corresponding UTC (GMT)	Wednesday, 31 August 2016, 21:00:00
 
 * [review window.visualViewport API](https://github.com/w3ctag/spec-reviews/issues/128) - David
 * [review WakeLock API](https://github.com/w3ctag/spec-reviews/issues/126) - Followup - Alex
+* [privacy of sensor APIs](https://github.com/w3ctag/spec-reviews/issues/129)
+
 
 #### Triage Items
 * [Pointer Lock PR](https://www.w3.org/TR/2016/PR-pointerlock-20160830/)
@@ -23,7 +25,6 @@ Corresponding UTC (GMT)	Wednesday, 31 August 2016, 21:00:00
 * [Media Stream Recorder](https://github.com/w3ctag/spec-reviews/issues/131)
 * [Audio Ouput Device APIs](https://github.com/w3ctag/spec-reviews/issues/132)
 * [Media Stream Image Capture](https://github.com/w3ctag/spec-reviews/issues/133)
-* [privacy of sensor APIs](https://github.com/w3ctag/spec-reviews/issues/129)
 
 #### Backlog
 
