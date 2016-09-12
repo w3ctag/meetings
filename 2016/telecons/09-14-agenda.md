@@ -10,7 +10,7 @@ Corresponding UTC (GMT)	Wednesday, 14 September 2016, 21:00:00
 
 ### Call Agenda
 
-* TPAC planning
+* TPAC planning  
 ...from last week:
 * [Privacy of sensor APIs](https://github.com/w3ctag/spec-reviews/issues/129) - Dan/Hadley
 * [Ambient Light Sensor API](https://github.com/w3ctag/spec-reviews/issues/115) - Alex
