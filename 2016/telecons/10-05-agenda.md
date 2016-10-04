@@ -5,7 +5,7 @@ Boston (U.S.A. - Massachusetts)	Wednesday, 05 October 2016, 17:00:00	EDT	UTC-4 h
 London (United Kingdom - England)	Wednesday, 05 October 2016, 22:00:00	BST	UTC+1 hour  
 Paris (France)	Wednesday, 05 October 2016, 23:00:00	CEST	UTC+2 hours  
 Tokyo (Japan)	Thursday, 06 October 2016, 06:00	JST	UTC+9 hours  
-Melbourne (Australia - Victoria)	Thursday, 06 October 2016, 07:00:00	AEST	UTC+10 hours  
+Melbourne (Australia - Victoria)	Thursday, 06 October 2016, 08:00:00	AEST	UTC+11 hours  
 Corresponding UTC (GMT)	Wednesday, 05 October 2016, 21:00:00	 
 
 ### Call Agenda
