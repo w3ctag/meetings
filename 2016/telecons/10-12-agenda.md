@@ -12,7 +12,7 @@ Corresponding UTC (GMT)	Wednesday, 12 October 2016, 21:00:00
 
 * ARIA state of affairs after TPAC: What do we have to do?
 * Something WebRTC multiple simultaneous connections something
-* [TTML2](https://w3c.github.io/ttm/2/spec/ttml2.html) going to CR. Can/should we review?
+* [TTML2](https://w3c.github.io/ttml2/spec/ttml2.html) going to CR. Can/should we review?
 * [Custom Paint API to CR](https://drafts.css-houdini.org/css-paint-api/)
 * [Tokyo F2F](https://github.com/w3ctag/meetings/tree/gh-pages/2016/11-tokyo) planning; developer meetup
 * DOA follow-up?
