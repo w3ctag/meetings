@@ -10,8 +10,8 @@ Corresponding UTC (GMT)	Wednesday, 19 October 2016, 21:00:00
 
 ### Call Agenda
 
-* [TTML2](https://w3c.github.io/ttml2/spec/ttml2.html) going to CR. Can/should we review? (new info from BBC)
-* [Custom Paint API to CR](https://drafts.css-houdini.org/css-paint-api/)
+* [TTML2](https://github.com/w3ctag/spec-reviews/issues/138) going to CR. Can/should we review? (new info from BBC)
+* [Custom Paint API to CR](https://github.com/w3ctag/spec-reviews/issues/140)
 * [DOA follow-up]
 * ...more to come...
 
