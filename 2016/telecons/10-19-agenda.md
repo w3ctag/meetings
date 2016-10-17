@@ -13,6 +13,7 @@ Corresponding UTC (GMT)	Wednesday, 19 October 2016, 21:00:00
 * [TTML2](https://github.com/w3ctag/spec-reviews/issues/138) going to CR. Can/should we review? (new info from BBC)
 * [Custom Paint API to CR](https://github.com/w3ctag/spec-reviews/issues/140)
 * [DOA follow-up]
+* Switching from Slack to Riot?
 * ...more to come...
 
 #### Backlog
