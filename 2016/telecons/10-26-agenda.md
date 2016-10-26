@@ -16,7 +16,7 @@ Corresponding UTC (GMT)	Wednesday, 26 October 2016, 21:00:00
 * Evergreen finding?
 * [DOA follow-up]
 * [ImageBitmapRenderingContext](https://github.com/w3ctag/spec-reviews/issues/141) - triage
-* Polyfills [see thread](https://github.com/jonathantneal/document-promises/issues/4#issuecomment-256218742) - Andrew
+* Polyfills ([see thread](https://github.com/jonathantneal/document-promises/issues/4#issuecomment-256218742)) - Andrew
 
 #### Backlog
 
