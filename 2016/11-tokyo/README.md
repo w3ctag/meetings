@@ -8,5 +8,5 @@
 
 Raw meeting notes (Etherpad): 
 * [Day 1 minutes](https://pad.w3ctag.org/p/2016-10-31-minutes.md)
-* Day 2 minutes
-* Day 3 minutes
+* [Day 2 minutes](https://pad.w3ctag.org/p/2016-11-01-minutes.md)
+* [Day 3 minutes](https://pad.w3ctag.org/p/2016-11-02-minutes.md)
