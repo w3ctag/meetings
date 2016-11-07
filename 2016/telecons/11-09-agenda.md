@@ -11,6 +11,7 @@ Corresponding UTC (GMT)	Wednesday, 26 October 2016, 21:00:00
 ### Call Agenda
 
 * Reviewing f2f Minutes (Dan, tbd)
+* DOA update (Hadley)
 * Polyfills (Andrew)
 * Thanking Nikkei
 
