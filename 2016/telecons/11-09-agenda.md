@@ -1,13 +1,13 @@
 ### TAG Teleconference – 9 November 2016 ; 22:00 UTC
 
-San Francisco (U.S.A. - California)	Wednesday, 26 October 2016, 14:00:00	PST	UTC-8 hours  
-Boston (U.S.A. - Massachusetts)	Wednesday, 26 October 2016, 17:00:00	EST	UTC-5 hours  
-London (United Kingdom - England)	Wednesday, 26 October 2016, 22:00:00	UTC
-Paris (France)	Wednesday, 26 October 2016, 23:00:00	CET	UTC+1 hours  
-Taipei	Thursday, 27 October 2016, 06:00	CST	UTC+8 hours  
-Tokyo (Japan)	Thursday, 27 October 2016, 07:00	JST	UTC+9 hours  
-Melbourne (Australia - Victoria)	Thursday, 27 October 2016, 09:00:00	AEDT	UTC+11 hours  
-Corresponding UTC (GMT)	Wednesday, 26 October 2016, 22:00:00	 
+San Francisco (U.S.A. - California)	Wednesday, 9 November 2016, 14:00:00	PST	UTC-8 hours  
+Boston (U.S.A. - Massachusetts)	Wednesday, 9 November 2016, 17:00:00	EST	UTC-5 hours  
+London (United Kingdom - England)	Wednesday, 9 November 2016, 22:00:00	UTC
+Paris (France)	Wednesday, 9 November 2016, 23:00:00	CET	UTC+1 hours  
+Taipei	Thursday, 10 November 2016, 06:00	CST	UTC+8 hours  
+Tokyo (Japan)	Thursday, 10 November 2016, 07:00	JST	UTC+9 hours  
+Melbourne (Australia - Victoria)	Thursday, 10 November 2016, 09:00:00	AEDT	UTC+11 hours  
+Corresponding UTC (GMT)	Wednesday, 9 November 2016, 22:00:00	 
 
 ### Call Agenda
 
