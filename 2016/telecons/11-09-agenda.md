@@ -11,6 +11,7 @@ Corresponding UTC (GMT)	Wednesday, 9 November 2016, 22:00:00
 
 ### Call Agenda
 
+* firming up next f2f - Boston on 7,8,9 of Feb
 * Reviewing f2f Minutes (Dan, tbd)
 * move call time one hour earlier?
 * DOA update (Hadley)
