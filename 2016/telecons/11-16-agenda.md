@@ -4,7 +4,6 @@ San Francisco (U.S.A. - California)	Wednesday, 16 November 2016, 13:00:00	PST	UT
 Boston (U.S.A. - Massachusetts)	Wednesday, 16 November 2016, 16:00:00	EST	UTC-5 hours  
 London (United Kingdom - England)	Wednesday, 16 November 2016, 21:00:00	UTC  
 Paris (France)	Wednesday, 16 November 2016, 22:00:00	CET	UTC+1 hours  
-Taipei	Thursday, 17 November 2016, 05:00	CST	UTC+8 hours  
 Tokyo (Japan)	Thursday, 17 November 2016, 06:00	JST	UTC+9 hours  
 Melbourne (Australia - Victoria)	Thursday, 17 November 2016, 08:00:00	AEDT	UTC+11 hours  
 Corresponding UTC (GMT)	Wednesday, 16 November 2016, 21:00:00	 
