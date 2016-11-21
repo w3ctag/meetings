@@ -10,7 +10,7 @@ Corresponding UTC (GMT)	Wednesday, 23 November 2016, 21:00:00
 
 ### Call Agenda
 
-TTML2
+[TTML2](https://github.com/w3ctag/spec-reviews/issues/138) with special guest Nigel Megitt
 
 #### Backlog
 
