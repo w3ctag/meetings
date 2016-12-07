@@ -31,4 +31,4 @@ WebRTC Call: https://meet.jit.si/w3ctag
 
 *Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
-Raw minutes: https://pad.w3ctag.org/p/30-11-2016-minutes.md
+Raw minutes: https://pad.w3ctag.org/p/07-12-2016-minutes.md
