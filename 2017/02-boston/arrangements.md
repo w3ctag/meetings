@@ -4,4 +4,4 @@
 
 Location: W3C, MIT, Cambridge, Massachusetts, USA
 
-With possible half/day summit on February 10th (TBD).
+With half-day summit on Friday, February 10th, hosted at Bocoup.
