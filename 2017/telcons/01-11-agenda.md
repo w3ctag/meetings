@@ -10,8 +10,8 @@ Corresponding UTC (GMT)	Wednesday, 11 Jan 2017, 21:00:00
 
 ### Call Agenda
 
-* [Design Principles Issues?](https://github.com/w3ctag/design-principles/issues)
-* [Boston] logistics & developer event
+* [Design Principles Issues](https://github.com/w3ctag/design-principles/issues)
+* Boston logistics & developer event
 
 #### Backlog
 
