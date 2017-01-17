@@ -12,6 +12,7 @@ Corresponding UTC (GMT)	Wednesday, 18 Jan 2017, 21:00:00
 
 * [Polyfill Finding Feedback](https://github.com/w3ctag/polyfills/issues) - Andrew
 * Boston logistics & developer event
+* Attempt to finalize date and venue for April f2f
 
 #### Backlog
 
