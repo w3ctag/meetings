@@ -5,7 +5,6 @@ Boston (U.S.A. - Massachusetts)	Wednesday, 22 Feb 2017, 16:00:00	EST	UTC-5 hours
 London (United Kingdom - England)	Wednesday, 22 Feb 2017, 21:00:00	UTC  
 Paris (France)	Wednesday, 22 Feb 2017, 22:00:00	CET	UTC+1 hours  
 Tokyo (Japan)	Thursday, 23 Feb 2017, 06:00	JST	UTC+9 hours  
-Melbourne (Australia - Victoria)	Thursday, 23 Feb 2017, 08:00:00	AEDT	UTC+11 hours  
 Corresponding UTC (GMT)	Wednesday, 22 Feb 2017, 21:00:00	 
 
 ### Call Agenda
