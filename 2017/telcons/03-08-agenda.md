@@ -18,14 +18,4 @@ Corresponding UTC (GMT)	Wednesday, 08 Mar 2017, 21:00:00
 
 ### Logistics
 
-Chair: Dan
-
-Scribe: ?
-
-IRC : irc.w3.org / #tagmem
-
-WebRTC Call: https://meet.jit.si/w3ctag
-
-*Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
-
-Raw minutes: https://pad.w3ctag.org/p/2017-03-01-minutes.md
+Call canceled.
