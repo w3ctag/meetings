@@ -9,7 +9,6 @@ Corresponding UTC (GMT)	Tuesday, 14 Mar 2017, 15:00:00
 
 ### Call Agenda
 
-* Performance APIs https://github.com/w3ctag/spec-reviews/issues/120 - With guest Ilya Grigorik
 * How progressive are we talking here? https://twitter.com/triblondon/status/838965894692757504
 * Media Session https://github.com/w3ctag/spec-reviews/issues/149
 * Custom Paint https://github.com/w3ctag/spec-reviews/issues/140
