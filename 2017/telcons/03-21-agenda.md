@@ -9,7 +9,7 @@ Corresponding UTC (GMT)	Tuesday, 21 Mar 2017, 15:00:00
 
 ### Call Agenda
 
-* 
+* Ilya joining for discussion of [Issue 120](https://github.com/w3ctag/spec-reviews/issues/120)
 * How progressive are we talking here? https://twitter.com/triblondon/status/838965894692757504
 * Tim's anti-fake news initiative http://www.bbc.com/news/technology-39246810
 * Process improvements postmortem
