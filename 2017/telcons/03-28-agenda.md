@@ -2,8 +2,8 @@
 
 San Francisco (U.S.A. - California)	Tuesday, 28 Mar 2017, 08:00:00	PDT	UTC-7 hours  
 Boston (U.S.A. - Massachusetts)	Tuesday, 28 Mar 2017, 11:00:00	EDT	UTC-4 hours  
-London (United Kingdom - England)	Tuesday, 28 Mar 2017, 15:00:00	UTC  
-Paris (France)	Tuesday, 28 Mar 2017, 16:00:00	CET	UTC+1 hours  
+London (United Kingdom - England)	Tuesday, 28 Mar 2017, 16:00:00	UTC+1 hours
+Paris (France)	Tuesday, 28 Mar 2017, 17:00:00	CET	UTC+2 hours  
 Tokyo (Japan)	Wednesday, 29 Mar 2017, 00:00	JST	UTC+9 hours  
 Corresponding UTC (GMT)	Tuesday, 28 Mar 2017, 15:00:00	 
 
