@@ -35,7 +35,7 @@ WebRTC Call: https://meet.jit.si/w3ctag
 
 Raw minutes: https://pad.w3ctag.org/p/2017-04-04-minutes.md
 
-### EME and copyright
+### EME and copyright (Notes from Marcos, as requested by DKA)
 EME is a legal instrument, in the guise of a technological standard, for content to fall under the purview of the Digital Millennium Copyright Act (or similar draconian laws depending on jurisdiction).
 
 Citing from, [The Public Domain](http://www.thepublicdomain.org/download/) (my emphasis):
