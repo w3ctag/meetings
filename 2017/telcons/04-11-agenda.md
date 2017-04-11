@@ -33,7 +33,7 @@ WebRTC Call: https://meet.jit.si/w3ctag
 
 *Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
-Raw minutes: https://pad.w3ctag.org/p/2017-04-04-minutes.md
+Raw minutes: https://pad.w3ctag.org/p/2017-04-11-minutes.md
 
 ### EME and copyright (Notes from Marcos, as requested by DKA)
 EME is a legal instrument, in the guise of a technological standard, for content to fall under the purview of the Digital Millennium Copyright Act (or similar draconian laws depending on jurisdiction).
