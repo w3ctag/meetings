@@ -11,7 +11,7 @@ Corresponding UTC (GMT)	Tuesday, 11 Apr 2017, 15:00:00
 
 * EME Covenant - What is the current status?
 * Process improvements postmortem - Andrew
-* [Web Payments Specicifations](https://github.com/w3ctag/spec-reviews/issues/152) - David, Travis
+* [Web Payments Specifications](https://github.com/w3ctag/spec-reviews/issues/152) - David, Travis
 * [Input Events](https://github.com/w3ctag/spec-reviews/issues/160) - Travis
 * [Screen Orientation API](https://github.com/w3ctag/spec-reviews/issues/157) - Sangwhan
 * [Keyboard Event 'code' and 'key'](https://github.com/w3ctag/spec-reviews/issues/155) - Travis
