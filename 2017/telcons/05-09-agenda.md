@@ -9,6 +9,7 @@ Corresponding UTC (GMT)	Tuesday, 09 May 2017, 15:00:00
 
 ### Call Agenda
 
+* Draft Finding - Andrew
 * [TV-Specific Web Subsetting](https://github.com/w3ctag/design-reviews/issues/105) - Hadley (pending feedback)
 * [Spec style/structure checklist](https://github.com/w3ctag/design-reviews/issues/136) - Alex
 * [WebRTC Stats review](https://github.com/w3ctag/design-reviews/issues/148) - Alex, Hadley, Travis (pending feedback)
