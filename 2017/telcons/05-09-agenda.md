@@ -20,7 +20,7 @@ Corresponding UTC (GMT)	Tuesday, 09 May 2017, 15:00:00
 
 Chair: Peter
 
-Scribe: ?
+Scribe: David
 
 IRC : irc.w3.org / #tagmem
 
