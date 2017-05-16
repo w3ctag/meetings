@@ -12,14 +12,14 @@ Corresponding UTC (GMT)	Tuesday, 16 May 2017, 15:00:00
 * Draft Finding - Andrew
 * London face-to-face scheduling update?
 * [Task Scheduling](https://github.com/w3ctag/design-reviews/issues/72) - Alex, David, Travis
-** Begin preparations for having a substantive discussion of this at London face-to-face?
+  * Begin preparations for having a substantive discussion of this at London face-to-face?
 * [Privacy Mode](https://github.com/w3ctag/design-reviews/issues/101) - Hadley
 * [TTML2](https://github.com/w3ctag/design-reviews/issues/138) - Dan
 * [Feature Policy](https://github.com/w3ctag/design-reviews/issues/159) - Andrew
 * [Web payment method manifest](https://github.com/w3ctag/design-reviews/issues/162) - David, Dan, Andrew
-** determine whether we want to suggest one or more particular solutions for the extra level of manifest indirection?
+  * determine whether we want to suggest one or more particular solutions for the extra level of manifest indirection?
 * [ViewportAPI naming re-review](https://github.com/w3ctag/design-reviews/issues/172) - David, Travis
-** the **external feedback** that was **pending** was only solicited 9.5 hours before our meeting...
+  * the **external feedback** that was **pending** was only solicited 9.5 hours before our meeting...
 
 ### Logistics
 
