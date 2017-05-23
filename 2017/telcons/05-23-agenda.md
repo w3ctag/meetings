@@ -13,7 +13,7 @@ Followups:
 * [Privacy Mode](https://github.com/w3ctag/design-reviews/issues/101) - Hadley
 * [TTML2](https://github.com/w3ctag/design-reviews/issues/138) - Dan
 * [Feature Policy](https://github.com/w3ctag/design-reviews/issues/159) - Andrew
-* London face-to-face scheduling update?
+* [London face-to-face](https://github.com/w3ctag/meetings/tree/gh-pages/2017/07-london) scheduling update?
 
 Current Items:
 * [Web Assembly Response API](https://github.com/w3ctag/design-reviews/issues/167) - Sangwhan, Alex, Travis
