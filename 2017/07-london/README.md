@@ -1,11 +1,8 @@
 # London F2F
 ## 2017 July 25 - 27 (Tuesday-Thursday)
-## ***DATES/LOCATION NOT YET FINAL***
+## ***DATES/LOCATION CONFIRMED ***
 
-* following IETF 99 (Prague, July 16-21)
-* preceding CSS Meeting (Paris, August 1-4)
-
-**Proposed** and available location (conference room is reserved for July 24-28):
+## Location
 
 > [Mozilla London](https://wiki.mozilla.org/London)<br>
 > Metal Box Factory<br>
@@ -16,3 +13,9 @@
 > United Kingdom
 >
 > [Tube](https://tfl.gov.uk/maps/track/tube): London Bridge (Jubilee Line, Northern Line)
+
+## Scheduling constraints
+
+* following [IETF 99](https://www.ietf.org/meeting/99/) (Prague, July 16-21)
+* preceding [CSS Meeting](https://wiki.csswg.org/planning/paris-2017) (Paris, August 1-4)
+
