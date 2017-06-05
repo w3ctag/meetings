@@ -11,7 +11,7 @@ Corresponding UTC (GMT)	Tuesday, 06 June 2017, 15:00:00
 
 Followups:
 * [Privacy Mode](https://github.com/w3ctag/design-reviews/issues/101) - Hadley (have people updated the spreadsheet as requested?)
-* [London face-to-face](https://github.com/w3ctag/meetings/tree/gh-pages/2017/07-london) scheduling update?
+* [London face-to-face](https://github.com/w3ctag/meetings/tree/gh-pages/2017/07-london): Dev meet-up confirmed
 
 Current Issues:
 * [Off-Screen Canvas](https://github.com/w3ctag/design-reviews/issues/141) - Travis
