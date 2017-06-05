@@ -14,7 +14,10 @@ Followups:
 * [London face-to-face](https://github.com/w3ctag/meetings/tree/gh-pages/2017/07-london) scheduling update?
 
 Current Issues:
+* [Off-Screen Canvas](https://github.com/w3ctag/design-reviews/issues/141) - Travis
+* [Web Sgare API](https://github.com/w3ctag/design-reviews/issues/179) - Review Requested!
 * [Spec style/structure checklist](https://github.com/w3ctag/design-reviews/issues/136) - Alex
+* [Web Payment Manifest](https://github.com/w3ctag/design-reviews/issues/162) - David / Andrew
 
 Still pending:
 * [TTML2](https://github.com/w3ctag/design-reviews/issues/138) - Dan
