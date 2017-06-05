@@ -19,3 +19,7 @@ United Kingdom
 * following [IETF 99](https://www.ietf.org/meeting/99/) (Prague, July 16-21)
 * preceding [CSS Meeting](https://wiki.csswg.org/planning/paris-2017) (Paris, August 1-4)
 
+## Developer meet-up
+
+* Date confirmed: 26 July
+* Location confirmed: FT offices nearby
