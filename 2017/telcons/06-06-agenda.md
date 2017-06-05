@@ -4,7 +4,7 @@ San Francisco (U.S.A. - California)	Tuesday, 06 June 2017, 08:00:00	PDT	UTC-7 ho
 Boston (U.S.A. - Massachusetts)	Tuesday, 06 June 2017, 11:00:00	EDT	UTC-4 hours  
 London (United Kingdom - England)	Tuesday, 06 June 2017, 16:00:00	BST	UTC+1 hours  
 Paris (France)	Tuesday, 06 June 2017, 17:00:00	CEST	UTC+2 hours  
-Tokyo (Japan)	Wednesday, 07 June2017, 00:00	JST	UTC+9 hours  
+Tokyo (Japan)	Wednesday, 07 June 2017, 00:00	JST	UTC+9 hours  
 Corresponding UTC (GMT)	Tuesday, 06 June 2017, 15:00:00	 
 
 ### Call Agenda (still in progress)
