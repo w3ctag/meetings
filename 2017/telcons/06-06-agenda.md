@@ -15,7 +15,7 @@ Followups:
 
 Current Issues:
 * [Off-Screen Canvas](https://github.com/w3ctag/design-reviews/issues/141) - Travis
-* [Web Sgare API](https://github.com/w3ctag/design-reviews/issues/179) - Review Requested!
+* [Web Share API](https://github.com/w3ctag/design-reviews/issues/179) - Review Requested!
 * [Spec style/structure checklist](https://github.com/w3ctag/design-reviews/issues/136) - Alex
 * [Web Payment Manifest](https://github.com/w3ctag/design-reviews/issues/162) - David / Andrew
 
