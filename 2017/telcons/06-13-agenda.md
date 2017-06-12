@@ -1,12 +1,12 @@
 ### TAG Teleconference – 13 June 2017 ; 15:00 UTC
 
 <table>
-<tr><td> San Francisco (U.S.A. - California) <td> Tuesday, 06 June 2017 <td> 08:00 PDT <td> UTC-7 hours
-<tr><td> Boston (U.S.A. - Massachusetts) <td> Tuesday, 06 June 2017 <td> 11:00 EDT <td> UTC-4 hours
-<tr><td> London (United Kingdom - England) <td> Tuesday, 06 June 2017 <td> 16:00 BST <td> UTC+1 hours
-<tr><td> Paris (France) <td> Tuesday, 06 June 2017 <td> 17:00 CEST <td> UTC+2 hours
-<tr><td> Tokyo (Japan) <td> Wednesday, 07 June 2017 <td> 00:00 JST <td> UTC+9 hours
-<tr><td> Corresponding UTC (GMT) <td> Tuesday, 06 June 2017 <td colspan=2> 15:00 UTC
+<tr><td> San Francisco (U.S.A. - California) <td> Tuesday, 13 June 2017 <td> 08:00 PDT <td> UTC-7 hours
+<tr><td> Boston (U.S.A. - Massachusetts) <td> Tuesday, 13 June 2017 <td> 11:00 EDT <td> UTC-4 hours
+<tr><td> London (United Kingdom - England) <td> Tuesday, 13 June 2017 <td> 16:00 BST <td> UTC+1 hours
+<tr><td> Paris (France) <td> Tuesday, 13 June 2017 <td> 17:00 CEST <td> UTC+2 hours
+<tr><td> Tokyo (Japan) <td> Wednesday, 14 June 2017 <td> 00:00 JST <td> UTC+9 hours
+<tr><td> Corresponding UTC (GMT) <td> Tuesday, 13 June 2017 <td colspan=2> 15:00 UTC
 </table>
 
 ### Call Agenda (still in progress)
