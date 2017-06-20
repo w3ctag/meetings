@@ -34,7 +34,7 @@ Scribe: ?
 
 IRC : irc.w3.org / #tagmem
 
-WebRTC Call: https://meet.jit.si/w3ctag
+Trying https://appear.in/w3ctagpro first then going to https://meet.jit.si/w3ctag if that doesn't work
 
 *Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
