@@ -14,6 +14,7 @@
 Followups:
 * [London face-to-face](https://github.com/w3ctag/meetings/tree/gh-pages/2017/07-london): any updates
 * [Spec style/structure checklist](https://github.com/w3ctag/design-reviews/issues/136) - Alex
+* A_P finding - Andrew
 
 Current Issues (close or assign new dates?)
 * [script type=module](https://github.com/w3ctag/design-reviews/issues/180) - Dan
