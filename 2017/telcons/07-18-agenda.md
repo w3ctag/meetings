@@ -33,4 +33,4 @@ Trying https://appear.in/w3ctagpro first then going to https://meet.jit.si/w3cta
 
 *Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
-Raw minutes: https://pad.w3ctag.org/p/2017-07-11-minutes.md
+Raw minutes: https://pad.w3ctag.org/p/2017-07-18-minutes.md
