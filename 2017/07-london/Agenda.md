@@ -1,5 +1,14 @@
 ## Agenda
 
+### Tuesday
+
+* AB Proposal
+* 
+
+### Wednesday
+
+### Thursday
+
 ## Scribe Schedule
 
 ```
