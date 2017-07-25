@@ -8,6 +8,7 @@
 
 ### Wednesday
 
+* Nigel Megitt (TTML)
 * Distributed Content
 
 ### Thursday
