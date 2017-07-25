@@ -26,6 +26,6 @@ United Kingdom
 
 ## Minutes
 
-* [Day 1](https://pad.w3ctag.org/p/2017-07-25-minutes.md)
-* [Day 2](https://pad.w3ctag.org/p/2017-07-26-minutes.md) (Maybe open a separate pad for the dev meetup?)
-* [Day 3](https://pad.w3ctag.org/p/2017-07-27-minutes.md)
+* [Day 1](https://pad.w3ctag.org/p/2017-07-25-minutes.md) (scribes: TL, AB)
+* [Day 2](https://pad.w3ctag.org/p/2017-07-26-minutes.md) (scribes: DB, AR) (Maybe open a separate pad for the dev meetup?)
+* [Day 3](https://pad.w3ctag.org/p/2017-07-27-minutes.md) (scribes: SM, HB)
