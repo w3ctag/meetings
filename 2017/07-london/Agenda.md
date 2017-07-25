@@ -5,6 +5,7 @@
 * AB Proposal
 * Guidelines Summary
 * Private Browsing (Planning)
+* Triage Design Review Issues
 
 ### Wednesday
 
@@ -18,6 +19,7 @@
 ### Other Agenda Topics (not scheduled yet)
 
 * Design Reviews/CORS issues
+* Design Reviews/Origin Policy
 * API Design Doc Publication
 * HTML Review
 * Streams-like doc
