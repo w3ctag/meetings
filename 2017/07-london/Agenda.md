@@ -3,9 +3,9 @@
 
 ### Tuesday
 
-* AB Proposal
 * Guidelines Summary
 * Private Browsing (Planning)
+* AB Proposal
 * Triage Design Review Issues
 
 ### Wednesday
@@ -13,6 +13,7 @@
 * Design Principles Issue Triage
 * Nigel Megitt (TTML)
 * Distributed Content
+* Private Browsing Updates
 
 ### Thursday
 
