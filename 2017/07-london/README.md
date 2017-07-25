@@ -23,3 +23,9 @@ United Kingdom
 
 * Date confirmed: 26 July
 * Location confirmed: FT offices nearby
+
+## Minutes
+
+* [Day 1](https://pad.w3ctag.org/p/2017-07-25-minutes.md) (Maybe open a separate pad for the dev meetup?)
+* [Day 2](https://pad.w3ctag.org/p/2017-07-26-minutes.md)
+* [Day 3](https://pad.w3ctag.org/p/2017-07-27-minutes.md)
