@@ -1,3 +1,4 @@
+
 ## Agenda
 
 ### Tuesday
@@ -9,6 +10,7 @@
 
 ### Wednesday
 
+* Design Principles Issue Triage
 * Nigel Megitt (TTML)
 * Distributed Content
 
@@ -28,7 +30,7 @@
 ## Scribe Schedule
 
 ```
-            +--------------------+
+            +----------+---------+
             |   AM     |   PM    |
 +-----------+----------+---------+
 | Tuesday   | Travis   | Andrew  |
