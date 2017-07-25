@@ -3,11 +3,16 @@
 ### Tuesday
 
 * AB Proposal
-* 
+* Guidelines Summary
+* Private Browsing (Planning)
 
 ### Wednesday
 
+* Distributed Content
+
 ### Thursday
+
+* Distributed Content
 
 ## Scribe Schedule
 
