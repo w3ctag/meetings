@@ -14,6 +14,14 @@
 
 * Distributed Content
 
+### Other Agenda Topics (not scheduled yet)
+
+* Design Reviews/CORS issues
+* API Design Doc Publication
+* HTML Review
+* Streams-like doc
+
+
 ## Scribe Schedule
 
 ```
