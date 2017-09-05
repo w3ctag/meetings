@@ -19,7 +19,6 @@ Follow up:
 
 Design Issues: 
 * [Review of signature-based resource loading restrictions](https://github.com/w3ctag/design-reviews/issues/186) - Sangwhan, Hadley
-* [Mediastream recorder](https://github.com/w3ctag/design-reviews/issues/131) - Alex, Travis
 * [Media Capture From DOM Element](https://github.com/w3ctag/design-reviews/issues/130) - Sangwhan, Travis
 * [WebRTC Stats Review](https://github.com/w3ctag/design-reviews/issues/148) - Alex, Hadley, Travis
 * [Task Scheduling](https://github.com/w3ctag/design-reviews/issues/72) - Alex, David, Travis
