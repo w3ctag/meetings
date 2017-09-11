@@ -26,7 +26,7 @@ Also:
 
 ### Logistics
 
-Chair: Peter
+Chair: Dan
 
 Scribe: ?
 
