@@ -8,3 +8,8 @@ Location: [Université de Nice Sophia-Antipolis](https://www.google.fr/maps/@43.
 This is close to a tramway stop (T1) "Valrose Université" [(Map)](https://www.google.com/maps/d/viewer?mid=18mAnZN8urpQ4EMOZT_Qgoot5xMg&ll=43.706734670068315%2C7.268681386535718&z=15)<br>
 The meeting room is on the ground floor.
 
+## Meetings
+
+* Day 1 [minutes](https://pad.w3ctag.org/p/2017-09-26-minutes.md)
+* Day 2 [minutes](https://pad.w3ctag.org/p/2017-09-27-minutes.md)
+* Day 3 [minutes](https://pad.w3ctag.org/p/2017-09-28-minutes.md)
