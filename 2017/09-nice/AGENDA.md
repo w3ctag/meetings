@@ -1,3 +1,11 @@
+## Scribe
+
+|     | TUE    | WED    | THUR     |
+| --- | ------ | ------ | -------- |
+| AM  | Travis | David  | Alex     |
+| PM  | Andrew | Hadley | Sangwhan |
+
+
 # Day 1
 ### AM
 ### PM
@@ -20,6 +28,6 @@
 * Design guidelines
 * EME-pacalyse + what o we do
 * Private Browsing
-* Ads
+* Ads (ads.txt,... other IAB proposals)
 * Safari new features
-
+* Apple proposal (origin model v2)
