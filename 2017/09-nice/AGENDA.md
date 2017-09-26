@@ -18,7 +18,7 @@
  - [x] Secure Context PR
  - [x] EME-followup
  - [x] Private browsing
- - [ ] Review all repos for any extra issues.
+ - [x] 10-minute timeboxed design-reviews issue triage
 
 # Day 2
 ### AM
