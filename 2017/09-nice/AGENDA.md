@@ -50,3 +50,4 @@
 * Call schedule
 * Next Meetings
 * See if [Nigel has feedback on TTML](https://github.com/w3ctag/design-reviews/issues/138)
+* Checkup with [Dom on WebRTC Stats](https://github.com/w3ctag/design-reviews/issues/148)
