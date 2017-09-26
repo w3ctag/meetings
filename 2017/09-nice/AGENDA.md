@@ -8,6 +8,9 @@
 
 # Day 1
 ### AM
+* Automotive
+* Safari
+* Ads
 ### PM
 
 # Day 2
