@@ -49,4 +49,4 @@
 * Apple proposal (origin model v2)
 * Call schedule
 * Next Meetings
-* See if Nigel has feedback on TTML
+* See if [Nigel has feedback on TTML](https://github.com/w3ctag/design-reviews/issues/138)
