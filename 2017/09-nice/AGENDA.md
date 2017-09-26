@@ -1,4 +1,17 @@
-## Ideas
+# Day 1
+### AM
+### PM
+
+# Day 2
+### AM
+### PM
+
+# Day 3
+### AM
+### PM
+
+# Ideas (for discussion consideration)
+(in no particular order)
 
 * Inventory of other repos (do we want to retire the report card)
 * Automotive email
@@ -9,3 +22,4 @@
 * Private Browsing
 * Ads
 * Safari new features
+
