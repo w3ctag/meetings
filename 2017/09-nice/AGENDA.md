@@ -17,7 +17,7 @@
  - [x] Ads (SafeFrame)
  - [x] Secure Context PR
  - [x] EME-followup
- - [ ] Private browsing
+ - [x] Private browsing
  - [ ] Review all repos for any extra issues.
 
 # Day 2
