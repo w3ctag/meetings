@@ -22,11 +22,17 @@
 
 # Day 2
 ### AM
+ - [ ] All-up review of issues
 ### PM
+ - [ ] All-up review of issues (cont.)
 
 # Day 3
 ### AM
+ - [ ] Call Schedule
+ - [ ] TPAC
+ - [ ] Next meeting
 ### PM
+ - [ ] All-up review of issues (cont.)
 
 # Ideas (for discussion consideration)
 (in no particular order)
