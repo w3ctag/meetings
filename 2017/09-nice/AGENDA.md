@@ -8,9 +8,12 @@
 
 # Day 1
 ### AM
-* Automotive
-* Safari
-* Ads
+
+  - [x] Automotive
+  - [x] Extensible Web Report Card 
+  - [ ] Safari
+  - [ ] Ads
+
 ### PM
 
 # Day 2
