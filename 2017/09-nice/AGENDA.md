@@ -28,6 +28,7 @@
 
 # Day 3
 ### AM
+ - [ ] Mike West (10:00)
  - [ ] Call Schedule
  - [ ] TPAC
  - [ ] Next meeting
