@@ -28,7 +28,7 @@
 
 # Day 3
 ### AM
- - [ ] Mike West (10:00)
+ - [ ] Mike West (10:00) - `*public-autho*` and `*public-deauth*` what are we likely to make progress on (what won't be held-back by security folks)?
  - [ ] Call Schedule
  - [ ] TPAC
  - [ ] Next meeting
