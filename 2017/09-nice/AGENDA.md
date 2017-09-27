@@ -25,6 +25,10 @@
  - [x] All-up review of issues
 ### PM
  - [x] All-up review of issues (cont.)
+ - [x] Next meetings (tentative)
+    * 31 Jan - 2 Feb (London)
+    * 17 - 19 April (Tokyo)
+    * 24 - 26 July (Boston)
  - [ ] Pending external feedback items
     - [ ] a
 
@@ -33,7 +37,6 @@
  - [ ] Mike West (10:00) - `*public-autho*` and `*public-deauth*` what are we likely to make progress on (what won't be held-back by security folks)?
  - [ ] Call Schedule
  - [ ] TPAC
- - [ ] Next meeting
 ### PM
  - [ ] All-up review of issues (cont.)
 
