@@ -52,3 +52,4 @@
 * Next Meetings
 * See if [Nigel has feedback on TTML](https://github.com/w3ctag/design-reviews/issues/138)
 * Checkup with [Dom on WebRTC Stats](https://github.com/w3ctag/design-reviews/issues/148)
+* Adjust Design-reviews new issue template to have locale-aware greeting based on next meeting location.
