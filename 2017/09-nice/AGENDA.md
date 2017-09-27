@@ -22,9 +22,11 @@
 
 # Day 2
 ### AM
- - [ ] All-up review of issues
+ - [x] All-up review of issues
 ### PM
- - [ ] All-up review of issues (cont.)
+ - [x] All-up review of issues (cont.)
+ - [ ] Pending external feedback items
+    - [ ] a
 
 # Day 3
 ### AM
