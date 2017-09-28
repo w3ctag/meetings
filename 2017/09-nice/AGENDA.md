@@ -32,10 +32,11 @@
 
 # Day 3
 ### AM
- - [x] Checkup with [Dom on WebRTC Stats](https://github.com/w3ctag/design-reviews/issues/148)
+ - [x] Checkup with [Dom on WebRTC Stats](https://github.com/w3ctag/design-reviews/issues/148) 
+    * no updates yet.
  - [x] Adjust Design-reviews new issue template to have locale-aware greeting based on next meeting location.
  - [x] TPAC planning
- - [ ] Mike West (10:00) - `*public-autho*` and `*public-deauth*` what are we likely to make progress on (what won't be held-back by security folks)?
+ - [ ] Mike West (10:00) - `*public-auth*` and `*public-deauth*` what are we likely to make progress on (what won't be held-back by security folks)?
  - [ ] Inventory of other repo issues (quick)
  - [ ] Design principles (triage)
  - [ ] Pending external feedback items from design reviews (cont.)
