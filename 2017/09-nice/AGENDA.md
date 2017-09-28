@@ -34,16 +34,16 @@
 ### AM
  - [x] Checkup with [Dom on WebRTC Stats](https://github.com/w3ctag/design-reviews/issues/148)
  - [x] Adjust Design-reviews new issue template to have locale-aware greeting based on next meeting location.
+ - [x] TPAC planning
  - [ ] Mike West (10:00) - `*public-autho*` and `*public-deauth*` what are we likely to make progress on (what won't be held-back by security folks)?
- - [ ] Pending external feedback items (cont.)
- - [ ] Inventory of other repo issues (+design principles)
+ - [ ] Inventory of other repo issues (quick)
+ - [ ] Design principles (triage)
+ - [ ] Pending external feedback items from design reviews (cont.)
  - [ ] Call Schedule
- - [ ] TPAC
 ### PM
  - [ ] All-up review of issues (cont.)
 
 # Ideas (for discussion consideration)
 (in no particular order)
 - [ ] Apple proposal (origin model v2)
-- [ ] Call schedule
 - [ ] Upcoming Election cycle and finding candidates
