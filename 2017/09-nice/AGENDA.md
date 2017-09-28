@@ -8,7 +8,6 @@
 
 # Day 1
 ### AM
-
  - [x] Automotive email
  - [x] Extensible Web Report Card 
  - [x] Safari
@@ -36,7 +35,8 @@
  - [x] Checkup with [Dom on WebRTC Stats](https://github.com/w3ctag/design-reviews/issues/148)
  - [x] Adjust Design-reviews new issue template to have locale-aware greeting based on next meeting location.
  - [ ] Mike West (10:00) - `*public-autho*` and `*public-deauth*` what are we likely to make progress on (what won't be held-back by security folks)?
- - [ ] Design-reviews breakouts (cont.)
+ - [ ] Pending external feedback items (cont.)
+ - [ ] Inventory of other repo issues (+design principles)
  - [ ] Call Schedule
  - [ ] TPAC
 ### PM
@@ -44,8 +44,6 @@
 
 # Ideas (for discussion consideration)
 (in no particular order)
-- [ ] Inventory of other repos (do we want to retire the report card)
-- [ ] Design guidelines
 - [ ] Apple proposal (origin model v2)
 - [ ] Call schedule
 - [ ] Upcoming Election cycle and finding candidates
