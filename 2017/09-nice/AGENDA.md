@@ -37,8 +37,8 @@
  - [x] Adjust Design-reviews new issue template to have locale-aware greeting based on next meeting location.
  - [x] TPAC planning
  - [x] Upcoming Election cycle and finding candidates
- - [ ] Mike West (10:00) - `*public-auth*` and `*public-deauth*` what are we likely to make progress on (what won't be held-back by security folks)?
- - [ ] Inventory of other repo issues (quick)
+ - [x] Mike West (10:00) - `*public-auth*` and `*public-deauth*` what are we likely to make progress on (what won't be held-back by security folks)?
+ - [x] Inventory of other repo issues (quick)
  - [ ] Design principles (triage)
  - [ ] Pending external feedback items from design reviews (cont.)
  - [ ] Call Schedule
