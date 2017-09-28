@@ -9,7 +9,7 @@
 # Day 1
 ### AM
 
- - [x] Automotive
+ - [x] Automotive email
  - [x] Extensible Web Report Card 
  - [x] Safari
 ### PM
@@ -33,7 +33,8 @@
 
 # Day 3
 ### AM
- - [ ] Checkup with [Dom on WebRTC Stats](https://github.com/w3ctag/design-reviews/issues/148)
+ - [x] Checkup with [Dom on WebRTC Stats](https://github.com/w3ctag/design-reviews/issues/148)
+ - [x] Adjust Design-reviews new issue template to have locale-aware greeting based on next meeting location.
  - [ ] Mike West (10:00) - `*public-autho*` and `*public-deauth*` what are we likely to make progress on (what won't be held-back by security folks)?
  - [ ] Design-reviews breakouts (cont.)
  - [ ] Call Schedule
@@ -44,16 +45,7 @@
 # Ideas (for discussion consideration)
 (in no particular order)
 - [ ] Inventory of other repos (do we want to retire the report card)
-- [x] Automotive email
-- [x] Pull-request on secure contexts
 - [ ] Design guidelines
-- [x] EME-pacalyse + what o we do
-- [x] Private Browsing
-- [x] Ads (ads.txt,... other IAB proposals)
-- [x] Safari new features
 - [ ] Apple proposal (origin model v2)
 - [ ] Call schedule
-- [x] Next Meetings
-- [ ] Checkup with [Dom on WebRTC Stats](https://github.com/w3ctag/design-reviews/issues/148)
-- [ ] Adjust Design-reviews new issue template to have locale-aware greeting based on next meeting location.
 - [ ] Upcoming Election cycle and finding candidates
