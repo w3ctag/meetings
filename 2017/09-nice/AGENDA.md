@@ -29,12 +29,13 @@
     * 31 Jan - 2 Feb (London)
     * 17 - 19 April (Tokyo)
     * 24 - 26 July (Boston)
- - [ ] Pending external feedback items
-    - [ ] a
+ - [x] Pending external feedback items
 
 # Day 3
 ### AM
+ - [ ] Checkup with [Dom on WebRTC Stats](https://github.com/w3ctag/design-reviews/issues/148)
  - [ ] Mike West (10:00) - `*public-autho*` and `*public-deauth*` what are we likely to make progress on (what won't be held-back by security folks)?
+ - [ ] Design-reviews breakouts (cont.)
  - [ ] Call Schedule
  - [ ] TPAC
 ### PM
@@ -42,20 +43,17 @@
 
 # Ideas (for discussion consideration)
 (in no particular order)
-
-* Inventory of other repos (do we want to retire the report card)
-* Automotive email
-* Pull-request on secure contexts
-* Issues from other repos
-* Design guidelines
-* EME-pacalyse + what o we do
-* Private Browsing
-* Ads (ads.txt,... other IAB proposals)
-* Safari new features
-* Apple proposal (origin model v2)
-* Call schedule
-* Next Meetings
-* See if [Nigel has feedback on TTML](https://github.com/w3ctag/design-reviews/issues/138)
-* Checkup with [Dom on WebRTC Stats](https://github.com/w3ctag/design-reviews/issues/148)
-* Adjust Design-reviews new issue template to have locale-aware greeting based on next meeting location.
-* Upcoming Election cycle and finding candidates
+- [ ] Inventory of other repos (do we want to retire the report card)
+- [x] Automotive email
+- [x] Pull-request on secure contexts
+- [ ] Design guidelines
+- [x] EME-pacalyse + what o we do
+- [x] Private Browsing
+- [x] Ads (ads.txt,... other IAB proposals)
+- [x] Safari new features
+- [ ] Apple proposal (origin model v2)
+- [ ] Call schedule
+- [x] Next Meetings
+- [ ] Checkup with [Dom on WebRTC Stats](https://github.com/w3ctag/design-reviews/issues/148)
+- [ ] Adjust Design-reviews new issue template to have locale-aware greeting based on next meeting location.
+- [ ] Upcoming Election cycle and finding candidates
