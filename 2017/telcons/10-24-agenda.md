@@ -11,6 +11,10 @@
 
 ### Call Agenda
 
+European time change reminder for next week.
+
+Rescheduling of [April 2018 meeting](https://github.com/w3ctag/meetings/tree/gh-pages/2018/04-tokyo)?
+
 Design Issues:
 * [Intersection Observer](https://github.com/w3ctag/design-reviews/issues/197) Alex, David
 * [Request review for PauseFrame API](https://github.com/w3ctag/design-reviews/issues/196)
