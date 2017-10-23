@@ -5,7 +5,7 @@
 <tr><td> Boston (U.S.A. - Massachusetts) <td> Tuesday, 24 October 2017 <td> 11:00 EDT <td> UTC-4 hours
 <tr><td> London (United Kingdom - England) <td> Tuesday, 24 October 2017 <td> 16:00 BST <td> UTC+1 hours
 <tr><td> Paris (France) <td> Tuesday, 24 October 2017 <td> 17:00 CEST <td> UTC+2 hours
-<tr><td> Tokyo (Japan) <td> Wednesday, 18 October 2017 <td> 00:00 JST <td> UTC+9 hours
+<tr><td> Tokyo (Japan) <td> Wednesday, 15 October 2017 <td> 00:00 JST <td> UTC+9 hours
 <tr><td> Corresponding UTC (GMT) <td> Tuesday, 24 October 2017 <td colspan=2> 15:00 UTC
 </table>
 
