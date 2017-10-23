@@ -11,15 +11,15 @@
 
 ### Call Agenda
 
-Design Issues:  
-[Intersection Observer](https://github.com/w3ctag/design-reviews/issues/197) Alex, David  
-[Request review for PauseFrame API](https://github.com/w3ctag/design-reviews/issues/196)   
-[Review request for IndexedDB Observers](https://github.com/w3ctag/design-reviews/issues/189) Sangwhan, Travis  
-[Review request for WebVR ](https://github.com/w3ctag/design-reviews/issues/185) Alex, Hadley, Travis  
-[Web USB](https://github.com/w3ctag/design-reviews/issues/108) Alex, David, Dan  
+Design Issues:
+* [Intersection Observer](https://github.com/w3ctag/design-reviews/issues/197) Alex, David
+* [Request review for PauseFrame API](https://github.com/w3ctag/design-reviews/issues/196)
+* [Review request for IndexedDB Observers](https://github.com/w3ctag/design-reviews/issues/189) Sangwhan, Travis
+* [Review request for WebVR ](https://github.com/w3ctag/design-reviews/issues/185) Alex, Hadley, Travis
+* [Web USB](https://github.com/w3ctag/design-reviews/issues/108) Alex, David, Dan
 
-Design Principles:  
-Status of secure contexts?  
+Design Principles:
+* Status of secure contexts?
 
 AOB
 
