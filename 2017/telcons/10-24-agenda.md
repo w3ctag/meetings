@@ -11,7 +11,7 @@
 
 ### Call Agenda
 
-European time change reminder for next week.
+European time change reminder: next week's call will be **one hour earlier** for Europeans.
 
 Rescheduling of [April 2018 meeting](https://github.com/w3ctag/meetings/tree/gh-pages/2018/04-tokyo)?
 
