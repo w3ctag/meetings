@@ -16,10 +16,10 @@ European time change reminder: next week's call will be **one hour earlier** for
 Rescheduling of [April 2018 meeting](https://github.com/w3ctag/meetings/tree/gh-pages/2018/04-tokyo)?
 
 Design Issues:
+* [Review request for WebVR](https://github.com/w3ctag/design-reviews/issues/185) Alex, Hadley, Travis, Guests
 * [Intersection Observer](https://github.com/w3ctag/design-reviews/issues/197) Alex, David
 * [Request review for PauseFrame API](https://github.com/w3ctag/design-reviews/issues/196)
 * [Review request for IndexedDB Observers](https://github.com/w3ctag/design-reviews/issues/189) Sangwhan, Travis
-* [Review request for WebVR ](https://github.com/w3ctag/design-reviews/issues/185) Alex, Hadley, Travis
 * [Web USB](https://github.com/w3ctag/design-reviews/issues/108) Alex, David, Dan
 
 Design Principles:
@@ -39,4 +39,4 @@ Trying https://appear.in/w3ctagpro first then going to https://meet.jit.si/w3cta
 
 *Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
-Raw minutes: https://pad.w3ctag.org/p/2017-10-25-minutes.md
+Raw minutes: https://pad.w3ctag.org/p/2017-10-24-minutes.md
