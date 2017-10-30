@@ -12,9 +12,33 @@
 ### Call Agenda
 
 
+* [Intersection Observer](https://github.com/w3ctag/design-reviews/issues/197) - Alex, David
+* [Request review for PauseFrame API](https://github.com/w3ctag/design-reviews/issues/196)
+* [Review request for IndexedDB Observers](https://github.com/w3ctag/design-reviews/issues/189) - Sangwhan, Travis
+* [Web USB](https://github.com/w3ctag/design-reviews/issues/108) - Alex, David, Dan
+
+* [Scroll Boundary Behavior](https://github.com/w3ctag/design-reviews/issues/193) - David, Andrew, Peter
+* [Serialization of Natural Language](https://github.com/w3ctag/design-reviews/issues/178) - Sangwhan, David, Travis
+* [Input Events Level 2](https://github.com/w3ctag/design-reviews/issues/173) - Sangwhan, Alex, Travis
+* [WebAssembly Response API](https://github.com/w3ctag/design-reviews/issues/167) - Sangwha, Alex, Travis
+* [With Credentials](https://github.com/w3ctag/design-reviews/issues/76) - David
+
+Design Principles:
+* Status of secure contexts?
+
+Triage:
+* [Modeling media auto-playing as a permission](https://github.com/w3ctag/design-reviews/issues/203)
+* [saveData attribute in Network Information API](https://github.com/w3ctag/design-reviews/issues/204)
+* [Web Lifecycle for system initiated Discarding & Stopping ](https://github.com/w3ctag/design-reviews/issues/205)
+* [`Accept-CH` header is weird](https://github.com/w3ctag/design-reviews/issues/206)
+* [Sensor APIs ](https://github.com/w3ctag/design-reviews/issues/207)
+* [import.meta.url, and import.meta generally ](https://github.com/w3ctag/design-reviews/issues/208)
+
+
+
 ### Logistics
 
-Chair: ?
+Chair: Peter
 
 Scribe: ?
 
