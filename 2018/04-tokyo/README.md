@@ -1,3 +1,3 @@
 # Tokyo F2F
-## during week of 2018 April 16-20
+## Thursday-Saturday, April 5-7, 2018
 ## ***DATES/LOCATION NOT YET FINAL***
