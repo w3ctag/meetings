@@ -1,4 +1,4 @@
-### TAG Teleconference – 28 November 2017 ; 06:00 UTC
+### TAG Teleconference – 29 November 2017 ; 06:00 UTC
 
 PLEASE NOTE TIMES - Tuesday night for California, Wednesday for everyone else
 
