@@ -16,7 +16,7 @@ PLEASE NOTE TIMES - Tuesday night for California, Wednesday for everyone else
 * [Modeling media auto-playing as a permission](https://github.com/w3ctag/design-reviews/issues/203) - when to invite guest - Alex, Dan, Hadley
 * [WebUSB](https://github.com/w3ctag/design-reviews/issues/108) - Alex, David, Dan, Hadley
 * [Serialization of Natural Language](https://github.com/w3ctag/design-reviews/issues/178) - Sangwhan, David, Travis
-* [WebAssembly Response API](https://github.com/w3ctag/design-reviews/issues/167) - Sangwha, Alex, Travis
+* [WebAssembly Response API](https://github.com/w3ctag/design-reviews/issues/167) - Sangwhan, Alex, Travis
 * [With Credentials](https://github.com/w3ctag/design-reviews/issues/76) - David
 
 Triage:
