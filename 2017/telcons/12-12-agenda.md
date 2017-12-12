@@ -33,4 +33,4 @@ Trying https://meet.jit.si/w3ctag first then going to https://appear.in/w3ctagpr
 
 *Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
-Raw minutes: https://cryptpad.fr/pad/#/1/edit/GpGiv+gMMGEMUdb6lQ2akg/mObNtKM1FardcqQ0rE3vjzwr/
+Raw minutes: https://cryptpad.fr/pad/#/1/view/GpGiv+gMMGEMUdb6lQ2akg/gCtzEJ3B8wHxZ2lPsbTKg2ffmacIq3g5Ljd3ZSi80-0/
