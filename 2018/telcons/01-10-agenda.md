@@ -14,6 +14,8 @@ PLEASE NOTE TIMES - Tuesday night for California, Wednesday for everyone else
 ### Call Agenda
 
 
+* [London meeting](https://github.com/w3ctag/meetings/tree/gh-pages/2018/01-london) location?
+* [Tokyo meeting](https://github.com/w3ctag/meetings/tree/gh-pages/2018/04-tokyo) dates/location?
 * [Sensor APIs ](https://github.com/w3ctag/design-reviews/issues/207) - Sangwhan 
 * [Web lifecycle](https://github.com/w3ctag/design-reviews/issues/205) - Travis
 * [`saveData` attribute](https://github.com/w3ctag/design-reviews/issues/204) - Alex, Sangwhan
