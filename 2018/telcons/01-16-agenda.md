@@ -33,7 +33,7 @@ Triage:
 * [Web Speech API](https://github.com/w3ctag/design-reviews/issues/214) 
 * [Media Capabilities](https://github.com/w3ctag/design-reviews/issues/218) 
 * [CSS Selectors 4](https://github.com/w3ctag/design-reviews/issues/219)
-* [Async Clipborad Text API](https://github.com/w3ctag/design-reviews/issues/222)
+* [Async Clipboard Text API](https://github.com/w3ctag/design-reviews/issues/222)
 * [CSS Typed OM](https://github.com/w3ctag/design-reviews/issues/223)
 
 ### Logistics
