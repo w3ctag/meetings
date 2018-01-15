@@ -50,4 +50,4 @@ https://appear.in/w3ctag
 
 *Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
-Raw minutes: tbd
+Raw minutes: https://cryptpad.w3ctag.org/code/#/1/view/JIfaYB9XX22X9dEncdbsuw/YiicWJAmk9GY+V-p73QUNfJs87Ext1J52w8CXxGtm1U/
