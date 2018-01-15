@@ -13,8 +13,7 @@ PLEASE NOTE TIMES - Tuesday night for California, Wednesday for everyone else
 
 ### Call Agenda
 
-
-[in progress]
+[still a work in progress - DKA]
 
 * [London meeting](https://github.com/w3ctag/meetings/tree/gh-pages/2018/01-london) location?
 * [Tokyo meeting](https://github.com/w3ctag/meetings/tree/gh-pages/2018/04-tokyo) dates/location?
