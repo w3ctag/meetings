@@ -15,6 +15,8 @@ PLEASE NOTE TIMES - Tuesday night for California, Wednesday for everyone else
 
 * [London meeting](https://github.com/w3ctag/meetings/tree/gh-pages/2018/01-london) location?
 * [Tokyo meeting](https://github.com/w3ctag/meetings/tree/gh-pages/2018/04-tokyo) dates/location?
+* [permission delegation](https://twitter.com/mikewest/status/952807134454009856?ref_src=twcamp%5Eshare%7Ctwsrc%5Em5%7Ctwgr%5Eemail%7Ctwcon%5E7046%7Ctwterm%5E3) do we need an issue on this?
+
 * [&lt;link&gt; rel="modulepreload"](https://github.com/w3ctag/design-reviews/issues/213) - Alex, Andrew
 * [Files and Directory Entries API with webkit prefixes](https://github.com/w3ctag/design-reviews/issues/215) - Andrew
 * [Media auto-play as a permission](https://github.com/w3ctag/design-reviews/issues/203) - Alex, Dan, Hadley
