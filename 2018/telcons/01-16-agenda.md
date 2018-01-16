@@ -1,4 +1,4 @@
-### TAG Teleconference – 16 January 2018 ; 06:00 UTC
+### TAG Teleconference – 16 January 2018 ; 15:00 UTC
 
 <table>
 <tr><td> San Francisco (U.S.A. - California) <td> Tuesday, 16 January 2018 <td> 07:00 PDT <td> UTC-8 hours
