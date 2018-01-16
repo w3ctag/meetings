@@ -7,7 +7,7 @@
   * Thurs/Fri (Feb 1st & 2nd): [Google London, Pancras Square](https://goo.gl/maps/HsoPUUEkQ7R2), near St. Pancras
 
 * Meet-the-TAG event:
- * [Friday the 2nd at Google Campus London](https://ti.to/w3c-tag/meet-the-tag-london)
+  * [Friday the 2nd at Google Campus London](https://ti.to/w3c-tag/meet-the-tag-london)
 
 Raw meeting notes (Etherpad):
 * TODO
