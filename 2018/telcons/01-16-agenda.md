@@ -1,7 +1,5 @@
 ### TAG Teleconference – 16 January 2018 ; 06:00 UTC
 
-PLEASE NOTE TIMES - Tuesday night for California, Wednesday for everyone else
-
 <table>
 <tr><td> San Francisco (U.S.A. - California) <td> Tuesday, 16 January 2018 <td> 07:00 PDT <td> UTC-8 hours
 <tr><td> Boston (U.S.A. - Massachusetts) <td> Tuesday, 16 January 2018 <td> 10:00 EDT <td> UTC-5 hours
