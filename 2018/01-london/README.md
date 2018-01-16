@@ -3,8 +3,8 @@
 ## Confirmed Dates and Location
 
 * Locations are split (sorry!):
-  * Weds: [Google London, Belgrave House](https://goo.gl/maps/oqtHFDJjXWn), near Victoria
-  * Thurs/Fri: [Google London, Pancras Square](https://goo.gl/maps/HsoPUUEkQ7R2), near St. Pancras
+  * Weds (Jan 30th): [Google London, Belgrave House](https://goo.gl/maps/oqtHFDJjXWn), near Victoria
+  * Thurs/Fri (Feb 1st & 2nd): [Google London, Pancras Square](https://goo.gl/maps/HsoPUUEkQ7R2), near St. Pancras
 
 Raw meeting notes (Etherpad):
 * TODO
