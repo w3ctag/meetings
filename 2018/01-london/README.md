@@ -1,5 +1,5 @@
 # London F2F
-## 2018 January 31 - February 2 (Wednesday-Friday)
+## 2018 January 30 - February 2 (Tuesday-Friday)
 ## Confirmed Dates and Location
 
 * Locations are split (sorry!):
@@ -8,6 +8,8 @@
 
 * Meet-the-TAG event:
   * [Thursday the 1st at GDS](https://ti.to/w3c-tag/meet-the-tag-london)
+
+* also plans for Tuesday evening (30th)
 
 Raw meeting notes:
 * TODO
