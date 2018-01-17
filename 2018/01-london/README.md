@@ -3,7 +3,7 @@
 ## Confirmed Dates and Location
 
 * Locations are split (sorry!):
-  * Weds (Jan 31th): [Google London, Belgrave House](https://goo.gl/maps/oqtHFDJjXWn), near Victoria
+  * Weds (Jan 31st): [Google London, Belgrave House](https://goo.gl/maps/oqtHFDJjXWn), near Victoria
   * Thurs/Fri (Feb 1st & 2nd): [Google London, Pancras Square](https://goo.gl/maps/HsoPUUEkQ7R2), near St. Pancras
 
 * Meet-the-TAG event:
