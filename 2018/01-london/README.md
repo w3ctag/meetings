@@ -1,5 +1,5 @@
 # London F2F
-## 2018 January 30 - February 2 (Tuesday-Friday)
+## 2018 January 31 - February 2 (Wednesday-Friday)
 ## Confirmed Dates and Location
 
 * Locations are split (sorry!):
