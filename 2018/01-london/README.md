@@ -11,5 +11,8 @@
 
 * also plans for Tuesday evening (30th)
 
+Proposed topics:
+* update on [WHATWG working mode changes](https://blog.whatwg.org/working-mode-changes) (@dbaron)
+
 Raw meeting notes:
 * TODO
