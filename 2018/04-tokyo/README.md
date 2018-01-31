@@ -25,7 +25,7 @@
 |    | Thursday | Friday | Saturday |
 | -- | -------- | ------ | -------- |
 | AM | ?        | ?      | ?        |
-| PM | ?        | ?      |          |
+| PM | ?        | ?      | ?        |
 
 ## Raw meeting notes:
 * None as of now.
