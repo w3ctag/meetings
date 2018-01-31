@@ -15,4 +15,6 @@ Proposed topics:
 * update on [WHATWG working mode changes](https://blog.whatwg.org/working-mode-changes) (@dbaron)
 
 Raw meeting notes:
-* TODO
+* [2018-01-31](https://cryptpad.w3ctag.org/code/#/1/view/JLx5LPxpDmvzEa7730rfnw/ZVd5WIy41f1Y9BJK3cbCV52GeHXJns6dKakxw1DQM1M/)
+* [2018-02-01](https://cryptpad.w3ctag.org/code/#/1/view/QSL8iYiATXlRsxx7ITX5Nw/gVwKfF8uYFYFjF-k6U73QCx9odKA1ohLMtrHerICR2I/)
+* [2018-02-02](https://cryptpad.w3ctag.org/code/#/1/view/aKq0ReU4W-mXj41lUT-3vg/dI-xTXvZMBs7RQSJ3-4DUyakfqXphWl0FwXaKcla0tY/)
