@@ -1,5 +1,5 @@
 # Seattle F2F
-## during week of 2018 July 23-27
+## Tuesday-Thursday, 2018 July 24-26
 ## ***DATES/LOCATION NOT YET FINAL***
 
 * Host: Microsoft
