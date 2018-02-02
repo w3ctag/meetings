@@ -11,14 +11,11 @@
 
 * also plans for Tuesday evening (30th)
 
-Proposed topics:
-* update on [WHATWG working mode changes](https://blog.whatwg.org/working-mode-changes) (@dbaron)
-
 ## Scribe Schedule
 |    | Wednesday | Thursday | Friday |
 | -- | --------- | -------- | ------ |
 | AM | Travis    | David B. | Hadley |
-| PM | Andrew    | ?        | ?      |
+| PM | Andrew    | Alex     | ?      |
 
 ## Raw meeting notes:
 * [2018-01-31](https://cryptpad.w3ctag.org/code/#/1/view/JLx5LPxpDmvzEa7730rfnw/ZVd5WIy41f1Y9BJK3cbCV52GeHXJns6dKakxw1DQM1M/)
