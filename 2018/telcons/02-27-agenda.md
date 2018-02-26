@@ -19,7 +19,7 @@
 * [Web Locks API](https://github.com/w3ctag/design-reviews/issues/217) - Andrew, David
 * [Accept-CH header](https://github.com/w3ctag/design-reviews/issues/206) - Andrew, Alex
 * [ResizeObserver](https://github.com/w3ctag/design-reviews/issues/187) - Alex, David
-* [HTML Genreal Review](https://github.com/w3ctag/design-reviews/issues/174) - Alex, David, Hadley, Sanghwan, Travis
+* [HTML General Review](https://github.com/w3ctag/design-reviews/issues/174) - Alex, David, Hadley, Sangwhan, Travis
 * [Privacy Mode](https://github.com/w3ctag/design-reviews/issues/101) - Hadley, Lukasz
 * ["With Credentials"](https://github.com/w3ctag/design-reviews/issues/76) - David
 
@@ -35,7 +35,7 @@
 * [Clear Site Data](https://github.com/w3ctag/design-reviews/issues/213) - Andrew
 * [Decentralized Identifiers](https://github.com/w3ctag/design-reviews/issues/216) - Hadley
 * [Web Speech API](https://github.com/w3ctag/design-reviews/issues/214) - Hadley, Travis
-* [Transfrom Streams](https://github.com/w3ctag/design-reviews/issues/211) - Sangwhan, Alex, David
+* [Transform Streams](https://github.com/w3ctag/design-reviews/issues/211) - Sangwhan, Alex, David
 * [import.meta.url and import.meta](https://github.com/w3ctag/design-reviews/issues/208) - Alex
 
 

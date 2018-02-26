@@ -29,7 +29,7 @@ PLEASE NOTE TIMES - Tuesday night for California, Wednesday for everyone else
 * [CSS Layout API](https://github.com/w3ctag/design-reviews/issues/224) - David, Dan, Travis
 * [Decentralized Identifiers](https://github.com/w3ctag/design-reviews/issues/216) - Hadley
 * [Web Speech API](https://github.com/w3ctag/design-reviews/issues/214) - Hadley, Travis
-* [Transfrom Streams](https://github.com/w3ctag/design-reviews/issues/211) - Sangwhan, Alex, David
+* [Transform Streams](https://github.com/w3ctag/design-reviews/issues/211) - Sangwhan, Alex, David
 * [import.meta.url and import.meta](https://github.com/w3ctag/design-reviews/issues/208) - Alex
 * [Accept-CH header](https://github.com/w3ctag/design-reviews/issues/206) - Andrew, Alex
 
