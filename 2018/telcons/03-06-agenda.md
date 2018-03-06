@@ -14,7 +14,7 @@
 
 * Call Scheduling
   * with US Daylight Saving Time returning next week, we have the option to return to our non-rotating call time (8am California, 4pm UK (but 3pm next 2 weeks), 5pm France (but 4pm next 2 weeks), midnight Japan) if we want to do so
-* [Sendor APIs](https://github.com/w3ctag/design-reviews/issues/207) - Sangwhan
+* [Sensor APIs](https://github.com/w3ctag/design-reviews/issues/207) - Sangwhan
 * [Intersection Observer](https://github.com/w3ctag/design-reviews/issues/197) - Alex, David
 * [CSS Typed OM](https://github.com/w3ctag/design-reviews/issues/223) - David
 * [Web Share Target API](https://github.com/w3ctag/design-reviews/issues/221) - David
