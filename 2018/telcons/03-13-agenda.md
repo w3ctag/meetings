@@ -3,8 +3,8 @@
 ## Note time vortex this week due to Europe and US being out of sync on DST change
 
 <table>
-<tr><td> San Francisco (U.S.A. - California) <td> Tuesday, 13 March 2018 <td> 08:00 PDT <td> UTC-8 hours
-<tr><td> Boston (U.S.A. - Massachusetts) <td> Tuesday, 13 March 2018 <td> 11:00 EDT <td> UTC-5 hours
+<tr><td> San Francisco (U.S.A. - California) <td> Tuesday, 13 March 2018 <td> 08:00 PDT <td> UTC-7 hours
+<tr><td> Boston (U.S.A. - Massachusetts) <td> Tuesday, 13 March 2018 <td> 11:00 EDT <td> UTC-4 hours
 <tr><td> London (United Kingdom - England) <td> Tuesday, 13 March 2018 <td colspan=2> 15:00 UTC
 <tr><td> Paris (France) <td> Tuesday, 13 March 2018 <td> 16:00 CET <td> UTC+1 hours
 <tr><td> Tokyo (Japan) <td> Wednesday, 14 March 2018 <td> 00:00 JST <td> UTC+9 hours
