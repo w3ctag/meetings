@@ -56,4 +56,4 @@ Trying https://meet.jit.si/w3ctag first then going to  https://appear.in/w3ctag 
 
 *Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
-Raw minutes: tbd
+Raw minutes: https://cryptpad.w3ctag.org/code/#/1/view/+cK01SpZVWUwdyd+jCpj5g/S45qha3ny-6-Apa0ZJmec58csA-YUGe-pcMSnxc8ohY/
