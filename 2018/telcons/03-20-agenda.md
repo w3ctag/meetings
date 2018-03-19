@@ -15,7 +15,7 @@
 ### Call Agenda
 
 * [Web Share Target API](https://github.com/w3ctag/design-reviews/issues/221) - David
-* [Img decoding attribute](https://github.com/w3ctag/design-reviews/issues/220) - David, Sanghwan
+* [Img decoding attribute](https://github.com/w3ctag/design-reviews/issues/220) - David, Sangwhan
 * [HTML General Review](https://github.com/w3ctag/design-reviews/issues/174) - Travis
 * [Vehicle Information Service Specification](https://github.com/w3ctag/design-reviews/issues/234) - Hadley
 * [CSS Selectors 4 :focus-visible](https://github.com/w3ctag/design-reviews/issues/233) - David
