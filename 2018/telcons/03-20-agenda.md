@@ -32,7 +32,7 @@
 
 * [WebVR](https://github.com/w3ctag/design-reviews/issues/185) - Alex / Hadley, Travis, Peter
 * [OffscreenCanvas](https://github.com/w3ctag/design-reviews/issues/141) - Sangwhan, David, Travis
-* [Review Accessibility Object Model ](https://github.com/w3ctag/design-reviews/issues/141) - Sangwhan, Travis
+* [Review Accessibility Object Model ](https://github.com/w3ctag/design-reviews/issues/134) - Sangwhan, Travis
 * [&lt;link&gt; rel=modulepreload](https://github.com/w3ctag/design-reviews/issues/213) - Alex, Andrew
 * [Clear Site Data](https://github.com/w3ctag/design-reviews/issues/213) - Andrew
 * [Decentralized Identifiers](https://github.com/w3ctag/design-reviews/issues/216) - Hadley
