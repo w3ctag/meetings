@@ -1,4 +1,4 @@
-### TAG Teleconference – 27 March 2018 ; 21:00 UTC
+### TAG Teleconference – 27 March 2018 ; 15:00 UTC
 
 ## Note time shift this week for Europe due to DST
 

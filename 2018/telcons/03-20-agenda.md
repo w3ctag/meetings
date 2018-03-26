@@ -1,4 +1,4 @@
-### TAG Teleconference – 20 March 2018 ; 21:00 UTC
+### TAG Teleconference – 20 March 2018 ; 15:00 UTC
 
 ## Note time vortex this week due to Europe and US being out of sync on DST change
 
