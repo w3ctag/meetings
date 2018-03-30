@@ -8,7 +8,7 @@
   * Building No.3 on [this map](https://www.keio.ac.jp/en/assets/images/maps/mita/img_05.jpg)
 
 * Meet-the-TAG event:
-  * Not decided if we will do one.
+  * Skip this time. Tokyo has had enough of us.
 
 * Pre-meeting dinner?
 
