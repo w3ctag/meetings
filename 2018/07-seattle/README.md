@@ -6,6 +6,8 @@
 * Location: West Lake Building, South Lake Union, Seattle ([map](https://www.bing.com/maps?toWww=1&redig=8590F2738F144740A5EAD350C76AC002))
 * Address: 320 Westlake Ave N, Seattle, WA 98109
 
+Note: **TC39 is meeting in Bellevue, WA (Lincoln Square) during the same 3 days**
+
 ### Day venue and catering 
 * Venue reserved: West Lake/4504-4505 + Conf Room SEA-320Westlake/4007 (11) - three rooms so that we have breakout-space during our meetings.
 * Room set-up: U shaped with power outlet for each guest
