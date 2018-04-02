@@ -24,7 +24,9 @@
 * [Review OffscreenCanvas, including ImageBitmapRenderingContext](https://github.com/w3ctag/design-reviews/issues/141) @cynthia @dbaron @travisleithead
 * [Review Accessibility Object Model](https://github.com/w3ctag/design-reviews/issues/134) @cynthia @travisleithead 
 * ["With Credentials" flag possibly inconsistent with web architecture](https://github.com/w3ctag/design-reviews/issues/76) @dbaron 
-* [Task Scheduling](https://github.com/w3ctag/design-reviews/issues/72)  
+* [Task Scheduling](https://github.com/w3ctag/design-reviews/issues/72)
+* CSP vs link rel=preload [ref](https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5#1e3f) @triblondon
+* Client hints purpose (resources vs pages) @triblondon
 
 ## Day 1 - Thursday
 
