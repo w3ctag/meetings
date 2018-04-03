@@ -34,7 +34,7 @@
 
 12:30 - Lunch
 
-13:30 - Well known URIs
+13:30 - Well known URIs (with Mark joining)
 
 
 TAG Dinner
@@ -43,6 +43,8 @@ TAG Dinner
 ## Day 2 - Friday
 
 08:30 - Arrive, set-up
+
+09:00 - Security & Privacy Checklist, etc... (with Wendy joining)
 
 12:30 - Lunch
 
