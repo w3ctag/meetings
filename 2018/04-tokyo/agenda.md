@@ -1,6 +1,6 @@
 ## Topics
 
-* IETF Issue TBD (with @mnot dialing in)
+* [Well Known URIs](https://github.com/w3ctag/design-reviews/issues/237) (with @mnot dialing in)
 * Security & Privacy Checklist & other secruity topics (with Wendy dialing in)
 * [Signed Exchanges](https://github.com/w3ctag/design-reviews/issues/235) @slightlyoff
 * [CSS Selectors 4, :focus-visible](https://github.com/w3ctag/design-reviews/issues/233) @dbaron
@@ -34,6 +34,7 @@
 
 12:30 - Lunch
 
+13:30 - Well known URIs
 
 
 TAG Dinner
