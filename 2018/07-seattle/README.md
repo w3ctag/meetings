@@ -1,6 +1,5 @@
 # Seattle F2F
 ## Tuesday-Thursday, 2018 July 24-26
-## ***DATES/LOCATION RESERVED, NOT YET FINAL***
 
 * Host: Microsoft
 * Location: West Lake Building, South Lake Union, Seattle ([map](https://www.bing.com/maps?toWww=1&redig=8590F2738F144740A5EAD350C76AC002))
