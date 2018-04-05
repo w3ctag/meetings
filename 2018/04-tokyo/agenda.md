@@ -37,6 +37,8 @@
 11:00 - Lunch
 
 12:00 - Well known URIs (with Mark joining) (maybe earlier)
+   also [BC56bis](https://github.com/w3ctag/design-reviews/issues/232)
+   also possible workshop
 
 
 TAG Dinner
