@@ -28,6 +28,7 @@
 * CSP vs link rel=prefetch [ref](https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5#1e3f) @triblondon
 * Client hints purpose (resources vs pages) @triblondon
 * Spec Obsoletion [MathML](https://github.com/w3ctag/obsoletion/issues/2)
+* [Secure Contexts & TC39](https://github.com/w3ctag/design-principles/pull/75)
 
 ## Day 1 - Thursday
 
