@@ -34,6 +34,8 @@
 
 08:30 - Arrive, set-up
 
+10:00 - Future meetings  
+
 11:00 - Lunch
 
 12:00 - Well known URIs (with Mark joining) (maybe earlier)  
