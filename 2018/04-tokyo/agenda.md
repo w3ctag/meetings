@@ -50,6 +50,8 @@ TAG Dinner
 
 12:00 - Lunch
 
+13:00 - [Secure Contexts design principle](https://github.com/w3ctag/design-principles/pull/75) - David
+
 
 
 ## Day 3 - Saturday
