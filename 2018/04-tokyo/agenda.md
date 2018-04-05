@@ -33,9 +33,9 @@
 
 08:30 - Arrive, set-up
 
-12:30 - Lunch
+11:00 - Lunch
 
-13:30 - Well known URIs (with Mark joining)
+13:30 - Well known URIs (with Mark joining) (maybe earlier)
 
 
 TAG Dinner
@@ -45,9 +45,9 @@ TAG Dinner
 
 08:30 - Arrive, set-up
 
-09:00 - Security & Privacy Checklist, etc... (with Wendy joining)
+09:00 - Security & Privacy Checklist, IETF update etc... (with Wendy joining)
 
-12:30 - Lunch
+12:00 - Lunch
 
 
 
@@ -55,4 +55,4 @@ TAG Dinner
 
 08:30 - Arrive, set-up
 
-12:30 - Lunch
+11:00 - Lunch
