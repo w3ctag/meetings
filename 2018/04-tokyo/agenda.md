@@ -36,7 +36,7 @@
 
 11:00 - Lunch
 
-13:30 - Well known URIs (with Mark joining) (maybe earlier)
+12:00 - Well known URIs (with Mark joining) (maybe earlier)
 
 
 TAG Dinner
