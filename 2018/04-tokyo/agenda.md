@@ -64,6 +64,8 @@ TAG Dinner
 
 08:30 - Arrive, set-up
 
+CSS Selectors revisit
+
 11:00 - Lunch
 
 12:00 - [ads.txt](https://github.com/w3ctag/design-reviews/issues/232)
