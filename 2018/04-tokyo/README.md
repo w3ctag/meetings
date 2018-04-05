@@ -24,8 +24,8 @@
 ## Scribe Schedule
 |    | Thursday | Friday | Saturday |
 | -- | -------- | ------ | -------- |
-| AM | ?        | ?      | ?        |
-| PM | ?        | ?      | ?        |
+| AM | David    | Andrew | Sangwhan |
+| PM | Travis   | Alex   | ?        |
 
 ## Raw meeting notes:
 * Thursday: https://cryptpad.w3ctag.org/code/#/1/view/2agbWHeu--P4ZjMdZJf1JA/KQYPzp5dbdJSr6z0dTxaUYPkdpSfwL9QR166BNqaavI/
