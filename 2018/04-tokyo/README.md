@@ -28,6 +28,6 @@
 | PM | Travis   | Alex   | ?        |
 
 ## Raw meeting notes:
-* Thursday: https://cryptpad.w3ctag.org/code/#/1/view/2agbWHeu--P4ZjMdZJf1JA/KQYPzp5dbdJSr6z0dTxaUYPkdpSfwL9QR166BNqaavI/
-* Friday: https://cryptpad.w3ctag.org/code/#/1/view/iUUIKSEXfj1mA1q69PCW8g/xPzPIHA3P9LXPKF-Jb3g-MO075a2Vc6YRjs9ZjGHo2w/
-* Saturday: https://cryptpad.w3ctag.org/code/#/1/view/TutVXt+MSZTzQmuNeMrHXg/exTf44AJ0kJSdxfe2TNzKjYoYFos1cbxppVwfGztRtM/
+* [Thursday](https://cryptpad.w3ctag.org/code/#/1/view/2agbWHeu--P4ZjMdZJf1JA/KQYPzp5dbdJSr6z0dTxaUYPkdpSfwL9QR166BNqaavI/)
+* [Friday](https://cryptpad.w3ctag.org/code/#/1/view/iUUIKSEXfj1mA1q69PCW8g/xPzPIHA3P9LXPKF-Jb3g-MO075a2Vc6YRjs9ZjGHo2w/)
+* [Saturday](https://cryptpad.w3ctag.org/code/#/1/view/TutVXt+MSZTzQmuNeMrHXg/exTf44AJ0kJSdxfe2TNzKjYoYFos1cbxppVwfGztRtM/)
