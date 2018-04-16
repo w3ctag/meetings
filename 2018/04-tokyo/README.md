@@ -19,8 +19,6 @@
   * [Celestine Hotel](https://www.celestinehotels.jp/tokyo-shiba/)
   * [Mita Kaigan](http://www.mitakaikan.net)
 
-* THE MORNING COFFEE IS A LIE. YOU HAVE BEEN WARNED.
-
 ## Scribe Schedule
 |    | Thursday | Friday | Saturday |
 | -- | -------- | ------ | -------- |
