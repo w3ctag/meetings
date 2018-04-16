@@ -11,18 +11,18 @@
 
 ### Call Agenda
 
-[CSS Selectors 4, :focus-visible.](https://github.com/w3ctag/design-reviews/issues/233)
-[CSS ::part and ::theme pseudo elements](https://github.com/w3ctag/design-reviews/issues/230)
-[Web Components Guidelines Doc?](https://github.com/w3ctag/design-reviews/issues/227)
-[Permission Delegation](https://github.com/w3ctag/design-reviews/issues/225)
-[Web Lifecycle for system initiated Discarding & Stopping](https://github.com/w3ctag/design-reviews/issues/205)
-[The always lovely HTML General Review](https://github.com/w3ctag/design-reviews/issues/174)
-[Review Accessibility Object Model](https://github.com/w3ctag/design-reviews/issues/134)
+* [CSS Selectors 4, :focus-visible.](https://github.com/w3ctag/design-reviews/issues/233)
+* [CSS ::part and ::theme pseudo elements](https://github.com/w3ctag/design-reviews/issues/230)
+* [Web Components Guidelines Doc?](https://github.com/w3ctag/design-reviews/issues/227)
+* [Permission Delegation](https://github.com/w3ctag/design-reviews/issues/225)
+* [Web Lifecycle for system initiated Discarding & Stopping](https://github.com/w3ctag/design-reviews/issues/205)
+* [The always lovely HTML General Review](https://github.com/w3ctag/design-reviews/issues/174)
+* [Review Accessibility Object Model](https://github.com/w3ctag/design-reviews/issues/134)
 
 ### Triage:
 
-[Review Request: Priority Hints API](https://github.com/w3ctag/design-reviews/issues/241)
-[Deprecating nonsecure cookie delivery.](https://github.com/w3ctag/design-reviews/issues/239)
+* [Review Request: Priority Hints API](https://github.com/w3ctag/design-reviews/issues/241)
+* [Deprecating nonsecure cookie delivery.](https://github.com/w3ctag/design-reviews/issues/239)
 
 ### Logistics
 
