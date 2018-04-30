@@ -13,22 +13,19 @@
 
 * [Keyboard Map](https://github.com/w3ctag/design-reviews/issues/238) - Travis, Sangwhan
 * [CSS Selectors 4, :focus-visible.](https://github.com/w3ctag/design-reviews/issues/233) - David, Travis, Peter
-
+* [BCP56bis](https://github.com/w3ctag/design-reviews/issues/232) - Dan, Yves
 * [CSS ::part and ::theme pseudo elements](https://github.com/w3ctag/design-reviews/issues/230) - David
 * [Permission Delegation](https://github.com/w3ctag/design-reviews/issues/225) - Lukasz, Dan, David
-* [The always lovely HTML General Review](https://github.com/w3ctag/design-reviews/issues/174)
-* [Review Accessibility Object Model](https://github.com/w3ctag/design-reviews/issues/134)
-* [BCP56bis](https://github.com/w3ctag/design-reviews/issues/232) - Dan, Yves
 * [CSS Layout API](https://github.com/w3ctag/design-reviews/issues/224) - Travis, Dan, David
-* [Async Clipboard API](https://github.com/w3ctag/design-reviews/issues/222) - Travis, Alex
-* [Web Share Target API](https://github.com/w3ctag/design-reviews/issues/221) - David
-* [WebVR](https://github.com/w3ctag/design-reviews/issues/185) - Peter, Travis, Hadley, Alex
-* [Offscreen Canvas](https://github.com/w3ctag/design-reviews/issues/141) - Travis, David, Alex, Sangwhan
-* [With Credentials](https://github.com/w3ctag/design-reviews/issues/76) - David
+* [Web Components Guidelines](https://github.com/w3ctag/design-reviews/issues/227) - Keneth
+* [Signed Exchanges](https://github.com/w3ctag/design-reviews/issues/235) - Alex, Peter, Travis, David
+* [Async Clipboard](https://github.com/w3ctag/design-reviews/issues/222) - Travis, Alex
+* [Web Speech](https://github.com/w3ctag/design-reviews/issues/214) - Hadley, Travis
+* [task scheduling](https://github.com/w3ctag/design-reviews/issues/72) - Travis, David
 
 ### Followup:
 
-* [Accept CH] ?
+* [Accept-CH Feedback](https://github.com/w3ctag/design-reviews/issues/206#issuecomment-379422513) 
 * [Deprecating nonsecure cookie delivery](https://github.com/w3ctag/design-reviews/issues/239)
 
 ### Logistics
