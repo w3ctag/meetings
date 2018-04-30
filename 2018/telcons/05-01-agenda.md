@@ -25,7 +25,7 @@
 
 ### Followup:
 
-* [Accept-CH Feedback](https://github.com/w3ctag/design-reviews/issues/206#issuecomment-379422513) 
+* Accept-CH [Feedback](https://lists.w3.org/Archives/Public/www-tag/2018Apr/0001.html) on our [review](https://github.com/w3ctag/design-reviews/issues/206#issuecomment-379422513) 
 * [Deprecating nonsecure cookie delivery](https://github.com/w3ctag/design-reviews/issues/239)
 
 ### Logistics
