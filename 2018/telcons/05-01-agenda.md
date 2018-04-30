@@ -11,12 +11,13 @@
 
 ### Call Agenda
 
+* [Keyboard Map](https://github.com/w3ctag/design-reviews/issues/238) - Travis, Sangwhan
 * [CSS Selectors 4, :focus-visible.](https://github.com/w3ctag/design-reviews/issues/233) - David, Travis, Peter
+
 * [CSS ::part and ::theme pseudo elements](https://github.com/w3ctag/design-reviews/issues/230) - David
 * [Permission Delegation](https://github.com/w3ctag/design-reviews/issues/225) - Lukasz, Dan, David
 * [The always lovely HTML General Review](https://github.com/w3ctag/design-reviews/issues/174)
 * [Review Accessibility Object Model](https://github.com/w3ctag/design-reviews/issues/134)
-* [Keyboard Map](https://github.com/w3ctag/design-reviews/issues/238) - Travis, Sangwhan
 * [BCP56bis](https://github.com/w3ctag/design-reviews/issues/232) - Dan, Yves
 * [CSS Layout API](https://github.com/w3ctag/design-reviews/issues/224) - Travis, Dan, David
 * [Async Clipboard API](https://github.com/w3ctag/design-reviews/issues/222) - Travis, Alex
