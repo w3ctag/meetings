@@ -17,7 +17,6 @@
 * [Async Clipboard](https://github.com/w3ctag/design-reviews/issues/222) - Travis, Alex
 * [Reporting Observer](https://github.com/w3ctag/design-reviews/issues/195) - Peter, Travis, David, Alex, Sangwhan
 * [WebVR](https://github.com/w3ctag/design-reviews/issues/185) - Peter, Travis, Hadley, Alex
-* [AOM](https://github.com/w3ctag/design-reviews/issues/134) - Travis, Sangwhan
 * [TV Subsetting](https://github.com/w3ctag/design-reviews/issues/105) - Dan
 
 ### Logistics
