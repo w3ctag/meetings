@@ -12,6 +12,7 @@
 
 ### Call Agenda
 
+* [Async Clipboard API](https://github.com/w3ctag/design-reviews/issues/222) - Alex, Travis
 * [Keyboard Map](https://github.com/w3ctag/design-reviews/issues/238) - Travis, Sangwhan
 * [BCP56bis](https://github.com/w3ctag/design-reviews/issues/232) - Dan, Yves
 
