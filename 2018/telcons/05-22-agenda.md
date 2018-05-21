@@ -48,5 +48,5 @@ Trying https://meet.jit.si/w3ctag first then going to  https://appear.in/w3ctag 
 
 *Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
-Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2018/telcons/05-21-minutes.md  
-Raw minutes: https://cryptpad.w3ctag.org/code/#/1/view/2VlMunwjP8dRbIcX0SFwMA/Foy3fuea-XF71z001P+QrP2-c4aLMsL1X1mterrtUSg/
+Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2018/telcons/05-22-minutes.md  
+Raw minutes: https://cryptpad.w3ctag.org/code/#/1/view/Kc+L612SsUje6jhRFS6AsQ/yeYjBXhwCm-AXETvxCMOPLuZAlanfRC+JJ8v-Y5nTrk/
