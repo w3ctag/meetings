@@ -17,6 +17,8 @@
 * [ReportingObserver](https://github.com/w3ctag/design-reviews/issues/195) - @cynthia @slightlyoff
 * [Web Share Target API](https://github.com/w3ctag/design-reviews/issues/195) - @plinss @dbaron @slightlyoff @travisleighead @cynthia
 
+* [Triage Newly Added Issues](https://github.com/w3ctag/design-reviews/issues)
+
 ### Logistics
 
 Chair: Dan
