@@ -18,6 +18,7 @@
 * [Web Share Target API](https://github.com/w3ctag/design-reviews/issues/195) - @plinss @dbaron @slightlyoff @travisleighead @cynthia
 
 * [Triage Newly Added Issues](https://github.com/w3ctag/design-reviews/issues)
+* Talk about developer meetup in Seattle
 
 ### Logistics
 
