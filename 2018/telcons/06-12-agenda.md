@@ -33,4 +33,4 @@ As we have been having quality issues with jit.si we will try with https://appea
 *Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2018/telcons/06-11-minutes.md  
-Raw minutes: tbc
+Raw minutes: https://cryptpad.w3ctag.org/code/#/1/view/F5WFZVODWbZbIr1HBOlzMw/QyxSVWxX1Q1odnBhce+8CKRP3gn3691bIqKNw7F5BZ8/
