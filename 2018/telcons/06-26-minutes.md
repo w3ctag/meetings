@@ -1,4 +1,4 @@
-﻿## TAG Teleconference
+## TAG Teleconference
 ##### 26 June 2018
 
 Present: Lukasz, Kenneth, Peter, Travis, Dan, Hadley, David, Yves, Sangwhan, Alex
