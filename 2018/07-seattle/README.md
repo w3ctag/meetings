@@ -31,6 +31,6 @@ Date/Time: Thursday evening, July 26th from 6 - 9pm
 
 I've spoken with my TC39 contact, and they've indicated they would be excited to join us for this meetup. (Next steps, share the event page and collaborate on talks/topics.)
 
-We have a reservation at the "Microsoft Reactor", a space reserved for developer meetups in Seattle for us to host a "meet the TAG" event. It'll be in the same building as our F2F--a large open space that can easily accomodate 150 people, or squeeze in 300 if needed. The venue is brand-new--they had their [open house](https://www.eventbrite.com/e/reactor-seattle-community-open-house-tickets-43260302730) March 29, 2018!
+We have a reservation at the "Microsoft Reactor", a space reserved for developer meetups in Seattle for us to host a "meet the TAG" event. It'll be in the same building as our F2F--a large open space that can accomodate 100 people. The venue is brand-new--they had their [open house](https://www.eventbrite.com/e/reactor-seattle-community-open-house-tickets-43260302730) March 29, 2018!
 * More info about the space: https://developer.microsoft.com/en-us/reactor/#ReactorSeattle
 * Twitter Feed has some recent news and events that have been hosted there: https://twitter.com/MSFTReactor
