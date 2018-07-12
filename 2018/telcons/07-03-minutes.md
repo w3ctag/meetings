@@ -1,6 +1,10 @@
 ﻿## TAG Teleconference
 ##### 03 July 2018
 
+Chair: Dan
+
+Scribe: Travis
+
 Present: Hadley, Dan, Travis, Kenneth, Yves
 
 Regrets: Peter, David, Sangwhan 
