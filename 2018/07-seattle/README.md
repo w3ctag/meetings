@@ -23,6 +23,9 @@ Daily
 * 3:00pm - 3:30pm Break 
 * 6:00pm - End 
 
+Specific agenda times:
+* Thursday 11:00am - [sec-metadata #280](https://github.com/w3ctag/design-reviews/issues/280) and [Deprecating nonsecure cookie delivery #239](https://github.com/w3ctag/design-reviews/issues/239) with @mikewest
+
 ### Developer Meetup @ Microsoft Reactor space
 
 Event page: https://ti.to/w3c-tag/meet-the-tag-seattle
