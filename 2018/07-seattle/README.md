@@ -17,13 +17,14 @@ Note: **TC39 is meeting in Bellevue, WA (Lincoln Square) during the same 3 days*
 ### Agenda
 
 Daily 
-* 8:30am - 10:00am Arrivals and breakfast 
+* 8:30am - 9:00am Arrivals and breakfast
 * 10:00am - 10:30am Break 
 * 12:00pm - 1:00pm Lunch 
 * 3:00pm - 3:30pm Break 
 * 6:00pm - End 
 
 Specific agenda times:
+* Tuesday 11:00am - Jeff Jaffee calling in to discuss TAG's potential role in W3C/WHATWG detente
 * Thursday 11:00am - [sec-metadata #280](https://github.com/w3ctag/design-reviews/issues/280) and [Deprecating nonsecure cookie delivery #239](https://github.com/w3ctag/design-reviews/issues/239) with @mikewest
 
 ### Developer Meetup @ Microsoft Reactor space
