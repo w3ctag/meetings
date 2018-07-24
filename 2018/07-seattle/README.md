@@ -25,6 +25,7 @@ Daily
 
 Specific agenda times:
 * Tuesday 11:00am - Jeff Jaffee calling in to discuss TAG's potential role in W3C/WHATWG detente
+* Wednesday 11:10am - Wendy Seltzer and Sam Weiler to talk about Privacy and Security Questionnaire
 * Thursday 11:00am - [sec-metadata #280](https://github.com/w3ctag/design-reviews/issues/280) and [Deprecating nonsecure cookie delivery #239](https://github.com/w3ctag/design-reviews/issues/239) with @mikewest
 
 ### Developer Meetup @ Microsoft Reactor space
