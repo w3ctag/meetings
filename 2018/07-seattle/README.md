@@ -37,6 +37,7 @@ Scribes:
 * Thursday PM: Sangwhan
 
 Archived minutes: [Tuesday](07-24-minutes.md) [Wednesday](07-25-minutes.md) [Thursday](07-26-minutes.md)
+
 Raw minutes: [Tuesday](https://cryptpad.w3ctag.org/code/#/1/view/0GSnEsHMp8og5Hav54EhtQ/d4+sra8p2F8slK-9zgmkhxtpTeeZG+O0JcRZBVFfNUI/) [Wednesday](https://cryptpad.w3ctag.org/code/#/1/view/J5Q9K3Um0gsINW96cwIAig/uDAELDuZGLd1YdnRTHbaXt9ns2vKuxhrnfgIKlFXwG8/) [Thursday](https://cryptpad.w3ctag.org/code/#/1/view/fGfpK-rLumdNCoVxnbfPGQ/T1Uf78xBR2PBXovu7Y3OxVaAa0o+xcTiyK3bI4HzC9s/)
 
 ### Developer Meetup @ Microsoft Reactor space
