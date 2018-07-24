@@ -28,6 +28,14 @@ Specific agenda times:
 * Wednesday 11:10am - Wendy Seltzer and Sam Weiler to talk about Privacy and Security Questionnaire
 * Thursday 11:00am - [sec-metadata #280](https://github.com/w3ctag/design-reviews/issues/280) and [Deprecating nonsecure cookie delivery #239](https://github.com/w3ctag/design-reviews/issues/239) with @mikewest
 
+Scribes:
+* Tuesday AM: David
+* Tuesday PM: Kenneth
+* Wednesday AM: Hadley
+* Wednesday PM: Alex
+* Thursday AM: Travis
+* Thursday PM: Sangwhan
+
 ### Developer Meetup @ Microsoft Reactor space
 
 Event page: https://ti.to/w3c-tag/meet-the-tag-seattle
