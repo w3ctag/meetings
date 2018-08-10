@@ -3,6 +3,8 @@
 
 Present: Kenneth, Sangwhan, Hadley, Travis, Peter, David, Daniel, Yves, Lukasz (remote)
 
+Guests: Jeff Jaffe (for WHATWG discussion), Ralph Swick
+
 Scribe (AM): David
 
 Scribe (PM): Kenneth, Dan
