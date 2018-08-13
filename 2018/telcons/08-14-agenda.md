@@ -12,6 +12,7 @@
 
 ### Call Agenda
 
+* Proposed TAG role in W3C-WHATWG relationship - Dan
 * Proposed workflow for privacy & security questionnaire - Lukasz
 * [queueMicrotask](https://github.com/w3ctag/design-reviews/issues/294) - @dbaron @travisleithead
 * [Page Lifecycle for system initiated Discarding & Freezing](https://github.com/w3ctag/design-reviews/issues/283) - @kenchris
