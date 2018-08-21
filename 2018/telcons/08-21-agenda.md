@@ -14,6 +14,8 @@
 
 * Followup - Proposed TAG role in W3C-WHATWG relationship - Dan
 * Followup - Proposed workflow for privacy & security questionnaire - Lukasz
+* Followup - Iceland F2F date finalization - Sangwhan
+* Followup - ISO-BMFF call with MPEG folks - Sangwhan
 * [queueMicrotask](https://github.com/w3ctag/design-reviews/issues/294) - @dbaron @travisleithead
 * [Page Lifecycle for system initiated Discarding & Freezing](https://github.com/w3ctag/design-reviews/issues/283) - @kenchris
 * [CSS Selectors 4, :focus-visible](https://github.com/w3ctag/design-reviews/issues/233) - @dbaron @travisleithead @plinss
