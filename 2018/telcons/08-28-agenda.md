@@ -32,7 +32,7 @@ Scribe: ?
 
 IRC : irc.w3.org / #tagmem
 
-Bridge: https://appear.in/w3ctag
+Bridge: https://appear.in/w3ctag (we ended up using https://meet.jit.si/w3ctag)
 
 *Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
