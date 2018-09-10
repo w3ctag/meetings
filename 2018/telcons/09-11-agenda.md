@@ -15,7 +15,6 @@
 * [CSP feature 'unsafe-hashes'](https://github.com/w3ctag/design-reviews/issues/291) - @cynthia @dbaron @travisleithead
 * [CSS Selectors 4, :focus-visible](https://github.com/w3ctag/design-reviews/issues/233) - @dbaron @travisleithead @plinss
 * [The web platform needs a service discovery mechanism](https://github.com/w3ctag/design-reviews/issues/240) - separate call arranged? - @cynthia @hadleybeeman @plinss 
-* [DOM](https://github.com/w3ctag/design-reviews/issues/229) - we [discussed last week](https://github.com/w3ctag/meetings/blob/gh-pages/2018/telcons/09-04-minutes.md) and agreed to bring up again today - @cynthia @dbaron @travisleithead
 * [Intersection Observer](https://github.com/w3ctag/design-reviews/issues/197) - @slightlyoff @dbaron
 * [Accessibility Object Model](https://github.com/w3ctag/design-reviews/issues/134) - @cynthia @travisleithead
 * [User Activation v2](https://github.com/w3ctag/design-reviews/issues/295) - @dbaron @hadleybeeman
