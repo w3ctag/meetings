@@ -31,4 +31,4 @@ Bridge: https://appear.in/w3ctag first then going to https://meet.jit.si/w3ctag 
 *Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2018/telcons/09-25-minutes.md  
-Raw minutes: tba
+Raw minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/0hI34MZk91WM7ZGiX+2OsR3bOc-GRaFxKO5EADLMGdI/
