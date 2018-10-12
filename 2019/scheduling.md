@@ -4,7 +4,7 @@
 * [tentatively scheduled](02-tokyo/) for February 5-7 in Tokyo (dates somewhat problematic, see below)
 * TAG election results expected around January 7
 * Chinese/Lunar New Year, February 5
-* CSS Working Group Meeting *tentatively* February 25 - March 1
+* CSS Working Group Meeting February 25-27 (San Francisco)
 
 # May/June 2019 meeting
 
