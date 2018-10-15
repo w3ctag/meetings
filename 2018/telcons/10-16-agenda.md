@@ -9,23 +9,19 @@
 <tr><td> Corresponding UTC (GMT) <td> Tuesday, 16 October 2018 <td colspan=2> 15:00 UTC
 </table>
 
-
 ### Call Agenda
 
-(last week)
-
+* Proposed TAG/IAB Workshop on Packagaing
 * [Display Locking](https://github.com/w3ctag/design-reviews/issues/306) - @slightlyoff @dbaron
 * [Form Participation API](https://github.com/w3ctag/design-reviews/issues/305) - @travisleithead @lknik
-* [RTCIceTransport](https://github.com/w3ctag/design-reviews/issues/304) - @cynthia @dbaron @travisleithead
-* [RTCQuicTransport](https://github.com/w3ctag/design-reviews/issues/303) - @cynthia @dbaron @travisleithead
-* [Canvas TextMetrics](https://github.com/w3ctag/design-reviews/issues/302) - @dbaron
 * [hrefTranslate attribute](https://github.com/w3ctag/design-reviews/issues/301) - @torgo @hadleybeeman
 * [User Activation API ](https://github.com/w3ctag/design-reviews/issues/300) - @dbaron @hadleybeeman
-* [Codec and container switching with MSE](https://github.com/w3ctag/design-reviews/issues/298) - @cynthia @travisleithead
-* [HTTP State Tokens](https://github.com/w3ctag/design-reviews/issues/297) - @hadleybeeman @travisleithead
 * [User Activation v2](https://github.com/w3ctag/design-reviews/issues/295) - @dbaron @hadleybeeman
-* [Review AOM](https://github.com/w3ctag/design-reviews/issues/134) - @cynthia @travisleithead
-
+* [OffscreenCanvas new commit() and DedicatedWorker.requestAnimationFrame](https://github.com/w3ctag/design-reviews/issues/288) - @travisleithead @dbaron @slightlyoff
+* [The web platform needs a service discovery mechanism](https://github.com/w3ctag/design-reviews/issues/240) - @cynthia @hadleybeeman @plinss
+* [Intersection Observer](https://github.com/w3ctag/design-reviews/issues/197) - @dbaron @slightlyoff
+* F2F Logistics Items
+* New Call Times?
 
 ### Logistics
 
