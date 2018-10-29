@@ -9,6 +9,14 @@
 
 ## Agenda
 
+### Scribes
+
+----
+| Day | Mon | Tue | Wed |
+|-----|-----|-----|-----|
+| AM  | Alex | Kenneth | Hadley
+| PM | Travis | David | Sangwhan 
+
 Note: If we schedule remote guests, remember that the US-Europe time difference is one hour smaller than normal this week.
 
 Note: On Monday afternoon, we need to clear the room by 5pm, so that it can be reconfigured for our event starting at 6pm.
