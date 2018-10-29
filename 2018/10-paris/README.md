@@ -23,6 +23,9 @@
 * Escape feedback for mnot
 * Dan's Ethics document
 * TPAC Sync-up
+  * TC39 Sync
+* Review Security/Privacy updates from Lucasz
+* Where are we with web components
 
 ### Minutes
 
