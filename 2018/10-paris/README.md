@@ -17,6 +17,19 @@
 | AM  | Alex | Kenneth | Hadley
 | PM | Travis | David | Sangwhan 
 
+### Topics
+
+* Developer Event (cancelled due to low registration)
+* Escape feedback for mnot
+* Dan's Ethics document
+* TPAC Sync-up
+
+### Minutes
+
+* [Day 1](https://cryptpad.w3ctag.org/code/#/2/code/view/zNQe+119etHZn7DodZ+x4FbnflcaBVek11+s6x5xN3M/)
+* [Day 2]()
+* [Day 3]()
+
 Note: If we schedule remote guests, remember that the US-Europe time difference is one hour smaller than normal this week.
 
 Note: On Monday afternoon, we need to clear the room by 5pm, so that it can be reconfigured for our event starting at 6pm.
