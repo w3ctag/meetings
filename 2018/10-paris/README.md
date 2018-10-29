@@ -26,6 +26,7 @@
   * TC39 Sync
 * Review Security/Privacy updates from Lucasz
 * Where are we with web components
+* Anything to prepare for TAG election?
 
 ### Minutes
 
