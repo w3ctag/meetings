@@ -30,9 +30,9 @@
 
 ### Minutes
 
-* [Day 1 (readonly)](https://cryptpad.w3ctag.org/code/#/2/code/view/zNQe+119etHZn7DodZ+x4FbnflcaBVek11+s6x5xN3M/)
-* [Day 2 (readonly)](https://cryptpad.w3ctag.org/code/#/2/code/view/7wU1dtMh-ZlW97EI4Qi98Z62iDVLueV0EgLwp0sHYsA/)
-* [Day 3 (readonly)](https://cryptpad.w3ctag.org/code/#/2/code/view/WyIkMYqgSCMIb7L-5RapR0I0nim+kb2CEa0Bx7ydmGU/)
+Archived Minutes: [Day 1](10-29-minutes.md), [Day 2](10-30-minutes.md), [Day 3](10-31-minutes.md)
+
+Raw Minutes: [Day 1 (readonly)](https://cryptpad.w3ctag.org/code/#/2/code/view/zNQe+119etHZn7DodZ+x4FbnflcaBVek11+s6x5xN3M/), [Day 2 (readonly)](https://cryptpad.w3ctag.org/code/#/2/code/view/7wU1dtMh-ZlW97EI4Qi98Z62iDVLueV0EgLwp0sHYsA/), [Day 3 (readonly)](https://cryptpad.w3ctag.org/code/#/2/code/view/WyIkMYqgSCMIb7L-5RapR0I0nim+kb2CEa0Bx7ydmGU/)
 
 Note: If we schedule remote guests, remember that the US-Europe time difference is one hour smaller than normal this week.
 
