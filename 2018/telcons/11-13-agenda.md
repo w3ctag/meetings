@@ -1,10 +1,10 @@
 ### TAG Teleconference – [13 November 2018 ; 15:00 UTC](https://www.timeanddate.com/worldclock/converter.html?iso=20181113T150000&p1=224&p2=43&p3=136&p4=195&p5=248)
 
 <table>
-<tr><td> San Francisco (U.S.A. - California) <td> Tuesday, 13 November 2018 <td> 07:00 PDT <td> UTC-8 hours
-<tr><td> Boston (U.S.A. - Massachusetts) <td> Tuesday, 13 November 2018 <td> 10:00 EDT <td> UTC-5 hours
-<tr><td> London (United Kingdom - England) <td> Tuesday, 13 November 2018 <td> 15:00 BST <td> UTC+0 hours
-<tr><td> Paris (France) <td> Tuesday, 13 November 2018 <td> 16:00 CEST <td> UTC+1 hours
+<tr><td> San Francisco (U.S.A. - California) <td> Tuesday, 13 November 2018 <td> 07:00 PST <td> UTC-8 hours
+<tr><td> Boston (U.S.A. - Massachusetts) <td> Tuesday, 13 November 2018 <td> 10:00 EST <td> UTC-5 hours
+<tr><td> London (United Kingdom - England) <td> Tuesday, 13 November 2018 <td> 15:00 GMT <td> UTC+0 hours
+<tr><td> Paris (France) <td> Tuesday, 13 November 2018 <td> 16:00 CET <td> UTC+1 hours
 <tr><td> Tokyo (Japan) <td> Wednesday, 14 November 2018 <td> 00:00 JST <td> UTC+9 hours
 <tr><td> Corresponding UTC (GMT) <td> Tuesday, 13 November 2018 <td colspan=2> 15:00 UTC
 </table>
