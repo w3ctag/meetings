@@ -2,11 +2,11 @@
 
 <table>
 <tr><td> San Francisco (U.S.A. - California) <td> Tuesday, 27 November 2018 <td> 22:00 PST <td> UTC-8 hours
-<tr><td> Boston (U.S.A. - Massachusetts) <td> Tuesday, 28 November 2018 <td> 01:00 EST <td> UTC-5 hours
-<tr><td> London (United Kingdom - England) <td> Tuesday, 28 November 2018 <td> 06:00 GMT <td> UTC+0 hours
-<tr><td> Paris (France) <td> Tuesday, 28 November 2018 <td> 07:00 CET <td> UTC+1 hours
+<tr><td> Boston (U.S.A. - Massachusetts) <td> Wednesday, 28 November 2018 <td> 01:00 EST <td> UTC-5 hours
+<tr><td> London (United Kingdom - England) <td> Wednesday, 28 November 2018 <td> 06:00 GMT <td> UTC+0 hours
+<tr><td> Paris (France) <td> Wednesday, 28 November 2018 <td> 07:00 CET <td> UTC+1 hours
 <tr><td> Tokyo (Japan) <td> Wednesday, 28 November 2018 <td> 15:00 JST <td> UTC+9 hours
-<tr><td> Corresponding UTC (GMT) <td> Tuesday, 28 November 2018 <td colspan=2> 06:00 UTC
+<tr><td> Corresponding UTC (GMT) <td> Wednesday, 28 November 2018 <td colspan=2> 06:00 UTC
 </table>
 
 ### Call Agenda
