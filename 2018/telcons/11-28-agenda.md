@@ -28,9 +28,9 @@
 
 ### Logistics
 
-Chair: Dan
+Chair: Peter
 
-Scribe: ?
+Scribe: Dan, Kenneth, Hadley
 
 IRC : irc.w3.org / #tagmem
 
