@@ -33,7 +33,7 @@ David: regrets for next week
 
 ### JS Modules and feedback from node community
 
-Dan: I think the consensus was that probably nothing we can add to this... but just wanted to check up on it since I got some feedback... from npm people who, despite isseus with recent exploits in npm -- i wanted to see what to do.
+Dan: I think the consensus was that probably nothing we can add to this... but just wanted to check up on it since I got some feedback... from npm people -- i wanted to see what (if anything) we could do to help.
 
 kenneth: I'll follow up today.
 
