@@ -11,6 +11,45 @@
 
 ### Call Agenda
 
+* [TextEncoderStream and TextDecoderStream](https://github.com/w3ctag/design-reviews/issues/282)
+@cynthia
+@kenchris
+@travisleithead
+
+* [Background fetch](https://github.com/w3ctag/design-reviews/issues/279)
+@slightlyoff
+@kenchris
+@travisleithead
+
+* [HTML General Review: Web Sockets HTML](https://github.com/w3ctag/design-reviews/issues/268)
+@slightlyoff
+@ylafon
+
+* [Signed Exchanges](https://github.com/w3ctag/design-reviews/issues/235)
+@slightlyoff
+@dbaron
+
+* [Should WebRTC be [SecureContext]](https://github.com/w3ctag/design-reviews/issues/228)
+
+* [Media Capabilities](https://github.com/w3ctag/design-reviews/issues/218)
+@cynthia
+@plinss
+
+* [<link> rel="modulepreload"](https://github.com/w3ctag/design-reviews/issues/213)
+@slightlyoff
+
+* [Serialization of natural language in data formats such as JSON](https://github.com/w3ctag/design-reviews/issues/178)
+@cynthia
+@dbaron
+@travisleithead
+
+* [Review Accessibility Object Model](https://github.com/w3ctag/design-reviews/issues/134)
+@torgo
+@travisleithead
+
+* [Clear Site Data](https://github.com/w3ctag/design-reviews/issues/62)
+@slightlyoff
+
 ### Logistics
 
 Chair: Dan
