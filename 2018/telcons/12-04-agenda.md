@@ -50,6 +50,9 @@
 * [Clear Site Data](https://github.com/w3ctag/design-reviews/issues/62)
 @slightlyoff
 
+* [mathml](https://github.com/w3ctag/design-reviews/issues/313)
+@cynthia
+
 ### Logistics
 
 Chair: Dan
