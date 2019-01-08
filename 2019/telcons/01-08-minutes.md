@@ -1,7 +1,7 @@
 ﻿## TAG Teleconference
 ##### 08 January 2019
 
-Present: Dan, Kenneth, Peter, Travis, Yves, Hadley, Alex
+Present: Dan, Kenneth, Peter, Travis, Yves, Hadley, Alex, Tess
 
 Regrets: David, Sangwhan, Lukasz
 
