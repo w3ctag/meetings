@@ -27,7 +27,7 @@
 
 ### Logistics
 
-Chair: Peter
+Chair: Dan
 
 Scribe: ?
 
@@ -38,4 +38,4 @@ Bridge: https://appear.in/w3ctag first then going to https://meet.jit.si/w3ctag 
 * Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/01-15-minutes.md  
-Raw minutes: tbc
+Raw minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/Qu5XoaDvHeghjuWq53Ys6XWi3tqdlMvB0oQNML+43Ic/
