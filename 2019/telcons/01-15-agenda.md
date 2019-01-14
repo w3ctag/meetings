@@ -6,6 +6,7 @@
 <tr><td> London (United Kingdom - England) <td> Tuesday, 15 January 2019 <td> 21:00 GMT <td> UTC+0 hours
 <tr><td> Paris (France) <td> Tuesday, 15 January 2019 <td> 22:00 CET <td> UTC+1 hours
 <tr><td> Tokyo (Japan) <td> Wednesday, 16 January 2019 <td> 06:00 JST <td> UTC+9 hours
+<tr><td> Sydney (Australia) <td> Wednesday, 16 January 2019 <td> 08:00 AEDT <td> UTC+11 hours
 <tr><td> Corresponding UTC (GMT) <td> Tuesday, 15 January 2019 <td colspan=2> 21:00 UTC
 </table>
 
