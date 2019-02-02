@@ -6,6 +6,35 @@ Host: [Google (Mori Tower)](https://goo.gl/maps/ER5NeLY1V2P2)
 
 ## Agenda
 
+### Timings
+
+#### Tuesday
+
+08:30 - 09:00 - arrive and set-up  
+09:00 - 10:00 - agenda bashing  
+...  
+12:00 - 13:00 - lunch (Google canteen)  
+...  
+18:00 - Meeting end  
+
+#### Wednesday
+
+08:30 - 09:00 - arrive and set-up  
+09:00 - 10:00 - agenda bashing  
+...  
+12:00 - 13:00 - lunch (Google canteen)  
+...  
+18:00 - Meeting end  
+
+#### Thursday
+
+08:30 - 09:00 - arrive and set-up  
+09:00 - 10:00 - agenda bashing  
+...  
+12:00 - 13:00 - lunch (Google canteen)  
+...  
+18:00 - Meeting end  
+
 ### Scribes
 
 ----
