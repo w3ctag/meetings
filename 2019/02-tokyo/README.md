@@ -2,7 +2,7 @@
 ## 2019 February 5 - 7 (Tuesday-Thursday)
 ## LOCATION/DATES FINAL
 
-Host: Google (Mori Tower)
+Host: [Google (Mori Tower)](https://goo.gl/maps/ER5NeLY1V2P2)
 
 ## Agenda
 
