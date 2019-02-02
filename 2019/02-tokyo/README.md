@@ -6,6 +6,14 @@ Host: [Google (Mori Tower)](https://goo.gl/maps/ER5NeLY1V2P2)
 
 ## Agenda
 
+### Scribes
+
+----
+| Day | Mon | Tue | Wed |
+|-----|-----|-----|-----|
+| AM  |  |  | 
+| PM |  |  |  
+
 ### Timings
 
 #### Tuesday
@@ -35,13 +43,6 @@ Host: [Google (Mori Tower)](https://goo.gl/maps/ER5NeLY1V2P2)
 ...  
 18:00 - Meeting end  
 
-### Scribes
-
-----
-| Day | Mon | Tue | Wed |
-|-----|-----|-----|-----|
-| AM  |  |  | 
-| PM |  |  |  
 
 ### Topics
 
