@@ -59,6 +59,7 @@ Weds: Meeting on the 30th floor in `TOK-RPG-30-27 Hakucho`
 * Welcoming oue new members
 * Planning teleconference times for coming year
 * Reviewing next planned face-to-face meeting
+* [feature policy discussion](https://github.com/w3c/webappsec-feature-policy/issues/193#issuecomment-459974333)
 * [Ethical Standards for Web](https://docs.google.com/document/d/1tGQOFo-d849sagYDvgGzmSpPFDd_Nf47qb0FT6UjQKc/edit)
 * [TC39](https://github.com/tc39/agendas/blob/master/2019/01.md) update from last meeting
 * IETF Update - anything new with http? [have reached out to mnot]
