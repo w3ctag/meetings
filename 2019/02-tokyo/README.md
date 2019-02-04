@@ -4,7 +4,7 @@
 
 Host: [Google (Mori Tower)](https://goo.gl/maps/ER5NeLY1V2P2)
 
-Check in at (Mori Tower office reception)[https://www.mori.co.jp/en/office/japan/roppongihillsmt/image2.html] each morning. Alex and/or Alice will be on hand to help navigate the elevator and access system. Should you arrive early, you can check in and get a visitor card at reception and head to Google Reception on the 26th floor.
+Check in at [Mori Tower office reception](https://www.mori.co.jp/en/office/japan/roppongihillsmt/image2.html) each morning. Alex and/or Alice will be on hand to help navigate the elevator and access system. Should you arrive early, you can check in and get a visitor card at reception and head to Google Reception on the 26th floor.
 
 Ping on Slack if you have questions.
 
