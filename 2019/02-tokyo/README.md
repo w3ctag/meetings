@@ -19,10 +19,10 @@ Weds: Meeting on the 30th floor in `TOK-RPG-30-27 Hakucho`
 ### Scribes
 
 ----
-| Day | Mon | Tue | Wed |
+| Day | Tue | Wed | Thu |
 |-----|-----|-----|-----|
-| AM  |  |  |
-| PM |  |  |
+| AM | Sangwhan | David | Alice |
+| PM | Travis | Alex | Tess |
 
 ### Timings
 
