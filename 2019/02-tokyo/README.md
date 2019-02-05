@@ -32,6 +32,7 @@ Weds: Meeting on the 30th floor in `TOK-RPG-30-27 Hakucho`
 * 09:00 - 10:00 - agenda bashing
 * ...
 * 12:00 - 13:00 - lunch (Google canteen)
+* 13:00 - 13:45 - Quick update on QUIC from @mnot  
 * ...
 * 18:00 - Meeting end
 
