@@ -8,11 +8,11 @@ Check in at [Mori Tower office reception](https://www.mori.co.jp/en/office/japan
 
 Ping on Slack if you have questions.
 
-Tues: We'll be meeting on the 27th floor (with a change at in the day to the 28th) in `TOK-RPG-27-21 Kabuki-External`.
+Tues: We'll be meeting on the 27th floor (with a change at 4:30 to the 28th) in `TOK-RPG-27-21 Kabuki-External`.
 
 Weds: Meeting on the 28th floor in `TOK-RPG-28-38 Neroli-External`
 
-Weds: Meeting on the 30th floor in `TOK-RPG-30-27 Hakucho`
+Thurs: Meeting on the 30th floor in `TOK-RPG-30-27 Hakucho`
 
 ## Agenda
 
@@ -30,28 +30,36 @@ Weds: Meeting on the 30th floor in `TOK-RPG-30-27 Hakucho`
 
 * 08:30 - 09:00 - arrive and set-up
 * 09:00 - 10:00 - agenda bashing
-* ...
+* Design reviews triage
+* TC39
 * 12:00 - 13:00 - lunch (Google canteen)
 * 13:00 - 13:45 - Quick update on QUIC from @mnot  
-* ...
+* Design Reviews
 * 18:00 - Meeting end
+* Dinner: Soba
 
 #### Wednesday
 
 * 08:30 - 09:00 - arrive and set-up
-* 09:00 - 10:00 - agenda bashing
-* ...
+* 09:00 - 10:00 - F2F planning and teleconference times
+* 10:00 - Signed Exchanges & Bundling
+* Design Principles Document
 * 12:00 - 13:00 - lunch (Google canteen)
-* ...
+* Ethical Web
+* Design Reviews
+* Portals
+* Feature Policy ??
+* Security & Privacy Questionnaire
+* Private Browsing
 * 18:00 - Meeting end
 
 #### Thursday
 
 * 08:30 - 09:00 - arrive and set-up
-* 09:00 - 10:00 - agenda bashing
-* ...
+* 09:00 - 10:00 - feature policy??
+* design review marathon
 * 12:00 - 13:00 - lunch (Google canteen)
-* ...
+* design review marathon
 * 18:00 - Meeting end
 
 
