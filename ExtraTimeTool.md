@@ -6,13 +6,14 @@ The TAG maintains a tool for calculating the best division of TAG 'extra time' i
 Tool source: https://glitch.com/edit/#!/tag-extra-time?path=server.js:1:0
 
 Tool app: https://tag-extra-time.glitch.me/ (Also available from clicking the "Show (Live)" button in the 
-upper-left region of the editor.)
+upper-left region of the source editor.)
 
 Link to become an editor of the project: https://glitch.com/edit/#!/join/cbf41964-b22d-46af-8ca4-f9ded89afbd7
 
 ## How to use it
 
 1. Click on the [Tool app](https://tag-extra-time.glitch.me/)
+2. Click the link "Find groups solution" (this can take awhile as the brute-force algorithm runs)
 
 ## How it Works
 
