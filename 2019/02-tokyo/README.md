@@ -70,3 +70,10 @@ Weds: Meeting on the 30th floor in `TOK-RPG-30-27 Hakucho`
 * Design Principles
   * [Open issues](https://github.com/w3ctag/design-principles/issues)
 * New business?
+
+
+### Minutes
+
+* Tuesday: [Raw](https://cryptpad.w3ctag.org/code/#/2/code/view/geRCrlRuinxwry3zSxpyibkzTUAUSVYyYI8cLc1JHvg/) [Final](./02-05-minutes.md)
+* Wednesday: [Raw](https://cryptpad.w3ctag.org/code/#/2/code/view/7j3e6wni9G-jDseaakH342IMRKt2Ec4h8+OaMoYP5ak/) [Final](./02-06-minutes.md)
+* Thursday: [Raw](https://cryptpad.w3ctag.org/code/#/2/code/view/PgABV3fUQYNx4vTY8-dCiaaBGUqfwu+jwduYlO6Lzao/) [Final](./02-07-minutes.md)
