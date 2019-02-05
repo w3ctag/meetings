@@ -41,8 +41,8 @@ Thurs: Meeting on the 30th floor in `TOK-RPG-30-27 Hakucho`
 #### Wednesday
 
 * 08:30 - 09:00 - arrive and set-up
-* 09:00 - 10:00 - F2F planning and teleconference times
-* 10:00 - Signed Exchanges & Bundling
+* 09:00 - Signed Exchanges & Bundling
+* 10:00 - F2F planning and teleconference times
 * Design Principles Document
 * 12:00 - 13:00 - lunch (Google canteen)
 * Ethical Web
