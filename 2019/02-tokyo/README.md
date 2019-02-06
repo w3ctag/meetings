@@ -45,10 +45,10 @@ Thurs: Meeting on the 30th floor in `TOK-RPG-30-27 Hakucho`
 * design reviews breakouts
 * 12:00 - 13:00 - lunch (Google canteen)
 * Design Principles Document
-* Ethical Web
 * Design Reviews
 * Portals
 * Feature Policy ??
+* Ethical Web
 * 16:00 - F2F planning and teleconference times
 * Security & Privacy Questionnaire
 * Private Browsing
