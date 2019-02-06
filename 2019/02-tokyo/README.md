@@ -42,13 +42,14 @@ Thurs: Meeting on the 30th floor in `TOK-RPG-30-27 Hakucho`
 
 * 08:30 - 09:00 - arrive and set-up
 * 09:00 - Signed Exchanges & Bundling
-* 10:00 - F2F planning and teleconference times
-* Design Principles Document
+* design reviews breakouts
 * 12:00 - 13:00 - lunch (Google canteen)
+* Design Principles Document
 * Ethical Web
 * Design Reviews
 * Portals
 * Feature Policy ??
+* 16:00 - F2F planning and teleconference times
 * Security & Privacy Questionnaire
 * Private Browsing
 * 18:00 - Meeting end
