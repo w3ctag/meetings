@@ -2,9 +2,9 @@
 
 The teleconference time will switch with the *European* summer time change, which is the last Sunday in March and the last Sunday in October.
 
-### January-half of the year
+### January-half of the year: Tuesday 21:00 UTC
 
-| 21:00 Tuesday   | UTC |
+| Time            | Location |
 | --------------- | --- |
 | 06:00 Wednesday | Japan |
 | 08:00 Wednesday | Sydney |
@@ -12,9 +12,9 @@ The teleconference time will switch with the *European* summer time change, whic
 | 21:00 Tuesday   | UK |
 | 22:00 Tuesday   | France, Denmark, Switzerland |
 
-### July-half of the year
+### July-half of the year: Wednesday 05:00 UTC
 
-| 05:00 Wednesday | UTC |
+| Time            | Location |
 | --------------- | --- |
 | 06:00 Wednesday | UK |
 | 07:00 Wednesday | France, Denmark, Switzerland |
