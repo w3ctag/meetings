@@ -8,7 +8,7 @@ The teleconference time will switch with the *European* summer time change, whic
 | --------------- | --- |
 | 06:00 Wednesday | Japan |
 | 08:00 Wednesday | Sydney |
-| 13:00 Tuesday   | California |
+| 13:00 Tuesday   | California (or 14:00 for the few weeks that are on summer time) |
 | 21:00 Tuesday   | UK |
 | 22:00 Tuesday   | France, Denmark, Switzerland |
 
