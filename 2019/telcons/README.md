@@ -1,10 +1,10 @@
 ## Teleconference time plan for 2019
 
-The teleconference time will switch with the *European* summer time change, which is the last Sunday in March and the last Sunday in October.
+The teleconference time will switch with the *European* summer time change, which is the last Sunday in March and the last Sunday in October.  Teleconferences are 1 hour long.
 
 ### January-half of the year: Tuesday 21:00 UTC
 
-| Time            | Location |
+| Start Time      | Location |
 | --------------- | --- |
 | 06:00 Wednesday | Japan |
 | 08:00 Wednesday | Sydney |
@@ -14,7 +14,7 @@ The teleconference time will switch with the *European* summer time change, whic
 
 ### July-half of the year: Wednesday 05:00 UTC
 
-| Time            | Location |
+| Start Time      | Location |
 | --------------- | --- |
 | 06:00 Wednesday | UK |
 | 07:00 Wednesday | France, Denmark, Switzerland |
