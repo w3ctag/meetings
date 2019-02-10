@@ -1,7 +1,7 @@
 # Reykjavík F2F
 ## 2019 May 21 - 23 (Tuesday-Thursday)
 
-### *** DATES FINAL/LOCATION UNDER CONFIRMATION ***
+### *** DATES/LOCATION FINAL ***
 
 Host: Vivaldi Technologies
 
