@@ -1,6 +1,6 @@
 ## Teleconference time plan for 2019
 
-The teleconference time will switch with the *European* summer time change, which is the last Sunday in March and the last Sunday in October.  Teleconferences are 1 hour long.
+The teleconference time will switch with the *European* summer time change, which is the last Sunday in March (31 March, 2019) and the last Sunday in October (27 October, 2019).  Teleconferences are 1 hour long.
 
 ### January-half of the year: Tuesday 21:00 UTC
 
