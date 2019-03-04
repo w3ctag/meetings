@@ -8,14 +8,13 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 #### January-half of the year: Tuesday 21:00 UTC
 
-| Start Time      | Location | Note |
+| Start Time      | Location | 
 | --------------- | --- | --- |
 | 06:00 Wednesday | Japan |
 | 08:00 Wednesday | Sydney |
-| 13:00 Tuesday   | California | or 14:00 for the few weeks that are on summer time |
+| 13:00 Tuesday   | California | 
 | 21:00 Tuesday   | UK |
 | 22:00 Tuesday   | France, Denmark, Switzerland |
-
 
 * [First-Party Sets](https://github.com/w3ctag/design-reviews/issues/342) - @dbaron, @torgo
 * [Feature policy control over sandbox features](https://github.com/w3ctag/design-reviews/issues/339) - @dbaron, @torgo
