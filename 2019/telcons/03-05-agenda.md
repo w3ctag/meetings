@@ -26,7 +26,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Base used to resolve relative URIs to absolute URIs in HTML5 data-blocks](https://github.com/w3ctag/design-reviews/issues/312) - @hober, @slightlyoff, @hadleybeeman
 * [hrefTranslate attribute](https://github.com/w3ctag/design-reviews/issues/301) - @torgo, @hadleybeeman
 * [User Activation API](https://github.com/w3ctag/design-reviews/issues/300) - @hober, @dbaron, @hadleybeeman
-* [Carriage of Web Resource in ISOBMFF](https://github.com/w3ctag/design-reviews/issues/285) - @hober, @cynthia, @torgo
 * [The web platform needs a service discovery mechanism](https://github.com/w3ctag/design-reviews/issues/240) - @cynthia, @hadleybeeman, @plinss
 * [Media Capabilities](https://github.com/w3ctag/design-reviews/issues/218) - @cynthia, @travisleithead, @plinss
 * [ads.txt](https://github.com/w3ctag/design-reviews/issues/201) - @slightlyoff, @torgo, @ylafon
