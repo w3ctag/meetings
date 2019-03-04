@@ -6,14 +6,16 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Technical Architecture Group - 2019-03-12
 
-<table>
-<tr><td> San Francisco (U.S.A. - California) <td> Tuesday, 12 March, 14:00 GMT-7
-<tr><td> Boston (U.S.A. - Massachusetts) <td> Tuesday, 12 March, 17:00 GMT-4
-<tr><td> London (United Kingdom - England) <td> Tuesday, 12 March, 21:00 GMT
-<tr><td> Paris (France) <td> Tuesday, 12 March, 22:00 CET
-<tr><td> Tokyo (Japan) <td> Wednesday, 13 March, 06:00 GMT+9
-<tr><td> Corresponding UTC (GMT) <td> Tuesday, 12 March, 21:00 UTC
-</table>
+#### January-half of the year: Tuesday 21:00 UTC
+
+| Start Time      | Location | Note |
+| --------------- | --- | --- |
+| 06:00 Wednesday | Japan |
+| 08:00 Wednesday | Sydney |
+| 13:00 Tuesday   | California | or 14:00 for the few weeks that are on summer time |
+| 21:00 Tuesday   | UK |
+| 22:00 Tuesday   | France, Denmark, Switzerland |
+
 
 * [First-Party Sets](https://github.com/w3ctag/design-reviews/issues/342) - @dbaron, @torgo
 * [Feature policy control over sandbox features](https://github.com/w3ctag/design-reviews/issues/339) - @dbaron, @torgo
