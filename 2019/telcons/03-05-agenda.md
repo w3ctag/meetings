@@ -1,6 +1,6 @@
 ### Call Agenda
 
-This agenda can be viewed and updated on [Github](https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/2019-03-12-Technical_Architecture_Group-agenda.md).
+This agenda can be viewed and updated on [Github](https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/03-05-agenda.md).
 
 If you would like to add an item to the agenda or volunteer to scribe please open a pull request against this agenda.
 
@@ -34,12 +34,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Intersection Observer review](https://github.com/w3ctag/design-reviews/issues/197) - @slightlyoff, @dbaron
 * [Task Scheduling](https://github.com/w3ctag/design-reviews/issues/72) - @dbaron
 * [Clear Site Data](https://github.com/w3ctag/design-reviews/issues/62) - @hober
-
-### Logistics
-
-Chair: Dan
-
-Scribe:
 
 ### Logistics
 
