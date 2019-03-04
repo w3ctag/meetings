@@ -9,7 +9,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 #### January-half of the year: Tuesday 21:00 UTC
 
 | Start Time      | Location |
-| --------------- | --- | --- |
+| --------------- | --- |
 | 06:00 Wednesday | Japan |
 | 08:00 Wednesday | Sydney |
 | 13:00 Tuesday   | California | 
