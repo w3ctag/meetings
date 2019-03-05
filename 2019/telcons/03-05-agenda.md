@@ -19,21 +19,17 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [First-Party Sets](https://github.com/w3ctag/design-reviews/issues/342) - @dbaron, @torgo
 * [Feature policy control over sandbox features](https://github.com/w3ctag/design-reviews/issues/339) - @dbaron, @torgo
 * [IntersectionObserver V2](https://github.com/w3ctag/design-reviews/issues/328) - @slightlyoff, @dbaron
-* [WebRTC DSCP Control API](https://github.com/w3ctag/design-reviews/issues/325) - @hober, @cynthia, @torgo
 * [Event Timing API](https://github.com/w3ctag/design-reviews/issues/324) - @dbaron, @travisleithead
-* [EME Extension: HDCP Policy Check](https://github.com/w3ctag/design-reviews/issues/323) - @hober, @cynthia
 * [CSS Properties and Values API Level 1](https://github.com/w3ctag/design-reviews/issues/318) - @hober, @alice, @dbaron
-* [IndexedDB Transaction Explicit Commit API](https://github.com/w3ctag/design-reviews/issues/316) - @cynthia, @kenchris
 * [Base used to resolve relative URIs to absolute URIs in HTML5 data-blocks](https://github.com/w3ctag/design-reviews/issues/312) - @hober, @slightlyoff, @hadleybeeman
 * [hrefTranslate attribute](https://github.com/w3ctag/design-reviews/issues/301) - @torgo, @hadleybeeman
 * [User Activation API](https://github.com/w3ctag/design-reviews/issues/300) - @hober, @dbaron, @hadleybeeman
-* [The web platform needs a service discovery mechanism](https://github.com/w3ctag/design-reviews/issues/240) - @cynthia, @hadleybeeman, @plinss
-* [Media Capabilities](https://github.com/w3ctag/design-reviews/issues/218) - @cynthia, @travisleithead, @plinss
 * [ads.txt](https://github.com/w3ctag/design-reviews/issues/201) - @slightlyoff, @torgo, @ylafon
 * [Trusted Types](https://github.com/w3ctag/design-reviews/issues/198) - @hober, @cynthia, @alice, @slightlyoff, @hadleybeeman, @travisleithead, @plinss
 * [Intersection Observer review](https://github.com/w3ctag/design-reviews/issues/197) - @slightlyoff, @dbaron
 * [Task Scheduling](https://github.com/w3ctag/design-reviews/issues/72) - @dbaron
 * [Clear Site Data](https://github.com/w3ctag/design-reviews/issues/62) - @hober
+* [The web platform needs a service discovery mechanism](https://github.com/w3ctag/design-reviews/issues/240) - @cynthia, @hadleybeeman, @plinss
 
 ### Logistics
 
