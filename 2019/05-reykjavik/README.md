@@ -9,6 +9,8 @@ Location: [Innovation House](https://goo.gl/maps/nqiMxKtu1RL2), Eiðistorg 13-15
 
 Note: Dates do not overlap with Northern lights. The Northern lights are a lie.
 
+Note: Our friends at the IAB will be [meeting the week before](https://www.iab.org/wiki/index.php/2019_Retreat) in Reykjavík.
+
 ### Accomodation Tips
 
 Downtown Reykjavík is a 30 minutes walk, or a 10-15 minute bus ride. Bus 11 and bus 13 go to the meeting venue. The live status of the buses (of the entire city) can be checked [here](https://www.straeto.is/en).
