@@ -20,6 +20,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Web Publications review](https://github.com/w3ctag/design-reviews/issues/344) - @dbaron, @torgo, @hadleybeeman
 * [First-Party Sets](https://github.com/w3ctag/design-reviews/issues/342) - @dbaron, @torgo
 * [User Idle Detection](https://github.com/w3ctag/design-reviews/issues/336) - @cynthia, @alice, @kenchris, @lknik
+* [User Activation Delegation through postMessages](https://github.com/w3ctag/design-reviews/issues/347) - @alice
 * [Scroll-linked Animations](https://github.com/w3ctag/design-reviews/issues/330) - @hober, @alice, @dbaron
 * [Priority Hints API](https://github.com/w3ctag/design-reviews/issues/241) - @dbaron, @ylafon, @hadleybeeman, @lknik
 * [Serialization of natural language in data formats such as JSON [I18N]](https://github.com/w3ctag/design-reviews/issues/178) - @cynthia, @dbaron
