@@ -40,7 +40,7 @@ Scribe:
 
 IRC : irc.w3.org / #tagmem
 
-Bridge: https://appear.in/w3ctag first then going to https://meet.jit.si/w3ctag as a back-up
+Bridge: https://meet.jit.si/w3ctag first then going to https://appear.in/w3ctag as a back-up
 
 * Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
