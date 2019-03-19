@@ -16,6 +16,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 <tr><td> Corresponding UTC (GMT) <td> Tuesday, 26 March, 21:00 UTC
 </table>
 
+* [IETF Liaison](https://datatracker.ietf.org/liaison/1614/) - @ylafon
 * [Audiobooks](https://github.com/w3ctag/design-reviews/issues/345) - @dbaron
 * [Web Publications review](https://github.com/w3ctag/design-reviews/issues/344) - @dbaron, @torgo, @hadleybeeman
 * [First-Party Sets](https://github.com/w3ctag/design-reviews/issues/342) - @dbaron, @torgo
