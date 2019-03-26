@@ -22,7 +22,9 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Feature policy control over sandbox features](https://github.com/w3ctag/design-reviews/issues/339) - @dbaron, @torgo
 * [User Idle Detection](https://github.com/w3ctag/design-reviews/issues/336) - @cynthia, @kenchris, @lknik
 * [Scroll-linked Animations](https://github.com/w3ctag/design-reviews/issues/330) - @hober, @alice
+* [Intersection Observer review](https://github.com/w3ctag/design-reviews/issues/197) - @slightlyoff, @dbaron
 * [IntersectionObserver V2](https://github.com/w3ctag/design-reviews/issues/328) - @slightlyoff, @dbaron
+* [WebRTC DSCP Control API](https://github.com/w3ctag/design-reviews/issues/325) - @hober, @cynthia, @torgo
 * [Event Timing API](https://github.com/w3ctag/design-reviews/issues/324) - @dbaron, @travisleithead
 * [CSS Properties and Values API Level 1](https://github.com/w3ctag/design-reviews/issues/318) - @hober, @alice, @dbaron
 * [Base used to resolve relative URIs to absolute URIs in HTML5 data-blocks](https://github.com/w3ctag/design-reviews/issues/312) - @hober, @slightlyoff, @hadleybeeman
@@ -30,7 +32,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Priority Hints API](https://github.com/w3ctag/design-reviews/issues/241) - @dbaron, @ylafon, @hadleybeeman, @lknik
 * [ads.txt](https://github.com/w3ctag/design-reviews/issues/201) - @slightlyoff, @torgo, @ylafon
 * [Trusted Types](https://github.com/w3ctag/design-reviews/issues/198) - @hober, @cynthia, @alice, @slightlyoff, @hadleybeeman, @travisleithead, @plinss
-* [Intersection Observer review](https://github.com/w3ctag/design-reviews/issues/197) - @slightlyoff, @dbaron
 * [Task Scheduling](https://github.com/w3ctag/design-reviews/issues/72) - @dbaron
 * [Clear Site Data](https://github.com/w3ctag/design-reviews/issues/62) - @hober
 
