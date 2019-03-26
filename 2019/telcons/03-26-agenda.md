@@ -23,16 +23,11 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [User Idle Detection](https://github.com/w3ctag/design-reviews/issues/336) - @cynthia, @kenchris, @lknik
 * [Scroll-linked Animations](https://github.com/w3ctag/design-reviews/issues/330) - @hober, @alice
 * [IntersectionObserver V2](https://github.com/w3ctag/design-reviews/issues/328) - @slightlyoff, @dbaron
-* [WebRTC DSCP Control API](https://github.com/w3ctag/design-reviews/issues/325) - @hober, @cynthia, @torgo
 * [Event Timing API](https://github.com/w3ctag/design-reviews/issues/324) - @dbaron, @travisleithead
-* [EME Extension: HDCP Policy Check](https://github.com/w3ctag/design-reviews/issues/323) - @hober, @cynthia
 * [CSS Properties and Values API Level 1](https://github.com/w3ctag/design-reviews/issues/318) - @hober, @alice, @dbaron
-* [IndexedDB Transaction Explicit Commit API](https://github.com/w3ctag/design-reviews/issues/316) - @cynthia, @kenchris
 * [Base used to resolve relative URIs to absolute URIs in HTML5 data-blocks](https://github.com/w3ctag/design-reviews/issues/312) - @hober, @slightlyoff, @hadleybeeman
 * [hrefTranslate attribute](https://github.com/w3ctag/design-reviews/issues/301) - @torgo, @hadleybeeman
 * [Priority Hints API](https://github.com/w3ctag/design-reviews/issues/241) - @dbaron, @ylafon, @hadleybeeman, @lknik
-* [The web platform needs a service discovery mechanism](https://github.com/w3ctag/design-reviews/issues/240) - @cynthia, @hadleybeeman, @plinss
-* [Media Capabilities](https://github.com/w3ctag/design-reviews/issues/218) - @cynthia, @travisleithead, @plinss
 * [ads.txt](https://github.com/w3ctag/design-reviews/issues/201) - @slightlyoff, @torgo, @ylafon
 * [Trusted Types](https://github.com/w3ctag/design-reviews/issues/198) - @hober, @cynthia, @alice, @slightlyoff, @hadleybeeman, @travisleithead, @plinss
 * [Intersection Observer review](https://github.com/w3ctag/design-reviews/issues/197) - @slightlyoff, @dbaron
