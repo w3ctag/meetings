@@ -16,7 +16,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 <tr><td> Corresponding UTC (GMT) <td> Wednesday, 3 April, 05:00 UTC</td></tr>
 </table>
 
-* [User Activation Delegation through postMessages](https://github.com/w3ctag/design-reviews/issues/347) - @hober, @alice
 * [Audiobooks](https://github.com/w3ctag/design-reviews/issues/345) - @hober, @cynthia, @dbaron
 * [Verifiable Credentials Data Model 1.0](https://github.com/w3ctag/design-reviews/issues/343) - @hadleybeeman
 * [First-Party Sets](https://github.com/w3ctag/design-reviews/issues/342) - @dbaron, @torgo
