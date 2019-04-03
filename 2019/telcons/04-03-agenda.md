@@ -21,8 +21,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [First-Party Sets](https://github.com/w3ctag/design-reviews/issues/342) - @dbaron, @torgo
 * [Portals](https://github.com/w3ctag/design-reviews/issues/331) - @hober, @cynthia, @dbaron, @kenchris, @travisleithead, @plinss
 * [Scroll-linked Animations](https://github.com/w3ctag/design-reviews/issues/330) - @hober, @alice
-* [WebRTC DSCP Control API](https://github.com/w3ctag/design-reviews/issues/325) - @hober, @cynthia, @torgo
-* [EME Extension: HDCP Policy Check](https://github.com/w3ctag/design-reviews/issues/323) - @hober, @cynthia
+* ~[WebRTC DSCP Control API](https://github.com/w3ctag/design-reviews/issues/325)~ - @hober, @cynthia, @torgo
+* ~[EME Extension: HDCP Policy Check](https://github.com/w3ctag/design-reviews/issues/323)~ - @hober, @cynthia
 * [CSS Properties and Values API Level 1](https://github.com/w3ctag/design-reviews/issues/318) - @hober, @alice, @dbaron
 * [IndexedDB Transaction Explicit Commit API](https://github.com/w3ctag/design-reviews/issues/316) - @cynthia, @kenchris
 * [hrefTranslate attribute](https://github.com/w3ctag/design-reviews/issues/301) - @torgo, @hadleybeeman
@@ -31,7 +31,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Media Capabilities](https://github.com/w3ctag/design-reviews/issues/218) - @cynthia, @travisleithead, @plinss
 * [ads.txt](https://github.com/w3ctag/design-reviews/issues/201) - @slightlyoff, @torgo, @ylafon
 * [Trusted Types](https://github.com/w3ctag/design-reviews/issues/198) - @hober, @cynthia, @alice, @slightlyoff, @hadleybeeman, @travisleithead, @plinss
-* [Serialization of natural language in data formats such as JSON [I18N]](https://github.com/w3ctag/design-reviews/issues/178) - @cynthia, @dbaron
+* ~[Serialization of natural language in data formats such as JSON [I18N]](https://github.com/w3ctag/design-reviews/issues/178)~ - @cynthia, @dbaron
 * [Task Scheduling](https://github.com/w3ctag/design-reviews/issues/72) - @dbaron
 * [Clear Site Data](https://github.com/w3ctag/design-reviews/issues/62) - @hober
 
