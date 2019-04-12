@@ -4,7 +4,7 @@
 
 Host: Alice Boxhall (Google)
 
-Location: [Google Japan](https://goo.gl/maps/R4TDR9z2xYy) (Mori Tower)
+Location: Google Japan (Shibuya Stream) (new Google location!)
 
 Tentatively the week before TPAC.
 
