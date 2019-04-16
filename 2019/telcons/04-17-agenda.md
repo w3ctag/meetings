@@ -16,8 +16,9 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 <tr><td> Corresponding UTC (GMT) <td> Wednesday, 17 April, 05:00 UTC</td></tr>
 </table>
 
-* [Web of Things (WoT) Thing Description](https://github.com/w3ctag/design-reviews/issues/357) - @torgo
-* [Web of Things (WoT) Architecture](https://github.com/w3ctag/design-reviews/issues/355) - @torgo
+* Iceland Dev Event Update
+* Triage some new issues
+* [tilt, pan, zoom, etc..](https://github.com/w3ctag/design-reviews/issues/358) - @kenchris  
 * [Pointerevent extension](https://github.com/w3ctag/design-reviews/issues/346) - @alice
 * [Audiobooks](https://github.com/w3ctag/design-reviews/issues/345) - @hober, @cynthia, @dbaron
 * [First-Party Sets](https://github.com/w3ctag/design-reviews/issues/342) - @dbaron, @torgo, @lknik
@@ -25,7 +26,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Feature policy control over sandbox features](https://github.com/w3ctag/design-reviews/issues/339) - @dbaron, @torgo
 * [Portals](https://github.com/w3ctag/design-reviews/issues/331) - @hober, @cynthia, @dbaron, @kenchris, @travisleithead, @plinss
 * [IntersectionObserver V2](https://github.com/w3ctag/design-reviews/issues/328) - @slightlyoff, @dbaron
-* [EME Extension: HDCP Policy Check](https://github.com/w3ctag/design-reviews/issues/323) - @hober, @cynthia
 * [CSS Properties and Values API Level 1](https://github.com/w3ctag/design-reviews/issues/318) - @hober, @alice, @dbaron
 * [hrefTranslate attribute](https://github.com/w3ctag/design-reviews/issues/301) - @torgo, @hadleybeeman
 * [Carriage of Web Resource in ISOBMFF](https://github.com/w3ctag/design-reviews/issues/285) - @hober, @cynthia, @torgo
