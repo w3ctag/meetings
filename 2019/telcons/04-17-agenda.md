@@ -19,7 +19,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * Iceland Dev Event Update
 * Triage some new issues
 * [tilt, pan, zoom, etc..](https://github.com/w3ctag/design-reviews/issues/358) - @kenchris  
-* [Pointerevent extension](https://github.com/w3ctag/design-reviews/issues/346) - @alice
 * [Audiobooks](https://github.com/w3ctag/design-reviews/issues/345) - @hober, @cynthia, @dbaron
 * [First-Party Sets](https://github.com/w3ctag/design-reviews/issues/342) - @dbaron, @torgo, @lknik
 * [Feature policy evolution](https://github.com/w3ctag/design-reviews/issues/341) - @cynthia, @dbaron
