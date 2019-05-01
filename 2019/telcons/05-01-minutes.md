@@ -77,7 +77,7 @@ Alice: I wrote a quick comment in Slack -- I don't have full context but I got s
 
 Tess: they had a clear technical rationale.
 
-Alice: I think they haven't done a clear job of communicating the cost to users in the Chrome implementation of it being synchonous.  (Priority of constituencies.)  They conveyed to me, vaguely, that there's a cost to users.
+Alice: I think they haven't done a clear job of communicating the cost to users in the Chrome implementation of it being synchronous.  (Priority of constituencies.)  They conveyed to me, vaguely, that there's a cost to users.
 
 Tess: Recollection: cost to users that's a consequence of design decisions that were implementation details that weren't necessary to the feature.
 
@@ -103,7 +103,7 @@ Dan: I haven't looked at it.  Bump to next week.
 
 ### [Alternative Text for CSS Generated Content](https://github.com/w3ctag/design-reviews/issues/351) - @alice
 
-Alice: Was just chatting with sangwhan in Slack.  I filed this review, so it sounds good to me, of course.  Sangwhan had some good points.  I think it's OK the way it is.  This went through quite a bit of discussion in CSS WG.  The proposal is to, in a `content` property you can have a trailing slash following by a string, that will be treated as the alt text for the content where it at applies.  Could be an element or a pseudo element, but with different rules.  Sangwhan was proposing that wrapping the alt text in `alt()` would make it more readable; like James Craig's proposal.
+Alice: Was just chatting with Sangwhan in Slack.  I filed this review, so it sounds good to me, of course.  Sangwhan had some good points.  I think it's OK the way it is.  This went through quite a bit of discussion in CSS WG.  The proposal is to, in a `content` property you can have a trailing slash following by a string, that will be treated as the alt text for the content where it at applies.  Could be an element or a pseudo element, but with different rules.  Sangwhan was proposing that wrapping the alt text in `alt()` would make it more readable; like James Craig's proposal.
 
 Sangwhan: My feedback would be as somebody who inherited code.  Not obvious what it does with the `/` syntax; `alt()` would be much more obvious.  James Craig raised a background compatibility issue.  Peter, were you involved?
 
@@ -285,7 +285,7 @@ Tess: feature policy is a client api, naming is part of good api design.  One of
 
 David: I don't feel like it's too specific for design-principles doc.  Would be good if other spec bits link to it.
 
-Tess: There's a separate doc about promises.  We don't have a separate thing for the things you should think about when designing a fetaure policy; it should go in the catch all.
+Tess: There's a separate doc about promises.  We don't have a separate thing for the things you should think about when designing a feature policy; it should go in the catch all.
 
 ## Other business?
 
@@ -307,7 +307,7 @@ Tess: On previous topic on this call, autoplay stuff, I raised meta concern in d
 
 Dan: Maybe start adding to agenda document for face-to-face?
 
-dan: If we wanted issues opened up, we could open them in the meetings repo.
+Dan: If we wanted issues opened up, we could open them in the meetings repo.
 
 Dan: But to David's point, we could just (Dan makes editing sounds) start adding items into README.md as items that we want to tackle.  Either place would be a good place to leave things.
 
