@@ -305,7 +305,7 @@ Alice: Are we capturing this type of meta-issue somewhere?
 
 Tess: On previous topic on this call, autoplay stuff, I raised meta concern in design-reviews repo.  Any reason not to open meta issue?
 
-Dan: Maybe start adding to agenda document for face-to-face?
+David: Maybe start adding to agenda document for face-to-face?
 
 Dan: If we wanted issues opened up, we could open them in the meetings repo.
 
