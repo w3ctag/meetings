@@ -19,13 +19,10 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [LazyLoad (loading= attribute)](https://github.com/w3ctag/design-reviews/issues/361) - @hober, @cynthia
 * [MediaStream Image Capture API (Pan/Tilt feature)](https://github.com/w3ctag/design-reviews/issues/358) - @cynthia, @kenchris
 * [Web of Things (WoT) Thing Description](https://github.com/w3ctag/design-reviews/issues/357) - @torgo
-* [Autoplay Detection API](https://github.com/w3ctag/design-reviews/issues/356) - @hober, @hadleybeeman
 * [Web of Things (WoT) Architecture](https://github.com/w3ctag/design-reviews/issues/355) - @torgo
 * [Design questions for Signed Exchanges](https://github.com/w3ctag/design-reviews/issues/354) - @torgo, @hadleybeeman
-* [Backdrop Filter](https://github.com/w3ctag/design-reviews/issues/353) - @hober
 * [Subresource prefetching+loading via Signed HTTP Exchange](https://github.com/w3ctag/design-reviews/issues/352) - @torgo, @hadleybeeman
 * [Async Clipboard - image/delayed content](https://github.com/w3ctag/design-reviews/issues/350) - @cynthia
-* [CSS Animation Worklet API](https://github.com/w3ctag/design-reviews/issues/349) - @hober
 * [TAG review of whether element.pseudo(":unknown") should return null or throw](https://github.com/w3ctag/design-reviews/issues/348) - @hober, @alice, @dbaron
 * [Pointerevent extension](https://github.com/w3ctag/design-reviews/issues/346) - @cynthia, @alice
 * [Audiobooks](https://github.com/w3ctag/design-reviews/issues/345) - @hober, @cynthia, @dbaron
