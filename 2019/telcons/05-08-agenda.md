@@ -18,8 +18,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 * [LazyLoad (loading= attribute)](https://github.com/w3ctag/design-reviews/issues/361) - @hober, @cynthia
 * [MediaStream Image Capture API (Pan/Tilt feature)](https://github.com/w3ctag/design-reviews/issues/358) - @cynthia, @kenchris
-* [Web of Things (WoT) Thing Description](https://github.com/w3ctag/design-reviews/issues/357) - @torgo
-* [Web of Things (WoT) Architecture](https://github.com/w3ctag/design-reviews/issues/355) - @torgo
 * [Design questions for Signed Exchanges](https://github.com/w3ctag/design-reviews/issues/354) - @torgo, @hadleybeeman
 * [Subresource prefetching+loading via Signed HTTP Exchange](https://github.com/w3ctag/design-reviews/issues/352) - @torgo, @hadleybeeman
 * [Async Clipboard - image/delayed content](https://github.com/w3ctag/design-reviews/issues/350) - @cynthia
