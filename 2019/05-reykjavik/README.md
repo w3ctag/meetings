@@ -18,3 +18,20 @@ Note: There is a [QUIC Interim](https://github.com/quicwg/wg-materials/blob/mast
 Downtown Reykjavík is a 30 minutes walk, or a 10-15 minute bus ride. Bus 11 and bus 13 go to the meeting venue. The live status of the buses (of the entire city) can be checked [here](https://www.straeto.is/en).
 
 There is one hotel nearby, for those who really do not want to travel downtown.
+
+### Agenda
+
+#### Day 1 - 21 May
+
+8:30 - 9:00 : Arrival / Set-up  
+...  
+18:00 - [Developer Meet-up](https://ti.to/w3c-tag/meet-the-tag-reykjavik)
+
+#### Day 2 - 22 May
+
+8:30 - 9:00 : Arrival / Set-up  
+9:00 - 10:00 : Andrew Betts joining us to talk Feature Policy  
+
+#### Day 3 - 23 May
+
+8:30 - 9:00 : Arrival / Set-up  
