@@ -18,10 +18,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 * [MediaStream Image Capture API (Pan/Tilt feature)](https://github.com/w3ctag/design-reviews/issues/358) - @cynthia, @kenchris
 * [Autoplay Detection API](https://github.com/w3ctag/design-reviews/issues/356) - @hober, @hadleybeeman
-* [Backdrop Filter](https://github.com/w3ctag/design-reviews/issues/353) - @hober
 * [Async Clipboard - image/delayed content](https://github.com/w3ctag/design-reviews/issues/350) - @cynthia
 * [User Activation Delegation through postMessages](https://github.com/w3ctag/design-reviews/issues/347) - @hober, @alice, @plinss
-* [Audiobooks](https://github.com/w3ctag/design-reviews/issues/345) - @hober, @cynthia, @dbaron
 * [Web Publications review](https://github.com/w3ctag/design-reviews/issues/344) - @dbaron, @torgo, @hadleybeeman
 * [Import maps](https://github.com/w3ctag/design-reviews/issues/340) - @cynthia, @kenchris
 * [Event Timing API](https://github.com/w3ctag/design-reviews/issues/324) - @hober, @dbaron
