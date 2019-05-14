@@ -15,7 +15,7 @@ Note: There is a [QUIC Interim](https://github.com/quicwg/wg-materials/blob/mast
 
 ### Accomodation Tips
 
-Downtown Reykjavík is a 30 minutes walk, or a 10-15 minute bus ride. Bus 11 and bus 13 go to the meeting venue. The live status of the buses (of the entire city) can be checked [here](https://www.straeto.is/en).
+Downtown Reykjavík is a 30 minutes walk, or a 10-15 minute bus ride. Bus 11, 13, and 111 go to the meeting venue. The live status of the buses (of the entire city) can be checked [here](https://www.straeto.is/en).
 
 There is one hotel nearby, for those who really do not want to travel downtown.
 
