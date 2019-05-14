@@ -24,7 +24,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Audiobooks](https://github.com/w3ctag/design-reviews/issues/345) - @hober, @cynthia, @dbaron
 * [Web Publications review](https://github.com/w3ctag/design-reviews/issues/344) - @dbaron, @torgo, @hadleybeeman
 * [Import maps](https://github.com/w3ctag/design-reviews/issues/340) - @cynthia, @kenchris
-* [Event Timing API](https://github.com/w3ctag/design-reviews/issues/324)
+* [Event Timing API](https://github.com/w3ctag/design-reviews/issues/324) - @hober, @dbaron
 * Web of Things
 * Any last logistics for next week's f2f
 
