@@ -27,6 +27,8 @@ Time | Topic
 | 8:30 - 9:00 | Arrival / Set-up
 | 9:00 - 9:30 | Agenda Review
 | 9:30 - 12:00 | Retrospective on how we work  
+Finding Good Examples of Issues  
+Where do we file issues on how we work (Meetings Repo?)
 | 12:00 - 13:00 | Lunch
 | 13:00 - 14:00 | Breakouts 1
 | 14:00 - 14:15 | Break
