@@ -26,7 +26,7 @@ Time | Topic
 | **Day 1 - 21 May** |
 | 8:30 - 9:00 | Arrival / Set-up
 | 9:00 - 9:30 | Agenda Review
-| 9:30 - 12:00 | Retrospective on how we work, Finding Good Examples of Issues, Where do we file issues on how we work (Meetings Repo?)
+| 9:30 - 12:00 | Retrospective on how we work
 | 12:00 - 13:00 | Lunch
 | 13:00 - 14:00 | Breakouts 1
 | 14:00 - 14:15 | Break
@@ -48,6 +48,8 @@ Time | Topic
 
 For Retro:
 * [Meta: ISSUE_TEMPLATE.md should better handle cases of active disagreement](https://github.com/w3ctag/design-reviews/issues/368)
+* Finding Good Examples of Issues
+* Where do we file issues on how we work (Meetings Repo?)
 
 For filing:
 * [Gamepad Light Indicator extension API](https://github.com/w3ctag/design-reviews/issues/362) - @cynthia
