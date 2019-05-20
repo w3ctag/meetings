@@ -26,7 +26,7 @@ Time | Topic
 | **Day 1 - 21 May** |
 | 8:30 - 9:00 | Arrival / Set-up
 | 9:00 - 9:30 | Agenda Review
-| 9:30 - 12:00 | Retrospective on how we work
+| 9:30 - 12:00 | Retrospective on how we work  
 | 12:00 - 13:00 | Lunch
 | 13:00 - 15:00 | Timed 3-minute Triage
 | 15:00 - 15:20 | Break
@@ -41,6 +41,9 @@ Time | Topic
 | **Day 3 - 23 May** |
 | 8:30 - 9:00 | Arrival / Set-up
 | 12:00 - 13:00 | Lunch
+
+For Retro:
+* [Meta: ISSUE_TEMPLATE.md should better handle cases of active disagreement](https://github.com/w3ctag/design-reviews/issues/368)
 
 For filing:
 * [Gamepad Light Indicator extension API](https://github.com/w3ctag/design-reviews/issues/362) - @cynthia
@@ -84,46 +87,16 @@ Stuff left over from last f2f:
 * ["With Credentials" flag possibly inconsistent with web architecture](https://github.com/w3ctag/design-reviews/issues/76) - @slightlyoff, @dbaron, @ylafon
 
 New Stuff:
-Largest Contentful Paint
-#378
- 
-WebAssembly/ESM integration
-#377 
- 
-Top-level await
-#376 
- 
-JSON modules
-#375 
- 
-Picture-in-Picture for arbitary content
-#374 
- 
-`SameSite=Lax` by default.
-#373 
- 
-Launch Events
-#372 
- 
-File Handling
-#371
- 
-WebHID API (Human Interface Device)
-#370 
- 
-IFrame Execution Pausing
-#369 
- 
-Meta: ISSUE_TEMPLATE.md should better handle cases of active disagreement
-#368 
-
-Periodic Background Sync
-#367 
- 
-JS Self-Profiling API
-#366 
- 
-Storage Quota Usage Details
-#365 
-
-
+* [Largest Contentful Paint](https://github.com/w3ctag/design-reviews/issues/378)
+* [WebAssembly/ESM integration](https://github.com/w3ctag/design-reviews/issues/377 )
+* [Top-level await](https://github.com/w3ctag/design-reviews/issues/376)
+* [JSON modules](https://github.com/w3ctag/design-reviews/issues/375)
+* [Picture-in-Picture for arbitary content](https://github.com/w3ctag/design-reviews/issues/374)
+* [`SameSite=Lax` by default.](https://github.com/w3ctag/design-reviews/issues/373)
+* [Launch Events](https://github.com/w3ctag/design-reviews/issues/372)
+* [File Handling](https://github.com/w3ctag/design-reviews/issues/371)
+* [WebHID API (Human Interface Device)](https://github.com/w3ctag/design-reviews/issues/370)
+* [IFrame Execution Pausing](https://github.com/w3ctag/design-reviews/issues/369)
+* [Periodic Background Sync](https://github.com/w3ctag/design-reviews/issues/367)
+* [JS Self-Profiling API](https://github.com/w3ctag/design-reviews/issues/366)
+* [Storage Quota Usage Details](https://github.com/w3ctag/design-reviews/issues/365)
