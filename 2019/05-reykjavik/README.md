@@ -100,3 +100,7 @@ New Stuff:
 * [Periodic Background Sync](https://github.com/w3ctag/design-reviews/issues/367)
 * [JS Self-Profiling API](https://github.com/w3ctag/design-reviews/issues/366)
 * [Storage Quota Usage Details](https://github.com/w3ctag/design-reviews/issues/365)
+
+Issues that do not look like they are in a good state:
+* [Clear site data](https://github.com/w3ctag/design-reviews/issues/62) - @hober
+
