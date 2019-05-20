@@ -72,17 +72,17 @@ For filing:
 * [The web platform needs a service discovery mechanism](https://github.com/w3ctag/design-reviews/issues/240) - @cynthia, @hadleybeeman, @plinss
 
 Stuff left over from last f2f:
-* [Scheduling APIs](https://github.com/w3ctag/design-reviews/issues/338) - @cynthia, @slightlyoff, @dbaron, @kenchris, @travisleithead
-* [Contact API](https://github.com/w3ctag/design-reviews/issues/337) - @dbaron, @torgo, @kenchris, @hadleybeeman, @travisleithead
+* [Scheduling APIs](https://github.com/w3ctag/design-reviews/issues/338) - @cynthia, @slightlyoff, @dbaron, @kenchris,
+* [Contact API](https://github.com/w3ctag/design-reviews/issues/337) - @dbaron, @torgo, @kenchris, @hadleybeeman,
 * [HTML Modules](https://github.com/w3ctag/design-reviews/issues/334) - @cynthia, @kenchris
 * [Web Bluetooth Scanning](https://github.com/w3ctag/design-reviews/issues/333) - @cynthia, @dbaron, @torgo, @kenchris
 * [transferable streams](https://github.com/w3ctag/design-reviews/issues/332) - @torgo, @travisleithead
 * [Element Timing API for img](https://github.com/w3ctag/design-reviews/issues/326) - @dbaron, @travisleithead
 * [Temporal proposal](https://github.com/w3ctag/design-reviews/issues/311) - @cynthia, @slightlyoff, @dbaron, @plinss
 * [TextEncoderStream and TextDecoderStream](https://github.com/w3ctag/design-reviews/issues/282) - @cynthia, @kenchris
-* [HTML General Review: HTML Focus](https://github.com/w3ctag/design-reviews/issues/257) - @cynthia, @alice, @slightlyoff, @dbaron, @travisleithead
+* [HTML General Review: HTML Focus](https://github.com/w3ctag/design-reviews/issues/257) - @cynthia, @alice, @slightlyoff, @dbaron,
 * [Vehicle Information Service Specification (VISS) CR ](https://github.com/w3ctag/design-reviews/issues/234) - @cynthia, @torgo, @hadleybeeman
-* [<link> rel="modulepreload"](https://github.com/w3ctag/design-reviews/issues/213) - @hober, @cynthia, @slightlyoff, @dbaron, @travisleithead
+* [<link> rel="modulepreload"](https://github.com/w3ctag/design-reviews/issues/213) - @hober, @cynthia, @slightlyoff, @dbaron,
 * [Privacy Mode](https://github.com/w3ctag/design-reviews/issues/101) - @hadleybeeman, @lknik
 * ["With Credentials" flag possibly inconsistent with web architecture](https://github.com/w3ctag/design-reviews/issues/76) - @slightlyoff, @dbaron, @ylafon
 
