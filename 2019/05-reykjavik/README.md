@@ -35,10 +35,10 @@ Time | Topic
 | 18:00 - 21:00 | [Developer Meet-up](https://ti.to/w3c-tag/meet-the-tag-reykjavik)
 | **Day 2 - 22 May** |
 | 8:30 - 9:00 | Arrival / Set-up  
-| 9:00 - 10:00 | Andrew Betts joining us to talk Feature Policy  
+| 9:00 - 10:00 | Andrew Betts joining us to talk Feature Policy 
+| 10:15 - 11:15 | Mike West Dials in for multiple security-related issuesd
 | 12:00 - 13:00 | Lunch
-| 13:00 - 14:00 | Mike West Dials in for multiple security-related issuesd
-| 14:15 - 15:15 | Signed Exchanges
+| 15:30 - 16:30 | Signed Exchanges
 | **Day 3 - 23 May** |
 | 8:30 - 9:00 | Arrival / Set-up
 | 12:00 - 13:00 | Lunch
