@@ -101,6 +101,9 @@ New Stuff:
 * [JS Self-Profiling API](https://github.com/w3ctag/design-reviews/issues/366)
 * [Storage Quota Usage Details](https://github.com/w3ctag/design-reviews/issues/365)
 
-Issues that do not look like they are in a good state:
+Issues that do not look like they are in a good state (close and move on?)
 * [Clear site data](https://github.com/w3ctag/design-reviews/issues/62) - @hober
+* [Task Scheduling](https://github.com/w3ctag/design-reviews/issues/72) - @dbaron
+* [With Credentials](https://github.com/w3ctag/design-reviews/issues/76) 
+* [Privacy Mode](https://github.com/w3ctag/design-reviews/issues/101) - @lknik
 
