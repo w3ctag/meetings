@@ -28,10 +28,13 @@ Time | Topic
 | 9:00 - 9:30 | Agenda Review
 | 9:30 - 12:00 | Retrospective on how we work  
 | 12:00 - 13:00 | Lunch
-| 13:00 - 15:00 | Timed 3-minute Triage
-| 15:00 - 15:20 | Break
-| 15:20 - 17:00 | Breakouts
-| 17:00 - 17:30 | Breakout Readouts
+| 13:00 - 14:00 | Breakouts 1
+| 14:00 - 14:15 | Break
+| 14:15 - 15:15 | Breakouts 2
+| 15:15 - 15:30 | Break
+| 15:30 - 16:30 | Breakouts 3
+| 16:30 - 16:45 | Break
+| 16:45 - 17:30 | Breakout Read-Outs
 | 18:00 - 21:00 | [Developer Meet-up](https://ti.to/w3c-tag/meet-the-tag-reykjavik)
 | **Day 2 - 22 May** |
 | 8:30 - 9:00 | Arrival / Set-up  
