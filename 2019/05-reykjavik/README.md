@@ -106,4 +106,11 @@ Issues that do not look like they are in a good state (close and move on?)
 * [Task Scheduling](https://github.com/w3ctag/design-reviews/issues/72) - @dbaron
 * [With Credentials](https://github.com/w3ctag/design-reviews/issues/76) 
 * [Privacy Mode](https://github.com/w3ctag/design-reviews/issues/101) - @lknik
-
+* [The web platform needs a service discovery mechanism](https://github.com/w3ctag/design-reviews/issues/240)
+* [Vehicle Information Service Specification ](https://github.com/w3ctag/design-reviews/issues/234)
+* [Media Capabilities pending external feedback](https://github.com/w3ctag/design-reviews/issues/218)
+* [Decentralized identifiers](DIDs) pending external feedback(https://github.com/w3ctag/design-reviews/issues/216)
+* [<link> rel="modulepreload" extra time pending external feedback](https://github.com/w3ctag/design-reviews/issues/213)
+* [ads.txt](https://github.com/w3ctag/design-reviews/issues/201)
+* [Trusted Types](https://github.com/w3ctag/design-reviews/issues/198)
+* [Intersection Observer review pending external feedback](https://github.com/w3ctag/design-reviews/issues/197)
