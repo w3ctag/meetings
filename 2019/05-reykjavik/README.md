@@ -36,3 +36,88 @@ Time | Topic
 | 8:30 - 9:00 | Arrival / Set-up
 | 12:00 - 13:00 | Lunch
 
+For filing:
+* [Gamepad Light Indicator extension API](https://github.com/w3ctag/design-reviews/issues/362) - @cynthia
+* [LazyLoad (loading= attribute)](https://github.com/w3ctag/design-reviews/issues/361) - @hober, @cynthia
+* [Harmonize permissions and similar mechanisms](https://github.com/w3ctag/design-reviews/issues/360) - @dbaron, @hadleybeeman, @plinss
+* [MediaStream Image Capture API (Pan/Tilt feature)](https://github.com/w3ctag/design-reviews/issues/358) - @cynthia, @kenchris
+* [Autoplay Detection API](https://github.com/w3ctag/design-reviews/issues/356) - @hober, @hadleybeeman
+* [Design questions for Signed Exchanges](https://github.com/w3ctag/design-reviews/issues/354) - @torgo, @ylafon, @hadleybeeman
+* [Backdrop Filter](https://github.com/w3ctag/design-reviews/issues/353) - @hober
+* [Subresource prefetching+loading via Signed HTTP Exchange](https://github.com/w3ctag/design-reviews/issues/352) - @torgo, @hadleybeeman
+* [Alternative Text for CSS Generated Content](https://github.com/w3ctag/design-reviews/issues/351) - @alice
+* [Async Clipboard - image/delayed content](https://github.com/w3ctag/design-reviews/issues/350) - @cynthia
+* [CSS Animation Worklet API](https://github.com/w3ctag/design-reviews/issues/349) - @hober
+* [User Activation Delegation through postMessages](https://github.com/w3ctag/design-reviews/issues/347) - @hober, @alice, @plinss
+* [Audiobooks](https://github.com/w3ctag/design-reviews/issues/345) - @hober, @cynthia, @dbaron
+* [Web Publications review](https://github.com/w3ctag/design-reviews/issues/344) - @dbaron, @torgo, @hadleybeeman
+* [Verifiable Credentials Data Model 1.0](https://github.com/w3ctag/design-reviews/issues/343) - @hadleybeeman
+* [First-Party Sets](https://github.com/w3ctag/design-reviews/issues/342) - @dbaron, @torgo, @lknik
+* [Feature policy evolution](https://github.com/w3ctag/design-reviews/issues/341) - @cynthia, @dbaron
+* [Feature policy control over sandbox features](https://github.com/w3ctag/design-reviews/issues/339) - @dbaron, @torgo
+* [User Idle Detection](https://github.com/w3ctag/design-reviews/issues/336) - @cynthia, @kenchris, @lknik
+* [IntersectionObserver V2](https://github.com/w3ctag/design-reviews/issues/328) - @slightlyoff, @dbaron
+* [Event Timing API](https://github.com/w3ctag/design-reviews/issues/324) - @dbaron
+* [JavaScript WeakRefs](https://github.com/w3ctag/design-reviews/issues/321) - @alice, @dbaron, @kenchris
+* [Wide gamut support for Canvas/OffscreenCanvas/ImageBitmap](https://github.com/w3ctag/design-reviews/issues/315) - @hober, @dbaron, @plinss
+* [The web platform needs a service discovery mechanism](https://github.com/w3ctag/design-reviews/issues/240) - @cynthia, @hadleybeeman, @plinss
+
+Stuff left over from last f2f:
+* [Scheduling APIs](https://github.com/w3ctag/design-reviews/issues/338) - @cynthia, @slightlyoff, @dbaron, @kenchris, @travisleithead
+* [Contact API](https://github.com/w3ctag/design-reviews/issues/337) - @dbaron, @torgo, @kenchris, @hadleybeeman, @travisleithead
+* [HTML Modules](https://github.com/w3ctag/design-reviews/issues/334) - @cynthia, @kenchris
+* [Web Bluetooth Scanning](https://github.com/w3ctag/design-reviews/issues/333) - @cynthia, @dbaron, @torgo, @kenchris
+* [transferable streams](https://github.com/w3ctag/design-reviews/issues/332) - @torgo, @travisleithead
+* [Element Timing API for img](https://github.com/w3ctag/design-reviews/issues/326) - @dbaron, @travisleithead
+* [Temporal proposal](https://github.com/w3ctag/design-reviews/issues/311) - @cynthia, @slightlyoff, @dbaron, @plinss
+* [TextEncoderStream and TextDecoderStream](https://github.com/w3ctag/design-reviews/issues/282) - @cynthia, @kenchris
+* [HTML General Review: HTML Focus](https://github.com/w3ctag/design-reviews/issues/257) - @cynthia, @alice, @slightlyoff, @dbaron, @travisleithead
+* [Vehicle Information Service Specification (VISS) CR ](https://github.com/w3ctag/design-reviews/issues/234) - @cynthia, @torgo, @hadleybeeman
+* [<link> rel="modulepreload"](https://github.com/w3ctag/design-reviews/issues/213) - @hober, @cynthia, @slightlyoff, @dbaron, @travisleithead
+* [Privacy Mode](https://github.com/w3ctag/design-reviews/issues/101) - @hadleybeeman, @lknik
+* ["With Credentials" flag possibly inconsistent with web architecture](https://github.com/w3ctag/design-reviews/issues/76) - @slightlyoff, @dbaron, @ylafon
+
+New Stuff:
+Largest Contentful Paint
+#378
+ 
+WebAssembly/ESM integration
+#377 
+ 
+Top-level await
+#376 
+ 
+JSON modules
+#375 
+ 
+Picture-in-Picture for arbitary content
+#374 
+ 
+`SameSite=Lax` by default.
+#373 
+ 
+Launch Events
+#372 
+ 
+File Handling
+#371
+ 
+WebHID API (Human Interface Device)
+#370 
+ 
+IFrame Execution Pausing
+#369 
+ 
+Meta: ISSUE_TEMPLATE.md should better handle cases of active disagreement
+#368 
+
+Periodic Background Sync
+#367 
+ 
+JS Self-Profiling API
+#366 
+ 
+Storage Quota Usage Details
+#365 
+
+
