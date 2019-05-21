@@ -41,7 +41,7 @@ Time | Topic
 | 9:00 - 10:00 | Andrew Betts joining us to talk Feature Policy 
 | 10:15 - 11:15 | Mike West Dials in for multiple security-related issuess: 198, 297, 342, 373
 | 12:00 - 13:00 | Lunch
-| 15:30 - 16:30 | Signed Exchanges
+| 16:00 - 17:00 | Signed Exchanges
 | **Day 3 - 23 May** |
 | 8:30 - 9:00 | Arrival / Set-up
 | 12:00 - 13:00 | Lunch
