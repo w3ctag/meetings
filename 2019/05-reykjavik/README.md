@@ -41,8 +41,14 @@ Time | Topic
 | 9:00 - 9:30 | Retro on new breakout structure
 | 9:30 - 10:00 | Andrew Betts joining us to talk Feature Policy 
 | 10:15 - 11:15 | Mike West Dials in for multiple security-related issuess: 198, 297, 342, 373, 339
-| 12:00 - 13:00 | Lunch
+| 11:30 - 12:30 | Breakouts 4
+| 12:30 - 13:30 | Lunch
+| 13:30 - 14:30 | Breakouts 5
+| 14:30 - 14:45 | Break
+| 14:45 - 15:45 | Breakouts 6
+| 15:45 - 16:00 | Break
 | 16:00 - 17:00 | Signed Exchanges
+| 17:00 - 17:30 | Readouts from Breakouts
 | **Day 3 - 23 May** |
 | 8:30 - 9:00 | Arrival / Set-up
 | 12:00 - 13:00 | Lunch
