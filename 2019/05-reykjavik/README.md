@@ -41,8 +41,9 @@ Time | Topic
 | 9:00 - 9:30 | Retro on new breakout structure
 | 9:30 - 10:00 | Andrew Betts joining us to talk Feature Policy [341](https://github.com/w3ctag/design-reviews/issues/341)
 | 10:15 - 11:15 | Mike West Dials in for multiple security-related issuess: [198](https://github.com/w3ctag/design-reviews/issues/198), [297](https://github.com/w3ctag/design-reviews/issues/297), [342](https://github.com/w3ctag/design-reviews/issues/342), [373](https://github.com/w3ctag/design-reviews/issues/373), [339](https://github.com/w3ctag/design-reviews/issues/339)
-| 11:30 - 12:30 | Breakouts 4
-| 12:30 - 13:30 | Lunch
+| 11:30 - 12:15 | Lunch
+| 12:15 - 13:15 | Breakouts 4
+| 13:15 - 13:30 | Break
 | 13:30 - 14:30 | Breakouts 5
 | 14:30 - 14:45 | Break
 | 14:45 - 15:45 | Breakouts 6
