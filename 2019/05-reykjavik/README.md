@@ -52,13 +52,14 @@ Time | Topic
 | 17:00 - 17:30 | Readouts from Breakouts
 | **Day 3 - 23 May** |
 | 8:30 - 9:00 | Arrival / Set-up
+| 9:00 - 9:30 | Readouts from yesterday
 | 9:30 - 10:30 | Breakouts 7
 | 10:30 - 10:45 | Break
 | 10:45 - 11:45 | Breakouts 8
 | 11:45 - 12:30 | Lunch
 | 12:30 - 13:30 | Breakouts 9
 | 13:30 - 13:45 | Break
-| 13:45 - 14:45 | Readout
+| 13:45 - 14:45 | Readouts
 | 14:45 - 15:00 | Break
 | 15:00 - 16:00 | Processes, Labels, Templates, Etc... 
 | 16:00 - 16:15 | Break
