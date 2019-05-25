@@ -19,6 +19,18 @@ Downtown Reykjavík is a 30 minutes walk, or a 10-15 minute bus ride. Bus 11, 13
 
 There is one hotel nearby, for those who really do not want to travel downtown.
 
+### Draft Minutes
+
+[Day 1 - 21 May](05-21-minutes.md)  
+[Day 2 - 22 May](05-22-minutes.md)  
+[Day 3 - 23 May](05-23-minutes.md)  
+
+### Raw Minutes (read only)
+
+[Day 1 - 21 May](https://cryptpad.w3ctag.org/code/#/2/code/view/YGQ-IH0pkvu70Jud00j1wBD2ceNUvAem2PNF0-pwoLQ/)  
+[Day 2 - 22 May](https://cryptpad.w3ctag.org/code/#/2/code/view/Y15EEtyWXybVwrwDAeir7yPrSKyQ6fkalTQ6t1AXFuY/)  
+[Day 3 - 23 May](https://cryptpad.w3ctag.org/code/#/2/code/view/wM6+IZmDwPdNaoQdNpZsx8mJLHtVE8QZ0HPmkWnO-Io/)  
+
 ### Agenda
 
 Time | Topic 
