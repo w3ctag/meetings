@@ -31,6 +31,10 @@ There is one hotel nearby, for those who really do not want to travel downtown.
 [Day 2 - 22 May](https://cryptpad.w3ctag.org/code/#/2/code/view/Y15EEtyWXybVwrwDAeir7yPrSKyQ6fkalTQ6t1AXFuY/)  
 [Day 3 - 23 May](https://cryptpad.w3ctag.org/code/#/2/code/view/wM6+IZmDwPdNaoQdNpZsx8mJLHtVE8QZ0HPmkWnO-Io/)  
 
+### Notes from Developer Meet-up
+
+[Breakout session on ContentEditable](https://docs.google.com/document/d/1eUhYGtZy013-szMYWHzE3CkQ0EvE9Jtax6v25DZ73Lg/edit?usp=sharing)
+
 ### Agenda
 
 Time | Topic 
