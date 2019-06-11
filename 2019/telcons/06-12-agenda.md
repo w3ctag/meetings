@@ -34,6 +34,9 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Intersection Observer review](https://github.com/w3ctag/design-reviews/issues/197) - @dbaron
 * ["With Credentials" flag possibly inconsistent with web architecture](https://github.com/w3ctag/design-reviews/issues/76) - @slightlyoff, @dbaron, @ylafon
 
+* scheduling any secondary discussions to be used during alternate call-times
+* resolving what we want to do with the calendar
+
 ### Logistics
 
 Chair: Peter
