@@ -16,7 +16,23 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 <tr><td> Corresponding UTC (GMT) <td> Wednesday, 19 June, 05:00 UTC</td></tr>
 </table>
 
+* TPAC Session
+* [Badging API](https://github.com/w3ctag/design-reviews/issues/387) - @hober
 * [A toast UI element](https://github.com/w3ctag/design-reviews/issues/385) - @kenchris
+* [MediaStream Image Capture API (Pan/Tilt feature)](https://github.com/w3ctag/design-reviews/issues/358) - @cynthia, @kenchris
+* [Pointerevent extension](https://github.com/w3ctag/design-reviews/issues/346) - @cynthia, @alice, @lknik
+* [Import maps](https://github.com/w3ctag/design-reviews/issues/340) - @cynthia, @kenchris
+* [Element Timing API (images and text)](https://github.com/w3ctag/design-reviews/issues/326) - @dbaron, @kenchris
+* [Event Timing API](https://github.com/w3ctag/design-reviews/issues/324) - @dbaron, @kenchris
+* [JavaScript WeakRefs](https://github.com/w3ctag/design-reviews/issues/321) - @alice, @dbaron, @kenchris
+* [CSS Properties and Values API Level 1](https://github.com/w3ctag/design-reviews/issues/318) - @hober, @alice, @dbaron
+* [FetchEvent.resultingClientId](https://github.com/w3ctag/design-reviews/issues/307) - @ylafon, @travisleithead
+* [Display Locking](https://github.com/w3ctag/design-reviews/issues/306) - @cynthia, @dbaron, @kenchris
+* [Form Participation API](https://github.com/w3ctag/design-reviews/issues/305) - @plinss, @lknik
+* [RTCIceTransport](https://github.com/w3ctag/design-reviews/issues/304) - @cynthia, @dbaron
+* [RTCQuicTransport](https://github.com/w3ctag/design-reviews/issues/303) - @cynthia, @dbaron
+* [Feature Policy JS introspection API](https://github.com/w3ctag/design-reviews/issues/292) - @cynthia, @kenchris
+* [Spatial Navigation](https://github.com/w3ctag/design-reviews/issues/287) - @cynthia, @dbaron, @hadleybeeman
 
 ### Logistics
 
