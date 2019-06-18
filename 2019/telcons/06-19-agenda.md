@@ -17,6 +17,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 </table>
 
 * TPAC Session
+* Findings - Privacy & updating ethical web principles
 * [Badging API](https://github.com/w3ctag/design-reviews/issues/387) - @hober
 * [A toast UI element](https://github.com/w3ctag/design-reviews/issues/385) - @kenchris
 * [MediaStream Image Capture API (Pan/Tilt feature)](https://github.com/w3ctag/design-reviews/issues/358) - @cynthia, @kenchris
