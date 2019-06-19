@@ -16,11 +16,8 @@ I'm requesting TAG presence at the following meeting during TPAC:
   - Specification URL: [spec url]
   - Explainer (containing user needs and example code)¹: [url]
   - GitHub issues (if you prefer feedback filed there): [url]
-  - Preferred date and timeframe: [roughly]
+  - Preferred date and timeframe: [at least a day is required]
 
-When the meeting agenda and specific room has been finalized, we request
-the groups to note these details as comments in this issue.
+When the meeting agenda and specific room has been finalized, we request the groups to note these details as comments in this issue.
 
-Please note that we will not officially register as observers, as the
-assignee for presence will not be decided until all the groups have sent
-in requests.
+Please note that we will not officially register as observers, as the assignee for presence will not be decided until all the groups have sent in requests.
