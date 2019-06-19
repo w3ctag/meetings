@@ -16,6 +16,7 @@ I'm requesting TAG presence at the following meeting during TPAC:
   - Specification URL: [spec url]
   - Explainer (containing user needs and example code)¹: [url]
   - GitHub issues (if you prefer feedback filed there): [url]
+  - Preferred date and timeframe: [roughly]
 
 When the meeting agenda and specific room has been finalized, we request
 the groups to note these details as comments in this issue.
