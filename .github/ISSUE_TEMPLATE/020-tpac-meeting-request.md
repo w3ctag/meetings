@@ -2,7 +2,7 @@
 name: TPAC Meeting Request
 about: If you'd like the TAG to be present for a discussion during TPAC
 title: ''
-labels: 'Progress: untriaged, Review type: tpac-meeting-request'
+labels: 'untriaged, tpac-meeting-request'
 assignees: ''
 
 ---
