@@ -16,6 +16,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 <tr><td> Corresponding UTC (GMT) <td> Wednesday, 26 June, 05:00 UTC</td></tr>
 </table>
 
+* Update on [Ethical Principles issues](https://github.com/w3ctag/ethical-web-principles/issues) triage - @hadleybeeman, @torgo
+* Web of Things is waiting on us [357](https://github.com/w3ctag/design-reviews/issues/357), [355](https://github.com/w3ctag/design-reviews/issues/355) - @torgo
 * [Badging API](https://github.com/w3ctag/design-reviews/issues/387) - @hober, @torgo
 * [A toast UI element](https://github.com/w3ctag/design-reviews/issues/385) - @hober, @kenchris
 * [MediaStream Image Capture API (Pan/Tilt feature)](https://github.com/w3ctag/design-reviews/issues/358) - @cynthia, @kenchris
