@@ -135,7 +135,7 @@ Tess: suggest we close the issue "thanks for flying".
 
 [consensus to close]
 
-### [RTCIceTransport](https://github.com/w3ctag/design-reviews/issues/304) - @cynthia, @dbaron
+### [RTCIceTransport](https://github.com/w3ctag/design-reviews/issues/304) - @cynthia, @dbaron & [Feature Policy JS introspection API](https://github.com/w3ctag/design-reviews/issues/292) - @cynthia, @kenchris
 
 Dave: [reads tea-leaves] I think this needs a breakout. 
 304/303/389
@@ -173,7 +173,6 @@ Dave: possible it's 304 and 389 but we can sort it out in the breakout...
 [set for breakouts]
 
 ### [RTCQuicTransport](https://github.com/w3ctag/design-reviews/issues/303) - @cynthia, @dbaron
-### [Feature Policy JS introspection API](https://github.com/w3ctag/design-reviews/issues/292) - @cynthia, @kenchris
 
 [bumped]
 
