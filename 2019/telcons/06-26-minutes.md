@@ -1,7 +1,7 @@
 ﻿## TAG Teleconference
 ##### 26 June 2019
 
-Present: Tess, David, Peter, Dan, Alice, Sangwhan, Yves, Lukasz
+Present: Tess, David, Peter, Dan, Alice, Sangwhan, Yves, Lukasz, Hadley
 
 Regrets: Kenneth
 
