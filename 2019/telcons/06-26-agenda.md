@@ -20,7 +20,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * Web of Things is waiting on us [357](https://github.com/w3ctag/design-reviews/issues/357), [355](https://github.com/w3ctag/design-reviews/issues/355) - @torgo
 * [Badging API](https://github.com/w3ctag/design-reviews/issues/387) - @hober, @torgo
 * [A toast UI element](https://github.com/w3ctag/design-reviews/issues/385) - @hober, @kenchris
-* [MediaStream Image Capture API (Pan/Tilt feature)](https://github.com/w3ctag/design-reviews/issues/358) - @cynthia, @kenchris
 * [Pointerevent extension](https://github.com/w3ctag/design-reviews/issues/346) - @cynthia, @alice, @lknik
 * [Import maps](https://github.com/w3ctag/design-reviews/issues/340) - @cynthia, @kenchris
 * [FetchEvent.resultingClientId](https://github.com/w3ctag/design-reviews/issues/307) - @cynthia, @ylafon
