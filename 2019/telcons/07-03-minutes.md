@@ -19,7 +19,7 @@ Event Timing API - @dbaron, @kenchris
 CSS Properties and Values API Level 1 - @hober, @alice, @dbaron  
 Feature Policy JS introspection API - @cynthia, @kenchris  
 
-### [Updates to questionnaire](https://w3ctag.github.io/security-questionnaire/) - @lknik 
+### [Updates to questionnaire](https://w3ctag.github.io/security-questionnaire/) - @lknik 
 
 A few lexicographic changes, markup changes, and that's it.
 
