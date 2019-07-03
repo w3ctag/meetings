@@ -1,10 +1,10 @@
 # TAG Telecon 3 July 2019
 
-Present: Dan, Alice, Tess, David, Yves, Lukasz
-Regrets: Sangwhan, Kenneth, Hadley, Peter
+Present: Dan, Alice, Tess, David, Yves, Lukasz  
+Regrets: Sangwhan, Kenneth, Hadley, Peter  
 
-Chair: Dan
-Scribe: Alice
+Chair: Dan  
+Scribe: Alice  
 
 ## Agenda
 
