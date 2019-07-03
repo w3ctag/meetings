@@ -8,16 +8,16 @@ Scribe: Alice
 
 ## Agenda
 
-Updates to questionnaire - @lknik
-Privacy Mode Finding - @lknik
-WebTransport - @cynthia, @dbaron, @ylafon
-Badging API - @hober, @torgo
-JSON modules - @hober, @cynthia, @dbaron, @kenchris
-Import maps - @cynthia, @kenchris
-Element Timing API (images and text) - @dbaron, @kenchris
-Event Timing API - @dbaron, @kenchris
-CSS Properties and Values API Level 1 - @hober, @alice, @dbaron
-Feature Policy JS introspection API - @cynthia, @kenchris
+Updates to questionnaire - @lknik  
+Privacy Mode Finding - @lknik  
+WebTransport - @cynthia, @dbaron, @ylafon  
+Badging API - @hober, @torgo  
+JSON modules - @hober, @cynthia, @dbaron, @kenchris  
+Import maps - @cynthia, @kenchris  
+Element Timing API (images and text) - @dbaron, @kenchris  
+Event Timing API - @dbaron, @kenchris  
+CSS Properties and Values API Level 1 - @hober, @alice, @dbaron  
+Feature Policy JS introspection API - @cynthia, @kenchris  
 
 ### [Updates to questionnaire](https://w3ctag.github.io/security-questionnaire/) - @lknik 
 
