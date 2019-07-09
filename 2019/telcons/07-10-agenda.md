@@ -16,6 +16,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 <tr><td> Corresponding UTC (GMT) <td> Wednesday, 10 July, 05:00 UTC</td></tr>
 </table>
 
+* [Web of Things](https://github.com/w3ctag/design-reviews/issues/355) - @kenchris, @ylafon
 * [Badging API](https://github.com/w3ctag/design-reviews/issues/387) - @hober, @torgo
 * [JSON modules](https://github.com/w3ctag/design-reviews/issues/375) - @hober, @cynthia, @dbaron, @kenchris
 * [Import maps](https://github.com/w3ctag/design-reviews/issues/340) - @cynthia, @kenchris
