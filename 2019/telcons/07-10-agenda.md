@@ -21,6 +21,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [JSON modules](https://github.com/w3ctag/design-reviews/issues/375) - @hober, @cynthia, @dbaron, @kenchris
 * [Import maps](https://github.com/w3ctag/design-reviews/issues/340) - @cynthia, @kenchris
 * [CSS Properties and Values API Level 1](https://github.com/w3ctag/design-reviews/issues/318) - @hober, @alice, @dbaron
+* [Layout Instability Metric](https://github.com/w3ctag/design-reviews/issues/393)
 
 ### Logistics
 
