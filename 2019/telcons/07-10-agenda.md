@@ -37,4 +37,4 @@ Bridge: https://meet.jit.si/w3ctag first then going to https://appear.in/w3ctag 
 
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/07-10-minutes.md
 
-Raw minutes: ...
+Raw minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/7DlTLRThAWw8+s+OzqhIaCUPc-VOIygATalD9E1ouNA/
