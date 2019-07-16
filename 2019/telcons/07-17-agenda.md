@@ -19,8 +19,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Layout Instability Metric](https://github.com/w3ctag/design-reviews/issues/393) - @alice, @dbaron, @lknik
 * [WebTransport](https://github.com/w3ctag/design-reviews/issues/389) - @cynthia, @dbaron, @ylafon
 * [Badging API](https://github.com/w3ctag/design-reviews/issues/387) - @hober, @alice, @torgo
-* [Web of Things (WoT) Thing Description](https://github.com/w3ctag/design-reviews/issues/357) - @torgo
-* [Web of Things (WoT) Architecture](https://github.com/w3ctag/design-reviews/issues/355) - @torgo
+* [Web of Things (WoT) Thing Description](https://github.com/w3ctag/design-reviews/issues/357) - @torgo, @ylafon, @kenchris
+* [Web of Things (WoT) Architecture](https://github.com/w3ctag/design-reviews/issues/355) - @torgo, @ylafon, @kenchris
 * [Element Timing API (images and text)](https://github.com/w3ctag/design-reviews/issues/326) - @dbaron, @kenchris
 * [Event Timing API](https://github.com/w3ctag/design-reviews/issues/324) - @dbaron, @kenchris
 
