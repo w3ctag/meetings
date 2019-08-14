@@ -16,6 +16,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 <tr><td> Corresponding UTC (GMT) <td> Wednesday, 7 August, 05:00 UTC</td></tr>
 </table>
 
+* Web of Things
 * [SMS Receiver API](https://github.com/w3ctag/design-reviews/issues/391) - @hober, @dbaron, @torgo, @lknik
 * [Badging API](https://github.com/w3ctag/design-reviews/issues/387) - @hober, @alice, @torgo
 * [JavaScript Memory API](https://github.com/w3ctag/design-reviews/issues/386) - @cynthia, @kenchris
