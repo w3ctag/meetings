@@ -25,7 +25,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [WebTransport](https://github.com/w3ctag/design-reviews/issues/389) - @cynthia, @dbaron, @ylafon
 * [Badging API](https://github.com/w3ctag/design-reviews/issues/387) - @hober, @alice, @torgo
 * [JavaScript Memory API](https://github.com/w3ctag/design-reviews/issues/386) - @cynthia, @kenchris
-* [A toast UI element](https://github.com/w3ctag/design-reviews/issues/385) - @hober, @alice, @kenchris
 * [Web Authentication Feature Detection](https://github.com/w3ctag/design-reviews/issues/383) - @dbaron, @torgo, @hadleybeeman
 * [Web of Things (WoT) Thing Description](https://github.com/w3ctag/design-reviews/issues/357) - @torgo
 * [Web of Things (WoT) Architecture](https://github.com/w3ctag/design-reviews/issues/355) - @torgo
