@@ -28,7 +28,6 @@ Should you arrive late, you can check in and get a visitor card (using the visit
 * 8:00 to 8:45 - Breakfast at Google
 * 8:45 - meeting at lobby
 * 9:00 - start
-
 * 10:45 to 11:30 - Fugu
 * 11:30 to 12:30 - lunch [NB: we will have to switch rooms at 13:00]
 * 12:30 onwards - to end-of-day prime break-out time
@@ -39,7 +38,6 @@ Should you arrive late, you can check in and get a visitor card (using the visit
 * 8:00 to 8:45 - Breakfast at Google
 * 8:45 - meeting at lobby
 * 9:00 - start
-
 
 ### Thursday
 
