@@ -45,7 +45,7 @@ Should you arrive late, you can check in and get a visitor card (using the visit
 * 8:00 to 8:45 - Breakfast at Google
 * 8:45 - meeting at lobby
 * 9:00 - start
-* 10:00 to 12:00 - TAG's role in post-director world with guest Florian and other AB members dialing in
+* 10:00 to 12:00 - TAG's role in post-director world with guest Elika & Florian and other AB members dialing in
 * lunch
 * post-lunch retrospective
 
