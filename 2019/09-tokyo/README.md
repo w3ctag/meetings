@@ -23,15 +23,21 @@ Should you arrive late, you can check in and get a visitor card (using the visit
 
 ### Tuesday
 
+* Fugu
+
 ### Wednesday
 
 ### Thursday
 
-
 * 10:00 to 12:00 - TAG's role in post-director world with guest Florian and other AB members dialing in
-
+* lunch
+* post-lunch retrospective
 
 
 ## Topics
 
 * Alibaba Mini-Apps
+* Life-cycle review
+* Retrospective of how we work
+* Fugu
+* Post-Director W3C and the TAG's role in it
