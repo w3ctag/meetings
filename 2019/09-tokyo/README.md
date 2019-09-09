@@ -19,20 +19,38 @@ Should you arrive late, you can check in and get a visitor card (using the visit
 
 ### Monday 9 September
 
+
 * 13:30 to ? - chairs and volunteers to meet to plan breakouts for first day
 
 ### Tuesday
 
-* Fugu
+* 8:00 - meeting at lobby
+* 8:00 to 8:45 - Breakfast at Google
+* 8:45 - meeting at lobby
+* 9:00 - start
+
+* 10:45 to 11:30 - Fugu
+* 11:30 to 12:30 - lunch [NB: we will have to switch rooms at 13:00]
+* 12:30 onwards - to end-of-day prime break-out time
 
 ### Wednesday
 
+* 8:00 - meeting at lobby
+* 8:00 to 8:45 - Breakfast at Google
+* 8:45 - meeting at lobby
+* 9:00 - start
+
+
 ### Thursday
+
+* 8:00 - meeting at lobby
+* 8:00 to 8:45 - Breakfast at Google
+* 8:45 - meeting at lobby
+* 9:00 - start
 
 * 10:00 to 12:00 - TAG's role in post-director world with guest Florian and other AB members dialing in
 * lunch
 * post-lunch retrospective
-
 
 ## Topics
 
