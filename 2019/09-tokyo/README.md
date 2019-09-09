@@ -28,11 +28,18 @@ Should you arrive late, you can check in and get a visitor card (using the visit
 * 8:00 to 8:45 - Breakfast at Google
 * 8:45 - meeting at lobby
 * 9:00 - start
-* 9:00 - 9:30 review agenda
-* 9:30 - 10:00 triage unassigned issues
-* 10:45 to 11:30 - Fugu
+* 9:00 to 9:30 review agenda
+* 9:30 to 10:00 triage unassigned issues
 * 11:30 to 12:30 - lunch [NB: we will have to switch rooms at 13:00]
 * 12:30 onwards - to end-of-day prime break-out time
+* 12:30 to 13:30 - breakouts 1
+* 13:30 to 13:45 - break
+* 13:45 to 14:45 - breakouts 2
+* 14:45 to 15:00 - break
+* 15:00 to 16:00 - breakouts 3
+* 16:00 to 16:15 - break
+* 16:15 to 17:15 - breakouts 4
+* 18:15 to 18:30 - wrap-up
 
 ### Wednesday
 
@@ -40,6 +47,11 @@ Should you arrive late, you can check in and get a visitor card (using the visit
 * 8:00 to 8:45 - Breakfast at Google
 * 8:45 - meeting at lobby
 * 9:00 - start
+* 9:15 to 10:15 - breakouts 5
+* 10:15 to 10:30 - break
+* 10:30 to 11:30 - breakouts 6
+* 11:30 to 12:30 - Lunch
+* 12:30 to 13:30 - Fugu ?
 
 ### Thursday
 
