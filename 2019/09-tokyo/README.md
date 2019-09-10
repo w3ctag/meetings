@@ -73,3 +73,4 @@ Should you arrive late, you can check in and get a visitor card (using the visit
 * Retrospective of how we work
 * Fugu
 * Post-Director W3C and the TAG's role in it
+* Fukuoka schedule
