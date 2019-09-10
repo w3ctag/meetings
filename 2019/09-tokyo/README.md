@@ -63,7 +63,7 @@ Should you arrive late, you can check in and get a visitor card (using the visit
 * 15:15 to 15:30 - break
 * 15:30 to 16:30 - breakout 8
 * 16:30 to 16:45 - break
-* 16:45 to 17:45 - breakout 9 
+* 16:45 to 17:30 - wrap-up, 2ndary triage, etc...
 * collapse
 
 ### Thursday
