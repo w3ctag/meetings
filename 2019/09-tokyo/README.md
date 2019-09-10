@@ -37,6 +37,7 @@ Should you arrive late, you can check in and get a visitor card (using the visit
 * 12:30 to 13:30 - breakouts 1
 * 13:30 to 13:45 - break
 * 13:45 to 14:45 - breakouts 2
+  * Kenji to join us in a2 for Discussion on [signed exchanges](https://github.com/w3ctag/design-reviews/issues/354) at 14:00
 * 14:45 to 15:00 - break
 * 15:00 to 16:00 - breakouts 3
 * 16:00 to 16:15 - break
