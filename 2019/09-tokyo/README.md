@@ -59,7 +59,12 @@ Should you arrive late, you can check in and get a visitor card (using the visit
 * 13:00 to 14:00 - Fugu 
 * 14:00 to 14:30 - TPAC Scheduling
 * 14:00 to 14:15 - break
-* 14:15 onward - breakouts
+* 14:15 to 15:15 - breakout 7
+* 15:15 to 15:30 - break
+* 15:30 to 16:30 - breakout 8
+* 16:30 to 16:45 - break
+* 16:45 to 17:45 - breakout 9 
+* collapse
 
 ### Thursday
 
