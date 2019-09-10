@@ -49,6 +49,7 @@ Should you arrive late, you can check in and get a visitor card (using the visit
 * 8:00 to 8:45 - Breakfast at Google
 * 8:45 - meeting at lobby
 * 9:00 - start
+* 9:00 to 9:15 - meeting schedule
 * 9:15 to 10:15 - breakouts 5
 * 10:15 to 10:30 - break
 * 10:30 to 11:30 - breakouts 6
