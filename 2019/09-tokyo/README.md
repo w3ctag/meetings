@@ -41,7 +41,7 @@ Should you arrive late, you can check in and get a visitor card (using the visit
 * 15:00 to 16:00 - breakouts 3
 * 16:00 to 16:15 - break
 * 16:15 to 17:15 - breakouts 4
-* 18:15 to 18:30 - wrap-up
+* 17:15 to 17:30 - wrap-up
 
 ### Wednesday
 
