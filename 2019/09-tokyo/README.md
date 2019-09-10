@@ -53,7 +53,7 @@ Should you arrive late, you can check in and get a visitor card (using the visit
 * 10:15 to 10:30 - break
 * 10:30 to 11:30 - breakouts 6
 * 11:30 to 12:30 - Lunch
-* 12:30 to 13:30 - Fugu ?
+* 13:00 to 14:00 - Fugu 
 
 ### Thursday
 
