@@ -72,6 +72,7 @@ Should you arrive late, you can check in and get a visitor card (using the visit
 * 8:45 - meeting at lobby
 * 9:00 - start
 * 9:00 - 9:15 - XML (1.1) [obsoletion request](https://github.com/w3ctag/obsoletion/issues/6)
+* 9:15 - 9:45 - Ethics Updates, finalizing meeting schedule
 * 10:00 to 11:00 - TAG's role in post-director world with guest Elika & Florian and other AB members dialing in
 * 11:00 to 12:00 - discussion based on abovce / adjusting our process 
 * 12:00 to 13:00 - lunch
