@@ -1,6 +1,6 @@
 # Cupertino F2F
-## 2019 December 3-5 (Tuesday-Thursday) or 4-6 (Wednesday-Friday)
-## *** LOCATION/DATES NOT YET CONFIRMED ***
+## 2019 December 3-5 (Tuesday-Thursday)
+## *** LOCATION/DATES CONFIRMED ***
 
 Host: Tess O'Connor (Apple)
 
