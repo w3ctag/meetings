@@ -22,6 +22,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [JS Self-Profiling API](https://github.com/w3ctag/design-reviews/issues/366) - @dbaron, @kenchris
 * [how to decide if workers are subresources or separate contexts](https://github.com/w3ctag/design-reviews/issues/310) - @dbaron
 * [hrefTranslate attribute](https://github.com/w3ctag/design-reviews/issues/301) - @dbaron, @torgo, @hadleybeeman
+* [Reviving the HTML Design Principles](https://github.com/w3ctag/design-reviews/issues/426) - @hober
 
 ### Logistics
 
