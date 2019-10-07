@@ -16,8 +16,17 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 <tr><td> Corresponding UTC (GMT) <td> Wednesday, 9 October, 05:00 UTC</td></tr>
 </table>
 
+* Update on any outputs from TPAC
+* Update on AB process questions
+* Update on any work progress on automation tasks
+
+Stuff assigned for today:
 * [Raw Clipboard Access API](https://github.com/w3ctag/design-reviews/issues/406) - @hober, @hadleybeeman
 * [hrefTranslate attribute](https://github.com/w3ctag/design-reviews/issues/301) - @dbaron, @torgo, @hadleybeeman
+
+Stuff that had no milestone but also said in progress:
+* [Service Worker Pattern Matching](https://github.com/w3ctag/design-reviews/issues/417) - Kenneth, Sangwhan, Dan
+* [Storage Corruption](https://github.com/w3ctag/design-reviews/issues/419) - Kenneth, David, Sangwhan
 
 ### Logistics
 
