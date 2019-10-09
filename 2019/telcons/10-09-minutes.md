@@ -74,6 +74,8 @@ Dan: Yes, I can make that commen
 
 Kenneth: no further progress since TPAC.
 
+[we agreed to close this issue for now]
+
 ### [Storage Corruption](https://github.com/w3ctag/design-reviews/issues/419) - Kenneth, David, Sangwhan
 
 Kenneth: kind of the same... lots of feedback from TPAC... some people think we should do something different... 
