@@ -21,6 +21,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Partition the HTTP cache](https://github.com/w3ctag/design-reviews/issues/424) - @hober, @ylafon
 * [Proliferation of manifests at W3C](https://github.com/w3ctag/design-reviews/issues/423) - @kenchris
 * [hrefTranslate attribute](https://github.com/w3ctag/design-reviews/issues/301) - @dbaron, @torgo, @hadleybeeman
+* [raw clipboard accesshttps://github.com/w3ctag/design-reviews/issues/406]() - readout from breakout with @hober @torgo @hadleybeeman & do we need to re-open [issue 222](https://github.com/w3ctag/design-reviews/issues/222)?
 
 ### Logistics
 
