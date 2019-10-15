@@ -16,7 +16,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 <tr><td> Corresponding UTC (GMT) <td> Wednesday, 16 October, 05:00 UTC</td></tr>
 </table>
 
-* [Ability to customize virtual keyboard via enterkeyhint](https://github.com/w3ctag/design-reviews/issues/380)
+* [Ability to customize virtual keyboard via enterkeyhint](https://github.com/w3ctag/design-reviews/issues/380) - @hober
 * [Custom state pseudo class](https://github.com/w3ctag/design-reviews/issues/428) - @hober, @kenchris, @plinss
 * [Modal window](https://github.com/w3ctag/design-reviews/issues/427) - @hober, @alice
 * [Partition the HTTP cache](https://github.com/w3ctag/design-reviews/issues/424) - @hober, @ylafon
