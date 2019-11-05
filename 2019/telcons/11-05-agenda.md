@@ -23,6 +23,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [[Payments] shipping and contact info delegation](https://github.com/w3ctag/design-reviews/issues/425) - @dbaron, @kenchris
 * [Microtransaction payment handlers](https://github.com/w3ctag/design-reviews/issues/422) - @dbaron, @kenchris
 * [Default accessibility semantics for custom elements](https://github.com/w3ctag/design-reviews/issues/401) - @hober, @dbaron
+* [Translate Attribute](https://github.com/w3ctag/design-reviews/issues/301) - @hadleybeeman
 
 ### Logistics
 
