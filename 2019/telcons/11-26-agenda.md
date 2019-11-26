@@ -16,7 +16,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 <tr><td> Corresponding UTC (GMT) <td> Tuesday, 26 November, 21:00 UTC</td></tr>
 </table>
 
-* [MathML Core](https://github.com/w3ctag/design-reviews/issues/438) - @alice, @torgo, @hadleybeeman
 * [Timed Text Markup Language (TTML2) 2nd Edition](https://github.com/w3ctag/design-reviews/issues/432) - @hober, @alice, @hadleybeeman
 * [Serial API](https://github.com/w3ctag/design-reviews/issues/431) - @cynthia, @kenchris
 * [WebXR Gamepads Module](https://github.com/w3ctag/design-reviews/issues/430) - @hober, @alice, @torgo, @ylafon
