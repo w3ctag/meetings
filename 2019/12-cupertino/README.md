@@ -21,3 +21,19 @@ We have Douglas Fir, Pulsar, and Red Giant reserved 9:00 AM until 5:00 PM Tuesda
 * **Douglas Fir**
 * **Pulsar**, a small room off of Entrance 6
 * **Red Giant**, a small room off of Entrance 6
+
+
+
+### Agenda
+
+#### Monday
+
+* 14:30 Agenda planning
+
+#### Tuesday
+
+#### Wednesday
+
+#### Thursday
+
+* 09:00 Fugu APIs, specicially [Raw Clipboard](https://github.com/w3ctag/design-reviews/issues/406) and [Bluetooth Scanning](https://github.com/w3ctag/design-reviews/issues/333), with guest Alex Russell joining by video
