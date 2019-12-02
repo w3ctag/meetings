@@ -12,15 +12,15 @@ Note that the Sunday prior (December 1) is the busiest travel day of the year in
 We have Douglas Fir, Pulsar, and Red Giant reserved 9:00 AM until 5:00 PM Tuesday, Wednesday, and Thursday.
 
 ### Monday's planning session (2:30–5:00)
-* **Lapins**, a conference room off off Entrance 8
+* **Lapins**, a conference room off off [Entrance 8](https://goo.gl/maps/rjbHUPpanZyRWGw79)
 
 ### Plenary sessions
-* **Douglas Fir**, a conference room off of Entrance 7
+* **Douglas Fir**, a conference room off of [Entrance 7](https://goo.gl/maps/QVeSixPcyWe7CLXK7)
 
 ### Breakouts
 * **Douglas Fir**
-* **Pulsar**, a small room off of Entrance 6
-* **Red Giant**, a small room off of Entrance 6
+* **Pulsar**, a small room off of [Entrance 6](https://goo.gl/maps/rJxQUqE1oPNoFAVr5)
+* **Red Giant**, a small room off of [Entrance 6](https://goo.gl/maps/rJxQUqE1oPNoFAVr5)
 
 
 
