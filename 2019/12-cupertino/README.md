@@ -19,8 +19,8 @@ We have Douglas Fir, Pulsar, and Red Giant reserved 9:00 AM until 5:00 PM Tuesda
 
 ### Breakouts
 * **Douglas Fir**
-* **Pulsar**, a small room off of [Entrance 6](https://goo.gl/maps/rJxQUqE1oPNoFAVr5)
-* **Red Giant**, a small room off of [Entrance 6](https://goo.gl/maps/rJxQUqE1oPNoFAVr5)
+* **Pulsar**, a small room off of [Entrance 6](https://goo.gl/maps/4WCvy4qB28j47GfXA)
+* **Red Giant**, a small room off of [Entrance 6](https://goo.gl/maps/4WCvy4qB28j47GfXA)
 
 
 
