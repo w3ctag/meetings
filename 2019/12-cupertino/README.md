@@ -36,4 +36,4 @@ We have Douglas Fir, Pulsar, and Red Giant reserved 9:00 AM until 5:00 PM Tuesda
 
 #### Thursday
 
-* 09:00 Fugu APIs, specicially [Raw Clipboard](https://github.com/w3ctag/design-reviews/issues/406) and [Bluetooth Scanning](https://github.com/w3ctag/design-reviews/issues/333), with guest Alex Russell joining by video
+* 09:30 - 11:00 : Fugu APIs, specicially [Raw Clipboard](https://github.com/w3ctag/design-reviews/issues/406) and [Bluetooth Scanning](https://github.com/w3ctag/design-reviews/issues/333), with guest Alex Russell joining by video
