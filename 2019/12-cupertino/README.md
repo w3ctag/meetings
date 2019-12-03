@@ -41,6 +41,8 @@ We have Douglas Fir, Pulsar, and Red Giant reserved 9:00 AM until 5:00 PM Tuesda
 * 15:10 - 16:10 Slot #4
 * 16:30 - 17:00 Readouts
 
+Raw Minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/-pl7o4PW4as+dDFuo4pjiudf6MC-bBEdtGordbHPDO8/
+
 #### Wednesday
 
 * 9:00 Start (count on at least 15 minutes from parking to meeting room)
@@ -51,6 +53,8 @@ We have Douglas Fir, Pulsar, and Red Giant reserved 9:00 AM until 5:00 PM Tuesda
 * 13:50 - 14:50 Slot #6
 * 15:10 - 16:10 Slot #7
 * 16:30 - 17:00 Readouts
+
+Raw Minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/qPUGBQg0jjIZwkiKdZe-ExReKykrcYkknZqH7EVuf2g/
 
 #### Thursday
 
@@ -63,3 +67,5 @@ We have Douglas Fir, Pulsar, and Red Giant reserved 9:00 AM until 5:00 PM Tuesda
 * 13:50 - 14:50 Slot #9
 * 15:10 - 16:10 Slot #10
 * 16:30 - 17:00 Readouts
+
+Raw Minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/uiqWUlSJXr9n4mS1FFFY9l7IkkMZGF8EmjiTubi-2d0/
