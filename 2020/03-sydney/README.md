@@ -3,3 +3,5 @@
 ## *** LOCATION/DATES NOT YET CONFIRMED ***
 
 Host: Alice Boxhall (Google)
+
+Reconsidering location due to fires in Sydney area.
