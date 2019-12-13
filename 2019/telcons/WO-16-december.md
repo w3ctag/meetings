@@ -30,6 +30,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 </table>
 
 * Readouts from breakout sessions
+* Re-triage 269 - 242 (old HTML General Review Issues) 
 * Design Review Triage
 * Design Principles Triage
 * Mini-retro on this week
