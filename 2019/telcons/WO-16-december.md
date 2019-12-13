@@ -8,7 +8,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### TAG Breakout B (California / Asiana)
 
-* ...
+* 303
+* 307
 
 ### TAG Breakout C (Asiana / Europe)
 
