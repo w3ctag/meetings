@@ -29,4 +29,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 <tr><td> Corresponding UTC (GMT) <td> Tuesday, 18 December, 21:00 UTC</td></tr>
 </table>
 
+* Readouts from breakout sessions
+* Design Principles Triage
+* Mini-retro on this week
 
