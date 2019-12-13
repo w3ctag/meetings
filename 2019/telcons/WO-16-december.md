@@ -2,8 +2,17 @@
 
 If you would like to add an item to the agenda or volunteer to scribe please open a pull request against this agenda.
 
-* [Serial API](https://github.com/w3ctag/design-reviews/issues/431) - @cynthia, @kenchris
+### TAG Breakout A (EU / California)
+
 * [JS Self-Profiling API](https://github.com/w3ctag/design-reviews/issues/366) - @dbaron, @kenchris
+
+### TAG Breakout B (California / Asiana)
+
+* ...
+
+### TAG Breakout C (Asiana / Europe)
+
+* [Serial API](https://github.com/w3ctag/design-reviews/issues/431) - @cynthia, @kenchris
 
 
 
