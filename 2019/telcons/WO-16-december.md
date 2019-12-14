@@ -1,5 +1,9 @@
 ### [W3C TAG](https://w3.org/tag) Plenary Call & Breakouts Agendas *DRAFT* for week-of 16 December 2019
 
+*Please note*: these meetings are open to TAG members and invited guests. If you would like to participate, please email the chairs.
+
+Bridge: https://meet.jit.si/w3ctag (Back-up: https://appear.in/w3ctag)
+
 ### TAG Breakout A (EU / California) - [2019-12-16 17:00 UTC](https://www.timeanddate.com/worldclock/converter.html?iso=20191216T170000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
 * [JS Self-Profiling API](https://github.com/w3ctag/design-reviews/issues/366) - @dbaron, @kenchris
@@ -14,10 +18,6 @@ Chair: Dan
 
 Scribe: ?
 
-Bridge: https://meet.jit.si/w3ctag (Back-up: https://appear.in/w3ctag)
-
-*Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
-
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/12-16-breakout-a-minutes.md
 
 Raw minutes: 
@@ -30,13 +30,9 @@ Raw minutes:
 * [RTCIceTransport](https://github.com/w3ctag/design-reviews/issues/304) - @cynthia, @dbaron
 * [RTCQuicTransport](https://github.com/w3ctag/design-reviews/issues/303) - @cynthia, @dbaron
 
-Chair: Dan
+Chair: Peter
 
 Scribe: ?
-
-Bridge: https://meet.jit.si/w3ctag (Back-up: https://appear.in/w3ctag)
-
-*Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/12-16-breakout-b-minutes.md
 
@@ -54,10 +50,6 @@ Raw minutes:
 Chair: Dan
 
 Scribe: ?
-
-Bridge: https://meet.jit.si/w3ctag (Back-up: https://appear.in/w3ctag)
-
-*Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/12-17-breakout-c-minutes.md
 
@@ -86,10 +78,6 @@ Raw minutes:
 Chair: Dan
 
 Scribe: ?
-
-Bridge: https://meet.jit.si/w3ctag (Back-up: https://appear.in/w3ctag)
-
-*Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/12-18-plenary-minutes.md
 
