@@ -14,12 +14,9 @@ Bridge: https://meet.jit.si/w3ctag (Back-up: https://appear.in/w3ctag)
 * [Web of Things (WoT) Architecture](https://github.com/w3ctag/design-reviews/issues/355) - @torgo, @hadleybeeman
 * [Contact API](https://github.com/w3ctag/design-reviews/issues/337) - @dbaron, @torgo, @kenchris, @hadleybeeman
 
-Chair: Dan
-
-Scribe: ?
-
-Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/12-16-breakout-a-minutes.md
-
+Chair: Dan  
+Scribe: ?  
+Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/12-16-breakout-a-minutes.md  
 Raw minutes: 
 
 ### TAG Breakout B (California / Asia-Pacific) - [2019-12-16 23:00 UTC](https://www.timeanddate.com/worldclock/converter.html?iso=20191216T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
@@ -30,12 +27,9 @@ Raw minutes:
 * [RTCIceTransport](https://github.com/w3ctag/design-reviews/issues/304) - @cynthia, @dbaron
 * [RTCQuicTransport](https://github.com/w3ctag/design-reviews/issues/303) - @cynthia, @dbaron
 
-Chair: Peter
-
-Scribe: ?
-
-Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/12-16-breakout-b-minutes.md
-
+Chair: Peter  
+Scribe: ?  
+Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/12-16-breakout-b-minutes.md  
 Raw minutes: 
 
 ### TAG Breakout C (Asia-Pacific / Europe) - [2019-12-17 08:00 UTC](https://www.timeanddate.com/worldclock/converter.html?iso=20191217T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
@@ -47,12 +41,9 @@ Raw minutes:
 * [WebTransport](https://github.com/w3ctag/design-reviews/issues/389) - @cynthia, @dbaron, @ylafon
 * [WebHID API (Human Interface Device)](https://github.com/w3ctag/design-reviews/issues/370) - @cynthia
 
-Chair: Dan
-
-Scribe: ?
-
-Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/12-17-breakout-c-minutes.md
-
+Chair: Dan  
+Scribe: ?  
+Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/12-17-breakout-c-minutes.md  
 Raw minutes: 
 
 ### TAG Plenary - [2019-12-18 21:00 UTC](https://www.timeanddate.com/worldclock/converter.html?iso=20191218T210000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
@@ -75,10 +66,7 @@ Raw minutes:
 
 ### Logistics
 
-Chair: Dan
-
-Scribe: ?
-
-Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/12-18-plenary-minutes.md
-
+Chair: Dan  
+Scribe: ?  
+Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/12-18-plenary-minutes.md  
 Raw minutes: 
