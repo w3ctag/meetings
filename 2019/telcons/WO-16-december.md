@@ -1,6 +1,6 @@
 ### [W3C TAG](https://w3.org/tag) Plenary Call & Breakouts Agendas *DRAFT* for week-of 16 December 2019
 
-*Please note*: these meetings are open to TAG members and invited guests. If you would like to participate, please email the chairs.
+*Please note*: these calls are open to TAG members and invited guests. If you would like to participate, please contact the chairs.
 
 Bridge: https://meet.jit.si/w3ctag (Back-up: https://appear.in/w3ctag)
 
