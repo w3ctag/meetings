@@ -16,7 +16,7 @@ Scribe: ?
 
 Bridge: https://meet.jit.si/w3ctag (Back-up: https://appear.in/w3ctag)
 
-* Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
+*Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/12-16-breakout-a-minutes.md
 
@@ -36,7 +36,7 @@ Scribe: ?
 
 Bridge: https://meet.jit.si/w3ctag (Back-up: https://appear.in/w3ctag)
 
-* Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
+*Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/12-16-breakout-b-minutes.md
 
@@ -57,7 +57,7 @@ Scribe: ?
 
 Bridge: https://meet.jit.si/w3ctag (Back-up: https://appear.in/w3ctag)
 
-* Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
+*Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/12-17-breakout-c-minutes.md
 
@@ -89,7 +89,7 @@ Scribe: ?
 
 Bridge: https://meet.jit.si/w3ctag (Back-up: https://appear.in/w3ctag)
 
-* Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
+*Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/12-18-plenary-minutes.md
 
