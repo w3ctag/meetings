@@ -1,4 +1,4 @@
-### Plenary Call & Breakouts Agendas *DRAFT* for week-of 16 December 2019
+### [W3C TAG](https://w3.org/tag) Plenary Call & Breakouts Agendas *DRAFT* for week-of 16 December 2019
 
 ### TAG Breakout A (EU / California) - [2019-12-16 17:00 UTC](https://www.timeanddate.com/worldclock/converter.html?iso=20191216T170000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
@@ -10,6 +10,18 @@
 * [Web of Things (WoT) Architecture](https://github.com/w3ctag/design-reviews/issues/355) - @torgo, @hadleybeeman
 * [Contact API](https://github.com/w3ctag/design-reviews/issues/337) - @dbaron, @torgo, @kenchris, @hadleybeeman
 
+Chair: Dan
+
+Scribe: ?
+
+Bridge: https://meet.jit.si/w3ctag (Back-up: https://appear.in/w3ctag)
+
+* Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
+
+Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/12-16-breakout-a-minutes.md
+
+Raw minutes: 
+
 ### TAG Breakout B (California / Asia-Pacific) - [2019-12-16 23:00 UTC](https://www.timeanddate.com/worldclock/converter.html?iso=20191216T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
 * [WebCodecs](https://github.com/w3ctag/design-reviews/issues/433) - @cynthia, @dbaron
@@ -17,6 +29,18 @@
 * [Feature policy evolution](https://github.com/w3ctag/design-reviews/issues/341) - @cynthia, @dbaron
 * [RTCIceTransport](https://github.com/w3ctag/design-reviews/issues/304) - @cynthia, @dbaron
 * [RTCQuicTransport](https://github.com/w3ctag/design-reviews/issues/303) - @cynthia, @dbaron
+
+Chair: Dan
+
+Scribe: ?
+
+Bridge: https://meet.jit.si/w3ctag (Back-up: https://appear.in/w3ctag)
+
+* Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
+
+Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/12-16-breakout-b-minutes.md
+
+Raw minutes: 
 
 ### TAG Breakout C (Asia-Pacific / Europe) - [2019-12-17 08:00 UTC](https://www.timeanddate.com/worldclock/converter.html?iso=20191217T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
@@ -26,6 +50,18 @@
 * [CompressStream](https://github.com/w3ctag/design-reviews/issues/410) - @cynthia, @ylafon, @plinss
 * [WebTransport](https://github.com/w3ctag/design-reviews/issues/389) - @cynthia, @dbaron, @ylafon
 * [WebHID API (Human Interface Device)](https://github.com/w3ctag/design-reviews/issues/370) - @cynthia
+
+Chair: Dan
+
+Scribe: ?
+
+Bridge: https://meet.jit.si/w3ctag (Back-up: https://appear.in/w3ctag)
+
+* Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
+
+Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/12-17-breakout-c-minutes.md
+
+Raw minutes: 
 
 ### TAG Plenary - [2019-12-18 21:00 UTC](https://www.timeanddate.com/worldclock/converter.html?iso=20191218T210000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
@@ -45,3 +81,16 @@
 * Design Principles Triage
 * Mini-retro on this week
 
+### Logistics
+
+Chair: Dan
+
+Scribe: ?
+
+Bridge: https://meet.jit.si/w3ctag (Back-up: https://appear.in/w3ctag)
+
+* Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
+
+Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/12-18-plenary-minutes.md
+
+Raw minutes: 
