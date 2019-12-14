@@ -3,7 +3,6 @@
 ### TAG Breakout A (EU / California) - [2019-12-16 17:00 UTC](https://www.timeanddate.com/worldclock/converter.html?iso=20191216T170000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
 * [JS Self-Profiling API](https://github.com/w3ctag/design-reviews/issues/366) - @dbaron, @kenchris
-* [MathML Core](https://github.com/w3ctag/design-reviews/issues/438) - @alice, @torgo, @hadleybeeman
 * [Proliferation of manifests at W3C](https://github.com/w3ctag/design-reviews/issues/423) - @kenchris, @lknik
 * [WebSocketStream](https://github.com/w3ctag/design-reviews/issues/394) - @dbaron, @kenchris
 * [JS Self-Profiling API](https://github.com/w3ctag/design-reviews/issues/366) - @dbaron, @kenchris
@@ -11,7 +10,7 @@
 * [Web of Things (WoT) Architecture](https://github.com/w3ctag/design-reviews/issues/355) - @torgo, @hadleybeeman
 * [Contact API](https://github.com/w3ctag/design-reviews/issues/337) - @dbaron, @torgo, @kenchris, @hadleybeeman
 
-### TAG Breakout B (California / Asiana) - [2019-12-16 23:00 UTC](https://www.timeanddate.com/worldclock/converter.html?iso=20191216T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+### TAG Breakout B (California / Asia-Pacific) - [2019-12-16 23:00 UTC](https://www.timeanddate.com/worldclock/converter.html?iso=20191216T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
 * [WebCodecs](https://github.com/w3ctag/design-reviews/issues/433) - @cynthia, @dbaron
 * [Modal window](https://github.com/w3ctag/design-reviews/issues/427) - @hober, @cynthia, @alice
@@ -19,8 +18,9 @@
 * [RTCIceTransport](https://github.com/w3ctag/design-reviews/issues/304) - @cynthia, @dbaron
 * [RTCQuicTransport](https://github.com/w3ctag/design-reviews/issues/303) - @cynthia, @dbaron
 
-### TAG Breakout C (Asiana / Europe) - [2019-12-17 08:00 UTC](https://www.timeanddate.com/worldclock/converter.html?iso=20191217T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+### TAG Breakout C (Asia-Pacific / Europe) - [2019-12-17 08:00 UTC](https://www.timeanddate.com/worldclock/converter.html?iso=20191217T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
+* [MathML Core](https://github.com/w3ctag/design-reviews/issues/438) - @alice, @torgo, @hadleybeeman
 * [Serial API](https://github.com/w3ctag/design-reviews/issues/431) - @cynthia, @kenchris
 * [[Payments] shipping and contact info delegation](https://github.com/w3ctag/design-reviews/issues/425) - @dbaron, @torgo, @kenchris
 * [CompressStream](https://github.com/w3ctag/design-reviews/issues/410) - @cynthia, @ylafon, @plinss
