@@ -14,7 +14,7 @@ Bridge: https://meet.jit.si/w3ctag (Back-up: https://appear.in/w3ctag)
 * [Web of Things (WoT) Architecture](https://github.com/w3ctag/design-reviews/issues/355) - @torgo, @hadleybeeman
 * [Contact API](https://github.com/w3ctag/design-reviews/issues/337) - @dbaron, @torgo, @kenchris, @hadleybeeman
 
-Chair: Dan  
+Chair: ?  
 Scribe: ?  
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/12-16-breakout-a-minutes.md  
 Raw minutes: 
