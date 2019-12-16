@@ -2,7 +2,7 @@
 
 *Please note*: these calls are open to TAG members and invited guests. If you would like to participate, please contact the chairs.
 
-Bridge: https://meet.jit.si/w3ctag (Back-up: https://appear.in/w3ctag)
+Bridge: https://meet.jit.si/w3ctag (Back-up: https://whereby.com/w3ctag)
 
 ### TAG Breakout A (EU / California) - [2019-12-16 17:00 UTC](https://www.timeanddate.com/worldclock/converter.html?iso=20191216T170000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
