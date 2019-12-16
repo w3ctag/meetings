@@ -1,8 +1,8 @@
-### TAG Minutes for Week of December 16, 2019
+## TAG Minutes for Week of December 16, 2019
 
 https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/WO-16-december.md
 
-#### TAG Breakout A (EU / California) - 2019-12-16 17:00 UTC
+### TAG Breakout A (EU / California) - 2019-12-16 17:00 UTC
 
 * [JS Self-Profiling API](https://github.com/w3ctag/design-reviews/issues/366) - @dbaron, @kenchris
 * [Proliferation of manifests at W3C](https://github.com/w3ctag/design-reviews/issues/423) - @kenchris, @lknik
@@ -17,7 +17,7 @@ Scribe:
 
 ---
 
-### [JS Self-Profiling API](https://github.com/w3ctag/design-reviews/issues/366) - @dbaron, @kenchris
+#### [JS Self-Profiling API](https://github.com/w3ctag/design-reviews/issues/366) - @dbaron, @kenchris
 
 Picking this back up from Tokyo...
 
@@ -37,7 +37,7 @@ Ken: they mentioned that it's some overhead.
 
 [resolved to close]
 
-### [Proliferation of manifests at W3C](https://github.com/w3ctag/design-reviews/issues/423) - @kenchris, @lknik
+#### [Proliferation of manifests at W3C](https://github.com/w3ctag/design-reviews/issues/423) - @kenchris, @lknik
 
 Migrated this issue to design principles.
 
@@ -45,15 +45,15 @@ Dan: a good principle might be - if your thing requires a manifest then think ab
 
 Tess: We may not get down to One True Manifest, but we can at least discourage a proliferation of them.
 
-### [WebSocketStream](https://github.com/w3ctag/design-reviews/issues/394) - @dbaron, @kenchris
+#### [WebSocketStream](https://github.com/w3ctag/design-reviews/issues/394) - @dbaron, @kenchris
 
 Ken: we haven't heard back based on our comments...
 
 [changed to pending external feedback]
 
-### [Web of Things (WoT) Thing Description](https://github.com/w3ctag/design-reviews/issues/357) - @torgo, @hadleybeeman
+#### [Web of Things (WoT) Thing Description](https://github.com/w3ctag/design-reviews/issues/357) - @torgo, @hadleybeeman
 
-### [Web of Things (WoT) Architecture](https://github.com/w3ctag/design-reviews/issues/355) - @torgo, @hadleybeeman
+#### [Web of Things (WoT) Architecture](https://github.com/w3ctag/design-reviews/issues/355) - @torgo, @hadleybeeman
 
 Hadley: Going through the breakout minutes - we were ready to close both issues pending Kenneth's comments... (on both issues)
 
@@ -61,8 +61,8 @@ Dan: I think we're done here.
 
 Hadley: will close.
 
-### [Contact API](https://github.com/w3ctag/design-reviews/issues/337) - @dbaron, @torgo, @kenchris, @hadleybeeman
+#### [Contact API](https://github.com/w3ctag/design-reviews/issues/337) - @dbaron, @torgo, @kenchris, @hadleybeeman
 
-### Triage
+#### Triage
 
 [down to 3 untriaged]
