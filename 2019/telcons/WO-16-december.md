@@ -26,10 +26,10 @@ Raw minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/mJPllmH8K03L5p-p7psW
 * [RTCIceTransport](https://github.com/w3ctag/design-reviews/issues/304) - @cynthia, @dbaron
 * [RTCQuicTransport](https://github.com/w3ctag/design-reviews/issues/303) - @cynthia, @dbaron
 
-Chair: Peter  
-Scribe: ?  
+Chair: no gods, no masters!
+Scribe: Alice
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/12-16-breakout-b-minutes.md  
-Raw minutes: 
+Raw minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/mJPllmH8K03L5p-p7psW6aYpiV1Bax1ICkJVJgbH-A4/ (read-only)
 
 ### TAG Breakout C (Asia-Pacific / Europe) - [2019-12-17 08:00 UTC](https://www.timeanddate.com/worldclock/converter.html?iso=20191217T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
