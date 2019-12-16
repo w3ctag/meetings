@@ -1,8 +1,8 @@
-﻿TAG Breakout A - 16 Dec 2019
+### TAG Minutes for Week of December 16, 2019
 
 https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/WO-16-december.md
 
-TAG Breakout A (EU / California) - 2019-12-16 17:00 UTC
+#### TAG Breakout A (EU / California) - 2019-12-16 17:00 UTC
 
 * [JS Self-Profiling API](https://github.com/w3ctag/design-reviews/issues/366) - @dbaron, @kenchris
 * [Proliferation of manifests at W3C](https://github.com/w3ctag/design-reviews/issues/423) - @kenchris, @lknik
