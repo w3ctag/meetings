@@ -17,7 +17,7 @@ Bridge: https://meet.jit.si/w3ctag (Back-up: https://appear.in/w3ctag)
 Chair: Dan  
 Scribe: ?  
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/12-16-breakout-a-minutes.md  
-Raw minutes: 
+Raw minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/mJPllmH8K03L5p-p7psW6aYpiV1Bax1ICkJVJgbH-A4/ (read-only)
 
 ### TAG Breakout B (California / Asia-Pacific) - [2019-12-16 23:00 UTC](https://www.timeanddate.com/worldclock/converter.html?iso=20191216T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
