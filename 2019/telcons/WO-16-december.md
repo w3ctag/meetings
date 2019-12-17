@@ -43,7 +43,7 @@ Raw minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/mJPllmH8K03L5p-p7psW
 Chair: Dan  
 Scribe: ?  
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/12-17-breakout-c-minutes.md  
-Raw minutes: 
+Raw minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/skmlZy8BQSjLEm1Ke9yA53EegldN+70Ug3JsyQulHWw/
 
 ### TAG Plenary - [2019-12-18 21:00 UTC](https://www.timeanddate.com/worldclock/converter.html?iso=20191218T210000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
