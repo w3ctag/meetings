@@ -68,4 +68,4 @@ Raw minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/skmlZy8BQSjLEm1Ke9yA
 Chair: Dan  
 Scribe: ?  
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2019/telcons/12-18-plenary-minutes.md  
-Raw minutes: 
+Raw minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/kINAFpYiDn6XHU0x-B3hBEgv0HkqUzXySaFDBKWhFqA/
