@@ -1,4 +1,4 @@
-### W3C TAG Teleconference
+## W3C TAG Teleconference
 
 ### Breakout A - Monday 6 January 2020
 
