@@ -10,10 +10,15 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [[Payments] shipping and contact info delegation](https://github.com/w3ctag/design-reviews/issues/425) - @dbaron, @torgo, @kenchris
 * [Event-Level Click Conversion Measurement API](https://github.com/w3ctag/design-reviews/issues/418) - @hober, @torgo, @hadleybeeman, @lknik
 
+Raw Minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/S6Jbtac5Edap1L5DduQLqK5xm8mhxpner8oSdGP4-SU/
+Archived Minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2020/telcons/01-06-breakout-a-minutes.md
+
 ### Breakout B (US / Asiana) - [2020-01-06](https://www.timeanddate.com/worldclock/converter.html?iso=20200106T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
 * [WebTransport](https://github.com/w3ctag/design-reviews/issues/389) - @cynthia, @dbaron, @ylafon
 * [WebHID API (Human Interface Device)](https://github.com/w3ctag/design-reviews/issues/370) - @cynthia
+
+Raw Minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/EHfYohmFHaoBQ8wgByVlbO9zZFSKISXnJbs-n1x+Dls/
 
 ### Breakout C (Asiana / Europe) - [2020-01-07](https://www.timeanddate.com/worldclock/converter.html?iso=20200107T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
