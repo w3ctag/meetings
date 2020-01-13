@@ -10,12 +10,12 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [[Payments] shipping and contact info delegation](https://github.com/w3ctag/design-reviews/issues/425) - @dbaron, @torgo, @kenchris
 * [Event-Level Click Conversion Measurement API](https://github.com/w3ctag/design-reviews/issues/418) - @hober, @torgo, @hadleybeeman, @lknik
 
-### Breakout B (US / Asiana) - [2020-01-13](https://www.timeanddate.com/worldclock/converter.html?iso=20200113T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+### Breakout B (US / APAC) - [2020-01-13](https://www.timeanddate.com/worldclock/converter.html?iso=20200113T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
 * [<link> rel="modulepreload"](https://github.com/w3ctag/design-reviews/issues/213) - @hober, @cynthia, @dbaron
 * [Scheduling APIs](https://github.com/w3ctag/design-reviews/issues/338) - @cynthia, @dbaron, @kenchris
 
-### Breakout C (Asiana / Europe) - [2020-01-14](https://www.timeanddate.com/worldclock/converter.html?iso=20200114T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+### Breakout C (APAC / Europe) - [2020-01-14](https://www.timeanddate.com/worldclock/converter.html?iso=20200114T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
 * [WebTransport](https://github.com/w3ctag/design-reviews/issues/389) - @cynthia, @dbaron, @ylafon
 * [WebHID API (Human Interface Device)](https://github.com/w3ctag/design-reviews/issues/370) - @cynthia
