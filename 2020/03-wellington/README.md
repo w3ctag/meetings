@@ -1,8 +1,9 @@
 # Wellington F2F
 ## 2020 March 3-5
-## [Te Tari Taiwhenua | Department of Internal Affairs](https://www.dia.govt.nz)
 ## *** LOCATION/DATES CONFIRMED ***
 
-Host: Alice Boxhall (Google)
+Host: The Department of Internal Affairs Te Tari Taiwhenua
 
-(Moved from Sydney due to fires in Sydney area.)
+Location: 45 Pipitea Street, Thorndon, Wellington 6011, New Zealand
+
+(Moved from Sydney due to fires and smoke in Sydney area.)
