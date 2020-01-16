@@ -1,5 +1,5 @@
 # Wellington F2F
-## 2020 March 3-5
+## 2020 March 2-5
 ## *** LOCATION/DATES CONFIRMED ***
 
 Host: The Department of Internal Affairs Te Tari Taiwhenua
