@@ -8,8 +8,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 [Raw Minutes](https://cryptpad.w3ctag.org/code/#/2/code/view/cERX2r9WUVa+VUCstwy6C8O5WnHrRbgFW5frjUA1BCA/) (View-only link)
 
-* [Web NFC](https://github.com/w3ctag/design-reviews/issues/461) - @dbaron, @torgo
-* [[Payments] shipping and contact info delegation](https://github.com/w3ctag/design-reviews/issues/425) - @dbaron, @torgo, @kenchris
+
 * [UA String deprecation proposal](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/-2JIRNMWJ7s/yHe4tQNLCgAJ) - do we have anything to say as TAG on this?
 
 ### Breakout B (US / APAC) - [2020-01-20](https://www.timeanddate.com/worldclock/converter.html?iso=20200120T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
@@ -18,6 +17,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout C (APAC / Europe) - [2020-01-21](https://www.timeanddate.com/worldclock/converter.html?iso=20200121T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
+* [Web NFC](https://github.com/w3ctag/design-reviews/issues/461) - @dbaron, @torgo
+* [[Payments] shipping and contact info delegation](https://github.com/w3ctag/design-reviews/issues/425) - @dbaron, @torgo, @kenchris
 * [ads.txt](https://github.com/w3ctag/design-reviews/issues/201) - @alice, @torgo, @ylafon
 
 ### Plenary Session - [2020-01-22](https://www.timeanddate.com/worldclock/converter.html?iso=20200122T210000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
