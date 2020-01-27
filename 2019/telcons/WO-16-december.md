@@ -12,6 +12,7 @@ Bridge: https://meet.jit.si/w3ctag (Back-up: https://whereby.com/w3ctag)
 * [Web of Things (WoT) Thing Description](https://github.com/w3ctag/design-reviews/issues/357) - @torgo, @hadleybeeman
 * [Web of Things (WoT) Architecture](https://github.com/w3ctag/design-reviews/issues/355) - @torgo, @hadleybeeman
 * [Contact API](https://github.com/w3ctag/design-reviews/issues/337) - @dbaron, @torgo, @kenchris, @hadleybeeman
+* [User Agent Freeze Proposal](https://github.com/w3ctag/design-reviews/issues/467) - @torgo
 
 Chair: Dan  
 Scribe: ?  
