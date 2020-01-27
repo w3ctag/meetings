@@ -11,6 +11,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Feature Policy: Document Policies](https://github.com/w3ctag/design-reviews/issues/408) - @torgo
 * [CSS Modules](https://github.com/w3ctag/design-reviews/issues/405) - @hober, @dbaron, @kenchris
 * [Contact Picker](https://github.com/w3ctag/design-reviews/issues/337) - @torgo, @hadleybeeman, @kenchris, @dbaron
+* [User Agent Freeze Proposal](https://github.com/w3ctag/design-reviews/issues/467) - @torgo
 
 ### Breakout B (US / APAC) - [2020-01-27](https://www.timeanddate.com/worldclock/converter.html?iso=20200127T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
