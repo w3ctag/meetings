@@ -6,7 +6,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (Europe / US) - [2020-02-03](https://www.timeanddate.com/worldclock/converter.html?iso=20200203T170000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
-* [Discourage device enumeration, prefer less powerful alternatives](https://github.com/w3ctag/design-principles/issues/152) - @hober, @torgo, @lknik
 * [input.valueAsDate violate "obj.attribute === obj.attribute must always hold"](https://github.com/w3ctag/design-principles/issues/139) - @dbaron
 * [Proliferation of manifests at W3C](https://github.com/w3ctag/design-principles/issues/148) - @kenchris, @lknik
 * [guidance on use of JSON-LD?](https://github.com/w3ctag/design-principles/issues/128) - @hober, @dbaron, @hadleybeeman
@@ -14,6 +13,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout B (US / APAC) - [2020-02-03](https://www.timeanddate.com/worldclock/converter.html?iso=20200203T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
+* [Discourage device enumeration, prefer less powerful alternatives](https://github.com/w3ctag/design-principles/issues/152) - @hober, @torgo, @lknik [in context of minuted discussion from breakout A]
 * [expand on consistency of naming](https://github.com/w3ctag/design-principles/issues/149) - @cynthia, @alice
 * [Don't Erode Users' Trust in the Web](https://github.com/w3ctag/design-principles/issues/146) - @hober, @alice, @dbaron
 * [clarify advice on synchronous versus asynchronous APIs](https://github.com/w3ctag/design-principles/issues/145) - @hober, @cynthia, @dbaron
