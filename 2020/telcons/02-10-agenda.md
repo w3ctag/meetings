@@ -20,6 +20,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [WebHID API (Human Interface Device)](https://github.com/w3ctag/design-reviews/issues/370) - @cynthia
 * [File Handling](https://github.com/w3ctag/design-reviews/issues/371) - @alice, @dbaron, @kenchris
 * [WebXR DOM Overlay Module](https://github.com/w3ctag/design-reviews/issues/470) - @hober, @alice, @torgo
+* [Scheduling APIs](https://github.com/w3ctag/design-reviews/issues/338) - @cynthia, @dbaron, @kenchris
 
 ### Breakout C (APAC / Europe) - [2020-02-11](https://www.timeanddate.com/worldclock/converter.html?iso=20200211T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
