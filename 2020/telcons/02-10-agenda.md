@@ -33,6 +33,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 ### Plenary Session - [2020-02-12](https://www.timeanddate.com/worldclock/converter.html?iso=20200212T210000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
 * Breakout Rollup
+* [UA String Update](https://github.com/w3ctag/design-reviews/issues/467) - @torgo
 * [HTTP State Tokens](https://github.com/w3ctag/design-reviews/issues/297) - @torgo, @ylafon, @hadleybeeman, @lknik
 * Issue Triage
 
