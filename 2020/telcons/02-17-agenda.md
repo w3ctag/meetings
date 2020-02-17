@@ -11,17 +11,17 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Gamepad Light Indicator extension API](https://github.com/w3ctag/design-reviews/issues/362) - @cynthia
 * [WebHID API (Human Interface Device)](https://github.com/w3ctag/design-reviews/issues/370) - @cynthia
 
+### Breakout C (APAC / Europe) - [2020-02-18](https://www.timeanddate.com/worldclock/converter.html?iso=20200218T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+
+* [Scheduling APIs](https://github.com/w3ctag/design-reviews/issues/338) - @cynthia, @dbaron, @kenchris
+* [Native File System API](https://github.com/w3ctag/design-reviews/issues/390) - @cynthia, @kenchris, @lknik
+
 ### Breakout A (Europe / US) - [2020-02-18](https://www.timeanddate.com/worldclock/converter.html?iso=20200218T170000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
 * [Badging API](https://github.com/w3ctag/design-reviews/issues/387) - @hober, @alice, @torgo
 * [Web NFC](https://github.com/w3ctag/design-reviews/issues/461) - @dbaron, @torgo
 * [Securer Contexts](https://github.com/w3ctag/design-reviews/issues/471) - @torgo, @plinss
 * [Foldables CSS](https://github.com/w3ctag/design-reviews/issues/472) - @hober, @torgo, @kenchris
-
-### Breakout C (APAC / Europe) - [2020-02-18](https://www.timeanddate.com/worldclock/converter.html?iso=20200218T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
-
-* [Scheduling APIs](https://github.com/w3ctag/design-reviews/issues/338) - @cynthia, @dbaron, @kenchris
-* [Native File System API](https://github.com/w3ctag/design-reviews/issues/390) - @cynthia, @kenchris, @lknik
 
 ### Plenary Session - [2020-02-19](https://www.timeanddate.com/worldclock/converter.html?iso=20200219T210000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
