@@ -51,13 +51,13 @@ Raw minutes: ...
 #### Breakout A (Europe / US)
 
 <table>
-<tr><td> San Francisco (U.S.A. - California) <td> Monday, 17 February, 09:00 GMT-8</td></tr>
-<tr><td> Boston (U.S.A. - Massachusetts) <td> Monday, 17 February, 12:00 GMT-5</td></tr>
-<tr><td> London (United Kingdom - England) <td> Monday, 17 February, 17:00 GMT</td></tr>
-<tr><td> Paris (France) <td> Monday, 17 February, 18:00 CET</td></tr>
-<tr><td> Tokyo (Japan) <td> Tuesday, 18 February, 02:00 GMT+9</td></tr>
-<tr><td> Sydney (Australia) <td> Tuesday, 18 February, 04:00 GMT+11</td></tr>
-<tr><td> Corresponding UTC (GMT) <td> Monday, 17 February, 17:00 UTC</td></tr>
+<tr><td> San Francisco (U.S.A. - California) <td> Tuesday, 18 February, 09:00 GMT-8</td></tr>
+<tr><td> Boston (U.S.A. - Massachusetts) <td> Tuesday, 18 February, 12:00 GMT-5</td></tr>
+<tr><td> London (United Kingdom - England) <td> Tuesday, 18 February, 17:00 GMT</td></tr>
+<tr><td> Paris (France) <td> Tuesday, 18 February, 18:00 CET</td></tr>
+<tr><td> Tokyo (Japan) <td> Wednesday, 19 February, 02:00 GMT+9</td></tr>
+<tr><td> Sydney (Australia) <td> Wednesday, 19 February, 04:00 GMT+11</td></tr>
+<tr><td> Corresponding UTC (GMT) <td> Tuesday, 18 February, 17:00 UTC</td></tr>
 </table>
 
 #### Breakout B (US / APAC)
