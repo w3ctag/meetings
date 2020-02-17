@@ -8,11 +8,12 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout B (US / APAC) - [2020-02-17](https://www.timeanddate.com/worldclock/converter.html?iso=20200217T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
-* [Gamepad Light Indicator extension API](https://github.com/w3ctag/design-reviews/issues/362) - @cynthia
-* [WebHID API (Human Interface Device)](https://github.com/w3ctag/design-reviews/issues/370) - @cynthia
+Cancelled
 
 ### Breakout C (APAC / Europe) - [2020-02-18](https://www.timeanddate.com/worldclock/converter.html?iso=20200218T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
+* [Gamepad Light Indicator extension API](https://github.com/w3ctag/design-reviews/issues/362) - @cynthia
+* [WebHID API (Human Interface Device)](https://github.com/w3ctag/design-reviews/issues/370) - @cynthia
 * [Scheduling APIs](https://github.com/w3ctag/design-reviews/issues/338) - @cynthia, @dbaron, @kenchris
 * [Native File System API](https://github.com/w3ctag/design-reviews/issues/390) - @cynthia, @kenchris, @lknik
 
