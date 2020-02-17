@@ -4,17 +4,19 @@ This agenda can be viewed and updated on [Github](https://github.com/w3ctag/meet
 
 If you would like to add an item to the agenda or volunteer to scribe please open a pull request against this agenda.
 
-### Breakout A (Europe / US) - [2020-02-17](https://www.timeanddate.com/worldclock/converter.html?iso=20200217T170000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
-
-* [Badging API](https://github.com/w3ctag/design-reviews/issues/387) - @hober, @alice, @torgo
-* [Web NFC](https://github.com/w3ctag/design-reviews/issues/461) - @dbaron, @torgo
-* [Securer Contexts](https://github.com/w3ctag/design-reviews/issues/471) - @torgo, @plinss
-* [Foldables CSS](https://github.com/w3ctag/design-reviews/issues/472) - @hober, @torgo, @kenchris
+*Remember that we have moved breakout A this week to be 24 hours later than usual.*
 
 ### Breakout B (US / APAC) - [2020-02-17](https://www.timeanddate.com/worldclock/converter.html?iso=20200217T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
 * [Gamepad Light Indicator extension API](https://github.com/w3ctag/design-reviews/issues/362) - @cynthia
 * [WebHID API (Human Interface Device)](https://github.com/w3ctag/design-reviews/issues/370) - @cynthia
+
+### Breakout A (Europe / US) - [2020-02-18](https://www.timeanddate.com/worldclock/converter.html?iso=20200218T170000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+
+* [Badging API](https://github.com/w3ctag/design-reviews/issues/387) - @hober, @alice, @torgo
+* [Web NFC](https://github.com/w3ctag/design-reviews/issues/461) - @dbaron, @torgo
+* [Securer Contexts](https://github.com/w3ctag/design-reviews/issues/471) - @torgo, @plinss
+* [Foldables CSS](https://github.com/w3ctag/design-reviews/issues/472) - @hober, @torgo, @kenchris
 
 ### Breakout C (APAC / Europe) - [2020-02-18](https://www.timeanddate.com/worldclock/converter.html?iso=20200218T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
