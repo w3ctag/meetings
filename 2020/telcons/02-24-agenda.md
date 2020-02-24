@@ -7,13 +7,13 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 ### Breakout A (Europe / US) - [2020-02-24](https://www.timeanddate.com/worldclock/converter.html?iso=20200224T170000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
 * [Screen Capture API (2019)](https://github.com/w3ctag/design-reviews/issues/440) - @torgo, @hadleybeeman, @lknik
-* [WebRTC playoutDelayHint](https://github.com/w3ctag/design-reviews/issues/441) - @hober, @ylafon
 * [WebXR Augmented Reality Module](https://github.com/w3ctag/design-reviews/issues/462) - @dbaron, @torgo, @hadleybeeman, @atanassov
 * [WebXR Hit Test Module](https://github.com/w3ctag/design-reviews/issues/463) - @hober, @dbaron, @torgo
 * [Origin isolation](https://github.com/w3ctag/design-reviews/issues/464) - @hober, @hadleybeeman, @atanassov
 
 ### Breakout B (US / APAC) - [2020-02-24](https://www.timeanddate.com/worldclock/converter.html?iso=20200224T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
+* [WebRTC playoutDelayHint](https://github.com/w3ctag/design-reviews/issues/441) - @hober, @ylafon
 * [[WebComponents] Custom state pseudo class](https://github.com/w3ctag/design-reviews/issues/428) - @hober, @alice, @kenchris, @plinss
 * [Review different cross-domain import mechanisms and their security models](https://github.com/w3ctag/design-reviews/issues/446) - @hober, @cynthia
 
