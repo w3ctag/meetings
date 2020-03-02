@@ -25,6 +25,8 @@ Location: [45 Pipitea Street](https://goo.gl/maps/wX6B8ryfxoE3JFmL7), Thorndon, 
 * 15:40 - 16:40 Breakout 05 (60m)
 * 16:40 - 17:00 Readouts
 
+[Day 1 Minutes](https://cryptpad.w3ctag.org/code/#/2/code/view/v92hg5Xhygqe6tQeMIb+uBY2-6GqynLGKiXIdPru9JM/)
+
 ### Day 2
 
 * 14:00(UK) - 16:00(UK) - Breakout UK2 
@@ -59,4 +61,3 @@ Location: [45 Pipitea Street](https://goo.gl/maps/wX6B8ryfxoE3JFmL7), Thorndon, 
 * 15:40 - 16:40 Breakout 15 (60m)
 * 16:40 - 17:00 Readouts
 
-[Day 1 Minutes](https://cryptpad.w3ctag.org/code/#/2/code/view/v92hg5Xhygqe6tQeMIb+uBY2-6GqynLGKiXIdPru9JM/)
