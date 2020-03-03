@@ -32,7 +32,7 @@ Present : Dan, Hadley
 
 #### [Screen Capture 2019](https://github.com/w3ctag/design-reviews/issues/440)
 
-Hadley: good to see thay Mozilla, Cisco and Google people are involved in this spec.
+Hadley: good to see that Mozilla, Cisco and Google people are involved in this spec.
 
 ...discussion of how this relates to [last screen capture review](https://github.com/w3ctag/design-reviews/issues/309)... (issue 309). To be clear, this looks like continuation of 309.
 
@@ -62,7 +62,7 @@ Hadley: section on device identifiers...  something needed about how they're iss
 
 [we left some feedback on the issue]
 
-dan: could still benefit from soneone who has more webrtc expertise looking at it from an api design perspective.
+Dan: could still benefit from someone who has more webrtc expertise looking at it from an API design perspective.
 
 #### [MathML Core](https://github.com/w3ctag/design-reviews/issues/438)
 
@@ -76,9 +76,9 @@ Hadley: exactly.  It would be good to make it a little more obvious (to develope
 
 Dan: one might say that this is not necessarily the job of a W3C spec.. but it may be the job of the explainer - especially if the explainer then becomes the seed of a documentation set e.g. on MDN.
 
-Hadley: my bias is that specs i've been invlolved with have been developer focused. Maybe we should ask in a kind of helpful way if he's planning to produce documatation for developers and if so to cover off that point.
+Hadley: my bias is that specs I've been involved with have been developer focused. Maybe we should ask in a kind of helpful way if he's planning to produce documentation for developers and if so to cover off that point.
 
-Dan: Agreed. And my personal opinion woulld be that MDN would be the right place for that. - e.g. going along with the existing mdn mathml docs https://developer.mozilla.org/en-US/docs/Web/MathML
+Dan: Agreed. And my personal opinion would be that MDN would be the right place for that. - e.g. going along with the existing MDN mathml docs https://developer.mozilla.org/en-US/docs/Web/MathML
 
 [left some further questions for Brian]
 
@@ -100,7 +100,7 @@ Agreed to close.
 
 #### [Get installed related apps](https://github.com/w3ctag/design-reviews/issues/436)
 
-Dan: Comment [from Rayan on the 29 Nov 2019](https://github.com/w3ctag/design-reviews/issues/436#issuecomment-559760309)... talks about adding abuse considerations to the explaier...
+Dan: Comment [from Rayan on the 29 Nov 2019](https://github.com/w3ctag/design-reviews/issues/436#issuecomment-559760309)... talks about adding abuse considerations to the explainer...
 
 Also of note, looks like Microsoft is supporting this API...
 
@@ -108,7 +108,7 @@ Hadley: implementation doc is a google doc...
 
 Hadley: we should look at the explainer... Also is this another example of where people are saying "this is rubbish already so we're not making it more rubbish" - and do we want to support that?
 
-Dan: I think it's an examlple of someone saying "it's already like that in native, so why does the web have to be different?" And I think the web does have to be different; see the Ethical Web Principles.
+Dan: I think it's an example of someone saying "it's already like that in native, so why does the web have to be different?" And I think the web does have to be different; see the Ethical Web Principles.
 
 ...My point was: if they already have a PWA, and they prefer to use the PWA, but the API doesn't know that the PWA is installed... We should be building this API to encourage the use of web applications. 
 
@@ -122,7 +122,7 @@ Hadley: it's web app to native app, in the spec.
 
 Dan: Right; that's the problem. If a user has installed a PWA, and a w3c-specified manifest file has designated that PWA, then this API should at least acknowledge the existence of installed web applications.
 
-Otherwise, what are we building here? we're not building anyting coherent. This is an architectural issue.
+Otherwise, what are we building here? we're not building anything coherent. This is an architectural issue.
 
 Hadley: this proposal is building a way out of the web. 
 
@@ -185,11 +185,11 @@ Hadley:
 ### Breakout 01a
 
 Present: Tess & David 🇳🇿, Dan, Hadley 🇬🇧, Special Guest Dan Brickley  
-Scibe: Dan
+Scribe: Dan
 
 #### [Media Feeds API](https://github.com/w3ctag/design-reviews/issues/477)
 
-Tess: you have a web site that has some kind of interesing sequence of media and it wants to specify a feed you can subscribe to .. the idea is that user agents can detect there is such a feed by including it as content on the page.  My initial take: we already have feeds.. they already have media specific support.. that's how podcasts work.. so why do we need something different?
+Tess: you have a web site that has some kind of interesting sequence of media and it wants to specify a feed you can subscribe to .. the idea is that user agents can detect there is such a feed by including it as content on the page.  My initial take: we already have feeds.. they already have media specific support.. that's how podcasts work.. so why do we need something different?
 
 Hadley: i think we should give that feedback...  Explainer says media/rss is an alternative.. but not enough detail... 
 
@@ -197,7 +197,7 @@ Tess: I think that is not true.
 
 [danbri enters the room]
 
-Tess: proposal is in-page blob of json-ld - contains schema.org info about the nature of the media.. and so in this explainer they say they didn't consider using RSS because they can't express the detailed metadata.. but you can express schema.org semantics in an atom feed just as easily as json-ld. so i feel this is a misinterpreation of rss/atom.
+Tess: proposal is in-page blob of json-ld - contains schema.org info about the nature of the media.. and so in this explainer they say they didn't consider using RSS because they can't express the detailed metadata.. but you can express schema.org semantics in an atom feed just as easily as json-ld. so i feel this is a misinterpretation of rss/atom.
 
 Danbri: rss & atom don't model e.g. the episode number etc...
 
@@ -209,7 +209,7 @@ Tess: it can be extended... You can already link to an atom feed from html... Ge
 
 Dan: do we want to say "don't use this JSON thing, use this XML thing instead?"
 
-David/Tess: but people are using that techology already... 
+David/Tess: but people are using that technology already... 
 
 Danbri: the schema side of thing should sit on top of everything.  At Google we pull in info from netflix and other tv providers using this format...  writing another parser to pull it out of atom is not rocket science.  Hard part is the semantics.
 
@@ -219,7 +219,7 @@ Dan: does this embed the feed data?
 
 David: this isn't embedding within a document - it's adding the feed URL to the webapp manifest.
 
-Tess: i will try to distill this converation into a comment ...  Ineroperating with existing tools, why invent a new format... cost of introducing new formats to the web is high.
+Tess: i will try to distill this conversation into a comment ...  Interoperating with existing tools, why invent a new format... cost of introducing new formats to the web is high.
 
 Hadley: if we're going to turn this into a [discussion] between XML and JSON, there are enough who roll their eyes between different formats that this might not be a good decision to base on those loyalties...
 
@@ -340,7 +340,7 @@ Tess: the thing to read is: https://blog.whatwg.org/focusing-on-focus
 
 Alice: I don't think click focusable should be a thing at all... Long web components discussion of types of focus...  
 
-Dan: you think click focusable is the same as sequentialy focusable?
+Dan: you think click focusable is the same as sequentially focusable?
 
 Alice: by and large yes....  some differences in implementation exist between safari and others...
 
@@ -354,7 +354,7 @@ Tess: I think this has all be a mess on the platform - i like the general idea o
 
 Dan: [sympathetic to click and sequential being the same and therefore could this could be simplified further]
 
-Alice: 2 cases where they diverge - Safari's behaviour where you have to opt in a certain approach.. To me that seems odd behaviour... however the other exeption - in every browser, something with tab index -1 intended to be excluded from sequential tab order but is always click focusable - which never makes sense...
+Alice: 2 cases where they diverge - Safari's behaviour where you have to opt in a certain approach.. To me that seems odd behaviour... however the other exception - in every browser, something with tab index -1 intended to be excluded from sequential tab order but is always click focusable - which never makes sense...
 
 Dan: so a developer might be thinking "these are the fields that the user will want to tab through" without thinking "these are the ONLY fields that someone only using a keyboard will want to use"?
 
@@ -370,7 +370,7 @@ Dan: is there a receptive audience in WhatWG to these issues?
 
 Dan: write some feedback on our issue and get feedback from the WhatWG people (e.g. Rakina) who are working on this...
 
-Alice: click focussability in the absence of sequential focusability is a concept that is problematic in 2 cases. One - in safari - elements that are click focusable but not tab focusable are not always [accessible]? **So I think the concept would make more sense as "user focusable".** Elements that take text input or are select boxes should be squentially focusable everywhere. 
+Alice: click focusability in the absence of sequential focusability is a concept that is problematic in 2 cases. One - in safari - elements that are click focusable but not tab focusable are not always [accessible]? **So I think the concept would make more sense as "user focusable".** Elements that take text input or are select boxes should be sequentially focusable everywhere. 
 
 Dan: issue with use of the term "click - i like the more generalized approach ('User focusable').
 
@@ -424,7 +424,7 @@ propose closing unsatisfied.
 #### [Screen Enumeration API](https://github.com/w3ctag/design-reviews/issues/413)
 
 Peter: again no feedback since comments left during Cupertino F2F.
-... concerns about tight coupling to window placment api which has not yet come up for TAG review
+... concerns about tight coupling to window placement api which has not yet come up for TAG review
 ... concerns about how this intersects with foldable screen work
 
 Rossen: api seems to expose everything about screens despite that being listed as a non-goal.t
@@ -458,13 +458,13 @@ Tess: It's a bit easier to read this text now, yay!
 #### [Edit Context API](https://github.com/w3ctag/design-reviews/issues/416)
 Alice: it will be great to have code examples of what's bad today and needs addressing. Ex. using hidden elements to capture input etc.
 
-... Linking the examples in the explainer to the list of propsed API will vastly improve this proposal
+... Linking the examples in the explainer to the list of proposed API will vastly improve this proposal
 
 ... The WebIDL section should be moved to the very end
 
 Example 1 - What's the HTML behind? What's the sate and how does it change? 
 
-Alice: It looks like the focus() on EditContext is better described as activate() ? This is to say that when the contatining element delegates 'focus' to the active editContext, it is essentially activating it rather than focusing.
+Alice: It looks like the focus() on EditContext is better described as activate() ? This is to say that when the containing element delegates 'focus' to the active editContext, it is essentially activating it rather than focusing.
 
 ... It would also be nice to see examples of how the API could be used to solve each of the problems listed in the ["Real world examples"](https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/master/EditContext/explainer.md#real-world-examples-of-text-input-issues-in-top-sites-and-frameworks) section.
 
@@ -513,7 +513,7 @@ Talking to agencies to see what barriers are.
 
 Pushing for a design system, want to make sure everything is Accessible.
 
-Victoria government in AUstralia, and UK, are further ahead with this type of work.
+Victoria government in Australia, and UK, are further ahead with this type of work.
 
 Australia.gov has a design system, and UK has a design system.
 
@@ -525,9 +525,9 @@ Jason:
 
 Web a11y has been cabinet mandated since 2003 in NZ
 
-Still not a single website actually meets requirements, for lot sof reasons
+Still not a single website actually meets requirements, for lots of reasons
 
-- Widespread lack of relevcant skill in govt
+- Widespread lack of relevant skill in govt
 - And within vendor community
 - Majority of work is outsourced
 - Can't even assess whether deliverables meet a11y requirements due to lack of skilled auditors in govt
@@ -562,7 +562,7 @@ Jason: Not centrally.
 
 ... Referring to "web accessibility standards"... it's in the strategy
 
-... Accessibility charter... minister for accessibility issues. Piece of paper that obligates the signitories to make sure public information and services are accessible.
+... Accessibility charter... minister for accessibility issues. Piece of paper that obligates the signatories to make sure public information and services are accessible.
 
 ... Everyone has signed it, but no traction
 
@@ -582,7 +582,7 @@ Each agency self-assessed 80 pages in 2018 manually - lot of work. Each page is 
 
 ... Syllabus very similar to [w3c course](https://www.w3.org/WAI/curricula/).
 
-... Could look at devloping more focused micro-credentials.
+... Could look at developing more focused micro-credentials.
 
 Rossen: Earlier talking about design system, components can you expand on what and how is this supposed to work and be audited?
 
@@ -686,7 +686,7 @@ Rossen: there are a lot of readily usable, prebuilt things, pull in an npm packa
 
 Rossen: to sum up, the aspirations here are great. we (at msft) work on a lot of different products. the thing that seems to help the most is to have an automated auditing system that each product can run their own content and scenarios against
 
-... the hero model is maybe not acheivable 
+... the hero model is maybe not achievable 
 
 ... automation is key. being able to capture your a11y principles into tools
 
@@ -716,7 +716,7 @@ Alice: what technology are they in?
 
 Jason: layer of abstraction on top of things like react, angular, silver stripe, whatever language you want
 
-ALice: what do the templates look like?
+Alice: what do the templates look like?
 
 Jason: dunno; it may be openly available
 
@@ -734,9 +734,9 @@ Alice: sounds like the major challenges are: lack of enforced requirements in ac
 
 Jason: yeah, also maybe vendor/contractual relationships. there's a handful of firms providing services to all the different agencies; no one ever says "hey, the contract required this to be accessible, why isn't it?"
 
-Alice: what can we add to html, to js, etc. to add the right abstractions so people don't have to use these inaccessible frameowrks
+Alice: what can we add to html, to js, etc. to add the right abstractions so people don't have to use these inaccessible frameworks
 
-... if we were designing a new frameowrk today, what abstractions would we want to have so this wouldn't happen? can we bake those abstractions into html instead?
+... if we were designing a new framework today, what abstractions would we want to have so this wouldn't happen? can we bake those abstractions into html instead?
 
 Lee: some combinations of things in html are invariably inaccessible; can you show the developers warnings?
 
@@ -853,7 +853,7 @@ Rossen looked at naming issues, particularly https://github.com/w3ctag/design-pr
 
 
 
-#### Discussion about closing isssues and leaving things to working groups
+#### Discussion about closing issues and leaving things to working groups
 
 discussion that started from discussion of closing the [Custom State pseudo class](https://github.com/w3ctag/design-reviews/issues/428) issue in breakout 1B.  (And similarity to intrinsic-size.)
 
@@ -864,7 +864,7 @@ Importantly, we don't want to _discourage_ filing these types of issues, but rat
 
 
 
-david: quotes [comment](https://github.com/w3ctag/design-reviews/issues/466#issuecomment-593676485) from earlier today
+David: quotes [comment](https://github.com/w3ctag/design-reviews/issues/466#issuecomment-593676485) from earlier today
 
 Peter: should we add to design review template... seems it's there already.
 
