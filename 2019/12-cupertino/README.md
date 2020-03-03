@@ -7,6 +7,14 @@ Location: [Apple Park](https://goo.gl/maps/R4TDR9z2xYy), Cupertino, California, 
 
 Note that the Sunday prior (December 1) is the busiest travel day of the year in the US, being the Sunday following Thanksgiving.
 
+## Minutes
+
+[Day 1](https://github.com/w3ctag/meetings/blob/gh-pages/2019/12-cupertino/12-03-minutes.md)
+
+[Day 2](https://github.com/w3ctag/meetings/blob/gh-pages/2019/12-cupertino/12-04-minutes.md)
+
+[Day 3](https://github.com/w3ctag/meetings/blob/gh-pages/2019/12-cupertino/12-05-minutes.md)
+
 ## Logistics
 
 We have Douglas Fir, Pulsar, and Red Giant reserved 9:00 AM until 5:00 PM Tuesday, Wednesday, and Thursday.
