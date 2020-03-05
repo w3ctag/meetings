@@ -10,7 +10,7 @@ Monday 17:00 UTC in European winter time, 16:00 UTC in European summer time (see
 
 | Start Time   | Location | Note |
 | ------------ | --- | --- |
-| 09:00 Monday | California | or 10:00 for the few weeks that are on summer time |
+| 09:00 Monday | California | or 10:00 for the few weeks US is on summer time and Europe is not |
 | 17:00 Monday | UK |
 | 18:00 Monday | France, Denmark |
 
