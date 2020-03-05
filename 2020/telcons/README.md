@@ -19,7 +19,7 @@ Monday 17:00 UTC in European winter time, 16:00 UTC in European summer time (see
 Monday 23:00 UTC
 
 | Start Time      | Location |
-| --------------- | --- | --- |
+| --------------- | --- |
 | 08:00 Tuesday  | Japan |
 | 09:00 winter / 10:00 summer Tuesday  | Sydney |
 | 15:00 winter / 16:00 summer Monday | California |
@@ -29,7 +29,7 @@ Monday 23:00 UTC
 Tuesday 08:00 UTC
 
 | Start Time      | Location |
-| --------------- | --- | --- |
+| --------------- | --- |
 | 08:00 winter / 09:00 summer Wednesday | UK |
 | 09:00 winter / 10:00 summer Wednesday | France, Denmark |
 | 17:00 Wednesday | Japan |
