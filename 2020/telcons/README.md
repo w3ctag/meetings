@@ -30,10 +30,10 @@ Tuesday 08:00 UTC
 
 | Start Time      | Location |
 | --------------- | --- |
-| 08:00 winter / 09:00 summer Wednesday | UK |
-| 09:00 winter / 10:00 summer Wednesday | France, Denmark |
-| 17:00 Wednesday | Japan |
-| 18:00 winter / 19:00 summer Wednesday | Sydney |
+| 08:00 winter / 09:00 summer Tuesday | UK |
+| 09:00 winter / 10:00 summer Tuesday | France, Denmark |
+| 17:00 Tuesday | Japan |
+| 18:00 winter / 19:00 summer Tuesday | Sydney |
 
 ### Plenary call
 
