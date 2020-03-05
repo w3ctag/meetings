@@ -27,21 +27,21 @@ Present:
 
 Considering [Marcos's comment from 4 Feb](https://github.com/w3ctag/design-principles/issues/128#issuecomment-581749625)
 
-Also considering [JSON-lD best pracrtices](https://w3c.github.io/json-ld-bp/)
+Also considering [JSON-LD best pracrtices](https://w3c.github.io/json-ld-bp/)
 
-Hadley: also noting that JSON-LD is on millions of web sites by way of expressing schama.org semantics has a lot of take-up.
+Hadley: also noting that JSON-LD is on millions of web sites by way of expressing schema.org semantics has a lot of take-up.
 
 Dan: do we need a taskforce?
 
 Hadley: I'd like to ask the chairs - this may be a solved problem or may not be an issue in the chairs' minds.
 
-Hadley: reviewing WEBIDL dependency...  I am not yet convinced that the problem marcos outlines is a problem... I propose we ping the editors or wg chairs and get them into the conversation.
+Hadley: reviewing WEBIDL dependency...  I am not yet convinced that the problem Marcos outlines is a problem... I propose we ping the editors or wg chairs and get them into the conversation.
 
 Dan: Concerned with causing trouble...
 
 Hadley: JSON-LD is a JSON based serialization of linked data, not a general JSON-based data protocol.
 
-Dan: but is it ture that in some cases, systems that process JSON-LD don't need to underetand the full expresiveness of JSON-LD and can effectively process it as they would any other JSON documents?
+Dan: but is it true that in some cases, systems that process JSON-LD don't need to understand the full expressiveness of JSON-LD and can effectively process it as they would any other JSON documents?
 
 ...discussion about how this came up in [Web of Things Description](https://w3c.github.io/wot-thing-description/#json-ld-ctx-usage) review...
 
@@ -51,9 +51,9 @@ Hadley: we could make this an example of simplicity. I want to be careful about 
 
 Hadley: we could ask the question to the JSON-LD chairs: "Are there situations you can imagine putting JSON-LD into a spec but it being swappable with JSON on its own?"
 
-...If there is an architecural question, it should be ours.
+...If there is an architectural question, it should be ours.
 
-Dan: I think Marcos's issue may be different than David's.  I think it's worth also asking the JSON-LD group chairs what they think about the dependency on WebDIL and Marcos's comment?
+Dan: I think Marcos's issue may be different than David's.  I think it's worth also asking the JSON-LD group chairs what they think about the dependency on WebIDL and Marcos's comment?
 
 Hadley: I don't think JSON-LD is intended to be rendered in the browser - so I wonder how much of this is a clash of communities and use cases...
 
@@ -71,7 +71,7 @@ David: We could do 5 hours a day over 5 days instead of 8 hours per day over 3?
 
 Rossen: How is this working for remote participants?
 
-Hadley: Well. Though I second the idea to make the nexzt meeting remote
+Hadley: Well. Though I second the idea to make the next meeting remote
 
 Dan: Agreed. Especially because the connectivity has been so good. If we can make sure we can support breakouts...
 
@@ -90,19 +90,19 @@ Present: Alice, Rossen, Dan (R)
 
 #### [Intrinsic Size](https://github.com/w3ctag/design-reviews/issues/437)
 
-Alice: Now it's become "contain intrisic size" [reviewing the issue]
+Alice: Now it's become "contain intrinsic size" [reviewing the issue]
 
 Alice: Seems like reasonable use cases but where is the rest of the explainer?
 
-Rossen: my take on it - it's a narrow use cases. it has a weird codependency on the contain property. This only kicks in when the contain resizes. Interdepency... from a TAG PoV there is nothing necesarilly against principles. It's not overly specific.  this has now been worked on. From the TAG PoV we can close with "satisfied"...
+Rossen: my take on it - it's a narrow use cases. it has a weird codependency on the contain property. This only kicks in when the contain resizes. Interdependency... from a TAG PoV there is nothing necessarily against principles. It's not overly specific.  this has now been worked on. From the TAG PoV we can close with "satisfied"...
 
-Alice: I believe the exoplainer is still a work in progress.
+Alice: I believe the explainer is still a work in progress.
 
-Rossen: I think the work is being transferred down the standardss path...
+Rossen: I think the work is being transferred down the standards path...
 
 Dan: I think we *should* ask them to update the explainer... and reiterate the "explainer is not just for the TAG review" explanation...  Maybe put in "proposed closed" pending an update to the explainer?
 
-Alice: there is a display locking explainer that may cover this.  Though you may still have an MDN page on this one thing. We could frame it around: the spec text is now where the explanation  & example code is. Perhaps it might make sense to include some of that in the explainer for the purposes of creating future developer documentation... ... Display Locking explainer has a lot more examples.. might be nice to have non-display locking examples in the consttain intrinsic size explainer.
+Alice: there is a display locking explainer that may cover this.  Though you may still have an MDN page on this one thing. We could frame it around: the spec text is now where the explanation  & example code is. Perhaps it might make sense to include some of that in the explainer for the purposes of creating future developer documentation... ... Display Locking explainer has a lot more examples.. might be nice to have non-display locking examples in the contain intrinsic size explainer.
 
 Rossen: [writes up some comments to the authors]
 
@@ -122,7 +122,7 @@ Alice: their considered alternatives section is ok.
 
 [alice writes a response asking them for updates on their explainer]
 
-Dan: we need some specific examples of speicifc assisitve technology scenarios that would make use of these semantics... it needs to start with that.
+Dan: we need some specific examples of specific assistive technology scenarios that would make use of these semantics... it needs to start with that.
 
 #### [Ads.txt](https://github.com/w3ctag/design-reviews/issues/201)
 
@@ -166,12 +166,12 @@ Dan: Covered some of this in a meeting with Alex recently
 
 ... Discussion in Cupertino about Clipboard, for instance. It's clear to me that there are two things which are both true:
 
-- POsitive for things going through Blink process to request TAG review, as it is evidence of wide review
+- Positive for things going through Blink process to request TAG review, as it is evidence of wide review
 - TAG review cannot be used as a _replacement_ for going through a proper standards track
 
 ... Also, many things that are going through WICG are being referred to as standards track, when they're not on a standards track - WICG is incubation (prior to standardisation, potentially)
 
-... I think in some ways, this is why we brought in the wording in the issue template regarding venue, and the "needs venue" labe. Might be worth strengthening that language in some way.
+... I think in some ways, this is why we brought in the wording in the issue template regarding venue, and the "needs venue" label. Might be worth strengthening that language in some way.
 
 ... Even if they bring something to us very early on, there should be a trajectory through standards.
 
@@ -223,7 +223,7 @@ Rossen: We had a side conversation... it should be expected, or at least highly 
 
 ... Whether they engage early on as part of TAG review process, that could actually help us in adding a lot of subject matter expert feedback... 
 
-... could be simply us saying ok this spec is coming in, it's clearly supposed to be aprt of the the WebXR working group, let's make sure the chairs are notified. At the very least there is a level of awareness and the right people are getting involved from the get-go.
+... could be simply us saying ok this spec is coming in, it's clearly supposed to be part of the the WebXR working group, let's make sure the chairs are notified. At the very least there is a level of awareness and the right people are getting involved from the get-go.
 
 ... Concern raised form 2 or 3 incidents, specs like... 
 
@@ -238,11 +238,11 @@ Peter: Re Font APIs, they are shipping only as an origin trial.
 
 ... My concern is that there is no clear trajectory for these features beyond shipping, to bring it back into the proper standards track
 
-... Love that TAG is getting these early, but my concern is that the pattern is "let's throw out an idea, submit it for TAG review becuase it's part of Blink process" - it ships, sometimes even against TAG opposition, then becomes a de facto standard
+... Love that TAG is getting these early, but my concern is that the pattern is "let's throw out an idea, submit it for TAG review because it's part of Blink process" - it ships, sometimes even against TAG opposition, then becomes a de facto standard
 
 Dan: This was the case with Clipboard API - went viral ??? didn't get the kind of feedback they wanted.
 
-... Totally agree, I think raising the level of expectation .. we've asked what's the venue and people say they didn't know it was a requirement. We coul dmake it a requirement. 
+... Totally agree, I think raising the level of expectation .. we've asked what's the venue and people say they didn't know it was a requirement. We could make it a requirement. 
 
 ... Don't know if that fixes the issue with what's going on in WICG, which is a venue according to us, but not a venue according to someone else. Do we want to litigate what is and isn't a venue?
 
@@ -347,11 +347,11 @@ Present: Rossen, Tess
 
 #### [HTML horizontal review: Subresources and Navigation](https://github.com/w3ctag/design-reviews/issues/448)
 
-Rossen and Tess split up the 6 PRs and individually reviewed them. We did not idenrtify any specific architectural concerns with them. We spent much of the breakout spelunking on [whatwg/html#4031](https://github.com/whatwg/html/pull/4031) together.
+Rossen and Tess split up the 6 PRs and individually reviewed them. We did not identify any specific architectural concerns with them. We spent much of the breakout spelunking on [whatwg/html#4031](https://github.com/whatwg/html/pull/4031) together.
 
 #### [Trust Token API](https://github.com/w3ctag/design-reviews/issues/414)
 
-We had some difficulting parsing [dvorak42's latest comment](https://github.com/w3ctag/design-reviews/issues/414#issuecomment-594011150), so we [asked for clarification](https://github.com/w3ctag/design-reviews/issues/414#issuecomment-594987557).
+We had some difficulty parsing [dvorak42's latest comment](https://github.com/w3ctag/design-reviews/issues/414#issuecomment-594011150), so we [asked for clarification](https://github.com/w3ctag/design-reviews/issues/414#issuecomment-594987557).
 
 ### Breakout 14A, the Issues lightning round!
 
@@ -600,7 +600,7 @@ Rossen: should the really detailed API review be done by the tag at all, or shou
 
 Peter: in general we take a broad look at the shape of the api, we look for code smells, are they using good patterns
 
-... a lot of WGs are workign in isolation so they don't know about similar problems elsewhere that got solved differently
+... a lot of WGs are working in isolation so they don't know about similar problems elsewhere that got solved differently
 
 ... it's part of our remit to help catch cases like that, and to give feedback on how the api layers with other things perhaps in other WGs
 
@@ -612,7 +612,7 @@ Peter: especially as we get more things from incubation, its from folks who may 
 
 Alice: we did a lot better job minuting our breakouts than some other times
 
-... the minuting does seem to fall disproportinally onto me, tess, and david
+... the minuting does seem to fall disproportionately onto me, tess, and david
 
 ... because we notice it's not happening and then get saddled with it
 
@@ -622,15 +622,15 @@ Alice: we did a lot better job minuting our breakouts than some other times
 
 ... please volunteer more
 
-David: I may take minutes in plenary sometimes but i'm really bad about it in breakouts
+David: I may take minutes in plenary sometimes but I'm really bad about it in breakouts
 
 Kenneth: I added a few after the fact
 
-David: sometimes instead of minuting we're direclty writing a comment on an issue, or filing one, etc.
+David: sometimes instead of minuting we're directly writing a comment on an issue, or filing one, etc.
 
 Alice: it makes sense to note in the minutes that you wrote a comment, and link to the comment
 
-David: one of the things that discorages me from doing that is that cryptpad is slow and cpu-hoggy and i need to avoid leaving it open all day because it'll blow up the machine
+David: one of the things that discourages me from doing that is that cryptpad is slow and cpu-hoggy and i need to avoid leaving it open all day because it'll blow up the machine
 
 Kenneth: same
 
@@ -654,7 +654,7 @@ Tess: and if there were a recording made, I would likely not say anything.
 
 Peter: we hired a scribe in CSS
 
-Tess: Yes, and it's aweseome how that goes
+Tess: Yes, and it's awesome how that goes
 
 Rossen: I'm hearing that there have been some attempts or parallels being drawn with youtube live captions that have been sort of shied away from
 
@@ -666,7 +666,7 @@ Rossen: I'm hearing that there have been some attempts or parallels being drawn 
 
 ... powerpoint and google slides have solutions here
 
-... we could write a simple app that routes that kind of thign into a text file
+... we could write a simple app that routes that kind of thing into a text file
 
 ... we could then redact and paste the result
 
@@ -674,7 +674,7 @@ Alice: I'm skeptical; maybe you could provide a proof-of-concept
 
 Yves: what about folks with strong accents or who speak incredibly fast?
 
-Rossen: I'm hearing a lot of scepticism
+Rossen: I'm hearing a lot of skepticism
 
 Tess: No one's telling you to not build a PoC
 
@@ -690,11 +690,11 @@ Rossen: if there were a solution that were mildly successful, it sounds like we 
 
 Alice: there would likely be the same amount of work in the end, or more
 
-Rossen: unfortunately i've seen people taking minutes and being very selective of what goes in the minutes based on their personal preferences. humans are biased during minuting. robots aren't.
+Rossen: unfortunately I've seen people taking minutes and being very selective of what goes in the minutes based on their personal preferences. humans are biased during minuting. robots aren't.
 
 Alice: I don't disagree, i don't think that's the problem
 
-Tess: I find it very difficult to scribe and participate in the conversation at the same time. In the past, we've had backup scribes who take over when the sribe is speakign. That goes pretty well.
+Tess: I find it very difficult to scribe and participate in the conversation at the same time. In the past, we've had backup scribes who take over when the scribe is speaking. That goes pretty well.
 
 Sangwhan: if everyone's okay with it, i could try to see what the results would be with a 15min consented recording on a filtered list of topics
 
@@ -720,51 +720,51 @@ Alice: no, it's partly hardest because you don't want to have the cryptpad windo
 
 ### Telcon times
 
-David: in cupertino the conversation got cut short before we were able to consider the nuance of which tz to pin to
+David: in Cupertino the conversation got cut short before we were able to consider the nuance of which tz to pin to
 
 ... the plenary is pinned to EU time on one calendar
 
 ... the breakouts are pinned to UTC
 
-... we need to decide if they shuld be pinned to UTC
+... we need to decide if they should be pinned to UTC
 
 ... the US/Europe one shouldn't probably
 
 ... we want 9a/5p not 10a/6p
 
-... I'm inclined to pin it to europe
+... I'm inclined to pin it to Europe
 
-... the timezone gaps force us to pin the plenary to europe
+... the timezone gaps force us to pin the plenary to Europe
 
-... the others are maybe okay, because alice switches one way and eveyrone else switches the other way
+... the others are maybe okay, because alice switches one way and everyone else switches the other way
 
-... my inclination is to pin A to europe and B and C to UTC
+... my inclination is to pin A to Europe and B and C to UTC
 
 Sangwhan: i don't have time changes
 
 ... the plenary is a bit problematic
 
-... i'm indifferent about the breakouts
+... I'm indifferent about the breakouts
 
 David: B and C shouldn't cause a change for you since you don't have a summer time change
 
 ... so then there's the plenary
 
-... in the past we've switched to an entirely different time when europe goes to summer time.
+... in the past we've switched to an entirely different time when Europe goes to summer time.
 
 ... we could have used the other time for the winter
 
 ... i think the past few years we've done this jump
 
-... shuld we keep on doing it?
+... should we keep on doing it?
 
-... so we switch to last year's summer time in three weeks when europe changes
+... so we switch to last year's summer time in three weeks when Europe changes
 
 Alice: and would it move earlier or later in time
 
-David: it used to be tuesday in california for both of them
+David: it used to be Tuesday in California for both of them
 
-... we could go to either tuesday night in calforinia or wednesday night in california
+... we could go to either Tuesday night in California or Wednesday night in California
 
 [... details of what happened last time we did the change ...]
 
@@ -772,7 +772,7 @@ Peter: if we shift it'll be April 1st
 
 David: reads out last summer's schedule
 
-David: or do we want to keep what we're currently doing, but that messes with europe and japan
+David: or do we want to keep what we're currently doing, but that messes with Europe and japan
 
 Sangwhan: yep nope
 

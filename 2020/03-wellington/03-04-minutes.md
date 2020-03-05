@@ -38,7 +38,7 @@ https://github.com/cfrg/draft-irtf-cfrg-voprf/blob/master/draft-irtf-cfrg-voprf.
 
 Hadley: the way i understand it is: you go to the issuer, the issuer says : i trust you. it then issues you with a series of blind tokens.
 
-dan: which are signed from the issuer?
+Dan: which are signed from the issuer?
 
 Hadley: the user agent takes them out of a sec trust token response header, unblinds them, and associates them with an.. the issuer signs the trust token. when the user browses another site, publisher.com, that site can redeem tokens from another site.
 
@@ -46,7 +46,7 @@ Dan: this feels like it's based around unitary identity. One citizenship, one ba
 
 Hadley: we have that already; twitter.com has you log in with one account at time
 
-Dan: Okay, but if I'm logging in to Medium, I have to go through an OAuth dance so that Twitter can assert that I am me, to Medium. I can choose to use a different twitter account in that, if I want. What I'm conceredna bout here is that I go to a website, and that website will know that all these other trust issuers have vouched for me. I may or may not want that publisher to know about that. Even the fact that someone vouched for me may count against me, as far as publisher.com is concerned. If a hostile government vouches for me, then a non-hostile government might hold that against. If [an lgbt website] authenticates me, and I'm in a country that persecutes homosexuality, then I [may be putting myself in physical danger]. It implies that every trust toke that I receive would be seen as positive information. 
+Dan: Okay, but if I'm logging in to Medium, I have to go through an OAuth dance so that Twitter can assert that I am me, to Medium. I can choose to use a different twitter account in that, if I want. What I'm concerned about here is that I go to a website, and that website will know that all these other trust issuers have vouched for me. I may or may not want that publisher to know about that. Even the fact that someone vouched for me may count against me, as far as publisher.com is concerned. If a hostile government vouches for me, then a non-hostile government might hold that against. If [an lgbt website] authenticates me, and I'm in a country that persecutes homosexuality, then I [may be putting myself in physical danger]. It implies that every trust toke that I receive would be seen as positive information. 
 
 Hadley: would it make sense to users?
 
@@ -60,7 +60,7 @@ Dan: which could have an implication for private browsing as well. If you want t
 
 ...Funny, because if Tor browser are using this already, they must have some thoughts on this. Given their focus on privacy and anonymity, and resisting fingerprinting attacks. So is there an inherent design. 
 
-Hadley: can I steal someone else's tokens?  from wapo perspective why am i bothering...  if the tokens gettng presented back to the issuer to say "is this really one of yours" - it's going to end up with a random number that comes from the issuer. what if that number's not random? have i just been handed a unique id? that means the issuer who created the random number... etc... Once we get past the edges of the protocol, what if people do bad things?
+Hadley: can I steal someone else's tokens?  from wapo perspective why am i bothering...  if the tokens getting presented back to the issuer to say "is this really one of yours" - it's going to end up with a random number that comes from the issuer. what if that number's not random? have i just been handed a unique id? that means the issuer who created the random number... etc... Once we get past the edges of the protocol, what if people do bad things?
 
 Dan: yes, I'm trying to think about how people interact. The risks of breaking the anonymity are high. In the case of cloudflare, the user is trusting that cloudflare isn't passing any correlateable info to a third party, publisher.com. And publisher.com is trusting cloudflare to keep spammy traffic out. 
 
@@ -80,7 +80,7 @@ Dan: also there is an open issue in raw clipboard access - https://github.com/WI
 
 Present: Alice, Tess, Kenneth, David, Yves, Peter, Rossen, Dan (remote), Hadley (remote)
 
-(with guests fom NZ Gov)
+(with guests from NZ Gov)
 
 Introductions:
 
@@ -113,7 +113,7 @@ Hadley: What use cases are you focusing on?
 
 Emma: Broader economy, not just about identity - proving eligibility, capability (qualifications etc) - enable you to share your information across the economy.
 
-Hadley: Getting everybody who checks credentials to be able to recieve as well as send credentials
+Hadley: Getting everybody who checks credentials to be able to receive as well as send credentials
 
 Emma: About setting up trusted credential providers... if you're a service provider you know who you can go to in a trusted way.
 
@@ -121,7 +121,7 @@ Hadley: sounds exciting.
 
 Joanne: moving away from the form of credentials... info not always in existing credentials e.g. income. Putting this information into a structure where we can then share this information.
 
-Hadley: WE've been looking at this for the NHS in the UK. Something we're interested in doing, need to double check this... vision behind verified credential was "self sovreign" identity, individuals in control of their own identity. Maintaining identity in blockchain to ascribe credentials to.
+Hadley: We've been looking at this for the NHS in the UK. Something we're interested in doing, need to double check this... vision behind verified credential was "self sovereign" identity, individuals in control of their own identity. Maintaining identity in blockchain to ascribe credentials to.
 
 ... Situation in NHS was that we'd have doctors and nurses who want to pick up shifts in other hospitals on a locum basis, that hospital or trust needs to verify their qualifications to practice, that they are allowed to work in UK. Right now that is a laborious process. Verified credentials process of not having a unique authority doesn't really apply - general medical council will always be the central authority there. There are parts we are finding very useful, parts less so due to existing legal structures. 
 
@@ -131,7 +131,7 @@ Tess: Verified credentials data model is a recommendation, which is the final st
 
 Joanne: Is it published who has done these implementations?
 
-Tess: I don't know offhand what has happened in thbnhis case. Typically that kind of technical work is done in public in the w3c...
+Tess: I don't know offhand what has happened in this case. Typically that kind of technical work is done in public in the w3c...
 
 David: It's linked from the top of the specification, in the list of 12 things one is a link to the implementation.
 
@@ -163,11 +163,11 @@ Yves: ... web services
 
 Joanne: ... different area of ISO...
 
-Emma: WOuld we expect this to be fast tracked through ISO?
+Emma: Would we expect this to be fast tracked through ISO?
 
 Tess: It's fairly rare... if there was interest it could be done, but folks would have to express interest
 
-Yves: Some other documents like WCAG are standardised thrugh other processes 
+Yves: Some other documents like WCAG are standardised through other processes 
 
 Joanne: And through ITU?
 
@@ -175,7 +175,7 @@ Yves: I don't think so, see the list of liaisons2 https://www.w3.org/2001/11/Std
 
 Alan: Want to know whether these things are going to become mainstream... interested in process, might be able to chat about this later on.
 
-... For our advice to ministers we need to undetstand the process.
+... For our advice to ministers we need to understand the process.
 
 Joanne: DIDs and VCs are based on JSON(-LD) schemas.. might they be based on another schema type? Same principles written in any other schema?
 
@@ -191,11 +191,11 @@ Tess: I suspect that for signing, particular signing statements have to be tied 
 
 Hadley: Looking at the spec, it looks like it's expressible in JSON or JSON-LD. JSON gives you more popular takeup since JSON-LD does but it would be less expressive.
 
-Tess: DOes it forbid other serializations? Could use RDF-XML or equiv
+Tess: Does it forbid other serializations? Could use RDF-XML or equiv
 
 Hadley: Right... that would take you away from what's in the spec, but a government would have access to a number of suppliers 
 
-... "Although syntactic mamppings are provided only for JSON-LD... may use any other syntactic mappings such as YAML... "
+... "Although syntactic mappings are provided only for JSON-LD... may use any other syntactic mappings such as YAML... "
 
 Joanne: Need to specify the principle and not the schema.
 
@@ -203,7 +203,7 @@ Tess: VC group is still open... would be valuable for them to get this feedback 
 
 Joanne: Same problem with OASIS (?), embedding XML into requirements. Would rather have principle, then a break, then example encodings. People could add examples. Top bit remains stable even though examples may change over time. Syntaxes may evolve over time.
 
-... Having issues with standards being superseded, trying to get standards to be written to be more eduring and allow technology change at a rapid rate without destabilising.
+... Having issues with standards being superseded, trying to get standards to be written to be more enduring and allow technology change at a rapid rate without destabilising.
 
 Tess: this sounds like fantastic feedback for them.
 
@@ -213,7 +213,7 @@ Rossen: Given the maturity of VCs, should be able to engage productively with th
 
 Hadley: Current working group charter (and activities): https://www.w3.org/2020/01/vc-wg-charter.html
 
-Dan: Discussion about standardision, relationship of W3C to ISO. I sit on the Open Standards Board in the UK govt, in the cabinet office. Pasted a link into our chat to UK government open standards principles process. Intended to allow UK government to bless certain standards that are specifically in the IT space that are not going through ISO or our national standards body... many standards such as this one or IETF standards that aren't going through more traditional standards. 
+Dan: Discussion about standardisation, relationship of W3C to ISO. I sit on the Open Standards Board in the UK govt, in the cabinet office. Pasted a link into our chat to UK government open standards principles process. Intended to allow UK government to bless certain standards that are specifically in the IT space that are not going through ISO or our national standards body... many standards such as this one or IETF standards that aren't going through more traditional standards. 
 
 https://www.gov.uk/government/publications/open-standards-principles/open-standards-principles
 
@@ -225,9 +225,9 @@ https://www.w3.org/2001/11/StdLiaison
 
 ### Trust Token API
 
-Dan: We looked at [trust token API, #414](https://github.com/w3ctag/design-reviews/issues/414).  Discussion minuted above in UK2 breakout.  We were concerned that ccurrent state of this review.
+Dan: We looked at [trust token API, #414](https://github.com/w3ctag/design-reviews/issues/414).  Discussion minuted above in UK2 breakout.  We were concerned that current state of this review.
 
-Hadley: Tess and I looked at it in Cupertino, had serious concerns.  Dan and I went through similar process today.  Do we think it's good for the web that we discriminate against sites that are new, without a built-up reputation.  It's a concept we use in identity.  Governments use identity indicators from university, bank, utility bill.  Governments trying to solve a different problem, looking for people masquerading as someone else or violating immigration rules.  We weren't clear that's how the web should work.  Trust tokens builds expectation that you're brand new.... do we trust whoever isues the trust tokens to know whether you should be brand new?
+Hadley: Tess and I looked at it in Cupertino, had serious concerns.  Dan and I went through similar process today.  Do we think it's good for the web that we discriminate against sites that are new, without a built-up reputation.  It's a concept we use in identity.  Governments use identity indicators from university, bank, utility bill.  Governments trying to solve a different problem, looking for people masquerading as someone else or violating immigration rules.  We weren't clear that's how the web should work.  Trust tokens builds expectation that you're brand new.... do we trust whoever issues the trust tokens to know whether you should be brand new?
 
 Dan: Also doesn't seem to be a verification step, or permission request step, for whether user chooses to share trust tokens with third party.  Assumptions is all trust tokens must be good -- but what if trust tokens that receiving party reveals something considered negative, e.g., past travel to a certain country.  Wasn't clear to me those things had been thought through, especially w.r.t the permissions model.
 
@@ -273,13 +273,13 @@ Tess: An observation for this discussion -- cloudflare built this specific solut
 
 Hadley: We started to lay it out before...  (impactful?) ... I think we can continue to explore further.  Privacy pass at IETF, could have conversation with them.
 
-Tess: One aspect of associating with a specific person -- you issue a whole batch at a time....  So right now a buch of sites have CAPTCHAs provided by Recaptcha.  Sites are saying they trust Recaptcha.  User who's being challenged to solve them is never given a choice about whether they want to use Recaptcha to demonstrte humannness.  Is the intention to let users choose from multiple services for demonstrating humanness, or do sites just delegate to one and nothing fundamentally changes for the user?
+Tess: One aspect of associating with a specific person -- you issue a whole batch at a time....  So right now a bunch of sites have CAPTCHAs provided by Recaptcha.  Sites are saying they trust Recaptcha.  User who's being challenged to solve them is never given a choice about whether they want to use Recaptcha to demonstrate humannness.  Is the intention to let users choose from multiple services for demonstrating humanness, or do sites just delegate to one and nothing fundamentally changes for the user?
 
 Hadley: We brought that up last time, got [reply](https://github.com/w3ctag/design-reviews/issues/414#issuecomment-561325890) (reads middle paragraph in that comment).
 
 ### [Raw Clipboard Access, #406](https://github.com/w3ctag/design-reviews/issues/406)
 
-Dan: This and the related issue on clipboard access -- last time we looked it looked like the requester was saying re-evaluating security and privacy issues.  (from 17 Dec).  Since then it doesn't look like anything happened.  That led to comment 8 hours ago.  We looked in their issues and in Clipboard API repo issues.  It looks like 3 issues I highlighted in my response on 15 october are still open.  Issue on raw clipboard access (their #3) not acceptable for privacy and security reasons is still open.  Not clear that work is going on to mitigate.  Not clear anything changing in spec/explainer.  Uncomfortable, don't know what's going on.  Is there work that's not visible to us?  Does anyone know?
+Dan: This and the related issue on clipboard access -- last time we looked it looked like the requester was saying re-evaluating security and privacy issues.  (from 17 Dec).  Since then it doesn't look like anything happened.  That led to comment 8 hours ago.  We looked in their issues and in Clipboard API repo issues.  It looks like 3 issues I highlighted in my response on 15 October are still open.  Issue on raw clipboard access (their #3) not acceptable for privacy and security reasons is still open.  Not clear that work is going on to mitigate.  Not clear anything changing in spec/explainer.  Uncomfortable, don't know what's going on.  Is there work that's not visible to us?  Does anyone know?
 
 Tess: I share your concerns.
 
@@ -287,7 +287,7 @@ Rossen: Any chatter on blink-dev?
 
 Dan: Would be great to get feedback in issue
 
-Rossen: Nothing in blink-dev since october.
+Rossen: Nothing in blink-dev since October.
 
 Alice: intent to implement.
 
@@ -313,13 +313,13 @@ Tess: I'd like to put HTML design principles here...
 
 Hadley: it's felt like the design principles are a rallying point for the html community. If they are removed from the html will they have less impact?
 
-Tess: definitely not. [some hisotry:] in '06 or '07 w3c decided to get back into the game.. started html wg. Invited the whatwg people to collaborate. For several years after Ian published the spec at both orgs. At the beginning of that there was the clash of different communities. A lot of whatwg decisions questionned. Same questions asked again and again.. SOme of the folks who had been invovled in the whatwg effort started the design principles document to make explicit what some of the implicit prinnciples had been. Was collaborated on in html wg. It was a distilation of the early learnings of whatwg.  HTML wg never got consensus in this. We parked it as a note. It's been a note for 13 years...
+Tess: definitely not. [some history:] in '06 or '07 w3c decided to get back into the game.. started html wg. Invited the whatwg people to collaborate. For several years after Ian published the spec at both orgs. At the beginning of that there was the clash of different communities. A lot of whatwg decisions questioned. Same questions asked again and again.. Some of the folks who had been involved in the whatwg effort started the design principles document to make explicit what some of the implicit principles had been. Was collaborated on in html wg. It was a distillation of the early learnings of whatwg.  HTML wg never got consensus in this. We parked it as a note. It's been a note for 13 years...
 
 ... most of it is about web technology as a whole...
 
 ... for the most part i think it captures web platform design principles. 
 
-... it's worth resurecting them and putting them in a living doc the group like the TAG is maintaining. 
+... it's worth resurrecting them and putting them in a living doc the group like the TAG is maintaining. 
 
 Hadley: I think that's really useful.
 
@@ -337,7 +337,7 @@ Tess: from the introduction.. really important to distinguish between requiremen
 
 Hadley: we should make sure the language is clear that it's not just "the browser"
 
-[Tess leading conversaiton on current principles]
+[Tess leading conversation on current principles]
 
 for anything "kept" assume modernize wording...
 
@@ -367,7 +367,7 @@ Dan: totally agree with getting rid
 
 Hadley: how is it different from not breaking the web...  
 
-Tess: this is about when you're adding a new APi try to make it fit in with other APIs rather then a whole new thing.
+Tess: this is about when you're adding a new API try to make it fit in with other APIs rather then a whole new thing.
 
 Rossen: incremental improvement 
 
@@ -410,11 +410,11 @@ Alice: feelings on this - people have used this to justify misreadings on semant
 
 3.5 **DOM consistency**
 
-Tess: i don't think it belogns here - it belongs in the DOM spec 
+Tess: i don't think it belongs here - it belongs in the DOM spec 
 
 4.1 - **well defined behavior**
 
-Tess: i think this is great.  Prefer to write down a signle behavior that everyone should converge on.
+Tess: i think this is great.  Prefer to write down a single behavior that everyone should converge on.
 
 Hadley: is this where we should make it explicit that we don't do UI?
 
@@ -434,7 +434,7 @@ Alice: needs to be rephrased
 
 Tess: related to a TAG finding that captures the role of least power
 
-Hadley: when you cite this - i would imagine people don't think something is needlessly compex. how do you convince them it's overly complicated.
+Hadley: when you cite this - i would imagine people don't think something is needlessly complex. how do you convince them it's overly complicated.
 
 Tess: by describing an alternative
 
@@ -462,11 +462,11 @@ Tess: I saw this on twitter the other day: https://twitter.com/pes10k/status/123
 
 ... Edge seems to have an internal mechanism for grouping domains as being the same organization, and appears to use this internal, FPS-like thing for its engagement metric, so doubleclick tracking cookies don't get blocked because everyone uses google search
 
-... I worry that FPS could turn out to be an attractive nusiance: by having this feature in the platform, implementers will tend to build features on top of this that will have the kind of bad behavior Pete called out in that tweet.
+... I worry that FPS could turn out to be an attractive nuisance: by having this feature in the platform, implementers will tend to build features on top of this that will have the kind of bad behavior Pete called out in that tweet.
 
 Peter: It also could take agency away from folks who, say, use a different user account on google.com & google.co.uk.
 
-Tess: it seems like there's only one use case identified here, and I think it's a use case already solved by the storage access api. Both firefox and safari ship it, and Edge is implementing it in blink.
+Tess: it seems like there's only one use case identified here, and I think it's a use case already solved by the storage access api. Both Firefox and safari ship it, and Edge is implementing it in blink.
 
 Tess: [leaves comment on issue](https://github.com/w3ctag/design-reviews/issues/342#issuecomment-594222861)
 
@@ -482,7 +482,7 @@ Present: Tess, Rossen, Yves
 
 #### [WebRTC playoutDelayHint](https://github.com/w3ctag/design-reviews/issues/441)
 
-Yves: it is only a hint, avoiding issues like having a too big delay resulting in abusive memory consumption, so it is pretty safe. Only issue is that it is expressed in second intead of ms
+Yves: it is only a hint, avoiding issues like having a too big delay resulting in abusive memory consumption, so it is pretty safe. Only issue is that it is expressed in second instead of ms
 
 Tess: It is in the design document https://w3ctag.github.io/design-principles/#milliseconds
 
@@ -535,14 +535,14 @@ Rossen: When should we revisit this?
 
 Peter: This is the question... One of my previous feedbacks was that this could be done by simply exposing a picker. The pushback was that there is a need for feature detection.
 
-David: I challanged this by writing a non-js feature detection
+David: I challenged this by writing a non-js feature detection
 
 Ken: The feature is currently approved to ship with M81 of Chrome (currently in two weeks of now).
 
 Peter: Again, shipping out of a WICG draft that's not affiliated with any WG...
 ... are there any signals from other UAs?
 
-Tesss: Mozilla position is Deffer (reading from issue). Apple has no public position as of yet.
+Tess: Mozilla position is Deffer (reading from issue). Apple has no public position as of yet.
 
 Peter: Don't know what to do with the issue... Not because of the feature itself but using TAG as an excuse to sidestep going through the standards process.
 
@@ -557,7 +557,7 @@ Ken: Went over and verified some of the changes on the Explainer but didn't get 
 
 ### Breakout 7b
 #### [Revitalizing HTML guidelines](https://github.com/w3ctag/design-reviews/issues/426) 
-Tess: There was general agreement that we should resurect the old HTML design principles and merge them with TAG design principles. We went over all principles and agreed what/how should be ported. I have been working on a PR to do that.
+Tess: There was general agreement that we should resurrect the old HTML design principles and merge them with TAG design principles. We went over all principles and agreed what/how should be ported. I have been working on a PR to do that.
 
 ### Breakout 7c
 #### [HTTPS and CORS](https://github.com/w3ctag/design-reviews/issues/443)
