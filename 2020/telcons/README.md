@@ -37,7 +37,7 @@ Tuesday 08:00 UTC
 
 ### Plenary call
 
-The plenary teleconference time will switch with the *European* summer time change, which is the last Sunday in March (31 March, 2019) and the last Sunday in October (27 October, 2019).  Teleconferences are 1 hour long.
+The plenary teleconference time will switch with the *European* summer time change, which is the last Sunday in March (29 March, 2020) and the last Sunday in October (25 October, 2020).  Teleconferences are 1 hour long.
 
 #### January-half of the year: Wednesday 21:00 UTC
 
