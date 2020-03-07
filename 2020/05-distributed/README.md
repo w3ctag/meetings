@@ -36,3 +36,18 @@ Some possible schedules for breakout timeslots could be:
 | 07:30-10:30 Tue-Fri         | Japan      |
 | 08:30-11:30 Tue-Fri         | Sydney     |
 | 15:30-18:30 Mon-Thu         | California |
+
+#### Possible plenary timeslot (if needed)
+
+If we need a plenary timeslot we could use something like this (which matches our teleconference time, but runs 15 minutes longer).  It ends 15 minutes before the first breakout slot above.  The disadvantages are that it's relatively early for Europe (who have to deal with running late the evening before) and especially that it's quite late for California (leaving only an 8 hour and 15 minute gap until the first breakout start the next morning).
+
+So if we want breakouts like the above, it might be better to avoid having a plenary, perhaps by having an extended plenary time in adjacent weeks.
+
+| Time                | Location        |
+| ------------------- | --------------- |
+| 05:00-06:15 Tue-Thu | UTC             |
+| 06:00-07:15 Tue-Thu | UK              |
+| 07:00-08:15 Tue-Thu | France, Denmark |
+| 14:00-15:15 Tue-Thu | Japan           |
+| 15:00-16:15 Tue-Thu | Sydney          |
+| 22:00-23:15 Mon-Wed | California      |
