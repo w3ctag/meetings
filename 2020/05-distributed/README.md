@@ -32,7 +32,7 @@ Some possible schedules for breakout timeslots could be:
 
 | Time                        | Location   |
 | --------------------------- | ---------- |
-| 22:30-01:30 Mon/Tue-Thu/Fri | UTC        |
+| 22:30 Mon-Thu-01:30 Tue-Fri | UTC        |
 | 07:30-10:30 Tue-Fri         | Japan      |
 | 08:30-11:30 Tue-Fri         | Sydney     |
 | 15:30-18:30 Mon-Thu         | California |
