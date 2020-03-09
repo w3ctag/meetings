@@ -62,4 +62,4 @@ Date constraints in May and June:
 * Thursday, May 21: France holiday (Ascension) and Denmark holiday
 * Monday, May 25: [US holiday](https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/#url=2020) (Memorial Day) and UK holiday (Spring bank holiday)
 * Monday, June 1: France holiday (Lundi de Pentecôte) and Denmark holiday
-* Monday, June 8: [Australia holiday](https://www.australia.gov.au/about-australia/special-dates-and-events/public-holidays) (Queen's Birthday)
+* Monday, June 8: [Australia holiday](https://www.australia.gov.au/about-australia/special-dates-and-events/public-holidays#nsw) (Queen's Birthday)
