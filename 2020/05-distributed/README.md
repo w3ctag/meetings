@@ -51,3 +51,15 @@ So if we want breakouts like the above, it might be better to avoid having a ple
 | 14:00-15:15 Tue-Thu | Japan           |
 | 15:00-16:15 Tue-Thu | Sydney          |
 | 22:00-23:15 Mon-Wed | California      |
+
+### Date constraints
+
+Date constraints in May and June:
+* Friday, May 1: [France holiday](https://www.service-public.fr/particuliers/vosdroits/F24496) (Fête du Travail)
+* Sunday-Wednesday, May 3-6: Japan holidays
+* Friday, May 8: France holiday (Victoire 1945) and [UK holiday](https://www.gov.uk/bank-holidays) (VE day) and [Denmark holiday](https://www.timeanddate.com/holidays/denmark/)
+* Monday-Tuesday, May 18-19: [AC meeting](https://lists.w3.org/Archives/Member/w3c-ac-members/2020JanMar/0025.html) remote participation sessions
+* Thursday, May 21: France holiday (Ascension) and Denmark holiday
+* Monday, May 25: [US holiday](https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/#url=2020) (Memorial Day) and UK holiday (Spring bank holiday)
+* Monday, June 1: France holiday (Lundi de Pentecôte) and Denmark holiday
+* Monday, June 8: [Australia holiday](https://www.australia.gov.au/about-australia/special-dates-and-events/public-holidays) (Queen's Birthday)
