@@ -324,7 +324,9 @@ We started to write [a PR](https://github.com/w3ctag/design-principles/pull/163)
 #### [Delegated Ink Trail](https://github.com/w3ctag/design-reviews/issues/473)
 
 Present: David, Rossen
+
 Reviewed the explainer in more details and left actionable comments to the authors. 
+
 Next review set for March 23.
 
 ### Breakout 12C
