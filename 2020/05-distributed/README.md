@@ -21,21 +21,21 @@ Some possible schedules for breakout timeslots could be:
 
 #### Europe/US 3-hour slot
 
-| Time                | Location        |
-| ------------------- | --------------- |
-| 14:30-17:30 Mon-Thu | UTC             |
-| 07:30-10:30 Mon-Thu | California      |
-| 15:30-18:30 Mon-Thu | UK              |
-| 16:30-19:30 Mon-Thu | France, Denmark |
+| Time                | Location            |
+| ------------------- | ------------------- |
+| 14:30-17:30 Mon-Thu | UTC                 |
+| 07:30-10:30 Mon-Thu | California, Seattle |
+| 15:30-18:30 Mon-Thu | UK                  |
+| 16:30-19:30 Mon-Thu | France, Denmark     |
 
 #### US/Australia/Asia 3-hour slot
 
-| Time                        | Location   |
-| --------------------------- | ---------- |
-| 22:30 Mon-Thu-01:30 Tue-Fri | UTC        |
-| 07:30-10:30 Tue-Fri         | Japan      |
-| 08:30-11:30 Tue-Fri         | Sydney     |
-| 15:30-18:30 Mon-Thu         | California |
+| Time                        | Location            |
+| --------------------------- | ------------------- |
+| 22:30 Mon-Thu-01:30 Tue-Fri | UTC                 |
+| 07:30-10:30 Tue-Fri         | Japan               |
+| 08:30-11:30 Tue-Fri         | Sydney              |
+| 15:30-18:30 Mon-Thu         | California, Seattle |
 
 #### Possible plenary timeslot (if needed)
 
