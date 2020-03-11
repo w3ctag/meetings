@@ -1,5 +1,5 @@
 ﻿## TAG Teleconference
-##### 11 Month 2020
+##### 11 March 2020
 
 ---
 
@@ -47,7 +47,7 @@ Dan: Is Rossen fixing the merging/rebasing?
 
 David: Hoped Rossen would do it
 
-Dan: After thius I think we should do a copy of  this to the w3c space and some PR - hopefully within the next  couple of weeks
+Dan: After this I think we should do a copy of  this to the w3c space and some PR - hopefully within the next  couple of weeks
 
 Tess: I hope to get the PRs up for the html issues the next couple of weeks
 
@@ -61,13 +61,13 @@ David: I also started working on some CSS section, but just getting started
 
 David: Collection of interesting ideas
 
-Dan: Do we want to give it anh more formal stating than that?
+Dan: Do we want to give it any more formal stating than that?
 
 Tess: What are the options?
 
-Dan: We can do whatever we want, like publicsh a note
+Dan: We can do whatever we want, like publish a note
 
-...: The promise guide is a finding (though it isreally a howto)
+...: The promise guide is a finding (though it is really a howto)
 
 ... Note kind of has a bad sounding - like we ditched it
 
@@ -83,23 +83,23 @@ Tess: David landed a change adding new headings
 
 Dan: Any other comments, issues? about the design principles document that we ought to focus on today - cheat sheet?
 
-Alice: In general having a process for doing design reviews? Rossen brought that up as someone new on the TAG - we can be a bit inconsistent but we have an underlying mental check list that we go through wehen we look through an issue - part of what we are adding to the issue template - having a look at the explainer and looking for user needs etc and pushing back on that as quickly as possible
+Alice: In general having a process for doing design reviews? Rossen brought that up as someone new on the TAG - we can be a bit inconsistent but we have an underlying mental check list that we go through when we look through an issue - part of what we are adding to the issue template - having a look at the explainer and looking for user needs etc and pushing back on that as quickly as possible
 
-Dan: so wher should that go, its own thing?
+Dan: so where should that go, its own thing?
 
 Alice: Yes
 
-... it could live in a GH repo, doesnt have to be that polished
+... it could live in a GH repo, doesn't have to be that polished
 
 Dan: Design review checklist, design review repo top level, linked from readme
 
-Dan: I think it could be a questionare version of the design document, we can apply it or ask people to go through it
+Dan: I think it could be a questionnaire version of the design document, we can apply it or ask people to go through it
 
 Ken: I think people just quickly look at it and say yes, but haven't studied it in details
 
 Dan: that would be issue 154
 
-... Alice do you ahve cycles to work on that?
+... Alice do you Ave cycles to work on that?
 
 Alice: In theory yeah, but not this week, still feeling tired from travelling - but you can assign to me
 
@@ -119,7 +119,7 @@ https://github.com/w3ctag/design-reviews/issues/354
 
 Dan: I asked jeffrey yaskin what is the deal and Twitter DM'ed him - closing would be fine
 
-... I think based on that repsonse let's close it
+... I think based on that response let's close it
 
 ... Closing
 
@@ -161,7 +161,7 @@ Dan: Still controversy regarding standards position but not sure how we can help
 
 David: Hoping to get back to this this week and give more concrete advice - worth it?
 
-Dan: I thikn it is worth it
+Dan: I think it is worth it
 
 ... Punt it?
 
@@ -170,7 +170,7 @@ David: Sure
 
 ### other
 
-Dan: Untriages issues? or looking at a different repo - the death repo
+Dan: Untriaged issues? or looking at a different repo - the death repo
 
 David: We also had 3 other issues with milestones for this weeks
 
