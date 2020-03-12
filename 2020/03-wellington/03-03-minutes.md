@@ -410,6 +410,11 @@ Present: Kenneth, David
 
 Went through three sets of HTML issues, nothing popped up, closed all three sets.
 
+* [HTML horizontal review: Form controls](https://github.com/w3ctag/design-reviews/issues/449)
+* [HTML horizontal review: The Event Loop](https://github.com/w3ctag/design-reviews/issues/453)
+* [HTML horizontal review: Canvas](https://github.com/w3ctag/design-reviews/issues/454
+
+
 ### Breakout 2C
 
 #### [Font Table Access API](https://github.com/w3ctag/design-reviews/issues/400)
@@ -478,7 +483,7 @@ Present: Peter, David, Sangwhan, (Yves)
 David: HTML modules has been delayed until other module types ship, and was expected to be visited after this work is done.
 Leaving HTML modules as stalled seems fine; doesn't seem to be activity right now.
 
-#### CSS Modules
+#### [CSS Modules](https://github.com/w3ctag/design-reviews/issues/405)
 
 David reads [last comment](https://github.com/w3ctag/design-reviews/issues/405#issuecomment-578858875) which suggests we could close soon.
 
@@ -773,7 +778,7 @@ Present: Sangwhan, Yves
 
 Yves: I've commented on this, I think this should be hints. We should probably be firm on that.
 
-#### [MiniApp URIs](https://w3c.github.io/miniapp/specs/uri/)
+#### [MiniApp URIs](https://w3c.github.io/miniapp/specs/uri/) [#478](https://github.com/w3ctag/design-reviews/issues/478)
 
 Sangwhan: Made one drive-by comment on this, don't understand why it uses a custom scheme over a standard HTTP URL.
 
@@ -799,6 +804,16 @@ Sangwhan: Agreed, given the power of this feature it feels like gating it behind
 
 ### Breakout 4C
 
+Present: David and Kenneth
+
+#### [Display Locking](https://github.com/w3ctag/design-reviews/issues/311)
+
+see comments in issue
+
+#### [WebSocketStream](https://github.com/w3ctag/design-reviews/issues/394)
+
+see comments in issue
+
 ### Breakout 5A
 
 #### [Serial](https://github.com/w3ctag/design-reviews/issues/431)
@@ -813,13 +828,13 @@ Kenneth: Looks like spec hasn't changed much.
 
 (ping and wait)
 
-#### [Native FS]
+#### [Native FS](https://github.com/w3ctag/design-reviews/issues/390)
 
 Kenneth: They said something about design changes and what being implemented being slightly different from the spec, but have not heard back.
 
 Sangwhan: Looks like that's still the case. Let's ping and wait.
 
-#### [WebASM x ESM]
+#### [WebASM x ESM](https://github.com/w3ctag/design-reviews/issues/377)
 
 Kenneth: Says it depends on top level await, which is pretty far in in terms of progress. They say attributes are nice but not required.
 
@@ -827,7 +842,7 @@ Sangwhan: I'm not quite sure, JS has more power than WebASM..
 
 (commented concerns)
 
-#### [WebRTC-SVC]
+#### [WebRTC-SVC](https://github.com/w3ctag/design-reviews/issues/396)
 
 Sangwhan: Pretty old, should do something about this. This feature is sort of like adaptive streaming for WebRTC.
 
@@ -843,7 +858,13 @@ Sangwhan: Looks like this particular case comes from RFC7741, but in RFC2045 it 
 
 ### Breakout 5B
 
+Present: Alice and Tess
+
+Breakout scheduling for Wednesday
+
 ### Breakout 5C
+
+#### Design Principles
 
 David looked at https://github.com/w3ctag/design-principles/issues/126 a little and filed https://github.com/w3ctag/design-principles/issues/158 .
 

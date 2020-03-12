@@ -221,9 +221,9 @@ https://www.w3.org/2001/11/StdLiaison
 
 ... Don't know if NZ has something similar, worth thinking about a parallel process to approve a standard for use that hasn't gone through ISO or other Standards process.
 
-## Readouts
+### Readouts
 
-### Trust Token API
+#### Trust Token API
 
 Dan: We looked at [trust token API, #414](https://github.com/w3ctag/design-reviews/issues/414).  Discussion minuted above in UK2 breakout.  We were concerned that current state of this review.
 
@@ -277,7 +277,7 @@ Tess: One aspect of associating with a specific person -- you issue a whole batc
 
 Hadley: We brought that up last time, got [reply](https://github.com/w3ctag/design-reviews/issues/414#issuecomment-561325890) (reads middle paragraph in that comment).
 
-### [Raw Clipboard Access, #406](https://github.com/w3ctag/design-reviews/issues/406)
+#### [Raw Clipboard Access, #406](https://github.com/w3ctag/design-reviews/issues/406)
 
 Dan: This and the related issue on clipboard access -- last time we looked it looked like the requester was saying re-evaluating security and privacy issues.  (from 17 Dec).  Since then it doesn't look like anything happened.  That led to comment 8 hours ago.  We looked in their issues and in Clipboard API repo issues.  It looks like 3 issues I highlighted in my response on 15 October are still open.  Issue on raw clipboard access (their #3) not acceptable for privacy and security reasons is still open.  Not clear that work is going on to mitigate.  Not clear anything changing in spec/explainer.  Uncomfortable, don't know what's going on.  Is there work that's not visible to us?  Does anyone know?
 
@@ -299,9 +299,27 @@ Rossen: Active development happening but communication stalled.
 
 Dan: Communication to the wider community has stalled.  Not just to the TAG.  Not to harp, but people in blink community point to WICG as wider review of spec work, but here that doesn't seem to be functional.  If that's true then these issues should be being updated.
 
-## Breakout 7b
+### Breakout 7a
+
+Present: David, Kenneth
+
+#### [Contact API](https://github.com/w3ctag/design-reviews/issues/337)
+
+see comments in issue
+
+#### [[Payments] shipping and contact info delegation](https://github.com/w3ctag/design-reviews/issues/425)
+
+see comments in issue
+
+#### [scheduler.postTask() API](https://github.com/w3ctag/design-reviews/issues/338)
+
+see comments in issue
+
+### Breakout 7b
 
 Present: Tess, Alice, Hadley, Dan
+
+#### [Revitalizing and generalizing the "HTML Design Principles" document](https://github.com/w3ctag/design-reviews/issues/426)
 
 Tess: [intro'ing topic]
 
@@ -448,9 +466,29 @@ Hadley: use verbs  in the titles
 
 5.1 keep and possibly re-word
 
+### Breakout 7C
+
+Present: Peter, Yves
+
+#### [HTTPS and CORS](https://github.com/w3ctag/design-reviews/issues/443)
+
+see comments in issue
+
+#### [Securer Contexts](https://github.com/w3ctag/design-reviews/issues/471)
+
+see comments in issue
+
 ### Breakout 8A
 
-?
+Present: Alice, David
+
+#### [File Handling](https://github.com/w3ctag/design-reviews/issues/371)
+
+see comments in issue
+
+#### [Design questions around pay-for-what-you-use](https://github.com/w3ctag/design-reviews/issues/421)
+
+see comments in issue
 
 ### Breakout 8B
 
@@ -473,6 +511,8 @@ Tess: [leaves comment on issue](https://github.com/w3ctag/design-reviews/issues/
 ### Breakout 8C
 
 Present: Ken, Rossen
+
+#### [Document Policies](https://github.com/w3ctag/design-reviews/issues/408)
 
 Spent some time trying to find out how the document policies were supposed to work and added some comments to help clarify.
 
@@ -518,9 +558,43 @@ Peter: Yes, if someone had time... I'll try to do a prototype and possibly roll 
 
 Sangwhan: Sounds good
 
-#### [Media Capabilities]()
+#### [Media Capabilities](https://github.com/w3ctag/design-reviews/issues/218)
 
 Sangwhan: I suggest we close this.
+
+### Breakout 10a
+
+Present: Kenneth, Sangwhan
+
+#### [Service Worker Scope Pattern Matching](https://github.com/w3ctag/design-reviews/issues/417)
+
+see comment in issue
+
+#### [MediaStream Image Capture API (Pan/Tilt feature)](https://github.com/w3ctag/design-reviews/issues/358)
+
+see comments in issue
+
+### Breakout 10b
+
+Present: Alice, Tess
+
+Breakout planning for Thursday
+
+### Breakout 10c
+
+Present: Rossen, David
+
+#### [WebNFC](https://github.com/w3ctag/design-reviews/issues/461)
+
+see comments in issue
+
+#### [IntersectionObserver](https://github.com/w3ctag/design-reviews/issues/197)
+
+see comments in issue
+
+#### [HTML horizontal review: Security](https://github.com/w3ctag/design-reviews/issues/451)
+
+see comments in issue
 
 ## Readouts 
 ### Breakout 7a 

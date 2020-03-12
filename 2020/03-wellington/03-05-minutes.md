@@ -132,6 +132,8 @@ Alice: There was an update [from 30 Jan](https://github.com/w3ctag/design-review
 
 ### Breakout 11B
 
+Present: David, Tess
+
 #### [WebOTP API](https://github.com/w3ctag/design-reviews/issues/391)
 
 We discussed several concerns, primarily around the JavaScript API, and captured those concerns in several issues:
@@ -321,9 +323,10 @@ Tess (TAG hat off, HTML hat on): Yes
 We started to write [a PR](https://github.com/w3ctag/design-principles/pull/163) to address this.
 
 ### Breakout 12B
-#### [Delegated Ink Trail](https://github.com/w3ctag/design-reviews/issues/473)
 
 Present: David, Rossen
+
+#### [Delegated Ink Trail](https://github.com/w3ctag/design-reviews/issues/473)
 
 Reviewed the explainer in more details and left actionable comments to the authors. 
 
@@ -339,9 +342,17 @@ Issue closed by opening a new issue on the [Promises Guide](https://github.com/w
 
 ### Breakout 14B
 
-Assigned: David, Sangwhan
+Present: David, Sangwhan
 
-?
+#### [Trusted Types](https://github.com/w3ctag/design-reviews/issues/198)
+
+see comments in issue
+
+#### [WebCodecs](https://github.com/w3ctag/design-reviews/issues/433)
+
+see comments in issue
+
+commented on one detail, aside from that 2 lgtms
 
 ### Breakout 14C
 
