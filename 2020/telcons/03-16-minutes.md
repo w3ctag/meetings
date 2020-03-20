@@ -485,5 +485,50 @@ David: rebase is still an option, I think squash is the default.
 
 Rossen: Apologies again, especially to Tess.
 
+### [Browsing Contexts](https://github.com/w3ctag/design-reviews/issues/452) breakout
+
+20 March 2020
+
+Present: Dan & Tess
+
+* [Refactor browsing context creation](https://github.com/whatwg/html/pull/4284)
+
+Tess: This cleans up and makes explicit a bunch of stuff around browsing context creation. Nothing architectural here.
+
+Dan: OK.
+
+* [Introduce browsing context groups](https://github.com/whatwg/html/pull/4350)
+
+Tess: related browsing contexts have associated documents that are cross-origin from eachother. baz.com (in the window that got window.opened) knows that the opener was foo.com even if foo.com originally opened bar.com ... The previous wording was unclear. this change is a fairly big text change that clarifies that and cleans up some of the terminology.  The change clarifies things that were true but not clear before and also simplifies the naming of some of these concepts. So probably no architectural implications although it is a change for specs that rely on this spec.
+
+Dan: OK
+
+* [Make window.name deal with lack of browsing context](https://github.com/whatwg/html/pull/4366)
+
+Tess: This is a bug fix. It exposed some weirdness that got resolved in a future change, so this one itself doesn't have any architectural issues.
+
+* [Define Window's opener when there's no browsing context](https://github.com/whatwg/html/pull/4379)
+
+Dan: Anything architectural here?
+
+Tess: it's possible to cause a window to open not from a current browsing context.  E.g. A service worker can open a window.  And if there isn't a current browser context at all, and a window is opened programatically, normally the window would have an opener but there is no context that created it to point at. It's a bug fix.
+
+Dan: it clarifies.
+
+Tess: there is a follow-up that got filed from this because this change exposed an inconsistency, 
+
+* [Cleanup Window's close(d) members](https://github.com/whatwg/html/pull/4402)
+
+Tess: this is cleanup. it clarified some things - as a result, some browser bugs got filed – as the previous text was unclear.
+
+* [Tie BarProp object lifetime to the Window object](https://github.com/whatwg/html/pull/4430)
+
+Tess: if the window has a toolbar – toolbars only exist for the lifetime of a window. This makes that clear.  No concern here.
+
+Dan: LGTM
+
+#### Summary
+
+[So we reviewed all of these and found no issues.]
 
 
