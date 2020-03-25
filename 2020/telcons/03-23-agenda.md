@@ -27,6 +27,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 ### Plenary Session - [2020-03-25](https://www.timeanddate.com/worldclock/converter.html?iso=20200325T210000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
 * Breakout Rollup
+* [Securer Contexts](https://github.com/w3ctag/design-reviews/issues/471) - @torgo, @plinss, @ylafon
+* Re-re-discuss plenary time slot
 * Issue Triage
 
 ### Logistics
