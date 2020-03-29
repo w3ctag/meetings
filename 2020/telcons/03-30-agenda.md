@@ -4,7 +4,7 @@ This agenda can be viewed and updated on [Github](https://github.com/w3ctag/meet
 
 If you would like to add an item to the agenda or volunteer to scribe please open a pull request against this agenda.
 
-### Breakout A (Europe / US) - [2020-03-30](https://www.timeanddate.com/worldclock/converter.html?iso=20200330T170000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+### Breakout A (Europe / US) - [2020-03-30](https://www.timeanddate.com/worldclock/converter.html?iso=20200330T160000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
 ### Breakout B (US / APAC) - [2020-03-30](https://www.timeanddate.com/worldclock/converter.html?iso=20200330T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
