@@ -28,11 +28,9 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Plenary Session - [2020-04-01 05:00 UTC](https://www.timeanddate.com/worldclock/converter.html?iso=20200401T050000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
-* Review and merge [pull requests](https://github.com/w3ctag/design-principles/pulls)
-* [Document when to use allow- attributes vs. extend the sandbox attribute value set for iframes](https://github.com/w3ctag/design-principles/issues/41) - @cynthia, @dbaron, @travisleithead
-
-* Issue an update of the principles document if possible
 * Breakout Rollup
+* Review and merge [pull requests](https://github.com/w3ctag/design-principles/pulls)
+* Issue an update of the principles document if possible
 * Additional triage
 
 ### Logistics
@@ -41,13 +39,11 @@ Chair: Dan
 
 Scribe:
 
-IRC: irc.w3.org / #tagmem
-
 Bridge: https://meet.jit.si/w3ctag first then going to https://whereby.com/w3ctag as a back-up
 
 * Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2020/telcons/03-30-minutes.md
 
-Raw minutes: ...
+Raw minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/O6mHg8uiuviBiJl6ufrsTh5wTNUvTyQXGdZE1EDLK5M/
 
