@@ -21,6 +21,8 @@ Some possible schedules for breakout timeslots could be:
 
 #### Europe/US 3-hour slot
 
+NOTE: If we continue to use the same week as the AC meeting, then the start of this slot has a half-hour overlap with the end of the [AC meeting session time-slot](https://lists.w3.org/Archives/Member/tag/2020Apr/0000.html).
+
 | Time                | Location            |
 | ------------------- | ------------------- |
 | 14:30-17:30 Mon-Thu | UTC                 |
