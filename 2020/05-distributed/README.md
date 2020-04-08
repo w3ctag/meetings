@@ -11,6 +11,8 @@ Some possible schedules for breakout timeslots could be:
 
 #### Australia/Asia/Europe 3-hour slot
 
+NOTE: Could push this to be Tue-Fri instead depending on the week chosen.
+
 | Time                | Location        |
 | ------------------- | --------------- |
 | 06:30-09:30 Mon-Thu | UTC             |
@@ -21,7 +23,9 @@ Some possible schedules for breakout timeslots could be:
 
 #### Europe/US 3-hour slot
 
-NOTE: If we continue to use the same week as the AC meeting, then the start of this slot has a half-hour overlap with the end of the [AC meeting session time-slot](https://lists.w3.org/Archives/Member/tag/2020Apr/0000.html).
+NOTE: Could push this to be Tue-Fri instead depending on the week chosen.
+
+NOTE: If we continue to use the same week as the AC meeting, then the start of this slot has a half-hour overlap with the end of the [AC meeting session time-slot](https://lists.w3.org/Archives/Member/tag/2020Apr/0000.html) on Monday and Tuesday.
 
 | Time                | Location            |
 | ------------------- | ------------------- |
@@ -41,9 +45,11 @@ NOTE: If we continue to use the same week as the AC meeting, then the start of t
 
 #### Possible plenary timeslot (if needed)
 
-If we need a plenary timeslot we could use something like this (which matches our teleconference time, but runs 15 minutes longer).  It ends 15 minutes before the first breakout slot above.  The disadvantages are that it's relatively early for Europe (who have to deal with running late the evening before) and especially that it's quite late for California (leaving only an 8 hour and 15 minute gap until the first breakout start the next morning).
+~If we need a plenary timeslot we could use something like this (which matches our teleconference time, but runs 15 minutes longer).  It ends 15 minutes before the first breakout slot above.  The disadvantages are that it's relatively early for Europe (who have to deal with running late the evening before) and especially that it's quite late for California (leaving only an 8 hour and 15 minute gap until the first breakout start the next morning).~
 
-So if we want breakouts like the above, it might be better to avoid having a plenary, perhaps by having an extended plenary time in adjacent weeks.
+~So if we want breakouts like the above, it might be better to avoid having a plenary, perhaps by having an extended plenary time in adjacent weeks.~
+
+I think we concluded that it's probably not worth having a plenary during the week.
 
 | Time                | Location        |
 | ------------------- | --------------- |
