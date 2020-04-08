@@ -91,10 +91,10 @@ Raw minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/dcYQ1KqsO0LrRjL8P3Ut
 #### Plenary
 
 <table>
-<tr><td> San Francisco (U.S.A. - California) <td> Wednesday, 7 April, 13:00 GMT-7</td></tr>
+<tr><td> San Francisco (U.S.A. - California) <td> Wednesday, 8 April, 13:00 GMT-7</td></tr>
 <tr><td> London (United Kingdom - England) <td> Wednesday, 8 April, 21:00 BST</td></tr>
 <tr><td> Paris (France) <td> Wednesday, 8 April, 22:00 CEST</td></tr>
 <tr><td> Tokyo (Japan) <td> Thursday, 9 April, 05:00 GMT+9</td></tr>
 <tr><td> Sydney (Australia) <td> Thursday, 9 April, 06:00 GMT+10</td></tr>
-<tr><td> Corresponding UTC (GMT) <td> Thursday, 9 April, 20:00 UTC</td></tr>
+<tr><td> Corresponding UTC (GMT) <td> Wednesday, 8 April, 20:00 UTC</td></tr>
 </table>
