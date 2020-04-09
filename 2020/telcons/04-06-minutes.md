@@ -96,7 +96,7 @@ Peter: ack
 
 #### [Imperative Shadow DOM Distribution API.](https://github.com/w3ctag/design-reviews/issues/486) - @hober, @kenchris
 
-Tess: overall I think this looks good. I have one concern I'm writing up right now.  This proposal says - when you create a shadow dom you can choose manual or automatic. Automatic is the status quo. New mode: you have to use an API and slot things in different places. One cited advantage of the API is implementing something like the details element.  before having this feature you can't implement that feature on top of web components. One downside of the exclusivity of the two modes (man/auto) is that it's sometimes advantageous to have special behavior with some descendents but have the rest auto. My feedback is that I'd like them to make that case easier - some manual slotting and then "everything else auto".   Otherwise it looks great!
+Tess: overall I think this looks good. I have one concern I'm writing up right now.  This proposal says - when you create a shadow dom you can choose manual or automatic. Automatic is the status quo. New mode: you have to use an API and slot things in different places. One cited advantage of the API is implementing something like the details element.  before having this feature you can't implement that feature on top of web components. One downside of the exclusivity of the two modes (man/auto) is that it's sometimes advantageous to have special behavior with some descendants but have the rest auto. My feedback is that I'd like them to make that case easier - some manual slotting and then "everything else auto".   Otherwise it looks great!
 
 Ken: I looked it and also liked it.
 
@@ -148,13 +148,13 @@ Peter: [puts note in]
 
 #### [New principles related to private browsing mode and assistive technologies. Fixes #97.](https://github.com/w3ctag/design-principles/pull/167)
 
-Tess: Dan & I had a breakout on this and this PR is a result. We came up with several distinct principes. One is a general "you should think about how your thing behaves in PB mode" .. it can be complicated.  The simpler principles are : BP mode should not be detectable by the page.  There are a number of concrete problems that happen when PB is detectable... e.g. paywalls detect PB mode.  The main concern is that people use PB mode because they need to - e.g. they live in a house with an abusive partner and they are looking up resources on how to get out of that situation. Importnat that it not be detectable. We also came up with "use of assistive technologies" should not be detectable. This came up a couple of years ago with AOM and AT.  These are the principles. We also added text to the "new features should be detecable" talking about how some features shouldn't be.
+Tess: Dan & I had a breakout on this and this PR is a result. We came up with several distinct principles. One is a general "you should think about how your thing behaves in PB mode" .. it can be complicated.  The simpler principles are : BP mode should not be detectable by the page.  There are a number of concrete problems that happen when PB is detectable... e.g. paywalls detect PB mode.  The main concern is that people use PB mode because they need to - e.g. they live in a house with an abusive partner and they are looking up resources on how to get out of that situation. Important that it not be detectable. We also came up with "use of assistive technologies" should not be detectable. This came up a couple of years ago with AOM and AT.  These are the principles. We also added text to the "new features should be detectable" talking about how some features shouldn't be.
 
 Dan: [approves]
 
 Tess: I linked to the ethical web principles as a motivator - we should link the two where it makes sense.
 
-Dan: I fell like this ready to be mergerd at the plenary.
+Dan: I fell like this ready to be merged at the plenary.
 
 ### Breakout B
 
@@ -200,7 +200,7 @@ David: I was reasonably happy with how the blink-dev thread evolved
 
 Peter: It is something we should do, whether or not we're good at it. Who should we reach out to?
 
-David: I'm not entirely sure. I don't completely understand some of the color profile stuff. The other questions are how does it interact with canvas and compositiing.
+David: I'm not entirely sure. I don't completely understand some of the color profile stuff. The other questions are how does it interact with canvas and compositing.
 
 ... does it make certain compositing optimizations more observable now?
 
@@ -274,7 +274,7 @@ Rossen: yes.
 
 ... this score is computed based on shifts that are not caused by transforms or scrolling. IOW if you're animating with transforms, your layout is actually stable. this is to catch dom nodes being inserted / removed, etc.
 
-... this feature is intending to compute the cost of reflow at the documnet level by aggregating these per-frame scores.
+... this feature is intending to compute the cost of reflow at the document level by aggregating these per-frame scores.
 
 ... they have a couple of different multipliers, an impact fraction and a distance fraction. the impact fraction is a bit confusing. it computes a fraction based on the elements box in comparison to the overall animation frame. i don't know how and why that matters that much. distance is straightforward.
 
@@ -282,7 +282,7 @@ David: this came in post-wellington and assigned to today. i haven't looked at i
 
 Tess: why will this approach succeed when the previous ones didn't?
 
-David: one thing i'm not understanding: how does what we're being asked to review here relate to the overall API we reviewed in [w3ctag/design-reviews#393](https://github.com/w3ctag/design-reviews/issues/393). i think what we're reviewing now is the "source attribution" section.
+David: one thing I'm not understanding: how does what we're being asked to review here relate to the overall API we reviewed in [w3ctag/design-reviews#393](https://github.com/w3ctag/design-reviews/issues/393). i think what we're reviewing now is the "source attribution" section.
 
 ... i should read the source attribution section more closely.
 
@@ -342,7 +342,7 @@ Yves: let's bump it a month and see if it's changed...
 
 Dan: has it been shelved?
 
-Ken: yes, but not as quickly as theu author would like. so it's not forgotten.
+Ken: yes, but not as quickly as the author would like. so it's not forgotten.
 
 Dan: let's close it and ask him to reopen when he has something new.
 
@@ -380,7 +380,7 @@ Alice and Tess to find time to coordinate on it.
 
 Peter: 166
 
-David: that's the big new section on CSS principles. It does have a working preview link now. Addressed most of the feedback. 3 pieces I haven't addressed. 1 of them was a small comment from peter that maybe something should be in the naming section. Could be defered.
+David: that's the big new section on CSS principles. It does have a working preview link now. Addressed most of the feedback. 3 pieces I haven't addressed. 1 of them was a small comment from peter that maybe something should be in the naming section. Could be deferred.
 
 Peter: sure
 
@@ -394,7 +394,7 @@ David: i will merge after i remove this first section
 
 Peter: 167
 
-Tess: we talked about it - Dan approved, david sent comments. the comments seem reasonable. If anyone else wants to review that would be great. 
+Tess: we talked about it - Dan approved, David sent comments. the comments seem reasonable. If anyone else wants to review that would be great. 
 
 Alice: will do.
 
@@ -406,15 +406,15 @@ Tess: maybe this is the same as the naming one - push out a week.
 
 *CSS Modules* - bumped - progressing in tc39
 
-*Origin Isolation* - shceduled a breakout for tomorrow
+*Origin Isolation* - scheduled a breakout for tomorrow
 
-*Scheme-bound cookies* - Yves wanted to keep this open until expressed interest from other implemeters
+*Scheme-bound cookies* - Yves wanted to keep this open until expressed interest from other implementers
 
 *Imperative Shadow DOM Distribution API* - overall liked the look and wrote a comment. Pending ext feedback.
 
 *SIMD* - 
 
-Ken: i said I'd talk to some of our peoeple at Intel and I did.  One to one mapping for arm.  Work happening on the explainer.
+Ken: i said I'd talk to some of our people at Intel and I did.  One to one mapping for arm.  Work happening on the explainer.
 
 Peter: can we close it off?
 
@@ -426,7 +426,7 @@ Tess: we should wait until they have a better explainer?
 
 *Delegated Ink Trail* - newer explainer; moved to WICG; Bunch of issues filed. Those issues have been resolved but we haven't looked how they've been resolved.
 
-*CSS Color* - took a step back. our concern is arch consistency.  we generated a list of places to look where colors are used in the platform... and david made a list of interop concerns. we will find domain experts to assess the state of the platform for interesting color gammuts. Pushed out 2 weeks.
+*CSS Color* - took a step back. our concern is arch consistency.  we generated a list of places to look where colors are used in the platform... and David made a list of interop concerns. we will find domain experts to assess the state of the platform for interesting color gamuts. Pushed out 2 weeks.
 
 *Layout Instability Shifted Element Surfacing* - Rossen gave a summary.  David had a concern. David & rossen to followup.
 
@@ -486,9 +486,9 @@ Dan: yes.
 
 **Data for measuring audio-video synchronization and end-to-end delay in realtime communications #493**
 
-Alice: i also assigned sangwhan as he had some feedback on this.  Gave some feedback... WebRTC related... they want to ship this in next Chrome.   Sangwhan raised a compat risk. 
+Alice: i also assigned Sangwhan as he had some feedback on this.  Gave some feedback... WebRTC related... they want to ship this in next Chrome.   Sangwhan raised a compat risk. 
 
-David: feels like there is more to discuss here  - also all the experts in the ietf on this topic.
+David: feels like there is more to discuss here  - also all the experts in the IETF on this topic.
 
 David: I will reply re: IETF
 

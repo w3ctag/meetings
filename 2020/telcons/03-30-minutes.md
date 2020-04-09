@@ -21,7 +21,7 @@ Scribe: David
 
 comparison to [#148](https://github.com/w3ctag/design-principles/issues/148) - doesn't seem like an issue that belongs in this repo
 
-mention of issue david wrote in comment
+mention of issue David wrote in comment
 
 assigned to Dan and Kenneth
 
@@ -164,7 +164,7 @@ Peter: OK, let's set it for next month
 
 ##### [#111 guidance on inheritance between contexts](https://github.com/w3ctag/design-principles/issues/111)
 
-Peter: Who's goign sign up for this one?
+Peter: Who's going sign up for this one?
 
 Tess: Maybe me.
 
@@ -188,7 +188,7 @@ Peter: This looks a bit too early to do anything before TC39 is ready. Let's lea
 
 ##### [#116 How should the toJSON method be used?](https://github.com/w3ctag/design-principles/issues/116)
 
-Sangwhan: Do you want toJSON or not, and what best practices on cerialization could be... no clear idea of how to define it clearly.
+Sangwhan: Do you want toJSON or not, and what best practices on serialization could be... no clear idea of how to define it clearly.
 
 Peter: Deserializing is completely missing at the moment too.
 
@@ -231,7 +231,7 @@ Any opinions on abort controllers?
 
 Peter: It is a good idea in general for things that are abortable... 
 
-Sangwhan: There's another issue #138 that is about abort controllers... I'll link to the promisses spec with this PR
+Sangwhan: There's another issue #138 that is about abort controllers... I'll link to the promises spec with this PR
 
 Peter: SGTM
 
@@ -239,7 +239,7 @@ Peter: SGTM
 
 Rossen: It seems like #142 is very closely related, do we need both issues open?
 
-Alice: The were oppened at the same time. Difference is about having impls that are kind of interoperable (close engough such as the backdrop filter)... where #143 is about having a feature that is super useful but not everybody can implement.
+Alice: They were opened at the same time. Difference is about having impls that are kind of interoperable (close enough such as the backdrop filter)... where #143 is about having a feature that is super useful but not everybody can implement.
 
 Sangwhan: Different problem is for a given impl having different behaviors on different platforms.
 
@@ -369,7 +369,7 @@ David: Yes.
 
 ... Often the scope is wrong for the existing manifests. WebApp manifest is a think that covers a specific scope, covers this set of URLs and not that set of URLs.
 
-.. Trying to remember if Web App Manifest scope is different from service worker scope. Somebody said theyw ere trying to fix it, but it wasn't quite the same. Payment Manifest is different partly because they needed a different scope.
+.. Trying to remember if Web App Manifest scope is different from service worker scope. Somebody said they were trying to fix it, but it wasn't quite the same. Payment Manifest is different partly because they needed a different scope.
 
 Dan: Can we go back to monkeypatching? 🐒🐒🐒🐒
 
@@ -379,7 +379,7 @@ Tess: I think I had my hand up for that.
 
 ... I might even still do that! I still think it's a good idea!
 
-Kenneth: Web Share Target is extending Web App Menifest.
+Kenneth: Web Share Target is extending Web App Manifest.
 
 Dan: Should we move on? And by on, I mean back to the previous PR?
 
@@ -419,7 +419,7 @@ Dan: Shall we go through breakout notes?
 
 ... Breakout A... 
 
-... Talked about manifests, which is what prompted the later discussion inC.
+... Talked about manifests, which is what prompted the later discussion in C.
 
 ... Closed 102, 100... left nothing unassigned.
 
@@ -450,10 +450,10 @@ Then went on to assigned issues
 
 - allow- attributes
 - Naming, we have a PR - can close once the PR lands
-- Synchronous/asynchronous, Sangwhan is goig to draft a PR
+- Synchronous/asynchronous, Sangwhan is going to draft a PR
 - Implementability concerns ... couldn't remember what that was
 
-Alice: Oh I think that might have been about the synchonous/asynchronous thing in the media WG.
+Alice: Oh I think that might have been about the synchronous/asynchronous thing in the media WG.
 
 Tess: Maybe.
 
@@ -493,7 +493,7 @@ Dan: For next week, we can do the 10pm UK time...
 
 ✨ plenary scheduling ensues ✨
 
-### Brekaout to talk about Private Browsing Modes
+### Breakout to talk about Private Browsing Modes
 
 Tess & Dan
 
@@ -503,10 +503,10 @@ possible things we can say to API developers about private browsing modes
 
 carefully consider how your api should behave in PBM
 
-1. do not reveal that te user is in private mode
+1. do not reveal that the user is in private mode
 
 section 2.3 should reference whatever we are adding
 
-2. do not reveal that te user is using AT
+2. do not reveal that the user is using AT
 
-section 8 should reference principles elsehere inthe document that pertain to its topics
+section 8 should reference principles elsewhere in the document that pertain to its topics
