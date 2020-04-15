@@ -16,7 +16,7 @@ Tess: Part of the goal is that  .. no slot ... imperative API lets you manually 
 
 Dan: they said already looked at?
 
-Tess: yes - my cocnern was raised years ago... can polyfill.. need to look into it more.  Was nice to get a response promptly.  Work in progress... 
+Tess: yes - my concern was raised years ago... can polyfill.. need to look into it more.  Was nice to get a response promptly.  Work in progress... 
 
 Peter: might be interesting to have a declarative way of doing this - could be as a polyfill on top of this API. A map of selectors... 
 
@@ -30,7 +30,7 @@ bumped
 
 David: comment from dlibby - said will work on addressing points.
 
-Rossen: all of the edits are in - all adressed in WICG in terms of PRs.  As far as the authors understand it, the ball is in our court.
+Rossen: all of the edits are in - all addressed in WICG in terms of PRs.  As far as the authors understand it, the ball is in our court.
 
 David: Ok - i will do this and let's bump till next week.
 
@@ -38,7 +38,7 @@ bumped
 
 #### [Layout Instability Shifted Element Surfacing](https://github.com/w3ctag/design-reviews/issues/485) - @dbaron, @atanassov
 
-Rossen: need to spend some additional time on this one.  The overall feedbeack was "sounds like a useful thing"... "why didn't the previous approaches work?"
+Rossen: need to spend some additional time on this one.  The overall feedback was "sounds like a useful thing"... "why didn't the previous approaches work?"
 
 ...addresses layout jank across 
 
@@ -88,9 +88,9 @@ Peter: I was concerned that it was a spec-specific nomenclature, should probably
 
 #### [Image Resource](https://github.com/w3ctag/design-reviews/issues/490) - @dbaron, @atanassov
 
-Rossen: This seems quite straightforward. David had some questions unadressed.
+Rossen: This seems quite straightforward. David had some questions unaddressed.
 
-David: Not sure if it makes sense to go in to the techicalities, this is effectively a struct
+David: Not sure if it makes sense to go in to the technicalities, this is effectively a struct
 
 Rossen: The sizes part of this spec is a bit strange, do we have other cases that provide an interface that should be matched for consistency?
 
@@ -112,7 +112,7 @@ Peter: I'm a little bit concerned that we'll miss important comments because thi
 
 Sangwhan: So the original question I had was are there any security implications of having a somewhat disentaglable sum of delays which map to your hop route - and I don't know. I'm sure someone with the right security experience can find a way to abuse this but all I know is that given small enough hops and the sums of maybe 2-3 users it seems numerically possible to unmask, whether or not hat that is useful.. no idea.
 
-Re-inforce the original "please discuss with IETF" after repeating the original question?
+Re-enforce the original "please discuss with IETF" after repeating the original question?
 
 #### Design Principles PRs
 
@@ -136,7 +136,7 @@ Sangwhan: some mixed opinions about the monkey patching.
 
 Yves: I can live with it. We raised it. They've made an informed decision.
 
-Sangwhan: they wanted to do it this way because it's unclear when the gamepad spec will go to CR. Technically, i think monkey patching is not great ergonimically. 
+Sangwhan: they wanted to do it this way because it's unclear when the gamepad spec will go to CR. Technically, i think monkey patching is not great ergonomically. 
 
 Ken: things get out of sync.
 
@@ -156,7 +156,7 @@ Ken: too early to do a recommendation for that.
 
 Sangwhan: this doesn't ask for any of that. 
 
-Dan: shall we propose close, sumarilly, and just say "it's not in TAG's wheelhouse"?
+Dan: shall we propose close, summarily, and just say "it's not in TAG's wheelhouse"?
 
 Ken: better format than web-p... 
 
@@ -170,7 +170,7 @@ Sangwhan: no hardware support.  WebP has some level of hardware decoding.
 
 Sangwhan: as a recommended format, I think we need to consider it, but as a pure technical perspective, let's not consider.
 
-Ken: this is really good for the web because it's much mroe open....
+Ken: this is really good for the web because it's much more open....
 
 Sangwhan: we should look at this in the sense of : is this an official format for the web?  The web platform does definitely need a better image format.
 
@@ -206,7 +206,7 @@ https://github.com/w3ctag/design-principles/pull/163
 
 Rossen: re: [**Layout instability**](https://github.com/w3ctag/design-reviews/issues/485) - there have been some answers.
 
-david: on [**isinputpending**](https://github.com/w3ctag/design-reviews/issues/475): ... 
+David: on [**isinputpending**](https://github.com/w3ctag/design-reviews/issues/475): ... 
 
 Peter: do we think we can close it?
 
@@ -250,7 +250,7 @@ Ken: they are working on an explainer
 
 Peter: [**WebXR Gamepads Module**](https://github.com/w3ctag/design-reviews/issues/430)
 
-Tess: they need to work with the gamepad people to fix [the monkeypatching issue].  This is an example : XR is its own little world and redefining things - in some cases not working with relevnt people in other areas. Why is it hard to land that upstream?
+Tess: they need to work with the gamepad people to fix [the monkeypatching issue].  This is an example : XR is its own little world and redefining things - in some cases not working with relevant people in other areas. Why is it hard to land that upstream?
 
 Yves: there was also the issue of registering a specific value - and having a registry for that. the issue was 2-fold.
 
@@ -270,7 +270,7 @@ Ken: I looked through this... left some comments.. on what else we need to chang
 
 Peter: seems we're lacking the proper layering...
 
-Tess: that's what the web codecs APi is supposed to do...
+Tess: that's what the web codecs API is supposed to do...
 
 David: this is just a new image format...
 
@@ -282,7 +282,7 @@ Peter: I would like to see - before we add new black boxes - let's make these th
 
 David: other question is - what APIs do you need?
 
-Ken: hardware acceleation - which you don't get with webassembly
+Ken: hardware acceleration - which you don't get with webassembly
 
 #### Issue Triage
   * [Review request: HTML Standard Jan 2020 Review Draft](https://github.com/w3ctag/design-reviews/issues/499) & subtasks
@@ -291,13 +291,13 @@ Peter: **All HTML issues**
 
 Tess: this is another batch of HTML issues so that the HTML wg can advance the whatwg spec to Rec.  HTML group provided list - I split into 6 buckets.  We need to assign each bucket.
 
-[imnage element](https://github.com/w3ctag/design-reviews/issues/500) - sangwhan and tess
+[image element](https://github.com/w3ctag/design-reviews/issues/500) - sangwhan and tess
 
 [User interaction, user activation, focus, tabbing,](https://github.com/w3ctag/design-reviews/issues/501) - Dan, Rossen
 
 [Windows, navigation, agents and agent clusters](https://github.com/w3ctag/design-reviews/issues/502) 
 
-Tess: one is a small changem the other 2 might be more inetresting.
+Tess: one is a small change the other 2 might be more interesting.
 
 *Assigned David, Tess*
 
@@ -310,7 +310,7 @@ Tess: one is a small changem the other 2 might be more inetresting.
 499 to be closed as soon as other subtasks are closed.
 
 
-#### f2f schededuling
+#### f2f scheduling
 
 David: all 3 weeks we polled have someone with a conflict
 
