@@ -6,6 +6,7 @@ The AC Meeting [has been cancelled in favor of a virtual meeting](https://lists.
 
 We had originally been planning to do the Wednesday-Friday following the AC meeting.  For a distributed face-to-face we might want slightly more days (though probably 4 and not 5, due to weekends), with slightly less time per day.  Does this mean we'll have problems with our times intersecting with the distributed AC meeting, and want to use a different week?
 
+Currently tentatively planning 1 day the week of 18 May, and 3 days the week of 25 May (probably Tue-Wed-Thu, except into Fri AM for Japan/Australia).
 
 Some possible schedules for breakout timeslots could be:
 
