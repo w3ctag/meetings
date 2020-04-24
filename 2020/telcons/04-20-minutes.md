@@ -58,7 +58,7 @@ Rossen: David still has some open questions in the issue
 
 David: but he did miss the points about diameter and what units it is in. Also Web IDL errors.
 
-Ken not a big fan of them doing prematurely extensability - added comment to the issue.
+Ken not a big fan of them doing prematurely extensibility - added comment to the issue.
 
 David: Fine with closing, no strong opinions.
 
@@ -78,7 +78,7 @@ David: Defer to plenary whether we will close or not.
 
 Ken: Added comment about hinge area
 
-Peter: What about ordering (top, down -> left, right) and what about multiple dimentions. I will add comments.
+Peter: What about ordering (top, down -> left, right) and what about multiple dimensions. I will add comments.
 
 ### Breakout B
 
@@ -172,7 +172,7 @@ Dan: we asked for more explainy explainer, and how it fits together with scheme 
 
 #### [VirtualKeyboard API](https://github.com/w3ctag/design-reviews/issues/498) - @cynthia, @kenchris
 
-Ken: 2 issues here, related but different. I think it would be better to split it up. Even 2 explainers.  One of the APIs being explained is - if you have docked virtual keyboard, where is the keyboard?  The other one is when the keyboard shows up you have more control over when it shows up and when it disapears...  I think they are kind of distinct.
+Ken: 2 issues here, related but different. I think it would be better to split it up. Even 2 explainers.  One of the APIs being explained is - if you have docked virtual keyboard, where is the keyboard?  The other one is when the keyboard shows up you have more control over when it shows up and when it disappears...  I think they are kind of distinct.
 
 Dan: can you ask them to create a new issue?
 
@@ -428,19 +428,19 @@ Dan: increases the overall complexity of how to build?
 
 Mike:  I think this overall decreases complexity by aligning cookies with the other capabilities of the web - cookies are right now the only thing that spans state, scheme, origin ...
 
-... the proposals are somewhat overlapping.  But because cookies span a site - network attackers that have access to the data flow can influence their state on secure and non-secure site.  They can set cookies - they can use the fact that cookies & state are available over http in order to track - and because they can infleucne everything that goes over plain text the network attacker...
+... the proposals are somewhat overlapping.  But because cookies span a site - network attackers that have access to the data flow can influence their state on secure and non-secure site.  They can set cookies - they can use the fact that cookies & state are available over http in order to track - and because they can influence everything that goes over plain text the network attacker...
 
-... in order to deal with these kinds of things, we use things like origin as a boundery. Because cookies and document.domain, we have to draw a broader line. I posted something in schemful same-site review.  Difference in defintion between rfc6265bis and html. HTML defines schemeless samesite. The proposal for schemeful same-site is to align the rfc's def with HTML's def. So http and https are no longer considered same site when delivering cookies. 
+... in order to deal with these kinds of things, we use things like origin as a boundary. Because cookies and document.domain, we have to draw a broader line. I posted something in schemeful same-site review.  Difference in definition between rfc6265bis and html. HTML defines schemeless samesite. The proposal for schemeful same-site is to align the rfc's def with HTML's def. So http and https are no longer considered same site when delivering cookies. 
 
-... same site strict cookies will not be delivered, same site lax cookies will be delivered.. nested frames will no longer be considered same sites. That does have implications.  We originally defined the samesite attribute for cookies to bind http and https togeher as as mechanism to make samesite more useful for developers. At that time, it was more common for sites to [straddle] secure and insecure.  https transparency report backs that up.
+... same site strict cookies will not be delivered, same site lax cookies will be delivered.. nested frames will no longer be considered same sites. That does have implications.  We originally defined the samesite attribute for cookies to bind http and https together as as mechanism to make samesite more useful for developers. At that time, it was more common for sites to [straddle] secure and insecure.  https transparency report backs that up.
 
 https://transparencyreport.google.com/https/overview?hl=en
 
-... other claim: it is an anti-pattern for non-secure sites to maintain state of a user. It's actively dangerous - network controls everything - it has access to everything the site has access to. The network is the site.  If you're using the pattern of a http page talkking to a https page then you're using this antipattern.
+... other claim: it is an anti-pattern for non-secure sites to maintain state of a user. It's actively dangerous - network controls everything - it has access to everything the site has access to. The network is the site.  If you're using the pattern of a http page talking to a https page then you're using this antipattern.
 
-... the goal of these proposals is to harden these bounderies.
+... the goal of these proposals is to harden these boundaries.
 
-Dan: differene between the two propsoals
+Dan: difference between the two proposals
 
 ... schemeful samesite is meaning of samesite and the samesite attribute...
  
@@ -452,7 +452,7 @@ https://mikewest.github.io/cookie-incrementalism/draft-west-cookie-incrementalis
 
 ... these two proposals are part of a set of proposals that move cookies to a place that makes more sense.
 
-... a number of characteristics of cookies that are undesirable. We introduce these over time. I still think we should introduce [http state tokens] as well. I recognize that isn't a popular opinion. And changing cookies could be a path to success. the path we're taking is to introduce these kinds of small changes as the ecosystem can accomodate.
+... a number of characteristics of cookies that are undesirable. We introduce these over time. I still think we should introduce [http state tokens] as well. I recognize that isn't a popular opinion. And changing cookies could be a path to success. the path we're taking is to introduce these kinds of small changes as the ecosystem can accommodate.
 
 Dan: first thing is: we in the TAG should introduce a new label for our reviews "cookie incrementalism" - 
 
@@ -460,15 +460,15 @@ Peter: I'm in favour of these changes.  Cookies are part of the web from early d
 
 Tess: I like that this - aligns cookies with the samesite concept in html.
 
-Peter: this will break lots of sites. I have concerns.  I want to make sure there is a clean path - people who don't have the opportunity to tansition completely - something they can do to mitigate.
+Peter: this will break lots of sites. I have concerns.  I want to make sure there is a clean path - people who don't have the opportunity to transition completely - something they can do to mitigate.
 
-Mike: it might be a good idea to talk about 2 pieces fo scheme bound propsoal - one piece seems uncontraversial - separate plain text and enc text. That change will break some sites. There will be ways in the short term to transfer info from one to another. Unfortunately - those look a lot like ways to xfer info x-origin, which browsers are trying to mitigate against. 
+Mike: it might be a good idea to talk about 2 pieces fo scheme bound proposal - one piece seems uncontroversial - separate plain text and enc text. That change will break some sites. There will be ways in the short term to transfer info from one to another. Unfortunately - those look a lot like ways to xfer info x-origin, which browsers are trying to mitigate against. 
 
 Peter: wouldn't it still be possible to set http and https versions of cookies at same time?
 
-Mike: No - you would have to be on http to set a http cookie and on https to set a https cookie. RIght now if you are on https you can set a http cookie. so that is a change.
+Mike: No - you would have to be on http to set a http cookie and on https to set a https cookie. Right now if you are on https you can set a http cookie. so that is a change.
 
-Mike: 2nd part of the proposal - sucggests it's bad for non-secure sites to save state about users... More impact : there are sites today that are not secure that maintain state about users. Those sites if they want to have long-lives sessions will have to change. My claim is that that's OK. It should allow continued use of those sites - not break - but it will make users sign into those sites on a more frequent basis.  Persistence associated with non-secure sites will...
+Mike: 2nd part of the proposal - suggests it's bad for non-secure sites to save state about users... More impact : there are sites today that are not secure that maintain state about users. Those sites if they want to have long-lives sessions will have to change. My claim is that that's OK. It should allow continued use of those sites - not break - but it will make users sign into those sites on a more frequent basis.  Persistence associated with non-secure sites will...
 
 Peter: the scenario you mentioned - non-secure sites doing their sign-in on a secure page - there probably a lot of sites out there operating that way - and nobody who can update that code. And that will break this site.
 
@@ -480,7 +480,7 @@ Mike: I also want feedback on redefinition of `session` - this document tries to
 
 Dan: what about cross-browser support?
 
-Mike: Mozilla has suggested that scheme-bound cookies is good in their stnds position repo. I have't heard anything specifically from webkit.  There was good feedback in general at last http workshop.
+Mike: Mozilla has suggested that scheme-bound cookies is good in their standards position repo. I haven't heard anything specifically from webkit.  There was good feedback in general at last http workshop.
 
 
 
