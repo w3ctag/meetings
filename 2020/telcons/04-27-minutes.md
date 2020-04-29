@@ -54,11 +54,11 @@ David: [bumps 2 weeks and leaves a comment]
 
 #### [HTML Horizontal Review: User interaction, user activation, focus, tabbing, etc.](https://github.com/w3ctag/design-reviews/issues/501) - @torgo, @atanassov
 
-Rossen: it has to do with timing and update of autofocussable elements.  The important discussion is happening in issue 4992 in whatwg...  Has to do with how the browsing context gets updated... if you look a the diff in terms of what this change is doing - it changes when style and layout gets flushed. Previous to this chang it's defined as flush after update to style - at least style has happened. The problem is that some autofocus elements could depend on styling... The argument is you shouldn't have to update layout or style to make this observable.  so... with that in mind.. 
+Rossen: it has to do with timing and update of autofocusable elements.  The important discussion is happening in issue 4992 in whatwg...  Has to do with how the browsing context gets updated... if you look a the diff in terms of what this change is doing - it changes when style and layout gets flushed. Previous to this change it's defined as flush after update to style - at least style has happened. The problem is that some autofocus elements could depend on styling... The argument is you shouldn't have to update layout or style to make this observable.  so... with that in mind.. 
 
 ... I looked at the patch that was landed in blink - it's a straightforward change that moves the update style and layout... 
 
-Dan: any contraversy?
+Dan: any controversy?
 
 Rossen: my take on this is that ... if you want to allow focusability of generated content ... e.g. focusing into list items... desirable feature... not sure how you can compute... does seem like a good change.
 
@@ -82,27 +82,27 @@ Peter: design review on User Activation V2.
 
 Tess: i think that would be reasonable - to reference the previous design review. I'm comfortable with not double checking.
 
-[rossen to summarize discussion and close the issue]
+[Rossen to summarize discussion and close the issue]
 
 #### [HTML Horizontal Review: Windows, navigation, agents and agent clusters](https://github.com/w3ctag/design-reviews/issues/502) - @hober, @dbaron
 
-Tess: there are uncontraversial changes ... david & I to schedule 121?
+Tess: there are uncontroversial changes ... David & I to schedule 121?
 
 [decide to do it here]
 
 [HTML issue 4617](https://github.com/whatwg/html/pull/4617)
 
-Tess: this change to HTML - ties together browsing contexts and associated agent cluster. [gives 50k foot overview of agent clusters - agents are thread - clusters are process boundary]. In HTML there is a browsing context - a browsing context group are contexts able to reach eachother - e.g. access to eachothers globals. Therefore they have to be in the same agent cluster.  This change tries to tie together the ecmascript notion of agent usters with html notion of browsing contexts.  You can also have dedicated workers. A browsing context group and an agent cluster are roughly 1:1 but an agent and a browsing context are not 1:1.
+Tess: this change to HTML - ties together browsing contexts and associated agent cluster. [gives 50k foot overview of agent clusters - agents are thread - clusters are process boundary]. In HTML there is a browsing context - a browsing context group are contexts able to reach each other - e.g. access to each others globals. Therefore they have to be in the same agent cluster.  This change tries to tie together the ecmascript notion of agent clusters with html notion of browsing contexts.  You can also have dedicated workers. A browsing context group and an agent cluster are roughly 1:1 but an agent and a browsing context are not 1:1.
 
 ... If you look at the actual diff.. what's interesting ... this adds the text that says every browsing context group has an associated agent cluster map.  If you consider a browser tab with some iframes and popup windows.. relationship between these things becomes fuzzy. the process boundary tends to be at a site rather than an origin.  A big chunk got removed - a hand-wavey description of how these things related and they've added in something that's much more detailed.   This is a better description of how browsers work today that ties html concepts more closely to ecmascript concepts.
 
 Dan: are there still areas where things fall through the cracks?
 
-Tess: the followup work has covered all these cases - as of today.  One of the things that this changes - it adds several algoritms that tie things together. Every agent cluster has one agent in it that corresponds to a ... window. A window has an agent but a window can also spin off things...  but aeach anegt cluster has only one agent that is a window. this change has the algo that specifies that... 
+Tess: the followup work has covered all these cases - as of today.  One of the things that this changes - it adds several algorithms that tie things together. Every agent cluster has one agent in it that corresponds to a ... window. A window has an agent but a window can also spin off things...  but each agent cluster has only one agent that is a window. this change has the algo that specifies that... 
 
-... good example of a change to html that is dififcult to do but not contrarsial. 
+... good example of a change to html that is difficult to do but not controversial. 
 
-David: how much is this a thing that .. given that there is variance in implentation .. how much room does it leave?
+David: how much is this a thing that .. given that there is variance in implementation .. how much room does it leave?
 
 Tess: leaves as much as ecmascript leaves... there is leeway to have different process of models. It just clarifies the wiggle room.  The idea is we 
 
@@ -112,7 +112,7 @@ Ken: specifies which event loop... clarifies ...
 
 David: it clarifies the structure of the spec - moves text from one place to another...  new text puts the text "where you have to make the decision"
 
-Ken: 2nd one is bigger - raised concerns of lack of formal definition of a task document. It seems to be in the same domain as agent clusters, etc...   The rest of updating everythng to be correct with this definition.
+Ken: 2nd one is bigger - raised concerns of lack of formal definition of a task document. It seems to be in the same domain as agent clusters, etc...   The rest of updating everything to be correct with this definition.
 
 Tess: it's follow-on.
 
@@ -126,7 +126,7 @@ Tess: 5342 is still open ...  leaves the spec in a hybrid state. A good change.
 
 David: this seems fine.
 
-Ken: last one is regarding forms..  submit event object... Adds who submitted the event.   ``requestSubmit`` funnction ...
+Ken: last one is regarding forms..  submit event object... Adds who submitted the event.   ``requestSubmit`` function ...
 
 Tess: does it relate to form validation?  If validation fails then submit doesn't happen.
 
@@ -142,7 +142,7 @@ Tess: a ... collection of [small] changes.
 
 ... it ends up being a huge diff as it impacts every constructor, but the actual meat of the change is fairly boring. the interesting change is the html constructor change itself... 
 
-... next one 5190 - there's a separate DOM parsing spec - this change moves that defintiion into the HTML spec. Results in some changes to the DOM parser. Mostly nits.  This fixes defining what the URL of the document is. It fixes something that the previous DOM parser spec didn't do clearly. ... when there's an error what happens?  This is also [uncontraversial].
+... next one 5190 - there's a separate DOM parsing spec - this change moves that definition into the HTML spec. Results in some changes to the DOM parser. Mostly nits.  This fixes defining what the URL of the document is. It fixes something that the previous DOM parser spec didn't do clearly. ... when there's an error what happens?  This is also [uncontroversial].
 
 ... lastly:  "Cleanups to "execute a script block” Signpost the debate on some script mismatches" - when we chunk out work for people to review.. this last one is an example - there was another, bigger changes that got split into 2 - the other change is the interesting one and this is the editorial stuff that got pulled out to clean up review of the interesting one.
 
@@ -269,7 +269,7 @@ Yves: mark as pending external feedback...
 
 Ken: if we're not getting answers ... we should ping them...
 
-Yves: I askec Chris Lily to look into it.
+Yves: I asked Chris Lily to look into it.
 
 [bumped]
 
@@ -285,7 +285,7 @@ Dan: if something shows up in the notification tray, that is big money.  This re
 
 ... "sites to increase user engagement" - that makes me concerned.
 
-Yves: they want to use periodic background sync to refresh and that part is contraversial for privacy reasons.
+Yves: they want to use periodic background sync to refresh and that part is controversial for privacy reasons.
 
 Ken: [leaves comment](https://github.com/w3ctag/design-reviews/issues/496#issuecomment-620461255)
 
@@ -297,7 +297,7 @@ Ken: they are saying this is different [from the WHATWG issue]...
 
 ... asking for more comments.. not there yet...
 
-Yves: let's let people try ot get consensus first - in the end they may decide to do somehting different.
+Yves: let's let people try to get consensus first - in the end they may decide to do something different.
 
 [set status and bumped]
 
@@ -307,11 +307,11 @@ Ken: good, sensible idea...
 
 Dan: should we do something different here to #498 - like maybe close this issue off?
 
-Ken: it's a javascript api and you can only opt in via javascript... we have css environmental varialbes - why can't i do this from CSS?   Instead of having to force people to use javascript?  Very specific use case...
+Ken: it's a javascript api and you can only opt in via javascript... we have css environmental variables - why can't i do this from CSS?   Instead of having to force people to use javascript?  Very specific use case...
 
 #### [HTML Horizontal Review: Documents, DocumentOrShadowRoot, etc.](https://github.com/w3ctag/design-reviews/issues/503) - @alice, @kenchris
 
-Ken: [on first item](https://github.com/whatwg/html/pull/4837)... already implemeted.. totally for it... no issues.  What we are missing is the "why" the use case.  Especially when we come to wide review. I don't have that info here...
+Ken: [on first item](https://github.com/whatwg/html/pull/4837)... already implemented.. totally for it... no issues.  What we are missing is the "why" the use case.  Especially when we come to wide review. I don't have that info here...
 
 Dan: maybe we should wait for Alice 
 
@@ -325,7 +325,7 @@ Dan: check that one off?
 
 Ken: [the svg one](https://github.com/whatwg/html/pull/5109) - sounds like a bug fix.  
 
-Dan: Agin we are missing the context... 
+Dan: Again we are missing the context... 
 
 Dan: let's bump this to the plenary.
 
@@ -363,15 +363,15 @@ Alice: i haven't.
 
 David: 4th thing - I'll add a comment.
 
-Rossen: On **user interaction [horizontal review]** - flushing autofocus candidates.  Overall this is the right approach.  With that and the 2nd issue having been discussed we reslved htis. 
+Rossen: On **user interaction [horizontal review]** - flushing autofocus candidates.  Overall this is the right approach.  With that and the 2nd issue having been discussed we resolved this. 
 
-Tess: agent clusters... like the other onese, we took at look at the pull requests and we found we didn't have any concerns.  We've closed all but 1 of the HR issues.
+Tess: agent clusters... like the other ones, we took at look at the pull requests and we found we didn't have any concerns.  We've closed all but 1 of the HR issues.
 
 #### Breakout B Rollup
 
 Peter:  **[isInputPending](https://github.com/w3ctag/design-reviews/issues/475)** marked as proposed closed.  David proposed we close it at the plenary. 
 
-David: one thing in their comments I wanted to look at and it seems fine. The idea is they want to say certain events are not the kind of things you want to interuupt for - but an option.  Seemed reesponsive to the feedback. I'm happy with closing it.
+David: one thing in their comments I wanted to look at and it seems fine. The idea is they want to say certain events are not the kind of things you want to interrupt for - but an option.  Seemed responsive to the feedback. I'm happy with closing it.
 
 [resolved to close]
 
@@ -451,13 +451,13 @@ Ken: next **virtual keyboard API** - seems like sensible idea but all based on J
 
 Ken: [on **html HR documents, etc.**](https://github.com/w3ctag/design-reviews/issues/503) we checked  - we'd like Alice's comment.  SVG seems like a bug fix.  We bumped to plenary.
 
-Tess: it's fine.  a bunch of machinery about how ths spec talkes about browsing contexts changed in this timeframe and i think this change is related to that. I think it's cleaning up.
+Tess: it's fine.  a bunch of machinery about how the spec talks about browsing contexts changed in this timeframe and i think this change is related to that. I think it's cleaning up.
 
-Alice: looking at [the active-element](https://github.com/whatwg/html/pull/4837) sub-issue. it's about getting - defining a chain of active elements - if you request active element for dociemnt.shadowroot ... it maakes sense.
+Alice: looking at [the active-element](https://github.com/whatwg/html/pull/4837) sub-issue. it's about getting - defining a chain of active elements - if you request active element for document.shadowroot ... it makes sense.
 
 Ken: this is adding something to shadow root which was already existing...
 
-Alie: this is catching up 
+Alice: this is catching up 
 
 [issue closed]
 
@@ -481,15 +481,15 @@ Peter: I'm OK with closing it.  Mike is aware of concerns and has good ideas abo
 
 Dan: We could also reiterate about multi-engine support.
 
-Dan: Peter, you write about unintended conequences, I'll write about multi-engine support, and then we'll close it.
+Dan: Peter, you write about unintended consequences, I'll write about multi-engine support, and then we'll close it.
 
 Tess: I'm happy to close it.
 
 Dan: What about **schemeful same-site**?
 
-Tess: I'm cofmortable closing it.  Brings IETF notion of same-site in line with HTML's.
+Tess: I'm comfortable closing it.  Brings IETF notion of same-site in line with HTML's.
 
-Peter: Less concerned about thi.  I think most people will thnink about same-site as being scheme based.
+Peter: Less concerned about this.  I think most people will think about same-site as being scheme based.
 
 Dan: So consensus to close both things?  Or Tess, do you want to write something in 497?
 
@@ -506,7 +506,7 @@ Dan: "look forward to hearing more." etc.
 
 #### [navigation to unsigned web bundles](https://github.com/w3ctag/design-reviews/issues/509)
 
-kenneth, tess, and david volunteer, milestone set for 2 weeks
+Kenneth, Tess, and David volunteer, milestone set for 2 weeks
 
 #### [shortcuts member of web App manifest](https://github.com/w3ctag/design-reviews/issues/510)
 
