@@ -269,7 +269,7 @@ Yves: mark as pending external feedback...
 
 Ken: if we're not getting answers ... we should ping them...
 
-Yves: I asked Chris Lily to look into it.
+Yves: Chris Lilley is looking into it.
 
 [bumped]
 
