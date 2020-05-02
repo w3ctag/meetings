@@ -6,6 +6,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (Europe / US) - [2020-05-04](https://www.timeanddate.com/worldclock/converter.html?iso=20200504T160000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
+* [security & privacy Self-check](https://www.w3.org/TR/security-privacy-questionnaire/)
+  * [open issues](https://github.com/w3ctag/security-questionnaire/issues)
 * [New principles related to private browsing mode and assistive technologies. Fixes #97.](https://github.com/w3ctag/design-principles/pull/167) - @hober, @torgo
 * [Is `partial` a long term maintainability problem?  If so, how do we fix it?](https://github.com/w3ctag/design-principles/issues/99) - @dbaron
 * [guidance on inheritance between contexts](https://github.com/w3ctag/design-principles/issues/111) - @hober, @kenchris
@@ -14,6 +16,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout B (US / APAC) - [2020-05-04](https://www.timeanddate.com/worldclock/converter.html?iso=20200504T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
+* [promises guide](https://github.com/w3ctag/promises-guide)
+  * [open issues](https://github.com/w3ctag/promises-guide/issues)
 * [WIP: Attempt to address some of the naming feedback in #132 and #149.](https://github.com/w3ctag/design-principles/pull/163) - @hober, @alice
 * [Prefixing particularly dangerous operations with "unsafe"](https://github.com/w3ctag/design-principles/issues/104) - @dbaron, @atanassov
 * [High level or low-level APIs?](https://github.com/w3ctag/design-principles/issues/117) - @hober, @alice, @dbaron, @atanassov
@@ -45,7 +49,7 @@ Bridge: https://meet.jit.si/w3ctag first then going to https://whereby.com/w3cta
 
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2020/telcons/05-04-minutes.md
 
-Raw minutes: ...
+Raw minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/xQ8yGDjPh7Y6OWrUxW4DJUdq689Gn0xFkWUZ0hUZvwY/
 
 
 ### Local Call Times
