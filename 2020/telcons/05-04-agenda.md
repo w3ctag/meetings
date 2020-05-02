@@ -6,25 +6,29 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (Europe / US) - [2020-05-04](https://www.timeanddate.com/worldclock/converter.html?iso=20200504T160000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
+* [New principles related to private browsing mode and assistive technologies. Fixes #97.](https://github.com/w3ctag/design-principles/pull/167) - @hober, @torgo
+* [Is `partial` a long term maintainability problem?  If so, how do we fix it?](https://github.com/w3ctag/design-principles/issues/99) - @dbaron
+* [guidance on inheritance between contexts](https://github.com/w3ctag/design-principles/issues/111) - @hober, @kenchris
+* [Create advice for how to handover access to sensors and devices on dedicated workers](https://github.com/w3ctag/design-principles/issues/112) - @dbaron, @kenchris
+
+
 ### Breakout B (US / APAC) - [2020-05-04](https://www.timeanddate.com/worldclock/converter.html?iso=20200504T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+
+* [WIP: Attempt to address some of the naming feedback in #132 and #149.](https://github.com/w3ctag/design-principles/pull/163) - @hober, @alice
+* [Prefixing particularly dangerous operations with "unsafe"](https://github.com/w3ctag/design-principles/issues/104) - @dbaron, @atanassov
+* [High level or low-level APIs?](https://github.com/w3ctag/design-principles/issues/117) - @hober, @alice, @dbaron, @atanassov
+* [Discourage device enumeration, prefer less powerful alternatives](https://github.com/w3ctag/design-principles/issues/152) - @hober
+* [add a section describing what should be in html versus css versus javascript (the separation of concerns)](https://github.com/w3ctag/design-principles/issues/169) - @hober, @alice, @dbaron
 
 ### Breakout C (APAC / Europe) - [2020-05-05](https://www.timeanddate.com/worldclock/converter.html?iso=20200505T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
+* [How should the toJSON method be used?](https://github.com/w3ctag/design-principles/issues/116) - @cynthia
+* [Best practices for feature detection?](https://github.com/w3ctag/design-principles/issues/137) - @torgo, @ylafon, @kenchris
+
 ### Plenary Session - [2020-05-06](https://www.timeanddate.com/worldclock/converter.html?iso=20200506T050000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
-* [Is `partial` a long term maintainability problem?  If so, how do we fix it?](https://github.com/w3ctag/design-principles/issues/99) - @dbaron
-* [Prefixing particularly dangerous operations with "unsafe"](https://github.com/w3ctag/design-principles/issues/104) - @dbaron, @atanassov
-* [guidance on inheritance between contexts](https://github.com/w3ctag/design-principles/issues/111) - @hober, @kenchris
-* [Create advice for how to handover access to sensors and devices on dedicated workers](https://github.com/w3ctag/design-principles/issues/112) - @dbaron, @kenchris
-* [How should the toJSON method be used?](https://github.com/w3ctag/design-principles/issues/116) - @cynthia
-* [High level or low-level APIs?](https://github.com/w3ctag/design-principles/issues/117) - @hober, @alice, @dbaron, @atanassov
-* [Best practices for feature detection?](https://github.com/w3ctag/design-principles/issues/137) - @torgo, @ylafon, @kenchris
-* [Discourage device enumeration, prefer less powerful alternatives](https://github.com/w3ctag/design-principles/issues/152) - @hober
-* [WIP: Attempt to address some of the naming feedback in #132 and #149.](https://github.com/w3ctag/design-principles/pull/163) - @hober, @alice
-* [New principles related to private browsing mode and assistive technologies. Fixes #97.](https://github.com/w3ctag/design-principles/pull/167) - @hober, @torgo
-* [add a section describing what should be in html versus css versus javascript (the separation of concerns)](https://github.com/w3ctag/design-principles/issues/169) - @hober, @alice, @dbaron
-
 * Breakout Rollup
+* Merge any outstanding PRs as possible & issue "update" to principles doc
 * Issue Triage
 
 ### Logistics
