@@ -30,6 +30,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Plenary Session - [2020-05-06](https://www.timeanddate.com/worldclock/converter.html?iso=20200506T050000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
+* https://github.com/w3ctag/design-principles/issues/171
 * Breakout Rollup
 * Merge any outstanding PRs as possible & issue "update" to principles doc
 * Issue Triage
