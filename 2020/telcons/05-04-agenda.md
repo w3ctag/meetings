@@ -21,7 +21,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [WIP: Attempt to address some of the naming feedback in #132 and #149.](https://github.com/w3ctag/design-principles/pull/163) - @hober, @alice
 * [Prefixing particularly dangerous operations with "unsafe"](https://github.com/w3ctag/design-principles/issues/104) - @dbaron, @atanassov
 * [High level or low-level APIs?](https://github.com/w3ctag/design-principles/issues/117) - @hober, @alice, @dbaron, @atanassov
-* [Discourage device enumeration, prefer less powerful alternatives](https://github.com/w3ctag/design-principles/issues/152) - @hober
 * [add a section describing what should be in html versus css versus javascript (the separation of concerns)](https://github.com/w3ctag/design-principles/issues/169) - @hober, @alice, @dbaron
 
 ### Breakout C (APAC / Europe) - [2020-05-05](https://www.timeanddate.com/worldclock/converter.html?iso=20200505T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
