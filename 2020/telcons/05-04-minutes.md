@@ -32,7 +32,7 @@ Dan: At the same time, we can get work done without knowing who the editor is.
 
 (Tess volunteers to be editor)
 
-Tess: PING has a call on thursday; I'll bring it up there as well.
+Tess: PING has a call on Thursday; I'll bring it up there as well.
 
 Dan: I'd also be happy to email PING chairs.
 
@@ -295,7 +295,7 @@ Ken: I will read through it...
 
 ####  [Best practices for feature detection?](https://github.com/w3ctag/design-principles/issues/137) - @torgo, @ylafon, @kenchris
 
-Ken: we should find the ways things have been done - e.g. looking whether a namesace exists, where an object existse, sometimes has to do with permissions requests (e.g. pan/tilt/zoom)... 
+Ken: we should find the ways things have been done - e.g. looking whether a namespace exists, where an object exists, sometimes has to do with permissions requests (e.g. pan/tilt/zoom)... 
 
 Dan: media queries as well..
 
@@ -315,11 +315,11 @@ Alice: what about HTML or DOM?
 
 Dan: privacy
 
-Ken: in some cases people have been arguing that the namespace should always be available so it cannot be used for fingerprining, even if the feature is not actually available.
+Ken: in some cases people have been arguing that the namespace should always be available so it cannot be used for fingerprinting, even if the feature is not actually available.
 
 Ken: you should - if the feature is available in the browser it should be exposed. Don't hide anything because you don't have access. Then it should fail with a promise if you don't have access.  Not sure if that's the right approach or not.  Not sure if it avoids the fingerprinting. It makes it more complicated...
 
-... we don't want any differce between incognito mode and normal mode whether those objects exist.
+... we don't want any difference between incognito mode and normal mode whether those objects exist.
 
 Dan: but they might fail in incognito mode...
 
@@ -327,7 +327,7 @@ Ken: but they might fail for certain web sites...
 
 Dan: We should include: "Feature detection is a commonly used approach to browser fingerprinting. In order to mitigate against this, we recommend ..."
 
-Ken: also how it should operate in incognito / privacy perserving mode...
+Ken: also how it should operate in incognito / privacy preserving mode...
 
 Dan: let's agree some text in the f2f
 
@@ -347,13 +347,13 @@ Dan: Should promises be in the principles doc?
 
 Alice: some discussion of whether there should be a separate guide ....
 
-[discussion of whetehr we should move the principles doc into one big doc or separate docs...]
+[discussion of whether we should move the principles doc into one big doc or separate docs...]
 
-Alice: part of API design is deciding whether it fits [from david]
+Alice: part of API design is deciding whether it fits [from David]
 
-Alice: the question is: how do we make the design principles doc tractable while also includong a lot of detail - including tech-specific detail like promises and css principles. How do we make sure it's consistent -- having an overview would be good.  How to make sure it has enough advice... How do we apply those principles ourselves... 
+Alice: the question is: how do we make the design principles doc tractable while also including a lot of detail - including tech-specific detail like promises and css principles. How do we make sure it's consistent -- having an overview would be good.  How to make sure it has enough advice... How do we apply those principles ourselves... 
 
-Dan: we need a way to make the design principles more accessible / readable / digestable...
+Dan: we need a way to make the design principles more accessible / readable / digestible...
 
 Alice: I will make a design principles issue on Information Architecture for the design principles document...
 
@@ -515,7 +515,7 @@ Tess: Once we merge one of these PRs the other will be a pain to merge, just as 
 
 .. Sangwhan suggested that this mitigation be removed, I disagreed. This was early last year. The issue produced a lot of discussion and identified some interesting nuance. What should you keep in mind when considering removing something. Lots of thoughts from people.
 
-... I last recall looking at this in reykjavik, some good comments from Jeffery Yasskin and David Baron which got to a lot of that nuance. This PR attempts to add that nuance.
+... I last recall looking at this in Reykjavik, some good comments from Jeffery Yasskin and David Baron which got to a lot of that nuance. This PR attempts to add that nuance.
 
 ... Diff looks a little funky because I changed the newlines while I was doing it.
 
@@ -527,7 +527,7 @@ David: seven subsections of this section, two of them don't really belong.
 
 Tess: Need to take a high level pass.
 
-... David approved, but David has been the only reviewer. Lukasz and Pete Snyder approved the change in words, but not "officially" via github.
+... David approved, but David has been the only reviewer. Lukasz and Pete Snyder approved the change in words, but not "officially" via GitHub.
 
 Alice: Some language around being clear about the problem being solved (as a follow up)?
 
@@ -568,13 +568,13 @@ Alice: I think combining screen readers and search engines here doesn't work. ..
 
 Peter: I don't think a screen reader that ignores CSS is doing anybody a service
 
-Alice: very few ATs interact directly with the DOM; they interact with an accessibility tree which is built after CSS is applied. That process is still being refined. Old Edge built it off of the DOM tree instead of the layout tree. The accessibility tree is not a function of the dom tree, it's a function of the rendered page. It represents what is layed out. We don't assume any AT user can't see the page. Most can.
+Alice: very few ATs interact directly with the DOM; they interact with an accessibility tree which is built after CSS is applied. That process is still being refined. Old Edge built it off of the DOM tree instead of the layout tree. The accessibility tree is not a function of the dom tree, it's a function of the rendered page. It represents what is laid out. We don't assume any AT user can't see the page. Most can.
 
 Peter: Sometimes presentation is semantic. The line between these things is a bit blurred. There's no simple hard line between the two. Just like in voice, tone is presentation but also conveys meaning.
 
 David: The things we think of as semantic in HTML some other people think of as presentational.
 
-Tess: posible strawman conclusion to disagree with:  we agree the line is hard to draw.  The naive version of this idea doesn't work.  But there is a difference.  Part of the web being a higher quality system is having each component well defined in its own sphere, interfacing with the other ones.  None of us are advocating for "put the semantics in CSS and the presentation in HTML".  There's a line, we just think it's nuanced.
+Tess: possible strawman conclusion to disagree with:  we agree the line is hard to draw.  The naive version of this idea doesn't work.  But there is a difference.  Part of the web being a higher quality system is having each component well defined in its own sphere, interfacing with the other ones.  None of us are advocating for "put the semantics in CSS and the presentation in HTML".  There's a line, we just think it's nuanced.
 
 Alice: Perhaps we want to guidance -- David's first paragraph on how to decide in which language a requirement should be addressed.  There isn't a hard and fast line but we can give guidance on how to make the decision.
 
@@ -621,7 +621,7 @@ Alice: I'm trying to gather related things together -- don't think it's the line
 
 Peter: Also separation of Javascript -- declarative versus imperative.
 
-Alice: Goes back to declarative shadow dom that we discussed earlier.  Not a good user experience to gets a page that looks interactive and isn't.  PRogressive enhancement is part of this discussion.  Page loading is part of this discussion.  Progressive enhancement in the sense of creating a good experience in a range of contexts with a range of different data needs.  We've moved on from idea that screenreaders operate purely on HTML with no CSS and JS... but how do you use the fact that we have these 3 separate languages to make a better user experience, taking the user's context into account?  We don't see any of them as optional in actually using a page.
+Alice: Goes back to declarative shadow dom that we discussed earlier.  Not a good user experience to gets a page that looks interactive and isn't.  Progressive enhancement is part of this discussion.  Page loading is part of this discussion.  Progressive enhancement in the sense of creating a good experience in a range of contexts with a range of different data needs.  We've moved on from idea that screenreaders operate purely on HTML with no CSS and JS... but how do you use the fact that we have these 3 separate languages to make a better user experience, taking the user's context into account?  We don't see any of them as optional in actually using a page.
 
 Tess: I think sometimes there are... I don't know how common disable Javascript browser features still are.
 
@@ -648,7 +648,7 @@ Peter: HTML forms, and CSS, have some limited interactivity.  Once upon a time w
 
 Alice: `inert` was an interesting one -- controversy where it could live.  Could have ended up in any of three.  Custom elements another can of worms.  `inert` ended up in HTML for ergonomic reasons.  Straightforward to add tabindex attribute -- could have ended up in CSS but would have been more granular, but didn't want it granular.  CSS already has `pointer-events`, `aria-hidden` is in ARIA -- wanted combination of those 2 things plus untabbable, bundled together.  If in CSS would have been not bundled.
 
-Tess: I think this is a good exmaple .  A similar but simpler case is the `hidden` attribute in HTML.  We already had `display:none` before `hidden` was proposed.  We could already make things go away visually.  The debate around the `hidden` attribute -- the argument was made -- originally argument for `irrelevant` attribute that would have the same effect.  The fact that a subtree is irrelevant right now is semantic.  So it was capturing something meaningful about the content that happened to be implemented using `display:none`.  With `inert` I think you could make a similar argument -- that the subtree is inert is semantically interesting about it.  It might contain elements that are normally interactive in some way -- but because it's inert, none of those things work.  There's something about this tree that causes all those effects.  I think `pointer-events: none` is probably an example where we did this wrong -- it is in the gray area, but it's so weird.
+Tess: I think this is a good example .  A similar but simpler case is the `hidden` attribute in HTML.  We already had `display:none` before `hidden` was proposed.  We could already make things go away visually.  The debate around the `hidden` attribute -- the argument was made -- originally argument for `irrelevant` attribute that would have the same effect.  The fact that a subtree is irrelevant right now is semantic.  So it was capturing something meaningful about the content that happened to be implemented using `display:none`.  With `inert` I think you could make a similar argument -- that the subtree is inert is semantically interesting about it.  It might contain elements that are normally interactive in some way -- but because it's inert, none of those things work.  There's something about this tree that causes all those effects.  I think `pointer-events: none` is probably an example where we did this wrong -- it is in the gray area, but it's so weird.
 
 Alice: It's using the CSS selectors feature.
 
@@ -667,47 +667,3 @@ Tess: Have we  gotten closer to understanding how to write separation of concern
 Alice: Yes, but not done.  I'll spend next hour rereading this and try to pull out key facets and add comment to the issue.
 
 Alice: Point about what languages are good at, problematic and good cases that we came up with.  Those are main things we did today -- hopefully we can add to those buckets, and maybe do more of this brainstorming at face-to-face.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
