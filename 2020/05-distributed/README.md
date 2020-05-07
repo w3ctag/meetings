@@ -8,10 +8,10 @@ We had originally been planning to do the Wednesday-Friday following the AC meet
 
 Currently tentatively planning:
 * 1 day the week of 18 May
-** still needs to be determined
+  * still needs to be determined
 * 3 days the week of 25 May:
-** Tues-Wed-Thurs the 26-27-28 of May
-** except if you're in Japan/Australia, there's a Friday morning session instead of a Tuesday morning session
+  * Tues-Wed-Thurs the 26-27-28 of May
+  * except if you're in Japan/Australia, there's a Friday morning session instead of a Tuesday morning session
 
 Some possible schedules for breakout timeslots could be:
 
