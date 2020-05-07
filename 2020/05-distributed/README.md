@@ -9,6 +9,7 @@ We had originally been planning to do the Wednesday-Friday following the AC meet
 Currently tentatively planning:
 * 1 day the week of 18 May
   * still needs to be determined
+  * note that Thursday, May 21 is the [TAG joint meeting with the AB](https://www.w3.org/Member/wiki/AB/May2020F2fAgenda#Day_4_-_Thursday.2C_21_May), so we should probably pick Thursday.
 * 3 days the week of 25 May:
   * Tues-Wed-Thurs the 26-27-28 of May
   * except if you're in Japan/Australia, there's a Friday morning session instead of a Tuesday morning session
