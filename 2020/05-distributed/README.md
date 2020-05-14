@@ -14,9 +14,9 @@ Currently tentatively planning:
   * Tues-Wed-Thurs the 26-27-28 of May
   * except if you're in Japan/Australia, there's a Friday morning session instead of a Tuesday morning session
 
-Some possible schedules for breakout timeslots could be:
+On these dates we will be holding meetings in the following time-slots:
 
-#### Australia/Asia/Europe 3-hour slot
+#### APAC/Europe 3-hour slot (Slot C)
 
 | Time                | Location        |
 | ------------------- | --------------- |
@@ -26,7 +26,7 @@ Some possible schedules for breakout timeslots could be:
 | 15:30-18:30 Tue-Thu | Japan           |
 | 16:30-19:30 Tue-Thu | Sydney          |
 
-#### Europe/US 3-hour slot
+#### Europe/US 3-hour slot (Slot A)
 
 | Time                | Location            |
 | ------------------- | ------------------- |
@@ -35,7 +35,7 @@ Some possible schedules for breakout timeslots could be:
 | 15:30-18:30 Tue-Thu | UK                  |
 | 16:30-19:30 Tue-Thu | France, Denmark     |
 
-#### US/Australia/Asia 3-hour slot
+#### US/APAC 3-hour slot (Slot B)
 
 | Time                        | Location            |
 | --------------------------- | ------------------- |
@@ -43,6 +43,8 @@ Some possible schedules for breakout timeslots could be:
 | 07:30-10:30 Wed-Fri         | Japan               |
 | 08:30-11:30 Wed-Fri         | Sydney              |
 | 15:30-18:30 Tue-Thu         | California, Seattle |
+
+### Pre-Scheduled Sessions
 
 ### Date constraints
 
