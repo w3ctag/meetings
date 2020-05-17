@@ -1,4 +1,4 @@
-# Distributed remote F2F
+# Distributed remote F2F (formerly “Seoul”)
 ## week of 2020 May 18-22
 ## *** DATES NOT YET CONFIRMED ***
 
