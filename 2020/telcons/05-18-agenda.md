@@ -5,12 +5,16 @@ This agenda can be viewed and updated on [Github](https://github.com/w3ctag/meet
 If you would like to add an item to the agenda or volunteer to scribe please open a pull request against this agenda.
 
 ### Breakout A (Europe / US) - [2020-05-18](https://www.timeanddate.com/worldclock/converter.html?iso=20200518T160000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+* F2F Planning
 
 ### Breakout B (US / APAC) - [2020-05-18](https://www.timeanddate.com/worldclock/converter.html?iso=20200518T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+* F2F Planning
 
 ### Breakout C (APAC / Europe) - [2020-05-19](https://www.timeanddate.com/worldclock/converter.html?iso=20200519T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+* F2F Planning
 
 ### Plenary Session - [2020-05-20](https://www.timeanddate.com/worldclock/converter.html?iso=20200520T050000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+* F2F Planning
 
 ### Special Session for AB [2020-05-21](https://www.timeanddate.com/worldclock/converter.html?iso=20200521T140000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 * See [AB Agenda](https://www.w3.org/Member/wiki/AB/May2020F2fAgenda#Day_4_-_Thursday.2C_21_May)
