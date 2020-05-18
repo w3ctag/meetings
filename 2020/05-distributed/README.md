@@ -33,6 +33,7 @@ On these dates we will be holding meetings in the following time-slots:
 | 07:30-10:30 Tue-Thu | California, Seattle |
 | 15:30-18:30 Tue-Thu | UK                  |
 | 16:30-19:30 Tue-Thu | France, Denmark     |
+| 23:30-02:30 Tue-Thu | Japan               |
 
 #### US/APAC 3-hour slot (Slot B)
 
