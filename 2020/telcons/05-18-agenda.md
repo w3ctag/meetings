@@ -12,6 +12,9 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Plenary Session - [2020-05-20](https://www.timeanddate.com/worldclock/converter.html?iso=20200520T050000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
+### Special Session for AB [2020-05-21](https://www.timeanddate.com/worldclock/converter.html?iso=20200521T140000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+* See [AB Agenda](https://www.w3.org/Member/wiki/AB/May2020F2fAgenda#Day_4_-_Thursday.2C_21_May)
+
 ### Issues explicitly assigned to f2f:
 * [Carriage of Web Resource in ISOBMFF](https://github.com/w3ctag/design-reviews/issues/285) - @hober, @cynthia, @torgo
 * [CSS content-visibility property](https://github.com/w3ctag/design-reviews/issues/306) - @cynthia, @dbaron, @kenchris
