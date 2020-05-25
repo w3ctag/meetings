@@ -51,7 +51,7 @@ To accomodate attendees from 3 different time-zone groups (Europe, Asia-Pacific 
       * MathML Core
       * WebXR DOM Overlay Module
       * WebXR Anchors Module
-    * Breakout 1c - unused
+    * Breakout 1c - *unused*
   * Break **7:30 - 07:45 UTC**
   * Breakouts 2 **07:45 - 08:45 UTC**
     * Breakout 2a - Dan & Ken
@@ -67,26 +67,26 @@ To accomodate attendees from 3 different time-zone groups (Europe, Asia-Pacific 
   * Readouts/Wrap-up **09:00 - 09:30 UTC**
 * Slot A
   * Breakouts 3 **14:30 - 15:30 UTC**
-    * Breakout 3a
-    * Breakout 3b
-    * Breakout 3c
+    * Breakout 3a - Ken & Tess
+    * Breakout 3b - David & Dan
+    * Breakout 3c - *unused*
   * Break **15:30 - 15:45 UTC**
   * Breakout4 **15:45 - 16:45 UTC**
-    * Breakout 4a
-    * Breakout 4b
-    * Breakout 4c
+    * Breakout 4a - David & Tess
+    * Breakout 4b - Peter & Rossen
+    * Breakout 4c - *unused*
   * Break **16:45 - 17:00 UTC**
   * Readouts/Wrap-up **17:00 - 17:30 UTC**
 * Slot B
   * Breakouts 5 **22:30 - 23:30 UTC**
-    * Breakout 5a
-    * Breakout 5b
-    * Breakout 5c
+    * Breakout 5a - Alice & Tess
+    * Breakout 5b - Peter & Rossen
+    * Breakout 5c - David & Sangwhan
   * Break **23:30 - 23:45 UTC**
   * Breakouts 6 **23:45 - 00:45 UTC**
-    * Breakout 6a
-    * Breakout 6b
-    * Breakout 6c
+    * Breakout 6a - Rossen & Sangwhan
+    * Breakout 6b - Peter, Tess, David
+    * Breakout 6c - *unused*
   * Break **00:45 - 01:00 UTC**
   * Readouts/Wrap-up **01:00 - 01:30 UTC**
 
@@ -94,24 +94,24 @@ To accomodate attendees from 3 different time-zone groups (Europe, Asia-Pacific 
 
 * Slot C
   * Breakouts 7 **06:30 - 07:30 UTC**
-    * Breakout 7a
-    * Breakout 7b
-    * Breakout 7c
+    * Breakout 7a - *unused*
+    * Breakout 7b - Ken & Sangwhan
+    * Breakout 7c - Alice & Yves
   * Break **7:30 - 07:45 UTC**
   * Breakouts 8 **07:45 - 08:45 UTC**
-    * Breakout 8a
-    * Breakout 8b
-    * Breakout 8c
+    * Breakout 8a - Dan & Ken
+    * Breakout 8b - Alice & Sanwghan
+    * Breakout 8c - *unused*
   * Break **08:45 - 09:00 UTC**
   * Readouts/Wrap-up **09:00 - 09:30 UTC**
 * Slot A
   * Breakouts 9 **14:30 - 15:30 UTC**
-    * Breakout 9a
-    * Breakout 9b
-    * Breakout 9c
+    * Breakout 9a - Dan & Tess
+    * Breakout 9b - Ken & Yves
+    * Breakout 9c - *unused*
   * Break **15:30 - 15:45 UTC**
   * Breakouts 10 **15:45 - 16:45 UTC**
-    * Breakout 10a
+    * Breakout 10a - 
     * Breakout 10b
     * Breakout 10c
   * Break **16:45 - 17:00 UTC**
