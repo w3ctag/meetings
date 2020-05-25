@@ -42,14 +42,27 @@ To accomodate attendees from 3 different time-zone groups (Europe, Asia-Pacific 
 
 * Slot C
   * Breakouts 1 **06:30 - 07:30 UTC**
-    * Breakout 1a
-    * Breakout 1b
-    * Breakout 1c
+    * Breakout 1a - Ken & Sangwgan
+      * Serial API
+      * VirtualKeyboard API - show/hide policy
+      * CSS advanced attr() function
+      * How should the toJSON method be used?
+    * Breakout 1b - Alice & Dan
+      * MathML Core
+      * WebXR DOM Overlay Module
+      * WebXR Anchors Module
+    * Breakout 1c - unused
   * Break **7:30 - 07:45 UTC**
   * Breakouts 2 **07:45 - 08:45 UTC**
-    * Breakout 2a
-    * Breakout 2b
-    * Breakout 2c
+    * Breakout 2a - Dan & Ken
+      * Get Installed Related Apps
+      * Cookie Store API 
+      * Proliferation of manifests at W3C
+    * Breakout 2b - Yves & Sangwhan
+      * WebTransport
+      * MiniApp URI Scheme
+    * Breakout 2c - Alice
+      * Re-think information architecture for the design principles doc
   * Break **08:45 - 09:00 UTC**
   * Readouts/Wrap-up **09:00 - 09:30 UTC**
 * Slot A
