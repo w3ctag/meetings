@@ -111,21 +111,21 @@ To accomodate attendees from 3 different time-zone groups (Europe, Asia-Pacific 
     * Breakout 9c - *unused*
   * Break **15:30 - 15:45 UTC**
   * Breakouts 10 **15:45 - 16:45 UTC**
-    * Breakout 10a - 
-    * Breakout 10b
-    * Breakout 10c
+    * Breakout 10a - David & Tess
+    * Breakout 10b - Dan & Yves
+    * Breakout 10c - *unused*
   * Break **16:45 - 17:00 UTC**
   * Readouts/Wrap-up **17:00 - 17:30 UTC**
 * Slot B
   * Breakouts 11 **22:30 - 23:30 UTC**
-    * Breakout 11a
-    * Breakout 11b
-    * Breakout 11c
+    * Breakout 11a - David & Sangwhan
+    * Breakout 11b - Alice & Rossen
+    * Breakout 11c - Peter & Tess
   * Break **23:30 - 23:45 UTC**
   * Breakouts 12 **23:45 - 00:45 UTC**
-    * Breakout 12a
-    * Breakout 12b
-    * Breakout 12c
+    * Breakout 12a - Alice & Sangwhan
+    * Breakout 12b - David & Rossen
+    * Breakout 12c - Peter * Tess
   * Break **00:45 - 01:00 UTC**
   * Readouts/Wrap-up **01:00 - 01:30 UTC**
 
@@ -133,38 +133,77 @@ To accomodate attendees from 3 different time-zone groups (Europe, Asia-Pacific 
 
 * Slot C
   * Breakouts 13 **06:30 - 07:30 UTC**
-    * Breakout 13a
-    * Breakout 13b
-    * Breakout 13c
+    * Breakout 13a - Alice & Dan
+    * Breakout 13b - *unused*
+    * Breakout 13c - *unused*
   * Break **7:30 - 07:45 UTC**
   * Breakouts 14 **07:45 - 08:45 UTC**
-    * Breakout 14a
-    * Breakout 14b
-    * Breakout 14c
+    * Breakout 14a - Dan & Tess
+      * 465	WebRTC DSCP Control API
+      * 495 AVIF Decode
+    * Breakout 14b - *unused*
+    * Breakout 14c - *unused*
  * Break **08:45 - 09:00 UTC**
    * Readouts/Wrap-up **09:00 - 09:30 UTC**
 * Slot A
   * Breakouts 15 **14:30 - 15:30 UTC**
-    * Breakout 15a
-    * Breakout 15b
-    * Breakout 15c
+    * Breakout 15a - Ken & Tess
+      * 472	Foldables CSS
+      * 486	Imperative Shadow DOM Distribution API.
+      * 487	WebAssembly SIMD review
+      * p111	guidance on inheritance between contexts    
+    * Breakout 15b - Dan & Hadley
+      * 440	Screen Capture API (2019)
+      * Ethical Web Principles    
+    * Breakout 15c - David & Peter
+      * p173	add principle on media independence
+      * p174	add principle on backwards compatibility / supporting existing content
+      * p175	add principle on forwards compatibility / graceful degradation
+      * p186	Link to the CSSWG's FAQ    
   * Break **15:30 - 15:45 UTC**
   * Breakouts **15:45 - 16:45 UTC**
-    * Breakout 16a
-    * Breakout 16b
-    * Breakout 16c
+    * Breakout 16a - Dan & Tess
+      * Security & Privacy Questionnaire
+      * p152	Discourage device enumeration, prefer less powerful alternatives
+      * p180	Add principle discouraging device enumeration.
+      * p69	Update section on device IDs based on thinking recorded in design reviews issue    
+    * Breakout 16b - David & Ken
+      * 306	CSS content-visibility property
+      * 371	File Handling
+      * p137	Best practices for feature detection in JavaScript
+      * p112	Create advice for how to handover access to sensors and devices on dedicated workers    
+    * Breakout 16c - Hadley & Yves
+      * 240 The web platform needs a service discovery mechanism
+      * Design principle issue triage
   * Break **16:45 - 17:00 UTC**
   * Readouts/Wrap-up **17:00 - 17:30 UTC**
 * Slot B
   * Breakouts 17 **22:30 - 23:30 UTC**
-    * Breakout 17a
-    * Breakout 17b
-    * Breakout 17c
+    * Breakout 17a - Alice & Tess
+      * 468	Review the HTML spec's treatment of focus
+      * p160	Incorporate a generalization of the "HTML Design Principles" document into our principles
+      * p169	add a section describing what should be in html versus css versus javascript (the separation of concerns)
+    * Breakout 17b - David & Rossen
+      * p170	generic advice about preferring booleans, and maybe advice on boolean versus string versus enum
+      * p172	add a principle on "no dataloss by default"
+      * p50	give advice on read-only lists
+      * p99	Is `partial` a long term maintainability problem? If so, how do we fix it?    
+    * Breakout 17c - Peter & Sangwhan
+      * 370	WebHID API (Human Interface Device)
+      * p39	Non privacy related design notes on device APIs
+      * p56	Guidelines for binary stream-likes should be added
+      * p85	describe principles for naming of locking/unlocking APIs    
   * Break **23:30 - 23:45 UTC**
   * Breakouts 18 **23:45 - 00:45 UTC**
-    * Breakout 18a
-    * Breakout 18b
-    * Breakout 18c
+    * Breakout 18a - Sangwhan & Tess
+      * 285 Carriage of Web Resource in ISOBMFF
+      * 512 making the "total" field optional in PaymentRequest API
+      * p157 Review different cross-domain import mechanisms and their security models  
+    * Breakout 18b - David & Peter
+      * 72 Task Scheduling
+      * 338 scheduler.postTask() API
+      * p168 Further clarify the priority of constituencies principle    
+    * Breakout 18c - *unused*
   * Break **00:45 - 01:00 UTC**
   * Readouts/Wrap-up **01:00 - 01:30 UTC**
 
