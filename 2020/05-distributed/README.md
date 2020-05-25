@@ -43,49 +43,75 @@ To accomodate attendees from 3 different time-zone groups (Europe, Asia-Pacific 
 * Slot C
   * Breakouts 1 **06:30 - 07:30 UTC**
     * Breakout 1a - Ken & Sangwgan
-      * Serial API
-      * VirtualKeyboard API - show/hide policy
-      * CSS advanced attr() function
-      * How should the toJSON method be used?
+      * 431 Serial API
+      * 498 VirtualKeyboard API - show/hide policy
+      * 513 CSS advanced attr() function
+      * p116 How should the toJSON method be used?
     * Breakout 1b - Alice & Dan
-      * MathML Core
-      * WebXR DOM Overlay Module
-      * WebXR Anchors Module
+      * 438 MathML Core
+      * 470 WebXR DOM Overlay Module
+      * 479 WebXR Anchors Module
     * Breakout 1c - *unused*
   * Break **7:30 - 07:45 UTC**
   * Breakouts 2 **07:45 - 08:45 UTC**
     * Breakout 2a - Dan & Ken
-      * Get Installed Related Apps
-      * Cookie Store API 
-      * Proliferation of manifests at W3C
+      * 436 Get Installed Related Apps
+      * 469 Cookie Store API 
+      * p148 Proliferation of manifests at W3C
     * Breakout 2b - Yves & Sangwhan
-      * WebTransport
-      * MiniApp URI Scheme
+      * 389 WebTransport
+      * 478 MiniApp URI Scheme
     * Breakout 2c - Alice
-      * Re-think information architecture for the design principles doc
+      * p177 Re-think information architecture for the design principles doc
   * Break **08:45 - 09:00 UTC**
   * Readouts/Wrap-up **09:00 - 09:30 UTC**
 * Slot A
   * Breakouts 3 **14:30 - 15:30 UTC**
     * Breakout 3a - Ken & Tess
+      * 397	Same-Origin iframe document-access limiting attribute
+      * 482	URL Protocol Handler Registration for PWAs
+      * 509	Navigation to Unsigned Web Bundles (Web Packaging)
     * Breakout 3b - David & Dan
+      * 337	Contact API
+      * 461	Web NFC
+      * 462	WebXR Augmented Reality Module
+      * 467	Partial freezing of the User-Agent string
     * Breakout 3c - *unused*
   * Break **15:30 - 15:45 UTC**
   * Breakout4 **15:45 - 16:45 UTC**
     * Breakout 4a - David & Tess
+      * 369	IFrame Execution Pausing
+      * 407	More restrictive hasEnrolledInstrument() for autofill data
+      * 489	review HTML event loop and how things fit into it
     * Breakout 4b - Peter & Rossen
+      * 471	Securer Contexts
+      * p144	Harmonize permissions and similar mechanisms
     * Breakout 4c - *unused*
   * Break **16:45 - 17:00 UTC**
   * Readouts/Wrap-up **17:00 - 17:30 UTC**
 * Slot B
   * Breakouts 5 **22:30 - 23:30 UTC**
     * Breakout 5a - Alice & Tess
+      * 392	Scroll To Text
+      * 494	Declarative Shadow DOM
+      * p117	High level or low-level APIs?
+      * p142	How do we balance concerns between interoperability and implementability?
     * Breakout 5b - Peter & Rossen
+      * Promises Guide
     * Breakout 5c - David & Sangwhan
+      * 303	RTCQuicTransport
+      * 304	RTCIceTransport
+      * 341	Feature policy evolution
+      * 433	WebCodecs
   * Break **23:30 - 23:45 UTC**
   * Breakouts 6 **23:45 - 00:45 UTC**
     * Breakout 6a - Rossen & Sangwhan
+      * 416	EditContext API
+      * p154	"Cheat sheet" for reference during design reviews?
     * Breakout 6b - Peter, Tess, David
+      * 399	Font Enumeration API
+      * 400	Font Table Access API
+      * 415	navigator.scheduling.isFramePending
     * Breakout 6c - *unused*
   * Break **00:45 - 01:00 UTC**
   * Readouts/Wrap-up **01:00 - 01:30 UTC**
@@ -96,36 +122,73 @@ To accomodate attendees from 3 different time-zone groups (Europe, Asia-Pacific 
   * Breakouts 7 **06:30 - 07:30 UTC**
     * Breakout 7a - *unused*
     * Breakout 7b - Ken & Sangwhan
+      * 334	HTML Modules
+      * 390	Native File System API
+      * 396	WebRTC-SVC (Scalable Video Coding)
+      * 429	HTMLVideoElement.requestVideoFrameCallback()
     * Breakout 7c - Alice & Yves
+      * p131	Discourage overloading
+      * p133	Provide some guidance on creating new list types
+      * p135	To fulfill or to resolve
   * Break **7:30 - 07:45 UTC**
   * Breakouts 8 **07:45 - 08:45 UTC**
     * Breakout 8a - Dan & Ken
+      * 358	MediaStream Image Capture API PTZ (Pan/Tilt/Zoom feature)
+      * 481	Window Controls Overlay for Installed Desktop Web Apps
+      * 484	PWA Change logs
+      * p95	Guide spec authors to use one manifest (web app manifest)
     * Breakout 8b - Alice & Sanwghan
+      * Accessibility checklist
     * Breakout 8c - *unused*
   * Break **08:45 - 09:00 UTC**
   * Readouts/Wrap-up **09:00 - 09:30 UTC**
 * Slot A
   * Breakouts 9 **14:30 - 15:30 UTC**
     * Breakout 9a - Dan & Tess
+      * 342	First-Party Sets
+      * 391	WebOTP API
+      * 463	WebXR Hit Test Module
     * Breakout 9b - Ken & Yves
+      * 367	Periodic Background Sync
     * Breakout 9c - *unused*
   * Break **15:30 - 15:45 UTC**
   * Breakouts 10 **15:45 - 16:45 UTC**
     * Breakout 10a - David & Tess
+      * 432	Timed Text Markup Language (TTML2) 2nd Edition
+      * 477	Media Feeds API
+      * Design principle issue lucky dip
     * Breakout 10b - Dan & Yves
+      * 483	Scheme-bound Cookies
+      * p68	Best Practices for Registries (including that they should be machine readable)
     * Breakout 10c - *unused*
   * Break **16:45 - 17:00 UTC**
   * Readouts/Wrap-up **17:00 - 17:30 UTC**
 * Slot B
   * Breakouts 11 **22:30 - 23:30 UTC**
     * Breakout 11a - David & Sangwhan
+      * p41	Document when to use allow- attributes vs. extend the sandbox attribute value set for iframes
+      * p46	should provide advice on when it's good to return the same object again
+      * p55	Need guidance on returning error values vs throwing exceptions
+      * MiniApps (generally)    
     * Breakout 11b - Alice & Rossen
+      * 476	Personalization Semantics Explainer and  Module 1
+      * 511	Beforematch event    
     * Breakout 11c - Peter & Tess
+      * 413	Screen Enumeration API
+      * p93	Need guidance on DOMString vs USVString
   * Break **23:30 - 23:45 UTC**
   * Breakouts 12 **23:45 - 00:45 UTC**
     * Breakout 12a - Alice & Sangwhan
+      * 403	WebXR Device API
+      * 507	Virtual Keyboard API - boundaries of docked overlay keyboard
+      * p70	Improve guidance for using attributes vs methods
+      * p73	Optional arguments
     * Breakout 12b - David & Rossen
+      * 485	Layout Instability Shifted Element Surfacing
+      * 488	CSS Color: lab(), lch()
+      * p104	Prefixing particularly dangerous operations with "unsafe"
     * Breakout 12c - Peter * Tess
+      * 414 Trust Token API
   * Break **00:45 - 01:00 UTC**
   * Readouts/Wrap-up **01:00 - 01:30 UTC**
 
@@ -134,6 +197,8 @@ To accomodate attendees from 3 different time-zone groups (Europe, Asia-Pacific 
 * Slot C
   * Breakouts 13 **06:30 - 07:30 UTC**
     * Breakout 13a - Alice & Dan
+      * Re-think information architecture for the design principles doc
+      * Design principle issue lucky dip
     * Breakout 13b - *unused*
     * Breakout 13c - *unused*
   * Break **7:30 - 07:45 UTC**
