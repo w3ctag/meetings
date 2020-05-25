@@ -1,6 +1,18 @@
 # Distributed remote F2F (formerly “Seoul”)
-## week of 2020 May 18-22
-## *** DATES NOT YET CONFIRMED ***
+## week of 25 May 2020 
+
+### Day 0 : 21 May 2020
+
+* [Joint AB/TAG meeting](https://www.w3.org/Member/wiki/AB/May2020F2fAgenda#Day_4_-_Thursday.2C_21_May)
+ * Topics include: Ideas for a virtual TPAC; Tension between privacy and function
+
+### Day 1 : 
+
+### Day 2
+
+### Day 3
+
+
 
 The AC Meeting [has been cancelled in favor of a virtual meeting](https://lists.w3.org/Archives/Member/w3c-ac-members/2020JanMar/0025.html), and we're doing the same.
 
