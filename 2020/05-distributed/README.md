@@ -1,16 +1,50 @@
 # Distributed remote F2F (formerly “Seoul”)
 ## week of 25 May 2020 
 
+To accomodate attendees from 3 different time-zone groups (Europe, Asia-Pacific and US West Coast), our main meeting days have been separated into 3 time slots
+
+#### Europe/US 3-hour slot (“Slot A”)
+
+| Time                | Location            |
+| ------------------- | ------------------- |
+| 14:30-17:30 Tue-Thu | UTC                 |
+| 07:30-10:30 Tue-Thu | California, Seattle |
+| 15:30-18:30 Tue-Thu | UK                  |
+| 16:30-19:30 Tue-Thu | France, Denmark     |
+| 23:30-02:30 Tue-Thu | Japan               |
+
+#### US/APAC 3-hour slot (“Slot B”)
+
+| Time                        | Location            |
+| --------------------------- | ------------------- |
+| 22:30 Tue-Thu-01:30 Wed-Fri | UTC                 |
+| 07:30-10:30 Wed-Fri         | Japan               |
+| 08:30-11:30 Wed-Fri         | Sydney              |
+| 15:30-18:30 Tue-Thu         | California, Seattle |
+
+#### APAC/Europe 3-hour slot (“Slot C”)
+
+| Time                | Location        |
+| ------------------- | --------------- |
+| 06:30-09:30 Tue-Thu | UTC             |
+| 07:30-10:30 Tue-Thu | UK              |
+| 08:30-11:30 Tue-Thu | France, Denmark |
+| 15:30-18:30 Tue-Thu | Japan           |
+| 16:30-19:30 Tue-Thu | Sydney          |
+
+
 ### Day 0 : 21 May 2020
 
 * [Joint AB/TAG meeting](https://www.w3.org/Member/wiki/AB/May2020F2fAgenda#Day_4_-_Thursday.2C_21_May)
   * Topics include: Ideas for a virtual TPAC; Tension between privacy and function
 
-### Day 1 : 
+### Day 1 : 26 May 2020
 
-### Day 2
 
-### Day 3
+
+### Day 2 : 27 May 2020
+
+### Day 3 : 28 May 2020
 
 
 
@@ -27,34 +61,8 @@ Currently tentatively planning:
 
 On these dates we will be holding meetings in the following time-slots:
 
-#### APAC/Europe 3-hour slot (Slot C)
 
-| Time                | Location        |
-| ------------------- | --------------- |
-| 06:30-09:30 Tue-Thu | UTC             |
-| 07:30-10:30 Tue-Thu | UK              |
-| 08:30-11:30 Tue-Thu | France, Denmark |
-| 15:30-18:30 Tue-Thu | Japan           |
-| 16:30-19:30 Tue-Thu | Sydney          |
 
-#### Europe/US 3-hour slot (Slot A)
-
-| Time                | Location            |
-| ------------------- | ------------------- |
-| 14:30-17:30 Tue-Thu | UTC                 |
-| 07:30-10:30 Tue-Thu | California, Seattle |
-| 15:30-18:30 Tue-Thu | UK                  |
-| 16:30-19:30 Tue-Thu | France, Denmark     |
-| 23:30-02:30 Tue-Thu | Japan               |
-
-#### US/APAC 3-hour slot (Slot B)
-
-| Time                        | Location            |
-| --------------------------- | ------------------- |
-| 22:30 Tue-Thu-01:30 Wed-Fri | UTC                 |
-| 07:30-10:30 Wed-Fri         | Japan               |
-| 08:30-11:30 Wed-Fri         | Sydney              |
-| 15:30-18:30 Tue-Thu         | California, Seattle |
 
 ### Pre-Scheduled Sessions
 
