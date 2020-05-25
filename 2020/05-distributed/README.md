@@ -80,42 +80,78 @@ To accomodate attendees from 3 different time-zone groups (Europe, Asia-Pacific 
 ### Day 2 : 27 May 2020
 
 * Slot C
-  * Breakouts 1 **06:30 - 07:30 UTC**
+  * Breakouts 7 **06:30 - 07:30 UTC**
+    * Breakout 7a
+    * Breakout 7b
+    * Breakout 7c
   * Break **7:30 - 07:45 UTC**
-  * Breakouts 2 **07:45 - 08:45 UTC**
+  * Breakouts 8 **07:45 - 08:45 UTC**
+    * Breakout 8a
+    * Breakout 8b
+    * Breakout 8c
   * Break **08:45 - 09:00 UTC**
   * Readouts/Wrap-up **09:00 - 09:30 UTC**
 * Slot A
-  * Breakouts **14:30 - 15:30 UTC**
+  * Breakouts 9 **14:30 - 15:30 UTC**
+    * Breakout 9a
+    * Breakout 9b
+    * Breakout 9c
   * Break **15:30 - 15:45 UTC**
-  * Breakouts **15:45 - 16:45 UTC**
+  * Breakouts 10 **15:45 - 16:45 UTC**
+    * Breakout 10a
+    * Breakout 10b
+    * Breakout 10c
   * Break **16:45 - 17:00 UTC**
   * Readouts/Wrap-up **17:00 - 17:30 UTC**
 * Slot B
-  * Breakouts **22:30 - 23:30 UTC**
+  * Breakouts 11 **22:30 - 23:30 UTC**
+    * Breakout 11a
+    * Breakout 11b
+    * Breakout 11c
   * Break **23:30 - 23:45 UTC**
-  * Breakouts **23:45 - 00:45 UTC**
+  * Breakouts 12 **23:45 - 00:45 UTC**
+    * Breakout 12a
+    * Breakout 12b
+    * Breakout 12c
   * Break **00:45 - 01:00 UTC**
   * Readouts/Wrap-up **01:00 - 01:30 UTC**
 
 ### Day 3 : 28 May 2020
 
 * Slot C
-  * Breakouts **06:30 - 07:30 UTC**
+  * Breakouts 13 **06:30 - 07:30 UTC**
+    * Breakout 13a
+    * Breakout 13b
+    * Breakout 13c
   * Break **7:30 - 07:45 UTC**
-  * Breakouts **07:45 - 08:45 UTC**
-  * Break **08:45 - 09:00 UTC**
-  * Readouts/Wrap-up **09:00 - 09:30 UTC**
+  * Breakouts 14 **07:45 - 08:45 UTC**
+    * Breakout 14a
+    * Breakout 14b
+    * Breakout 14c
+ * Break **08:45 - 09:00 UTC**
+   * Readouts/Wrap-up **09:00 - 09:30 UTC**
 * Slot A
-  * Breakouts **14:30 - 15:30 UTC**
+  * Breakouts 15 **14:30 - 15:30 UTC**
+    * Breakout 15a
+    * Breakout 15b
+    * Breakout 15c
   * Break **15:30 - 15:45 UTC**
   * Breakouts **15:45 - 16:45 UTC**
+    * Breakout 16a
+    * Breakout 16b
+    * Breakout 16c
   * Break **16:45 - 17:00 UTC**
   * Readouts/Wrap-up **17:00 - 17:30 UTC**
 * Slot B
-  * Breakouts **22:30 - 23:30 UTC**
+  * Breakouts 17 **22:30 - 23:30 UTC**
+    * Breakout 17a
+    * Breakout 17b
+    * Breakout 17c
   * Break **23:30 - 23:45 UTC**
-  * Breakouts **23:45 - 00:45 UTC**
+  * Breakouts 18 **23:45 - 00:45 UTC**
+    * Breakout 18a
+    * Breakout 18b
+    * Breakout 18c
   * Break **00:45 - 01:00 UTC**
   * Readouts/Wrap-up **01:00 - 01:30 UTC**
 
