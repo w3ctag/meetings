@@ -41,30 +41,48 @@ To accomodate attendees from 3 different time-zone groups (Europe, Asia-Pacific 
 ### Day 1 : 26 May 2020
 
 * Slot C
-  * Breakouts **06:30 - 07:30 UTC**
+  * Breakouts 1 **06:30 - 07:30 UTC**
+    * Breakout 1a
+    * Breakout 1b
+    * Breakout 1c
   * Break **7:30 - 07:45 UTC**
-  * Breakouts **07:45 - 08:45 UTC**
+  * Breakouts 2 **07:45 - 08:45 UTC**
+    * Breakout 2a
+    * Breakout 2b
+    * Breakout 2c
   * Break **08:45 - 09:00 UTC**
   * Readouts/Wrap-up **09:00 - 09:30 UTC**
 * Slot A
-  * Breakouts **14:30 - 15:30 UTC**
+  * Breakouts 3 **14:30 - 15:30 UTC**
+    * Breakout 3a
+    * Breakout 3b
+    * Breakout 3c
   * Break **15:30 - 15:45 UTC**
-  * Breakouts **15:45 - 16:45 UTC**
+  * Breakout4 **15:45 - 16:45 UTC**
+    * Breakout 4a
+    * Breakout 4b
+    * Breakout 4c
   * Break **16:45 - 17:00 UTC**
   * Readouts/Wrap-up **17:00 - 17:30 UTC**
 * Slot B
-  * Breakouts **22:30 - 23:30 UTC**
+  * Breakouts 5 **22:30 - 23:30 UTC**
+    * Breakout 5a
+    * Breakout 5b
+    * Breakout 5c
   * Break **23:30 - 23:45 UTC**
-  * Breakouts **23:45 - 00:45 UTC**
+  * Breakouts 6 **23:45 - 00:45 UTC**
+    * Breakout 6a
+    * Breakout 6b
+    * Breakout 6c
   * Break **00:45 - 01:00 UTC**
   * Readouts/Wrap-up **01:00 - 01:30 UTC**
 
 ### Day 2 : 27 May 2020
 
 * Slot C
-  * Breakouts **06:30 - 07:30 UTC**
+  * Breakouts 1 **06:30 - 07:30 UTC**
   * Break **7:30 - 07:45 UTC**
-  * Breakouts **07:45 - 08:45 UTC**
+  * Breakouts 2 **07:45 - 08:45 UTC**
   * Break **08:45 - 09:00 UTC**
   * Readouts/Wrap-up **09:00 - 09:30 UTC**
 * Slot A
