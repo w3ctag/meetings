@@ -40,31 +40,71 @@ To accomodate attendees from 3 different time-zone groups (Europe, Asia-Pacific 
 
 ### Day 1 : 26 May 2020
 
-
+* Slot C
+  * Breakouts **06:30 - 07:30 UTC**
+  * Break **7:30 - 07:45 UTC**
+  * Breakouts **07:45 - 08:45 UTC**
+  * Break **08:45 - 09:00 UTC**
+  * Readouts/Wrap-up **09:00 - 09:30 UTC**
+* Slot A
+  * Breakouts **14:30 - 15:30 UTC**
+  * Break **15:30 - 15:45 UTC**
+  * Breakouts **15:45 - 16:45 UTC**
+  * Break **16:45 - 17:00 UTC**
+  * Readouts/Wrap-up **17:00 - 17:30 UTC**
+* Slot B
+  * Breakouts **22:30 - 23:30 UTC**
+  * Break **23:30 - 23:45 UTC**
+  * Breakouts **23:45 - 00:45 UTC**
+  * Break **00:45 - 01:00 UTC**
+  * Readouts/Wrap-up **01:00 - 01:30 UTC**
 
 ### Day 2 : 27 May 2020
 
+* Slot C
+  * Breakouts **06:30 - 07:30 UTC**
+  * Break **7:30 - 07:45 UTC**
+  * Breakouts **07:45 - 08:45 UTC**
+  * Break **08:45 - 09:00 UTC**
+  * Readouts/Wrap-up **09:00 - 09:30 UTC**
+* Slot A
+  * Breakouts **14:30 - 15:30 UTC**
+  * Break **15:30 - 15:45 UTC**
+  * Breakouts **15:45 - 16:45 UTC**
+  * Break **16:45 - 17:00 UTC**
+  * Readouts/Wrap-up **17:00 - 17:30 UTC**
+* Slot B
+  * Breakouts **22:30 - 23:30 UTC**
+  * Break **23:30 - 23:45 UTC**
+  * Breakouts **23:45 - 00:45 UTC**
+  * Break **00:45 - 01:00 UTC**
+  * Readouts/Wrap-up **01:00 - 01:30 UTC**
+
 ### Day 3 : 28 May 2020
 
+* Slot C
+  * Breakouts **06:30 - 07:30 UTC**
+  * Break **7:30 - 07:45 UTC**
+  * Breakouts **07:45 - 08:45 UTC**
+  * Break **08:45 - 09:00 UTC**
+  * Readouts/Wrap-up **09:00 - 09:30 UTC**
+* Slot A
+  * Breakouts **14:30 - 15:30 UTC**
+  * Break **15:30 - 15:45 UTC**
+  * Breakouts **15:45 - 16:45 UTC**
+  * Break **16:45 - 17:00 UTC**
+  * Readouts/Wrap-up **17:00 - 17:30 UTC**
+* Slot B
+  * Breakouts **22:30 - 23:30 UTC**
+  * Break **23:30 - 23:45 UTC**
+  * Breakouts **23:45 - 00:45 UTC**
+  * Break **00:45 - 01:00 UTC**
+  * Readouts/Wrap-up **01:00 - 01:30 UTC**
 
 
-The AC Meeting [has been cancelled in favor of a virtual meeting](https://lists.w3.org/Archives/Member/w3c-ac-members/2020JanMar/0025.html), and we're doing the same.
+## Historical Info
 
-We had originally been planning to do the Wednesday-Friday following the AC meeting.  For a distributed face-to-face we might want slightly more days (though probably 4 and not 5, due to weekends), with slightly less time per day.  Does this mean we'll have problems with our times intersecting with the distributed AC meeting, and want to use a different week?
-
-Currently tentatively planning:
-* 1 day the week of 18 May
-  *  Thursday, May 21 is the [TAG joint meeting with the AB](https://www.w3.org/Member/wiki/AB/May2020F2fAgenda#Day_4_-_Thursday.2C_21_May)
-* 3 days the week of 25 May:
-  * Tues-Wed-Thurs the 26-27-28 of May
-  * except if you're in Japan/Australia, there's a Friday morning session instead of a Tuesday morning session
-
-On these dates we will be holding meetings in the following time-slots:
-
-
-
-
-### Pre-Scheduled Sessions
+The AC Meeting [has been cancelled in favor of a virtual meeting](https://lists.w3.org/Archives/Member/w3c-ac-members/2020JanMar/0025.html).
 
 ### Date constraints
 
