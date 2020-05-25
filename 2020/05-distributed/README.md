@@ -4,7 +4,7 @@
 ### Day 0 : 21 May 2020
 
 * [Joint AB/TAG meeting](https://www.w3.org/Member/wiki/AB/May2020F2fAgenda#Day_4_-_Thursday.2C_21_May)
- * Topics include: Ideas for a virtual TPAC; Tension between privacy and function
+  * Topics include: Ideas for a virtual TPAC; Tension between privacy and function
 
 ### Day 1 : 
 
