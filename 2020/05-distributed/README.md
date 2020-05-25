@@ -272,6 +272,13 @@ To accomodate attendees from 3 different time-zone groups (Europe, Asia-Pacific 
   * Break **00:45 - 01:00 UTC**
   * Readouts/Wrap-up **01:00 - 01:30 UTC**
 
+### Raw Minutes
+
+Read-only links:
+* [Day 1](https://cryptpad.w3ctag.org/code/#/2/code/view/N5H3ZOx1NVRYwyQgb4JqHk6VmikpLYplFxgA4xn8Wno/)
+* [Day 2](https://cryptpad.w3ctag.org/code/#/2/code/view/FhKbvOQuspBZNuRuNXjyIfYSVJzti-G1RSysbS+yQCU/)
+* [Day 3](https://cryptpad.w3ctag.org/code/#/2/code/view/DMxAonEl3fitieExT25OYIv4gkNmBGm9vg7kjmjWZik/)
+
 
 ## Historical Info
 
