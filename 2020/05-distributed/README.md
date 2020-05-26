@@ -50,7 +50,6 @@ To accomodate attendees from 3 different time-zone groups (Europe, Asia-Pacific 
     * Breakout 1b - Alice & Dan
       * <a href="https://github.com/w3ctag/design-reviews/issues/438">MathML Core</a>
       * <a href="https://github.com/w3ctag/design-reviews/issues/470">WebXR DOM Overlay Module</a>
-      * <a href="https://github.com/w3ctag/design-reviews/issues/479">WebXR Anchors Module</a>
     * Breakout 1c - *unused*
   * Break **7:30 - 07:45 UTC**
   * Breakouts 2 **07:45 - 08:45 UTC**
@@ -198,6 +197,7 @@ To accomodate attendees from 3 different time-zone groups (Europe, Asia-Pacific 
   * Breakouts 13 **06:30 - 07:30 UTC**
     * Breakout 13a - Alice & Dan
       * Re-think information architecture for the design principles doc
+      * <a href="https://github.com/w3ctag/design-reviews/issues/479">WebXR Anchors Module</a>
       * Design principle issue lucky dip
     * Breakout 13b - *unused*
     * Breakout 13c - *unused*
