@@ -138,6 +138,7 @@ To accomodate attendees from 3 different time-zone groups (Europe, Asia-Pacific 
       * <a href="https://github.com/w3ctag/design-principles/issues/95">Guide spec authors to use one manifest (web app manifest)</a>
     * Breakout 8b - Alice & Sanwghan
       * Accessibility checklist
+      * Design Principles Edit Pass
     * Breakout 8c - *unused*
   * Break **08:45 - 09:00 UTC**
   * Readouts/Wrap-up **09:00 - 09:30 UTC**
