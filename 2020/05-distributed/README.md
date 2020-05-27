@@ -67,7 +67,6 @@ To accomodate attendees from 3 different time-zone groups (Europe, Asia-Pacific 
 * Slot A
   * Breakouts 3 **14:30 - 15:30 UTC**
     * Breakout 3a - Ken & Tess (& Sangwhan)
-      * <a href="https://github.com/w3ctag/design-principles/pull/189">Manifest PR</a> (with special guest Sangwhan)
       * <a href="https://github.com/w3ctag/design-reviews/issues/397">Same-Origin iframe document-access limiting attribute</a>
       * <a href="https://github.com/w3ctag/design-reviews/issues/482">URL Protocol Handler Registration for PWAs</a>
       * <a href="https://github.com/w3ctag/design-reviews/issues/509">Navigation to Unsigned Web Bundles (Web Packaging)</a>
@@ -146,6 +145,7 @@ To accomodate attendees from 3 different time-zone groups (Europe, Asia-Pacific 
 * Slot A
   * Breakouts 9 **14:30 - 15:30 UTC**
     * Breakout 9a - Dan & Tess
+      * <a href="https://github.com/w3ctag/design-principles/pull/189">Manifest PR</a> (with special guest Sangwhan)
       * <a href="https://github.com/w3ctag/design-reviews/issues/342">First-Party Sets</a>
       * <a href="https://github.com/w3ctag/design-reviews/issues/391">WebOTP API</a>
       * <a href="https://github.com/w3ctag/design-reviews/issues/463">WebXR Hit Test Module</a>
