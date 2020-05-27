@@ -155,7 +155,6 @@ To accomodate attendees from 3 different time-zone groups (Europe, Asia-Pacific 
   * Break **15:30 - 15:45 UTC**
   * Breakouts 10 **15:45 - 16:45 UTC**
     * Breakout 10a - David & Tess
-      * <a href="https://github.com/w3ctag/design-reviews/issues/432">Timed Text Markup Language (TTML2) 2nd Edition</a>
       * <a href="https://github.com/w3ctag/design-reviews/issues/477">Media Feeds API</a>
       * Design principle issue lucky dip
     * Breakout 10b - Dan & Yves
@@ -224,6 +223,7 @@ To accomodate attendees from 3 different time-zone groups (Europe, Asia-Pacific 
       * <a href="https://github.com/w3ctag/design-principles/issues/111">guidance on inheritance between contexts    </a>
     * Breakout 15b - Dan & Hadley
       * <a href="https://github.com/w3ctag/design-reviews/issues/440">Screen Capture API (2019)</a>
+      * <a href="https://github.com/w3ctag/design-reviews/issues/432">Timed Text Markup Language (TTML2) 2nd Edition</a>      
       * Ethical Web Principles    
     * Breakout 15c - David & Peter
       * <a href="https://github.com/w3ctag/design-principles/issues/173">add principle on media independence</a>
