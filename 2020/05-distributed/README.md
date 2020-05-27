@@ -66,7 +66,8 @@ To accomodate attendees from 3 different time-zone groups (Europe, Asia-Pacific 
   * Readouts/Wrap-up **09:00 - 09:30 UTC**
 * Slot A
   * Breakouts 3 **14:30 - 15:30 UTC**
-    * Breakout 3a - Ken & Tess
+    * Breakout 3a - Ken & Tess (& Sangwhan)
+      * <a href="https://github.com/w3ctag/design-principles/pull/189">Manifest PR</a> (with special guest Sangwhan)
       * <a href="https://github.com/w3ctag/design-reviews/issues/397">Same-Origin iframe document-access limiting attribute</a>
       * <a href="https://github.com/w3ctag/design-reviews/issues/482">URL Protocol Handler Registration for PWAs</a>
       * <a href="https://github.com/w3ctag/design-reviews/issues/509">Navigation to Unsigned Web Bundles (Web Packaging)</a>
