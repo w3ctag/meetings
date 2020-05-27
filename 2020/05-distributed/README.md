@@ -208,6 +208,9 @@ To accomodate attendees from 3 different time-zone groups (Europe, Asia-Pacific 
       * <a href="https://github.com/w3ctag/design-reviews/issues/465">WebRTC DSCP Control API</a>
       * <a href="https://github.com/w3ctag/design-reviews/issues/495">AVIF Decode</a>
     * Breakout 14b - *unused*
+      * <a href="https://github.com/w3ctag/design-principles/issues/131">Discourage overloading</a>
+      * <a href="https://github.com/w3ctag/design-principles/issues/133">Provide some guidance on creating new list types</a>
+      * <a href="https://github.com/w3ctag/design-principles/issues/135">To fulfill or to resolve</a>
     * Breakout 14c - *unused*
  * Break **08:45 - 09:00 UTC**
    * Readouts/Wrap-up **09:00 - 09:30 UTC**
