@@ -60,7 +60,7 @@ going anywhere.
 
 Kenneth: The problem is that JSON is lossy like you write a bigint and parsing gives you a number, same with Date, where you get a string back. There is a proposal that kind of allows you to check the source and get it as string instead and that way deserialize it yourself, but that requires everything to have a string representation which Map and Set don't today. I think this requires broader discussion in the TAG.
 
-Sangwhan: If there is a toJSON(), shouldn't there also be a fromJSON() - so given prior knowledge about the JSON coming in one has a shorthand to reconstruct it? Seens these patterns elsewhere
+Sangwhan: If there is a toJSON(), shouldn't there also be a fromJSON() - so given prior knowledge about the JSON coming in one has a shorthand to reconstruct it? Seems these patterns elsewhere
 
 Kenneth: Not sure if that would work
 
@@ -70,7 +70,7 @@ Sangwhan: Not for every case, definitely not - would only work for objects that 
 
 ##### <a href="https://github.com/w3ctag/design-reviews/issues/438">MathML Core</a>
       
-Alice: comparing the list of elements in the spec with those in the explainer... 3 elements in the spec that aren't in the xplainer and one element in the explainer that's not in the spec... menclose [?] is not in the spec. 
+Alice: comparing the list of elements in the spec with those in the explainer... 3 elements in the spec that aren't in the explainer and one element in the explainer that's not in the spec... menclose [?] is not in the spec. 
 
  more in spec that aren't in explainer: `<maction>`, `<mprescripts>` and `<none>`. `<none>` seems especially intriguing. 
  
@@ -78,7 +78,7 @@ Dan: explainer out of sync with spec?
 
 Alice: seems likely -  may not be a big deal
 
-Alice: integration with web platform seems to be most interesting for us...  [CSS Styling](https://mathml-refresh.github.io/mathml-core/#css-styling) - display content equiv to display none..  Event handlers - html foreign element - a special mathml linkable elemnt interface... Lots of open issues still - 
+Alice: integration with web platform seems to be most interesting for us...  [CSS Styling](https://mathml-refresh.github.io/mathml-core/#css-styling) - display content equiv to display none..  Event handlers - html foreign element - a special mathml linkable element interface... Lots of open issues still - 
 
 Dan: how many of these open issues are marked or commented as being part of a "v2" (e.g. [#138](https://github.com/mathml-refresh/mathml/issues/138))?
 
@@ -90,7 +90,7 @@ Dan: There are a bunch of open issues, nothing that seems like a red flag... our
 
 ... What signals do we have about this spec? Seems to be actively being worked on. Good signals about implementations. I like how they've put engine annotations in here, for every subsection.
 
-Alice: Good to see a section on [Focus](https://mathml-refresh.github.io/mathml-core/#focus) - CSS extenstions as well...  Text treansforms have "math" and then an existing thing... 
+Alice: Good to see a section on [Focus](https://mathml-refresh.github.io/mathml-core/#focus) - CSS extensions as well...  Text transforms have "math" and then an existing thing... 
 
 [some discussion on implementation annotation and whether these are a signal...]
 
@@ -132,7 +132,7 @@ Alice: There is mention of fullscreen - "Fully exiting fullscreen mode also ends
 #### Breakout 2a - Dan & Ken
 ##### <a href="https://github.com/w3ctag/design-reviews/issues/436">Get Installed Related Apps</a>
       
-We have left a coment mentioning the related work going on by Mozilla... 
+We have left a comment mentioning the related work going on by Mozilla... 
       
 ##### <a href="https://github.com/w3ctag/design-reviews/issues/469">Cookie Store API </a>
       
@@ -181,9 +181,9 @@ Dan: we made a design principles PR on the manifest file topic.
 
 Dan: we didn't get to WebXR anchors module... [rescheduling to 13a]
 
-Sangwhan: we looked at serial APi which has not moved much.  We were assigned to css attributes issue... no idea why ... design principles... toJSON --- I will write something and send a PR to design principles .. for comment. 
+Sangwhan: we looked at serial API which has not moved much.  We were assigned to CSS attributes issue... no idea why ... design principles... toJSON --- I will write something and send a PR to design principles .. for comment. 
 
-Alice: I had in my list to rething AI of design principles doc..... Have been reading it... At the least I'd like to take an editing pass.
+Alice: I had in my list to rethink AI of design principles doc..... Have been reading it... At the least I'd like to take an editing pass.
 
 Sangwhan: let's coordinate on that - collaborative session.  [scheduled for 8b]
 
@@ -255,13 +255,13 @@ David: some pretty fundamental disagreements with Zoltan - about what the securi
 
 Dan: don't you need to push a button on a yubikey to make it broadcast a OTP?
 
-David: are there other cases in NDEF usess -- and how do you explain to a user what it is they're giving permission for, given that?
+David: are there other cases in NDEF uses -- and how do you explain to a user what it is they're giving permission for, given that?
 
 Dan: this is one of those ones where I am slightly more sympathetic to the API developers - 
 
 David: the other complex part is writing.
 
-Dan: Agreed.  What if we recommended that they eliminiate writing - or keep witing behind some kind of flag or user permission - in order to limit the possible danger.
+Dan: Agreed.  What if we recommended that they eliminate writing - or keep writing behind some kind of flag or user permission - in order to limit the possible danger.
 
 Dan: Case I expect to see the most is holding phone up to an NFC tag of some sort, e.g., conference badge.  Those don't involve writing.  
 
@@ -284,9 +284,9 @@ Dan: deprecation of UA string always felt premature to me because Client Hints w
 
 David: I'd agree.
 
-Dan: so having more runway for client hints would seemd to make sense...
+Dan: so having more runway for client hints would seem to make sense...
 
-David: I'm not sure what makes client hints more widely adopted - it would need cross-browser support and support on the server end - getting to that level of adoption requires things being in client hints that people need. If UA String isn't deprcated than what could encourage people to make that leap?
+David: I'm not sure what makes client hints more widely adopted - it would need cross-browser support and support on the server end - getting to that level of adoption requires things being in client hints that people need. If UA String isn't deprecated than what could encourage people to make that leap?
 
 Dan: good point.  Isn't it up to browsers that want to do this to try to show how this can be used in the wild?
 
@@ -310,7 +310,7 @@ David: I could imagine wanting the page doing the freezing to want to do it eith
 
 Tess: yes, could make sense to send events for the scrolling into/out of view case.
 
-Tess: Does the stuff about being rendered or not look right?  `display:none`, `opacity: 0`, 3-D transform that makes you orthogonal to the page.  Though `IntersectionObserver` wanted to handle that well so that things like ads can actually tell if they'r evisible.  Idea of being rendered might become complicate -- should we build other things on top of that?  And does it expose implementation details like when layout/style happen?
+Tess: Does the stuff about being rendered or not look right?  `display:none`, `opacity: 0`, 3-D transform that makes you orthogonal to the page.  Though `IntersectionObserver` wanted to handle that well so that things like ads can actually tell if they're visible.  Idea of being rendered might become complicate -- should we build other things on top of that?  And does it expose implementation details like when layout/style happen?
 
 David: I'm not too worried about the last bit.
 
@@ -318,7 +318,7 @@ David: It seems like the "being rendered" definition here is `display:none`-like
 
 Tess: Given [w3ctag/design-reviews#369 (comment)](https://github.com/w3ctag/design-reviews/issues/369#issuecomment-634120677) I think we can stop here for now.
 
-We added a new `Progress: blocked on dependency` label to capture cases like this (where one design review should wait for another to complete before proceding).
+We added a new `Progress: blocked on dependency` label to capture cases like this (where one design review should wait for another to complete before proceeding).
 
 ##### <a href="https://github.com/w3ctag/design-reviews/issues/407">More restrictive hasEnrolledInstrument() for autofill data</a>
 
@@ -336,9 +336,9 @@ David: I think one of the underlying issues here was HTML editors wanted CSS WG 
 
 Tess: In long term, we want HTML event loop to be cleanly specified, so it's obvious for spec authors of other specs how they plug into it, so they get interoperability.  IntersectionObserver was one case where maybe that was harder than it should have been.  Hoping we end up in a place where it's clear to people elsewhere how they plug in cleanly and get predictable behavior.  Given what you said, sounds like one issue is that lacking a definition for batching and flushing on CSS side, the ability of HTML editors to make that clean is limited.
 
-David: I'd like to see this get to the point where most of the things that are meant for writes happen before most of the things that are meant for reads. e.g. rAF is meaant for writes, and IntersectionObserver is meant for reads, so rAF should be before IntersectionObserver.
+David: I'd like to see this get to the point where most of the things that are meant for writes happen before most of the things that are meant for reads. e.g. rAF is meant for writes, and IntersectionObserver is meant for reads, so rAF should be before IntersectionObserver.
 
-...: But different people who read the current spec end up interpreting it in different ways, e.g. rniwa and myself read something differently and it wasn't super clear from the text who was right. I had always interpreted it as "this is where the default style layout flush happens" and rniwa had interpreted it as "this is where paint happens". (The spec assumes style layout is always up-to-date so doesn't explcitily have a flush concept.)
+...: But different people who read the current spec end up interpreting it in different ways, e.g. rniwa and myself read something differently and it wasn't super clear from the text who was right. I had always interpreted it as "this is where the default style layout flush happens" and rniwa had interpreted it as "this is where paint happens". (The spec assumes style layout is always up-to-date so doesn't explicitly have a flush concept.)
 
 ...: Maybe what we should do is file an issue on csswg-drafts to define when batching and flushing actually happen, so that HTML can hook into that directly, and these kinds of ambiguities could be eliminated.
 
@@ -371,17 +371,17 @@ Rossen: Nick Doty pointed us to the 2018 workshop report
 
 Peter: orig concern I raised - permission and permission like things spreading out across APIs - should be a common pattern used everywhere... Something we can look for an encourage other people to fix... 
 
-Dan: we could write up best pracice for requesting permission - and that could include info from the [2018 workshop report](https://www.w3.org/Privacy/permissions-ws-2018/report.html).
+Dan: we could write up best practice for requesting permission - and that could include info from the [2018 workshop report](https://www.w3.org/Privacy/permissions-ws-2018/report.html).
 
 Peter: it's good info but that doesn't really talk about the API surface...
 
-Dan: maybe we need a nother discussion 
+Dan: maybe we need another discussion 
 
-Rossen: what's a good example out of the onces you listed?  Is the gesture delegation one a good example?  What would be great to see - along the lines of guidance - if we are going to have a permission guide - it would be great to enumerate the different layers of where web permissions surface - either API or User Ineraction..  I'm pretty sure that a lot of permissions get handled through policy - like a PWA should be able to handle permissions through policy - what is the idea here?  Recommend the mechanism by which capability discovery get hooked up and surface as a permission to the user?
+Rossen: what's a good example out of the ones you listed?  Is the gesture delegation one a good example?  What would be great to see - along the lines of guidance - if we are going to have a permission guide - it would be great to enumerate the different layers of where web permissions surface - either API or User Interaction..  I'm pretty sure that a lot of permissions get handled through policy - like a PWA should be able to handle permissions through policy - what is the idea here?  Recommend the mechanism by which capability discovery get hooked up and surface as a permission to the user?
 
 Peter: we have the permissions API which seems to have not really taken off...  It would have covered most of my concern. I want access to the camera, so i request the media stream -there's no way to know if I have the permission ahead of time, etc... e.g. if that was previously denied I'd want to change my UI
 
-Dan: The current state of permissions is kind of a mess. In the absense of good permissions it would be great to document something in the design principles doc that says, here are a set of guidelines. That would be much preferrable over trying to solve all that here and satisfy all issues. 
+Dan: The current state of permissions is kind of a mess. In the absence of good permissions it would be great to document something in the design principles doc that says, here are a set of guidelines. That would be much preferable over trying to solve all that here and satisfy all issues. 
 
 Dan: Feels like we should focus on the API surface ... We could say "in the absence of a unified permission API, here are some best practices to follow."
 
@@ -391,15 +391,15 @@ Dan: we could start noodling on some content for this.... [creates document](htt
 
 Dan: Perhaps we should create a survey and gather feedback from developers - what works, what is discoverable or missing? Further, there isn't much about feature policy when it comes to permissions. There is a good [writeup by Andrew Betts on this](https://github.com/w3ctag/design-reviews/issues/159#issuecomment-297920860). 
 
-Dan: What can we recommend in the absense of a unified permission API?
+Dan: What can we recommend in the absence of a unified permission API?
 
 Peter: a design pattern or approach, but it will still be a mess.
 
 Dan: another option is we could  adapt the [doc from Nick Doty](https://github.com/w3cping/adding-permissions/blob/master/README.md) as an elaboration of our current section 1.4.
 
-Rossen: if I'm an engineer looking to add a capability that might need permission, i can't get an answer based on this...  It's a guidance from privacy & security pov - i like section 3 (considerations with sensors). But to Peter's point, if we are there to be proscriptive in our design principles, I don't know that this document does that.
+Rossen: if I'm an engineer looking to add a capability that might need permission, i can't get an answer based on this...  It's a guidance from privacy & security pov - i like section 3 (considerations with sensors). But to Peter's point, if we are there to be prescriptive in our design principles, I don't know that this document does that.
 
-Dan: I agree it's more high level a-la- html design principles  rather than API design guideance per se. We could put high level stuff in one place and specific recommendations in another...
+Dan: I agree it's more high level a-la- html design principles  rather than API design guidance per se. We could put high level stuff in one place and specific recommendations in another...
 
 Rossen: [we could also pull from] [APF's PhD thesis](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2012/EECS-2012-185.pdf).  
 
@@ -417,7 +417,7 @@ Tess: we wrote a comment on our design review ...  In 4a we looked at a differen
 
 ... **URL protocol reg for PWAs**.. we said the same things... no unified underlying model
 
-... **nav to unsigned web bundles**... we couldn't do it justice. We (the TAG) need to do some more here.  One thing htat's come up - what do you put in the address bar - there is an open issue on that discussion.  there's not a good option.  Distributor URL would be encouraging content to do fake address bars - if they put the publisher URL they would enshrine in trusted UI the "fake" address bar thing.  Also distinction between authoritative and non-authoritative ... 
+... **nav to unsigned web bundles**... we couldn't do it justice. We (the TAG) need to do some more here.  One thing that's come up - what do you put in the address bar - there is an open issue on that discussion.  there's not a good option.  Distributor URL would be encouraging content to do fake address bars - if they put the publisher URL they would enshrine in trusted UI the "fake" address bar thing.  Also distinction between authoritative and non-authoritative ... 
 
 Dan: What's the problem with showing the publisher URL again?  Is it that it's unsigned?
 
@@ -431,11 +431,11 @@ Dan: why unsigned
 
 Tess: because the browser generated on the fly the bundle...
 
-David: it's not different from making a PDF file and sharing that... Many PDF users want a thing that can be transfered as a single file rather than PDF's layout...  
+David: it's not different from making a PDF file and sharing that... Many PDF users want a thing that can be transferred as a single file rather than PDF's layout...  
 
 Dan: If that's the case corp firewalls will block it -- could be full of untrustworthy javascript.
 
-[dan argues vociferoulsy ...]
+[dan argues vociferously ...]
 
 Tess: David identified 2 use cases for PDF: package, and pagination.  If you want the pagination, generate an EPUB from the webpage.  So they're trying to solve the other use case of just wanting the package and not pagination.  Could come back with "just use EPUB and turn off the paginated styling".  This design is a backformation -- they're trying to do the unsigned stuff by starting from the signed stuff.
 
@@ -475,11 +475,11 @@ Dan: close it.
 
 Tess: OK, I'll do that.
 
-Tess: And looked at David's issue about **HTML Event Loop**.  Motivated by things that came up in `IntersectionObserver` Review.  Spec fiction that CSS style is always computed that's not true.  Has performance and timing implications.  We ended up filing an issue on the CSS Working Group, though not on aspecific spec, to specify when batching/flushing happen, so the HTML spec can hook into those definitions, and get towards interop.
+Tess: And looked at David's issue about **HTML Event Loop**.  Motivated by things that came up in `IntersectionObserver` Review.  Spec fiction that CSS style is always computed that's not true.  Has performance and timing implications.  We ended up filing an issue on the CSS Working Group, though not on a specific spec, to specify when batching/flushing happen, so the HTML spec can hook into those definitions, and get towards interop.
 
 #### 4b readout
 
-Dan: We closed **securer contexts**.  Been open for ages, given feedback, happy withhow it was received.  Still concerned about complexity, and encouraged to bring to webappsec.
+Dan: We closed **securer contexts**.  Been open for ages, given feedback, happy with how it was received.  Still concerned about complexity, and encouraged to bring to webappsec.
 
 Dan: Also talked about **harmonize permissions and similar mechanisms**.  Noodled for a while.  Looked at Nick Doty's suggestion, document he wrote in PING.  Started noodling on a cryptpad that could become a PR to design-principles document.  We should say something bout this in design-principles.  We should talk about what API should look like when it requests permissions.  Mostly empty document with notes and scattered stuff in it but could become PR.
 
@@ -528,16 +528,16 @@ Ran out of time before we could look at this.
 Rossen: Had a chance to have an overview of the current draft. Having the benefit of a first-time reader I have some additional points apart from all open issues. 
 [Section 2.2](https://www.w3.org/2001/tag/doc/promises-guide#one-time-events) reads much harder compared to the rest of the sub-sections in Section 2. Perhaps we should try and loosen the language a bit.
 
-Rossen: Let's start by looking at issue 65 about recommending when Not to use Pomises.
+Rossen: Let's start by looking at issue 65 about recommending when Not to use Promises.
 
 ##### <a href="https://github.com/w3ctag/promises-guide/issues/65">When not to use Promises</a>
 Rossen: What was the motivation of the issue?
 
-Peter: There was a pretty weird case of returning a Promise that never resolved. This was done originally and later designed away. This was the motivation to open the issue and add any missing examples of when Not to use Promisses.
+Peter: There was a pretty weird case of returning a Promise that never resolved. This was done originally and later designed away. This was the motivation to open the issue and add any missing examples of when Not to use Promises.
 
-Rossen: Agree. I can see how using Promise to make void functions async and complete the promise as undefined or something. I suppose one of the main points here is that under normal circumstances a promisse should always resolve. Further, it should be safe to chain promisses together and expect that the chain will resolve.
+Rossen: Agree. I can see how using Promise to make void functions async and complete the promise as undefined or something. I suppose one of the main points here is that under normal circumstances a promise should always resolve. Further, it should be safe to chain promises together and expect that the chain will resolve.
 
-Peter: During the permissions workshop there were discussions about returning a promisse that will never resolve... Something to do with handingling permissions that could be neither resolved nor rejected. That meant a promisse that will never complete and that may be a poor design choice. 
+Peter: During the permissions workshop there were discussions about returning a promise that will never resolve... Something to do with handling permissions that could be neither resolved nor rejected. That meant a promise that will never complete and that may be a poor design choice. 
 The recommendation is that there must a path that the promise can always resolve successfully.
 
 Rossen: Agreed. How about we create a new section and recommend that promises are not used if there is no clear path for completion under normal circumstances?
@@ -546,7 +546,7 @@ Peter: SGTM
 
 ##### <a href="https://github.com/w3ctag/promises-guide/issues/44">Are unresolved promises rejected prior to a window.unload event?</a>
 
-Peter: It makes no sense to override the comments in the issue. There is pretty strong concensus that after an unload event there's not reason to go and reject all promises as no rejection-handling code will/should run. Not sure if there is any real reason or desire to change that.
+Peter: It makes no sense to override the comments in the issue. There is pretty strong consensus that after an unload event there's not reason to go and reject all promises as no rejection-handling code will/should run. Not sure if there is any real reason or desire to change that.
 
 Rossen: Wonder if this is already specified by now, given the issue was last updated 5 years ago.
 
@@ -559,7 +559,7 @@ Peter: Let's add it in Promise Guide under Section 4 as its own section.
 
 ##### <a href="https://github.com/w3ctag/promises-guide/issues/60">guidance on what error to specify is used when a promise is rejected</a>
 
-Peter: The original question is about "What error to specify when you reject"?. This seems pretty clearly stated in section 4.1.2. Then the conversation goes about when to reject vs return with different value. It seems this is pretty well explained in 4.1.3. The main parralels here are - when would you chose to retun an error vs throw an exception from a syn API... and that seems described well in 4.1.3. Perhaps add one more sentence before 4.1.3. that explains:
+Peter: The original question is about "What error to specify when you reject"?. This seems pretty clearly stated in section 4.1.2. Then the conversation goes about when to reject vs return with different value. It seems this is pretty well explained in 4.1.3. The main parallels here are - when would you chose to return an error vs throw an exception from a syn API... and that seems described well in 4.1.3. Perhaps add one more sentence before 4.1.3. that explains:
 "If you would've return an error value in case this was a sync function, then resolve the promise with the error value. If you would normally throw an exception in the same API, the go ahead and Reject the promise instead with the same exception."
 
 #### Breakout 5c - David & Sangwhan
