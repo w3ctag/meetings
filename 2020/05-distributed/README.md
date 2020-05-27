@@ -3,7 +3,7 @@
 
 To accomodate attendees from 3 different time-zone groups (Europe, Asia-Pacific and US West Coast), our main meeting days have been separated into 3 time slots (A, B and C) each one of which has been allocated 2 breakouts. Each of these has been numbered from 1 to 18. These 18 breakouts have been divided into 3 "breakout rooms" (a, b and c) and issues have been allocated to these (01a, 01b, etc...) based on issue assignments for one-to-one breakot sessions in these rooms.  These allocations can be fond in [a shared spreadsheet](https://docs.google.com/spreadsheets/d/1Go9lJw9aIH-YonGWUgX33_eB2Yw-xqtIDq9d23Lef0o/edit?usp=sharing) and are repeated below.
 
-#### Europe/US 3-hour slot (“Slot A”)   
+#### Europe/US 3-hour slot (“Slot A”)
 
 | Time                | Location            |
 | ------------------- | ------------------- |
