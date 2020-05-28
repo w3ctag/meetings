@@ -204,7 +204,7 @@ To accomodate attendees from 3 different time-zone groups (Europe, Asia-Pacific 
     * Breakout 13c - *unused*
   * Break **7:30 - 07:45 UTC**
   * Breakouts 14 **07:45 - 08:45 UTC**
-    * Breakout 14a - Dan & Tess
+    * Breakout 14a - Dan & Sangwhan
       * <a href="https://github.com/w3ctag/design-reviews/issues/465">WebRTC DSCP Control API</a>
       * <a href="https://github.com/w3ctag/design-reviews/issues/495">AVIF Decode</a>
     * Breakout 14b - *unused*
