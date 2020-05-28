@@ -183,17 +183,17 @@ Dan: Does that obsolete this?
 
 Tess: no.
 
-Tess: HTML has `autocomplete=one-time-code`.  Other propsoal that's not in this issue is the SMS format changes (which I'm coediting with Sam Goto), which has more agreement.  And then there's this proposal which is new JS APIs, which I personally don't think are necessary given that we have `autocomplete=one-time-code`.  SMS format allows site to say "only fill it on my origin".
+Tess: HTML has `autocomplete=one-time-code`.  Other proposal that's not in this issue is the SMS format changes (which I'm coediting with Sam Goto), which has more agreement.  And then there's this proposal which is new JS APIs, which I personally don't think are necessary given that we have `autocomplete=one-time-code`.  SMS format allows site to say "only fill it on my origin".
 
-Dan: This is the same fugu API that we reviewed before.  Does it have multivendor support?  Mozill aposition?
+Dan: This is the same fugu API that we reviewed before.  Does it have multivendor support?  Mozilla position?
 
 David: https://github.com/mozilla/standards-positions/issues/152
 
-Dan: Can we close it?  Interop is important.  One company pushing a design approach... competng design approaches that need to be squarshed together in some way.  Sites would have to browser-sniff... there will be a polyfill.  That's... fine.
+Dan: Can we close it?  Interop is important.  One company pushing a design approach... competing design approaches that need to be squarshed together in some way.  Sites would have to browser-sniff... there will be a polyfill.  That's... fine.
 
 Tess: There's a bit that I'm really happy about in terms of interop:  the wire format is the same.  You don't need to know browser in order to format the SMS; that's a big win.
 
-(dan wordsmiths comment to close)
+(Dan wordsmiths comment to close)
 
 
 ##### <a href="https://github.com/w3ctag/design-reviews/issues/463">WebXR Hit Test Module</a>
@@ -223,7 +223,7 @@ David & Tess filed the following issues:
 * [Incompatibility with JSON Feeds #29](https://github.com/WICG/media-feeds/issues/29)
 * [should this be using rel=feed?](https://github.com/WICG/media-feeds/issues/30)
 
-Tess: let's draft closing text & confirm with sangwhan during the slot b mini-plenary? Or should we wait since we filed new issues?
+Tess: let's draft closing text & confirm with Sangwhan during the slot b mini-plenary? Or should we wait since we filed new issues?
 
 ##### <a href="https://github.com/w3ctag/design-reviews/issues/432">Timed Text Markup Language (TTML2) 2nd Edition</a>
 
@@ -253,7 +253,7 @@ Yves: revision of the RFC
 
 Dan: I feel like we should check this with Wendy Seltzer.
 
-Yves: already discussed internally with Wendy & Sam Wiler - should be fine.
+Yves: already discussed internally with Wendy & Sam Weiler - should be fine.
 
 Dan: OK
 
@@ -261,7 +261,7 @@ Yves: reservations about new header... but no feedback on this point.
 
 On Schemeful same site 
 
-Yves: basically there should be some upddate to the RFC.... The definition - incrementally better cookies is a draft RFC from Mike... discussing with http working group...
+Yves: basically there should be some update to the RFC.... The definition - incrementally better cookies is a draft RFC from Mike... discussing with http working group...
 
 
 
@@ -271,7 +271,7 @@ On Best Practices for Registries --
 
 Yves: would it be good to create a task force to address this issue?  Who would be helpful in creating this kind of document? I can ask Ralph Swick & Sam about that. 
 
-Dan: Hasn't the discusion of ever-[insert-color] registies obsoleted this discussion?
+Dan: Hasn't the discussion of ever-[insert-color] registries obsoleted this discussion?
 
 Yves: some specs will still need registries...
 
@@ -295,13 +295,13 @@ Scribe: Rossen
 
 Dan: (on 10b) **schemebound cookies** and **schemeful same site**. We proposed to close a number of issues. This is because we're happy with it (reads feedback provided). We didn't want to close before checking the temp for multiple implementations as well as hear from David and Tess.
 
-David: People are reasonbably happy with scheme bound cookies given this won't break too much stuff.
+David: People are reasonably happy with scheme bound cookies given this won't break too much stuff.
 
 Tess: ack
 
 Yves: Great, that agrees with our position. So are you OK closing both issues?
 
-David: So my answer was about the first. What's the schemful same site?
+David: So my answer was about the first. What's the schemeful same site?
 
 Tess: In WHATWG/W3C land, same site means schemeful same site; there's a separate term for schemelessly same-site. IETF is the opposite (the unmarked case is schemeless there) thus this is adding a notion of schemeful same-siteness to IETF that matches the WHATWG unmarked case.
 
@@ -318,7 +318,7 @@ Dan: Not going to close but push on back burner.
 
 #### 9a readout
 
-Tess: Super big breakout between Dan, myself, Sanghwan and David. Started talking about the PR for giving advice about manifests (Dan's PR). We looked at comments and revised some text to the point we were all happy with it. 
+Tess: Super big breakout between Dan, myself, Sangwhan and David. Started talking about the PR for giving advice about manifests (Dan's PR). We looked at comments and revised some text to the point we were all happy with it. 
 
 Dan: I'd note that Dominic still thinks that referencing image recourse is not a good idea. We should address it before landing. 
 
@@ -328,7 +328,7 @@ Tess: Next we talked about first party sets. Decided to close the issue. Having 
 
 Tess: Next was WebOTP API. 
 
-Dan: Tess, said that she's working on a new document, sorry new specification of new format for WebOTP. There is some discussion about this being a JS API or an input autocomlpete type? We decided to close the issue. 
+Dan: Tess, said that she's working on a new document, sorry new specification of new format for WebOTP. There is some discussion about this being a JS API or an input autocomplete type? We decided to close the issue. 
 There was a lot of discussion about both approaches. We don't feel that TAG should be the deciding factor and prefer to have all parties come together behind one or the other.
 
 Dan: It seems we need a different label we can use for such issues. 
@@ -441,9 +441,9 @@ Alice: I mean more if you were designing CSS today - extra information about fon
 
 Rossen: But it needs to do more than CSS can do.
 
-Alice: Agreed. You've got to get the relevant info about the content attached to the markup at the right time, but you don't want an explosion of attributes (ARIA etc., whic is already listed as alternative). Ideally there isn't a lot of noise added to the document. The data-* is the compromise they arrived at and need an advise on how to move away from such attribute once they are past prototyping.
+Alice: Agreed. You've got to get the relevant info about the content attached to the markup at the right time, but you don't want an explosion of attributes (ARIA etc., which is already listed as alternative). Ideally there isn't a lot of noise added to the document. The data-* is the compromise they arrived at and need an advise on how to move away from such attribute once they are past prototyping.
 
-Rossen: Reading through some of the proposed alternatives, it seems that borrowing ideas from CSS to create such personalization sheets is great. However, we don't want to overload CSS nor do we want to repeat its functionallity.
+Rossen: Reading through some of the proposed alternatives, it seems that borrowing ideas from CSS to create such personalization sheets is great. However, we don't want to overload CSS nor do we want to repeat its functionality.
 
 Alice: I think we need to take this offline, but I can leave a comment
 
@@ -452,7 +452,7 @@ Alice: I think we need to take this offline, but I can leave a comment
 
 ##### <a href="https://github.com/w3ctag/design-reviews/issues/413">Screen Enumeration API</a>
 
-Tess: They requested that we file an issue in ther repo per point of feedback. We filed at least one issue on them in the past, but we've also been waiting on them to reply to Lukasz's comments, which he left directly on our design review issue.
+Tess: They requested that we file an issue in their repo per point of feedback. We filed at least one issue on them in the past, but we've also been waiting on them to reply to Lukasz's comments, which he left directly on our design review issue.
 
 Peter: Let's @-mention them & let them know about Lukasz's comment
 
@@ -611,7 +611,7 @@ Sangwhan: We commented on one issue and updated the branch on another.
 
 Alice: started looking at the beforematch issue. Couldn't really get a good idea of what the use case that this individual proposal solves. Added comment asking for clarification on the use case and why content-visibility.
 
-Rossen: Re-entrancy concerns... could imagine removing/re-adding DOM nodes in respose to this event which could trigger another iteration of the event. This is an ongoing discussion in an issue. There was a proposal to limit the number of events that could fire in sequence. That only underlines the concern.
+Rossen: Re-entrancy concerns... could imagine removing/re-adding DOM nodes in response to this event which could trigger another iteration of the event. This is an ongoing discussion in an issue. There was a proposal to limit the number of events that could fire in sequence. That only underlines the concern.
 
 Alice: Next we looked at personalization. Had trouble understanding what that was all about at first. After filing an issue they came back to us with a new explainer much closer to what we expect. 
 The new explainer outlines a number of use cases that can be addressed by something CSS-like allowing additional data to be provided and displayed to the user. 
@@ -623,7 +623,7 @@ Tess: Screen enumeration API. This had ended up in the abyss. Was stuck at pendi
 
 ... Beyond that we felt like they had heard the rest of the feedback, we'd like to propose closing.
 
-... We'll come back in a few weeks and see if we got a resonse.
+... We'll come back in a few weeks and see if we got a response.
 
 
 ... We then talked about DOMString vs USVString. This is a long-standing issue, I took an action to write some advice for the design principles.
