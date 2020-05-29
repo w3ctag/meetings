@@ -21,7 +21,7 @@ Alice: API details section doesn't list out the arguments for each of the method
 
 Dan: Responses to security and privacy self-check look ok to me.
 
-[Discussion of permission prompts for AR sessions] [example from samsung internet](https://twitter.com/torgo/status/1263820803310747653)
+[Discussion of permission prompts for AR sessions] [example from Samsung internet](https://twitter.com/torgo/status/1263820803310747653)
 
 Dan: notes that this is in the proposed charter for the upcoming charter renewal.
 
@@ -63,7 +63,7 @@ Dan: I suggest
 
 * <a href="https://github.com/w3ctag/design-reviews/issues/465">WebRTC DSCP Control API</a>
 
-Sangwhan: we don't really have maeaningful feedback...  Underlying stuff is more or less IETF...  We did provide some level of feedback and we said we don't have further feedback. They haben't replied back. My proposal would be to close.
+Sangwhan: we don't really have meaningful feedback...  Underlying stuff is more or less IETF...  We did provide some level of feedback and we said we don't have further feedback. They haven't replied back. My proposal would be to close.
 
 [agreed to close]
 
@@ -77,7 +77,7 @@ Dan: [Sends email to AB Chair.]
 
 Dan: What should we do with this in the mean time?
 
-Sangwhan: for this, nothing.  But they haven't addressed the implications for adding a new image format to the web platform. Any form of I/O into the web platform tha takes or spits out an image will need to be considered when a new image format is introduced.  Things need to be added to APIs to support new image formats. I have an action to deal with that.  Another TAG action would be to make suggestions of where web platform needs to be patched up to support multiple image formats...
+Sangwhan: for this, nothing.  But they haven't addressed the implications for adding a new image format to the web platform. Any form of I/O into the web platform that takes or spits out an image will need to be considered when a new image format is introduced.  Things need to be added to APIs to support new image formats. I have an action to deal with that.  Another TAG action would be to make suggestions of where web platform needs to be patched up to support multiple image formats...
 
 
 
@@ -86,7 +86,7 @@ Sangwhan: for this, nothing.  But they haven't addressed the implications for ad
 #### Break **08:45 - 09:00 UTC**
 #### Readouts/Wrap-up **09:00 - 09:30 UTC**
 
-Alice: 13a - we talked about webxr anchors...  we noted about use of term anchor.  we left some comments and filed an issue on the API details.
+Alice: 13a - we talked about WebXR anchors...  we noted about use of term anchor.  we left some comments and filed an issue on the API details.
 
 Dan: then we talked about IA for design principles.
 
@@ -94,11 +94,11 @@ Alice: we made a diagram...
 
 Dan: we also talked about use of plain language - renaming priority of constituents - and putting a tl;dr at the front of each section.
 
-Dan: 14a - sangwhan & i closed dscp control api - and then we talked about AVIF decode.  
+Dan: 14a - Sangwhan & i closed DSCP control API - and then we talked about AVIF decode.  
 
 Sangwhan: I have an action to figure out how to add a new image to the web platform and maybe publish a finding on that.
 
-Alice: I edited during 14 and reviewed sangwhan's PR.
+Alice: I edited during 14 and reviewed Sangwhan's PR.
 
 
 
@@ -143,7 +143,7 @@ Dan: Looks like they have responded well to our concerns and comments. Suggest c
 
 ##### Ethical Web Principles    
       
-Dan: Tantek has proposed a new ethical web principle - [avoiding dark patterns](https://github.com/w3ctag/ethical-web-principles/issues/25). I'm not sure whether this should be an etical web principle or maybe something in the design principles doc itself - refering back to one of the existing principles? [New design principle](https://github.com/w3ctag/design-principles/issues/196) issue opened. 
+Dan: Tantek has proposed a new ethical web principle - [avoiding dark patterns](https://github.com/w3ctag/ethical-web-principles/issues/25). I'm not sure whether this should be an ethical web principle or maybe something in the design principles doc itself - referring back to one of the existing principles? [New design principle](https://github.com/w3ctag/design-principles/issues/196) issue opened. 
 
 #### Worked on DR Intro 
 
@@ -230,7 +230,7 @@ We talked through the change and some of the complexity around it. Dan reviewed 
 
 ##### <a href="https://github.com/w3ctag/design-reviews/issues/306">CSS content-visibility property</a>
 
-Rossen: The work is ongoing and getting tracktion with the CSSWG at this point. Since its oppening the issue has moved away from Dsplay Locking and into content-visibility. There isn't a dedicated explainer anymore. 
+Rossen: The work is ongoing and getting traction with the CSSWG at this point. Since its opening the issue has moved away from Display Locking and into content-visibility. There isn't a dedicated explainer anymore. 
 
 Kenneth: Where did `hidden-matchable` go; it looks like it was needed to address use case (2).
 
@@ -240,7 +240,7 @@ Rossen: definitely
 
 Rossen: display locking parts are split into 3 design reviews now, right?
 
-Kenneth: core idea was to solve effcient performance of list views / virtual scrollers.
+Kenneth: core idea was to solve efficient performance of list views / virtual scrollers.
 
 Rossen: also a lot of feedback on a11y.
 
@@ -282,7 +282,7 @@ As an early-stage review, we're not expecting a full spec at this point.  But we
 
 ##### <a href="https://github.com/w3ctag/design-principles/issues/137">Best practices for feature detection in JavaScript</a>
 
-David: Some pages might care if a feature is supported vs is a given hardward available. Such detection isn't adding entropy in general is useful.
+David: Some pages might care if a feature is supported vs is a given hardware available. Such detection isn't adding entropy in general is useful.
 
 David made [a PR](https://github.com/w3ctag/design-principles/pull/201) to clarify that but there's still more to do on this issue.
 
@@ -300,50 +300,50 @@ Present: Rossen, Tess, Peter, Dan, Kenneth, David, Yves
 
 15a:
 
-Tess: we look at the imperitave shadow down dist api - we think it's good to go. \
+Tess: we look at the imperative shadow dom dist api - we think it's good to go. \
 
 [consensus recorded]
 
 ... SIMD review - they asked us to hold off
 
-... guidance on ineretance between contexts - interesting - policites inheret between contexts differently. Spec authors have to come up with their own way to do it each time- how do we encourgae people to converge. There was a path forward written up based on sesion at TPAC last year. so... ken & I think what makes sense is to wait for change to HTML - then we can add some simple guidance that points to that.
+... guidance on inheritance between contexts - interesting - policies inherit between contexts differently. Spec authors have to come up with their own way to do it each time- how do we encourage people to converge. There was a path forward written up based on session at TPAC last year. so... ken & I think what makes sense is to wait for change to HTML - then we can add some simple guidance that points to that.
 
 ... Foldables CSS - we are proposing to close it. 
 
-[conesensus recorded]
+[consensus recorded]
 
 15b:
 
 Dan: Screen capture API - propose close or could bump to future call...
 
-Tess: reasoable [to close]
+Tess: reasonable [to close]
 
 
 Dan: PR on Design Principles - new title "Web Platform Design Principles" - [consensus on this] - 
 
 15c:
 
-David: all design-principles breaout - we spent most of the time on media independence - I have [a PR up](https://github.com/w3ctag/design-principles/pull/198) to add that principle. 
+David: all design-principles breakout - we spent most of the time on media independence - I have [a PR up](https://github.com/w3ctag/design-principles/pull/198) to add that principle. 
 
 ... we closed Design Principles issue #186.
 
 16a: 
 
-Tess: all of the open issues on S&P questionnaire - we closed geogencing issue - triaged rest of them. One we should hold off on until some related work happens.  We then looked at 3 different PRs on the design principles document. [Device enumeration](https://cryptpad.w3ctag.org/bounce/#https%3A%2F%2Fgithub.com%2Fw3ctag%2Fdesign-principles%2Fissues%2F180) - dan reviewed and approved.  Can we land it?
+Tess: all of the open issues on S&P questionnaire - we closed geofencing issue - triaged rest of them. One we should hold off on until some related work happens.  We then looked at 3 different PRs on the design principles document. [Device enumeration](https://cryptpad.w3ctag.org/bounce/#https%3A%2F%2Fgithub.com%2Fw3ctag%2Fdesign-principles%2Fissues%2F180) - Dan reviewed and approved.  Can we land it?
 
 [consensus to approve]
 
-... Dan's change to name and abstract - we fixed a syntax - will wait for sangwhan.
+... Dan's change to name and abstract - we fixed a syntax - will wait for Sangwhan.
 
 ... [Adding guidance on when to use which IDL string type](https://github.com/w3ctag/design-principles/issues/199)...  Anne made a comment I should address.  I will try to address his issue and we can land it in slot B mini plenary.  
 
 16b: 
 
-Rossen: we looked at 3 issues - we closed 2 of them. Css content visibility - this is part 1 of 3 of which used to be display locking.  The work is healthy and ongoing with CSS working group.  Healthy discussion for htis feature. In closing comments we suggested this work continues there and they update the expainer to match the spec. **closed**
+Rossen: we looked at 3 issues - we closed 2 of them. CSS content visibility - this is part 1 of 3 of which used to be display locking.  The work is healthy and ongoing with CSS working group.  Healthy discussion for this feature. In closing comments we suggested this work continues there and they update the explainer to match the spec. **closed**
 
-... other one we looked at was file handling... similarly as an early darft all the issues raised were addressed - we want it to be out of WICG. **closed**
+... other one we looked at was file handling... similarly as an early draft all the issues raised were addressed - we want it to be out of WICG. **closed**
 
-... best practices for feature detection - David made [a PR](https://github.com/w3ctag/design-principles/pull/201) that differentiates ... don't think it's complete yet but this PR will move us closer to the end goal.  We may want to link this to the device enumeration section - if your detection is about hardware then look at this other section...  [rossen adds issue].  
+... best practices for feature detection - David made [a PR](https://github.com/w3ctag/design-principles/pull/201) that differentiates ... don't think it's complete yet but this PR will move us closer to the end goal.  We may want to link this to the device enumeration section - if your detection is about hardware then look at this other section...  [Rossen adds issue].  
 
 ... We didn't get to last one which was about handing device / sensor to dedicated workers...
 
@@ -372,7 +372,7 @@ Alice reviewed two open PRs which each fall under this umbrella issue, and Tess 
 * <a href="https://github.com/w3ctag/design-principles/issues/190">add several HTML Design Principles related to interoperability</a>
 * <a href="https://github.com/w3ctag/design-principles/issues/198">Add section on supporting the range of devices and platforms.</a>
 
-##### <a href="https://github.com/w3ctag/design-principles/issues/169">add a section describing what should be in html versus css versus javascript (the separation of concerns)</a>
+##### <a href="https://github.com/w3ctag/design-principles/issues/169">add a section describing what should be in HTML versus CSS versus JavaScript (the separation of concerns)</a>
 
 Ran out of time and didn't get to this.
 
@@ -413,7 +413,7 @@ David added a comment about one thing that was confusing
 
 ##### <a href="https://github.com/w3ctag/design-reviews/issues/370">WebHID API (Human Interface Device)</a>
 
-Pending feedback, but we didn't comment in their repo or @ them, Sangwhan is opening issues in their repo, and we'll revist in one month.
+Pending feedback, but we didn't comment in their repo or @ them, Sangwhan is opening issues in their repo, and we'll revisit in one month.
 
 Still have concerns about API layering here, this in principle builds on WebUSB and Bluetooth and is related to gamepad, but all are unrelated interfaces.
 
@@ -490,9 +490,9 @@ Rossen: Yes, everything else is an error.
 
 Peter: other general statements: exceptions should not be used for 'normal' control flow, but rather reserved for exceptional situations.
 
-Rossen: Agreed. Given that exceptions are way smaller subset of failure modes, we should try and define what they are and suggest that everything esle is most likely an error.
+Rossen: Agreed. Given that exceptions are way smaller subset of failure modes, we should try and define what they are and suggest that everything else is most likely an error.
 
-... Anything that prevents a member to complete its intended functionallity with a normal failure mode is an exception. Examples are invalid input or invalid context.
+... Anything that prevents a member to complete its intended functionality with a normal failure mode is an exception. Examples are invalid input or invalid context.
 
 Peter: It is unfortunate that the recommendation will not be backwards consistent but it is a good start and hopefully will help future API.
 
@@ -500,7 +500,7 @@ Rossen: OK, I'll start a PR most likely against section 5 or 7.4 in the design p
 
 Post breakout notes from Peter: 
 1) we should also give some advice about how to return errors,  e.g. it the API is expected to return an object and there's a single failure mode, return `null`, if there are multiple failure modes that the caller needs to know about, either return an array with multiple values, or a single object that contains the successful result and/or error information (we should probably favor a pattern, personally I find APIs that return `null` and then have other methods to fetch error data annoying). An example of the latter approach is Fetch.
-2) We should give examples of APIs that follow our guidance, and historical APIs that don't, and how they 'should' have been designed following this advice. An example of something that throws which should have returned `null` is getUserMedia() (return null when camera unavailable, throw if invalid contraints were passed).
+2) We should give examples of APIs that follow our guidance, and historical APIs that don't, and how they 'should' have been designed following this advice. An example of something that throws which should have returned `null` is getUserMedia() (return null when camera unavailable, throw if invalid constraints were passed).
 
 ### Break **00:45 - 01:00 UTC**
 
@@ -512,7 +512,7 @@ Tess: Looked at the "HTML Design Principles" umbrella issue - used time to revie
 
 #### 17b readout - Rossen & David
 
-David: We had a list of design principles issues... Domenic had been sceptical on one of them, we agreed and decided to close without change.
+David: We had a list of design principles issues... Domenic had been skeptical on one of them, we agreed and decided to close without change.
 
 ... Skipped the "no dataloss by default" issues, seems too in the weeds for now.
 
