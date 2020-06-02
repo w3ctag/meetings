@@ -7,6 +7,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 ### Plenary Session - [2020-06-03](https://www.timeanddate.com/worldclock/converter.html?iso=20200603T050000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
 * review from f2f
+* [s&p questionnaire pull request](https://github.com/w3ctag/security-questionnaire/pull/81)
 * land PRs on [design principles](https://github.com/w3ctag/design-principles/pulls)
 * [miniapp URI Scheeme](https://github.com/w3ctag/design-reviews/issues/478)
 * Issue Triage
