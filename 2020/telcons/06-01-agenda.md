@@ -9,7 +9,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * review from f2f
 * [s&p questionnaire pull request](https://github.com/w3ctag/security-questionnaire/pull/81)
 * land PRs on [design principles](https://github.com/w3ctag/design-principles/pulls)
-* [miniapp URI Scheeme](https://github.com/w3ctag/design-reviews/issues/478)
+* [miniapp URI Scheme](https://github.com/w3ctag/design-reviews/issues/478)
 * Issue Triage
 
 ### Logistics
