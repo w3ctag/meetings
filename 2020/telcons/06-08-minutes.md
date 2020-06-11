@@ -54,7 +54,7 @@ Peter: We can push this to next week.
 #### [HTML Modules](https://github.com/w3ctag/design-reviews/issues/334) - @cynthia, @dbaron, @kenchris
 
 Tess: I think we should just close this. Work on HTML modules is pending on the issues TC39 is working on, ES module attributes I think was the name. 
-We should close for now with a note to comback once ready. 
+We should close for now with a note to come back once ready. 
 
 Rossen: All modules or HTML only?
 
@@ -72,7 +72,7 @@ Tess: Great, I'll write the note.
 
 David: I think there may be a number of issues from the vf2f that aren't assigned to milestones. 
 
-Peter: Sounds good, I'll go ahead and go thrgouh making sure they do. We have 23 issues without milestones.
+Peter: Sounds good, I'll go ahead and go through making sure they do. We have 23 issues without milestones.
 
 Tess: If anyone wants to review these PRs that'd be great: https://github.com/w3ctag/process/pulls
 
@@ -118,11 +118,11 @@ Rossen: "Defining animatable style..." also looks interesting, but it's just han
 
 #### [Declarative Shadow DOM](https://github.com/w3ctag/design-reviews/issues/494) - @hober, @alice, @kenchris, @plinss
 
-Alice: The one major issue is involving sending a lot of boilerplate content. Ex. shadow DOM conent being created by UA compared to custom element needs to "hydrate". They imagine the shadow dom content (inside the template) will be different every time. Suggested they find out if this is really true. Mason asked how they would go about finding it out. Ans: we don't know. 
+Alice: The one major issue is involving sending a lot of boilerplate content. Ex. shadow DOM content being created by UA compared to custom element needs to "hydrate". They imagine the shadow DOM content (inside the template) will be different every time. Suggested they find out if this is really true. Mason asked how they would go about finding it out. Ans: we don't know. 
 
 Peter: Seems like it wouldn't be hard to create a hybrid approach with custom element inside template.
 
-Alice: Having nested shadow dom is a problem becuase IDs can't be used from the light dom. Also, what happens if you define a templete shadow root and have the contents of it be referenced by another template that hasn't been processed yet. That's a pretty odd use of idref.
+Alice: Having nested shadow DOM is a problem because IDs can't be used from the light DOM. Also, what happens if you define a template shadow root and have the contents of it be referenced by another template that hasn't been processed yet. That's a pretty odd use of idref.
 
 ... Then Tess had a question about closed shadow roots. 
 
@@ -136,13 +136,13 @@ Peter: it is bad if it does serialize.
 
 Alice: If you do server side rendering you'll have access to all shadow roots. 
 
-Peter: If you do `element.innerHTML` you'll get no shadow roots uless you pass the parameter asking about it. So the server can generate a document that contains the closed shadow roots.
+Peter: If you do `element.innerHTML` you'll get no shadow roots unless you pass the parameter asking about it. So the server can generate a document that contains the closed shadow roots.
 ... Is there a security implication of the server side being able to fetch() and get all closed shadow root?
 
 Tess: It is as possible as before, so nothing new should be possible.
 
-Alice: `<template shadowroot="open" shadowrootdelegatesfocus>`, we thought this was odd from usage point of view if there will be more options to `attachShadow()`. Proposed use of token list e.g. `shadowrootoptions="delegatesfocus anotherbool someotherbool"`. The response was that ... slot assignement and we have to have all the bool parameters as one parameter and the rest as different attributes. 
-... I'm inclined to say that since there aren't any other argumentes, it's a bit prematrue to suggest combining the other non-existent things.
+Alice: `<template shadowroot="open" shadowrootdelegatesfocus>`, we thought this was odd from usage point of view if there will be more options to `attachShadow()`. Proposed use of token list e.g. `shadowrootoptions="delegatesfocus anotherbool someotherbool"`. The response was that ... slot assignment and we have to have all the bool parameters as one parameter and the rest as different attributes. 
+... I'm inclined to say that since there aren't any other arguments, it's a bit premature to suggest combining the other non-existent things.
 
 Tess: SGTM
 
@@ -150,12 +150,12 @@ Peter: The only other way would be serializing to JSON etc.
 
 Tess: At this point we really [shouldn't be adding new microsyntaxes to HTML](https://github.com/w3ctag/design-principles/issues/213).
 
-Alice: Last issue is - not allowing streaming into shadow root contents. Anyting that has the style of `<my-app>` with a shadow root, nothing will show up until the entire document is parsed.
+Alice: Last issue is - not allowing streaming into shadow root contents. Anything that has the style of `<my-app>` with a shadow root, nothing will show up until the entire document is parsed.
 ... (reading issue response). Bottom line, it's more difficult the implement. Once we see if/how this is causing issues to users there could be an option added allowing streaming. It seems quite reasonable to me.
 
 Peter: Right, but it seems this will push even more complexity to the users.
 
-David: What would be broken if implementations could do it either way and let it be a quality of impl issue?
+David: What would be broken if implementations could do it either way and let it be a quality of implementation issue?
 
 Peter: Guessing, one issue is scripts can be broken. 
 
@@ -272,7 +272,7 @@ Regrets: Hadley, Sangwhan
 
 Tess: breakout A - talked about html modules issue...  we hadn't looked since the f2f. we pushed both out a week. on html modules, we closed it.  [closes]  we also talked about PRs from the f2f.
 
-Tess: breakout B - screen enumeration - had marked pending ext feedback, and we got some feedback and it looks good but no conclusion. TTML2 - we talked about it and it's assigned to hadley and tess. I'm gonna ping hadley and see if she wants to look at it in the next month.  talked about declarative shadow dom.  Stuck on the design decision around streaming... way that it works relative to other elements is weird.  we gave feedback, they replied... rough consensus was that streaming should be the default. feature detection issues... we didn't make a concrete proposal yet.
+Tess: breakout B - screen enumeration - had marked pending ext feedback, and we got some feedback and it looks good but no conclusion. TTML2 - we talked about it and it's assigned to Hadley and Tess. I'm gonna ping Hadley and see if she wants to look at it in the next month.  talked about declarative shadow DOM.  Stuck on the design decision around streaming... way that it works relative to other elements is weird.  we gave feedback, they replied... rough consensus was that streaming should be the default. feature detection issues... we didn't make a concrete proposal yet.
 
 Alice: I left a comment.
 
@@ -280,7 +280,7 @@ Ken: breakout C - cookie store API - we gave feedback - they responded to feedba
 
 Dan: discussed miniapps
 
-David: do we want to have a plenary discussion about this with sangwhan?
+David: do we want to have a plenary discussion about this with Sangwhan?
 
 Dan: let's try to schedule it - 
 
@@ -328,7 +328,7 @@ Tess: so we can remove the unused tagdocs repo
 
 #### Self-check PR: [Revise questions 2.1, 2.2, and 2.3 for ease of understanding.](https://github.com/w3ctag/security-questionnaire/pull/90)
 
-Tess: trying to shorten, simplify, make document more accessibile.  Don't think we can land it but please look at this change...
+Tess: trying to shorten, simplify, make document more accessible.  Don't think we can land it but please look at this change...
 
 Dan: be sensitive that this is joint 
 
