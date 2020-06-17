@@ -70,15 +70,15 @@ Kenneth: this is only script isolation
 
 Dan: have they been receptive to the comments?
 
-Kenneth: yes, we even got a comment from Domenic explaining how this differes from the other knobs
+Kenneth: yes, we even got a comment from Domenic explaining how this differs from the other knobs
 
 ...: filing iframes so they don't have direct document access
 
 Ken: Dominic suggested disallowdocumentaccess... 
 
-Tess: don't dislike "disallowdocumentaccess" name - i have a cocnern "too many knobs" that tweak too many distinct but related things when it comes to iframes. I worry about the overall cognitive burden on developers. It's not an issue with this proposal - it's a big picture issue. On this specific issue I think they've ended up in a good place, but as the TAG we should step back and do a holistic review of all the ways authors have to tweak iframe capabilities and restrictions - and suggest a way to simplify or consolodate.  It could be that there are 2 knobs that are distinct but the use cases could be satisified by one.
+Tess: don't dislike "disallowdocumentaccess" name - i have a concern "too many knobs" that tweak too many distinct but related things when it comes to iframes. I worry about the overall cognitive burden on developers. It's not an issue with this proposal - it's a big picture issue. On this specific issue I think they've ended up in a good place, but as the TAG we should step back and do a holistic review of all the ways authors have to tweak iframe capabilities and restrictions - and suggest a way to simplify or consolidate.  It could be that there are 2 knobs that are distinct but the use cases could be satisfied by one.
 
-Dan : this is exactly what we should be doing as the TAG. how do we capture this in an issue? Is there anything we could take out of that that could help thsee people in this case? If not, maybe we should close this off.
+Dan : this is exactly what we should be doing as the TAG. how do we capture this in an issue? Is there anything we could take out of that that could help these people in this case? If not, maybe we should close this off.
 
 Tess: I'll file a design review issue.
 
@@ -88,25 +88,25 @@ Tess, Kenneth: okay
 
 #### [Client-side video editing (MediaBlob)](https://github.com/w3ctag/design-reviews/issues/514) - @cynthia, @kenchris, @atanassov
 
-Ken: there is overlap between this and web codecs.  I have been following discussions on blinkdev - looking at this API, for me it seems nice. This seems like a good API. but it was pointed out on blinkdev that these are not the most common use cases. But a comment people have given is that it doesn't scale.
+Ken: there is overlap between this and web codecs.  I have been following discussions on blink-dev - looking at this API, for me it seems nice. This seems like a good API. but it was pointed out on blink-dev that these are not the most common use cases. But a comment people have given is that it doesn't scale.
 
 Tess: the lesson from that is layering. This captures common use cases and those should be easy. If it can be defined in terms of the lower level stuff then that's good.  If the convenient stuff works for you then great.
 
-Rossen: it does hit and address the most common cases which are ~80% of what people need. WHere the strggle that comes out - it was one of the issues that was raised - one of the main weaknesses of the API is splicing differently encoded and different types of media... This API becomes lossy for that.  It will have to renormalize to something that loses the original quality. On the flip side, from experiments that [MS] team has run with real media, they have run a number of partner use case verifications and the results were overwhelmingly positive. Today this is very painful. In the most common use cases - e.g. trimming a video, it helps.
+Rossen: it does hit and address the most common cases which are ~80% of what people need. Where the strggle that comes out - it was one of the issues that was raised - one of the main weaknesses of the API is splicing differently encoded and different types of media... This API becomes lossy for that.  It will have to renormalize to something that loses the original quality. On the flip side, from experiments that [MS] team has run with real media, they have run a number of partner use case verifications and the results were overwhelmingly positive. Today this is very painful. In the most common use cases - e.g. trimming a video, it helps.
 
 Ken: would it be possible to show a slider with frames?
 
-Rossen: scribing?  I think this is capable through video element and API. the point is what happens next. Today you send it back to the server. There are some JS libraries that have perforamance cliffs.  As a general principle, I'm aligned to what Tess said about reducing developer pain.
+Rossen: scribing?  I think this is capable through video element and API. the point is what happens next. Today you send it back to the server. There are some JS libraries that have performance cliffs.  As a general principle, I'm aligned to what Tess said about reducing developer pain.
 
 Ken: some examples missing for how to tie this together with playback.  Seems like something very separate from playback.  As it's supposed to be simple, some examples of how to tie it together with playback would be useful.
 
-Rossen: yes, the main selling point is ergonomics. Showcasing an end-to-end authoring case would be good. I will add the commment.  Push a couple weeks?
+Rossen: yes, the main selling point is ergonomics. Showcasing an end-to-end authoring case would be good. I will add the comment.  Push a couple weeks?
 
 Ken: OK
 
 #### [Record and Tuple ECMAScript Proposal](https://github.com/w3ctag/design-reviews/issues/518) - @hober, @kenchris
 
-Tess: before this was raised as a design review with us, I raised this with idl and webidl... Both of those are being looked at.  I think that's going fine.  It will may result in one of them being renamed. If youhave a webidl interface that accepts a webidl record, one of these ecmascript records would work - so that might be fine.  Overall I think it's great.
+Tess: before this was raised as a design review with us, I raised this with idl and webidl... Both of those are being looked at.  I think that's going fine.  It will may result in one of them being renamed. If you have a webidl interface that accepts a webidl record, one of these ECMAScript records would work - so that might be fine.  Overall I think it's great.
 
 Ken: Yeah. I agree, looks great. At some point, spec authors would want to know what to use in their specs.
 
@@ -114,13 +114,13 @@ Tess: I think the open issues on webidl will cover that.
 
 Ken: maybe we should update the design principle.
 
-Tess: a lot of good browser vendor representation in tc39 but it's often people not as familiar with webidl.
+Tess: a lot of good browser vendor representation in TC39 but it's often people not as familiar with webidl.
 
 Dan: can we close this?  
 
 Ken: I think we need to right a good answer to them. 
 
-[tess to write a closing comment]
+[Tess to write a closing comment]
 
 #### [design principles pulls?](https://github.com/w3ctag/design-principles/pulls)
 
@@ -199,7 +199,7 @@ Alice: Looks pretty good, the illustrations help.  Would be nice to see each val
 
 Rossen/Peter: history.
 
-Alice: Looks good to me, but makes me sad we can't fix the default.  Maybe explainer should say?  Maybe I'll ask in the issue even though I have know thet answer.  Would be nice to know what would break?
+Alice: Looks good to me, but makes me sad we can't fix the default.  Maybe explainer should say?  Maybe I'll ask in the issue even though I have know the answer.  Would be nice to know what would break?
 
 Peter: Some OSes almost always do overlay scrollbars and sidestep the issue.
 
@@ -237,9 +237,9 @@ Rossen: ... anything engines do by default today?
 
 Alice: I think we stop animated GIFs.
 
-Alice: That's a good question.  Chromium has code that looks at that setting other than the code that exposes it to `(prefers-reduced-motion)` media query, but I don't remmebr what that code does.
+Alice: That's a good question.  Chromium has code that looks at that setting other than the code that exposes it to `(prefers-reduced-motion)` media query, but I don't remember what that code does.
 
-Rossen: If you don't do anything as the author, beides GIFs, sounds like nothing else stops animating.
+Rossen: If you don't do anything as the author, besides GIFs, sounds like nothing else stops animating.
 
 Alice: I'd have to check -- don't remember.
 
@@ -247,9 +247,9 @@ Rossen: Does WebKit or Safari do more?
 
 Tess: I'd have to ask James.
 
-Peter: Woul be interesting to have users have to opt in to animations, rather than opt out and hoping the authors respect their choice.  Is there a middle ground, not switching off all forms of animation by default?  Or are there subtle ones that are more ok?
+Peter: Would be interesting to have users have to opt in to animations, rather than opt out and hoping the authors respect their choice.  Is there a middle ground, not switching off all forms of animation by default?  Or are there subtle ones that are more ok?
 
-Rossen: I wanted to see how much of the behavior can/should be forced onto the content.  I can see a path forward where something like prefrs-reduced-motion can throttle everything down by 50%, slow down timers, etc.  Make it to the point where authors will have incentive to pay attention to it.
+Rossen: I wanted to see how much of the behavior can/should be forced onto the content.  I can see a path forward where something like prefers-reduced-motion can throttle everything down by 50%, slow down timers, etc.  Make it to the point where authors will have incentive to pay attention to it.
 
 Rossen: Or you can go further -- I can see UAs going and being more forceful and stopping more than animated GIFs.
 
@@ -261,7 +261,7 @@ Peter: Could slow things down into ranges that trigger epilepsy, could be danger
 
 Alice: Questions:
 1. What should the default behavior be given that the default should respect the setting and not require authors to opt in?
-2. Whose responsibility is it to figure out what the defaul tshould be and how do they do that?
+2. Whose responsibility is it to figure out what the default should be and how do they do that?
 
 Alice: Do you shut off animation by default?  That could cause problems as well?
 
@@ -309,9 +309,9 @@ Rossen: +1.
 
 Sangwhan: I'm totally OK with this. it's very webrtc specific - it's a minor change. i don't see why we should say no to this.  The best explanation is it's mpeg-dash for webrtc audio streams...
 
-Yves: one of the main issues - they're defining something network related in the encoding... but they provided explanation of why they needed to do it there - can't change the settings ont he connection metadata. So for them this is the easiest way and it actually makes sense. No security & privacy things added. Minor change that makes sense. Not at the ideal place but most convenient place.  We should say "go ahead" and close it.
+Yves: one of the main issues - they're defining something network related in the encoding... but they provided explanation of why they needed to do it there - can't change the settings on the connection metadata. So for them this is the easiest way and it actually makes sense. No security & privacy things added. Minor change that makes sense. Not at the ideal place but most convenient place.  We should say "go ahead" and close it.
 
-Alice: i care about audio quality of video calls - how wil this effect user experience?
+Alice: i care about audio quality of video calls - how will this effect user experience?
 
 Sangwhan: it will make it lower quality in exchange for less choppy.
 
@@ -331,15 +331,15 @@ Yves: media types, parameters - they want to be able to figure out its a mini ap
 
 Sangwhan: a miniapp URL is a miniapp:// a miniapp url has a dereferencing process... can be re-written into a HTTPS url so becomes a web URL.  Effectively a https url in a different format.
 
-Dan: could we encouage them to merge this with a general web app lifecycle document (so encompassing both PWAs and miniapps).
+Dan: could we encourage them to merge this with a general web app lifecycle document (so encompassing both PWAs and miniapps).
 
-Sahgwhan: [web app lifecycle doc](https://wicg.github.io/page-lifecycle/) exists...
+Sangwhan: [web app lifecycle doc](https://wicg.github.io/page-lifecycle/) exists...
 
-Dan: looks like it hasn't been touched since sept 2019.
+Dan: looks like it hasn't been touched since Sept 2019.
 
 Dan: we need to ensure the coherence of the web platform.
 
-Dan: [we decided to author a miniapps feedback document to encompass feedback on miniapps URL, miniapps lifecycle and miniapps mainfest]
+Dan: [we decided to author a miniapps feedback document to encompass feedback on miniapps URL, miniapps lifecycle and miniapps manifest]
 
 Dan: we could try to ship them some feedback next week.
 
