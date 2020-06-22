@@ -40,7 +40,7 @@ Chair: Peter
 
 Scribe:
 
-Bridge: https://meet.jit.si/w3ctag first then going to https://whereby.com/w3ctag as a back-up
+Bridge: https://whereby.com/w3ctag first then going to https://meet.jit.si/w3ctag as a back-up
 
 * Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
