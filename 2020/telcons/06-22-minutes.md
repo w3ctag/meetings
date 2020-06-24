@@ -51,7 +51,7 @@ Peter: marked proposed closing..
 
 Dan: (reading issue replies) ... 
 
-David: what people use writable ones for in the wild... what is the existing set of writabel vs 
+David: what people use writable ones for in the wild... what is the existing set of writable vs 
 
 Ken: you can make them read-only and that's what would use in a commercial deployment
 
@@ -59,37 +59,37 @@ Ken: you can make them read-only and that's what would use in a commercial deplo
 
 Dan: Reasonably happy with the answers. Should be more discussion in the privacy section.
 
-David: the other concern we have is whether the permission prompts are adeuqate. The concern is that there are a set of things out there that support reading and writing NDEF - some of those are things like Yubikeys (which you can read the currnet one-time-code from).  Yubikeys themselves are blocked but what about other yubikey-like things. Not clear that this explains those risks to the user in a way that is adaquate. We've disagreed on this but we should mention that again if we're going to close it.
+David: the other concern we have is whether the permission prompts are adequate. The concern is that there are a set of things out there that support reading and writing NDEF - some of those are things like Yubikeys (which you can read the current one-time-code from).  Yubikeys themselves are blocked but what about other Yubikey-like things. Not clear that this explains those risks to the user in a way that is adequate. We've disagreed on this but we should mention that again if we're going to close it.
 
 Dan: we should be erring on the side of more rigorous prompts.
 
 Ken: you can prompt each time... i discussed that with the chrome team they said they didn't want to do that. Whenever it's reading you see a prompt...  So we have a semi-permanent prompt.
 
-David: the other question is whether more prompts would help.  The udnerlying concern is you don't know what the devices are that support NFC so you can't explain the risk to an end user in a prompt.
+David: the other question is whether more prompts would help.  The underlying concern is you don't know what the devices are that support NFC so you can't explain the risk to an end user in a prompt.
 
 Ken: like that for many things
 
-David: the assumption on native is you're trusing the app but on the web you can go visit a web site and there is not the same assumption of trust.
+David: the assumption on native is you're trusting the app but on the web you can go visit a web site and there is not the same assumption of trust.
 
 Ken: examples of linux system ...
 
 Ken: i was suggesting an active "scanning" visual indication that something is going on and is temporary.  Very user-visible.  And at any time you can hit cancel.  I like that approach.  I see a use case where this won't be useful - scanning multiple - and that might require a different prompt. Having said that NDEF is inherently supposed to be like post-it notes... so this issue will always be there...
 
-Rossen: seems like if we need to be proscriptive about UI ...
+Rossen: seems like if we need to be prescriptive about UI ...
 
 (discussion of Dan's proposed comment)
 
 David: distinction from camera API is that yes, there are security risks to a photo with your environment, but it's also not a distinction about technical expertise where users who aren't technical enough to know what NFC is don't understand what data are sent.
 
-Rossen: I keep running thru this example in my head of what prompting could look like - some parallles with geoloc - where you are still prvoding personal info ... The common UI is "the web site wants to use this service .  Allow/disallow" one time decision... If I draw a parallel with this one the problem is that geoloc data is very uniform. And the contract between you and that website is a ... obviously the data is changing but the same kind of data. Here, the data could be anything.
+Rossen: I keep running thru this example in my head of what prompting could look like - some parallels with geoloc - where you are still providing personal info ... The common UI is "the web site wants to use this service .  Allow/disallow" one time decision... If I draw a parallel with this one the problem is that geoloc data is very uniform. And the contract between you and that website is a ... obviously the data is changing but the same kind of data. Here, the data could be anything.
 
-Ken: but you have to phsycally take the phone and scan something.
+Ken: but you have to physically take the phone and scan something.
 
 Rossen: i could boobytrap my store with all kinds of tags.
 
 Ken: but you need to be within 5cm.. the phone needs to be unlocked. the screen needs to be on. Sometimes with geoloc you have the option of "always allow for this website" - so now if similar pattern was adopted for WebNFC that to me sounds concerning. Is this a good parallel to draw?
 
-Ken: to come back to my idea of indicator - the example of how that is done is to say "now I am scanning" and you can't do anything on your phone until that is scanned. So that mitigages this idea - it can't be scanning in the background.  In some cases (e.g. a game with lots of tags) it can't work... but there can be another option for that.
+Ken: to come back to my idea of indicator - the example of how that is done is to say "now I am scanning" and you can't do anything on your phone until that is scanned. So that mitigates this idea - it can't be scanning in the background.  In some cases (e.g. a game with lots of tags) it can't work... but there can be another option for that.
 
 Dan: I propose I leave this comment and we talk about closing at the plenary.  We can leave further comments, and we might have to mark as closed with no consensus.
 
@@ -101,13 +101,13 @@ Rossen: summarizing... the issue was looked at by myself and Tess... during one 
 
 David: I read the replies - it makes sense. 
 
-Dan: I can ping hadley about it.
+Dan: I can ping Hadley about it.
 
 #### [WebAssembly SIMD review](https://github.com/w3ctag/design-reviews/issues/487) - @hober, @kenchris
 
 Peter: updated explainer...  Missing Tess. Should we defer this to another breakout?
 
-Ken: I'm fine with it. It's web assembly only. Designed in a way that works across architectures... So I think it's pretty well designed.  Heavily used in codecs, gamed, machine learning. It would be sad not having access to this on the web I think.  Tess said should we have this on javascript - some performance issues with that. It is specialized but for people that use WA it makes a lot of sense.  I don't see anything wrong with the propsal.
+Ken: I'm fine with it. It's web assembly only. Designed in a way that works across architectures... So I think it's pretty well designed.  Heavily used in codecs, gamed, machine learning. It would be sad not having access to this on the web I think.  Tess said should we have this on javascript - some performance issues with that. It is specialized but for people that use WA it makes a lot of sense.  I don't see anything wrong with the proposal.
 
 Peter: marks as proposed closed - and let's close it at the plenary.
 
@@ -144,7 +144,7 @@ Peter: Anchor == 3d point in space. It can be used to associate a given model wi
 
 Alice: If this is really a term of art in 3d I understand but it's still better if they can come up with any other name.
 
-All: discussion on what and how anchorSpce, pose and anchor all relate to eachother.
+All: discussion on what and how anchorSpace, pose and anchor all relate to each other.
 
 Peter: It will be good to request better example code and use case that readers can visualize and understand for themselves. Alice, can you add comment?
 
@@ -165,7 +165,7 @@ David: Was trying to encourage getting issues filed against HTML and CSS. https:
 
 Peter: Chris is saying the color on the web CG will file issues as they find them.
 
-David: I think we decided last time we were happy to close this, encouraging the CG to file issues on the relevant WGs sooner rather than lter.
+David: I think we decided last time we were happy to close this, encouraging the CG to file issues on the relevant WGs sooner rather than later.
 
 Rossen: We discussed figuring out how we can do color contrast in terms of computed values... can we create a Typed OM color object to easily answer some of these questions. Lea mentioned some kind of color space agnostic color object. They are working on trying to release as a library soon-ish.
 
@@ -189,7 +189,7 @@ dbaron: Possible closing comment:
 
 #### [Declarative Shadow DOM](https://github.com/w3ctag/design-reviews/issues/494) - @hober, @alice, @kenchris, @plinss
 
-Alice: The last sticking point was about streaming. We tried to ask for steraming being the default right away or not at all. Mason agreed that that will be a reasonable default and made arguments about being heigh implementation cost especially not seeing it used in practice. I'm somewhat sympathetic to this. Further, no other engines have indicated any interest in implementing it.
+Alice: The last sticking point was about streaming. We tried to ask for streaming being the default right away or not at all. Mason agreed that that will be a reasonable default and made arguments about being high implementation cost especially not seeing it used in practice. I'm somewhat sympathetic to this. Further, no other engines have indicated any interest in implementing it.
 
 Peter: I'm willing to accept that. We can be happy with a design that says "it's impl choice" but at least the design should be "streaming by default" and hope impls can make that happen later.
 
@@ -214,17 +214,17 @@ Sangwhan: tricky - leaning towards option 1
 
 Alice: that was my gut instinct as well
 
-Sangwhan: it feels like we dom't know the exact usage patterns of an href in a mathml context well enough.  
+Sangwhan: it feels like we don't know the exact usage patterns of an href in a mathml context well enough.  
 
 Alice: what would be the downside of option 1?
 
 Sangwhan: people may not like it...
 
-Alcie: they can wrap it - put an a-tag around the number.
+Alice: they can wrap it - put an a-tag around the number.
 
 Sangwhan: option 3 is very unlikely to happen.
 
-Yves: are matml elements considered as a block or not?  
+Yves: are mathml elements considered as a block or not?  
 
 Sangwhan: that's a big meta-question. Are components of mathml text-y or SVG-y ...? not sure it matters.
 
@@ -248,7 +248,7 @@ Sangwhan: this is one example but  doesn't demonstrate anything that touches on 
 
 Alice: all leaf nodes.
 
-Sangwhan: yes.  If you think of hwo href behaves in the web - it does not work only on bottom level leaf nodes.  I don't think this (example) alone defines a representative usage pattern...
+Sangwhan: yes.  If you think of how href behaves in the web - it does not work only on bottom level leaf nodes.  I don't think this (example) alone defines a representative usage pattern...
 
 Alice: if i put an A around a ... will it mess up the rendering?
 
@@ -260,7 +260,7 @@ Alice: not clear the value you get from it...
 
 Alice: I can leave that feedback.
 
-Alice: the stuff that we've defered they were wondering if we had opinions.. If we can see any obvious "foot guns". If they do want to add custom elements later on and shadow dom have they done anything to make that not possible?
+Alice: the stuff that we've deferred they were wondering if we had opinions.. If we can see any obvious "foot guns". If they do want to add custom elements later on and shadow dom have they done anything to make that not possible?
 
 Alice: .. scrolling through integration to web platform section .. 
 
@@ -329,7 +329,7 @@ Dan: **Blink shipping process**... need to punt, still waiting for more info.
 
 ##### Breakout B
 
-Alice: **Dom overlay module** punted to next week. **WebXR Anchors** - some comments left for them on the explainers.  might want to update the explainer explainer based on their feedback.  Other comment we left was use of the term active space - not defined. They said "it should be clear if you read the webxr spec" and we think it should be defined in the explaienr. We discussed it a bunch and I asked some questions - an anchor is a set of coordinates in reference to an object in another space. The use case - you've got an object and you want to put other objects on top of it so when you move it, the other objects move with it - and that object can be a real world object [AR].  Use case is simple.  We need to schedule a chat about what a good explainer looks like.
+Alice: **Dom overlay module** punted to next week. **WebXR Anchors** - some comments left for them on the explainers.  might want to update the explainer explainer based on their feedback.  Other comment we left was use of the term active space - not defined. They said "it should be clear if you read the webxr spec" and we think it should be defined in the explainer. We discussed it a bunch and I asked some questions - an anchor is a set of coordinates in reference to an object in another space. The use case - you've got an object and you want to put other objects on top of it so when you move it, the other objects move with it - and that object can be a real world object [AR].  Use case is simple.  We need to schedule a chat about what a good explainer looks like.
 
 Peter: i *do* like having IDL in explainers.
 
@@ -347,13 +347,13 @@ Alice: **on declarative shadowdom** the last sticking point was stream - we felt
 
 ##### Breakout C
 
-Alice: **mathml core** we left a comment saying this looks good - and we're going to propose closing. Brian responded with 2 questions - 1 is "do we feel the issues they deferred can be deferred" - couldn't immediately figure out what those were but i remember it was largely around how mathml elements interact with shadowdom and custom elements. I commented it makes sense to defer those - because you want to have a good think about the use cases.  So yep.  Second question was how links could embedded in mathml. Brian had [given 3 options](https://github.com/w3ctag/design-reviews/issues/438#issuecomment-640917806) - 1 is don't have links for now... Sangwhan noted he's leaning towards don't include links just put html inside mathml tags. [Another comment](https://github.com/w3ctag/design-reviews/issues/438#issuecomment-644412830) came with some examples, but didn't make the range of use cases clear. So we left [a comment](https://github.com/w3ctag/design-reviews/issues/438#issuecomment-648004081) - so we liked the first option the best and we thought if they wanted to pursue one of the other two options it would reuqire additional research.
+Alice: **mathml core** we left a comment saying this looks good - and we're going to propose closing. Brian responded with 2 questions - 1 is "do we feel the issues they deferred can be deferred" - couldn't immediately figure out what those were but i remember it was largely around how mathml elements interact with shadowdom and custom elements. I commented it makes sense to defer those - because you want to have a good think about the use cases.  So yep.  Second question was how links could embedded in mathml. Brian had [given 3 options](https://github.com/w3ctag/design-reviews/issues/438#issuecomment-640917806) - 1 is don't have links for now... Sangwhan noted he's leaning towards don't include links just put html inside mathml tags. [Another comment](https://github.com/w3ctag/design-reviews/issues/438#issuecomment-644412830) came with some examples, but didn't make the range of use cases clear. So we left [a comment](https://github.com/w3ctag/design-reviews/issues/438#issuecomment-648004081) - so we liked the first option the best and we thought if they wanted to pursue one of the other two options it would require additional research.
 
 Peter: anything with an href comes from back when this was xml ..
 
 David: I think like linking a variable in a formula to something is not that unusual a thing to want.  In wikipedia - if you have an equation with the gravitational constant in it you might want to link the "G" to an article about the gravitational constant.
 
-Alice: Brian suggests you can embed HTML - so that is what we were going off.  It seemed implied that you can only embed it at the left node level so a variable would be fine. [Brian did respond](https://github.com/w3ctag/design-reviews/issues/438#issuecomment-648157757). Yves gave another exampe - quadratic formula.  Sangwhan [also commented](https://github.com/w3ctag/design-reviews/issues/438#issuecomment-648861529) suggesting something like an image map...
+Alice: Brian suggests you can embed HTML - so that is what we were going off.  It seemed implied that you can only embed it at the left node level so a variable would be fine. [Brian did respond](https://github.com/w3ctag/design-reviews/issues/438#issuecomment-648157757). Yves gave another example - quadratic formula.  Sangwhan [also commented](https://github.com/w3ctag/design-reviews/issues/438#issuecomment-648861529) suggesting something like an image map...
 
 Peter: feels like there is still one open issue here. 
 
