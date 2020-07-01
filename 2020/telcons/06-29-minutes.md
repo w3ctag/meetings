@@ -43,11 +43,11 @@ Dan: Whats the latest?
 
 Ken: improved on the security section of the spec.
 
-[reviewng latest comment from Zoltan]
+[reviewing latest comment from Zoltan]
 
 David: I think he said "no x cannot happen" a bunch of times to things that can happen. 
 
-Tess: I agree with david.
+Tess: I agree with David.
 
 Dan: I agree. 
 
@@ -82,9 +82,9 @@ Given all issues have been address to our satisfaction, closing the review.
 
 Yves: I was a bit concerned that there is already a CSP reporting - so many instead of creating a new header, reuse it?
 
-Peter: there are other reporting APIs as well.  we gave them feedback - as long as it's separate, I'm Ok with it being a new header.  hpkp has the same thing.
+Peter: there are other reporting APIs as well.  we gave them feedback - as long as it's separate, I'm OK with it being a new header.  HPKP has the same thing.
 
-Yves: that's just at the http level, not a JS API
+Yves: that's just at the HTTP level, not a JS API
 
 Peter: true.  The point of this header isn't to generate a report...
 
@@ -100,11 +100,11 @@ Tess: what is the relationship between this reporting API and the reporting API 
 
 Yves: that also uses structured headers... so could be a good match.
 
-Peter: it's not just the fact you want to report but you want to get a report as if the cross-origin policy is on.  You need to have a report-only mode. You could put is a switch in the one header and not haev 2 headers... Useful to have reports one way or the other... 
+Peter: it's not just the fact you want to report but you want to get a report as if the cross-origin policy is on.  You need to have a report-only mode. You could put is a switch in the one header and not have 2 headers... Useful to have reports one way or the other... 
 
 Yves: related to secure context as well...
 
-David: [sumarizing] opting into a stricter model so browsers can have better guarantees about site isolation - because of SPECTRE.
+David: [summarizing] opting into a stricter model so browsers can have better guarantees about site isolation - because of SPECTRE.
 
 
 ### Breakout B (US / APAC) - [2020-06-29](https://www.timeanddate.com/worldclock/converter.html?iso=20200629T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
@@ -118,13 +118,13 @@ Regrets:
 
 Alice: Only remaining issue is what to do with links. Brian gave us 3 options. 
 1. Punt for now
-2. chose a safe list for href - more in line with the original design of mathML
+2. chose a safe list for href - more in line with the original design of MathML
 3. add an `ma` element similar to link.
 
 ... we like option 1 since we don't know what the uses cases really are and that will give us time for arrive at the best solution for the long run.
 
 Brian: My preference as well. Not the CG preference, but certainly mine. Being forward looking this seems to be the best option at hand and too many unknowns. 
-... There is lots of excisting content using links and we need it for backwards compat.
+... There is lots of existing content using links and we need it for backwards compat.
 
 Peter: Existing content is in XML?
 
@@ -135,7 +135,7 @@ Alice: The MathJax stuff is not super relevant? Because it generates html?
 Brian: Yes and SVG too. A lot of folks have XML and all they need to do is change their mapping and regen.
 
 Alice: So in summary, Punt for now seems the best option and the one we all agree on?
-(summarizes more unknown behavious - various modality of click etc.)
+(summarizes more unknown behaviours - various modality of click etc.)
 
 Tess: The idea behind Html.... was to fire the href on the element. 
 
@@ -149,7 +149,7 @@ Alice: Because it breaks formatting?
 
 Brian: Yes and it is weird. 
 
-Tess: Is that any worse than a `tr`? The goal isn't to make any arbitrary HTML work isnide MathML, but, make MarhML as capable as HTML in terms of links at least.
+Tess: Is that any worse than a `tr`? The goal isn't to make any arbitrary HTML work inside MathML, but, make MathML as capable as HTML in terms of links at least.
 
 Peter: Any use cases where an entire row is supposed to be a link?
 
@@ -176,7 +176,7 @@ Brian: Right! This is definitely a use case that we're tracking and want to make
 
 Brian: What about Sangwhan's comment?
 
-Alice: (summarizes Sanghwan's comment)
+Alice: (summarizes Sangwhan's comment)
 
 Brian: Honestly, don't understand the comment. I will ask for more details.
 
@@ -195,7 +195,7 @@ Alice: Perhaps not. We should continue working with the MathML folks and see if 
 
 ... (more discussion about Peter's example) Seems to work in Firefox...
 
-Brian: I suppose the question still is - can we try to document what's happening with Firefox and seemengly Safari or go with option 1? FWIW, the CG is interested in the TAG's opinion.
+Brian: I suppose the question still is - can we try to document what's happening with Firefox and seemingly Safari or go with option 1? FWIW, the CG is interested in the TAG's opinion.
 
 Rossen: Would they be OK with Option 1?
 
@@ -228,9 +228,9 @@ Tess: Sure, we will summarize and recommend in the issue.
 Brian: Having two shipping impls makes it difficult.
 
 Alice: Yes, and unshipping is difficult. Also, we don't lose much by delaying a concrete specification.
-... also, it will be imprortant whether implementers are willing to remove the existing behavior of `href`, or else we'll still have to deal with the disadvantages of it in the future.
+... also, it will be important whether implementers are willing to remove the existing behavior of `href`, or else we'll still have to deal with the disadvantages of it in the future.
 
-Tess: Have we asked if unshipping the current `href` beharior is something implementers would do?
+Tess: Have we asked if unshipping the current `href` behavior is something implementers would do?
 
 Brian: Not formally. Happy to go ask around.
 
@@ -342,7 +342,7 @@ Sangwhan: Our closing comments were that we as a group are fine with this, but i
 
 Dan: So, miniapps. We reinforced the comments we had during Fukuoka, we talked about the context and conflict/incompatibility different technologies in the web platform. The gist is to not make a parallel web; we specifically mentioned that multiple manifest files are not desirable during our statement in Fukuoka. Also there is URI, and lifecycle which have similar issues.
 
-... As for Jeff's commments, I think the passive tone bit is something that originates from me; should we change it to be more specific?
+... As for Jeff's comments, I think the passive tone bit is something that originates from me; should we change it to be more specific?
 
 (Discussion on Miniapp feedback)
 
