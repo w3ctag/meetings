@@ -12,6 +12,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Can we use `media` in WebNFC?](https://github.com/w3ctag/design-principles/issues/140) - @hober
 * [Proliferation of manifests at W3C](https://github.com/w3ctag/design-principles/issues/148) - @torgo, @kenchris
 * [add a principle on "no dataloss by default"](https://github.com/w3ctag/design-principles/issues/172) - @dbaron
+* Security & Privacy PRs & Issues
 
 ### Breakout B (US / APAC) - [2020-07-06](https://www.timeanddate.com/worldclock/converter.html?iso=20200706T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
