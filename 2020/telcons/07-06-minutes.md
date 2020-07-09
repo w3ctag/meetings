@@ -426,6 +426,6 @@ Alice: Style guide.
 
 #### Issue Triage
 
-Triaging new issues 530, 531, 532, 533
+Triaging new issues [530](https://github.com/w3ctag/design-reviews/issues/530), [531](https://github.com/w3ctag/design-reviews/issues/531), [532](https://github.com/w3ctag/design-reviews/issues/532), [533](https://github.com/w3ctag/design-reviews/issues/533)
 
 
