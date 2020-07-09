@@ -75,9 +75,9 @@ Rossen: Ship it!
 
 #### [Can we use `media` in WebNFC?](https://github.com/w3ctag/design-principles/issues/140) - @hober
 
-Tess: I think this is a mismatch in terminology between two different communities. In the NFC world they use the world media type for what in the web world we call a mime type. So anne's request to the webnfc people was to call it mime type instead of media type. WebNFC people are concerned NFC people wil be confused. Anne's concern is the other way around. I think it's a straightforward problem that arises in APIs that straddle communities.  I worry about the web... i would prefer it to match to the rest of the web stack. Even more, nobody should die on this hill. 
+Tess: I think this is a mismatch in terminology between two different communities. In the NFC world they use the world media type for what in the web world we call a mime type. So anne's request to the webnfc people was to call it mime type instead of media type. WebNFC people are concerned NFC people will be confused. Anne's concern is the other way around. I think it's a straightforward problem that arises in APIs that straddle communities.  I worry about the web... i would prefer it to match to the rest of the web stack. Even more, nobody should die on this hill. 
 
-Dan: I agree with your view Tess that we should look at it from a web developer perspective.  Teh webnfc API is not for NFC developers to use the web. It's for web developers to use NFC.
+Dan: I agree with your view Tess that we should look at it from a web developer perspective.  The webnfc API is not for NFC developers to use the web. It's for web developers to use NFC.
 
 Tess: yes.
 
@@ -99,9 +99,9 @@ Rossen: if you look at Elika said on this topic:
 
 Rossen: this one is very presentation-oriented ... we have principles on CSS so this fits well. 
 
-Tess: it says "data loss" but the description is very CSS focused and making sure the page is visible to the user. Using data loss is confusing because web has APIs where data is transfered. IndexDB e.g. Current titling of this doesn't fit for the API cases. I would prefer it to say something like "content needs to be accessible to users" that would imply something about CSS and more. The current title suggests to me that IndexedDB shouldn't have a "delete this database" call.
+Tess: it says "data loss" but the description is very CSS focused and making sure the page is visible to the user. Using data loss is confusing because web has APIs where data is transferred. IndexedDB e.g. Current titling of this doesn't fit for the API cases. I would prefer it to say something like "content needs to be accessible to users" that would imply something about CSS and more. The current title suggests to me that IndexedDB shouldn't have a "delete this database" call.
 
-Rossen: I had similar reactions. This is about presentation - mostly visual presntation and layout. You can an author can make something accessible to a screen that isn't visible to a print media. So I agree with what Tess said. If we specify anything it shouldn't be worded as "data loss" - rather accessibility or something similar though that may be too narrow.  On the flipside to extrapolate beyond CSS I don't know if there's going to be an easy principle. Network, strage, etc... APis. 
+Rossen: I had similar reactions. This is about presentation - mostly visual presentation and layout. You can an author can make something accessible to a screen that isn't visible to a print media. So I agree with what Tess said. If we specify anything it shouldn't be worded as "data loss" - rather accessibility or something similar though that may be too narrow.  On the flip side to extrapolate beyond CSS I don't know if there's going to be an easy principle. Network, storage, etc... APIs. 
 
 Tess: as far as taking a stab at writing a PR should probably be David.
 
@@ -228,7 +228,7 @@ Tess: We have this project to move the HTML design principles into our design pr
 
 .. It's popular in terms of people citing it, but there's some controversy about its value/correctness.
 
-Alice: a problem here is that "semantic" is poorly defined.  (in "strikes a balance between semantic expressiveness and practical usefulness".)  A bunch of elements like `section` etc. that don't come with any default presentation or emantics that are useful to users.  I'm familiar with uses for assistive tech, maybe other uses for non-presentational use of HTML.  I'm not sure what "semantic" is trying to mean here.  I don't think vast majority of HTML and CSS authors understand what "semantic" means in this context.  And they don't experience semantics other than visual presentation and interactivity.
+Alice: a problem here is that "semantic" is poorly defined.  (in "strikes a balance between semantic expressiveness and practical usefulness".)  A bunch of elements like `section` etc. that don't come with any default presentation or semantics that are useful to users.  I'm familiar with uses for assistive tech, maybe other uses for non-presentational use of HTML.  I'm not sure what "semantic" is trying to mean here.  I don't think vast majority of HTML and CSS authors understand what "semantic" means in this context.  And they don't experience semantics other than visual presentation and interactivity.
 
 Tess: e.g., with the argument about the outline algorithm, browsers don't surface results of running the outline algorithm.  Users see that headings are a different size.  A user of AT does get to navigate by headings.
 
@@ -298,7 +298,7 @@ Sangwhan: will wait until Alice's PR lands to work on a PR on this.
 
 ...discussion on this issue... and agreement on Sheppy's comment](https://github.com/w3ctag/design-principles/issues/116#issuecomment-635401864).
 
-Sangwhan: general object serialization is a missing featue of TC39 [ecmascript] rather than the web. JSON cannot be extended at this stage to accomodate all the new [cases]. If the object can be represented in JSON and it can be reconstructed... it uses the same serialization provided by the object.... No interface declaration... 
+Sangwhan: general object serialization is a missing feature of TC39 [ecmascript] rather than the web. JSON cannot be extended at this stage to accommodate all the new [cases]. If the object can be represented in JSON and it can be reconstructed... it uses the same serialization provided by the object.... No interface declaration... 
 
 Dan: shall we punt this to TC39?
 
@@ -312,7 +312,7 @@ Sangwhan: we've promoted promises in some cases beyond where it makes sense.  "y
 
 Dan: to the exclusion on when you should use sync?
 
-Dangwhan: yes there is no guidance on when you should use sync - maybe there should be a small section on that?
+Sangwhan: yes there is no guidance on when you should use sync - maybe there should be a small section on that?
 
 Ken: like property [setting]? Some of these things are simple and just return a value.
 
@@ -324,7 +324,7 @@ Sangwhan: [writes the text live and sends PR]().
 
 Sangwhan: So APIs are debuggable. But it makes sense for things like CSS.
 
-Dan: so we could say something like "new features should be debuggable"... shoudn't that be part of the extensible web promise?  Are there good examples of this we could point to?
+Dan: so we could say something like "new features should be debuggable"... shouldn't that be part of the extensible web promise?  Are there good examples of this we could point to?
 
 Alice: person who filed the issue mentioned the web animations spec as a good example.  And they go on to list flexbox as a negative example.
 
@@ -342,7 +342,7 @@ Yves: related to http mime types...
 
 [discussing Dominic's comment]
 
-Yves: in th case of AVIF do we want to do decoding in JavaScript (using `fetch`) or do you want to do it in a native way or in that case use `<video>`
+Yves: in the case of AVIF do we want to do decoding in JavaScript (using `fetch`) or do you want to do it in a native way or in that case use `<video>`
 
 Sangwhan: design principles... does it fit here? not a API surface...
 
@@ -354,7 +354,7 @@ Sangwhan: this  is a bigger PR...  There has been no documented history of how w
 
 Dan: could we crowd-source the work on discovering these things to the rest of the TAG?  
 
-Sangwhan: Github issues here...
+Sangwhan: GitHub issues here...
 
 #### readability
 
@@ -370,13 +370,13 @@ Regrets:
 
 ##### Breakout A
 
-Tess: We closed 2 issues related to manifests because the PR had already landed and addresses both issues. We defered talking about webidl partial. We talked about the issue around JSON-lD. I took an action to write a PR. I filed a follow-up issues. 2-3 issues tangled up here. One is that the JSON-LD specs use WEBIDL but don't expect to be used in browsers. 2nd one is that when JSON-LD is used in a spec it's unclear if browsers are supposed to manage it as JSON-LD or JSON. And the general principle might be "don't encourage polyglot". We talked about a naming conflict in webnfc. How to reconcile names when there is a naming conflict.  Rossen's PR says to match the web platform naming conventions. We also talked about a new principle - no data lost by default. Then we talked about security & privacy questionnaire issues. 
+Tess: We closed 2 issues related to manifests because the PR had already landed and addresses both issues. We deferred talking about webidl partial. We talked about the issue around JSON-LD. I took an action to write a PR. I filed a follow-up issues. 2-3 issues tangled up here. One is that the JSON-LD specs use WEBIDL but don't expect to be used in browsers. 2nd one is that when JSON-LD is used in a spec it's unclear if browsers are supposed to manage it as JSON-LD or JSON. And the general principle might be "don't encourage polyglot". We talked about a naming conflict in webnfc. How to reconcile names when there is a naming conflict.  Rossen's PR says to match the web platform naming conventions. We also talked about a new principle - no data lost by default. Then we talked about security & privacy questionnaire issues. 
 
-Rossen: ust to add - we did talk a little about data loss in breakout B. David has it as an action.  Also resolved some issues on promises guide.
+Rossen: just to add - we did talk a little about data loss in breakout B. David has it as an action.  Also resolved some issues on promises guide.
 
 ##### Breakout B
 
-Tess: first thing we looked at was no data loss - we also talked about the open PR on API vs feature naming. Plan is to revist after we land Alice's revisions. We talked about partial being a maintainability problem. Peter started some discusison on bikeshed changes.  We talked about how to balance interop vs implementability - Alice took an action to write a PR.  Sangwhan & I will do a breakout. We talked about the separation of concerns. Unclear how to adapt it to the modern world. No actions or next steps yet. 
+Tess: first thing we looked at was no data loss - we also talked about the open PR on API vs feature naming. Plan is to revisit after we land Alice's revisions. We talked about partial being a maintainability problem. Peter started some discussion on bikeshed changes.  We talked about how to balance interop vs implementability - Alice took an action to write a PR.  Sangwhan & I will do a breakout. We talked about the separation of concerns. Unclear how to adapt it to the modern world. No actions or next steps yet. 
 
 Alice: Tess & I to schedule a breakout to brainstorm.
 
@@ -388,7 +388,7 @@ Ken: Non-Privacy related notes on device APIs. Sangwhan to work on that.  We loo
 
 Dan: closed and commented on #116.
 
-Ken: Async vs sync apis - when to use Sync.  Sangwhan wrote a PR.  We talked about APIs should be debugable.  COnsideration and precautions adding new media formats.
+Ken: Async vs sync apis - when to use Sync.  Sangwhan wrote a PR.  We talked about APIs should be debugable.  Consideration and precautions adding new media formats.
 
 Yves: About adding consideration for new media formats.  You have to register media types - also there is a difference between data consumed at the network level vs the JavaScript level. 
 
@@ -402,19 +402,19 @@ Rossen: the doc has a few different things going on. it acts as design guideline
 
 David: I feel it's OK if people skim sections they're not interested in.  They might be working on something very javascripty and not care about the sections on CSS, or vice versa...
 
-Alice: yes, and I feel people should be able to skim the whole thing.  In the styleguide it says to make the main point after the heading.
+Alice: yes, and I feel people should be able to skim the whole thing.  In the style guide it says to make the main point after the heading.
 
-Peter: I wonder if it makese sense to break the doc up - one doc that has a single bullet point for each item and one that has the details.
+Peter: I wonder if it makes sense to break the doc up - one doc that has a single bullet point for each item and one that has the details.
 
 Rossen: like the cheat sheet.
 
-Dan: i'd rather not split it into API and other.. (javascript and everything else...)
+Dan: I'd rather not split it into API and other.. (javascript and everything else...)
 
 Alice: I will make a PR with all the changes - right not it's a list of short snappy recommendations and mini articles.
 
 Peter: take the mini articles and put them in a separate page?
 
-David: counter-argument. It's sometimes useful for people to see how much material there is on each topic.  If you take all the bigthigns and move them into separate docs it could give the reverse impression.
+David: counter-argument. It's sometimes useful for people to see how much material there is on each topic.  If you take all the big things and move them into separate docs it could give the reverse impression.
 
 Alice: My plan is that we review each PR as it is.  I will make a not-for-review PR so you can see the whole thing.
 
