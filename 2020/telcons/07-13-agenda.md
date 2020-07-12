@@ -12,6 +12,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Cross-origin opener policy reporting API](https://github.com/w3ctag/design-reviews/issues/527) - @torgo, @ylafon, @plinss, @atanassov
 * [WebXR Layers](https://github.com/w3ctag/design-reviews/issues/528) - @torgo, @atanassov
 * [Geolocation API](https://github.com/w3ctag/design-reviews/issues/529) - @torgo, @plinss
+* [Security & Privacy PRs](https://github.com/w3ctag/security-questionnaire/pulls)
 
 ### Breakout B (US / APAC) - [2020-07-13](https://www.timeanddate.com/worldclock/converter.html?iso=20200713T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
