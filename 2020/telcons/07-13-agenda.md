@@ -6,26 +6,29 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (Europe / US) - [2020-07-13](https://www.timeanddate.com/worldclock/converter.html?iso=20200713T160000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
-### Breakout B (US / APAC) - [2020-07-13](https://www.timeanddate.com/worldclock/converter.html?iso=20200713T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
-
-### Breakout C (APAC / Europe) - [2020-07-14](https://www.timeanddate.com/worldclock/converter.html?iso=20200714T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
-
-### Plenary Session - [2020-07-15](https://www.timeanddate.com/worldclock/converter.html?iso=20200715T050000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
-
-* [Feature policy evolution](https://github.com/w3ctag/design-reviews/issues/341) - @cynthia, @dbaron
-* [WebHID API (Human Interface Device)](https://github.com/w3ctag/design-reviews/issues/370) - @cynthia
 * [Timed Text Markup Language (TTML2) 2nd Edition](https://github.com/w3ctag/design-reviews/issues/432) - @hober, @hadleybeeman
-* [MathML Core](https://github.com/w3ctag/design-reviews/issues/438) - @alice, @torgo, @hadleybeeman
 * [Web NFC](https://github.com/w3ctag/design-reviews/issues/461) - @dbaron, @torgo
-* [WebXR DOM Overlay Module](https://github.com/w3ctag/design-reviews/issues/470) - @hober, @alice, @torgo
-* [making the "total" field optional in PaymentRequest API](https://github.com/w3ctag/design-reviews/issues/512) - @hober, @cynthia, @kenchris
-* [Client-side video editing (MediaBlob)](https://github.com/w3ctag/design-reviews/issues/514) - @cynthia, @kenchris, @atanassov
 * [Blink Shipping Process](https://github.com/w3ctag/design-reviews/issues/516) - @torgo
-* [Scroll-linked Animations](https://github.com/w3ctag/design-reviews/issues/521) - @hober, @alice, @dbaron, @atanassov
-* [CSS color-mix function](https://github.com/w3ctag/design-reviews/issues/526) - @alice, @dbaron, @atanassov
 * [Cross-origin opener policy reporting API](https://github.com/w3ctag/design-reviews/issues/527) - @torgo, @ylafon, @plinss, @atanassov
 * [WebXR Layers](https://github.com/w3ctag/design-reviews/issues/528) - @torgo, @atanassov
 * [Geolocation API](https://github.com/w3ctag/design-reviews/issues/529) - @torgo, @plinss
+
+### Breakout B (US / APAC) - [2020-07-13](https://www.timeanddate.com/worldclock/converter.html?iso=20200713T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+
+* [Feature policy evolution](https://github.com/w3ctag/design-reviews/issues/341) - @cynthia, @dbaron
+* [WebXR DOM Overlay Module](https://github.com/w3ctag/design-reviews/issues/470) - @hober, @alice, @torgo
+* [making the "total" field optional in PaymentRequest API](https://github.com/w3ctag/design-reviews/issues/512) - @hober, @cynthia, @kenchris
+* [Scroll-linked Animations](https://github.com/w3ctag/design-reviews/issues/521) - @hober, @alice, @dbaron, @atanassov
+* [CSS color-mix function](https://github.com/w3ctag/design-reviews/issues/526) - @alice, @dbaron, @atanassov
+
+### Breakout C (APAC / Europe) - [2020-07-14](https://www.timeanddate.com/worldclock/converter.html?iso=20200714T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+
+* [WebHID API (Human Interface Device)](https://github.com/w3ctag/design-reviews/issues/370) - @cynthia
+* [MathML Core](https://github.com/w3ctag/design-reviews/issues/438) - @alice, @torgo, @hadleybeeman
+* [Client-side video editing (MediaBlob)](https://github.com/w3ctag/design-reviews/issues/514) - @cynthia, @kenchris, @atanassov
+
+### Plenary Session - [2020-07-15](https://www.timeanddate.com/worldclock/converter.html?iso=20200715T050000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+
 
 * Breakout Rollup
 * Issue Triage
@@ -42,8 +45,7 @@ Bridge: https://meet.jit.si/w3ctag first then going to https://whereby.com/w3cta
 
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2020/telcons/07-13-minutes.md
 
-Raw minutes: ...
-
+Raw minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/-md61JtrXTfctno2Em3gl42a3bpU3P+YGfE86jCd6LY/ (read-only link)
 
 ### Local Call Times
 
