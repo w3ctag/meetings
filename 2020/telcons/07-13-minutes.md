@@ -39,13 +39,13 @@ Regrets: Rossen, Yves
 
 #### [Timed Text Markup Language (TTML2) 2nd Edition](https://github.com/w3ctag/design-reviews/issues/432) - @hober, @hadleybeeman
 
-Hadley: having looked at the change history - it's a small incremental change on their part. They are pinging the TAG for horizontal review.  The deadline may have lapsed. There are symantic changes and syntactic changes. I don't see issues with either.  I think this is isolated to TTML2. They do remove XML base...
+Hadley: having looked at the change history - it's a small incremental change on their part. They are pinging the TAG for horizontal review.  The deadline may have lapsed. There are semantic changes and syntactic changes. I don't see issues with either.  I think this is isolated to TTML2. They do remove XML base...
 
 Tess: As an HTML person that sounds good.
 
 Hadley: I feel comfortable greenlighting this.
 
-Tess: The only places I can think of - edge had a subset but with the chromum adoption might be moot The 2nd is no browser that I know of implements but a bunch of fairly big sites use IMSC1, a profile of ttml. BBC uses this.  Don't know that profile is tracking this change.   DOn't know if they've done the due dil.
+Tess: The only places I can think of - edge had a subset but with the chromium adoption might be moot The 2nd is no browser that I know of implements but a bunch of fairly big sites use IMSC1, a profile of TTML. BBC uses this.  Don't know that profile is tracking this change.   Don't know if they've done the due diligence.
 
 Hadley: my guess would be that the group has done it.
 
@@ -191,11 +191,11 @@ Sangwhan: I read the feedback. I am unconvinced that there is no way to mitigate
 
 Dan: I support.  I think web APIs should not allow for unsanctioned tracking.
 
-Sangwhan: Even making it more uncomfortable - e.g. making the user re-allow permissions - would siginfigantly change things.  If the user is asked for HID permission for e.g. Reddit then they might know something fishy is going on.  Anything that makes it annoying to do this practice of cross-origin communication.
+Sangwhan: Even making it more uncomfortable - e.g. making the user re-allow permissions - would significantly change things.  If the user is asked for HID permission for e.g. Reddit then they might know something fishy is going on.  Anything that makes it annoying to do this practice of cross-origin communication.
 
 Dan: what is the argument about only allowing one origin?
 
-Sangwhan: i think there is a valid use case but it's not a commmon one.  
+Sangwhan: i think there is a valid use case but it's not a common one.  
 
 Hadley: what's the use case?
 
@@ -203,13 +203,13 @@ Sangwhan: one example: music controllers.  E.g. drum machine - on native you can
 
 Dan: That sounds like the web midi API....In in our Security and Privacy checklist, it asks things like "does the utility of the thing outweigh the risk?" One corner case maybe doesn't happen on the web then?
 
-Sangwhan: maybe something you have to explicitly opt in for it...  There may be valid use cases...  Default should be signle origin exclusive access.
+Sangwhan: maybe something you have to explicitly opt in for it...  There may be valid use cases...  Default should be single origin exclusive access.
 
 Ken: then you can see if people actually request this other feature...
 
 Sangwhan: when you switch tabs and go to a new device you don't just magically get access... I will have a chat with the spec author.
 
-Ken: I could imagine playign a game , a chat window opens, and then you lose the connection...
+Ken: I could imagine playing a game , a chat window opens, and then you lose the connection...
 
 Sangwhan: [will take offline]
 
@@ -248,11 +248,11 @@ Dan: We're not the ones controlling the code base. We could issue a recommendati
 
 Sangwhan: ...that we already rushed out MathML and that's why interop is hard now. Maybe take it step-by-step and try to do it better this time. It's not interoperable right now. Safari, Chrome and firefox already have three different implementations. Not good.
 
-Dan: Could we favour option 1 becasue there isn't enough concensus about the right answer? and if you ship anything other than that, make sure people know it's an experimental feature and not part of the spec?
+Dan: Could we favour option 1 because there isn't enough consensus about the right answer? and if you ship anything other than that, make sure people know it's an experimental feature and not part of the spec?
 
 Alice: but it's been shipping for decades. This is the thing, why they had to do this project so carefully. there is all this MathML out there, all edge-case-y and fragile. Do we break all that? What's the cost of that? Can we get the browser vendors that are shipping MathML to buy into unshipping it and breaking all of that content? 
 
-...Possibly shadow DOM is the most compelling reason. I linked in my comment to a discussion they were already having. Attaching shadow roots depending on whther there was an href. But that's funky, right? So maybe we should say for future compatibility with shadow DOM, option 1 is a very neutral option, and doesn't lock you into requring special rules. Option 3 might be one possible future direction once we understand the use cases more fully — but it might be a good idea to revisit the use cases, and see if a more nuanced design can be reached. This does mean a lot of existing mathML won't work in chrome and will stop working in other implementations. That is regrettable, but — it will be trivial to write a little polyfill that at least repairs the functionality for leaf nodes. 
+...Possibly shadow DOM is the most compelling reason. I linked in my comment to a discussion they were already having. Attaching shadow roots depending on whether there was an href. But that's funky, right? So maybe we should say for future compatibility with shadow DOM, option 1 is a very neutral option, and doesn't lock you into requiring special rules. Option 3 might be one possible future direction once we understand the use cases more fully — but it might be a good idea to revisit the use cases, and see if a more nuanced design can be reached. This does mean a lot of existing MathML won't work in chrome and will stop working in other implementations. That is regrettable, but — it will be trivial to write a little polyfill that at least repairs the functionality for leaf nodes. 
 
 Hadley: it feels like we need the working group to figure it out.  I'm hearing the wg's work doesn't have buy-in from all the implementers. We could come up with a solution but we aren't the right people.
 
@@ -262,30 +262,30 @@ Hadley: both of those problems feel to me -
 
 Alice: they've discussed it at length and that's why they asked us.
 
-Hadley: our response should be: this is us operating in a perfect world vacuum but we feel like the implemeneters, authors and developers ideally should reach consensus.  Our job should be to help them set bounderies.  Feel this shouldn't be out respnsibility.
+Hadley: our response should be: this is us operating in a perfect world vacuum but we feel like the implementers, authors and developers ideally should reach consensus.  Our job should be to help them set boundaries.  Feel this shouldn't be out responsibility.
 
 Alice: what flavour of advice would be appropriate?
 
 Hadley: level you were talking about is fine. Adding a line or 2 about how all of these points of view should come from implementers, browsers, authors, developers.. we are proxying for them. means that we encourage the WG think about bringing these views to the table.
 
-Alice: value of option 1 is that it doesn't require extra work but gives you the capability to add links - and is future proofs; option 3 can be disregarded - can come later as an add on. Option 2 rules out option 1 and makes option 3 moot but it has the value of being backwards compatable. 
+Alice: value of option 1 is that it doesn't require extra work but gives you the capability to add links - and is future proofs; option 3 can be disregarded - can come later as an add on. Option 2 rules out option 1 and makes option 3 moot but it has the value of being backwards compatible. 
 
 Hadley: maybe share that feedback.
 
-Dan: I feel like our response should lean towards option 1. And then see what happens in the implementation and content space and revist.
+Dan: I feel like our response should lean towards option 1. And then see what happens in the implementation and content space and revisit.
 
 Hadley: ... close to the way you do things in [html] content ...
 
 Alice: option 2 is the href on every mathml element...
 
-Alice: [on option 1] simplicity, doesn't put you in an awkward position re shadow roots, and it does put you in a position to come up with a more nuanced solutuon re: sangwhan's point.
+Alice: [on option 1] simplicity, doesn't put you in an awkward position re shadow roots, and it does put you in a position to come up with a more nuanced solution re: sangwhan's point.
 
-Dan: I will come up with a proposed closing comment based on our discussion that we can agreeon at the plenary call.
+Dan: I will come up with a proposed closing comment based on our discussion that we can agree on at the plenary call.
 
 
 #### [Client-side video editing (MediaBlob)](https://github.com/w3ctag/design-reviews/issues/514) - @cynthia, @kenchris, @atanassov
 
-Ken: touches on the same area as webcodecs.  They are looking about how to use this on top of web codedc.  Hard dependency.  This API is a more user friendly API running on top of codecs. 
+Ken: touches on the same area as webcodecs.  They are looking about how to use this on top of web codec.  Hard dependency.  This API is a more user friendly API running on top of codecs. 
 
 Ken: propose close
 
@@ -363,7 +363,7 @@ Dan:: **Cross-origin opener policy reporting API** bumped to B and **WebXR Layer
 
 #### Breakout B
 
-Tess: Talked about **Web XR DOM overlay module**. Had another go at reading it, found it to be difficult to read. Presumes the reader knows a lot about XR/VR/AR stuff. Identified some questions, but may have been due to misunderstanging the explainer.
+Tess: Talked about **Web XR DOM overlay module**. Had another go at reading it, found it to be difficult to read. Presumes the reader knows a lot about XR/VR/AR stuff. Identified some questions, but may have been due to misunderstanding the explainer.
 
 ... Skipped **making the "total" field optional** issue.
 
@@ -389,7 +389,7 @@ Dan: yes.
 
 Dan: So, that's math. **Client-side video editing** ... closed this. Why did we close this?
 
-Ken: Based on WebCodecs... simple API, they want that, but everyone is pushing for WebCodecs to be the basis, so they have to re-think the API. They shoudl re-file once they've reworked.
+Ken: Based on WebCodecs... simple API, they want that, but everyone is pushing for WebCodecs to be the basis, so they have to re-think the API. They should re-file once they've reworked.
 
 Rossen: They are pulling out of this per it's current iteration.
 
@@ -397,7 +397,7 @@ Rossen: They are pulling out of this per it's current iteration.
 
 Dan: [MiniApps workshop](https://www.w3.org/2020/07/miniapp-virtual-meeting/) ... some aspects of a workshop e.g. talks, deadlines to register. This meeting will precede any finalized charter recommendation of a new working group for miniapps.
 
-... Members of w3c management team, PLH, Jeff, Wendy S, members of Chinese W3C Team attended - everyone on call was sympathetic to the views that we'd posted in the miniapps document but cautious. Went through the feedback we gave at fukuoka - framed the discussion around the 3 reviews we've been asked to do. URI scheme, manifest, lifecycle. They are looking to charter a working group. If a new WG gets chartered, part of that charter is a new miniapps manifest, that would be a problem as we've already given feedback that they shouldn't make a new manifest type - requirements should be folded into the existing webapps manifest, and we have design principles text saying to avoid adding manifests.
+... Members of w3c management team, PLH, Jeff, Wendy S, members of Chinese W3C Team attended - everyone on call was sympathetic to the views that we'd posted in the miniapps document but cautious. Went through the feedback we gave at Fukuoka - framed the discussion around the 3 reviews we've been asked to do. URI scheme, manifest, lifecycle. They are looking to charter a working group. If a new WG gets chartered, part of that charter is a new miniapps manifest, that would be a problem as we've already given feedback that they shouldn't make a new manifest type - requirements should be folded into the existing webapps manifest, and we have design principles text saying to avoid adding manifests.
 
 ... That would be the clearest example of something we would prefer to avoid with miniapps.
 
