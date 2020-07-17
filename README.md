@@ -16,3 +16,6 @@ The structure of the repo is as follows:
       telcons/  <-- all telconference materials for year
         mm-dd[-topic]-agenda.md
         mm-dd[-topic]-minutes.md
+
+## Code of Conduct
+All TAG meetings and events are subject to the [W3C Code of Ethics and Professional Conduct](https://www.w3.org/Consortium/cepc/).
