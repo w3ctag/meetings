@@ -209,11 +209,11 @@ Dan: I think it only makes sense for one AR session?
 
 Yves: use case would be for sharing a place with someone else... Might be out of scope.
 
-Alice: `XRframCreateAnchor` takes a reference space and a pose. I imagine what you'd need to create a duplicate anchor would be the pose, assuming the same reference space. 
+Alice: `XRFrame.createAnchor` takes a reference space and a pose. I imagine what you'd need to create a duplicate anchor would be the pose, assuming the same reference space. 
 
 Dan: it's worth asking.
 
-Alice: can we give them feedback - investigage what the thought process is when people are writing explainers. We get a lot of explainers that are writing with us as an audience.  In this case the explainer doesn't seem to be written with us as an audience because it's written with knowledge of XR assumed.  It would be interesting to understand - what do they understand the purpose / audience to be?
+Alice: can we give them feedback - investigate what the thought process is when people are writing explainers. We get a lot of explainers that are writing with us as an audience.  In this case the explainer doesn't seem to be written with us as an audience because it's written with knowledge of XR assumed.  It would be interesting to understand - what do they understand the purpose / audience to be?
 
 Dan: we could be more direct. The purpose of the explainer is $this, and the audience is $that. it's in the explainer explainer, as I said to the AC. The audience should be web devs, but those who may not be knowledgeable about your thing. It starts with the user need. This doc could then be adapted to material for this API, like an MDN article. 
 
@@ -240,7 +240,7 @@ Sangwhan: multiple things that describe a viewport... one is generic .. not enou
 
 ... at least one implementer (Apple) has strongly come out against this proposal...
 
-Dan: could we encourage the parties to come together?  Maybe reference SMS receive API as a  good example of this hapening and creating something better and more widely implemented?
+Dan: could we encourage the parties to come together?  Maybe reference SMS receive API as a  good example of this happening and creating something better and more widely implemented?
 
 Sangwhan: will get in touch with Kenneth as well to discuss....
 
@@ -250,13 +250,13 @@ Sangwhan: will get in touch with Kenneth as well to discuss....
 
 Dan: I wonder if David would be happy to close this based on their updates to the explainer? Let's bump to the plenary?
 
-Alice: for accessiblity - it would be interesting if something is stand-alone or full screen thwn you don't have access to the browser UI.
+Alice: for accessibility - it would be interesting if something is stand-alone or full screen thwn you don't have access to the browser UI.
 
 Dan: that's general.
 
 Sangwhan: yes - a general issue that hasn't been touched on.
 
-Alice: it cuts both ways.  I've heard from some screen reader using that thye don't like focus moving nto browser chrome... needs more thought.
+Alice: it cuts both ways.  I've heard from some screen reader using that they don't like focus moving into browser chrome... needs more thought.
 
 Sangwhan: it effects people.  Payments had explicit stuff on what browsers should be able to do.
 
@@ -272,11 +272,11 @@ Hadley & Dan: [express alarm]
 
 [reviewing]
 
-Sangwhan: indexdb has this thing called put - people have been asking for "put many things" - so you have to have a for loop, which blocks. If you have a huge amount of stuff you want to put in and then get an event at the end there is no solution for that. This is one of many things like this. Because of legacy reasons they don't want to move away from an event based architecture (vs async). So I brought that up. The original IDB editor commented. There was an atteempt to try that but it didn't succeed.  
+Sangwhan: IndexedDB has this thing called put - people have been asking for "put many things" - so you have to have a for loop, which blocks. If you have a huge amount of stuff you want to put in and then get an event at the end there is no solution for that. This is one of many things like this. Because of legacy reasons they don't want to move away from an event based architecture (vs async). So I brought that up. The original IDB editor commented. There was an attempt to try that but it didn't succeed.  
 
 Dan: so more to do ... on our side. 
 
-Sangwhan: some archeology.  The naming issue isn't so much of an issue.
+Sangwhan: some archaeology.  The naming issue isn't so much of an issue.
 
 Dan: sounds like a reasonable request...
 
@@ -288,7 +288,7 @@ Sangwhan: yes, it doesn't seem nice [the way it is].
 
 Dan: [reviewing explainer]
 
-Yves: they are using transform streams.. semems good.
+Yves: they are using transform streams.. seems good.
 
 Sangwhan: the pattern stuff is fine, the use cases are fine... does it interact with anything other than WebRTC?  The answer would seem to be no.
 
@@ -318,7 +318,7 @@ Peter: Dan asked us to sign off on the comms document. (all looking at the doc)
 
 Alice: What does "role models for the CEPC" mean?
 
-Tess: Ppl in leadership positions are expected to be excellent examplars and howld themselved to higher standards.
+Tess: People in leadership positions are expected to be excellent exemplars and hold themselves to higher standards.
 
 Peter: ... don't want us to be an example for unexpected behavior "so and so did that on TAG/AB etc."
 
@@ -339,7 +339,7 @@ Peter: I'll leave it for you.
 
 ##### Breakout A
 
-Rossen: It was short due to lots of deffering. 
+Rossen: It was short due to lots of deferring. 
 
 David: The one we didn't defer (#525) needs a dedicated meeting.
 
@@ -359,7 +359,7 @@ Rossen: **Media feeds API**... pretty lengthy discussion.
 
 ... Issue raised by Chris Needham. Feeling during the discussion that this feature is targeting a somewhat narrow use case. At the same time, it's opening a new capability that wasn't exposed previously. Potential impact to security & privacy, mostly driven by the fact that the user agent has the capability to fetch media lists from a given service using user auth, and drive that feature.
 
-... Could we make that more of a push instead of a pull? This was likely discussed on one of the issues on their repo. WE'll raise another issue on github.
+... Could we make that more of a push instead of a pull? This was likely discussed on one of the issues on their repo. We'll raise another issue on GitHub.
 
 ... Feed doesn't accommodate audio-only feeds...
 
@@ -391,15 +391,15 @@ Tess: I can jump in on that.
 
 Alice: Started out talking about **Web Anchors module**.
 
-...You can get a frame of reference relative to an opbject so you can put something in front of or next to an object and have the things move together. I'd asked for examples. The response: You've got this anchor, and the explainer doesn't seem to think it can be shared.
+...You can get a frame of reference relative to an object so you can put something in front of or next to an object and have the things move together. I'd asked for examples. The response: You've got this anchor, and the explainer doesn't seem to think it can be shared.
 
 Yves: I left that feedback
 
 Alice: Long chat about the explainer. And my follow-up feedback: This XR anchor object is just XR space... wondering why we needed anchor objects.  Haven't heard back yet. 
 
-...**Virtual keyboard API**: Initially they wanted an event, and we asked whhy not make it a CSS environment variable. So they added one. But Sanghwan pointed out that visual viewport seems like it would be a more generic solution to that problem. But it hasn't been updated in a while... So the plan was to try at get both teams to talk to one another and figure out if there is a common solution possible.
+...**Virtual keyboard API**: Initially they wanted an event, and we asked why not make it a CSS environment variable. So they added one. But Sangwhan pointed out that visual viewport seems like it would be a more generic solution to that problem. But it hasn't been updated in a while... So the plan was to try at get both teams to talk to one another and figure out if there is a common solution possible.
 
-...**"display_override" field addition to the Web Manifest**: We talked about how this might impact accessibility. Doesn't directly. Purpose of the API is for stand-alone web apps with a manifest. Display types fall back one to the next, but order becomes unclear so they want authors to be able to set the order in the manifest. The accessibility impact is orthogonal, like the impacts of using an web app for full-screen vs in the browser. It can go both ways. Recently heard from a screenreader user re focus moving... which isn't covered in a spec right now. Writing a spec would be tricky. Sanghan pointed out the Payment API had some language on this. Even though we didn't come to consensus on this because we got distracted, it seems like a good candidate for closing. Unless there are objections to the concept?
+...**"display_override" field addition to the Web Manifest**: We talked about how this might impact accessibility. Doesn't directly. Purpose of the API is for stand-alone web apps with a manifest. Display types fall back one to the next, but order becomes unclear so they want authors to be able to set the order in the manifest. The accessibility impact is orthogonal, like the impacts of using an web app for full-screen vs in the browser. It can go both ways. Recently heard from a screenreader user re focus moving... which isn't covered in a spec right now. Writing a spec would be tricky. Sangwhan pointed out the Payment API had some language on this. Even though we didn't come to consensus on this because we got distracted, it seems like a good candidate for closing. Unless there are objections to the concept?
 
 dbaron: Yeah, there was a lot that wasn't clear to me. They've improved the explainer, which is substantially better now. Clearer how they intend this to be used. I'm okay with closing this. 
 
