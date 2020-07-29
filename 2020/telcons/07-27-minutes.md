@@ -52,7 +52,7 @@ Tess: shouldn't they be the same type of Screen object?
 
 Ken: the new things are async, and they want a static snapshot instead of having a live object. Also the current object is sync and permissionless.
 
-Peter: my initial reaction was similar to yours. But now I think navigstor.screen is a mistake. We should deprecate it over time. Maybe the new Screen object should have a similar API surface, but be distinct. I think we should pretend navigator.screen doesn't exist and start over.
+Peter: my initial reaction was similar to yours. But now I think navigator.screen is a mistake. We should deprecate it over time. Maybe the new Screen object should have a similar API surface, but be distinct. I think we should pretend navigator.screen doesn't exist and start over.
 
 David: Do all of the things on the existing screen object even make sense for all screens, or just the main screen? [examples] [spec](https://drafts.csswg.org/cssom-view/#the-screen-interface), [Gecko IDL](https://searchfox.org/mozilla-central/source/dom/webidl/Screen.webidl), [Blink IDL](https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/renderer/core/frame/screen.idl)
 
@@ -87,13 +87,13 @@ Tess: argument for is that they need to be used together to solve the use cases,
 
 Peter: relationship between screens can change over time, but that's not related to this issue. this is the relationship between windows and screens.
 
-Tess: on the one hand, I like reviewing short specs that define one, self-contained feature. On the other hand, I tend to prefer kitchen sink specs (like HTML) over lots of little specs (like CSS). I think it makes editors think through how things are interrelated more. ALl that said, I think this question is ultimately one of editorial discretion. My quirky preferences shouldn't outweigh the preferences of the people actually doing the work.
+Tess: on the one hand, I like reviewing short specs that define one, self-contained feature. On the other hand, I tend to prefer kitchen sink specs (like HTML) over lots of little specs (like CSS). I think it makes editors think through how things are interrelated more. All that said, I think this question is ultimately one of editorial discretion. My quirky preferences shouldn't outweigh the preferences of the people actually doing the work.
 
 Tess: I will take the action item to give the feedback
 
 Tess: issue #29 now, reject promise with permission denial
 
-David: Seems resonable to reject the promise.
+David: Seems reasonable to reject the promise.
 
 Ken: As we suggested deprecating navigator.screen it would be bad if you can not get the main screen without a rejection/permission
 
@@ -211,7 +211,7 @@ Alice: It would be good to get Peter's thoughts on the `do-not-stream=""` attrib
 
 Tess: Code will be written assuming the attribute is a no-op, because it is in the only known implementation.
 
-Alice: Do we want to say the attribute must be provided if only a non-streamining implementation is available?
+Alice: Do we want to say the attribute must be provided if only a non-streaming implementation is available?
 
 Tess: Would be better to say that without that attribute it's just a plain `<template>` that never gets instantiated, if there is no streaming and the `no-streaming` attribute is not provided.
 
@@ -252,11 +252,11 @@ Sangwhan: commenting and bumping
 
 Ken: [updating explainers in issue]
 
-Ken: they added some content to the explainer. Support for CSS environmetal variables that we suggested. 
+Ken: they added some content to the explainer. Support for CSS environmental variables that we suggested. 
 
-Alice: Sangwhan [had commented] it wasn't using visual viewport.  We talked about getting visual viewport and virtual keyboard folks talking to eachother.  [reviews latest comments]  The overlaysContentProperty seems like a good thing to have.  Less clear on what the geometry change event is for.  With the example of the env variable setting the position of the search box and then the event repositions the search box but why would you bother with the code when you could use the env variable.
+Alice: Sangwhan [had commented] it wasn't using visual viewport.  We talked about getting visual viewport and virtual keyboard folks talking to each other.  [reviews latest comments]  The overlaysContentProperty seems like a good thing to have.  Less clear on what the geometry change event is for.  With the example of the env variable setting the position of the search box and then the event repositions the search box but why would you bother with the code when you could use the env variable.
 
-Ken: if you're using a canvas based approach then you would need the API.  At lot of MS Office for exmaple is using Canvas. That should be clarified. 
+Ken: if you're using a canvas based approach then you would need the API.  At lot of MS Office for example is using Canvas. That should be clarified. 
 
 Alice: Sangwhan's comment is asking for a more general solution - the response has been that they don't expect there to be a general API.  This is a suite of features that all work together... Whether there should be a more general solution.. if there's not then an env variable is good to have... They are adding a virtual keyboard event in navigator.  virtual keyboard namespace... now also an event target.  Any other types of events?
 
@@ -264,7 +264,7 @@ Dan: does this fit together with "events are for notifications"? [in design prin
 
 Alice: I think this isn't violating that. 
 
-Alice: `navigator.virtualkeyboard` has one property which is an event listener that gets geomerty change events ... why not just have the geometry available on that instead of having to get it from this event?  I should be able to get the dimensions every time.
+Alice: `navigator.virtualkeyboard` has one property which is an event listener that gets geometry change events ... why not just have the geometry available on that instead of having to get it from this event?  I should be able to get the dimensions every time.
 
 Ken: I think it should have. That is also how we did generic sensor API. The event just notifies that there is new data.  
 
@@ -284,37 +284,37 @@ Sangwhan: picture-in-picture has a similar problem. Payment request as well.
 
 Dan: Some browsers have a "scroll to top" button that brings user to the top of a page - which is overlaid on top of content.
 
-Alice: So it's conveivable we need a general solution. Say we were to generlaize this- the geometrychange event would make sense to generalize. So that would be a collection of "obstruction" rectangles. For each of those you would want to know when it changes... Then would you also want a CSS environment variable for each one?  And would you want to generalize ...
+Alice: So it's conceivable we need a general solution. Say we were to generalize this- the geometrychange event would make sense to generalize. So that would be a collection of "obstruction" rectangles. For each of those you would want to know when it changes... Then would you also want a CSS environment variable for each one?  And would you want to generalize ...
 
 Dan: could we push this to an existing working group?
 
 Sangwhan: CSS might be interested... not sure how to make this work in CSS.
 
-Alice: It's worth noting that there are specific exampels that Sangwhan gave - a set of things that all have these properties of occluding the page.  We feel like there should be a general solution - which means it's tricky to say "go ahead and ship this". 
+Alice: It's worth noting that there are specific examples that Sangwhan gave - a set of things that all have these properties of occluding the page.  We feel like there should be a general solution - which means it's tricky to say "go ahead and ship this". 
 
 Sangwhan: my main concern is that there is a bunch of one-off geometry obstruction notifications. Also one last meta question about API surface. Keyboard is a member of `navigator` but should that be `window`? If you're in one tab and you switch to another then you won't have keyboard open any more...  `navigator` feels overly global. 
 
-Ken: you have it on multiple screens then how's that goinna work?  How does this tie to gether with screen enumeration API?
+Ken: you have it on multiple screens then how's that gonna work?  How does this tie together with screen enumeration API?
 
-Alice: in the last example they give - it has 2 window segmenets - they keyboard pops up and they move the search box without checking which segment the window is on. So even their own example is weird. How could we help them?
+Alice: in the last example they give - it has 2 window segments - they keyboard pops up and they move the search box without checking which segment the window is on. So even their own example is weird. How could we help them?
 
 Sangwhan: we could suggest - visual viewport.
 
 Ken: with dual screens it's considered one viewport.   If you have a different screen..  
 
-Sangwhan: or something completely new...   Maybe this should be 2 specs rather than one. The obstructions should be a seperate spec from keyboard.
+Sangwhan: or something completely new...   Maybe this should be 2 specs rather than one. The obstructions should be a separate spec from keyboard.
 
 Alice: yes - what is keyboard only?
 
 Sangwhan: i think just geometry change should be generalised.
 
-Alice: Not sure I agree. We've got a bunch of CSS variables that give you the same info as the bounding rect on the event that we think should be in it.  In any case envornment variables are going to be useful. You're going to need to get the bounds and when the geometry has changed. The only thing that doesn't need to be generalised is when the virtual keyboard changes the viewport height?
+Alice: Not sure I agree. We've got a bunch of CSS variables that give you the same info as the bounding rect on the event that we think should be in it.  In any case environment variables are going to be useful. You're going to need to get the bounds and when the geometry has changed. The only thing that doesn't need to be generalised is when the virtual keyboard changes the viewport height?
 
-Dan: Could we just recommend they call it "interface overaly" instead of keyboard?
+Dan: Could we just recommend they call it "interface overlay" instead of keyboard?
 
 Ken: that makes it difficult to do with CSS variables... If you just want to position something where the keyboard is ... 
 
-Sangwhan: if you have a keyoard and PiP window and another payment request API popping up then the content should know about these.  The separating of the keyboard into 2 is less important.
+Sangwhan: if you have a keyboard and PiP window and another payment request API popping up then the content should know about these.  The separating of the keyboard into 2 is less important.
 
 Alice: the nice thing about the API is that it does help with the split keyboard case... for example the map content appearing between keyboard areas... page content can flow behind.
 
@@ -324,9 +324,9 @@ Alice: I think we can say that it does seem this is going to be a general proble
 
 Sangwhan: anything that's browser chromish that could obstruct qualify.
 
-Alice: they might want to reach out to visual viewport. Reach out to PiP to generalize this. Only challenge to generalize would be CSS properties. COuld be a collection of objects that work the same as virtual keyboard. Final bit of feedback would be to be ble to get the bounds at any time without having to save them from the event.
+Alice: they might want to reach out to visual viewport. Reach out to PiP to generalize this. Only challenge to generalize would be CSS properties. Could be a collection of objects that work the same as virtual keyboard. Final bit of feedback would be to be able to get the bounds at any time without having to save them from the event.
 
-Alice: it's suspect to have it on navigator ... we're talking about generalizing this - could we generalize this as a pattern. For exmaple `window.virtualkeyboard.boundingrect` `window.virtualkeyboard.overlayscontent` could we make that a pattern e.g. `window.pictureinpicture.boundingrect` etc... And get `window.obstructions` and it returns a list.
+Alice: it's suspect to have it on navigator ... we're talking about generalizing this - could we generalize this as a pattern. For example `window.virtualkeyboard.boundingrect` `window.virtualkeyboard.overlayscontent` could we make that a pattern e.g. `window.pictureinpicture.boundingrect` etc... And get `window.obstructions` and it returns a list.
 
 Sangwhan: [looks at PiP spec] PiP also has a [resize event](https://googlechrome.github.io/samples/picture-in-picture/). 
 
@@ -359,11 +359,11 @@ Tess: Breakout A: **Screen enumeration API**.  Was the entire breakout.  We got 
 
 Tess: **Declarative Shadow DOM** issue - Mason's proposal of a do-not-stream attribute... 
 
-Peter: I was pleased he likes the idea but it still seems to be operating in the same mode. Dont' know why we need an opt in to explictly turn off streaming.  I need to go back and review.
+Peter: I was pleased he likes the idea but it still seems to be operating in the same mode. Don't know why we need an opt in to explicitly turn off streaming.  I need to go back and review.
 
 Dan: Breakout C: Talked about **miniapps**..
 
-... agreed to publish the document we've been hashing out. Now checked in to design review repo; abolished dated URI scheme for future reviews. SEnt the link to Wendy. Haven't heard back yet.
+... agreed to publish the document we've been hashing out. Now checked in to design review repo; abolished dated URI scheme for future reviews. Sent the link to Wendy. Haven't heard back yet.
 
 ... Miniapps Virtual Meeting later this week.
 
