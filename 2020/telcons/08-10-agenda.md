@@ -6,24 +6,27 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (Europe / US) - [2020-08-10](https://www.timeanddate.com/worldclock/converter.html?iso=20200810T160000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
+* [guidance on inheritance between contexts](https://github.com/w3ctag/design-principles/issues/111) - @hober, @kenchris
+* [guidance on use of JSON-LD?](https://github.com/w3ctag/design-principles/issues/128) - @hober, @dbaron, @hadleybeeman
+* [Harmonize permissions and similar mechanisms](https://github.com/w3ctag/design-principles/issues/144) - @dbaron, @hadleybeeman, @plinss, @atanassov
+* [add a principle on "no dataloss by default"](https://github.com/w3ctag/design-principles/issues/172) - @dbaron
+* Security & Privacy Questionnaire Open Issue - @hober
+
 ### Breakout B (US / APAC) - [2020-08-10](https://www.timeanddate.com/worldclock/converter.html?iso=20200810T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+
+* [Non privacy related design notes on device APIs](https://github.com/w3ctag/design-principles/issues/39) - @cynthia, @alice
+* [High level or low-level APIs?](https://github.com/w3ctag/design-principles/issues/117) - @hober, @alice, @dbaron, @atanassov
+* [clarify advice on synchronous versus asynchronous APIs](https://github.com/w3ctag/design-principles/issues/145) - @cynthia
+* [Review different cross-domain import mechanisms and their security models](https://github.com/w3ctag/design-principles/issues/157) - @hober, @cynthia
 
 ### Breakout C (APAC / Europe) - [2020-08-11](https://www.timeanddate.com/worldclock/converter.html?iso=20200811T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
-### Plenary Session - [2020-08-12](https://www.timeanddate.com/worldclock/converter.html?iso=20200812T050000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
-
-* [Non privacy related design notes on device APIs](https://github.com/w3ctag/design-principles/issues/39) - @cynthia, @alice
 * [Document when to use allow- attributes vs. extend the sandbox attribute value set for iframes](https://github.com/w3ctag/design-principles/issues/41) - @cynthia, @dbaron
-* [guidance on inheritance between contexts](https://github.com/w3ctag/design-principles/issues/111) - @hober, @kenchris
-* [High level or low-level APIs?](https://github.com/w3ctag/design-principles/issues/117) - @hober, @alice, @dbaron, @atanassov
-* [guidance on use of JSON-LD?](https://github.com/w3ctag/design-principles/issues/128) - @hober, @dbaron, @hadleybeeman
 * [Best practices for feature detection of DOM API](https://github.com/w3ctag/design-principles/issues/137) - @torgo, @ylafon, @kenchris
-* [Harmonize permissions and similar mechanisms](https://github.com/w3ctag/design-principles/issues/144) - @dbaron, @hadleybeeman, @plinss, @atanassov
-* [clarify advice on synchronous versus asynchronous APIs](https://github.com/w3ctag/design-principles/issues/145) - @cynthia
 * [Taking debugging use cases into account in W3C specifications](https://github.com/w3ctag/design-principles/issues/156) - @cynthia, @alice, @torgo
-* [Review different cross-domain import mechanisms and their security models](https://github.com/w3ctag/design-principles/issues/157) - @hober, @cynthia
 * [Considerations and pre-cautions when adding new media formats](https://github.com/w3ctag/design-principles/issues/171) - @cynthia, @torgo, @ylafon
-* [add a principle on "no dataloss by default"](https://github.com/w3ctag/design-principles/issues/172) - @dbaron
+
+### Plenary Session - [2020-08-12](https://www.timeanddate.com/worldclock/converter.html?iso=20200812T050000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
 * Breakout Rollup
 * Issue Triage
