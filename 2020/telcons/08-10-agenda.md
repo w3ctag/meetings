@@ -25,6 +25,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Best practices for feature detection of DOM API](https://github.com/w3ctag/design-principles/issues/137) - @torgo, @ylafon, @kenchris
 * [Taking debugging use cases into account in W3C specifications](https://github.com/w3ctag/design-principles/issues/156) - @cynthia, @alice, @torgo
 * [Considerations and pre-cautions when adding new media formats](https://github.com/w3ctag/design-principles/issues/171) - @cynthia, @torgo, @ylafon
+* AB proposal on elected body communications policy
 
 ### Plenary Session - [2020-08-12](https://www.timeanddate.com/worldclock/converter.html?iso=20200812T050000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
