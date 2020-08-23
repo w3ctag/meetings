@@ -8,6 +8,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 * [Screen Enumeration API](https://github.com/w3ctag/design-reviews/issues/413) - @hober, @kenchris, @plinss
 * [jxl Content-Encoding](https://github.com/w3ctag/design-reviews/issues/541) - @ylafon, @hadleybeeman, @plinss
+* [Security Questionnaire PR](https://github.com/w3ctag/security-questionnaire/pull/94) - @torgo, @hober
+* [Triage Design Review Issues with no Milestone](https://github.com/w3ctag/design-reviews/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone) - All
 
 ### Breakout B (US / APAC) - [2020-08-24](https://www.timeanddate.com/worldclock/converter.html?iso=20200824T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
@@ -16,6 +18,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 ### Breakout C (APAC / Europe) - [2020-08-25](https://www.timeanddate.com/worldclock/converter.html?iso=20200825T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
 * [Blink Shipping Process](https://github.com/w3ctag/design-reviews/issues/516) - @torgo
+* [Design Principles Pulls](https://github.com/w3ctag/design-principles/pulls) - @cynthia, @alice, @torgo
 
 ### Plenary Session - [2020-08-26](https://www.timeanddate.com/worldclock/converter.html?iso=20200826T050000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
