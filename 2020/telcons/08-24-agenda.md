@@ -14,6 +14,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 ### Breakout B (US / APAC) - [2020-08-24](https://www.timeanddate.com/worldclock/converter.html?iso=20200824T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
 * [Constant bitrate audio encoding with MediaRecorder](https://github.com/w3ctag/design-reviews/issues/540) - @hober, @cynthia
+* [AB Proposal communications](https://github.com/w3c/AB-memberonly/issues/34)
 
 ### Breakout C (APAC / Europe) - [2020-08-25](https://www.timeanddate.com/worldclock/converter.html?iso=20200825T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
