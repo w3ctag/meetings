@@ -43,7 +43,11 @@ TAG VF2F Breakout Summary Scheduled: 8 Sep 2020 at 02:00 to 02:30, GMT-7
 
 TAG VF2F **Breakout 3** Scheduled: 8 Sep 2020 at 07:30 to 08:30, GMT-7
 
+3a - Rossen & Hober 
+
 TAG VF2F **Breakout 4** Scheduled: 8 Sep 2020 at 08:45 to 09:45, GMT-7
+
+4a - Rossen & David
 
 TAG VF2F Breakout Summary Scheduled: 8 Sep 2020 at 10:00 to 10:30, GMT-7
 
@@ -60,6 +64,8 @@ TAG VF2F **Breakout 8** Scheduled: 9 Sep 2020 at 00:45 to 01:45, GMT-7
 TAG VF2F Breakout Summary Scheduled: 9 Sep 2020 at 02:00 to 02:30, GMT-7
 
 TAG VF2F **Breakout 9** Scheduled: 9 Sep 2020 at 07:30 to 08:30, GMT-7
+
+9a - Hadley & Dan
 
 TAG VF2F **Breakout 10** Scheduled: 9 Sep 2020 at 08:45 to 09:45, GMT-7
 
