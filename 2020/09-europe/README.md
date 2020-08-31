@@ -81,6 +81,8 @@ TAG VF2F **Breakout 13** Scheduled: 9 Sep 2020 at 23:30 to 10 Sep 2020 at 00:30,
 
 TAG VF2F **Breakout 14** Scheduled: 10 Sep 2020 at 00:45 to 01:45, GMT-7
 
+10a - Tess & Dan
+
 TAG VF2F Breakout Summary Scheduled: 10 Sep 2020 at 02:00 to 02:30, GMT-7
 
 TAG VF2F **Breakout 15** Scheduled: 10 Sep 2020 at 07:30 to 08:30, GMT-7
