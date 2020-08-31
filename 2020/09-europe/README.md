@@ -1,5 +1,5 @@
-# Cork F2F
-## 2020 September ??-?? (early in the month)
-## *** LOCATION/DATES NOT YET CONFIRMED ***
+# "Cork" Virtual F2F
+## 2020 Week of September 7 
+## 
 
-* Host: Tess (Apple)
+
