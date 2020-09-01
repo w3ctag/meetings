@@ -1,5 +1,5 @@
 # "Cork" Virtual F2F
-## 2020 Week of September 7 
+## 2020 Week of September 21
 ## 
 
 ### Issues assigned to the f2f:
