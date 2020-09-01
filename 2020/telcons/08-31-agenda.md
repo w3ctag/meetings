@@ -24,6 +24,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Plenary Session - [2020-09-02]
 
+* [Email from Henry Story](https://lists.w3.org/Archives/Public/www-tag/2020Aug/0000.html)
 * Breakout Rollup
 * Issue Triage
 
