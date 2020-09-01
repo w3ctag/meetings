@@ -6,20 +6,21 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (Europe / US) - 2020-08-31
 
-* [Screen Enumeration API](https://github.com/w3ctag/design-reviews/issues/413) - @hober, @kenchris, @plinss
-* [jxl Content-Encoding](https://github.com/w3ctag/design-reviews/issues/541) - @ylafon, @hadleybeeman, @plinss
-* [Security Questionnaire PR](https://github.com/w3ctag/security-questionnaire/pull/94) - @torgo, @hober
-* [Triage Design Review Issues with no Milestone](https://github.com/w3ctag/design-reviews/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone) - All
+* F2F Planning
 
 ### Breakout B (US / APAC) - [2020-08-31]
 
-* [Constant bitrate audio encoding with MediaRecorder](https://github.com/w3ctag/design-reviews/issues/540) - @hober, @cynthia
-* [AB Proposal on communications](https://github.com/w3c/AB-memberonly/issues/34)
+* 
 
 ### Breakout C (APAC / Europe) - [2020-09-01]
 
-* [Blink Shipping Process](https://github.com/w3ctag/design-reviews/issues/516) - @torgo
-* [Design Principles Pulls](https://github.com/w3ctag/design-principles/pulls) - @cynthia, @alice, @torgo
+* [Client Hint Reliability mechanisms](https://github.com/w3ctag/design-reviews/issues/549)
+* [Raw Sockets API](https://github.com/w3ctag/design-reviews/issues/548)
+* [Referrer handling - default policy and capping](https://github.com/w3ctag/design-reviews/issues/538)
+* [Scroll-linked Animations](https://github.com/w3ctag/design-reviews/issues/521)
+* [Beforematch event](https://github.com/w3ctag/design-reviews/issues/511)
+* [WebRTC-SVC (Scalable Video Coding)](https://github.com/w3ctag/design-reviews/issues/396)
+* [WebSocketStream](https://github.com/w3ctag/design-reviews/issues/394)
 
 ### Plenary Session - [2020-09-02]
 
