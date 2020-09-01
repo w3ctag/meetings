@@ -35,6 +35,6 @@ Scribe:
 
 Bridge: https://meet.jit.si/w3ctag first then going to https://whereby.com/w3ctag as a back-up
 
-* Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
+*Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2020/telcons/08-31-minutes.md
