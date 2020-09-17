@@ -1,6 +1,6 @@
 ---
 name: TPAC 2020 Meeting Request
-about: If you'd like representation from the TAG join some portion of your virtual meting scheduled for [this year's TPAC](https://www.w3.org/2020/10/TPAC/), please fill out some details below.
+about: If you'd like representation from the TAG join some portion of your virtual meting scheduled for TPAC 2020.
 title: ''
 labels: 'untriaged, tpac-meeting-request'
 assignees: ''
