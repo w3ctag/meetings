@@ -1,6 +1,6 @@
 ---
 name: TPAC 2020 Meeting Request
-about: If you'd like representation from the TAG join some portion of your virtual meting scheduled for TPAC 2020.
+about: If you'd like representative(s) from the TAG join some portion of your virtual meting scheduled for TPAC 2020.
 title: ''
 labels: 'untriaged, tpac-meeting-request'
 assignees: ''
@@ -9,7 +9,7 @@ assignees: ''
 
 こんにちはTAG!
 
-I'm requesting TAG presence at the following meeting during TPAC:
+I'm requesting TAG presence at the following virtual meeting during [TPAC 2020](https://www.w3.org/2020/10/TPAC/):
 
   - Group: [group name]
   - Topic: [topic]
