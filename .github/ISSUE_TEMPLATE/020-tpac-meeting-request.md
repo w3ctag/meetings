@@ -9,7 +9,7 @@ assignees: ''
 
 こんにちはTAG!
 
-I'm requesting TAG presence at the following virtual meeting during [TPAC 2020](https://www.w3.org/2020/10/TPAC/):
+I'm requesting TAG presence at the following virtual meeting during TPAC 2020:
 
   - Group: [group name]
   - Topic: [topic]
