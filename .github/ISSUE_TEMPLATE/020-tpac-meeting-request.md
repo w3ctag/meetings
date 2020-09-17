@@ -1,6 +1,6 @@
 ---
-name: TPAC Meeting Request
-about: If you'd like the TAG to be present for a discussion during TPAC
+name: TPAC 2020 Meeting Request
+about: If you'd like representation from the TAG join some portion of your virtual meting scheduled for [this year's TPAC](https://www.w3.org/2020/10/TPAC/), please fill out some details below.
 title: ''
 labels: 'untriaged, tpac-meeting-request'
 assignees: ''
@@ -16,6 +16,7 @@ I'm requesting TAG presence at the following meeting during TPAC:
   - Specification URL: [spec url]
   - Explainer (containing user needs and example code)¹: [url]
   - GitHub issues (if you prefer feedback filed there): [url]
+  - Agenda of your meeting: [url]
   - Preferred date and timeframe: [at least a day is required]
 
 When the meeting agenda and specific room has been finalized, we request the groups to note these details as comments in this issue.
