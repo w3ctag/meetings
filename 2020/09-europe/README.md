@@ -35,6 +35,21 @@
 * [[TAG review request] PWAs as URL Handlers](https://github.com/w3ctag/design-reviews/issues/552) - @hober
 
 
+### Day 1
+
+Raw minutes breakouts xa: https://cryptpad.w3ctag.org/code/#/2/code/view/lPN89IsMD-cFiOPyB59zMAJ1oVgvCmbfdstcaE+GUKE/
+
+Raw minutes breakouts xb: https://cryptpad.w3ctag.org/code/#/2/code/view/AxkDPcnXvN93yRYLWSladIiltm58Q9k1mUXq2GyLj3E/
+
+Raw minutes breakouts xc: https://cryptpad.w3ctag.org/code/#/2/code/view/HVTxef37-2l8ezmiBLoTTCCaSFIF3SdVNA0UR-ddDUg/
+
+Raw minutes summary: https://cryptpad.w3ctag.org/code/#/2/code/view/3uSE3e8XyxMKmpPuM22nM3nwf0HYTgtAyLu90l1MTUM/
+
+### Day 2
+
+### Day 3
+
+
 TAG VF2F **Breakout 1** Scheduled: 21 Sep 2020 at 23:30 to 8 Sep 2020 at 00:30, GMT-7
 
 TAG VF2F **Breakout 2** Scheduled: 22 Sep 2020 at 00:45 to 01:45, GMT-7
