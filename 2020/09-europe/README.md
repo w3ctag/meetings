@@ -3,11 +3,11 @@
 
 ### Minutes Docs
 
-* [Raw minutes breakouts xa](https://cryptpad.w3ctag.org/code/#/2/code/view/lPN89IsMD-cFiOPyB59zMAJ1oVgvCmbfdstcaE+GUKE/)
+* [Raw minutes breakouts *x*a](https://cryptpad.w3ctag.org/code/#/2/code/view/lPN89IsMD-cFiOPyB59zMAJ1oVgvCmbfdstcaE+GUKE/)
 
-* [Raw minutes breakouts xb](https://cryptpad.w3ctag.org/code/#/2/code/view/AxkDPcnXvN93yRYLWSladIiltm58Q9k1mUXq2GyLj3E/)
+* [Raw minutes breakouts *x*b](https://cryptpad.w3ctag.org/code/#/2/code/view/AxkDPcnXvN93yRYLWSladIiltm58Q9k1mUXq2GyLj3E/)
 
-* [Raw minutes breakouts xc](https://cryptpad.w3ctag.org/code/#/2/code/view/HVTxef37-2l8ezmiBLoTTCCaSFIF3SdVNA0UR-ddDUg/)
+* [Raw minutes breakouts *x*c](https://cryptpad.w3ctag.org/code/#/2/code/view/HVTxef37-2l8ezmiBLoTTCCaSFIF3SdVNA0UR-ddDUg/)
 
 * [Raw minutes summaries](https://cryptpad.w3ctag.org/code/#/2/code/view/3uSE3e8XyxMKmpPuM22nM3nwf0HYTgtAyLu90l1MTUM/)
 
