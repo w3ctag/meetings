@@ -35,7 +35,6 @@
 * [[TAG review request] PWAs as URL Handlers](https://github.com/w3ctag/design-reviews/issues/552) - @hober
 
 
-### Day 1
 
 Raw minutes breakouts xa: https://cryptpad.w3ctag.org/code/#/2/code/view/lPN89IsMD-cFiOPyB59zMAJ1oVgvCmbfdstcaE+GUKE/
 
@@ -43,12 +42,11 @@ Raw minutes breakouts xb: https://cryptpad.w3ctag.org/code/#/2/code/view/AxkDPcn
 
 Raw minutes breakouts xc: https://cryptpad.w3ctag.org/code/#/2/code/view/HVTxef37-2l8ezmiBLoTTCCaSFIF3SdVNA0UR-ddDUg/
 
-Raw minutes summary: https://cryptpad.w3ctag.org/code/#/2/code/view/3uSE3e8XyxMKmpPuM22nM3nwf0HYTgtAyLu90l1MTUM/
+Raw minutes summaries: https://cryptpad.w3ctag.org/code/#/2/code/view/3uSE3e8XyxMKmpPuM22nM3nwf0HYTgtAyLu90l1MTUM/
 
-### Day 2
 
-### Day 3
 
+### Day 1
 
 TAG VF2F **Breakout 1** Scheduled: 21 Sep 2020 at 23:30 to 8 Sep 2020 at 00:30, GMT-7
 
@@ -58,11 +56,7 @@ TAG VF2F Breakout Summary Scheduled: 22 Sep 2020 at 02:00 to 02:30, GMT-7
 
 TAG VF2F **Breakout 3** Scheduled: 22 Sep 2020 at 07:30 to 08:30, GMT-7
 
-3a - Rossen & Hober 
-
 TAG VF2F **Breakout 4** Scheduled: 22 Sep 2020 at 08:45 to 09:45, GMT-7
-
-4a - Rossen & David
 
 TAG VF2F Breakout Summary Scheduled: 22 Sep 2020 at 10:00 to 10:30, GMT-7
 
@@ -74,13 +68,13 @@ TAG VF2F Breakout Summary Scheduled: 22 Sep 2020 at 18:00 to 18:30, GMT-7
 
 TAG VF2F **Breakout 7** Scheduled: 22 Sep 2020 at 23:30 to 23 Sep 2020 at 00:30, GMT-7
 
+### Day 2
+
 TAG VF2F **Breakout 8** Scheduled: 23 Sep 2020 at 00:45 to 01:45, GMT-7
 
 TAG VF2F Breakout Summary Scheduled: 23 Sep 2020 at 02:00 to 02:30, GMT-7
 
 TAG VF2F **Breakout 9** Scheduled: 23 Sep 2020 at 07:30 to 08:30, GMT-7
-
-9a - Hadley & Dan
 
 TAG VF2F **Breakout 10** Scheduled: 23 Sep 2020 at 08:45 to 09:45, GMT-7
 
@@ -94,9 +88,9 @@ TAG VF2F Breakout Summary Scheduled: 23 Sep 2020 at 18:00 to 18:30, GMT-7
 
 TAG VF2F **Breakout 13** Scheduled: 23 Sep 2020 at 23:30 to 10 Sep 2020 at 00:30, GMT-7
 
-TAG VF2F **Breakout 14** Scheduled: 24 Sep 2020 at 00:45 to 01:45, GMT-7
+### Day 3
 
-10a - Tess & Dan
+TAG VF2F **Breakout 14** Scheduled: 24 Sep 2020 at 00:45 to 01:45, GMT-7
 
 TAG VF2F Breakout Summary Scheduled: 24 Sep 2020 at 02:00 to 02:30, GMT-7
 
