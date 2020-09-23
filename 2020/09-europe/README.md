@@ -3,8 +3,8 @@
 
 ### Agenda
 
-* [all issues and breakout assignments](cork_issues.html)
-* [people x breakouts](cork_person_x_breakout.html)
+* [all issues and breakout assignments](https://w3ctag.github.io/meetings/2020/09-europe/cork_issues.html)
+* [people x breakouts](https://w3ctag.github.io/meetings/2020/09-europe/cork_person_x_breakout.html)
 
 ### Minutes Docs
 
