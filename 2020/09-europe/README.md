@@ -1,6 +1,11 @@
 # "Cork" Virtual F2F
 ## 2020 Week of September 21
 
+### Agenda
+
+* [all issues and breakout assignments](cork_issues.html)
+* [people x breakouts](cork_person_x_breakout.html)
+
 ### Minutes Docs
 
 * [Raw minutes breakouts *x*a](https://cryptpad.w3ctag.org/code/#/2/code/view/lPN89IsMD-cFiOPyB59zMAJ1oVgvCmbfdstcaE+GUKE/)
