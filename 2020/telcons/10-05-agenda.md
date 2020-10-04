@@ -6,26 +6,33 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (Europe / US) - [2020-10-05](https://www.timeanddate.com/worldclock/converter.html?iso=20201005T160000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
+* PR: [Internet is for End Users](https://github.com/w3ctag/design-principles/pull/236) - @hober
+* PR: [Change APIs to features](https://github.com/w3ctag/design-principles/pull/207) - @plinss
+* [Is `partial` a long term maintainability problem?  If so, how do we fix it?](https://github.com/w3ctag/design-principles/issues/99) - @dbaron
+* [Can we use `media` in WebNFC?](https://github.com/w3ctag/design-principles/issues/140) - @atanassov
+* [Harmonize permissions and similar mechanisms](https://github.com/w3ctag/design-principles/issues/144) - @dbaron, @hadleybeeman, @plinss, @atanassov
+* [add a principle on "no dataloss by default"](https://github.com/w3ctag/design-principles/issues/172) - @dbaron
+* [Security / Cryptography Principle?](https://github.com/w3ctag/design-principles/issues/185)
+
 ### Breakout B (US / APAC) - [2020-10-05](https://www.timeanddate.com/worldclock/converter.html?iso=20201005T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+
+* Readability Edit PRs: [readability edits](https://github.com/w3ctag/design-principles/pulls/223), [readability edits](https://github.com/w3ctag/design-principles/pulls/224), [readability edits](https://github.com/w3ctag/design-principles/pulls/226), [readability edits](https://github.com/w3ctag/design-principles/pulls/227), [readability edits](https://github.com/w3ctag/design-principles/pulls/228) - @alice
+* PR: [web consistent naming principle](https://github.com/w3ctag/design-principles/pull/217) - @atanassov
+* [Document when to use allow- attributes vs. extend the sandbox attribute value set for iframes](https://github.com/w3ctag/design-principles/issues/41) - @cynthia, @dbaron
+* [High level or low-level APIs?](https://github.com/w3ctag/design-principles/issues/117) - @hober, @alice, @dbaron, @atanassov
+* [How do we balance concerns between interoperability and implementability?](https://github.com/w3ctag/design-principles/issues/142) - @hober, @alice, @dbaron
+* [add a section describing what should be in html versus css versus javascript (the separation of concerns) (HTML Design Principle 3.4)](https://github.com/w3ctag/design-principles/issues/169) - @hober, @alice, @dbaron
 
 ### Breakout C (APAC / Europe) - [2020-10-06](https://www.timeanddate.com/worldclock/converter.html?iso=20201006T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
-### Plenary Session - [2020-10-07](https://www.timeanddate.com/worldclock/converter.html?iso=20201007T050000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
-
+* PR: [when to use sync](https://github.com/w3ctag/design-principles/pull/218) - @cynthia
 * [Non privacy related design notes on device APIs](https://github.com/w3ctag/design-principles/issues/39) - @cynthia, @alice
-* [Document when to use allow- attributes vs. extend the sandbox attribute value set for iframes](https://github.com/w3ctag/design-principles/issues/41) - @cynthia, @dbaron
 * [Improve guidance for using attributes vs methods](https://github.com/w3ctag/design-principles/issues/70) - @cynthia
-* [Is `partial` a long term maintainability problem?  If so, how do we fix it?](https://github.com/w3ctag/design-principles/issues/99) - @dbaron
-* [High level or low-level APIs?](https://github.com/w3ctag/design-principles/issues/117) - @hober, @alice, @dbaron, @atanassov
-* [Can we use `media` in WebNFC?](https://github.com/w3ctag/design-principles/issues/140) - @atanassov
-* [How do we balance concerns between interoperability and implementability?](https://github.com/w3ctag/design-principles/issues/142) - @hober, @alice, @dbaron
-* [Harmonize permissions and similar mechanisms](https://github.com/w3ctag/design-principles/issues/144) - @dbaron, @hadleybeeman, @plinss, @atanassov
 * [clarify advice on synchronous versus asynchronous APIs](https://github.com/w3ctag/design-principles/issues/145) - @cynthia
 * [Taking debugging use cases into account in W3C specifications](https://github.com/w3ctag/design-principles/issues/156) - @cynthia, @alice, @torgo
-* [add a section describing what should be in html versus css versus javascript (the separation of concerns) (HTML Design Principle 3.4)](https://github.com/w3ctag/design-principles/issues/169) - @hober, @alice, @dbaron
 * [Considerations and pre-cautions when adding new media formats](https://github.com/w3ctag/design-principles/issues/171) - @cynthia, @torgo, @ylafon
-* [add a principle on "no dataloss by default"](https://github.com/w3ctag/design-principles/issues/172) - @dbaron
-* [Security / Cryptography Principle?](https://github.com/w3ctag/design-principles/issues/185)
+
+### Plenary Session - [2020-10-07](https://www.timeanddate.com/worldclock/converter.html?iso=20201007T050000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
 * Breakout Rollup
 * Issue Triage
