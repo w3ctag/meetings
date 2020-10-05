@@ -16,7 +16,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout B (US / APAC) - [2020-10-05](https://www.timeanddate.com/worldclock/converter.html?iso=20201005T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
-* Readability Edit PRs: [readability edits](https://github.com/w3ctag/design-principles/pulls/223), [readability edits](https://github.com/w3ctag/design-principles/pulls/224), [readability edits](https://github.com/w3ctag/design-principles/pulls/226), [readability edits](https://github.com/w3ctag/design-principles/pulls/227), [readability edits](https://github.com/w3ctag/design-principles/pulls/228) - @alice
+* Readability Edit PRs: [readability edits](https://github.com/w3ctag/design-principles/pull/223), [readability edits](https://github.com/w3ctag/design-principles/pull/224), [readability edits](https://github.com/w3ctag/design-principles/pull/226), [readability edits](https://github.com/w3ctag/design-principles/pull/227), [readability edits](https://github.com/w3ctag/design-principles/pull/228) - @alice
 * PR: [web consistent naming principle](https://github.com/w3ctag/design-principles/pull/217) - @atanassov
 * [Document when to use allow- attributes vs. extend the sandbox attribute value set for iframes](https://github.com/w3ctag/design-principles/issues/41) - @cynthia, @dbaron
 * [High level or low-level APIs?](https://github.com/w3ctag/design-principles/issues/117) - @hober, @alice, @dbaron, @atanassov
