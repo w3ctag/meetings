@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-こんにちはTAG!
+Greetings TAG!
 
 I'm requesting TAG presence at the following virtual meeting during TPAC 2020:
 
