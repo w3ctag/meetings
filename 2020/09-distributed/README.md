@@ -79,6 +79,9 @@ TAG VF2F **Breakout 18** Scheduled: 24 Sep 2020 at 16:45 to 17:45, GMT-7
 TAG VF2F Breakout Summary Scheduled: 24 Sep 2020 at 18:00 to 18:30, GMT-7
 
 ## Issues assigned to the f2f:
+
+*NB: We actually went through **all** of our open issues during the f2f including design principles, security & privacy questionnaire and ethical web principles. This list below is the issues explicitly assigned to the f2f.*
+
 * ["With Credentials" flag possibly inconsistent with web architecture](https://github.com/w3ctag/design-reviews/issues/76) - @dbaron, @ylafon
 * [Intersection Observer review](https://github.com/w3ctag/design-reviews/issues/197) - @dbaron
 * [RTCIceTransport](https://github.com/w3ctag/design-reviews/issues/304) - @cynthia, @dbaron
