@@ -21,7 +21,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Readability edits: Writing good specifications section](https://github.com/w3ctag/design-principles/pull/227) - alice, dan
 * [triage additional design principles issues](https://github.com/w3ctag/design-principles/issues) - all
 
-### Plenary Session - [2020-11-04](https://www.timeanddate.com/worldclock/converter.html?iso=20201104T050000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+### Plenary Session - [2020-11-04](https://www.timeanddate.com/worldclock/meetingdetails.html?year=2020&month=11&day=4&hour=21&min=0&sec=0&p1=136&p2=195&p3=240&p4=248&p5=224)
 
 * TPAC fall-out
 * Breakout Rollup
@@ -83,11 +83,10 @@ Raw minutes: ...
 #### Plenary
 
 <table>
-<tr><td> San Francisco (U.S.A. - California) <td> Tuesday 3 November, 21:00 GMT-8</td></tr>
-<tr><td> Boston (U.S.A. - Massachusetts) <td> Wednesday 4 November, 00:00 GMT-5</td></tr>
-<tr><td> London (United Kingdom - England) <td> Wednesday 4 November, 05:00 GMT</td></tr>
-<tr><td> Paris (France) <td> Wednesday 4 November, 06:00 CET</td></tr>
-<tr><td> Tokyo (Japan) <td> Wednesday 4 November, 14:00 GMT+9</td></tr>
-<tr><td> Sydney (Australia) <td> Wednesday 4 November, 16:00 GMT+11</td></tr>
-<tr><td> Corresponding UTC (GMT) <td> Wednesday 4 November, 05:00 UTC</td></tr>
+<tr><td> London (United Kingdom - England)	</td><td> Wednesday, 4 November 2020, 21:00:00	GMT	UTC</td></tr>
+<tr><td> Paris (France - Île-de-France) </td><td>	Wednesday, 4 November 2020, 22:00:00	CET	UTC+1 hour</td></tr>
+<tr><td> Sydney (Australia - New South Wales)	</td><td> Thursday, 5 November 2020, 08:00:00	AEDT	UTC+11 hours</td></tr>
+<tr><td> Tokyo (Japan)	</td><td> Thursday, 5 November 2020, 06:00:00	JST	UTC+9 hours</td></tr>
+<tr><td> San Francisco (USA - California)	</td><td> Wednesday, 4 November 2020, 13:00:00	PST	UTC-8 hours</td></tr>
+<tr><td> Corresponding UTC (GMT) </td><td>	Wednesday, 4 November 2020, 21:00:00</td></tr>
 </table>
