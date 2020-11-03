@@ -45,11 +45,11 @@ The plenary teleconference time will switch with the *European* summer time chan
 
 | Start Time      | Location | Note |
 | --------------- | --- | --- |
+| 06:00 Wednesday | UK |
+| 07:00 Wednesday | France, Denmark |
 | 15:00 Wednesday | Japan |
 | 17:00 Wednesday | Sydney |
 | 22:00 Tuesday   | California | or 23:00 for the few weeks that are on summer time |
-| 06:00 Wednesday | UK |
-| 07:00 Wednesday | France, Denmark |
 
 ##### Wednesday 20:00 UTC
 
@@ -67,11 +67,11 @@ The plenary teleconference time will switch with the *European* summer time chan
 
 | Start Time      | Location | Note |
 | --------------- | --- | --- |
+| 06:00 Wednesday | UK |
+| 07:00 Wednesday | France, Denmark |
 | 14:00 Wednesday | Japan |
 | 15:00 Wednesday | Sydney | or 16:00 for the few weeks that are on summer time |
 | 22:00 Tuesday   | California |
-| 06:00 Wednesday | UK |
-| 07:00 Wednesday | France, Denmark |
 
 ##### Wednesday 20:00 UTC
 
