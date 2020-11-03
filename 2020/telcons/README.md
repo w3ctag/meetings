@@ -67,19 +67,18 @@ The plenary teleconference time will switch with the *European* summer time chan
 
 | Start Time      | Location | Note |
 | --------------- | --- | --- |
-| 05:00 Thursday  | Japan |
-| 06:00 Thursday  | Sydney | or 07:00 for the few weeks that are on summer time |
-| 13:00 Wednesday | California |
-| 21:00 Wednesday | UK |
-| 22:00 Wednesday | France, Denmark |
-
-
-##### Wednesday 20:00 UTC
-
-| Start Time      | Location | Note |
-| --------------- | --- | --- |
 | 14:00 Wednesday | Japan |
 | 15:00 Wednesday | Sydney | or 16:00 for the few weeks that are on summer time |
 | 22:00 Tuesday   | California |
 | 06:00 Wednesday | UK |
 | 07:00 Wednesday | France, Denmark |
+
+##### Wednesday 20:00 UTC
+
+| Start Time      | Location | Note |
+| --------------- | --- | --- |
+| 05:00 Thursday  | Japan |
+| 06:00 Thursday  | Sydney | or 07:00 for the few weeks that are on summer time |
+| 13:00 Wednesday | California |
+| 21:00 Wednesday | UK |
+| 22:00 Wednesday | France, Denmark |
