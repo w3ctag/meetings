@@ -42,7 +42,7 @@ Bridge: https://meet.jit.si/w3ctag first then going to https://whereby.com/w3cta
 
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2020/telcons/11-16-minutes.md
 
-Raw minutes: ...
+Raw minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/5bcdMRPqFC2pOlz85GnDE1Rm-cbNrwPKuW1Fld1Jmmk/
 
 
 ### Local Call Times
