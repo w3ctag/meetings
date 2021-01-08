@@ -6,30 +6,32 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (Europe / US) - [2021-01-11](https://www.timeanddate.com/worldclock/converter.html?iso=20210111T170000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
-### Breakout B (US / APAC) - [2021-01-11](https://www.timeanddate.com/worldclock/converter.html?iso=20210111T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
-
-### Breakout C (APAC / Europe) - [2021-01-12](https://www.timeanddate.com/worldclock/converter.html?iso=20210112T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
-
-### Plenary Session - [2021-01-13](https://www.timeanddate.com/worldclock/converter.html?iso=20210113T060000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
-
-* [User Idle Detection](https://github.com/w3ctag/design-reviews/issues/336) - @cynthia, @torgo, @kenchris
-* [Font Enumeration API](https://github.com/w3ctag/design-reviews/issues/399) - @hober, @dbaron, @plinss
 * [WebXR Layers](https://github.com/w3ctag/design-reviews/issues/528) - @torgo, @atanassov
 * [Review Request - Decentralized Identifiers (DIDs) v1.0](https://github.com/w3ctag/design-reviews/issues/556) - @hadleybeeman, @atanassov
 * [APA Pronunciation Explainer](https://github.com/w3ctag/design-reviews/issues/561) - @hober, @hadleybeeman
-* [Storage Buckets API](https://github.com/w3ctag/design-reviews/issues/562) - @hober, @cynthia, @torgo, @kenchris
 * [Deprecating `document.domain`.](https://github.com/w3ctag/design-reviews/issues/564) - @hober, @ylafon
-* [Review of NativeIO](https://github.com/w3ctag/design-reviews/issues/566) - @cynthia, @kenchris
-* [Byte Streams ](https://github.com/w3ctag/design-reviews/issues/567) - @cynthia, @ylafon
-* [WebXR Hand Input API Specification](https://github.com/w3ctag/design-reviews/issues/568) - @alice, @torgo, @hadleybeeman
 * [Digital Goods API](https://github.com/w3ctag/design-reviews/issues/571) - @hober, @hadleybeeman
 * [CORS-RFC1918](https://github.com/w3ctag/design-reviews/issues/572) - @torgo, @hadleybeeman, @plinss
 * [WebXR Lighting Estimation](https://github.com/w3ctag/design-reviews/issues/574) - @torgo, @atanassov
 * [Screen Fold API](https://github.com/w3ctag/design-reviews/issues/575) - @torgo, @plinss, @atanassov
+
+### Breakout B (US / APAC) - [2021-01-11](https://www.timeanddate.com/worldclock/converter.html?iso=20210111T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+
+* [Font Enumeration API](https://github.com/w3ctag/design-reviews/issues/399) - @hober, @dbaron, @plinss
+* [Storage Buckets API](https://github.com/w3ctag/design-reviews/issues/562) - @hober, @cynthia, @torgo, @kenchris
 * [Review Request for CSS Color Adjust Level 1](https://github.com/w3ctag/design-reviews/issues/583) - @alice
 * [Requesting a TAG review of CSS Custom Highlight API Module Level 1](https://github.com/w3ctag/design-reviews/issues/584) - @hober, @alice
 * [ARIA 1.2](https://github.com/w3ctag/design-reviews/issues/586) - @alice, @atanassov
 * [Handwriting Recognition API](https://github.com/w3ctag/design-reviews/issues/591) - @atanassov
+
+### Breakout C (APAC / Europe) - [2021-01-12](https://www.timeanddate.com/worldclock/converter.html?iso=20210112T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+
+* [User Idle Detection](https://github.com/w3ctag/design-reviews/issues/336) - @cynthia, @torgo, @kenchris
+* [Review of NativeIO](https://github.com/w3ctag/design-reviews/issues/566) - @cynthia, @kenchris
+* [Byte Streams ](https://github.com/w3ctag/design-reviews/issues/567) - @cynthia, @ylafon
+* [WebXR Hand Input API Specification](https://github.com/w3ctag/design-reviews/issues/568) - @alice, @torgo, @hadleybeeman
+
+### Plenary Session - [2021-01-13](https://www.timeanddate.com/worldclock/converter.html?iso=20210113T060000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
 * Breakout Rollup
 * Issue Triage
