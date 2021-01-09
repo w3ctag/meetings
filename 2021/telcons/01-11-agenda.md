@@ -4,7 +4,7 @@ This agenda can be viewed and updated on [Github](https://github.com/w3ctag/meet
 
 If you would like to add an item to the agenda or volunteer to scribe please open a pull request against this agenda.
 
-### Breakout A (Europe / US) - [2021-01-11](https://www.timeanddate.com/worldclock/converter.html?iso=20210111T170000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+### Breakout A (Europe / US) - [2021-01-11](https://www.timeanddate.com/worldclock/converter.html?iso=20210111T170000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
 * [WebXR Layers](https://github.com/w3ctag/design-reviews/issues/528) - @torgo, @atanassov
 * [Review Request - Decentralized Identifiers (DIDs) v1.0](https://github.com/w3ctag/design-reviews/issues/556) - @hadleybeeman, @atanassov
@@ -15,7 +15,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [WebXR Lighting Estimation](https://github.com/w3ctag/design-reviews/issues/574) - @torgo, @atanassov
 * [Screen Fold API](https://github.com/w3ctag/design-reviews/issues/575) - @torgo, @plinss, @atanassov
 
-### Breakout B (US / APAC) - [2021-01-11](https://www.timeanddate.com/worldclock/converter.html?iso=20210112T000000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+### Breakout B (US / APAC) - [2021-01-11](https://www.timeanddate.com/worldclock/converter.html?iso=20210112T000000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
 * [Font Enumeration API](https://github.com/w3ctag/design-reviews/issues/399) - @hober, @dbaron, @plinss
 * [Storage Buckets API](https://github.com/w3ctag/design-reviews/issues/562) - @hober, @cynthia, @torgo, @kenchris
@@ -24,14 +24,14 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [ARIA 1.2](https://github.com/w3ctag/design-reviews/issues/586) - @alice, @atanassov
 * [Handwriting Recognition API](https://github.com/w3ctag/design-reviews/issues/591) - @atanassov
 
-### Breakout C (APAC / Europe) - [2021-01-12](https://www.timeanddate.com/worldclock/converter.html?iso=20210112T080000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+### Breakout C (APAC / Europe) - [2021-01-12](https://www.timeanddate.com/worldclock/converter.html?iso=20210112T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
 * [User Idle Detection](https://github.com/w3ctag/design-reviews/issues/336) - @cynthia, @torgo, @kenchris
 * [Review of NativeIO](https://github.com/w3ctag/design-reviews/issues/566) - @cynthia, @kenchris
 * [Byte Streams ](https://github.com/w3ctag/design-reviews/issues/567) - @cynthia, @ylafon
 * [WebXR Hand Input API Specification](https://github.com/w3ctag/design-reviews/issues/568) - @alice, @torgo, @hadleybeeman
 
-### Plenary Session - [2021-01-13](https://www.timeanddate.com/worldclock/converter.html?iso=20210113T060000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+### Plenary Session - [2021-01-13](https://www.timeanddate.com/worldclock/converter.html?iso=20210113T060000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
 * Breakout Rollup
 * Issue Triage
@@ -60,6 +60,7 @@ Raw minutes: ...
 <tr><td> Boston (U.S.A. - Massachusetts) <td> Monday 11 January, 12:00 GMT-5</td></tr>
 <tr><td> London (United Kingdom - England) <td> Monday 11 January, 17:00 GMT</td></tr>
 <tr><td> Paris (France) <td> Monday 11 January, 18:00 CET</td></tr>
+<tr><td> Athens (Greece) <td> Monday 11 January, 19:00 EET</td></tr>
 <tr><td> Tokyo (Japan) <td> Tuesday 12 January, 02:00 GMT+9</td></tr>
 <tr><td> Sydney (Australia) <td> Tuesday 12 January, 04:00 GMT+11</td></tr>
 <tr><td> Corresponding UTC (GMT) <td> Monday 11 January, 17:00 UTC</td></tr>
@@ -72,6 +73,7 @@ Raw minutes: ...
 <tr><td> Boston (U.S.A. - Massachusetts) <td> Monday 11 January, 19:00 GMT-5</td></tr>
 <tr><td> London (United Kingdom - England) <td> Tuesday 12 January, 00:00 GMT</td></tr>
 <tr><td> Paris (France) <td> Tuesday 12 January, 01:00 CET</td></tr>
+<tr><td> Athens (Greece) <td> Tuesday 12 January, 02:00 EET</td></tr>
 <tr><td> Tokyo (Japan) <td> Tuesday 12 January, 09:00 GMT+9</td></tr>
 <tr><td> Sydney (Australia) <td> Tuesday 12 January, 11:00 GMT+11</td></tr>
 <tr><td> Corresponding UTC (GMT) <td> Tuesday 12 January, 00:00 UTC</td></tr>
@@ -84,6 +86,7 @@ Raw minutes: ...
 <tr><td> Boston (U.S.A. - Massachusetts) <td> Tuesday 12 January, 03:00 GMT-5</td></tr>
 <tr><td> London (United Kingdom - England) <td> Tuesday 12 January, 08:00 GMT</td></tr>
 <tr><td> Paris (France) <td> Tuesday 12 January, 09:00 CET</td></tr>
+<tr><td> Athens (Greece) <td> Tuesday 12 January, 10:00 EET</td></tr>
 <tr><td> Tokyo (Japan) <td> Tuesday 12 January, 17:00 GMT+9</td></tr>
 <tr><td> Sydney (Australia) <td> Tuesday 12 January, 19:00 GMT+11</td></tr>
 <tr><td> Corresponding UTC (GMT) <td> Tuesday 12 January, 08:00 UTC</td></tr>
@@ -96,6 +99,7 @@ Raw minutes: ...
 <tr><td> Boston (U.S.A. - Massachusetts) <td> Wednesday 13 January, 01:00 GMT-5</td></tr>
 <tr><td> London (United Kingdom - England) <td> Wednesday 13 January, 06:00 GMT</td></tr>
 <tr><td> Paris (France) <td> Wednesday 13 January, 07:00 CET</td></tr>
+<tr><td> Athens (Greece) <td> Wednesday 13 January, 08:00 EET</td></tr>
 <tr><td> Tokyo (Japan) <td> Wednesday 13 January, 15:00 GMT+9</td></tr>
 <tr><td> Sydney (Australia) <td> Wednesday 13 January, 17:00 GMT+11</td></tr>
 <tr><td> Corresponding UTC (GMT) <td> Wednesday 13 January, 06:00 UTC</td></tr>
