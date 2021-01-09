@@ -15,7 +15,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [WebXR Lighting Estimation](https://github.com/w3ctag/design-reviews/issues/574) - @torgo, @atanassov
 * [Screen Fold API](https://github.com/w3ctag/design-reviews/issues/575) - @torgo, @plinss, @atanassov
 
-### Breakout B (US / APAC) - [2021-01-11](https://www.timeanddate.com/worldclock/converter.html?iso=20210111T230000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
+### Breakout B (US / APAC) - [2021-01-11](https://www.timeanddate.com/worldclock/converter.html?iso=20210112T000000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
 * [Font Enumeration API](https://github.com/w3ctag/design-reviews/issues/399) - @hober, @dbaron, @plinss
 * [Storage Buckets API](https://github.com/w3ctag/design-reviews/issues/562) - @hober, @cynthia, @torgo, @kenchris
@@ -68,13 +68,13 @@ Raw minutes: ...
 #### Breakout B (US / APAC)
 
 <table>
-<tr><td> San Francisco (U.S.A. - California) <td> Monday 11 January, 15:00 GMT-8</td></tr>
-<tr><td> Boston (U.S.A. - Massachusetts) <td> Monday 11 January, 18:00 GMT-5</td></tr>
-<tr><td> London (United Kingdom - England) <td> Monday 11 January, 23:00 GMT</td></tr>
-<tr><td> Paris (France) <td> Tuesday 12 January, 00:00 CET</td></tr>
-<tr><td> Tokyo (Japan) <td> Tuesday 12 January, 08:00 GMT+9</td></tr>
-<tr><td> Sydney (Australia) <td> Tuesday 12 January, 10:00 GMT+11</td></tr>
-<tr><td> Corresponding UTC (GMT) <td> Monday 11 January, 23:00 UTC</td></tr>
+<tr><td> San Francisco (U.S.A. - California) <td> Monday 11 January, 16:00 GMT-8</td></tr>
+<tr><td> Boston (U.S.A. - Massachusetts) <td> Monday 11 January, 19:00 GMT-5</td></tr>
+<tr><td> London (United Kingdom - England) <td> Tuesday 12 January, 00:00 GMT</td></tr>
+<tr><td> Paris (France) <td> Tuesday 12 January, 01:00 CET</td></tr>
+<tr><td> Tokyo (Japan) <td> Tuesday 12 January, 09:00 GMT+9</td></tr>
+<tr><td> Sydney (Australia) <td> Tuesday 12 January, 11:00 GMT+11</td></tr>
+<tr><td> Corresponding UTC (GMT) <td> Tuesday 12 January, 00:00 UTC</td></tr>
 </table>
 
 #### Breakout C (APAC / Europe)
