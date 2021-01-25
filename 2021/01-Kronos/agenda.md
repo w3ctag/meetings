@@ -204,7 +204,7 @@ Breakout 15: 28 Jan 08:45 - 28 Jan 09:45 GMT
 
 Breakout Summary: 28 Jan 10:00 - 28 Jan 10:30 GMT
 
-Breakout 17: 28 Jan 15:30 - 28 Jan 16:30
+Breakout 17: 28 Jan 15:30 - 28 Jan 16:30 GMT
 
 * 17a
   * 546: [Web page settings to save battery](https://github.com/w3ctag/design-reviews/issues/546) 17a,
@@ -215,7 +215,7 @@ Breakout 17: 28 Jan 15:30 - 28 Jan 16:30
   * 463: [WebXR Hit Test Module](https://github.com/w3ctag/design-reviews/issues/463) 17b,
   * 489: [review HTML event loop and how things fit into it](https://github.com/w3ctag/design-reviews/issues/489) 17b,
 
-Breakout 18: 28 Jan 16:45 - 28 Jan 17:45
+Breakout 18: 28 Jan 16:45 - 28 Jan 17:45 GMT
 
 * 18a
   * Security & Privacy Questionnaire 2 - 18a
