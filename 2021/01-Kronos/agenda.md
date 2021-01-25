@@ -1,4 +1,6 @@
 
+Breakout 1: 25 Jan; 23:30 - 26 Jan 00:30 GMT
+
 * 1a
   * 399: [Font Enumeration API](https://github.com/w3ctag/design-reviews/issues/399) 01a,
   * 558: [CAPTCHAs are horrible](https://github.com/w3ctag/design-reviews/issues/558) 01a,
@@ -8,6 +10,8 @@
   * 507: [Virtual Keyboard API - boundaries of docked overlay keyboard](https://github.com/w3ctag/design-reviews/issues/507) 01b,
   * 589: [Declarative Link Capturing](https://github.com/w3ctag/design-reviews/issues/589) 01b,
   * 416: [EditContext API](https://github.com/w3ctag/design-reviews/issues/416) 01b,
+
+Breakout 2: 26 Jan 00:45 - 26 Jan 01:45 GMT
 
 * 2a
   * 521: [Scroll-linked Animations](https://github.com/w3ctag/design-reviews/issues/521) 02a,
@@ -21,6 +25,10 @@
 
 * 02x
   * 341: [Permissions policy (formerly feature policy) evolution](https://github.com/w3ctag/design-reviews/issues/341) 02c,
+
+Breakout Summary: 26 Jan 02:00 - 26 Jan 02:30 GMT
+
+Breakout 3: 26 Jan 07:30 - 26 Jan 08:30 GMT
 
 * 03a
   * 563: ["CSS Scrollbars: scrollbar-color, scrollbar-width"](https://github.com/w3ctag/design-reviews/issues/563) 03a,
@@ -37,6 +45,8 @@
   * 550: [WebXR Depth API](https://github.com/w3ctag/design-reviews/issues/550) 03c,
   * 588: [WebXR Dynamic Viewport Scaling](https://github.com/w3ctag/design-reviews/issues/588) 03c,
 
+Breakout 4: 26 Jan 08:45 - 26 Jan 09:45 GMT
+
 * 04a
   * 587: [EyeDropper API](https://github.com/w3ctag/design-reviews/issues/587) 04a,
 
@@ -51,6 +61,10 @@
   * 523: [MiniApp Lifecycle](https://github.com/w3ctag/design-reviews/issues/523) 04c,
   * 524: [MiniApp Manifest](https://github.com/w3ctag/design-reviews/issues/524) 04c,
   * 591: [Handwriting Recognition API](https://github.com/w3ctag/design-reviews/issues/591) 04c,
+
+Breakout Summary: 26 Jan 10:00 - 26 Jan 10:30 GMT
+
+Breakout 5: 26 Jan 15:30 - 26 Jan 16:30 GMT
 
 * 05a
   * 593: [Early design review of light-DOM CSS Scope proposal](https://github.com/w3ctag/design-reviews/issues/593) 05a,
@@ -68,6 +82,8 @@
   * 511: [Beforematch event](https://github.com/w3ctag/design-reviews/issues/511) 05c,
   * 553: [Pen Events API](https://github.com/w3ctag/design-reviews/issues/553) 05c,
 
+Breakout 6: 26 Jan 16:45 - 26 Jan 17:45 GMT
+
 * 06a
   * 76: ["""With Credentials"" flag possibly inconsistent with web architecture"](https://github.com/w3ctag/design-reviews/issues/76) 06a,
   * 582: ["""credentialless"" embedder policy."](https://github.com/w3ctag/design-reviews/issues/582) 06a,
@@ -84,6 +100,10 @@
   * 585: [Reporting](https://github.com/w3ctag/design-reviews/issues/585) 06c,
   * 597: [Early design review of Cascade Layers](https://github.com/w3ctag/design-reviews/issues/597) 06c,
 
+Breakout summary: 26 Jan 18:00 - 26 Han 18:30 GMT
+
+Breakout 7: 26 Jan; 23:30 - 27 Jan 00:30 GMT
+
 * 07a
   * 583: [Review Request for CSS Color Adjust Level 1](https://github.com/w3ctag/design-reviews/issues/583) 07a,
   * 586: [ARIA 1.2](https://github.com/w3ctag/design-reviews/issues/586) 07a,
@@ -92,11 +112,15 @@
   * 578: [Require embedees to opt-in.](https://github.com/w3ctag/design-reviews/issues/578) 07b,
   * 596: [Review request: Partitioning Network State](https://github.com/w3ctag/design-reviews/issues/596) 07b,
 
+Breakout 8: 27 Jan 00:45 - 27 Jan 01:45 GMT
+
 * 08a
   * Design Principles 1 08a,
 
 * 08b
   * 476: [Personalization Semantics Explainer and  Module 1](https://github.com/w3ctag/design-reviews/issues/476) 08b,
+
+Breakout Summary: 27 Jan 02:00 - 27 Jan 02:30 GMT
 
 * 09a
   * Ethics Issues 09a
