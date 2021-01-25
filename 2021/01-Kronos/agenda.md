@@ -122,6 +122,8 @@ Breakout 8: 27 Jan 00:45 - 27 Jan 01:45 GMT
 
 Breakout Summary: 27 Jan 02:00 - 27 Jan 02:30 GMT
 
+Breakout 9: 27 Jan 07:30 - 27 Jan 08:30 GMT
+
 * 09a
   * Ethics Issues 09a
 
@@ -131,6 +133,8 @@ Breakout Summary: 27 Jan 02:00 - 27 Jan 02:30 GMT
   * 567: [Byte Streams ](https://github.com/w3ctag/design-reviews/issues/567) 09b,
   * 576: [Media Source Extensions for WebCodecs](https://github.com/w3ctag/design-reviews/issues/576) 09b,
 
+Breakout 10: 27 Jan 08:45 - 27 Jan 09:45 GMT
+
 * 10a
   * Design Principles 2 10a
 
@@ -138,6 +142,10 @@ Breakout Summary: 27 Jan 02:00 - 27 Jan 02:30 GMT
   * 431 [Serial API](https://github.com/w3ctag/design-reviews/issues/431) 10b,
   * 512: ["making the ""total"" field optional in PaymentRequest API"](https://github.com/w3ctag/design-reviews/issues/512) 10b,
   * 580: ["Limit allowed ""accepted"" extensions in File System Access API file pickers."](https://github.com/w3ctag/design-reviews/issues/580) 10b,
+
+Breakout Summary: 27 Jan 10:00 - 27 Jan 10:30 GMT
+
+Breakout 11: 27 Jan 15:30 - 27 Jan 16:30 GMT
 
 * 11a
   * 532: [WebAssembly js-types API](https://github.com/w3ctag/design-reviews/issues/532) 11a,
@@ -149,6 +157,8 @@ Breakout Summary: 27 Jan 02:00 - 27 Jan 02:30 GMT
   * 528: [WebXR Layers](https://github.com/w3ctag/design-reviews/issues/528) 11b,
   * 554: [Web Share API review](https://github.com/w3ctag/design-reviews/issues/554) 11b,
 
+Breakout 12: 27 Jan 16:45 - 27 Jan 17:45 GMT
+
 * 12a
   * 595: [Design review of SameParty cookie attribute](https://github.com/w3ctag/design-reviews/issues/595) 12a,
   * 574: [WebXR Lighting Estimation](https://github.com/w3ctag/design-reviews/issues/574) 12a,
@@ -159,14 +169,24 @@ Breakout Summary: 27 Jan 02:00 - 27 Jan 02:30 GMT
   * 552: [[TAG review request] PWAs as URL Handlers](https://github.com/w3ctag/design-reviews/issues/552) 12b,
   * 564: [Deprecating `document.domain`.](https://github.com/w3ctag/design-reviews/issues/564) 12b,
 
+Breakout Summary: 27 Jan 18:00 - 27 Jan 18:30 GMT
+
+Breakout 13: 27 Jan; 23:30 - 28 Jan 00:30 GMT
+
 * 13a
   * 573: [DOM Review Draft — Published 15 June 2020](https://github.com/w3ctag/design-reviews/issues/573) 13a,
+
+Breakout 14: 28 Jan 00:45 - 28 Jan 01:45 GMT
 
 * 14a
   * Security & Privacy Questionnaire 1 - with Pete Snyder - 14a
 
 * 14b
   * separation of concerns - 14b
+
+Breakout Summary: 28 Jan 02:00 - 28 Jan 02:30 GMT
+
+Breakout 15: 28 Jan 07:30 - 28 Jan 08:30 GMT
 
 * 15a
   * 570: [Web Neural Network API](https://github.com/w3ctag/design-reviews/issues/570) 15a,
@@ -175,9 +195,16 @@ Breakout Summary: 27 Jan 02:00 - 27 Jan 02:30 GMT
 * 15b
   * 516: [Blink Shipping Process](https://github.com/w3ctag/design-reviews/issues/516) 15b,
 
+Breakout 15: 28 Jan 08:45 - 28 Jan 09:45 GMT
+
 * 16a
   * 311: [Temporal proposal](https://github.com/w3ctag/design-reviews/issues/311) 16a,
   * 569: [Adding AbortSignal option to addEventListener](https://github.com/w3ctag/design-reviews/issues/569) 16a,
+
+
+Breakout Summary: 28 Jan 10:00 - 28 Jan 10:30 GMT
+
+Breakout 17: 28 Jan 15:30 - 28 Jan 16:30
 
 * 17a
   * 546: [Web page settings to save battery](https://github.com/w3ctag/design-reviews/issues/546) 17a,
@@ -188,13 +215,17 @@ Breakout Summary: 27 Jan 02:00 - 27 Jan 02:30 GMT
   * 463: [WebXR Hit Test Module](https://github.com/w3ctag/design-reviews/issues/463) 17b,
   * 489: [review HTML event loop and how things fit into it](https://github.com/w3ctag/design-reviews/issues/489) 17b,
 
+Breakout 18: 28 Jan 16:45 - 28 Jan 17:45
+
 * 18a
   * Security & Privacy Questionnaire 2 - 18a
   * 394 [WebSocketStream](https://github.com/w3ctag/design-reviews/issues/394) 18b,
   * 389: [WebTransport](https://github.com/w3ctag/design-reviews/issues/389) 18b,
  
+Breakout Summary: 28 Jan 18:00 - 28 Jan 18:30 GMT
 
-* Design Principles Issues
+
+* Design Principles Issues (to be allocated to design principles sessions above)
 
   * P261: [Feedback on "11.1. Use common words"](https://github.com/w3ctag/design-principles/issues/261) 
   * P251: [Clarity in the 'User'](https://github.com/w3ctag/design-principles/issues/259) ,
