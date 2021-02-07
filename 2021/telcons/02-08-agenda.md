@@ -50,7 +50,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Issues older than on year
 
-* [WebXR AR Module(https://github.com/w3ctag/design-reviews/issues/462)
+* [WebXR AR Module](https://github.com/w3ctag/design-reviews/issues/462)
 * [webxr DOM overlay](https://github.com/w3ctag/design-reviews/issues/470)
 * [webxr hit test](https://github.com/w3ctag/design-reviews/issues/463)
 * [font enumeration](https://github.com/w3ctag/design-reviews/issues/399)
