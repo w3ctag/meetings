@@ -8,25 +8,25 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 * [CSS Scrollbars: scrollbar-color, scrollbar-width](https://github.com/w3ctag/design-reviews/issues/563) - @LeaVerou, @torgo, @kenchris, @atanassov
 * [WebXR Lighting Estimation](https://github.com/w3ctag/design-reviews/issues/574) - @torgo, @atanassov
-* [Screen Fold API](https://github.com/w3ctag/design-reviews/issues/575) - @torgo, @plinss, @atanassov
 * [WebXR Dynamic Viewport Scaling](https://github.com/w3ctag/design-reviews/issues/588) - @torgo, @hadleybeeman
 * [Early design review of Cascade Layers](https://github.com/w3ctag/design-reviews/issues/597) - @LeaVerou, @atanassov
 * [HTMLPopupElement - <popup>](https://github.com/w3ctag/design-reviews/issues/599) - @hober, @LeaVerou, @kenchris, @atanassov
 * [Early design review for the FLoC API](https://github.com/w3ctag/design-reviews/issues/601) - @torgo, @rhiaro, @plinss, @atanassov
 * [inert attribute](https://github.com/w3ctag/design-reviews/issues/610) - @hober, @LeaVerou
 * [Early Design Review: Speculation Rules](https://github.com/w3ctag/design-reviews/issues/611) - @hober, @rhiaro, @atanassov
+* [Early TAG design review for captureTab](https://github.com/w3ctag/design-reviews/issues/609) - @LeaVerou, @torgo
 
 ### Breakout B (US / APAC) - [2021-02-23](https://www.timeanddate.com/worldclock/converter.html?iso=20210223T000000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
 * [Media Source Extensions for WebCodecs](https://github.com/w3ctag/design-reviews/issues/576) - @hober, @cynthia
 * [MediaStreamTrack Insertable Media Processing using Streams](https://github.com/w3ctag/design-reviews/issues/603) - @cynthia
+* [Screen Fold API](https://github.com/w3ctag/design-reviews/issues/575) - @torgo, @plinss, @atanassov
 
 ### Breakout C (APAC / Europe) - [2021-02-23](https://www.timeanddate.com/worldclock/converter.html?iso=20210223T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
 * [Web Neural Network API](https://github.com/w3ctag/design-reviews/issues/570) - @cynthia, @torgo, @kenchris, @hadleybeeman
 * ["credentialless" embedder policy.](https://github.com/w3ctag/design-reviews/issues/582) - @ylafon
 * [Media Session: video conferencing actions](https://github.com/w3ctag/design-reviews/issues/608) - @ylafon, @kenchris
-* [Early TAG design review for captureTab](https://github.com/w3ctag/design-reviews/issues/609) - @LeaVerou, @torgo
 
 ### Plenary Session - [2021-02-24](https://www.timeanddate.com/worldclock/converter.html?iso=20210224T060000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
