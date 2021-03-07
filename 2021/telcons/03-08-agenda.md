@@ -10,15 +10,13 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Early design review for the FLoC API](https://github.com/w3ctag/design-reviews/issues/601) - @torgo, @rhiaro, @plinss, @atanassov
 * [Early design review of the **updated** Multi-Screen Window Placement API](https://github.com/w3ctag/design-reviews/issues/602) - @kenchris, @atanassov
 
-* Web Serial https://github.com/w3ctag/design-reviews/issues/431 - close it or is there a security concern?
-* Get installed related apps https://github.com/w3ctag/design-reviews/issues/436 - can we close it?
-* App History https://github.com/w3ctag/design-reviews/issues/605 - can we close it?
+* [Web Serial](https://github.com/w3ctag/design-reviews/issues/431) - close it or is there a security concern?
+* [Get installed related apps](https://github.com/w3ctag/design-reviews/issues/436) - can we close it?
 
 * [WebXR Hit Test Module](https://github.com/w3ctag/design-reviews/issues/463) - @hober, @torgo, @atanassov
 * [CSS Scrollbars: scrollbar-color, scrollbar-width](https://github.com/w3ctag/design-reviews/issues/563) - @LeaVerou, @torgo, @kenchris, @atanassov
 * [HTMLPopupElement - <popup>](https://github.com/w3ctag/design-reviews/issues/599) - @hober, @LeaVerou, @kenchris, @atanassov
 * [WebCodecs (again!)](https://github.com/w3ctag/design-reviews/issues/612) - @cynthia, @kenchris
-
 
 ### Breakout B (US / APAC) - [2021-03-09](https://www.timeanddate.com/worldclock/converter.html?iso=20210309T010000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
@@ -30,10 +28,11 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Support WebOTP API and origin-bound one time code in cross-origin iframes](https://github.com/w3ctag/design-reviews/issues/604) - @hober, @cynthia, @kenchris
 * [inert attribute](https://github.com/w3ctag/design-reviews/issues/610) - @hober, @LeaVerou
 
-
 ### Breakout C (APAC / Europe) - [2021-03-09](https://www.timeanddate.com/worldclock/converter.html?iso=20210309T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
 * Design Principles PR 262 - can we land it?
+* [Early Design review of App History](https://github.com/w3ctag/design-reviews/issues/605) - @kencgris @cyntgia - how can we progress quickky?
+
 * ["credentialless" embedder policy.](https://github.com/w3ctag/design-reviews/issues/582) - @ylafon
 * [EyeDropper API](https://github.com/w3ctag/design-reviews/issues/587) - @cynthia, @LeaVerou, @kenchris
 * [WebXR Dynamic Viewport Scaling](https://github.com/w3ctag/design-reviews/issues/588) - @torgo, @hadleybeeman
