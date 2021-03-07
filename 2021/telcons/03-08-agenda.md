@@ -35,6 +35,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [WebCodecs (again!)](https://github.com/w3ctag/design-reviews/issues/612) - @cynthia, @kenchris
 * Design Principles PR 262
 
+Web Serial https://github.com/w3ctag/design-reviews/issues/431 - close it?
+
 * Breakout Rollup
 * Issue Triage
 
