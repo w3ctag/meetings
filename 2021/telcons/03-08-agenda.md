@@ -21,6 +21,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout B (US / APAC) - [2021-03-09](https://www.timeanddate.com/worldclock/converter.html?iso=20210309T010000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
+* [high priority] Design Principles PR 262 - can we land it?
+
 * [Font Enumeration API](https://github.com/w3ctag/design-reviews/issues/399) - @hober, @plinss
 * [CAPTCHAs are horrible](https://github.com/w3ctag/design-reviews/issues/558) - @hober, @torgo, @plinss
 * [Media Source Extensions for WebCodecs](https://github.com/w3ctag/design-reviews/issues/576) - @hober, @cynthia
@@ -29,18 +31,18 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Support WebOTP API and origin-bound one time code in cross-origin iframes](https://github.com/w3ctag/design-reviews/issues/604) - @hober, @cynthia, @kenchris
 * [inert attribute](https://github.com/w3ctag/design-reviews/issues/610) - @hober, @LeaVerou
 * [EyeDropper API](https://github.com/w3ctag/design-reviews/issues/587) - @cynthia, @LeaVerou, @kenchris
+* [MediaStreamTrack Insertable Media Processing using Streams](https://github.com/w3ctag/design-reviews/issues/603) - @cynthia, @torgo
+* [Managed Device Web API](https://github.com/w3ctag/design-reviews/issues/606) - @cynthia, @kenchris
 
 
 ### Breakout C (APAC / Europe) - [2021-03-09](https://www.timeanddate.com/worldclock/converter.html?iso=20210309T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
-* Design Principles PR 262 - can we land it?
-* [Early Design review of App History](https://github.com/w3ctag/design-reviews/issues/605) - @kenchris @cynthia - how can we progress quickky?
+* [Early Design review of App History](https://github.com/w3ctag/design-reviews/issues/605) - @kenchris @cyntia - how can we progress quickky?
 
 * ["credentialless" embedder policy.](https://github.com/w3ctag/design-reviews/issues/582) - @ylafon
 * [WebXR Dynamic Viewport Scaling](https://github.com/w3ctag/design-reviews/issues/588) - @torgo, @hadleybeeman
 * [Suggested file name and location for the File System Access API.](https://github.com/w3ctag/design-reviews/issues/598) - @kenchris
-* [MediaStreamTrack Insertable Media Processing using Streams](https://github.com/w3ctag/design-reviews/issues/603) - @cynthia, @torgo
-* [Managed Device Web API](https://github.com/w3ctag/design-reviews/issues/606) - @cynthia, @kenchris
+
 * [Media Session: video conferencing actions](https://github.com/w3ctag/design-reviews/issues/608) - @ylafon, @kenchris
 
 
