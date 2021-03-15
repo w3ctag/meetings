@@ -12,6 +12,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [HTMLPopupElement - <popup>](https://github.com/w3ctag/design-reviews/issues/599) - @hober, @LeaVerou, @kenchris, @atanassov
 * [TAG Specification review for viewport height client hint](https://github.com/w3ctag/design-reviews/issues/615) - @ylafon, @plinss
 * [Early design review: Subresource loading with Web Bundles](https://github.com/w3ctag/design-reviews/issues/616) - @hober, @torgo
+* [First Party Sets](https://github.com/w3ctag/design-reviews/issues/342) - @torgo, @hadleybeeman
 
 ### Breakout B (US / APAC) - [2021-03-16](https://www.timeanddate.com/worldclock/converter.html?iso=20210316T010000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
