@@ -23,6 +23,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * Breakout Rollup
 * Issue Triage
 
+### Specal Session for First Party Sets - [2021-04-08](https://www.timeanddate.com/worldclock/converter.html?iso=20210408T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
+
 ### Logistics
 
 Chair: Dan
@@ -35,7 +37,7 @@ Bridge: https://meet.jit.si/w3ctag first then going to https://whereby.com/w3cta
 
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2021/telcons/04-05-minutes.md
 
-Raw minutes: ...
+Raw minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/4CWQjs9N975n-AACXI59dn8XeHvoPVu33dG1lv7vJOY/
 
 
 ### Local Call Times
