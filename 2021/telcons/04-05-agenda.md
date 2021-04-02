@@ -13,6 +13,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 * [High Level vs Low Level](https://github.com/w3ctag/design-principles/pull/291/files)
 * [Added some text for "Attributes vs Methods"](https://github.com/w3ctag/design-principles/pull/262) - @cynthia
+* Detectability of AF - Sangwhan
 
 ### Breakout C (APAC / Europe) - [2021-04-06](https://www.timeanddate.com/worldclock/converter.html?iso=20210406T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
