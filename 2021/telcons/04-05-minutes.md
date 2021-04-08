@@ -41,6 +41,9 @@
 * Breakout Rollup
 * Issue Triage
 
+
+**NB: We largely focused on *first party sets* this week to the exclusion of this agenda.**
+
 ------
 
 ### Breakout A (Europe / US) - [2021-04-05](https://www.timeanddate.com/worldclock/converter.html?iso=20210405T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
