@@ -5,7 +5,50 @@
 
 ### Agenda:
 
-#### Special First Party Sets Session Part Deux
+#### Special First Party Sets Session Part Deux - [2012-04-12]
+
+* Further discussion of TAG feedback document focusing on governance.
+
+#### Breakout A (Europe / US) - [2021-04-12](https://www.timeanddate.com/worldclock/converter.html?iso=20210412T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
+
+* [Are some of the "Guidelines for web component authors" more broadly applicable Design Principles?](https://github.com/w3ctag/design-principles/issues/271) - @LeaVerou, @kenchris
+* [HTML: Guidance about 
+-containing attributes](https://github.com/w3ctag/design-principles/issues/278) - @LeaVerou, @ylafon
+* [HTML: IDL attributes and HTML attributes should be kept in sync](https://github.com/w3ctag/design-principles/issues/279) - @LeaVerou, @kenchris
+* [Guidance for naming events](https://github.com/w3ctag/design-principles/issues/280) - @LeaVerou, @kenchris
+* [New design principle: Consistency](https://github.com/w3ctag/design-principles/issues/285) - @LeaVerou, @hadleybeeman
+* [Guidance about return values of (conceptually) void functions](https://github.com/w3ctag/design-principles/issues/286) - @LeaVerou, @kenchris
+* [Simple things should be easy, complex things should be possible](https://github.com/w3ctag/design-principles/issues/299)
+* [New principle: APIs should allow introspection](https://github.com/w3ctag/design-principles/issues/300)
+
+#### Breakout B (US / APAC) - [2021-04-13](https://www.timeanddate.com/worldclock/converter.html?iso=20210413T010000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
+
+* [Added some text for "Attributes vs Methods"](https://github.com/w3ctag/design-principles/pull/262) - @cynthia
+* [Generate a subset of the Design Principles doc for web developers](https://github.com/w3ctag/design-principles/issues/268) - @LeaVerou
+* [[Meta] HTML Design Principles section](https://github.com/w3ctag/design-principles/issues/269) - @LeaVerou
+* [New principle: Guidance on when to use a child element vs an attribute](https://github.com/w3ctag/design-principles/issues/270) - @LeaVerou
+* [Generalize principle about avoiding abbreviations?](https://github.com/w3ctag/design-principles/issues/276) - @LeaVerou
+* [HTML: Guidance about lists of values in attributes](https://github.com/w3ctag/design-principles/issues/277) - @cynthia, @LeaVerou
+* [HTML: Guidance about URL-containing attributes](https://github.com/w3ctag/design-principles/issues/278) - @LeaVerou, @ylafon
+* [HTML: Re-use existing attribute names for similar concepts](https://github.com/w3ctag/design-principles/issues/281) - @hober, @LeaVerou
+* [CSS: Guidance about serialization](https://github.com/w3ctag/design-principles/issues/284) - @LeaVerou, @atanassov
+* [Guidance about which state properties should be reflected as HTML attributes](https://github.com/w3ctag/design-principles/issues/289) - @LeaVerou, @plinss
+* [High Level vs Low Level](https://github.com/w3ctag/design-principles/pull/291/files)
+
+
+#### Breakout C (APAC / Europe) - [2021-04-13](https://www.timeanddate.com/worldclock/converter.html?iso=20210413T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
+
+* [Link with Ethical Web Principles](https://github.com/w3ctag/design-principles/issues/282) - @torgo, @rhiaro, @hadleybeeman
+* Detectability of AF - Sangwhan
+
+#### Plenary Session - [2021-04-14](https://www.timeanddate.com/worldclock/converter.html?iso=20210414T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
+
+* Breakout Rollup
+* Issue Triage
+
+-----
+
+### Special Session on First Party Sets
 
 Present: Dan, Amy, Tess, Yves, Hadley, Peter (2nd half), Lea, Kaustubha, Brad Lassey, Chris Wilson, Yoav, Chris Harrelson, Alex Russell
 
@@ -133,46 +176,6 @@ Brad: next steps - defintiely interested in updating the explainer to clarify po
 Dan: I'm happy to be a point of contact for that. Maybe we can figure out a more transparent way to do it as well. 
 
 Brad: we'll work on edits and run them by you to make sure they're addressing the concerns y'all have.
-
-#### Breakout A (Europe / US) - [2021-04-12](https://www.timeanddate.com/worldclock/converter.html?iso=20210412T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
-
-* [Are some of the "Guidelines for web component authors" more broadly applicable Design Principles?](https://github.com/w3ctag/design-principles/issues/271) - @LeaVerou, @kenchris
-* [HTML: Guidance about 
--containing attributes](https://github.com/w3ctag/design-principles/issues/278) - @LeaVerou, @ylafon
-* [HTML: IDL attributes and HTML attributes should be kept in sync](https://github.com/w3ctag/design-principles/issues/279) - @LeaVerou, @kenchris
-* [Guidance for naming events](https://github.com/w3ctag/design-principles/issues/280) - @LeaVerou, @kenchris
-* [New design principle: Consistency](https://github.com/w3ctag/design-principles/issues/285) - @LeaVerou, @hadleybeeman
-* [Guidance about return values of (conceptually) void functions](https://github.com/w3ctag/design-principles/issues/286) - @LeaVerou, @kenchris
-* [Simple things should be easy, complex things should be possible](https://github.com/w3ctag/design-principles/issues/299)
-* [New principle: APIs should allow introspection](https://github.com/w3ctag/design-principles/issues/300)
-
-#### Breakout B (US / APAC) - [2021-04-13](https://www.timeanddate.com/worldclock/converter.html?iso=20210413T010000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
-
-* [Added some text for "Attributes vs Methods"](https://github.com/w3ctag/design-principles/pull/262) - @cynthia
-* [Generate a subset of the Design Principles doc for web developers](https://github.com/w3ctag/design-principles/issues/268) - @LeaVerou
-* [[Meta] HTML Design Principles section](https://github.com/w3ctag/design-principles/issues/269) - @LeaVerou
-* [New principle: Guidance on when to use a child element vs an attribute](https://github.com/w3ctag/design-principles/issues/270) - @LeaVerou
-* [Generalize principle about avoiding abbreviations?](https://github.com/w3ctag/design-principles/issues/276) - @LeaVerou
-* [HTML: Guidance about lists of values in attributes](https://github.com/w3ctag/design-principles/issues/277) - @cynthia, @LeaVerou
-* [HTML: Guidance about URL-containing attributes](https://github.com/w3ctag/design-principles/issues/278) - @LeaVerou, @ylafon
-* [HTML: Re-use existing attribute names for similar concepts](https://github.com/w3ctag/design-principles/issues/281) - @hober, @LeaVerou
-* [CSS: Guidance about serialization](https://github.com/w3ctag/design-principles/issues/284) - @LeaVerou, @atanassov
-* [Guidance about which state properties should be reflected as HTML attributes](https://github.com/w3ctag/design-principles/issues/289) - @LeaVerou, @plinss
-* [High Level vs Low Level](https://github.com/w3ctag/design-principles/pull/291/files)
-
-
-#### Breakout C (APAC / Europe) - [2021-04-13](https://www.timeanddate.com/worldclock/converter.html?iso=20210413T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
-
-* [Link with Ethical Web Principles](https://github.com/w3ctag/design-principles/issues/282) - @torgo, @rhiaro, @hadleybeeman
-* Detectability of AF - Sangwhan
-
-#### Plenary Session - [2021-04-14](https://www.timeanddate.com/worldclock/converter.html?iso=20210414T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
-
-* Breakout Rollup
-* Issue Triage
-
------
-
 
 ### Breakout A
 
