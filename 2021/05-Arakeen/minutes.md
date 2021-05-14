@@ -1402,7 +1402,7 @@ Hadley: I think it would be useful to see the outputs - when there's a next draf
 
 Present: Amy, Dan Rossen
 
-#### [WebXR Plane Detection Module]	(https://github.com/w3ctag/design-reviews/issues/620)
+#### [WebXR Plane Detection Module](https://github.com/w3ctag/design-reviews/issues/620)
 
 Dan: [PR](https://github.com/immersive-web/real-world-geometry/pull/31) that addresses our feedback.
 
