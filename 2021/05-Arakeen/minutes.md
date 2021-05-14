@@ -1286,10 +1286,8 @@ Draft closing comment from @ylafon:
 
 ``Thank you for those answers. From a TAG standpoint we are happy to let the discussion continue in the HTTPBis WG.``
 
-# TAG Virtual F2F - Arakeen
 
 ## Breakout Track B
-
 
 ### Session 1
 
@@ -1721,7 +1719,6 @@ META: should we stick to one assignee for design principles issues to make it cl
 
 ## Breakout Track C
 
-
 ### Session 3
 
 Present: Yves, Dan
@@ -1794,13 +1791,9 @@ Sangwhan: I think they can but not sure.
 6. When should we mandate a subject?
 7. before\*after\*, \*end\*start?
 
-
-
 ## Rollups
 
-### 1
-
-### 2
+NB: In between each breakout session we ran "rollup" sessions to summarize the activities in the breakouts for other TAG members. The notes from these sessions are contained below, in some cases with further discussion or actions taken.
 
 ### 3a
 
@@ -1870,11 +1863,6 @@ Peter: we had one issue - never sniffed mime types - we didn't have a lot of fee
 
 [consensus to close]
 
-### 6
-
-### 7
-
-### 8
 
 ### 9a
 
