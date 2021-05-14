@@ -1635,23 +1635,6 @@ Amy: anyone can spin up a web store
 
 Hadley: unfortunate compromise we had to make for payments, but be great not to make it anywhere else. Should have a design principle discussion around it. 
 
-### Session 13
-
-Present:
-
-### Session 14
-
-Present:
-
-
-### Session 15
-
-Present:
-
-### Session 16
-
-Present:
-
 ### Session 17
 
 Present: Peter, Yves
