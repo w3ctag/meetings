@@ -6,3 +6,5 @@ This W3C Technical Architecture Group virtual face-to-face meeting was held as a
 
 [Agenda](agenda.md)  
 [Minutes](minutes.md)
+
+![PDVD_489](https://user-images.githubusercontent.com/287526/118288302-30ccfa80-b4cc-11eb-957d-0123d7e9e68e.jpg)
