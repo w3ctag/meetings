@@ -1295,8 +1295,7 @@ Draft closing comment from @ylafon:
 
 Present: Peter, Sangwhan
 
-Check the schedule / Triage any new issues
-------------------------------------------
+#### Check the schedule / Triage any new issues
 
 Sangwhan: 629 and above are not assigned.
 
