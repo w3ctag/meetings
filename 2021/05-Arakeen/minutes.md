@@ -4,6 +4,8 @@
 
 This W3C Technical Architecture Group virtual face-to-face meeting was held as a series of 18 breakouts over the course of the week of 10 May, 2021. The mintues are presented as breakout notes and are not chronological.  There are some additional "rollup" notes presented at the bottom of the document where some of the sessions are futher summarized. In these rollup sessions, there is often further discussion and issues are sometimes closed.
 
+[Agenda](agenda.md)  
+
 ## Breakout Track A
 
 ### Session 1
