@@ -1464,25 +1464,7 @@ Dan: [done](https://github.com/w3ctag/design-reviews/issues/462#issuecomment-838
 
 #### [WebXR DOM Overlay Module](https://github.com/w3ctag/design-reviews/issues/470)
 
-### Session 6
-
-Present:
-
-### Session 7
-
-Present:
-
-### Session 8
-
-Present:
-
-### Session 9
-
-Present:
-
-### Session 10
-
-Present:
+[bumped]
 
 ### Session 11
 
@@ -1545,8 +1527,6 @@ Ken: ... some changes with this....
 [reviewing]
 
 Dan: there's lots of fingerprinting info exposed as document in their answers to the s&p questionnaire. Is any of this mitigated against e.g. via a permission request?  [this](https://github.com/webscreens/window-placement/blob/main/security_and_privacy.md#22-is-this-specification-exposing-the-minimum-amount-of-information-necessary-to-power-the-feature) would seem to indicate that access to this kind of data is limited behind a permission.
-
-
 
 ### Session 12
 
