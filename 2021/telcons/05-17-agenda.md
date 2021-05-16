@@ -12,6 +12,9 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 * [Geolocation API](https://github.com/w3ctag/design-reviews/issues/529) - @hober, @torgo, @hadleybeeman, @plinss
 * [WebGPU and WGSL](https://github.com/w3ctag/design-reviews/issues/626) - @hober, @cynthia
+* [Design Principles PR: Make naming consistent about methods and arguments](https://github.com/w3ctag/design-principles/pull/312)
+* [Design Principles PR: Add text for low-level vs high-level APIs](https://github.com/w3ctag/design-principles/pull/291)
+* [Design Principles PR: New text re: balancing concerns between interoperability and implementability](https://github.com/w3ctag/design-principles/pull/290)
 
 ### Breakout C (APAC / Europe) - [2021-05-18](https://www.timeanddate.com/worldclock/converter.html?iso=20210518T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
@@ -19,12 +22,17 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
   * [Early TAG design review for captureTab](https://github.com/w3ctag/design-reviews/issues/609) 
   * [API for caputuring the current tab](https://github.com/w3ctag/design-reviews/issues/625) 
 * [Shared Element Transitions - Early Review](https://github.com/w3ctag/design-reviews/issues/631) - @cynthia, @LeaVerou, @plinss
+* [Design Principles PR: Add a new principle for crypto.](https://github.com/w3ctag/design-principles/pull/310)
+* [Design Principles PR: Add text for low-level vs high-level APIs](https://github.com/w3ctag/design-principles/pull/291)
+
 
 ### Plenary Session - [2021-05-19](https://www.timeanddate.com/worldclock/converter.html?iso=20210519T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
 * [WebXR DOM Overlay Module](https://github.com/w3ctag/design-reviews/issues/470) - @hober, @torgo
 * [Realms API ECMAScript Proposal](https://github.com/w3ctag/design-reviews/issues/542) - @hober, @kenchris
 * [Digital Goods API](https://github.com/w3ctag/design-reviews/issues/571) - @hober, @hadleybeeman
+
+* [Design Principles PR: Added some text for "Attributes vs Methods"](https://github.com/w3ctag/design-principles/pull/262)
 
 * Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aopen+is%3Aissue+label%3A%22Progress%3A+untriaged%22)
