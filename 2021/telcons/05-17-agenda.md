@@ -35,13 +35,13 @@ Chair: Dan
 
 Scribe:
 
-Bridge: https://meet.jit.si/w3ctag first then going to https://whereby.com/w3ctag as a back-up
+Bridge: first https://whereby.com/w3ctag (with https://meet.jit.si/w3ctag as a back-up)
 
 * Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2021/telcons/05-17-minutes.md
 
-Raw minutes: ...
+Raw minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/fjuBV-Proq5oV1soM63icW5an0JXkLqp3N3lzxkM6D4/
 
 
 ### Local Call Times
