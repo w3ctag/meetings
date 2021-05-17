@@ -23,8 +23,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
   * [API for caputuring the current tab](https://github.com/w3ctag/design-reviews/issues/625) 
 * [Shared Element Transitions - Early Review](https://github.com/w3ctag/design-reviews/issues/631) - @cynthia, @LeaVerou, @plinss
 * [Design Principles PR: Add a new principle for crypto.](https://github.com/w3ctag/design-principles/pull/310)
-* [Design Principles PR: Add text for low-level vs high-level APIs](https://github.com/w3ctag/design-principles/pull/291)
-
+* [Add consistency section](https://github.com/w3ctag/design-principles/pull/313)
 
 ### Plenary Session - [2021-05-19](https://www.timeanddate.com/worldclock/converter.html?iso=20210519T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
