@@ -6,29 +6,32 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (Europe / US) - [2021-05-31](https://www.timeanddate.com/worldclock/converter.html?iso=20210531T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
-### Breakout B (US / APAC) - [2021-06-01](https://www.timeanddate.com/worldclock/converter.html?iso=20210601T010000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
-
-### Breakout C (APAC / Europe) - [2021-06-01](https://www.timeanddate.com/worldclock/converter.html?iso=20210601T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
-
-### Plenary Session - [2021-06-02](https://www.timeanddate.com/worldclock/converter.html?iso=20210602T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
-
-* [First-Party Sets](https://github.com/w3ctag/design-reviews/issues/342) - @hober, @torgo, @hadleybeeman
 * [WebXR DOM Overlay Module](https://github.com/w3ctag/design-reviews/issues/470) - @hober, @torgo
 * [Geolocation API](https://github.com/w3ctag/design-reviews/issues/529) - @hober, @torgo, @hadleybeeman, @plinss
 * [Realms API ECMAScript Proposal](https://github.com/w3ctag/design-reviews/issues/542) - @hober, @kenchris
+* [CSS: contain-intrinsic-size: auto, and converting to a shorthand property](https://github.com/w3ctag/design-reviews/issues/624) - @hober, @LeaVerou, @plinss, @atanassov
+* [Partitioning Storage, Service Workers, and Communication APIs](https://github.com/w3ctag/design-reviews/issues/629) - @hober, @rhiaro, @ylafon
+* [User Preference Media Features Client Hints Headers](https://github.com/w3ctag/design-reviews/issues/632) - @torgo, @atanassov
+* [[css-color-adjust-1] Privacy Impact of System Colors in Forced Colors Mode](https://github.com/w3ctag/design-reviews/issues/637) - @hober, @rhiaro
+
+### Breakout B (US / APAC) - [2021-06-01](https://www.timeanddate.com/worldclock/converter.html?iso=20210601T010000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
+
 * [CSS overflow: clip and overflow-clip-margin](https://github.com/w3ctag/design-reviews/issues/579) - @hober, @atanassov
 * [Handwriting Recognition API](https://github.com/w3ctag/design-reviews/issues/591) - @cynthia, @atanassov
 * [Early design review of modal close signals/ModalCloseWatcher](https://github.com/w3ctag/design-reviews/issues/594) - @hober, @plinss
+* [WebGPU and WGSL](https://github.com/w3ctag/design-reviews/issues/626) - @hober, @cynthia
+
+### Breakout C (APAC / Europe) - [2021-06-01](https://www.timeanddate.com/worldclock/converter.html?iso=20210601T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
+
 * [MediaStreamTrack Insertable Media Processing using Streams](https://github.com/w3ctag/design-reviews/issues/603) - @cynthia, @torgo
 * [Managed Device Web API](https://github.com/w3ctag/design-reviews/issues/606) - @cynthia, @kenchris
 * [Early TAG design review for captureTab](https://github.com/w3ctag/design-reviews/issues/609) - @LeaVerou, @torgo
-* [CSS: contain-intrinsic-size: auto, and converting to a shorthand property](https://github.com/w3ctag/design-reviews/issues/624) - @hober, @LeaVerou, @plinss, @atanassov
 * [API for display-capturing the current tab](https://github.com/w3ctag/design-reviews/issues/625) - @cynthia, @LeaVerou
-* [WebGPU and WGSL](https://github.com/w3ctag/design-reviews/issues/626) - @hober, @cynthia
-* [Partitioning Storage, Service Workers, and Communication APIs](https://github.com/w3ctag/design-reviews/issues/629) - @hober, @rhiaro, @ylafon
 * [Shared Element Transitions - Early Review](https://github.com/w3ctag/design-reviews/issues/631) - @cynthia, @LeaVerou, @plinss
-* [User Preference Media Features Client Hints Headers](https://github.com/w3ctag/design-reviews/issues/632) - @torgo, @atanassov
-* [[css-color-adjust-1] Privacy Impact of System Colors in Forced Colors Mode](https://github.com/w3ctag/design-reviews/issues/637) - @hober, @rhiaro
+
+### Plenary Session - [2021-06-02](https://www.timeanddate.com/worldclock/converter.html?iso=20210602T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
+
+* Status check on [First-Party Sets](https://github.com/w3ctag/design-reviews/issues/342) - @hober, @torgo, @hadleybeeman
 
 * Breakout Rollup
 * Issue Triage
@@ -39,13 +42,13 @@ Chair: Dan
 
 Scribe:
 
-Bridge: https://meet.jit.si/w3ctag first then going to https://whereby.com/w3ctag as a back-up
+Bridge:  first https://whereby.com/w3ctag then going to https://meet.jit.si/w3ctag as a back-up
 
 * Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2021/telcons/05-31-minutes.md
 
-Raw minutes: ...
+Raw minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/1IBqf80Qykz6z3byRkMKbAffG0uuu+fKlsV52-Asudc/
 
 
 ### Local Call Times
