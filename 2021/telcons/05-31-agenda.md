@@ -4,7 +4,9 @@ This agenda can be viewed and updated on [Github](https://github.com/w3ctag/meet
 
 If you would like to add an item to the agenda or volunteer to scribe please open a pull request against this agenda.
 
-### Breakout A (Europe / US) - [2021-05-31](https://www.timeanddate.com/worldclock/converter.html?iso=20210531T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
+NB: Breakouts A and B are moved forward 1 day to accomodate the long weekend in the US and the UK.
+
+### Breakout A (Europe / US) - [2021-06-01](https://www.timeanddate.com/worldclock/converter.html?iso=20210601T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
 * [WebXR DOM Overlay Module](https://github.com/w3ctag/design-reviews/issues/470) - @hober, @torgo
 * [Geolocation API](https://github.com/w3ctag/design-reviews/issues/529) - @hober, @torgo, @hadleybeeman, @plinss
@@ -14,7 +16,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [User Preference Media Features Client Hints Headers](https://github.com/w3ctag/design-reviews/issues/632) - @torgo, @atanassov
 * [[css-color-adjust-1] Privacy Impact of System Colors in Forced Colors Mode](https://github.com/w3ctag/design-reviews/issues/637) - @hober, @rhiaro
 
-### Breakout B (US / APAC) - [2021-06-01](https://www.timeanddate.com/worldclock/converter.html?iso=20210601T010000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
+### Breakout B (US / APAC) - [2021-06-02](https://www.timeanddate.com/worldclock/converter.html?iso=20210602T010000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
 * [CSS overflow: clip and overflow-clip-margin](https://github.com/w3ctag/design-reviews/issues/579) - @hober, @atanassov
 * [Handwriting Recognition API](https://github.com/w3ctag/design-reviews/issues/591) - @cynthia, @atanassov
