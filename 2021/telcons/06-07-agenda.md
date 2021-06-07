@@ -34,6 +34,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Plenary Session - [2021-06-09](https://www.timeanddate.com/worldclock/converter.html?iso=20210609T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
+* [again with the access to the clipboard](https://github.com/w3ctag/design-reviews/issues/636#issuecomment-853319479)
 * [[Meta] Tackling design problems earlier than design review / A Q&A section for API design](https://github.com/w3ctag/design-principles/issues/319)
 * Triage: [Discourage depending on the WTF-16 nature of JavaScript strings](https://github.com/w3ctag/design-principles/issues/323), [Encourage UTF-8 for new formats and APIs](https://github.com/w3ctag/design-principles/issues/322)
 * Possible new joint work with Privacy Interest Group
