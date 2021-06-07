@@ -25,6 +25,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout C (APAC / Europe) - [2021-06-08](https://www.timeanddate.com/worldclock/converter.html?iso=20210608T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
+* [Identity of identification identifiers](https://lists.w3.org/Archives/Public/www-tag/2021Jun/0000.html)
 * PR [Add consistency section, closes #285](https://github.com/w3ctag/design-principles/pull/313)
 * PR [Incorporate Alan Kay's maxim into 'Prefer simple solutions'.](https://github.com/w3ctag/design-principles/pull/306)
 * Ethical Principles PR from Marcos: [Refactor: use markdown](https://github.com/w3ctag/ethical-web-principles/pull/41)
