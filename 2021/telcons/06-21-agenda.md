@@ -14,6 +14,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout C (APAC / Europe) - [2021-06-22](https://www.timeanddate.com/worldclock/converter.html?iso=20210622T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
+* [First Party Sets PR 45](https://github.com/privacycg/first-party-sets/pull/45) addressing some TAG feedback
+
 ### Plenary Session - [2021-06-23](https://www.timeanddate.com/worldclock/converter.html?iso=20210623T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
 * Breakout Rollup
