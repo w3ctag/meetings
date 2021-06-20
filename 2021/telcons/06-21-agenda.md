@@ -9,11 +9,25 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Realms API ECMAScript Proposal](https://github.com/w3ctag/design-reviews/issues/542) - @hober, @kenchris
 * [User-Agent Client Hints & UA Reduction](https://github.com/w3ctag/design-reviews/issues/640) - @torgo
 * [Canvas 2D color management](https://github.com/w3ctag/design-reviews/issues/646) - @LeaVerou, @atanassov
+* [Design Principles PR: Prefer Simple Solutions](https://github.com/w3ctag/design-principles/pull/306)
 
 ### Breakout B (US / APAC) - [2021-06-22](https://www.timeanddate.com/worldclock/converter.html?iso=20210622T010000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
+* [Design Principles PR: High level vs Low Level](https://github.com/w3ctag/design-principles/pull/291)
+* Proposed closed
+ * [WebID](https://github.com/w3ctag/design-reviews/issues/622)
+ * [Referrer handling - default policy and capping](https://github.com/w3ctag/design-reviews/issues/538)
+ * [Early Design Review: document.prerendering](https://github.com/w3ctag/design-reviews/issues/613)
+ * [Early design review: opaque-blocklisted-never-sniffed MIME types](https://github.com/w3ctag/design-reviews/issues/618)
+
 ### Breakout C (APAC / Europe) - [2021-06-22](https://www.timeanddate.com/worldclock/converter.html?iso=20210622T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
+* Proosed Closed:
+ * [MiniApp URI Scheme](https://github.com/w3ctag/design-reviews/issues/478)
+ * [MiniApp Manifest](https://github.com/w3ctag/design-reviews/issues/524)
+ * [MediaStreamTrack Insertable Media Processing using Streams](https://github.com/w3ctag/design-reviews/issues/603)
+ * [DFesign Principles PR: devices](https://github.com/w3ctag/design-principles/pull/320)
+ * [Pre CR review request of CSS Multi-column layout Level 1](https://github.com/w3ctag/design-reviews/issues/634)
 * [First Party Sets PR 45](https://github.com/privacycg/first-party-sets/pull/45) addressing some TAG feedback
 
 ### Plenary Session - [2021-06-23](https://www.timeanddate.com/worldclock/converter.html?iso=20210623T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
@@ -21,7 +35,9 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * New privacy model finding
 
 * Breakout Rollup
-* Issue Triage
+* [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aopen+is%3Aissue+label%3A%22Progress%3A+untriaged%22)
+
+
 
 ### Logistics
 
