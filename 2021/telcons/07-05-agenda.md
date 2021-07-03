@@ -6,20 +6,15 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (Europe / US) - [2021-07-05](https://www.timeanddate.com/worldclock/converter.html?iso=20210705T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
-* [Security & Privacy Pull 128](https://github.com/w3ctag/security-questionnaire/pull/128)
-* [Add non-"fully active" document handling guide](https://github.com/w3ctag/design-principles/pull/317)
-* [New principle: Guidance on User Activation](https://github.com/w3ctag/design-principles/issues/314) - @hober, @torgo
-* [New principle: When to use client hints](https://github.com/w3ctag/design-principles/issues/307) - @hober, @torgo
-* [Incorporate Alan Kay's maxim into 'Prefer simple solutions'.](https://github.com/w3ctag/design-principles/pull/306) - @hober
-* [HTML: Re-use existing attribute names for similar concepts](https://github.com/w3ctag/design-principles/issues/281) - @hober, @LeaVerou
-* [Guidance for naming events](https://github.com/w3ctag/design-principles/issues/280) - @hober, @LeaVerou, @kenchris
+[cancelled to to US holiday]
 
 ### Breakout B (US / APAC) - [2021-07-06](https://www.timeanddate.com/worldclock/converter.html?iso=20210706T000000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
-* [Guidance for when to use inheritance vs composition](https://github.com/w3ctag/design-principles/issues/298)
+[cancelled to to US holiday]
 
 ### Breakout C (APAC / Europe) - [2021-07-06](https://www.timeanddate.com/worldclock/converter.html?iso=20210706T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
+* [Guidance for when to use inheritance vs composition](https://github.com/w3ctag/design-principles/issues/298)
 * [Two new principles (actually one existing one recycled) for devices.](https://github.com/w3ctag/design-principles/pull/320)
 * [Principle against tying APIs too closely to hardware](https://github.com/w3ctag/design-principles/issues/308) - @cynthia
 * [New design principle: Consistency](https://github.com/w3ctag/design-principles/issues/285) - @LeaVerou, @torgo, @hadleybeeman
@@ -27,6 +22,13 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Plenary Session - [2021-07-07](https://www.timeanddate.com/worldclock/converter.html?iso=20210707T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
+* [Security & Privacy Pull 128](https://github.com/w3ctag/security-questionnaire/pull/128)
+* [Add non-"fully active" document handling guide](https://github.com/w3ctag/design-principles/pull/317)
+* [New principle: Guidance on User Activation](https://github.com/w3ctag/design-principles/issues/314) - @hober, @torgo
+* [New principle: When to use client hints](https://github.com/w3ctag/design-principles/issues/307) - @hober, @torgo
+* [Incorporate Alan Kay's maxim into 'Prefer simple solutions'.](https://github.com/w3ctag/design-principles/pull/306) - @hober
+* [HTML: Re-use existing attribute names for similar concepts](https://github.com/w3ctag/design-principles/issues/281) - @hober, @LeaVerou
+* [Guidance for naming events](https://github.com/w3ctag/design-principles/issues/280) - @hober, @LeaVerou, @kenchris
 * [Add text for low-level vs high-level APIs (related to #117)](https://github.com/w3ctag/design-principles/pull/291)
 
 * Breakout Rollup
