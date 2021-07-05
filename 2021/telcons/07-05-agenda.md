@@ -22,6 +22,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Plenary Session - [2021-07-07](https://www.timeanddate.com/worldclock/converter.html?iso=20210707T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
+* [credentialless embedder policy](https://github.com/w3ctag/design-reviews/issues/582#issuecomment-854093723) - closed but they are looking for some more input
 * [Security & Privacy Pull 128](https://github.com/w3ctag/security-questionnaire/pull/128)
 * [Add non-"fully active" document handling guide](https://github.com/w3ctag/design-principles/pull/317)
 * [New principle: Guidance on User Activation](https://github.com/w3ctag/design-principles/issues/314) - @hober, @torgo
