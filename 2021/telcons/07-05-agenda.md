@@ -31,7 +31,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [HTML: Re-use existing attribute names for similar concepts](https://github.com/w3ctag/design-principles/issues/281) - @hober, @LeaVerou
 * [Guidance for naming events](https://github.com/w3ctag/design-principles/issues/280) - @hober, @LeaVerou, @kenchris
 * [Add text for low-level vs high-level APIs (related to #117)](https://github.com/w3ctag/design-principles/pull/291)
-
 * Breakout Rollup
 * Issue Triage
 
