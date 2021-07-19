@@ -25,6 +25,7 @@ If we have tine:
 
 * [Performance Timeline](https://github.com/w3ctag/design-reviews/issues/644) - @cynthia, @kenchris, @atanassov
 * [WebXR Raw Camera Access API](https://github.com/w3ctag/design-reviews/issues/652) - @torgo, @kenchris
+* [private networks](https://github.com/w3ctag/design-reviews/issues/572)
 
 ### Plenary Session - [2021-07-21](https://www.timeanddate.com/worldclock/converter.html?iso=20210721T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
