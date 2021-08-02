@@ -19,7 +19,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Whether or not the web inspector / dev tools are open should not be detectable by the webpage](https://github.com/w3ctag/design-principles/issues/209) - @hober
 * [New principle: Web IDL is for APIs exposed to the web by browser engines](https://github.com/w3ctag/design-principles/issues/216) - @hober
 * [New principle: New features must not break existing ones](https://github.com/w3ctag/design-principles/issues/297) - @hober, @atanassov
-* [[Meta] Tackling design problems earlier than design review / A Q&A section for API design](https://github.com/w3ctag/design-principles/issues/319)
 * [Guidance about exposing on Window vs Worker only (and other contexts)](https://github.com/w3ctag/design-principles/issues/325)
 
 
@@ -33,6 +32,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [New design principle: Consistency](https://github.com/w3ctag/design-principles/issues/285) - @LeaVerou, @torgo, @hadleybeeman
 * [Principle against tying APIs too closely to hardware](https://github.com/w3ctag/design-principles/issues/308) - @cynthia
 * [APIs should allow introspection](https://github.com/w3ctag/design-principles/issues/300) - @LeaVerou
+* [[Meta] Tackling design problems earlier than design review / A Q&A section for API design](https://github.com/w3ctag/design-principles/issues/319)
 
 
 
