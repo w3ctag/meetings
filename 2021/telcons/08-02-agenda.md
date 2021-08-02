@@ -10,9 +10,9 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * S&P PR [Add non-"fully active" document question](https://github.com/w3ctag/security-questionnaire/pull/128)
 * [HTML: Re-use existing attribute names for similar concepts](https://github.com/w3ctag/design-principles/issues/281) - @hober, @LeaVerou
 * [Guidance about return values of (conceptually) void functions](https://github.com/w3ctag/design-principles/issues/286) - @hober, @LeaVerou, @kenchris
-* [APIs should allow introspection](https://github.com/w3ctag/design-principles/issues/300) - @LeaVerou
 * [New principle: When to use client hints](https://github.com/w3ctag/design-principles/issues/307) - @hober, @torgo
 * [New principle: Guidance on User Activation](https://github.com/w3ctag/design-principles/issues/314) - @hober, @torgo, @rhiaro
+* [CHIPS](https://github.com/w3ctag/design-reviews/issues/654) with special guest @krgovind (2nd half hour)
 
 ### Breakout B (US / APAC) - [2021-08-03](https://www.timeanddate.com/worldclock/converter.html?iso=20210803T000000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
@@ -21,6 +21,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [New principle: New features must not break existing ones](https://github.com/w3ctag/design-principles/issues/297) - @hober, @atanassov
 * [[Meta] Tackling design problems earlier than design review / A Q&A section for API design](https://github.com/w3ctag/design-principles/issues/319)
 * [Guidance about exposing on Window vs Worker only (and other contexts)](https://github.com/w3ctag/design-principles/issues/325)
+
 
 ### Breakout C (APAC / Europe) - [2021-08-03](https://www.timeanddate.com/worldclock/converter.html?iso=20210803T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
@@ -31,6 +32,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Non privacy related design notes on device APIs](https://github.com/w3ctag/design-principles/issues/39) - @cynthia, @kenchris
 * [New design principle: Consistency](https://github.com/w3ctag/design-principles/issues/285) - @LeaVerou, @torgo, @hadleybeeman
 * [Principle against tying APIs too closely to hardware](https://github.com/w3ctag/design-principles/issues/308) - @cynthia
+* [APIs should allow introspection](https://github.com/w3ctag/design-principles/issues/300) - @LeaVerou
 
 
 
