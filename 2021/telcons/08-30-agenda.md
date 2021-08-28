@@ -16,7 +16,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [HTMLMediaElement controlsList](https://github.com/w3ctag/design-reviews/issues/643) - @hober, @LeaVerou, @atanassov
 * [Note Taking: New Note URL field](https://github.com/w3ctag/design-reviews/issues/648) - @kenchris, @hadleybeeman, @atanassov
 
-
 ### Breakout B (US / APAC) - [2021-08-31](https://www.timeanddate.com/worldclock/converter.html?iso=20210831T000000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
 * [CSS overflow: clip and overflow-clip-margin](https://github.com/w3ctag/design-reviews/issues/579) - @hober, @atanassov
@@ -48,7 +47,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Shared Element Transitions - Early Review](https://github.com/w3ctag/design-reviews/issues/631) - @cynthia, @LeaVerou, @plinss <- **close?**
 * [User-Agent Client Hints & UA Reduction](https://github.com/w3ctag/design-reviews/issues/640) - @hober, @torgo <- special session suggested, @torgo to schedule
 * [COOP same-origin-allow-popups-plus-coep](https://github.com/w3ctag/design-reviews/issues/649) - @rhiaro, @hadleybeeman <- **close?**
-* 
+* Design Principles re-publish to TR
 * Breakout Rollup
 * Issue Triage
 
