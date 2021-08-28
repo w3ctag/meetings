@@ -24,6 +24,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Early design review of modal close signals/ModalCloseWatcher](https://github.com/w3ctag/design-reviews/issues/594) - @hober, @plinss
 * [WebGPU and WGSL](https://github.com/w3ctag/design-reviews/issues/626) - @hober, @cynthia
 * [Back/Forward Cache](https://github.com/w3ctag/design-reviews/issues/628) - @hober
+  * merge? [Add non-"fully active" document handling guide w3ctag/design-principles#317](https://github.com/w3ctag/design-principles/pull/317) 
+  * merge? [Add non-"fully active" document question w3ctag/security-questionnaire#128](https://github.com/w3ctag/security-questionnaire/pull/128)
 * [Anonymous iframes](https://github.com/w3ctag/design-reviews/issues/639) - @hober, @hadleybeeman, @atanassov
 * [scheduler.postTask()](https://github.com/w3ctag/design-reviews/issues/647) - @hober, @cynthia
 * [MediaStream Image Capture (wide review)](https://github.com/w3ctag/design-reviews/issues/651) - @plinss, @atanassov
@@ -46,8 +48,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Shared Element Transitions - Early Review](https://github.com/w3ctag/design-reviews/issues/631) - @cynthia, @LeaVerou, @plinss <- **close?**
 * [User-Agent Client Hints & UA Reduction](https://github.com/w3ctag/design-reviews/issues/640) - @hober, @torgo <- special session suggested, @torgo to schedule
 * [COOP same-origin-allow-popups-plus-coep](https://github.com/w3ctag/design-reviews/issues/649) - @rhiaro, @hadleybeeman <- **close?**
-
-
+* 
 * Breakout Rollup
 * Issue Triage
 
