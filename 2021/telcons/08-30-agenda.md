@@ -32,7 +32,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout C (APAC / Europe) - [2021-08-31](https://www.timeanddate.com/worldclock/converter.html?iso=20210831T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
-* [EyeDropper API](https://github.com/w3ctag/design-reviews/issues/587) - @cynthia, @LeaVerou, @kenchris
 * [WebCodecs (again!)](https://github.com/w3ctag/design-reviews/issues/612) - @cynthia, @kenchris
 * [ModuleServiceWorker](https://github.com/w3ctag/design-reviews/issues/617) - @kenchris, @plinss
 * [Compute Pressure API](https://github.com/w3ctag/design-reviews/issues/621) - @LeaVerou, @kenchris
@@ -43,6 +42,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Plenary Session - [2021-09-01](https://www.timeanddate.com/worldclock/converter.html?iso=20210901T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
+* [EyeDropper API](https://github.com/w3ctag/design-reviews/issues/587) - @cynthia, @LeaVerou, @kenchris
 * [Pickling for Async Clipboard API](https://github.com/w3ctag/design-reviews/issues/636) - @cynthia, @torgo <- **close?**
 * [Shared Element Transitions - Early Review](https://github.com/w3ctag/design-reviews/issues/631) - @cynthia, @LeaVerou, @plinss <- **close?**
 * [User-Agent Client Hints & UA Reduction](https://github.com/w3ctag/design-reviews/issues/640) - @hober, @torgo <- special session suggested, @torgo to schedule
