@@ -41,7 +41,7 @@ Looks fine to us. The [changes](https://www.w3.org/TR/css-display-3/#changes) ar
 
 ### Session 2A
 
-Present: Tess
+Present: Tess, Rossen
 
 #### [CSS overflow: clip and overflow-clip-margin](https://github.com/w3ctag/design-reviews/issues/579) 
 
