@@ -2,7 +2,9 @@
 
 Week of 13-September-2021
 
-This W3C Technical Architecture Group virtual face-to-face meeting was held as a series of 18 breakout slots over the course of the week of 13 September, 2021. The mintues are presented as breakout notes and are not necessarily chronological.  Many of the breakout slots are subdivded into breakout A and B - in which case a note of who attended each breakout is made.  In some cases there are some additional "rollup" notes presented in line where additional substantive discussion took place. 
+[Agenda](agenda.md)
+
+This W3C Technical Architecture Group virtual face-to-face meeting was held as a series of 26 breakout slots over the course of the week of 13 September, 2021. The mintues are presented as breakout notes and are not necessarily chronological.  Many of the breakout slots are subdivded into breakout A and B - in which case a note of who attended each breakout is made.  In some cases there are some additional "rollup" notes presented in line where additional substantive discussion took place. 
 
 Present at this F2F:
 
