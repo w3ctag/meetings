@@ -34,6 +34,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 * Breakout Rollup
 * Issue Triage
+* [New principle: Do not design around third-party tools unless it actually breaks the Web](https://github.com/w3ctag/design-principles/issues/335)
 
 ### Logistics
 
