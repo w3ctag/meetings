@@ -1,6 +1,6 @@
 ---
-name: TPAC 2020 Meeting Request
-about: If you'd like representative(s) from the TAG join some portion of your virtual meting scheduled for TPAC 2020.
+name: TPAC 2021 Meeting Request
+about: If you'd like representative(s) from the TAG join some portion of your virtual meting scheduled for TPAC 2021.
 title: ''
 labels: 'untriaged, tpac-meeting-request'
 assignees: ''
