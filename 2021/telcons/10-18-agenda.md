@@ -6,15 +6,17 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (Europe / US) - [2021-10-18](https://www.timeanddate.com/worldclock/converter.html?iso=20211018T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
+* [Auto-expanding details elements](https://github.com/w3ctag/design-reviews/issues/677) - @hober, @LeaVerou, @rhiaro, @kenchris
+* [HTMLPopupElement - <popup>](https://github.com/w3ctag/design-reviews/issues/680) - @hober, @LeaVerou, @kenchris, @atanassov
+
 ### Breakout B (US / APAC) - [2021-10-19](https://www.timeanddate.com/worldclock/converter.html?iso=20211019T000000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
 ### Breakout C (APAC / Europe) - [2021-10-19](https://www.timeanddate.com/worldclock/converter.html?iso=20211019T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
+* [Pre-CR review of CSS Cascading and Inheritance Level 5](https://github.com/w3ctag/design-reviews/issues/678) - @torgo, @rhiaro
+
 ### Plenary Session - [2021-10-20](https://www.timeanddate.com/worldclock/converter.html?iso=20211020T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
-* [Auto-expanding details elements](https://github.com/w3ctag/design-reviews/issues/677) - @hober, @LeaVerou, @rhiaro, @kenchris
-* [Pre-CR review of CSS Cascading and Inheritance Level 5](https://github.com/w3ctag/design-reviews/issues/678) - @torgo, @rhiaro
-* [HTMLPopupElement - <popup>](https://github.com/w3ctag/design-reviews/issues/680) - @hober, @LeaVerou, @kenchris, @atanassov
 
 * Breakout Rollup
 * Issue Triage
