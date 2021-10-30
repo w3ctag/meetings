@@ -43,7 +43,9 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Principle(s) about identity on the Web?](https://github.com/w3ctag/design-principles/issues/324) - @torgo, @rhiaro
 * [New principle: Do not design around third-party tools unless it actually breaks the Web](https://github.com/w3ctag/design-principles/issues/335) - @LeaVerou
 * [New principle: Ethical Principles](https://github.com/w3ctag/design-principles/issues/338)
-
+* [ethics: digital human rights](https://github.com/w3ctag/ethical-web-principles/issues/52)
+* [ethics: hedging](https://github.com/w3ctag/ethical-web-principles/issues/51)
+* [ethics: built form](https://github.com/w3ctag/ethical-web-principles/issues/45)
 
 ### Plenary Session - [2021-11-03](https://www.timeanddate.com/worldclock/converter.html?iso=20211103T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
