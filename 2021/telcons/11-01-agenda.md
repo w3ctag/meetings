@@ -4,6 +4,8 @@ This agenda can be viewed and updated on [Github](https://github.com/w3ctag/meet
 
 If you would like to add an item to the agenda or volunteer to scribe please open a pull request against this agenda.
 
+Please note the special timings for this week due to the time vortex.
+
 ### Breakout A (Europe / US) - [2021-11-01](https://www.timeanddate.com/worldclock/converter.html?iso=20211101T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
 * [CSS: Guidance about serialization](https://github.com/w3ctag/design-principles/issues/284) - @LeaVerou, @atanassov
@@ -17,7 +19,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [New principle: Just because you can do xyz bad thing using another API doesn't mean it's OK to design a new API tha can also to xyz bad thing](https://github.com/w3ctag/design-principles/issues/340)
 * [New principle: when to use permissions, when to use user activation, and what if neither are adequate](https://github.com/w3ctag/design-principles/issues/341)
 
-### Breakout B (US / APAC) - [2021-11-02](https://www.timeanddate.com/worldclock/converter.html?iso=20211102T000000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
+### Breakout B (US / APAC) - [2021-11-02](https://www.timeanddate.com/worldclock/converter.html?iso=20211101T230000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
 * [New principle: Discourage language sniffing for language-specific features](https://github.com/w3ctag/design-principles/issues/266) - @cynthia, @atanassov
 * [New text re: balancing concerns between interoperability and implementability](https://github.com/w3ctag/design-principles/pull/290)
@@ -31,7 +33,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [General principle around time measurement units/formats for various domains (JS, HTTP, HTML, etc)?](https://github.com/w3ctag/design-principles/issues/344)
 
 
-### Breakout C (APAC / Europe) - [2021-11-02](https://www.timeanddate.com/worldclock/converter.html?iso=20211102T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
+### Breakout C (APAC / Europe) - [2021-11-02](https://www.timeanddate.com/worldclock/converter.html?iso=20211102T090000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
 * [Generate a subset of the Design Principles doc for web developers](https://github.com/w3ctag/design-principles/issues/268) - @LeaVerou
 * [New principle: Guidance on when to use a child element vs an attribute](https://github.com/w3ctag/design-principles/issues/270) - @LeaVerou
@@ -47,8 +49,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [ethics: hedging](https://github.com/w3ctag/ethical-web-principles/issues/51)
 * [ethics: built form](https://github.com/w3ctag/ethical-web-principles/issues/45)
 
-### Plenary Session - [2021-11-03](https://www.timeanddate.com/worldclock/converter.html?iso=20211103T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
-
+### Plenary Session - [2021-11-03](https://www.timeanddate.com/worldclock/converter.html?iso=20211103T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
 * Breakout Rollup
 * Issue Triage
