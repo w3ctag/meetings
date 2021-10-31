@@ -19,7 +19,7 @@ Please note the special timings for this week due to the time vortex.
 * [New principle: Just because you can do xyz bad thing using another API doesn't mean it's OK to design a new API tha can also to xyz bad thing](https://github.com/w3ctag/design-principles/issues/340)
 * [New principle: when to use permissions, when to use user activation, and what if neither are adequate](https://github.com/w3ctag/design-principles/issues/341)
 
-### Breakout B (US / APAC) - [2021-11-02](https://www.timeanddate.com/worldclock/converter.html?iso=20211101T230000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
+### Breakout B (US / APAC) - [2021-11-01](https://www.timeanddate.com/worldclock/converter.html?iso=20211101T230000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
 * [New principle: Discourage language sniffing for language-specific features](https://github.com/w3ctag/design-principles/issues/266) - @cynthia, @atanassov
 * [New text re: balancing concerns between interoperability and implementability](https://github.com/w3ctag/design-principles/pull/290)
