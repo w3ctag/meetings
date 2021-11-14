@@ -6,20 +6,26 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (Europe / US) - [2021-11-15](https://www.timeanddate.com/worldclock/converter.html?iso=20211115T170000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
+NB: Guests will join us for first party sets discussion which will start at the halfway mark.
+
+* [Anonymous iframes](https://github.com/w3ctag/design-reviews/issues/639) - @hober, @torgo, @hadleybeeman, @atanassov
+* [Distributed Tracing WG: Baggage specification](https://github.com/w3ctag/design-reviews/issues/650) - @kenchris, @atanassov
+* [Secure Payment Confirmation - Part 2](https://github.com/w3ctag/design-reviews/issues/675) - @hober, @torgo, @kenchris, @hadleybeeman
+
+* [First-Party Sets](https://github.com/w3ctag/design-reviews/issues/342) - @hober, @torgo, @hadleybeeman
+* [SameParty cookie attribute](https://github.com/w3ctag/design-reviews/issues/595) - @hober, @ylafon, @hadleybeeman, @atanassov
+
 ### Breakout B (US / APAC) - [2021-11-16](https://www.timeanddate.com/worldclock/converter.html?iso=20211116T000000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
+
+* [EditContext API](https://github.com/w3ctag/design-reviews/issues/416) - @cynthia, @atanassov
+* [WebTransport review request](https://github.com/w3ctag/design-reviews/issues/669) - @plinss, @atanassov
 
 ### Breakout C (APAC / Europe) - [2021-11-16](https://www.timeanddate.com/worldclock/converter.html?iso=20211116T090000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
-### Plenary Session - [2021-11-17](https://www.timeanddate.com/worldclock/converter.html?iso=20211117T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
-
-* [First-Party Sets](https://github.com/w3ctag/design-reviews/issues/342) - @hober, @torgo, @hadleybeeman
-* [EditContext API](https://github.com/w3ctag/design-reviews/issues/416) - @cynthia, @atanassov
-* [SameParty cookie attribute](https://github.com/w3ctag/design-reviews/issues/595) - @hober, @ylafon, @hadleybeeman, @atanassov
-* [Anonymous iframes](https://github.com/w3ctag/design-reviews/issues/639) - @hober, @torgo, @hadleybeeman, @atanassov
-* [Distributed Tracing WG: Baggage specification](https://github.com/w3ctag/design-reviews/issues/650) - @kenchris, @atanassov
-* [WebTransport review request](https://github.com/w3ctag/design-reviews/issues/669) - @plinss, @atanassov
-* [Secure Payment Confirmation - Part 2](https://github.com/w3ctag/design-reviews/issues/675) - @hober, @torgo, @kenchris, @hadleybeeman
 * [State extension for JS Self-Profiling API.](https://github.com/w3ctag/design-reviews/issues/682) - @torgo, @kenchris
+* DIDs - should/can the TAG formulate a response to the formal objections or the issues raised in the formal objections?
+
+### Plenary Session - [2021-11-17](https://www.timeanddate.com/worldclock/converter.html?iso=20211117T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
 * Breakout Rollup
 * Issue Triage
@@ -37,7 +43,6 @@ Bridge: https://whereby.com/w3ctag first then going to https://meet.jit.si/w3cta
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2021/telcons/11-15-minutes.md
 
 Raw minutes: ...
-
 
 ### Local Call Times
 
