@@ -73,6 +73,12 @@ Dan: it does enlarge of the scope ....
 
 Ken: Definitely.  Maybe it would be nice if ... it's good gor UAs ... 
 
+
+## Breakout 3B
+
+Present: Lea, Sangwhan, Yves
+
+
 ## Brekout 4A
 
 Participants: Amy, Dan
@@ -89,6 +95,16 @@ Amy: all of the use cases are from the perspective of the user agent... the brow
 Hello, @torgo and I looking at this in our virtual face-to-face today. We noticed the problem statement in the explainer is from the perspective of the user agent, rather than the end user. Would you mind adding some examples/use cases/scenarios of how the end user of an application benefits or is affected by this feature? We appreciate that you have noted one security concern in the explainer; do you have an idea of when you will be able to complete the [privacy and security questionnaire](https://www.w3.org/TR/security-privacy-questionnaire/)? Are you expecting to take this work to the WebRTC WG?
 ```
 
+
+## Breakout 4B
+
+Present: Ken, Sangwhan
+
+This is a very nice explainer and it is quite clear that you have put a lot of effort into this and it really shows! @cynthia and I discussed in our breakout that as this has more raw access to the GPU, what is the mitigation in place to make sure this doesn't negatively affect other GPU intensive apps, like the browser itself or the host OS?
+
+If you have a misbehaving web app, how is this handled? For CPU in Chrome today there is infinite loop detection and the tab can be closed, but GPU can affect the whole system and not just a single tab.
+
+
 ## Breakout 5A
 
 Participants: Kenneth, Rossen, Peter
@@ -102,6 +118,156 @@ Still pending external feedback, pinged and punted.
 
 
 ### [Foldable Device CSS Primitives](https://github.com/w3ctag/design-reviews/issues/690)
+
+
+## Breakout 5b
+
+Present:  Tess, Hadley, Amy, Dan
+
+### [EPUB 3.3](https://github.com/w3ctag/design-reviews/issues/684)
+
+Amy: books spying on us? no thanks.
+
+Tess: I have a meta question - first time epub has come to the tag for review - so this is an opportunity. All versions of epub since 3.0 have been tighlty scoped... not changing a lot of things.  It's an ecosystem where you tend ot have low power devices - you want to be able to buy a book in the future and being able to read it - so backwards compatible. People **buy** digital books - so unlike browsers there's a responsibility - to be able to continue to read the book into the future.  Since 3.0 the compat constraints have been really tight.  If we did a full review from the ground up we might end up wasting their time... choices they've made that they are stuck with for compat reasons.  Our first opportunity to be useful to them - so we should focus on things they can actually change.
+
+Dan: we should focus on feedback where they can make changes...
+
+Tess: where things have an impact...
+
+Amy: most of the things that struck me were privacy & security related - a lot of their answers to the s&p questionnaire are "the spec says nothing about this" - but maybe in some cases the spec should say something about it.  E.g. the question abut PII... could they write some guidance about how reading systems should be doing xyz... Seems like the direction of travel is to bring it closer to the web platform... gradually... could subvery user expectation... because ebooks are not websites... reading systems depending on the implementation could track users' IP address, location, etc... but they don't say anything about permission prompts or warnings...
+
+Tess: permission prompt interesting to me –– when you turn a page in a book you're not expecting a modal dialog to interrupt you.
+
+Amy: The e-reader should not be doing stuff that would warrent interrupting the user with a permission prompt.
+
+Tess: when you load the web site or when the user is interacting with the web site - kind of the same - but for books you download the book and the reading system has an opportunity to inspect the book and figure out what permissions prompts it's going to need. One way would be to front load some of that...   For example in an educational context - a digital text book that has excercises - you can fill them out and hit submit - submits to a server that checks your work. You would want a permission to access the network... vs when they're in the middle of the assignment... The baseline should be to not do stuff like that. But they should see the opportunity to be better than browsers... For browsers we have webapp manifest.. 
+
+Amy: for localisation .. could be useful but also surveilance... 
+
+Tess: as an example - i hate it when i go to google in japan and it's in japanese instead of following my lang preferences.
+
+Amy: a use case for an external system knowing where you are in a book for syncing across devices - but that comes with an external system knowing where you are in a book.  
+
+Tess: like scroll linking browsers... you can imagine a browser syncing that...   User agents are reading system but there is an issue of trust... 
+
+Amy: the key for me is that it feels like a different set of expectations...  a device that just reads books... 
+
+Tess: yes - low power devices ... 
+
+Dan: you can do something like that on samsung internet
+
+Tess: reading systems are user agents. UA features to help people seem cool but ultimately the question of trust
+
+Dan: feedback about questionnaire.. big chunk of work but we can do that to start.. We should take as guidence what Tess said that we should be giving useful feedback, not a full top to bottom review of the technology.
+
+Tess: if 98% of oru review is things they can't revisit we wouldn't be providing value. Everything Amy already said can go into the issue.. a bunch of stuff unspecified in p&s
+
+Tess: on their response to s&p questionnaire regarding the download of files -- https://github.com/w3c/epub-specs/blob/main/epub33/explainers/EPUB-33-security-privacy.md#17-what-should-this-questionnaire-have-asked - feels like if all user agents are doing something that spec says not to do then ... maybe they should say something else instead...
+
+### [Dystopia Avoidance](https://github.com/rhiaro/societal-impact-questionnaire)
+
+Hadley: implied in power dynamics but nice to nbring out is how can this be used in a completely different use case. Eg. we talk about things that are useful for login, but we in the TAG brainstorm other use cases like how can it be abused in the context of advertising, that might not be what you are trying to accomplish with this feature, but nothing to stop people with a different motivation from hijacking it.
+
+Dan: unintended consequences
+
+Hadley: not everyone is going to use it with the same motivations. Not everyone is trying to solve that problem that you spent so long focussed on. you've created an amazing thing that could be used in a comppletely different way for terrible things, but we want to draw out and have a conversatin about.
+
+Amy: can expand misuse question
+
+Tess: misuse question should come after use question. While they're thinking about how people can use this, they should think about the other ways people can use this.
+
+Dan: agree
+
+Amy: +1
+
+Hadley: what I'm trying to articulate is if we were designing cookies right now, which were not originally designed with the advertising use case, how do we get that person thinking about things like advertising that could completely hijack thi sfeature.
+
+Dan:
+```
+An idea to add:
+Thinking about the bad actors who mislead people, try to trick people, try to inject malware, steal information, track people's activities without their knowledge or consent, leak information across origin bounderies, game people's consent, surveil people etc... how could your new proposed technology could be used to further these harmful aims?  
+``` 
+
+Tess: one thing that comes to mind is coordination. cookies were designed to be used in isolation, for a login state, etc.And in fat if that is how cookies continue to be used, even for advertising isolated to that site, then maybe things wouldn't be so bad. But there's two kinds of coordination that happen. One is third party resources getting their cookies on different sites. The other is on the backend. Cookies checked behind the scenes. It's a grey area between use and misuse. Not that cookies are being misused, that the use is not what the designer intended. 
+
+Dan: not overtly bad. Not like you're taking it and using it to... hack someone. Or steal directly from them. But itis still an unintended use that may be contrary to what you're goals are
+
+Amy: could be a good use case too. Could indicate there are other groups to reach out to about the feature.
+
+Tess: a positive version of enabling use cases you hadn't thought of. You were designing this feature for academic use, or to help engineers get their job done, but it turns out what you've done is enabled a new kind of artistic expression
+
+Amy: like the web platform itself..
+
+Tess: generativity. In the context of the case like domestic abuse and stalking. Very real concerns. Features which have a clear use in helping people who are forgetful keep track of their stuff... that's a good feature... better be thinking about what people consider to be their stuff. 
+
+Tess: one of the questions with no content about centralisation... should figure out something to say. This is a tricky one to express in a morally neutral way. We all assume centralisation si bad..
+
+Amy: EWP says we prefer decentralised architectures
+
+Dan: debate around whether decentralising finance is a good goal, regulation can protect people and you can't implement as easily in a decentralised system. If we focus too much on the decentralised thing I'm worried... another meta concern is that I want to make it difficult to weaponise documents like this (and EWP) without .. I want people to take.. don't want to depower thse documents but don't want poeple to use them as weapons in flame wars. Maybe a code of conduct thing.
+
+Tess: on centralisation.. finance example... one mans freedom fighter is another mans terrorist etc... there are better governments and worst governments in the world. A great thing about the web is that it can help people route around the bad ones. But one of the risks is exactly, peoplle will try to use that as an opportunity to route around the good ones too. Of course overly simplistic... but the surveillence thing
+
+Dan: there are people out there who want to steal stuff at scale from other people. Comment above.. an appropriate place to talk about bad actors. There are people that are building.. It does feel like that is another aspect. It is a dystopia if we're constantly living in fear of the web, then people are not going to use the web for its intended purupose
+
+Tess: absoultely. We make a big deal, eg in design principles and ewp, that the web is a unique platform that has certain advantages over all of the other platforms and the baseline idea of safety is higher generally than other platforms. 
+
+Dan: i do feel that surveillence is something that should hav ea separate item in this list. Judgy to say people who want to steal info are bad, but..
+
+Hadley: not that they're bad people.. they're doing something that doesn't fit.. ways to talk about these things without getting judgy. Same is true of government surveillence or governments causing trouble. There are ways to pick apart the fundamentally the ethical problems
+
+Amy: on not weoponizing - doing it as questions makes it less like a document that can be weoponized ... to help people critically think about their work ...  If it's questions people are answering, want to make sure they are pointed questions people can't weasle out of answering ... also need to make sure they aren't leading
+
+Tess: P&C questionnaire says "we're trying to prompt your brain" .. it's not just a box checking excercise... so you say "oh i didn't think of this" or "i didn't think about it that way" ... easy in a narrowly scoped working group - to only talk to people who are as familiar as your thing as you are... and the group doesn't think outside the box.  "What can we do to protect users against this kind of threat..."
+
+Amy: does tag want to adopt this? move repo to tag space?
+
+Dan: with ewp.. channeling people who said this isn't architecture and was out of our remit. To make the point you can't do architecture without fundamental principles. I have defended that work as architecture. S&P is defensible in that way because it is intended to be read by people that are creating new specs in the same way Tess just said, to promote thoughts and thinking about things.. everything in this document should be channelling that from the s&p... but anything else we can do to emphasise the architectural relevance of this?
+
+Tess: looking at this.. the longievity section.. we could make architectural points about. When you add features to the web once they're above some useage we can remove them for compatibility reasons without a herculean effort. The kind of coordination across the industry for a decade for Flash.. adding features is relatively easy, removing features is incredibly hard.  Are you trying to enable something that is probably an emphemeral aspect of our place and time or are you adding something that you expect to endure. Which isn't saying you should never add things that have a narrow shelf life but you should be thinking about what is the long term version of this. Eg. When Tim first made the web and other people got involved and suddenly javascript happened we ended up with keyword events like key presses. We didn't end up with ps2 events and sun keyboard bus events... that's great because now we live in a world of usb and bluetooth keyboards. If websites had been built in the 90s expecting keyboard architecture specific events we would have missed the ability to make the platform make ssense in the longer term. We kind of do that in cases like mouseevents... nw we have touch screen... but longievity is ag reat example of an architectural question. We can couch it in terms of what makes the web unique which touches into ethical components. The web has a longer lifetime than other things that you may have worked on in your engineering career. Different from thinking about an API that you can deprecate whenever you want. There is no whenever you want. 
+
+Hadley: agree. 
+
+Tess: we can frame questions to establish architectural concern to help people understand it's not just a random set of questions.. understand the pushback we're going to get.
+
+Dan: having a questionnaire style will help to blunt that criticism
+
+Tess: yes it's a tool to help your improve your own work
+
+Dan: be careful to position as a companion piece to ewp, design p, s&p.. part of a suite of things to help people think about problems.
+
+Hadley: it's architectural becuase we as the TAG a thing we think about is how work in one WG might interact with another. We are often the ones saying you realise you're doing something that will impact another WG or that two things are the same, or two things are close... the use case stuff from earlier was very much that big picture architectural view across different pieces of work. It's prompting the spec author to think more broadly about the architecture not just their narrow problem.
+
+Dan: do we have some actions? Take it to TAG repo space. My suggestion is you mke edits based on this conversation. Then we start the process of raising issues and PRs and stuff. 
+
+Amy: yes
+
+Tess: "societal"... what's the scale of the problem? Are threats to individuals in scope? Having thought on that.. I thought this was the right document for those things but we need to be clear about what we're trying to do. It is the right document. That scope is an artificial ... pretending like threats to individuals are not societal is not good.. 
+
+Dan: any threats we talk about like surveilling it becomes a societal level threat when it's amplified through the web. If the web is providing a tool to allow anyone to surveil anyone that's a societal level threat.
+
+Tess: or just making it easier to do an individual thing... easier to stalk at the individual level... we're making a society where stalking is more prevelant. Absoultely that stuff should be in here. Worth expanding... I don't want a list of 'minority groups'..
+
+Dan: we can use blanket terms like underrepresented, marginalised.. that's transferable across cultures
+
+Tess: useful to have a list of common threats or concerns among underrepresented folks..
+
+Dan: also goes through my head hearing that is that we need some intro text that says that.. threats against individuals become societal level threats. that thinking has informed this document. You may read one of these things and think it's an individual threat, but it is a societal threat when it's amplified across the web
+
+Tess: we could quote the first sentence of EWP... the web should be a platform... net positive social benefit.
+
+Hadley: remembering conversationsa bout cookies... and early conversations with Tim about the early days of email and spam.. and how anticipatable it was
+
+Tess: fantastic example
+
+Hadley: they have to do with making money... financial interests... feels like an awful lot of not thinking about that in th eearly days and now there's a huge amount of decisions driven by immediate profits. We can talk about that in a way that.. going back ot use cases.. helps people thinka bout what else someone might want to do with what they're designing without saying making money is bad. Prompt other motivations for using web platform tech.
+
+Amy: I stuggled to come up with a name. Thoughts?
+
+Tess: email spam example is great, can we find quotes about their lifetime of regret? Societal impact is a professional and neutral sounding name. 
+
+Hadley: as long as we expressly link to the Ethical Web Princples, stay grounded in it.
+
 
 ## Breakout 6A
 
@@ -573,259 +739,9 @@ Hi @nsatragno - we're looking at this (and the general topic of making webauthn 
 Also: can you please bring the (well written!) explainer over to a markdown file in the appropriate webauthn repo? Also can we suggest that you link to [this document](https://github.com/w3c/webauthn/wiki/Explainer:-broadening-the-user-base-of-WebAuthn) from the explainer in order to help put this one in context?
 ```
 
-## Breakout 3B
 
-Present: Lea, Sangwhan, Yves
 
 
-## Breakout 4B
-
-Present: Ken, Sangwhan
-
-This is a very nice explainer and it is quite clear that you have put a lot of effort into this and it really shows! @cynthia and I discussed in our breakout that as this has more raw access to the GPU, what is the mitigation in place to make sure this doesn't negatively affect other GPU intensive apps, like the browser itself or the host OS?
-
-If you have a misbehaving web app, how is this handled? For CPU in Chrome today there is infinite loop detection and the tab can be closed, but GPU can affect the whole system and not just a single tab.
-
-## Breakout 5b
-
-Present:  Tess, Hadley, Amy, Dan
-
-### [EPUB 3.3](https://github.com/w3ctag/design-reviews/issues/684)
-
-Amy: books spying on us? no thanks.
-
-Tess: I have a meta question - first time epub has come to the tag for review - so this is an opportunity. All versions of epub since 3.0 have been tighlty scoped... not changing a lot of things.  It's an ecosystem where you tend ot have low power devices - you want to be able to buy a book in the future and being able to read it - so backwards compatible. People **buy** digital books - so unlike browsers there's a responsibility - to be able to continue to read the book into the future.  Since 3.0 the compat constraints have been really tight.  If we did a full review from the ground up we might end up wasting their time... choices they've made that they are stuck with for compat reasons.  Our first opportunity to be useful to them - so we should focus on things they can actually change.
-
-Dan: we should focus on feedback where they can make changes...
-
-Tess: where things have an impact...
-
-Amy: most of the things that struck me were privacy & security related - a lot of their answers to the s&p questionnaire are "the spec says nothing about this" - but maybe in some cases the spec should say something about it.  E.g. the question abut PII... could they write some guidance about how reading systems should be doing xyz... Seems like the direction of travel is to bring it closer to the web platform... gradually... could subvery user expectation... because ebooks are not websites... reading systems depending on the implementation could track users' IP address, location, etc... but they don't say anything about permission prompts or warnings...
-
-Tess: permission prompt interesting to me –– when you turn a page in a book you're not expecting a modal dialog to interrupt you.
-
-Amy: The e-reader should not be doing stuff that would warrent interrupting the user with a permission prompt.
-
-Tess: when you load the web site or when the user is interacting with the web site - kind of the same - but for books you download the book and the reading system has an opportunity to inspect the book and figure out what permissions prompts it's going to need. One way would be to front load some of that...   For example in an educational context - a digital text book that has excercises - you can fill them out and hit submit - submits to a server that checks your work. You would want a permission to access the network... vs when they're in the middle of the assignment... The baseline should be to not do stuff like that. But they should see the opportunity to be better than browsers... For browsers we have webapp manifest.. 
-
-Amy: for localisation .. could be useful but also surveilance... 
-
-Tess: as an example - i hate it when i go to google in japan and it's in japanese instead of following my lang preferences.
-
-Amy: a use case for an external system knowing where you are in a book for syncing across devices - but that comes with an external system knowing where you are in a book.  
-
-Tess: like scroll linking browsers... you can imagine a browser syncing that...   User agents are reading system but there is an issue of trust... 
-
-Amy: the key for me is that it feels like a different set of expectations...  a device that just reads books... 
-
-Tess: yes - low power devices ... 
-
-Dan: you can do something like that on samsung internet
-
-Tess: reading systems are user agents. UA features to help people seem cool but ultimately the question of trust
-
-Dan: feedback about questionnaire.. big chunk of work but we can do that to start.. We should take as guidence what Tess said that we should be giving useful feedback, not a full top to bottom review of the technology.
-
-Tess: if 98% of oru review is things they can't revisit we wouldn't be providing value. Everything Amy already said can go into the issue.. a bunch of stuff unspecified in p&s
-
-Tess: on their response to s&p questionnaire regarding the download of files -- https://github.com/w3c/epub-specs/blob/main/epub33/explainers/EPUB-33-security-privacy.md#17-what-should-this-questionnaire-have-asked - feels like if all user agents are doing something that spec says not to do then ... maybe they should say something else instead...
-
-### [Dystopia Avoidance](https://github.com/rhiaro/societal-impact-questionnaire)
-
-Hadley: implied in power dynamics but nice to nbring out is how can this be used in a completely different use case. Eg. we talk about things that are useful for login, but we in the TAG brainstorm other use cases like how can it be abused in the context of advertising, that might not be what you are trying to accomplish with this feature, but nothing to stop people with a different motivation from hijacking it.
-
-Dan: unintended consequences
-
-Hadley: not everyone is going to use it with the same motivations. Not everyone is trying to solve that problem that you spent so long focussed on. you've created an amazing thing that could be used in a comppletely different way for terrible things, but we want to draw out and have a conversatin about.
-
-Amy: can expand misuse question
-
-Tess: misuse question should come after use question. While they're thinking about how people can use this, they should think about the other ways people can use this.
-
-Dan: agree
-
-Amy: +1
-
-Hadley: what I'm trying to articulate is if we were designing cookies right now, which were not originally designed with the advertising use case, how do we get that person thinking about things like advertising that could completely hijack thi sfeature.
-
-Dan:
-```
-An idea to add:
-Thinking about the bad actors who mislead people, try to trick people, try to inject malware, steal information, track people's activities without their knowledge or consent, leak information across origin bounderies, game people's consent, surveil people etc... how could your new proposed technology could be used to further these harmful aims?  
-``` 
-
-Tess: one thing that comes to mind is coordination. cookies were designed to be used in isolation, for a login state, etc.And in fat if that is how cookies continue to be used, even for advertising isolated to that site, then maybe things wouldn't be so bad. But there's two kinds of coordination that happen. One is third party resources getting their cookies on different sites. The other is on the backend. Cookies checked behind the scenes. It's a grey area between use and misuse. Not that cookies are being misused, that the use is not what the designer intended. 
-
-Dan: not overtly bad. Not like you're taking it and using it to... hack someone. Or steal directly from them. But itis still an unintended use that may be contrary to what you're goals are
-
-Amy: could be a good use case too. Could indicate there are other groups to reach out to about the feature.
-
-Tess: a positive version of enabling use cases you hadn't thought of. You were designing this feature for academic use, or to help engineers get their job done, but it turns out what you've done is enabled a new kind of artistic expression
-
-Amy: like the web platform itself..
-
-Tess: generativity. In the context of the case like domestic abuse and stalking. Very real concerns. Features which have a clear use in helping people who are forgetful keep track of their stuff... that's a good feature... better be thinking about what people consider to be their stuff. 
-
-Tess: one of the questions with no content about centralisation... should figure out something to say. This is a tricky one to express in a morally neutral way. We all assume centralisation si bad..
-
-Amy: EWP says we prefer decentralised architectures
-
-Dan: debate around whether decentralising finance is a good goal, regulation can protect people and you can't implement as easily in a decentralised system. If we focus too much on the decentralised thing I'm worried... another meta concern is that I want to make it difficult to weaponise documents like this (and EWP) without .. I want people to take.. don't want to depower thse documents but don't want poeple to use them as weapons in flame wars. Maybe a code of conduct thing.
-
-Tess: on centralisation.. finance example... one mans freedom fighter is another mans terrorist etc... there are better governments and worst governments in the world. A great thing about the web is that it can help people route around the bad ones. But one of the risks is exactly, peoplle will try to use that as an opportunity to route around the good ones too. Of course overly simplistic... but the surveillence thing
-
-Dan: there are people out there who want to steal stuff at scale from other people. Comment above.. an appropriate place to talk about bad actors. There are people that are building.. It does feel like that is another aspect. It is a dystopia if we're constantly living in fear of the web, then people are not going to use the web for its intended purupose
-
-Tess: absoultely. We make a big deal, eg in design principles and ewp, that the web is a unique platform that has certain advantages over all of the other platforms and the baseline idea of safety is higher generally than other platforms. 
-
-Dan: i do feel that surveillence is something that should hav ea separate item in this list. Judgy to say people who want to steal info are bad, but..
-
-Hadley: not that they're bad people.. they're doing something that doesn't fit.. ways to talk about these things without getting judgy. Same is true of government surveillence or governments causing trouble. There are ways to pick apart the fundamentally the ethical problems
-
-Amy: on not weoponizing - doing it as questions makes it less like a document that can be weoponized ... to help people critically think about their work ...  If it's questions people are answering, want to make sure they are pointed questions people can't weasle out of answering ... also need to make sure they aren't leading
-
-Tess: P&C questionnaire says "we're trying to prompt your brain" .. it's not just a box checking excercise... so you say "oh i didn't think of this" or "i didn't think about it that way" ... easy in a narrowly scoped working group - to only talk to people who are as familiar as your thing as you are... and the group doesn't think outside the box.  "What can we do to protect users against this kind of threat..."
-
-Amy: does tag want to adopt this? move repo to tag space?
-
-Dan: with ewp.. channeling people who said this isn't architecture and was out of our remit. To make the point you can't do architecture without fundamental principles. I have defended that work as architecture. S&P is defensible in that way because it is intended to be read by people that are creating new specs in the same way Tess just said, to promote thoughts and thinking about things.. everything in this document should be channelling that from the s&p... but anything else we can do to emphasise the architectural relevance of this?
-
-Tess: looking at this.. the longievity section.. we could make architectural points about. When you add features to the web once they're above some useage we can remove them for compatibility reasons without a herculean effort. The kind of coordination across the industry for a decade for Flash.. adding features is relatively easy, removing features is incredibly hard.  Are you trying to enable something that is probably an emphemeral aspect of our place and time or are you adding something that you expect to endure. Which isn't saying you should never add things that have a narrow shelf life but you should be thinking about what is the long term version of this. Eg. When Tim first made the web and other people got involved and suddenly javascript happened we ended up with keyword events like key presses. We didn't end up with ps2 events and sun keyboard bus events... that's great because now we live in a world of usb and bluetooth keyboards. If websites had been built in the 90s expecting keyboard architecture specific events we would have missed the ability to make the platform make ssense in the longer term. We kind of do that in cases like mouseevents... nw we have touch screen... but longievity is ag reat example of an architectural question. We can couch it in terms of what makes the web unique which touches into ethical components. The web has a longer lifetime than other things that you may have worked on in your engineering career. Different from thinking about an API that you can deprecate whenever you want. There is no whenever you want. 
-
-Hadley: agree. 
-
-Tess: we can frame questions to establish architectural concern to help people understand it's not just a random set of questions.. understand the pushback we're going to get.
-
-Dan: having a questionnaire style will help to blunt that criticism
-
-Tess: yes it's a tool to help your improve your own work
-
-Dan: be careful to position as a companion piece to ewp, design p, s&p.. part of a suite of things to help people think about problems.
-
-Hadley: it's architectural becuase we as the TAG a thing we think about is how work in one WG might interact with another. We are often the ones saying you realise you're doing something that will impact another WG or that two things are the same, or two things are close... the use case stuff from earlier was very much that big picture architectural view across different pieces of work. It's prompting the spec author to think more broadly about the architecture not just their narrow problem.
-
-Dan: do we have some actions? Take it to TAG repo space. My suggestion is you mke edits based on this conversation. Then we start the process of raising issues and PRs and stuff. 
-
-Amy: yes
-
-Tess: "societal"... what's the scale of the problem? Are threats to individuals in scope? Having thought on that.. I thought this was the right document for those things but we need to be clear about what we're trying to do. It is the right document. That scope is an artificial ... pretending like threats to individuals are not societal is not good.. 
-
-Dan: any threats we talk about like surveilling it becomes a societal level threat when it's amplified through the web. If the web is providing a tool to allow anyone to surveil anyone that's a societal level threat.
-
-Tess: or just making it easier to do an individual thing... easier to stalk at the individual level... we're making a society where stalking is more prevelant. Absoultely that stuff should be in here. Worth expanding... I don't want a list of 'minority groups'..
-
-Dan: we can use blanket terms like underrepresented, marginalised.. that's transferable across cultures
-
-Tess: useful to have a list of common threats or concerns among underrepresented folks..
-
-Dan: also goes through my head hearing that is that we need some intro text that says that.. threats against individuals become societal level threats. that thinking has informed this document. You may read one of these things and think it's an individual threat, but it is a societal threat when it's amplified across the web
-
-Tess: we could quote the first sentence of EWP... the web should be a platform... net positive social benefit.
-
-Hadley: remembering conversationsa bout cookies... and early conversations with Tim about the early days of email and spam.. and how anticipatable it was
-
-Tess: fantastic example
-
-Hadley: they have to do with making money... financial interests... feels like an awful lot of not thinking about that in th eearly days and now there's a huge amount of decisions driven by immediate profits. We can talk about that in a way that.. going back ot use cases.. helps people thinka bout what else someone might want to do with what they're designing without saying making money is bad. Prompt other motivations for using web platform tech.
-
-Amy: I stuggled to come up with a name. Thoughts?
-
-Tess: email spam example is great, can we find quotes about their lifetime of regret? Societal impact is a professional and neutral sounding name. 
-
-Hadley: as long as we expressly link to the Ethical Web Princples, stay grounded in it.
-
-## Session 12B
-
-### [Overall review of features which enable/disable subframe or subresource capabilities](https://github.com/w3ctag/design-reviews/issues/525)
-
-### [Deprecating `document.domain` setter.	](https://github.com/w3ctag/design-reviews/issues/564)
-
-Dan: proposed text ...
-```
-Hi folks - we are looking at this at our virtual face to face and it looks like this has progressed signfigtantly with a new (tri-state) [proposal](https://github.com/mikewest/deprecating-document-domain/). That looks reasonmable though we have concerns around compat.  Is this work still in flux or is it appropriate for us to re-review at this time based on this propsoal?
-```
-
-### [User Preference Media Features Client Hints Headers](https://github.com/w3ctag/design-reviews/issues/632)
-
-Dan: I think they were going to come back to us with some data...
-
-Rossen: i don't question the performance improvement... we're not arguing about that... they were however using this as the primary motivation .. if they bring it data great - it will only validate that statement. And then there's the rest of the web and patterns that have existed for 20 some years... 
-
-Dan: In defense of the requtors - they have talked about other stakeholder feedback...  Facebook, tiktok, etc...
-
-Rossen: Of course, all of these comapnies will all say yes to any small feature that will save them bandwidth. Again, this is a point I agree with.
-
-Dan: maybe we shoiuld provide them advice about guard rails to put around this rather than telling them to go away and do it outside of standards...
-
-Rossen: not targeting the use case of saving some momey on a big property - it's about the model of media feature state tracking... and handling.  Which by definition is a device capability that is changed by the enviroment or user action on that device. Devices go back and forth (e.g. dark mode)... So that state is handled from the user pov - ... 
-
-Peter: on initial load the server should inline the appropriate asset... if you do it all correctly - the logic stays on the client but the server still has responsibility to ship both assets.  Our concern is that developers will do this wrong ... and not ship both assets... If you don't get it just right you've broken it...
-
-Rossen: the set of features here... apart from Light Mode / Dark mode is large... 
-
-Dan: http3/2 push... Yoav said ... yes some browsers never shiped push... the network stack doesn't know about it... he thinks the practice of doing server push on both... not good. I'd like to see real world data...  I think it fixes the round trip issue but not the delay issue...  
-
-Rossen: the fact that you're not .. that this is the case.. establishing tls handshake etc...not necessarilly a good thing.  If i'm penetrating a network and want to go look for specific veunerable devices based on their state... this gives me more feedback that's much harder to detect and protect against.
-
-
-
-Peter: kind of true for all client hints...  TLS handshake you can avoic by using H2.  I accept the fact that they will do it anyway... Are we better off not having a w3c standard? I don't know. If it's a standard it should have big red letters over it saying "don't use this unless you're google/facebook"
-
-Dan: could we ask them to put mitigations in place...
-
-Peter: [ekeptical that such mitigations could work]
-
-Rossen: besides light mode / dark mode - you have contrast, color management, accessibility, viewport etc. etc. - a permuation of many media features. Assume we have a device in "i'm in dark mode; i'm also in high contrast mode".  Now it's less dark so not in high contrast any more. The UA will send the UACH that it's not in high contrast. Back to their motivation - in order to preserve bandwidth CSS is inlined as much as possible to the user preferences that they detec - btw, today this is done using a media query on the client. They have to cascade and inline the resulted rules on the server side - the combination between dark mode and low contrast in the current example.  So now all the rules that have to cascade and inline are calculated on the server side.  To Peter's point - add 2 or 3 more features now you're hangling cascade on the server side. This capability can be used this way, this is my assertion.
-
-Dan: (even if not intended)
-
-Peter: one thing in defence - you can put certain style sheets at the head of the queue so your initial paint can be faster.  If you use server push just right you can make sure that those stylesheets are available pretty much at the same time. I would like to see data that this is better than server push.  I think there are situations when server push might be better.  Not sure this is the best solution to the problem.
-
-Rossen: there are many of these... I don't agree with allowing all the media features... viewport segments, color management, pointer... etc... 
-
-Peter: we did ask them for data for this vs server push.  If we close it off we can say so - but please continue to explore other options to get the same benefits such as server push.  
-
-Dan: We also would like to see some thinking about mitigations against misuse?
-
-Rossen: from a pure technical PoV... They started with a great premise... can we deprecate user agent strings... let's start working on client hints... because UA strings allow you to know aboout the hardware capabilities... Ok. now they are using this for saving bytes by looking at user state based on these capabilities.  From the runtime what else can we start extracting. Everything else that media feature captutes are triggered by env variables or user intent or action... This has nothing to do with the fact that this device e.g. is running windows vs iOS for example. So now we want to know what the user is currently doing so you can give them something quicker... 
-
-Peter: there's a pretty strong line here you can draw - **client hints should be about the capabilities of the client, not the state of the client**. A useful client could be "does this device support auto detection of light or dark mode" - but not "I'm in dark mode now." 
-
-## Session 16B
-
-Present: Dan, Hadley, Ken, Yves, Amy
-
-### [Distributed Tracing WG: Baggage specification](https://github.com/w3ctag/design-reviews/issues/650)
-
-Hadley: no response to comments, but a new issue that references ours, responding to Yves question
-
-Dan: that's merged. Can ask Yves if he's happy
-
-Ken: it's meta data.. you can carry around a lot because there's no limits, you're in control. You need to understand telemetry, distributed compute.. not something you're going to get from a random website
-
-Dan: I guess that's the point.. could a random website misuse it
-
-Ken: they need to collaborate with someone otherwise it's their own data. The thing is people want.. distributed tracing you want not just from the frontend but from the backend and carry it around so you know how everything works together, front and back end. Normally you do that for yourself. I don't think you can do the tracing across random websites and get it to you, that would be a major issue. I think this is okay.
-
-Dan: they say under privacy of the baggage header.. can contain user identifiable data. Must ensure it does not leak beyond defined trust boundaries... and channel is secured. What does that mean in real terms? 
-
-Ken: is there any obvious way it can leak?
-
-Dan: it doesn't define the trust boundaries. What are the trust boundaries? It doesn't say therefore it must be in secure contexts, just says it is secure. The requirement here is good but it's not as strong as it could be. I would say something like...
-
-```
-In the [Privacy & Security Section](https://w3c.github.io/baggage/#privacy-of-the-baggage-header) it states "As such, the baggage header can contain user-identifiable data. Systems MUST ensure that the baggage header does not leak beyond defined trust boundaries and they MUST ensure that the channel that is used to transport potentially user-identifiable data is secured." But the term "trust boundaries" is not itself defined in the document. Also maybe you should refernece [secure contexts](https://www.w3.org/TR/secure-contexts/) directly instead of just saying "secured" to be clear about what you mean by secured here?
-
-We're also still waiting for a response on the issues raised by Hadley about incognito mode and naming.
-```
-
-Yves: they updated the token to the same RFC, that looks good
-
-Dan: they need to define their privacy and security considerations better
-
-Yves: the question Hadley raised about incognito mode still stands. Waiting on those to be answered.
-
-Hadley: and 'baggage' being a US idiom, haven't heard back on that either
 
 ## Session 17b
 
@@ -960,7 +876,64 @@ Amy: Secure payment confirmation.. Me, Hadley and Ken...  We looked at some of t
 
 ...specs do take a long time and soemtimes there can be turnover in TAG membership...  
 
-### 12b
+## Session 12B
+
+### [Overall review of features which enable/disable subframe or subresource capabilities](https://github.com/w3ctag/design-reviews/issues/525)
+
+### [Deprecating `document.domain` setter.	](https://github.com/w3ctag/design-reviews/issues/564)
+
+Dan: proposed text ...
+```
+Hi folks - we are looking at this at our virtual face to face and it looks like this has progressed signfigtantly with a new (tri-state) [proposal](https://github.com/mikewest/deprecating-document-domain/). That looks reasonmable though we have concerns around compat.  Is this work still in flux or is it appropriate for us to re-review at this time based on this propsoal?
+```
+
+### [User Preference Media Features Client Hints Headers](https://github.com/w3ctag/design-reviews/issues/632)
+
+Dan: I think they were going to come back to us with some data...
+
+Rossen: i don't question the performance improvement... we're not arguing about that... they were however using this as the primary motivation .. if they bring it data great - it will only validate that statement. And then there's the rest of the web and patterns that have existed for 20 some years... 
+
+Dan: In defense of the requtors - they have talked about other stakeholder feedback...  Facebook, tiktok, etc...
+
+Rossen: Of course, all of these comapnies will all say yes to any small feature that will save them bandwidth. Again, this is a point I agree with.
+
+Dan: maybe we shoiuld provide them advice about guard rails to put around this rather than telling them to go away and do it outside of standards...
+
+Rossen: not targeting the use case of saving some momey on a big property - it's about the model of media feature state tracking... and handling.  Which by definition is a device capability that is changed by the enviroment or user action on that device. Devices go back and forth (e.g. dark mode)... So that state is handled from the user pov - ... 
+
+Peter: on initial load the server should inline the appropriate asset... if you do it all correctly - the logic stays on the client but the server still has responsibility to ship both assets.  Our concern is that developers will do this wrong ... and not ship both assets... If you don't get it just right you've broken it...
+
+Rossen: the set of features here... apart from Light Mode / Dark mode is large... 
+
+Dan: http3/2 push... Yoav said ... yes some browsers never shiped push... the network stack doesn't know about it... he thinks the practice of doing server push on both... not good. I'd like to see real world data...  I think it fixes the round trip issue but not the delay issue...  
+
+Rossen: the fact that you're not .. that this is the case.. establishing tls handshake etc...not necessarilly a good thing.  If i'm penetrating a network and want to go look for specific veunerable devices based on their state... this gives me more feedback that's much harder to detect and protect against.
+
+
+
+Peter: kind of true for all client hints...  TLS handshake you can avoic by using H2.  I accept the fact that they will do it anyway... Are we better off not having a w3c standard? I don't know. If it's a standard it should have big red letters over it saying "don't use this unless you're google/facebook"
+
+Dan: could we ask them to put mitigations in place...
+
+Peter: [ekeptical that such mitigations could work]
+
+Rossen: besides light mode / dark mode - you have contrast, color management, accessibility, viewport etc. etc. - a permuation of many media features. Assume we have a device in "i'm in dark mode; i'm also in high contrast mode".  Now it's less dark so not in high contrast any more. The UA will send the UACH that it's not in high contrast. Back to their motivation - in order to preserve bandwidth CSS is inlined as much as possible to the user preferences that they detec - btw, today this is done using a media query on the client. They have to cascade and inline the resulted rules on the server side - the combination between dark mode and low contrast in the current example.  So now all the rules that have to cascade and inline are calculated on the server side.  To Peter's point - add 2 or 3 more features now you're hangling cascade on the server side. This capability can be used this way, this is my assertion.
+
+Dan: (even if not intended)
+
+Peter: one thing in defence - you can put certain style sheets at the head of the queue so your initial paint can be faster.  If you use server push just right you can make sure that those stylesheets are available pretty much at the same time. I would like to see data that this is better than server push.  I think there are situations when server push might be better.  Not sure this is the best solution to the problem.
+
+Rossen: there are many of these... I don't agree with allowing all the media features... viewport segments, color management, pointer... etc... 
+
+Peter: we did ask them for data for this vs server push.  If we close it off we can say so - but please continue to explore other options to get the same benefits such as server push.  
+
+Dan: We also would like to see some thinking about mitigations against misuse?
+
+Rossen: from a pure technical PoV... They started with a great premise... can we deprecate user agent strings... let's start working on client hints... because UA strings allow you to know aboout the hardware capabilities... Ok. now they are using this for saving bytes by looking at user state based on these capabilities.  From the runtime what else can we start extracting. Everything else that media feature captutes are triggered by env variables or user intent or action... This has nothing to do with the fact that this device e.g. is running windows vs iOS for example. So now we want to know what the user is currently doing so you can give them something quicker... 
+
+Peter: there's a pretty strong line here you can draw - **client hints should be about the capabilities of the client, not the state of the client**. A useful client could be "does this device support auto detection of light or dark mode" - but not "I'm in dark mode now." 
+
+### 12b rollup notes
 
 Dan: user preferences media features client hint headers. Rossen and Peter laid out good arguements about why it's a bad idea. It's still something that the requesters seem to think is a good idea for an optimisation of bytes on the wire or speed, but it has unintended consquences, especialy with moving some computation of style to the server. Rossen is going to write a comment. Proposal is ti close as unsatisfied but to open the door to if they com back with a different design to reopen or ping us, we can reevaluate. Peter mentioned an important potential principle which is client hints should be about capabilities of the client not the current state of the client
 
@@ -969,6 +942,8 @@ Rossen: I'll elaborate on closing comment... the actionable hint is that they ca
 Peter: or if the UA even has the capability of having that preference, so why send both stylesheets
 
 Dan: okay with closing
+
+
 
 ### 14a
 
@@ -982,9 +957,47 @@ Dan: we talked about landing some PRs (351, 290).. and closed issue 572 and 685.
 
 ### 15b
 
+
+
 ### 16a
 
-### 16b
+## Session 16B
+
+Present: Dan, Hadley, Ken, Yves, Amy
+
+### [Distributed Tracing WG: Baggage specification](https://github.com/w3ctag/design-reviews/issues/650)
+
+Hadley: no response to comments, but a new issue that references ours, responding to Yves question
+
+Dan: that's merged. Can ask Yves if he's happy
+
+Ken: it's meta data.. you can carry around a lot because there's no limits, you're in control. You need to understand telemetry, distributed compute.. not something you're going to get from a random website
+
+Dan: I guess that's the point.. could a random website misuse it
+
+Ken: they need to collaborate with someone otherwise it's their own data. The thing is people want.. distributed tracing you want not just from the frontend but from the backend and carry it around so you know how everything works together, front and back end. Normally you do that for yourself. I don't think you can do the tracing across random websites and get it to you, that would be a major issue. I think this is okay.
+
+Dan: they say under privacy of the baggage header.. can contain user identifiable data. Must ensure it does not leak beyond defined trust boundaries... and channel is secured. What does that mean in real terms? 
+
+Ken: is there any obvious way it can leak?
+
+Dan: it doesn't define the trust boundaries. What are the trust boundaries? It doesn't say therefore it must be in secure contexts, just says it is secure. The requirement here is good but it's not as strong as it could be. I would say something like...
+
+```
+In the [Privacy & Security Section](https://w3c.github.io/baggage/#privacy-of-the-baggage-header) it states "As such, the baggage header can contain user-identifiable data. Systems MUST ensure that the baggage header does not leak beyond defined trust boundaries and they MUST ensure that the channel that is used to transport potentially user-identifiable data is secured." But the term "trust boundaries" is not itself defined in the document. Also maybe you should refernece [secure contexts](https://www.w3.org/TR/secure-contexts/) directly instead of just saying "secured" to be clear about what you mean by secured here?
+
+We're also still waiting for a response on the issues raised by Hadley about incognito mode and naming.
+```
+
+Yves: they updated the token to the same RFC, that looks good
+
+Dan: they need to define their privacy and security considerations better
+
+Yves: the question Hadley raised about incognito mode still stands. Waiting on those to be answered.
+
+Hadley: and 'baggage' being a US idiom, haven't heard back on that either
+
+
 
 ### 17a
 
