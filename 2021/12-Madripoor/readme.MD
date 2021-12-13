@@ -3,4 +3,6 @@
 
 Dates: Week of 6 December 2021
 
+[Agenda](agenda.md)
 
+[Minutes](minutes.md)
