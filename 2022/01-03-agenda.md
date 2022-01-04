@@ -43,7 +43,8 @@ Raw minutes: ...
 <tr><td> London (United Kingdom - England) <td> Wednesday 05 January, 16:00 GMT</td></tr>
 <tr><td> Paris (France) <td> Wednesday 05 January, 17:00 CET</td></tr>
 <tr><td> Athens (Greece) <td> Wednesday 05 January, 18:00 EET</td></tr>
-<tr><td> Tokyo (Japan) <td> Thursday 05 January, 01:00 GMT+9</td></tr>
+<tr><td> Beijing (China) <td> Thursday 06 January, 00:00 GMT+8</td></tr>
+<tr><td> Tokyo (Japan) <td> Thursday 06 January, 01:00 GMT+9</td></tr>
 <tr><td> Sydney (Australia) <td> Thursday 06 January, 03:00 GMT+11</td></tr>
 <tr><td> Corresponding UTC (GMT) <td> Wednesday 05 January, 16:00 UTC</td></tr>
 </table>
