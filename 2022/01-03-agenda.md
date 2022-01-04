@@ -14,7 +14,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Plenary Session - [2022-01-05](https://www.timeanddate.com/worldclock/converter.html?iso=20220105T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=248&p7=240)
 
-* Welcome to Max!
+* Call times discussion
 * Issue Triage for [Design Principles](https://github.com/w3ctag/design-principles/issues)
 * Discussion: what do we plan to priorise this month and how do we want to organise our time?
 
