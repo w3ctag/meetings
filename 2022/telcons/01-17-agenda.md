@@ -6,23 +6,32 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (Europe / US) - [2022-01-17](https://www.timeanddate.com/worldclock/converter.html?iso=20220117T170000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
+* [Explain how to decide an interface's Exposed value](https://github.com/w3ctag/design-principles/issues/35) - @kenchris
+* [Discourage overloading](https://github.com/w3ctag/design-principles/issues/131) - @LeaVerou
+* ["Cheat sheet" for reference during design reviews?](https://github.com/w3ctag/design-principles/issues/154) - @hober, @cynthia, @LeaVerou, @atanassov
+* [☂️ Incorporate a generalization of the "HTML Design Principles" document into our principles](https://github.com/w3ctag/design-principles/issues/160) - @hober
+* [incorporate some of CSS2's design principles](https://github.com/w3ctag/design-principles/issues/188) - @LeaVerou
+* [Don't monkey patch](https://github.com/w3ctag/design-principles/issues/184) - @hober, @kenchris
+* [Avoid nondeterministic behavior](https://github.com/w3ctag/design-principles/issues/3) - @torgo  
+Should we close?
+
 ### Breakout B (US / APAC) - [2022-01-18](https://www.timeanddate.com/worldclock/converter.html?iso=20220118T000000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+
+* [WebGPU](https://github.com/w3ctag/design-reviews/issues/626) - @hober, @cynthia  
+Planning for how to do review so we can schedule it in for next week.
+* [Avoid exotic objects (e.g. named/indexed getters/setters)](https://github.com/w3ctag/design-principles/issues/16) - @hober
+* [Guidance on re-using/creating task sources](https://github.com/w3ctag/design-principles/issues/38) - @hober
+* [should provide advice on when it's good to return the same object again](https://github.com/w3ctag/design-principles/issues/46) - @cynthia
+* [Create launching point into the Performance APIs overview doc](https://github.com/w3ctag/design-principles/issues/52) - @hober
 
 ### Breakout C (APAC / Europe) - [2022-01-18](https://www.timeanddate.com/worldclock/converter.html?iso=20220118T090000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
-### Plenary Session - [2022-01-19](https://www.timeanddate.com/worldclock/converter.html?iso=20220119T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+Special Guest: Léonie Watson
 
-* [Avoid nondeterministic behavior](https://github.com/w3ctag/design-principles/issues/3) - @torgo
-* [Avoid exotic objects (e.g. named/indexed getters/setters)](https://github.com/w3ctag/design-principles/issues/16) - @hober
-* [Explain how to decide an interface's Exposed value](https://github.com/w3ctag/design-principles/issues/35) - @kenchris
-* [Guidance on re-using/creating task sources](https://github.com/w3ctag/design-principles/issues/38) - @hober
-* [should provide advice on when it's good to return the same object again](https://github.com/w3ctag/design-principles/issues/46) - @cynthia, @dbaron
-* [Create launching point into the Performance APIs overview doc](https://github.com/w3ctag/design-principles/issues/52) - @hober
-* [Discourage overloading](https://github.com/w3ctag/design-principles/issues/131) - @LeaVerou
-* ["Cheat sheet" for reference during design reviews?](https://github.com/w3ctag/design-principles/issues/154) - @hober, @cynthia, @alice, @LeaVerou, @atanassov
-* [☂️ Incorporate a generalization of the "HTML Design Principles" document into our principles](https://github.com/w3ctag/design-principles/issues/160) - @hober, @alice
-* [Don't monkey patch](https://github.com/w3ctag/design-principles/issues/184) - @hober, @kenchris
-* [incorporate some of CSS2's design principles](https://github.com/w3ctag/design-principles/issues/188) - @LeaVerou
+* Accessibility Chesklist / Questionnaire
+* [DOM Wide Review](https://github.com/w3c/htmlwg/issues/19)
+
+### Plenary Session - [2022-01-19](https://www.timeanddate.com/worldclock/converter.html?iso=20220119T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
 * Breakout Rollup
 * Issue Triage
