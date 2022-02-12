@@ -6,36 +6,40 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (Europe / US) - [2022-02-14](https://www.timeanddate.com/worldclock/converter.html?iso=20220214T170000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
+* [User-Agent Client Hints & UA Reduction](https://github.com/w3ctag/design-reviews/issues/640) - @hober, @torgo
+* [Gamepad API input events](https://github.com/w3ctag/design-reviews/issues/662) - @torgo, @atanassov
+* [Secure Payment Confirmation - Part 2](https://github.com/w3ctag/design-reviews/issues/675) - @hober, @torgo, @kenchris, @hadleybeeman
+* [Broadening the user base of WebAuthn](https://github.com/w3ctag/design-reviews/issues/686) - @torgo, @rhiaro, @hadleybeeman, @plinss, @atanassov
+* [Dark mode support for web apps](https://github.com/w3ctag/design-reviews/issues/696) - @hober, @cynthia, @LeaVerou, @torgo
+* [`prefers-reduced-data` CSS Media Query](https://github.com/w3ctag/design-reviews/issues/705) - @LeaVerou, @torgo, @atanassov
+* [[css-values-4] The Large, Small, and Dynamic Viewport Sizes](https://github.com/w3ctag/design-reviews/issues/706) - @torgo, @atanassov
+
+
 ### Breakout B (US / APAC) - [2022-02-15](https://www.timeanddate.com/worldclock/converter.html?iso=20220215T000000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+
+* [Scroll-linked Animations](https://github.com/w3ctag/design-reviews/issues/521) - @hober, @LeaVerou, @atanassov
+* [HTMLMediaElement controlsList](https://github.com/w3ctag/design-reviews/issues/643) - @hober, @LeaVerou, @atanassov
+* [HTMLInputElement showPicker()](https://github.com/w3ctag/design-reviews/issues/688) - @hober, @LeaVerou, @atanassov
+* [Priority Hints API](https://github.com/w3ctag/design-reviews/issues/704) - @hober, @atanassov
+* [Review Request for CSS Subgrid](https://github.com/w3ctag/design-reviews/issues/712) - @plinss, @atanassov
+
 
 ### Breakout C (APAC / Europe) - [2022-02-15](https://www.timeanddate.com/worldclock/converter.html?iso=20220215T090000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
-### Plenary Session - [2022-02-16](https://www.timeanddate.com/worldclock/converter.html?iso=20220216T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
-
 * [First-Party Sets](https://github.com/w3ctag/design-reviews/issues/342) - @hober, @torgo, @hadleybeeman
-* [Scroll-linked Animations](https://github.com/w3ctag/design-reviews/issues/521) - @hober, @LeaVerou, @atanassov
 * [SameParty cookie attribute](https://github.com/w3ctag/design-reviews/issues/595) - @hober, @ylafon, @hadleybeeman, @atanassov
-* [User-Agent Client Hints & UA Reduction](https://github.com/w3ctag/design-reviews/issues/640) - @hober, @torgo
-* [HTMLMediaElement controlsList](https://github.com/w3ctag/design-reviews/issues/643) - @hober, @LeaVerou, @atanassov
-* [WebXR Raw Camera Access API](https://github.com/w3ctag/design-reviews/issues/652) - @torgo, @kenchris
 * [Cookies Having Independent Partitioned State (CHIPS)](https://github.com/w3ctag/design-reviews/issues/654) - @hober, @torgo, @atanassov
-* [Gamepad API input events](https://github.com/w3ctag/design-reviews/issues/662) - @torgo, @atanassov
-* [Secure Payment Confirmation - Part 2](https://github.com/w3ctag/design-reviews/issues/675) - @hober, @torgo, @kenchris, @hadleybeeman
 * [State extension for JS Self-Profiling API.](https://github.com/w3ctag/design-reviews/issues/682) - @torgo, @kenchris
 * [Web App Launch Handler](https://github.com/w3ctag/design-reviews/issues/683) - @kenchris, @hadleybeeman
-* [Broadening the user base of WebAuthn](https://github.com/w3ctag/design-reviews/issues/686) - @torgo, @rhiaro, @hadleybeeman, @plinss, @atanassov
-* [HTMLInputElement showPicker()](https://github.com/w3ctag/design-reviews/issues/688) - @hober, @LeaVerou, @atanassov
-* [Viewport Segments Property](https://github.com/w3ctag/design-reviews/issues/689) - @torgo, @plinss, @atanassov
-* [Foldable Device CSS Primitives](https://github.com/w3ctag/design-reviews/issues/690) - @torgo, @plinss, @atanassov
-* [Dark mode support for web apps](https://github.com/w3ctag/design-reviews/issues/696) - @hober, @cynthia, @LeaVerou, @torgo
 * [Markup based Client Hints delegation for third-party content](https://github.com/w3ctag/design-reviews/issues/702) - @torgo, @ylafon
 * [HIDDevice forget()](https://github.com/w3ctag/design-reviews/issues/703) - @cynthia, @torgo
-* [Priority Hints API](https://github.com/w3ctag/design-reviews/issues/704) - @hober, @atanassov
-* [`prefers-reduced-data` CSS Media Query](https://github.com/w3ctag/design-reviews/issues/705) - @LeaVerou, @torgo, @atanassov
-* [[css-values-4] The Large, Small, and Dynamic Viewport Sizes](https://github.com/w3ctag/design-reviews/issues/706) - @torgo, @atanassov
 * [Region Capture](https://github.com/w3ctag/design-reviews/issues/710) - @cynthia, @torgo
-* [Review Request for CSS Subgrid](https://github.com/w3ctag/design-reviews/issues/712) - @plinss, @atanassov
 * [Review request for Confirmation of Action API](https://github.com/w3ctag/design-reviews/issues/713) - @torgo, @rhiaro
+
+
+### Plenary Session - [2022-02-16](https://www.timeanddate.com/worldclock/converter.html?iso=20220216T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+
+* Special session with members of the AB to get a briefing on legal entity progress
 
 * Breakout Rollup
 * Issue Triage
@@ -52,8 +56,7 @@ Bridge: https://whereby.com/w3ctag first then going to https://meet.jit.si/w3cta
 
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2022/telcons/02-14-minutes.md
 
-Raw minutes: ...
-
+Raw minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/-EloV1GbqPjkA34VWoDR2Xg6pt+kK9Jidjc1vhGjr4E/
 
 ### Local Call Times
 
