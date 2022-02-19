@@ -66,7 +66,9 @@ Tess: conversation on #467..
 Dan: [the call where Mike talked to us about this](https://github.com/w3ctag/meetings/blob/gh-pages/2021/telcons/06-14-minutes.md#ua-cleint-hints).. 
 
 ```
-Hi Jo - Regarding some of the issues you raised I believe Mike and Yoav believe that these have been addressed - see the [minutes of our call on 14-Jun from last year](https://github.com/w3ctag/meetings/blob/gh-pages/2021/telcons/06-14-minutes.md#ua-cleint-hints).  @Yoav can you provide any further detail or comment here?
+Hi Jo - Regarding some of the issues you raised I believe Mike and Yoav believe that these have been addressed - see the
+[minutes of our call on 14-Jun from last year](https://github.com/w3ctag/meetings/blob/gh-pages/2021/telcons/06-14-minutes.md#ua-cleint-hints).  
+@Yoav can you provide any further detail or comment here?
 ```
 
 Dan: we'll keep it in play for this week
@@ -91,7 +93,9 @@ Rossen: that it will carry on in the respective WG
 
 Dan: Proposed closing comment:
 ```
-Hi @ianbjacobs - thanks for all the great responses and engagement. The TAG is happy to close this review positively. I hope our feedback has been useful. I hope that further conversation on the additional issues raised here can be carried on in the appropriate working group forum.
+Hi @ianbjacobs - thanks for all the great responses and engagement. The TAG is happy to close this review positively. 
+I hope our feedback has been useful. I hope that further conversation on the additional issues raised here can be carried 
+on in the appropriate working group forum.
 ```
 
 **closed**
