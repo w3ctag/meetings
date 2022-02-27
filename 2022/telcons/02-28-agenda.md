@@ -18,7 +18,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Distributed Tracing WG: Baggage specification](https://github.com/w3ctag/design-reviews/issues/650) - @kenchris, @atanassov
 * [Region Capture](https://github.com/w3ctag/design-reviews/issues/710) - @cynthia, @torgo
 * [Review Request for CSS Subgrid](https://github.com/w3ctag/design-reviews/issues/712) - @plinss, @atanassov
-* [<search> HTML element](https://github.com/w3ctag/design-reviews/issues/714) - @LeaVerou
+* [`<search>` HTML element](https://github.com/w3ctag/design-reviews/issues/714) - @LeaVerou
 
 ### Breakout C (APAC / Europe) - [2022-03-01](https://www.timeanddate.com/worldclock/converter.html?iso=20220301T090000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
