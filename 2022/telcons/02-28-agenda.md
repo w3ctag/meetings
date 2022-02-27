@@ -6,26 +6,29 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (Europe / US) - [2022-02-28](https://www.timeanddate.com/worldclock/converter.html?iso=20220228T170000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
-### Breakout B (US / APAC) - [2022-03-01](https://www.timeanddate.com/worldclock/converter.html?iso=20220301T000000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
-
-### Breakout C (APAC / Europe) - [2022-03-01](https://www.timeanddate.com/worldclock/converter.html?iso=20220301T090000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
-
-### Plenary Session - [2022-03-02](https://www.timeanddate.com/worldclock/converter.html?iso=20220302T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
-
-* [HTMLMediaElement controlsList](https://github.com/w3ctag/design-reviews/issues/643) - @hober, @LeaVerou, @atanassov
-* [Distributed Tracing WG: Baggage specification](https://github.com/w3ctag/design-reviews/issues/650) - @kenchris, @atanassov
-* [WebXR Raw Camera Access API](https://github.com/w3ctag/design-reviews/issues/652) - @torgo, @rhiaro
 * [Gamepad API input events](https://github.com/w3ctag/design-reviews/issues/662) - @cynthia, @torgo, @atanassov
-* [State extension for JS Self-Profiling API.](https://github.com/w3ctag/design-reviews/issues/682) - @cynthia, @torgo, @maxpassion
-* [Web App Launch Handler](https://github.com/w3ctag/design-reviews/issues/683) - @torgo, @maxpassion, @hadleybeeman
 * [Viewport Segments Property](https://github.com/w3ctag/design-reviews/issues/689) - @torgo, @plinss, @atanassov
 * [Foldable Device CSS Primitives](https://github.com/w3ctag/design-reviews/issues/690) - @torgo, @plinss, @atanassov
 * [`handle_links` manifest field ✨](https://github.com/w3ctag/design-reviews/issues/695) - @cynthia, @torgo, @ylafon
 * [Dark mode support for web apps](https://github.com/w3ctag/design-reviews/issues/696) - @hober, @cynthia, @LeaVerou, @torgo
-* [Markup based Client Hints delegation for third-party content](https://github.com/w3ctag/design-reviews/issues/702) - @torgo, @ylafon
+
+### Breakout B (US / APAC) - [2022-03-01](https://www.timeanddate.com/worldclock/converter.html?iso=20220301T000000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+
+* [HTMLMediaElement controlsList](https://github.com/w3ctag/design-reviews/issues/643) - @hober, @LeaVerou, @atanassov
+* [Distributed Tracing WG: Baggage specification](https://github.com/w3ctag/design-reviews/issues/650) - @kenchris, @atanassov
 * [Region Capture](https://github.com/w3ctag/design-reviews/issues/710) - @cynthia, @torgo
 * [Review Request for CSS Subgrid](https://github.com/w3ctag/design-reviews/issues/712) - @plinss, @atanassov
 * [<search> HTML element](https://github.com/w3ctag/design-reviews/issues/714) - @LeaVerou
+
+### Breakout C (APAC / Europe) - [2022-03-01](https://www.timeanddate.com/worldclock/converter.html?iso=20220301T090000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+
+* [WebXR Raw Camera Access API](https://github.com/w3ctag/design-reviews/issues/652) - @torgo, @rhiaro
+* [State extension for JS Self-Profiling API.](https://github.com/w3ctag/design-reviews/issues/682) - @cynthia, @torgo, @maxpassion
+* [Web App Launch Handler](https://github.com/w3ctag/design-reviews/issues/683) - @torgo, @maxpassion, @hadleybeeman
+* [Markup based Client Hints delegation for third-party content](https://github.com/w3ctag/design-reviews/issues/702) - @torgo, @ylafon
+
+
+### Plenary Session - [2022-03-02](https://www.timeanddate.com/worldclock/converter.html?iso=20220302T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
 * Breakout Rollup
 * Issue Triage
