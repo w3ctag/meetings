@@ -21,6 +21,9 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout C (APAC / Europe) - [2022-03-08](https://www.timeanddate.com/worldclock/converter.html?iso=20220308T090000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
+* [Sustainability](https://github.com/w3ctag/ethical-web-principles/issues/66) 
+* [Economic Opportunity](https://github.com/w3ctag/ethical-web-principles/issues/68)
+* [Abuse](https://github.com/w3ctag/ethical-web-principles/issues/44)
 * [Principle(s) about identity on the Web?](https://github.com/w3ctag/design-principles/issues/324) - @torgo, @rhiaro
 * [New principle: all new headers shall be structured headers](https://github.com/w3ctag/design-principles/issues/252) - @ylafon
 * [General principle around time measurement units/formats for various domains (JS, HTTP, HTML, etc)?](https://github.com/w3ctag/design-principles/issues/344)
