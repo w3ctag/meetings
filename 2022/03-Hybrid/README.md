@@ -4,7 +4,7 @@
 
 ### Venue
 
-* TBD
+* [Google King's Cross](https://www.openstreetmap.org/search?query=kings%20cross%2C%20london#map=19/51.53315/-0.12550)
 
 ## San Diego, USA
 
