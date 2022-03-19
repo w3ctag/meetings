@@ -1,3 +1,9 @@
+# TAG Hybrid F2F 
+## Week-of 21 March 2022
+## London / San Diego / Remote
+
+Timings of these sessions may be found on our published calendar: https://cloud.w3ctag.org/apps/calendar/p/KcdtCTLHeaL59Pri
+
 ## 25 breakouts and 98 issues
 ### Slot: 01a
 
@@ -58,7 +64,7 @@ Participants: Lea, Rossen, Peter
 1. [EditContext API](https://github.com/w3ctag/design-reviews/issues/416)
 2. [[CSS-Values-4] FYI review of Allow infinity, -infinity and NaN in CSS calc()](https://github.com/w3ctag/design-reviews/issues/708)
 
-### Slot: L1
+### Slot: L1 (London)
 
 Participants: Rossen, Dan, Amy
 
@@ -66,14 +72,14 @@ Participants: Rossen, Dan, Amy
 2. [Same-origin prerendering triggered by speculationrules](https://github.com/w3ctag/design-reviews/issues/667)
 3. [[css-values-4] The Large, Small, and Dynamic Viewport Sizes](https://github.com/w3ctag/design-reviews/issues/706)
 4. [Review request for Confirmation of Action API](https://github.com/w3ctag/design-reviews/issues/713)
-### Slot: L2
+### Slot: L2 (London)
 
 Participants: Yves, Hadley, Max, Dan
 
 1. [Deprecating `document.domain` setter.](https://github.com/w3ctag/design-reviews/issues/564)
 2. [Web App Launch Handler](https://github.com/w3ctag/design-reviews/issues/683)
 3. [Markup based Client Hints delegation for third-party content](https://github.com/w3ctag/design-reviews/issues/702)
-### Slot: L3
+### Slot: L3 (Londoon)
 
 Participants: Hadley, Amy, Dan, Sangwhan
 
@@ -81,12 +87,12 @@ Participants: Hadley, Amy, Dan, Sangwhan
 2. [Privacy Task Force Update]()
 3. [Accessibiliity Checklist]()
 4. [Finding on Bundling]()
-### Slot: L4/S1
+### Slot: L4/S1 (Connecting London and San Diego)
 
 Participants:
 
 1. [Finding times for the WebAppSec FO Council Meetings]()
-### Slot: S2
+### Slot: S2 (San Diego)
 
 Participants: Tess, Peter
 
@@ -94,7 +100,7 @@ Participants: Tess, Peter
 2. [New principle: New features must not break existing ones](https://github.com/w3ctag/design-principles/issues/297)
 3. [Viewport Segments Property](https://github.com/w3ctag/design-reviews/issues/689)
 4. [Review Request for CSS Subgrid](https://github.com/w3ctag/design-reviews/issues/712)
-### Slot: S3
+### Slot: S3 (San Diego)
 
 Participants: Tess, Peter
 
@@ -106,7 +112,7 @@ Participants: Tess, Peter
 6. [Hidden' data question needed?](https://github.com/w3ctag/security-questionnaire/issues/130)
 7. [SameParty cookie attribute](https://github.com/w3ctag/design-reviews/issues/595)
 8. [InteractionID in Event Timing](https://github.com/w3ctag/design-reviews/issues/670)
-### Slot: S4
+### Slot: S4 (San Diego)
 
 Participants: Tess, Peter
 1. [Contributors list?](https://github.com/w3ctag/security-questionnaire/issues/132)
