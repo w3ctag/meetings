@@ -23,7 +23,7 @@ Participants: Sangwhan, Max
 
 Participants: Hadley, Amy, Dan
 
-1. [Sustainability Principle is anticompetitive](https://github.com/w3ctag/ethical-web-principles/issues/66)
+1. [Sustainability Principle](https://github.com/w3ctag/ethical-web-principles/issues/66)
 2. [Societal Impacts](https://w3ctag.github.io/societal-impact-questionnaire/)
 ### Slot: 03c
 
