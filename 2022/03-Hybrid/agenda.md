@@ -24,7 +24,7 @@ Participants: Sangwhan, Max
 Participants: Hadley, Amy, Dan
 
 1. [Sustainability Principle is anticompetitive](https://github.com/w3ctag/ethical-web-principles/issues/66)
-2. [Societal Impacts]()
+2. [Societal Impacts](https://w3ctag.github.io/societal-impact-questionnaire/)
 ### Slot: 03c
 
 Participants: Lea, Yves
@@ -42,7 +42,7 @@ Participants: Lea, Sangwhan
 
 Participants: Hadley, Amy, Dan, Yves
 
-1. [Formulating Feedback for DIDs FO]()
+1. Formulating Feedback for DIDs FO
 ### Slot: 05a
 
 Participants: Lea, Rossen, Peter
@@ -84,14 +84,14 @@ Participants: Yves, Hadley, Max, Dan
 Participants: Hadley, Amy, Dan, Sangwhan
 
 1. [First-Party Sets](https://github.com/w3ctag/design-reviews/issues/342)
-2. [Privacy Task Force Update]()
-3. [Accessibiliity Checklist]()
-4. [Finding on Bundling]()
+2. [Privacy Task Force Update](https://github.com/w3ctag/privacy-principles)
+3. Accessibiliity Checklist
+4. Finding on Bundling
 ### Slot: L4/S1 (Connecting London and San Diego)
 
 Participants:
 
-1. [Finding times for the WebAppSec FO Council Meetings]()
+1. Finding times for the WebAppSec FO Council Meetings
 ### Slot: S2 (San Diego)
 
 Participants: Tess, Peter
@@ -123,7 +123,7 @@ Participants: Tess, Peter
 6. [Privacy mitigations for identifiers](https://github.com/w3ctag/security-questionnaire/issues/79)
 7. [Explain how groups should address issues raised by the questionnaire in their specs](https://github.com/w3ctag/security-questionnaire/issues/88)
 8. [User from user's agent, and expanding third parties](https://github.com/w3ctag/security-questionnaire/pull/94)
-9. [AbortSignal.timeout()](https://github.com/w3ctag/design-reviews/issues/711)
+9. [`AbortSignal.timeout()`](https://github.com/w3ctag/design-reviews/issues/711)
   
 ### Slot: 07a
 
