@@ -6,7 +6,7 @@
 
 ### Venue
 
-* [Google King's Cross](https://www.openstreetmap.org/search?query=kings%20cross%2C%20london#map=19/51.53315/-0.12550)
+* Hosted by Google at [11 Cavendish Square](https://www.11cavendishsq.com/find-us/)
 
 ## San Diego, USA
 
