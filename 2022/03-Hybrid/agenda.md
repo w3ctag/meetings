@@ -94,7 +94,7 @@ Participants:
 1. Finding times for the WebAppSec FO Council Meetings
 ### Slot: S2 (San Diego)
 
-Participants: Tess, Peter
+Participants: Tess, Peter, special guest Pete Snyder
 
 1. [Don't monkey patch](https://github.com/w3ctag/design-principles/issues/184)
 2. [New principle: New features must not break existing ones](https://github.com/w3ctag/design-principles/issues/297)
@@ -102,7 +102,7 @@ Participants: Tess, Peter
 4. [Review Request for CSS Subgrid](https://github.com/w3ctag/design-reviews/issues/712)
 ### Slot: S3 (San Diego)
 
-Participants: Tess, Peter
+Participants: Tess, Peter, special guest Pete Snyder
 
 1. [use automatic publishing](https://github.com/w3ctag/security-questionnaire/issues/101)
 2. [Add a section for preventing behaviours that are abusive toward users](https://github.com/w3ctag/security-questionnaire/issues/106)
@@ -114,7 +114,7 @@ Participants: Tess, Peter
 8. [InteractionID in Event Timing](https://github.com/w3ctag/design-reviews/issues/670)
 ### Slot: S4 (San Diego)
 
-Participants: Tess, Peter
+Participants: Tess, Peter, special guest Pete Snyder
 1. [Contributors list?](https://github.com/w3ctag/security-questionnaire/issues/132)
 2. [Add an acknowledgements section.](https://github.com/w3ctag/security-questionnaire/pull/134)
 3. [a question or recommendations on error-handling](https://github.com/w3ctag/security-questionnaire/issues/137)
