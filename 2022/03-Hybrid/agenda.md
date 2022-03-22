@@ -65,6 +65,13 @@ Participants: Lea, Rossen, Peter
 1. [EditContext API](https://github.com/w3ctag/design-reviews/issues/416)
 2. [[CSS-Values-4] FYI review of Allow infinity, -infinity and NaN in CSS calc()](https://github.com/w3ctag/design-reviews/issues/708)
 
+
+### Slot: 6b
+
+Participants: Hadley, Dan
+
+1. more on DID feedback
+
 ### Slot: L1 (London)
 
 Participants: Rossen, Dan, Amy
