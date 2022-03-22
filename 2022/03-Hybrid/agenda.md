@@ -50,13 +50,14 @@ Participants: Lea, Rossen, Peter
 1. [Need guidance on returning error values vs throwing exceptions](https://github.com/w3ctag/design-principles/issues/55)
 2. [`prefers-reduced-data` CSS Media Query](https://github.com/w3ctag/design-reviews/issues/705)
 3. [[mediaqueries-4] Range contexts](https://github.com/w3ctag/design-reviews/issues/707)
-4. [<search> HTML element](https://github.com/w3ctag/design-reviews/issues/714)
+4. [`<search>` HTML element](https://github.com/w3ctag/design-reviews/issues/714)
+
 ### Slot: 05b
 
-Participants: Hadley, Amy, Dan
+Participants: Hadley, Dan
 
-1. [Relationship with Design Principles](https://github.com/w3ctag/ethical-web-principles/issues/37)
-2. [Suggested principles: user data freedom portability](https://github.com/w3ctag/ethical-web-principles/issues/5)
+**pick some things from 7 and 8 to look at**
+
 ### Slot: 06a
 
 Participants: Lea, Rossen, Peter
@@ -154,11 +155,13 @@ Participants: Rossen
 
 Participants: Hadley, Amy, Dan
 
-1. [Publish a built form of the principles](https://github.com/w3ctag/ethical-web-principles/issues/45)
-2. [Decentralization vs federation](https://github.com/w3ctag/ethical-web-principles/issues/54)
-3. [clarify status of document](https://github.com/w3ctag/ethical-web-principles/issues/57)
-4. [is it a mission statement?](https://github.com/w3ctag/ethical-web-principles/issues/58)
-5. [Be more specific on stakeholders](https://github.com/w3ctag/ethical-web-principles/issues/59)
+1. [Relationship with Design Principles](https://github.com/w3ctag/ethical-web-principles/issues/37)
+2. [Suggested principles: user data freedom portability](https://github.com/w3ctag/ethical-web-principles/issues/5)
+3. [Publish a built form of the principles](https://github.com/w3ctag/ethical-web-principles/issues/45)
+4. [Decentralization vs federation](https://github.com/w3ctag/ethical-web-principles/issues/54)
+5. [clarify status of document](https://github.com/w3ctag/ethical-web-principles/issues/57)
+6. [is it a mission statement?](https://github.com/w3ctag/ethical-web-principles/issues/58)
+7. [Be more specific on stakeholders](https://github.com/w3ctag/ethical-web-principles/issues/59)
 ### Slot: 08b
 
 Participants: Sangwhan, Max
