@@ -52,9 +52,9 @@ Participants: Lea, Rossen, Peter
 3. [[mediaqueries-4] Range contexts](https://github.com/w3ctag/design-reviews/issues/707)
 4. [`<search>` HTML element](https://github.com/w3ctag/design-reviews/issues/714)
 
-### Slot: 05b
+### Slot: 05b **half hour earlier**
 
-Participants: Hadley, Dan
+Participants: Hadley, Dan, Amy
 
 **pick some things from 7 and 8 to look at**
 
