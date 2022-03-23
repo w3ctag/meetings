@@ -80,6 +80,8 @@ Participants: Rossen, Dan, Amy
 2. [Same-origin prerendering triggered by speculationrules](https://github.com/w3ctag/design-reviews/issues/667)
 3. [[css-values-4] The Large, Small, and Dynamic Viewport Sizes](https://github.com/w3ctag/design-reviews/issues/706)
 4. [Review request for Confirmation of Action API](https://github.com/w3ctag/design-reviews/issues/713)
+5. [Capture Handle Identity](https://github.com/w3ctag/design-reviews/issues/645)
+ 
 ### Slot: L2 (London)
 
 Participants: Yves, Hadley, Max, Dan
