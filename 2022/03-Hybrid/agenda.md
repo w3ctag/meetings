@@ -89,7 +89,7 @@ Participants: Yves, Hadley, Max, Dan
 1. [Deprecating `document.domain` setter.](https://github.com/w3ctag/design-reviews/issues/564)
 2. [Web App Launch Handler](https://github.com/w3ctag/design-reviews/issues/683)
 3. [Markup based Client Hints delegation for third-party content](https://github.com/w3ctag/design-reviews/issues/702)
-### Slot: L3 (Londoon)
+### Slot: L3 (London)
 
 Participants: Hadley, Amy, Dan, Sangwhan
 
