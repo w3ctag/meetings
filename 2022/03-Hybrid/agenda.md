@@ -93,7 +93,7 @@ Participants: Yves, Hadley, Max, Dan
 
 Participants: Hadley, Amy, Dan, Sangwhan
 
-1. [First-Party Sets](https://github.com/w3ctag/design-reviews/issues/342)
+
 2. [Privacy Task Force Update](https://github.com/w3ctag/privacy-principles)
 3. Accessibiliity Checklist
 4. Finding on Bundling
@@ -101,15 +101,15 @@ Participants: Hadley, Amy, Dan, Sangwhan
 
 Participants:
 
-1. Finding times for the WebAppSec FO Council Meetings
+1. [Don't monkey patch](https://github.com/w3ctag/design-principles/issues/184)
 ### Slot: S2 (San Diego)
 
 Participants: Tess, Peter, special guest Pete Snyder
 
-1. [Don't monkey patch](https://github.com/w3ctag/design-principles/issues/184)
-2. [New principle: New features must not break existing ones](https://github.com/w3ctag/design-principles/issues/297)
-3. [Viewport Segments Property](https://github.com/w3ctag/design-reviews/issues/689)
-4. [Review Request for CSS Subgrid](https://github.com/w3ctag/design-reviews/issues/712)
+1. [First-Party Sets](https://github.com/w3ctag/design-reviews/issues/342)
+3. [New principle: New features must not break existing ones](https://github.com/w3ctag/design-principles/issues/297)
+4. [Viewport Segments Property](https://github.com/w3ctag/design-reviews/issues/689)
+5. [Review Request for CSS Subgrid](https://github.com/w3ctag/design-reviews/issues/712)
 ### Slot: S3 (San Diego)
 
 Participants: Tess, Peter, special guest Pete Snyder
@@ -139,6 +139,7 @@ Participants: Tess, Peter, special guest Pete Snyder
 
 Participants: Hadley, Amy, Dan
 
+0. Finding times for the WebAppSec FO Council Meetings
 1. [Back up each principle with references to previous TAG decisions/experiences](https://github.com/w3ctag/ethical-web-principles/issues/19)
 2. [The danger of prioritising algorithmic relevance over human needs](https://github.com/w3ctag/ethical-web-principles/issues/42)
 3. [Say something about resisting interpersonal abuse](https://github.com/w3ctag/ethical-web-principles/issues/44)
