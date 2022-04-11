@@ -8,7 +8,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 * [<search> HTML element](https://github.com/w3ctag/design-reviews/issues/714) - @LeaVerou, @plinss
 * [Digital Goods API](https://github.com/w3ctag/design-reviews/issues/571) - @hober, @rhiaro, @hadleybeeman
-* [SameParty cookie attribute](https://github.com/w3ctag/design-reviews/issues/595) - @hober, @ylafon, @hadleybeeman, @atanassov
 * [HTMLMediaElement controlsList](https://github.com/w3ctag/design-reviews/issues/643) - @hober, @LeaVerou, @atanassov
 * [HTMLInputElement showPicker()](https://github.com/w3ctag/design-reviews/issues/688) - @hober, @LeaVerou, @atanassov
 * [Viewport Segments Property](https://github.com/w3ctag/design-reviews/issues/689) - @torgo, @plinss, @atanassov
