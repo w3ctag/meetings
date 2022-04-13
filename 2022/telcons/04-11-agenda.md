@@ -35,6 +35,9 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Plenary Session - [2022-04-13](https://www.timeanddate.com/worldclock/converter.html?iso=20220413T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
+ * [WebGPU and WGSL](https://github.com/w3ctag/design-reviews/issues/626) - @hober, @cynthia, @maxpassion
+* [Privacy Principles](https://w3ctag.github.io/privacy-principles/)
+
 * [Dark mode support for web apps](https://github.com/w3ctag/design-reviews/issues/696) - @hober, @cynthia, @LeaVerou, @torgo
 * Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aopen+is%3Aissue+label%3A%22Progress%3A+untriaged%22) (14 untriaged)
