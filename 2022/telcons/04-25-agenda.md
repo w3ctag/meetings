@@ -6,23 +6,29 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (Europe / US) - [2022-04-25](https://www.timeanddate.com/worldclock/converter.html?iso=20220425T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
-### Breakout B (US / APAC) - [2022-04-26](https://www.timeanddate.com/worldclock/converter.html?iso=20220426T000000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
-
-### Breakout C (APAC / Europe) - [2022-04-26](https://www.timeanddate.com/worldclock/converter.html?iso=20220426T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
-
-### Plenary Session - [2022-04-27](https://www.timeanddate.com/worldclock/converter.html?iso=20220427T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
-
 * [First-Party Sets](https://github.com/w3ctag/design-reviews/issues/342) - @hober, @torgo, @hadleybeeman
-* [EditContext API](https://github.com/w3ctag/design-reviews/issues/416) - @cynthia, @atanassov
 * [WebXR Raw Camera Access API](https://github.com/w3ctag/design-reviews/issues/652) - @torgo, @rhiaro
-* [Web of Things (WoT) Thing Description 1.1: TAG and Security Review](https://github.com/w3ctag/design-reviews/issues/715) - @torgo, @maxpassion, @hadleybeeman
 * [Navigation API (formerly app history API)](https://github.com/w3ctag/design-reviews/issues/717) - @cynthia, @LeaVerou
 * [FYI Review of CSS Fonts 4 `font-palette`and `@font-palette-values`](https://github.com/w3ctag/design-reviews/issues/719) - @LeaVerou, @plinss
 * [Design Review: Speculation Rules (Prefetch)](https://github.com/w3ctag/design-reviews/issues/721) - @hober, @rhiaro, @atanassov
-* [Review request for TURTLEDOVE](https://github.com/w3ctag/design-reviews/issues/723) - @torgo, @rhiaro, @hadleybeeman
-* [Review request on `blocking=render` attribute for scripts, stylesheets and link resources](https://github.com/w3ctag/design-reviews/issues/727) - @hober, @cynthia, @plinss
-* [Cookie Expires/Max-Age attribute upper limit](https://github.com/w3ctag/design-reviews/issues/729) - @ylafon, @hadleybeeman
 * [Early design review: CSS Toggles](https://github.com/w3ctag/design-reviews/issues/730) - @LeaVerou, @plinss
+
+
+### Breakout B (US / APAC) - [2022-04-26](https://www.timeanddate.com/worldclock/converter.html?iso=20220426T000000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+
+* [EditContext API](https://github.com/w3ctag/design-reviews/issues/416) - @cynthia, @atanassov
+* [Review request on `blocking=render` attribute for scripts, stylesheets and link resources](https://github.com/w3ctag/design-reviews/issues/727) - @hober, @cynthia, @plinss
+
+
+### Breakout C (APAC / Europe) - [2022-04-26](https://www.timeanddate.com/worldclock/converter.html?iso=20220426T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+
+* [Web of Things (WoT) Thing Description 1.1: TAG and Security Review](https://github.com/w3ctag/design-reviews/issues/715) - @torgo, @maxpassion, @hadleybeeman
+* [Review request for TURTLEDOVE](https://github.com/w3ctag/design-reviews/issues/723) - @torgo, @rhiaro, @hadleybeeman
+* [Cookie Expires/Max-Age attribute upper limit](https://github.com/w3ctag/design-reviews/issues/729) - @ylafon, @hadleybeeman
+
+
+### Plenary Session - [2022-04-27](https://www.timeanddate.com/worldclock/converter.html?iso=20220427T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+
 
 * Breakout Rollup
 * Issue Triage
