@@ -371,6 +371,8 @@ Dan: release EWP to Statement track (along side of Privacy Principles which will
 
 *recorded +1 from Lea*
 
+*recorded +1 from Tess*
+
 **recording resolution to allow the Privacy Task Force to publish a fpwd to Statement track**
 
 
