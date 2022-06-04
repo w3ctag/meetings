@@ -6,42 +6,52 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (Europe / US) - [2022-06-06](https://www.timeanddate.com/worldclock/converter.html?iso=20220606T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
+* [HTMLMediaElement controlsList](https://github.com/w3ctag/design-reviews/issues/643) - @hober, @LeaVerou, @atanassov
+* [HTMLInputElement showPicker()](https://github.com/w3ctag/design-reviews/issues/688) - @hober, @LeaVerou, @atanassov
+* [Viewport Segments Property](https://github.com/w3ctag/design-reviews/issues/689) - @torgo, @plinss, @atanassov
+* [[CSS-Values-4] FYI review of Allow infinity, -infinity and NaN in CSS calc()](https://github.com/w3ctag/design-reviews/issues/708) - @LeaVerou, @atanassov
+
+* [Modification of selection APIs to account for shadow dom](https://github.com/w3ctag/design-reviews/issues/694) - @LeaVerou, @atanassov
+* [`prefers-reduced-data` CSS Media Query](https://github.com/w3ctag/design-reviews/issues/705) - @LeaVerou, @torgo, @atanassov
+* [[css-values-4] The Large, Small, and Dynamic Viewport Sizes](https://github.com/w3ctag/design-reviews/issues/706) - @torgo, @atanassov
+
+* [Review Request for CSS Subgrid](https://github.com/w3ctag/design-reviews/issues/712) - @torgo, @plinss, @atanassov
+* [<search> HTML element](https://github.com/w3ctag/design-reviews/issues/714) - @LeaVerou, @plinss
+* [Early design review for Range API improvements](https://github.com/w3ctag/design-reviews/issues/725) - @cynthia, @LeaVerou, @plinss
+* [Early design review: CSS Toggles](https://github.com/w3ctag/design-reviews/issues/730) - @LeaVerou, @plinss
+* [Early design review: Focusgroup](https://github.com/w3ctag/design-reviews/issues/732) - @LeaVerou, @plinss
+* [Design review: AbortSignal.any()](https://github.com/w3ctag/design-reviews/issues/737) - @cynthia, @LeaVerou, @plinss
+* [CSS property object-view-box review](https://github.com/w3ctag/design-reviews/issues/740) - @LeaVerou, @atanassov
+
+
 ### Breakout B (US / APAC) - [2022-06-07](https://www.timeanddate.com/worldclock/converter.html?iso=20220607T000000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+
+* [InteractionID in Event Timing](https://github.com/w3ctag/design-reviews/issues/670) - @plinss, @atanassov
+* [AbortSignal.timeout()](https://github.com/w3ctag/design-reviews/issues/711) - @hober, @cynthia, @plinss
+* [Response.json()](https://github.com/w3ctag/design-reviews/issues/741) - @cynthia, @plinss
+* *things we didn't get to in breakout A*
 
 ### Breakout C (APAC / Europe) - [2022-06-07](https://www.timeanddate.com/worldclock/converter.html?iso=20220607T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
-### Plenary Session - [2022-06-08](https://www.timeanddate.com/worldclock/converter.html?iso=20220608T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
-
-* [HTMLMediaElement controlsList](https://github.com/w3ctag/design-reviews/issues/643) - @hober, @LeaVerou, @atanassov
 * [WebXR Raw Camera Access API](https://github.com/w3ctag/design-reviews/issues/652) - @torgo, @rhiaro
+* [first party sets](https://github.com/w3ctag/design-reviews/issues/342) - should we close this?
 * [Cookies Having Independent Partitioned State (CHIPS)](https://github.com/w3ctag/design-reviews/issues/654) - @hober, @torgo, @atanassov
-* [InteractionID in Event Timing](https://github.com/w3ctag/design-reviews/issues/670) - @plinss, @atanassov
-* [renderPriority element attribute](https://github.com/w3ctag/design-reviews/issues/676) - @cynthia, @LeaVerou
-* [Conditional Focus (When Display-Capture Starts)](https://github.com/w3ctag/design-reviews/issues/679) - @torgo, @rhiaro
-* [HTMLInputElement showPicker()](https://github.com/w3ctag/design-reviews/issues/688) - @hober, @LeaVerou, @atanassov
-* [Viewport Segments Property](https://github.com/w3ctag/design-reviews/issues/689) - @torgo, @plinss, @atanassov
-* [Modification of selection APIs to account for shadow dom](https://github.com/w3ctag/design-reviews/issues/694) - @LeaVerou, @atanassov
-* [Review Request for adding video- prefixed media features](https://github.com/w3ctag/design-reviews/issues/697) - @cynthia, @LeaVerou
-* [`prefers-reduced-data` CSS Media Query](https://github.com/w3ctag/design-reviews/issues/705) - @LeaVerou, @torgo, @atanassov
-* [[css-values-4] The Large, Small, and Dynamic Viewport Sizes](https://github.com/w3ctag/design-reviews/issues/706) - @torgo, @atanassov
-* [[CSS-Values-4] FYI review of Allow infinity, -infinity and NaN in CSS calc()](https://github.com/w3ctag/design-reviews/issues/708) - @LeaVerou, @atanassov
-* [AbortSignal.timeout()](https://github.com/w3ctag/design-reviews/issues/711) - @hober, @cynthia, @plinss
-* [Review Request for CSS Subgrid](https://github.com/w3ctag/design-reviews/issues/712) - @torgo, @plinss, @atanassov
-* [<search> HTML element](https://github.com/w3ctag/design-reviews/issues/714) - @LeaVerou, @plinss
-* [I18N String-Meta and WebIDL](https://github.com/w3ctag/design-reviews/issues/716) - @maxpassion, @hadleybeeman
-* [Navigation API (formerly app history API)](https://github.com/w3ctag/design-reviews/issues/717) - @cynthia, @LeaVerou
-* [FedCM (was WebID)](https://github.com/w3ctag/design-reviews/issues/718) - @hober, @rhiaro, @hadleybeeman, @atanassov
-* [Design Review: Speculation Rules (Prefetch)](https://github.com/w3ctag/design-reviews/issues/721) - @hober, @rhiaro, @atanassov
 * [Review request for TURTLEDOVE](https://github.com/w3ctag/design-reviews/issues/723) - @torgo, @rhiaro, @hadleybeeman
 * [Review Request for Attribution Reporting API](https://github.com/w3ctag/design-reviews/issues/724) - @torgo, @rhiaro, @hadleybeeman
-* [Early design review for Range API improvements](https://github.com/w3ctag/design-reviews/issues/725) - @cynthia, @LeaVerou, @plinss
 * [Early design review for the Topics API](https://github.com/w3ctag/design-reviews/issues/726) - @torgo, @rhiaro, @hadleybeeman
-* [Early design review: CSS Toggles](https://github.com/w3ctag/design-reviews/issues/730) - @LeaVerou, @plinss
-* [Early design review: Focusgroup](https://github.com/w3ctag/design-reviews/issues/732) - @LeaVerou, @plinss
+
+* [Conditional Focus (When Display-Capture Starts)](https://github.com/w3ctag/design-reviews/issues/679) - @torgo, @rhiaro
+
+* [renderPriority element attribute](https://github.com/w3ctag/design-reviews/issues/676) - @cynthia, @LeaVerou
+* [Review Request for adding video- prefixed media features](https://github.com/w3ctag/design-reviews/issues/697) - @cynthia, @LeaVerou
+* [I18N String-Meta and WebIDL](https://github.com/w3ctag/design-reviews/issues/716) - @maxpassion, @hadleybeeman
+* [Navigation API (formerly app history API)](https://github.com/w3ctag/design-reviews/issues/717) - @cynthia, @LeaVerou
+
+### Plenary Session - [2022-06-08](https://www.timeanddate.com/worldclock/converter.html?iso=20220608T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+
 * [Review request for Fenced Frames](https://github.com/w3ctag/design-reviews/issues/735) - @hober, @torgo, @rhiaro, @atanassov
-* [Design review: AbortSignal.any()](https://github.com/w3ctag/design-reviews/issues/737) - @cynthia, @LeaVerou, @plinss
-* [CSS property object-view-box review](https://github.com/w3ctag/design-reviews/issues/740) - @LeaVerou, @atanassov
-* [Response.json()](https://github.com/w3ctag/design-reviews/issues/741) - @cynthia, @plinss
+* [Design Review: Speculation Rules (Prefetch)](https://github.com/w3ctag/design-reviews/issues/721) - @hober, @rhiaro, @atanassov
+* [FedCM (was WebID)](https://github.com/w3ctag/design-reviews/issues/718) - @hober, @rhiaro, @hadleybeeman, @atanassov
 
 * Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
