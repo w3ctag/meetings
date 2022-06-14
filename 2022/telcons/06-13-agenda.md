@@ -23,6 +23,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Web of Things (WoT) Architecture 1.1](https://github.com/w3ctag/design-reviews/issues/736) - @torgo, @rhiaro, @maxpassion, @hadleybeeman
 * [early design review: Permissions-Policy: unload](https://github.com/w3ctag/design-reviews/issues/738) - @cynthia, @torgo
 * [Early design review: Back/forward cache NotRestoredReasons API](https://github.com/w3ctag/design-reviews/issues/739) - @cynthia, @torgo
+* [fenced frames](https://github.com/w3ctag/design-reviews/issues/735)
+
 
 ### Plenary Session - [2022-06-16](https://www.timeanddate.com/worldclock/converter.html?iso=20220616T060000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
