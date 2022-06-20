@@ -10,7 +10,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [HTMLMediaElement controlsList](https://github.com/w3ctag/design-reviews/issues/643) - @hober, @LeaVerou, @atanassov
 * [`prefers-reduced-data` CSS Media Query](https://github.com/w3ctag/design-reviews/issues/705) - @LeaVerou, @torgo, @atanassov
 * [Review Request for CSS Subgrid](https://github.com/w3ctag/design-reviews/issues/712) - @torgo, @plinss, @atanassov
-* [<search> HTML element](https://github.com/w3ctag/design-reviews/issues/714) - @LeaVerou, @plinss
+* [`<search>` HTML element](https://github.com/w3ctag/design-reviews/issues/714) - @LeaVerou, @plinss
 * [Design Review: Speculation Rules (Prefetch)](https://github.com/w3ctag/design-reviews/issues/721) - @hober, @rhiaro, @atanassov
 * [Early design review for Range API improvements](https://github.com/w3ctag/design-reviews/issues/725) - @cynthia, @LeaVerou, @plinss
 * [Early design review: CSS Toggles](https://github.com/w3ctag/design-reviews/issues/730) - @LeaVerou, @plinss
