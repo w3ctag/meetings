@@ -24,13 +24,13 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (Europe / US) - [2022-07-05]
 
-[backwards compatibility principle #354](https://github.com/w3ctag/design-principles/pull/354)
-[what to do when a feature is temporarily only available on some platforms](https://github.com/w3ctag/design-principles/pull/357)
-[grammar](https://github.com/w3ctag/design-principles/pull/374)
-[New principle: the simple syntax should not be doing the harmful thing](https://github.com/w3ctag/design-principles/issues/375)
-[New principle: Deployability and Monitoring](https://github.com/w3ctag/design-principles/issues/368)
-[New principle: Remove deprecated functionality responsibly](https://github.com/w3ctag/design-principles/issues/361)
-[What should be the principles be about appropriate use cases for the canvas element?](https://github.com/w3ctag/design-principles/issues/369)
+* [backwards compatibility principle #354](https://github.com/w3ctag/design-principles/pull/354)
+* [what to do when a feature is temporarily only available on some platforms](https://github.com/w3ctag/design-principles/pull/357)
+* [grammar suggestions](https://github.com/w3ctag/design-principles/pull/374)
+* [New principle: the simple syntax should not be doing the harmful thing](https://github.com/w3ctag/design-principles/issues/375)
+* [New principle: Deployability and Monitoring](https://github.com/w3ctag/design-principles/issues/368)
+* [New principle: Remove deprecated functionality responsibly](https://github.com/w3ctag/design-principles/issues/361)
+* [What should be the principles be about appropriate use cases for the canvas element?](https://github.com/w3ctag/design-principles/issues/369)
 
 ### Plenary Session - [2022-07-06]
 
