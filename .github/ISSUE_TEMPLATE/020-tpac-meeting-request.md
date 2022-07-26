@@ -1,6 +1,6 @@
 ---
 name: TPAC 2022 Meeting Request
-about: If you'd like representative(s) from the TAG join some portion of your virtual meting scheduled for TPAC 2022.
+about: If you'd like representative(s) from the TAG join some portion of your hybrid meting scheduled for TPAC 2022.
 title: ''
 labels: 'untriaged, tpac-meeting-request'
 assignees: ''
@@ -9,7 +9,7 @@ assignees: ''
 
 Hello TAG!
 
-I'm requesting TAG presence at the following virtual meeting during TPAC 2022:
+I'm requesting TAG presence at the following hybrid meeting during TPAC 2022:
 
   - Group: [group name]
   - Topic: [topic]
