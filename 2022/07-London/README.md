@@ -4,6 +4,8 @@ Hosted by Google at their offices in London
 
 6 Pancras Sq, London N1C 4AG
 
+[Minutes here](minutes.md)
+
 ## Agenda
 
 ## 34 breakouts and 122 issues
