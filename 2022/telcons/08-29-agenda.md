@@ -37,12 +37,10 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 ### Plenary Session - [2022-08-31](https://www.timeanddate.com/worldclock/converter.html?iso=20220831T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
 * Breakout Rollup
-
 * [Review the HTML spec's treatment of focus](https://github.com/w3ctag/design-reviews/issues/468) - @hober, @atanassov
 * [COEP reflection](https://github.com/w3ctag/design-reviews/issues/742) - @torgo, @atanassov
 * [Shared Storage API](https://github.com/w3ctag/design-reviews/issues/747) - @torgo, @rhiaro, @hadleybeeman, @atanassov
 * [Early design review: CSS Toggles](https://github.com/w3ctag/design-reviews/issues/730) - @LeaVerou, @plinss
-
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
 
 ### Logistics
