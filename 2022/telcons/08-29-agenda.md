@@ -24,6 +24,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout C (APAC / Europe) - [2022-08-30](https://www.timeanddate.com/worldclock/converter.html?iso=20220830T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
+#### First Half
+
 * [early design review: Permissions-Policy: unload](https://github.com/w3ctag/design-reviews/issues/738) - @cynthia, @torgo **can we close?**
 * [Early design review: Back/forward cache NotRestoredReasons API](https://github.com/w3ctag/design-reviews/issues/739) - @cynthia, @torgo
 * [Fetch streaming upload](https://github.com/w3ctag/design-reviews/issues/754) - @torgo, @maxpassion, @hadleybeeman
@@ -32,6 +34,11 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Secure Payment Confirmation (heading to Candidate Recommendation)](https://github.com/w3ctag/design-reviews/issues/763) - @torgo, @maxpassion
 * [Review request for HTTP Status Code in Resource Timing](https://github.com/w3ctag/design-reviews/issues/757) - @hober, @ylafon, @maxpassion
 * [FYI review of Writable directory prompts for the File System Access API](https://github.com/w3ctag/design-reviews/issues/749) - @torgo
+
+#### Second Half : Mini-App Discussion with Guests
+
+* [MiniApp Lifecycle](https://github.com/w3ctag/design-reviews/issues/523) - @cynthia, @ylafon, @maxpassion, @torgo
+* [MiniApp Packaging](https://github.com/w3ctag/design-reviews/issues/762) - @cynthia, @ylafon, @maxpassion, @torgo
 
 
 ### Plenary Session - [2022-08-31](https://www.timeanddate.com/worldclock/converter.html?iso=20220831T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
