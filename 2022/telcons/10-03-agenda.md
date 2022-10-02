@@ -24,6 +24,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [New principle: Prefer dictionary arguments for all optional parameters (and non-obvious parameters?)](https://github.com/w3ctag/design-principles/issues/366) - @LeaVerou
 * [Start developer version](https://github.com/w3ctag/design-principles/pull/386)
 * Check in on [Ethical Web Principles PRs](https://github.com/w3ctag/ethical-web-principles/pulls)
+* Discuss post-3rd-party-cookie-world draft
 
 ### Plenary Session - [2022-10-05](https://www.timeanddate.com/worldclock/converter.html?iso=20221005T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
@@ -37,8 +38,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Move out most of "non-fully active" handling guide](https://github.com/w3ctag/design-principles/pull/392)
 * Discuss new schedule for after the time change
 
-* Breakout Rollup
-* [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
 
 ### Logistics
 
