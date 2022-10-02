@@ -35,6 +35,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [New principle: Avoid exposing API that result in synchronous flushing of CSS or layout](https://github.com/w3ctag/design-principles/issues/388)
 * [New principle: Guidance on options disctionaries and default values](https://github.com/w3ctag/design-principles/issues/391)
 * [Move out most of "non-fully active" handling guide](https://github.com/w3ctag/design-principles/pull/392)
+* Discuss new schedule for after the time change
 
 * Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
