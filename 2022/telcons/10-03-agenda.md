@@ -46,7 +46,7 @@ Chair: Dan
 
 Scribe:
 
-Bridge: https://whereby.com/w3ctag first then going to https://meet.jit.si/w3ctag as a back-up
+Bridge: https://cloud.w3ctag.org/call/qune73ou first then going to Meet as a back-up.
 
 *Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
