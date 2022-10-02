@@ -12,17 +12,18 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Guidance about which state properties should be reflected as HTML attributes](https://github.com/w3ctag/design-principles/issues/289) - @LeaVerou, @plinss
 * [Describe what to do when a feature is temporarily only available on some platforms.](https://github.com/w3ctag/design-principles/pull/357)
 * [Guidance about serialization](https://github.com/w3ctag/design-principles/pull/367)
+* [New principle: Prefer dictionary arguments for all optional parameters (and non-obvious parameters?)](https://github.com/w3ctag/design-principles/issues/366) - @LeaVerou
+
 
 ### Breakout C (APAC / Europe) - [2022-10-04](https://www.timeanddate.com/worldclock/converter.html?iso=20221004T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
 * [Generate a subset of the Design Principles doc for web developers](https://github.com/w3ctag/design-principles/issues/268) - @LeaVerou
+  * [Start developer version](https://github.com/w3ctag/design-principles/pull/386)
 * [New principle: Guidance on when to use a child element vs an attribute](https://github.com/w3ctag/design-principles/issues/270) - @LeaVerou
 * [New principle: Data Minimization](https://github.com/w3ctag/design-principles/issues/399) - @torgo
 * [New principle: Identity on the web](https://github.com/w3ctag/design-principles/pull/396)
 * [General principle around time measurement units/formats for various domains (JS, HTTP, HTML, etc)?](https://github.com/w3ctag/design-principles/issues/344) - @cynthia
 * [Restrictions](https://github.com/w3ctag/design-principles/pull/363)
-* [New principle: Prefer dictionary arguments for all optional parameters (and non-obvious parameters?)](https://github.com/w3ctag/design-principles/issues/366) - @LeaVerou
-* [Start developer version](https://github.com/w3ctag/design-principles/pull/386)
 * Check in on [Ethical Web Principles PRs](https://github.com/w3ctag/ethical-web-principles/pulls)
 * Discuss post-3rd-party-cookie-world draft
 
