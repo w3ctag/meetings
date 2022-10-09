@@ -45,7 +45,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Logistics
 
-Chair: Dan
+Chair: Peter
 
 Scribe:
 
