@@ -55,7 +55,7 @@ Bridge: https://cloud.w3ctag.org/call/qune73ou or Meet (URL to be provided).
 
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2022/telcons/10-10-minutes.md
 
-Raw minutes: ...
+Raw minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/TuH0PHcDnAYD-w+ORzxsChMdM1rKy4nnVe0Hf6vOauc/
 
 
 ### Local Call Times
