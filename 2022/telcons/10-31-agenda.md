@@ -17,7 +17,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Design Review: Speculation Rules (Prefetch)](https://github.com/w3ctag/design-reviews/issues/721) - @hober, @rhiaro, @atanassov
 
 
-### Breakout C (APAC / Europe) - [2022-11-01](https://www.timeanddate.com/worldclock/converter.html?iso=20221101T090000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+### Breakout C (APAC / Europe) - [2022-11-01](https://www.timeanddate.com/worldclock/converter.html?iso=20221101T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
 * [Cookies Having Independent Partitioned State (CHIPS) specification review](https://github.com/w3ctag/design-reviews/issues/779) - @torgo, @rhiaro, @hadleybeeman
 * [updated URI syntax for IPv6 link-local zone identifiers](https://github.com/w3ctag/design-reviews/issues/774) - @torgo, @ylafon
@@ -66,14 +66,14 @@ Raw minutes: ...
 #### Breakout C (APAC / Europe)
 
 <table>
-<tr><td> San Francisco (U.S.A. - California) <td> Tuesday 1 November at 02:00 GMT-7</td></tr>
-<tr><td> Boston (U.S.A. - Massachusetts) <td> Tuesday 1 November at 05:00 GMT-4</td></tr>
-<tr><td> London (United Kingdom - England) <td> Tuesday 1 November at 09:00 GMT</td></tr>
-<tr><td> Paris (France) <td> Tuesday 1 November at 10:00 CET</td></tr>
-<tr><td> Athens (Greece) <td> Tuesday 1 November at 11:00 EET</td></tr>
-<tr><td> Beijing (China) <td> Tuesday 1 November at 17:00 GMT+8</td></tr>
-<tr><td> Tokyo (Japan) <td> Tuesday 1 November at 18:00 GMT+9</td></tr>
-<tr><td> Corresponding UTC (GMT) <td> Tuesday 1 November at 09:00 UTC</td></tr>
+<tr><td> San Francisco (U.S.A. - California) <td> Tuesday 1 November at 01:00 GMT-7</td></tr>
+<tr><td> Boston (U.S.A. - Massachusetts) <td> Tuesday 1 November at 04:00 GMT-4</td></tr>
+<tr><td> London (United Kingdom - England) <td> Tuesday 1 November at 08:00 GMT</td></tr>
+<tr><td> Paris (France) <td> Tuesday 1 November at 09:00 CET</td></tr>
+<tr><td> Athens (Greece) <td> Tuesday 1 November at 10:00 EET</td></tr>
+<tr><td> Beijing (China) <td> Tuesday 1 November at 16:00 GMT+8</td></tr>
+<tr><td> Tokyo (Japan) <td> Tuesday 1 November at 17:00 GMT+9</td></tr>
+<tr><td> Corresponding UTC (GMT) <td> Tuesday 1 November at 08:00 UTC</td></tr>
 </table>
 
 #### Plenary
