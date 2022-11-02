@@ -216,29 +216,29 @@ Peter: **I will file an issue in Houdini and reference these other issues and we
 
 Rossen: I don't have an opinion stronger than before...  For myself I'm convinced that the attribute approach makes more sense given the disruption that elements can cause... 
 
-Lea: the use cases where this is a problem are also use cases where all you want is to place something on the top-layer, you don't need any of the other popup behaviors in those cases it seems. In most cases popup is used as a container, with `<div popup>`.
+Lea: the use cases where this is a problem are also use cases where all you want is to place something on the top-layer, you don't need any of the other popup behaviors in those cases it seems. In most other cases popup is used as a container, with `<div popup>`.
 
 Rossen: the disruptive behaviour that the element solution has walked me back from that idea... we don't design features that work for a majority of use cases and have known bad effects. This is an example of that - it has known bad effects.  I'm happy to let them continue pursuing this. However I'm still missing the a11y point they were making. I'm willing to believe they are taking a11y seriously due to the people involved. 
 
-Lea: i have strong reservations about this approach but it's OK.
+Dan: If we close, we should emphasize the a11y concerns and make sure they are addressed. Are we ok to close?
+
+Lea: I have strong reservations about this approach but if no others do, I'm not gonna hold it back.
 
 Peter: I still have reservations about the top layer behaviour.  Painting order? Designer view of top layer vs User Agent top layer. One at a time? Does it close other things that are already in the top layer?  
 
-Lea: Things in the top layer are painted in the order they are added".. 
+Lea: Right now, if I understood Mason Freed correctly, things in the top layer are painted in the order they are added". There is only one top-layer, the UA one. The point about the dev layer was an argument against specifying top-layer-edness in CSS, that then the UA would need another top-layer, to override the author top-layer. Though I'm not quite sure why that is specific to the CSS syntax, if authors use the `popup` attribute all over the place, won't the UA still need to override this somehow?
 
-Peter: "UAs can ..."
-
-Lea: one of the arguments against CSS syntax: they would have to use a different UA top layer and a 2nd class developer top layer... if developers could put anything in the top layer. Once developers start putting popus all over the place that could also become a problem. It seems like some of these use cases are conceptually popups and some are "i just want to put this element on the top later" ... if popup needs to account for all of these use cases then that makes for a clumsy API...  Orthagonal concepts....
+... It seems like some of these use cases are conceptually popups and some are "I just want to put this element on the top-layer". If popup is the *only* way to put something on the top-layer, **absolutely** it should not be an element! But it seems to me there is a fundamental difference between a more typical popup, e.g. a dropdown, a menu etc, and a random element that we want to show above all others for some reason (e.g. slider over video) ... if popup needs to account for all of these orthogonal concepts then that makes for a clumsy API. If placing elements on the top-layer can be done outside of popup, then popup has a more restricted set of use cases to serve and can be "smarter".
 
 Dan: I'm trying to figure out how this won't cause a huge mess from a user perspective. If you have multiple.. if you have ads and other 3p content in the page, isn't there going to be an arms race to see who can get on the top layer first and obliterate the other top layer..
 
-Lea: z-index 999 problem all over again. Not sure using an attribute is going to fix that
+Lea: `z-index: 9999 problem` all over again. Not sure using an attribute is going to fix that
 
-Peter: I don't buy the argument that the popup api avoids the z-index problem. The whole notion of top layer feels underspecified and undefined
+Peter: Yeah, I don't buy the argument that the popup api avoids the z-index problem. The whole notion of top-layer feels underspecified and undefined
 
 Rossen: and not necessary as part of this feature/behaviour?
 
-Peter: agree. I'm fine with popup being an attribute for now although I agree with Lea's point that once we decouple everything the attribue argument makes less sense. But first I think the top layer behaviour should be decoupled from the top layer element. Describing behaviour, triggers pseudoclasses. How something renders, what layer it renders on, should be defined completely in css. we can have all the other discussions about that. The notion of layers needs to be better thought out and defined - done independantly in CSS. (I don't think it shoudl be done via position or display, a separate property. I think we should do this as part of a bigger project to fix the z-index problem. z-index acts within a layer, and let that be author defined.. it's a separate discussion.)
+Peter: agree. I'm fine with popup being an attribute for now although I agree with Lea's point that once we decouple everything the attribute argument makes less sense. But first I think the top layer behaviour should be decoupled from the top layer element. Describing behaviour, triggers pseudoclasses. How something renders, what layer it renders on, should be defined completely in css. we can have all the other discussions about that. The notion of layers needs to be better thought out and defined - done independantly in CSS. (I don't think it should be done via position or display, but a separate property. I think we should do this as part of a bigger project to fix the z-index problem. z-index acts within a layer, and let that be author defined.. it's a separate discussion.)
 
 Dan: sounds like a bag of feedback... what can we leave in the issue? Can we say we're okay with the attribute thing and say we have other concerns? And we'll work on documenting them?
 
