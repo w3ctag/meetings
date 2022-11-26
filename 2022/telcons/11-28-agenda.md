@@ -6,10 +6,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (Europe / US) - [2022-11-28](https://www.timeanddate.com/worldclock/converter.html?iso=20221128T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
-### Breakout C (APAC / Europe) - [2022-11-29](https://www.timeanddate.com/worldclock/converter.html?iso=20221129T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
-
-### Plenary Session - [2022-11-30](https://www.timeanddate.com/worldclock/converter.html?iso=20221130T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
-
 * [EditContext API](https://github.com/w3ctag/design-reviews/issues/416) - @cynthia, @atanassov
 * [Early design review of the **updated** Multi-Screen Window Placement API](https://github.com/w3ctag/design-reviews/issues/602) - @torgo, @atanassov
 * [AbortSignal.timeout()](https://github.com/w3ctag/design-reviews/issues/711) - @hober, @cynthia, @plinss
@@ -19,20 +15,27 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Element.isVisible review](https://github.com/w3ctag/design-reviews/issues/734) - @cynthia, @plinss, @atanassov
 * [The Popover API (previously Popup)](https://github.com/w3ctag/design-reviews/issues/743) - @LeaVerou, @atanassov
 * [View Transitions API](https://github.com/w3ctag/design-reviews/issues/748) - @LeaVerou, @atanassov
+
+### Breakout C (APAC / Europe) - [2022-11-29](https://www.timeanddate.com/worldclock/converter.html?iso=20221129T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+
 * [COOP: restrict-properties early review](https://github.com/w3ctag/design-reviews/issues/760) - @hober, @torgo, @maxpassion
 * [Wildcards in Permissions Policy Origins](https://github.com/w3ctag/design-reviews/issues/765) - @rhiaro, @ylafon
-* [Early Design Review of Multi-Screen Window Placement on the Web - Initiating Multi-Screen Experiences](https://github.com/w3ctag/design-reviews/issues/767) - @maxpassion, @atanassov
-* [Delta review (to CR) of WebXR Gamepads Module](https://github.com/w3ctag/design-reviews/issues/770) - @hober, @torgo
 * [Delta review (to CR) of Web Neural Network API](https://github.com/w3ctag/design-reviews/issues/771) - @cynthia, @maxpassion
-* [Sync Methods for FileSystemSyncAccessHandle in File System Access API](https://github.com/w3ctag/design-reviews/issues/772) - @hober, @rhiaro
-* [FileSystemHandle::remove() for the File System Access API](https://github.com/w3ctag/design-reviews/issues/773) - @hober, @rhiaro
 * [updated URI syntax for IPv6 link-local zone identifiers](https://github.com/w3ctag/design-reviews/issues/774) - @torgo, @ylafon
-* [Early Design Review: Pending Beacon API](https://github.com/w3ctag/design-reviews/issues/776) - @hober, @cynthia
 * [Cookies Having Independent Partitioned State (CHIPS) specification review](https://github.com/w3ctag/design-reviews/issues/779) - @torgo, @rhiaro, @hadleybeeman
-* [Private State Tokens (formerly Trust Tokens)](https://github.com/w3ctag/design-reviews/issues/780) - @hober, @torgo, @hadleybeeman, @plinss
-* [WebXR Device API XRSession::enabledFeatures attribute (CR Delta)](https://github.com/w3ctag/design-reviews/issues/782) - @torgo, @maxpassion, @atanassov
 * [Content-type in Resource Timing](https://github.com/w3ctag/design-reviews/issues/785) - @maxpassion
 * [Design and specification review of CSS Container Queries Style Features](https://github.com/w3ctag/design-reviews/issues/787) - @LeaVerou
+
+
+### Plenary Session - [2022-11-30](https://www.timeanddate.com/worldclock/converter.html?iso=20221130T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+
+* [Private State Tokens (formerly Trust Tokens)](https://github.com/w3ctag/design-reviews/issues/780) - @hober, @torgo, @hadleybeeman, @plinss
+* [WebXR Device API XRSession::enabledFeatures attribute (CR Delta)](https://github.com/w3ctag/design-reviews/issues/782) - @torgo, @maxpassion, @atanassov
+* [Delta review (to CR) of WebXR Gamepads Module](https://github.com/w3ctag/design-reviews/issues/770) - @hober, @torgo
+* [Sync Methods for FileSystemSyncAccessHandle in File System Access API](https://github.com/w3ctag/design-reviews/issues/772) - @hober, @rhiaro
+* [FileSystemHandle::remove() for the File System Access API](https://github.com/w3ctag/design-reviews/issues/773) - @hober, @rhiaro
+* [Early Design Review: Pending Beacon API](https://github.com/w3ctag/design-reviews/issues/776) - @hober, @cynthia
+* [Early Design Review of Multi-Screen Window Placement on the Web - Initiating Multi-Screen Experiences](https://github.com/w3ctag/design-reviews/issues/767) - @maxpassion, @atanassov
 
 * Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
