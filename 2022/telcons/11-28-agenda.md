@@ -27,7 +27,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Design and specification review of CSS Container Queries Style Features](https://github.com/w3ctag/design-reviews/issues/787) - @LeaVerou
 
 
-### Plenary Session - [2022-11-30](https://www.timeanddate.com/worldclock/converter.html?iso=20221130T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+### Plenary Session - [2022-12-01](https://www.timeanddate.com/worldclock/converter.html?iso=20221201T070000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
 * [Private State Tokens (formerly Trust Tokens)](https://github.com/w3ctag/design-reviews/issues/780) - @hober, @torgo, @hadleybeeman, @plinss
 * [WebXR Device API XRSession::enabledFeatures attribute (CR Delta)](https://github.com/w3ctag/design-reviews/issues/782) - @torgo, @maxpassion, @atanassov
@@ -85,13 +85,13 @@ Raw minutes: ...
 #### Plenary
 
 <table>
-<tr><td> San Francisco (U.S.A. - California) <td> Wednesday 30 November at 08:00 GMT-8</td></tr>
-<tr><td> Boston (U.S.A. - Massachusetts) <td> Wednesday 30 November at 11:00 GMT-5</td></tr>
-<tr><td> London (United Kingdom - England) <td> Wednesday 30 November at 16:00 GMT</td></tr>
-<tr><td> Paris (France) <td> Wednesday 30 November at 17:00 CET</td></tr>
-<tr><td> Athens (Greece) <td> Wednesday 30 November at 18:00 EET</td></tr>
-<tr><td> Beijing (China) <td> Thursday 1 December at 00:00 GMT+8</td></tr>
-<tr><td> Tokyo (Japan) <td> Thursday 1 December at 01:00 GMT+9</td></tr>
-<tr><td> Seoul (Korea) <td> Tuesday 29 November at 01:00 GMT+9</td></tr>
-<tr><td> Corresponding UTC (GMT) <td> Wednesday 30 November at 16:00 UTC</td></tr>
+<tr><td> San Francisco (U.S.A. - California) <td> Wednesday 30 November at 23:00 GMT-8</td></tr>
+<tr><td> Boston (U.S.A. - Massachusetts) <td> Thursday 1 December at 02:00 GMT-5</td></tr>
+<tr><td> London (United Kingdom - England) <td> Thursday 1 December at 07:00 GMT</td></tr>
+<tr><td> Paris (France) <td> Thursday 1 December at 08:00 CET</td></tr>
+<tr><td> Athens (Greece) <td> Thursday 1 December at 09:00 EET</td></tr>
+<tr><td> Beijing (China) <td> Thursday 1 December at 15:00 GMT+8</td></tr>
+<tr><td> Tokyo (Japan) <td> Thursday 1 December at 16:00 GMT+9</td></tr>
+<tr><td> Seoul (Korea) <td> Tuesday 29 November at 16:00 GMT+9</td></tr>
+<tr><td> Corresponding UTC (GMT) <td> Thursday 1 December at 07:00 UTC</td></tr>
 </table>
