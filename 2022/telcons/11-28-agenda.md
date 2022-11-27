@@ -15,6 +15,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Element.isVisible review](https://github.com/w3ctag/design-reviews/issues/734) - @cynthia, @plinss, @atanassov
 * [The Popover API (previously Popup)](https://github.com/w3ctag/design-reviews/issues/743) - @LeaVerou, @atanassov
 * [View Transitions API](https://github.com/w3ctag/design-reviews/issues/748) - @LeaVerou, @atanassov
+* [Design and specification review of CSS Container Queries Style Features](https://github.com/w3ctag/design-reviews/issues/787) - @LeaVerou
 
 ### Breakout C (APAC / Europe) - [2022-11-29](https://www.timeanddate.com/worldclock/converter.html?iso=20221129T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
@@ -24,8 +25,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [updated URI syntax for IPv6 link-local zone identifiers](https://github.com/w3ctag/design-reviews/issues/774) - @torgo, @ylafon
 * [Cookies Having Independent Partitioned State (CHIPS) specification review](https://github.com/w3ctag/design-reviews/issues/779) - @torgo, @rhiaro, @hadleybeeman
 * [Content-type in Resource Timing](https://github.com/w3ctag/design-reviews/issues/785) - @maxpassion
-* [Design and specification review of CSS Container Queries Style Features](https://github.com/w3ctag/design-reviews/issues/787) - @LeaVerou
-
 
 ### Plenary Session - [2022-12-01](https://www.timeanddate.com/worldclock/converter.html?iso=20221201T070000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
@@ -41,7 +40,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Logistics
 
-Chair: Dan
+Chair: Peter
 
 Scribe:
 
