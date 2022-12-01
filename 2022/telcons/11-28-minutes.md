@@ -78,7 +78,7 @@ Rossen: One thing: how would I map parts of the elements' subtree - hello world 
 Hi @michaelwasserman yes probably it would have been better to request a spec review for something this far along in the process. We're concerned about the lack of multi-stakeholder support or signals thereof. We note extensive discussion on the security considerations in mozilla/standards-positions [#636](https://github.com/mozilla/standards-positions/issues/636) and [#542](https://github.com/mozilla/standards-positions/issues/542) which don't seem to have come to resolution yet. Any update on this or info on other implementers supporting / working on this?  Lack of feature detection is also concerning and goes against our [design principle](https://w3ctag.github.io/design-principles/#feature-detect) on detectability.
 </blockquote>
 
-**[posted](https://github.com/w3ctag/design-reviews/issues/767#issuecomment-1329477196)** 
+*[posted](https://github.com/w3ctag/design-reviews/issues/767#issuecomment-1329477196)*
 
 #### [AbortSignal.timeout()](https://github.com/w3ctag/design-reviews/issues/711) - @hober, @cynthia, @plinss
 
@@ -96,7 +96,7 @@ Yves: adding a new http header is not an issue in itself. All the things people 
 We're noting a lack of multi-stakeholder interest in this. Do you have any info on this can you can share? We're concerned about developer complexity when it comes to this feature, especially considering the need for a new HTTP header that requires server configuration. Is there an alternative design that wouldn't require as much complexity? Never the less, regarding the design it's good to see it's an opt in. 
 </blockquote>
 
-**[leaves comment](https://github.com/w3ctag/design-reviews/issues/721#issuecomment-1329510775)**
+*[leaves comment](https://github.com/w3ctag/design-reviews/issues/721#issuecomment-1329510775)*
 
 #### [Early design review for Range API improvements](https://github.com/w3ctag/design-reviews/issues/725) - @cynthia, @LeaVerou, @plinss
 
@@ -110,7 +110,7 @@ Dan: shall we put this on hold?
 
 Rossen: it's not necessarily CSS only related.. We could spend some time on CSS call this week, some of the right people could be there.
 
-**bump to plenary for maybe an update from CSS**
+*bump to plenary for maybe an update from CSS*
 
 #### [The Popover API (previously Popup)](https://github.com/w3ctag/design-reviews/issues/743) - @LeaVerou, @atanassov
 
