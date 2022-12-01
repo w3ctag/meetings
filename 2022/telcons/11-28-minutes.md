@@ -296,6 +296,8 @@ Thanks for your review request. On the surface, the developer need you have laid
 
 #### [Early Design Review: Pending Beacon API](https://github.com/w3ctag/design-reviews/issues/776) - @hober, @cynthia
 
+*bumped*
+
 #### First Party Sets
 
 Sangwhan: they have made some signifigant changes to FPS -- feel they've addressed moth of the issues we raised.  They'd like us to take a second look at the spec.  
