@@ -30,7 +30,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 * Async Process - how do we close issues with consensus asynchronously?
 * [[Meta] Tackling design problems earlier than design review / A Q&A section for API design](https://github.com/w3ctag/design-principles/issues/319)
-
 * Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
 
