@@ -17,6 +17,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout C (APAC / Europe) - [2022-12-06](https://www.timeanddate.com/worldclock/converter.html?iso=20221206T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
+* [BFCache PR](https://github.com/w3ctag/design-principles/pull/392)
 * [General principle around time measurement units/formats for various domains (JS, HTTP, HTML, etc)?](https://github.com/w3ctag/design-principles/issues/344) - @cynthia, @torgo
 * [New principle: Naming of factory methods](https://github.com/w3ctag/design-principles/issues/378) - @cynthia
 * [New principle: Data Minimization](https://github.com/w3ctag/design-principles/issues/399) - @torgo
@@ -28,6 +29,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 ### Plenary Session - [2022-12-07](https://www.timeanddate.com/worldclock/converter.html?iso=20221207T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
 * Anything bumped from Breakouts A & C
+* Can we merge any additional [Design Principles PRs](https://github.com/w3ctag/design-principles/pulls)?
 * Async Process - how do we close issues with consensus asynchronously?
 * [[Meta] Tackling design problems earlier than design review / A Q&A section for API design](https://github.com/w3ctag/design-principles/issues/319)
 * Republish current Design Principles to /TR ?
