@@ -23,13 +23,14 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Request for design principle clarification: Warn explicitly against getters throwing exceptions](https://github.com/w3ctag/design-principles/issues/400)
 * Take a look at EWP issues
 * Post 3rd Party Cookie Doc
-* MiniApp Discussion (2nd half) with guests
-* Republish current Design Principles to /TR ?
+* [MiniApp Discussion](https://github.com/w3ctag/design-reviews/issues/762) (2nd half) with guests
 
 ### Plenary Session - [2022-12-07](https://www.timeanddate.com/worldclock/converter.html?iso=20221207T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
+* Anything bumped from Breakouts A & C
 * Async Process - how do we close issues with consensus asynchronously?
 * [[Meta] Tackling design problems earlier than design review / A Q&A section for API design](https://github.com/w3ctag/design-principles/issues/319)
+* Republish current Design Principles to /TR ?
 * Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
 
