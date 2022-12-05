@@ -24,7 +24,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Request for design principle clarification: Warn explicitly against getters throwing exceptions](https://github.com/w3ctag/design-principles/issues/400)
 * Take a look at EWP issues
 * Post 3rd Party Cookie Doc
-* [MiniApp Discussion](https://github.com/w3ctag/design-reviews/issues/762) (2nd half) with guests
 
 ### Plenary Session - [2022-12-07](https://www.timeanddate.com/worldclock/converter.html?iso=20221207T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
