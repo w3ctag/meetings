@@ -22,6 +22,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [VISS (Vehicle Information Service Specification) 2 Core and VISS 2 Transport](https://github.com/w3ctag/design-reviews/issues/768) - @rhiaro, @maxpassion, @hadleybeeman
 * [TAG review of Data Catalog Vocabulary (DCAT) - Version 3](https://github.com/w3ctag/design-reviews/issues/758) - @rhiaro, @hadleybeeman
 * [Wildcards in Permissions Policy Origins](https://github.com/w3ctag/design-reviews/issues/765) - @rhiaro, @ylafon
+* [Miniapp Discussion](https://github.com/w3ctag/design-reviews/issues/762#issuecomment-1328793218)
 
 ### Plenary Session - [2022-12-15](https://www.timeanddate.com/worldclock/converter.html?iso=20221215T060000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
