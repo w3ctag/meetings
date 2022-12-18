@@ -6,6 +6,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (Europe / US) - [2022-12-19](https://www.timeanddate.com/worldclock/converter.html?iso=20221219T170000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
+* [CR Request for WAI-Adapt: Symbols Module](https://github.com/w3c/transitions/issues/478) - @ylafon
+  * related to https://github.com/w3ctag/design-reviews/issues/476 and https://www.w3.org/2022/09/13-apa-minutes.html#t01
 * [AbortSignal.timeout()](https://github.com/w3ctag/design-reviews/issues/711) - @hober, @cynthia, @plinss
 * [Design Review: Speculation Rules (Prefetch)](https://github.com/w3ctag/design-reviews/issues/721) - @hober, @rhiaro, @atanassov
 * [Early design review for Range API improvements](https://github.com/w3ctag/design-reviews/issues/725) - @cynthia, @LeaVerou, @plinss
@@ -26,6 +28,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Sync Methods for FileSystemSyncAccessHandle in File System Access API](https://github.com/w3ctag/design-reviews/issues/772) - @hober, @cynthia, @rhiaro
 * [FileSystemHandle::remove() for the File System Access API](https://github.com/w3ctag/design-reviews/issues/773) - @hober, @cynthia, @rhiaro
 * [updated URI syntax for IPv6 link-local zone identifiers](https://github.com/w3ctag/design-reviews/issues/774) - @torgo, @ylafon
+* Privacy Specs Document
 
 ### Plenary Session - [2022-12-21](https://www.timeanddate.com/worldclock/converter.html?iso=20221221T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
