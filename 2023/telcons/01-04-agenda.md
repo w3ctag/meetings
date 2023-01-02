@@ -12,6 +12,8 @@ NB: special week this week with plenary only.
 * General planning for 2023
   * Upcoming virtual f2f
   * Spring 2023 f2f
+* [Web Without 3p Cookies Draft](https://github.com/w3ctag/design-reviews/blob/main/reviews/web_without_3p_cookies.md)
+* [Privacy Principles Draft](https://www.w3.org/TR/privacy-principles/)
 
 ### Logistics
 
