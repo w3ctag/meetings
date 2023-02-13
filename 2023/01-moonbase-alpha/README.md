@@ -4,6 +4,8 @@ The TAG held a virtual face-to-face the week starting 30-Jan-2023.
 
 The schedule consisted of 18 scheduled break-outs (and 9 read-out sessions) across 3 time zone groups.
 
+[Draft minutes](minutes.md)
+
 ## 24 breakouts and 233 issues
 
 ### Slot: 01a
