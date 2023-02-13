@@ -336,7 +336,7 @@ Where is "user interaction" defined? ... gestures... activation.. defined in HTM
 
 double keying access is mentioned in S&P but not in spec
 
-Questions to ask about the (requestStorageAccessForOrigin)[https://privacycg.github.io/requestStorageAccessForOrigin/]:
+Questions to ask about the [requestStorageAccessForOrigin](https://privacycg.github.io/requestStorageAccessForOrigin/):
 
 1. What use cases are we explicitly designing for? Why is just using iframes and Storage access API insufficient?
 2. What abuse scenarios have you considered, and what are the mitigations for them? [S&P questionnaire](https://github.com/privacycg/requestStorageAccessForOrigin/blob/main/tag-security-questionnaire.md) says, "While this functionality comes with a risk of abuse by third parties for tracking purposes, it is an explicit goal of the API and a key to its design to not undermine the gains of cross-site cookie deprecation." -- how does that work?
