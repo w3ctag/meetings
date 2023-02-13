@@ -182,7 +182,7 @@ Participants: Amy, Dan, Hadley, Sangwhan
 
 1. [Early design review for the Topics API](https://github.com/w3ctag/design-reviews/issues/726)
 
-
+*we agreed we need to defer discussion until there us an update or reply to our comment*
 
 2. [Review Request for Attribution Reporting API](https://github.com/w3ctag/design-reviews/issues/724)
 3. [Review request for TURTLEDOVE](https://github.com/w3ctag/design-reviews/issues/723)
