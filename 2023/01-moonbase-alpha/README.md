@@ -1,8 +1,8 @@
-# Virtual F2f: Moonbase Alpha
+# Virtual F2F: Moonbase Alpha
 
-The TAG will hold a virtual face-to-face the week starting 30-Jan-2023.
+The TAG held a virtual face-to-face the week starting 30-Jan-2023.
 
-Schedule to consist of 18 scheduled break-outs (and 9 read-out sessions) across 3 time zone groups.
+The schedule consisted of 18 scheduled break-outs (and 9 read-out sessions) across 3 time zone groups.
 
 ## 24 breakouts and 233 issues
 
