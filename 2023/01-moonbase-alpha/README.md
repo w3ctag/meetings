@@ -32,6 +32,10 @@ The TAG innaugurated a new guide document on **Back/Forwards** Cache (thanks to 
 * [BF Cache Guide](https://w3ctag.github.io/bfcache-guide/)
 * [Updated material in Security & Privacy Questionnaire on BF Cache](https://github.com/w3ctag/security-questionnaire/pull/144)
 
+The TAG also left substantive feedback on a number of ongoing design reviews, notably the review for [MiniApp Lifecycle](https://github.com/w3ctag/design-reviews/issues/523#issuecomment-1427697804).
+
+We also updated our [TAG work mode](https://tag.w3.org/workmode/) document to provide more transparency about how the design review process works, including how we “triage” new reviews and how we use labels and milestones during the course of reviews.
+
 ## 24 breakouts and 233 issues
 
 ### Slot: 01a
