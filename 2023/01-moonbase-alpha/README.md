@@ -8,17 +8,18 @@ The schedule consisted of 18 scheduled break-outs (and 9 read-out sessions) acro
 
 Issues closed in this meeting:
 
-* Private State Tokens (formerly Trust Tokens)
-* Autoplay Policy Detection API
-* Storage Access API
-* No-Vary-Search HTTP header
-* Pre-CR review: DOM Review Draft — Published 21 June 2021
-* AbortSignal.timeout()
-* FedCM multi IDP support
-* WebAuthn PRF extension
-* Two changes to Secure Payment Confirmation prior to CR
-* FYI - Add optional submitter parameter to the FormData constructor
-* Early design review for Range API improvements
+* [Private State Tokens (formerly Trust Tokens)](https://github.com/w3ctag/design-reviews/issues/780)
+* [Autoplay Policy Detection AP](https://github.com/w3ctag/design-reviews/issues/810)
+* [Storage Access API](https://github.com/w3ctag/design-reviews/issues/807)
+* [No-Vary-Search HTTP header](https://github.com/w3ctag/design-reviews/issues/797)
+* [Pre-CR review: DOM Review Draft](https://github.com/w3ctag/design-reviews/issues/658)
+* [AbortSignal.timeout()](https://github.com/w3ctag/design-reviews/issues/711)
+* [FedCM multi IDP support](https://github.com/w3ctag/design-reviews/issues/803)
+* [WebAuthn PRF extension](https://github.com/w3ctag/design-reviews/issues/806)
+* [Two changes to Secure Payment Confirmation prior to CR](https://github.com/w3ctag/design-reviews/issues/802)
+* [Collection of Screensharing-related UX Hints](https://github.com/w3ctag/design-reviews/issues/744)
+* [FYI - Add optional submitter parameter to the FormData constructor](https://github.com/w3ctag/design-reviews/issues/812)
+* [Early design review for Range API improvements](https://github.com/w3ctag/design-reviews/issues/725)
 
 ## 24 breakouts and 233 issues
 
