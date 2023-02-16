@@ -6,7 +6,7 @@ The schedule consisted of 18 scheduled break-outs (and 9 read-out sessions) acro
 
 [Draft minutes](minutes.md)
 
-Issues closed in this meeting:
+The TAG closed 12 design reviews in this meeting:
 
 * [Private State Tokens (formerly Trust Tokens)](https://github.com/w3ctag/design-reviews/issues/780)
 * [Autoplay Policy Detection AP](https://github.com/w3ctag/design-reviews/issues/810)
@@ -20,6 +20,17 @@ Issues closed in this meeting:
 * [Collection of Screensharing-related UX Hints](https://github.com/w3ctag/design-reviews/issues/744)
 * [FYI - Add optional submitter parameter to the FormData constructor](https://github.com/w3ctag/design-reviews/issues/812)
 * [Early design review for Range API improvements](https://github.com/w3ctag/design-reviews/issues/725)
+
+In addition, the TAG made updates to the design principles document:
+
+* [Change guidance about dictionaries to cover all optional arguments](https://github.com/w3ctag/design-principles/pull/416)
+* [Add new principle for sync() vs async()](https://github.com/w3ctag/design-principles/pull/417)
+* [Fix more lint issues](https://github.com/w3ctag/design-principles/pull/418)
+
+The TAG innaugurated a new guide document on **Back/Forwards** Cache (thanks to contributor Rakina Zata Amni from Google and thanks also to Domenic Denicola from Google and Anne van Kesteren from Apple for their reviews of this material).  We welcome community feedback in this area.
+
+* [BF Cache Guide](https://w3ctag.github.io/bfcache-guide/)
+* [Updated material in Security & Privacy Questionnaire on BF Cache](https://github.com/w3ctag/security-questionnaire/pull/144)
 
 ## 24 breakouts and 233 issues
 
