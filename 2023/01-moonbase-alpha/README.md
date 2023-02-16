@@ -6,6 +6,20 @@ The schedule consisted of 18 scheduled break-outs (and 9 read-out sessions) acro
 
 [Draft minutes](minutes.md)
 
+Issues closed in this meeting:
+
+* Private State Tokens (formerly Trust Tokens)
+* Autoplay Policy Detection API
+* Storage Access API
+* No-Vary-Search HTTP header
+* Pre-CR review: DOM Review Draft — Published 21 June 2021
+* AbortSignal.timeout()
+* FedCM multi IDP support
+* WebAuthn PRF extension
+* Two changes to Secure Payment Confirmation prior to CR
+* FYI - Add optional submitter parameter to the FormData constructor
+* Early design review for Range API improvements
+
 ## 24 breakouts and 233 issues
 
 ### Slot: 01a
