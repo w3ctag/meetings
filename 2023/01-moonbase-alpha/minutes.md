@@ -6,11 +6,20 @@
 Participants: Rossen, Sangwhan
 
 1. [Add "Supporting BFCached Documents" standalone guide](https://github.com/w3ctag/bfcache-guide/pull/1)
-2. [WebAssembly JavaScript Promise Integration API](https://github.com/w3ctag/design-reviews/issues/809)
-3. [early design review: bfcache/prerendering eviction APIs](https://github.com/w3ctag/design-reviews/issues/786)
-4. [Rewrite the BFCache question](https://github.com/w3ctag/security-questionnaire/pull/144)
 
-See comments in spreadsheet
+*PR reviewed and merged*
+
+2. [WebAssembly JavaScript Promise Integration API](https://github.com/w3ctag/design-reviews/issues/809)
+
+*bumped to feb-20 week*
+
+3. [early design review: bfcache/prerendering eviction APIs](https://github.com/w3ctag/design-reviews/issues/786)
+
+*bumped to feb-20 week*
+
+5. [Rewrite the BFCache question](https://github.com/w3ctag/security-questionnaire/pull/144)
+
+*PR reviewed and merged*
 
 ### Slot: 02a
 
