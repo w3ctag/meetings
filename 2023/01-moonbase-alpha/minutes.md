@@ -1,4 +1,4 @@
-## TAG VF2F "Moon Base Alpha" (DRAFT)
+## TAG VF2F "Moonbase Alpha"
 #### 2023-02-06 - 2023-02-08
 
 ### Slot: 01a
