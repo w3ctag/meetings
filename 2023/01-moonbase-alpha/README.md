@@ -4,7 +4,7 @@ The TAG held a virtual face-to-face the week starting 30-Jan-2023.
 
 The schedule consisted of 18 scheduled break-outs (and 9 read-out sessions) across 3 time zone groups.
 
-**[minutes](minutes.md)**
+* Full **[minutes](minutes.md)**.
 
 The TAG closed 12 design reviews in this meeting:
 
