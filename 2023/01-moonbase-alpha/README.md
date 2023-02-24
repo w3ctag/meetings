@@ -25,7 +25,6 @@ In addition, the TAG made updates to the design principles document:
 
 * [Change guidance about dictionaries to cover all optional arguments](https://github.com/w3ctag/design-principles/pull/416)
 * [Add new principle for sync() vs async()](https://github.com/w3ctag/design-principles/pull/417)
-* [Fix more lint issues](https://github.com/w3ctag/design-principles/pull/418)
 
 The TAG inaugurated a new guide document on **Back/Forwards** Cache (thanks to contributor Rakina Zata Amni from Google and thanks also to Domenic Denicola from Google and Anne van Kesteren from Apple for their reviews of this material).  We welcome community feedback in this area.
 
