@@ -6,7 +6,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (Europe / US) - [2023-03-20](https://www.timeanddate.com/worldclock/converter.html?iso=20230320T170000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
-* [Popover API](https://github.com/w3ctag/design-reviews/issues/743)\
+* [Popover API](https://github.com/w3ctag/design-reviews/issues/743)
 * [Early design review: Subresource loading with Web Bundles](https://github.com/w3ctag/design-reviews/issues/616) - @hober, @torgo
 * [Sync Methods for FileSystemSyncAccessHandle in File System Access API](https://github.com/w3ctag/design-reviews/issues/772) - @hober, @cynthia
 * [text-wrap: balance](https://github.com/w3ctag/design-reviews/issues/822) - @LeaVerou
