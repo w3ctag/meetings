@@ -20,10 +20,10 @@
 
 ## Agenda
 
-18 April - Agenda planning half-day session
+18 April - Agenda planning half-day session starting at 14:00 local time
 
-19 April - Day 1
+19 April - Day 1 - starting at 09:00 and ending at 17:00 local time
 
-20 April - Day 2
+20 April - Day 2 - starting at 09:00 and ending at 17:00 local time
 
-21 Apirl - Day 3
+21 Apirl - Day 3 - starting at 09:00 and ending at 17:00 local time
