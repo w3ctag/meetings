@@ -165,7 +165,8 @@ Discussion about the conceptual overlap between these feature controls and the S
 
 ## BFCache Discussion
 
-Present: Dan, Peter, Sangwhan, Tess, Yves, Lea, Fergal, Rakina
+Present: Dan, Peter, Sangwhan, Tess, Yves, Lea
+Guests: Rakina Zata Amni (Google), Fergal Daly (Google)
 
 Sangwhan: how can we help with the bfcache...
 
