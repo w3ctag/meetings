@@ -304,7 +304,7 @@ Patrick: at a high level we're walking away from packaged bundles with specific 
 
 ### Brotli
 
-Kenji: brotol presentation at IETF... not the first time people have tried this... 
+Kenji: brotli presentation at IETF... not the first time people have tried this... 
 
 Patrick: another thing when we first shipped h2 - delta transmissions - but was abandoned.  
 
@@ -370,7 +370,7 @@ Kenji: not specified
 
 Patrick: brotli and gzip both streaming compressions..  
 
-Dan: any feedback from IETF / Mark Nonttingham
+Dan: any feedback from IETF / Mark Nottingham
 
 Patrick: yes that's the main person we've been talking to...
 
@@ -382,7 +382,7 @@ Kenji: for static use case built into tool chain...
 
 Patrick On calls from positions - lots of people weighing in. I'm assuming many are waiting to see how it goes in the wild...
 
-Yves: for static public use case... the saving should be the same as a crompressed archive...
+Yves: for static public use case... the saving should be the same as a crompressed archive vs indidivual files...
 
 Peter: over the long haul we'd like to see bundling isn't so much of a thing... let's say I use 100 little files and rely on QUIC to handle that. Will the delta compression still be a win?  At the transport layer you can take a look at a set of files...
 
@@ -564,7 +564,7 @@ Tess: not all optional arguments are good... this need re-wording...
 
 *we dropped the examples and landed https://github.com/w3ctag/design-principles/pull/372 and opened up a new issue https://github.com/w3ctag/design-principles/issues/431 to find examples*
 
-*We look at **Serliazation** https://github.com/w3ctag/design-principles/pull/367*
+*We look at **Serialization** https://github.com/w3ctag/design-principles/pull/367*
 
 We made editorial changes and merged https://github.com/w3ctag/design-principles/pull/367.
 
@@ -668,7 +668,7 @@ Posted a question about user consent and possibly replay issues.
 
 ## TAG Future
 
-Present: Dan, Lea, Tess, Yves, , Sangwhan, Peter, Hadley
+Present: Dan, Lea, Tess, Yves, Sangwhan, Peter, Hadley
 Guest: Florian
 
 Agenda:
@@ -691,7 +691,7 @@ Lea: how does this work for chairs?
 
 Tess: in process 2023 - pre-existing status quo is that Tim is chair. In a diirector-free world Tim is not chair of the TAG...
 
-Florian: TimBL is a permemant member as himself but not chair.
+Florian: TimBL is a permanent member as himself but not chair.
 
 *all fine*
 
@@ -729,7 +729,7 @@ Tess: then we might have bigger problems.
 
 Florian: if the people appointed will be same people... by the time we've hit the term limits we will have had time to revise the process... 
 
-Hadley: enough core in the TAg to keep the consistency ... sense of skills... what's needed for good appointments. Don't see a better way forward...
+Hadley: enough core in the TAG to keep the consistency ... sense of skills... what's needed for good appointments. Don't see a better way forward...
 
 Tess: the existing schedule of elections and appointments... staggered terms... even if an election cycle / half the TAG is still incumbents... 
 
@@ -746,15 +746,15 @@ Tess: which is why the teams with the TAG and AB do it.
 Hadley: agree.  But some have said AC should be ultimate authority and I don't agree with that.
 
 
-Yves: every time you put TAG in a decision making role it's susceptible to political...
+Yves: every time you put TAG in a decision making role it's susceptible to political bias instead of technical-based voting...
 
 Tess: 
 
 Torgo: this implies a lot more time/work for TAG members, to meet with the AB, to hammer out appointments 
 
-Florian: we (TAG/AB) are ratifying, not making appointments. It's the tema's job to ratify the appointments, the team talks to whoever they need to to work out who is missing.
+Florian: we (TAG/AB) are ratifying, not making appointments. It's the team's job to ratify the appointments, the team talks to whoever they need to to work out who is missing.
 
-Torgo: so the TAG needs to come to consensus. How?\
+Torgo: so the TAG needs to come to consensus. How?
 
 Peter: an email vote, using WBS for example.
 
@@ -770,7 +770,7 @@ Sangwhan: we could introduce a handover period...
 
 ### Additional Members
 
-*discussion of STV*
+*discussion of STV* (See [Arrow's Paradox](https://en.wikipedia.org/wiki/Arrow's_impossibility_theorem) )
 
 Tess: there's responsibilities, time and people to do the work... adjusting one of those things without adjusting others doesn't work... increasing the responsibilities means we need more people... 
 
@@ -826,7 +826,7 @@ Florian: I think the TAG should make sure those groups exist
 
 Sangwhan: it's likely that the group proposing the review are the same experts in that topic. Domain experts for task forces: group is small, and they often have a vested interest in each proposals.
 
-Yves: This is the area that the IETF are using... a small set of people appointing people to review specs. It's probably not as healthy as ???
+Yves: This is the Directorates that the IETF are using... a small set of people appointing people from that group to review specs. It's probably not as healthy as using a set of neutral people 
 
 Lea: I like the idea of outsourcing. We could ask these groups for review, reduce the time for us. I disagree that if evertything was handled by these groups than TAG review isn't needed.
 
@@ -850,11 +850,11 @@ Dan: My counterproposal is to request 2 additional seats. Have them still be gen
 
 Tess: if you rapidly increase the size of the TAG, that causes concern. So we'd have to do a small, bounded increase. If we don't increase it at all, and keep adding responsibilities, the quality of output is going to suffer.
 
-yves: instead of addding responsibilities, you can add another body that can ask the TAG for details.
+Yves: instead of addding responsibilities, you can add another body that can ask the TAG for details.
 
-Yves: adding 2 people is probably a good idea. We could say we added them to the AB a few years ago, but actually we need them in the TAG instead, especially since the board of directors has taken responsibiliteise from the AB.
+Florian: adding 2 people is probably a good idea. We could say we added them to the AB a few years ago, but actually we need them in the TAG instead, especially since the board of directors has taken responsibiliteise from the AB.
 
-Tess: At IETF there are two bodies that correspond to the TAG: the IAB, and the ADs who do the reviewing. Ofhand, I don't htink adding a body is a bad idea. But it's a more radical change.
+Tess: At IETF there are two bodies that correspond to the TAG: the IAB, and the ADs who do the reviewing. Offhand, I don't think adding a body is a bad idea. But it's a more radical change.
 
 Dan: it is. But I think it's clear we need more seats.
 
@@ -886,7 +886,7 @@ Yves: another idea would be to reduce the number of councils by letting team clo
 
 Florian: there is a provision for this - the team is allowed to make a recommendation.  More likely to be used to repetitive cases...
 
-Dan: do we have TAG concenus that we would like the team to be more proactive in stopping things from coming to council?
+Dan: do we have TAG consensus that we would like the team to be more proactive in stopping things from coming to council?
 
 Tess: Yes. 
 
@@ -912,17 +912,17 @@ Florian: just councils and the election / chair picking
 
 *some discussion on CEPC violations that have occurred during the context of councils*
 
-***TAG Resolution** to ask Florian to ask the AB about the idea of indemnity insurance for council members*
+* **TAG Resolution** to ask Florian to ask the AB about the idea of indemnity insurance for council members*
 
 *fully gaveled* 
 
 ### Additional Responsibilities
 
-Florian: lack of technical guidance for consortium ... one example is in chartering... Where does team derrive the legitimacy from...?    In theory the team and team alone put the charter forward... in practice some wgs decides on the new charter. 
+Florian: lack of technical guidance for consortium ... one example is in chartering... Where does team derive the legitimacy from...?    In theory the team and team alone put the charter forward... in practice some wgs decides on the new charter. 
 
 Tess: tim had moral clarity of what we're trying to do here.. what should we add to the web and what souldn't we. Absent that vision..  w3c is a member consortium... the business model of w3c is to have members who pay dues. The incentive is to have new members from new in new industries. Incentivies enlarging to areas that don't represent the web's values... tim used to be stop gap. In the absence of tim i don't see how we do that now.
 
-Florian: BD presention to the board... the essence is that a sales machine is a sales machine... not the sales people's job to figure out who they go after. they don't have someone to tell them who to go after.. 
+Florian: BD presentation to the board... the essence is that a sales machine is a sales machine... not the sales people's job to figure out who they go after. they don't have someone to tell them who to go after.. 
 
 Hadley: we as the TAG come up with holes in the web architecture - things that need to be done, or gaps between working groups' efforts - and we have nowhere to take that. we try to send it to members of the team and communicate it ... that should inform the chartering and the sales machinery...
 
@@ -1165,7 +1165,7 @@ Yves: EWP... trade-off of what it costs in terms of caching and sustainability. 
 
 Tess: All implementations are moving to cache partioning... gekko and blink moving there... while it's true there is a sustainability cost for partitioning , we can't roll it back...
 
-Yves: introducing smart delays to avoid timining ...
+Yves: introducing smart delays to avoid timing attacks, for example...
 
 Sangwhan: the doc doesn't suggest we should remove double-keyed caching...
 
