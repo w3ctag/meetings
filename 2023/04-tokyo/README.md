@@ -24,14 +24,11 @@
 
 |   | day 1    | day 2                                                       | day 3                                   |
 |---|-----|--------------------------------------------------------|------------------------------------|
-|9:00-10:30|1: High-pri design review breakouts (a, b, c)|5: design principles breakouts                          |9: design principles breakouts      |
+|9:00-10:30|1: High-pri design review *breakouts (a, b, c)*|5: design principles *breakouts*                          |9: design principles *breakouts*      |
 |10:30-10:50|Break|Break                                                   |Break                               |
-|10:50-11:50|2: BFCache (Fergal + Rakina) plenary|6: design principles plenary                            |10: Design principles plenary       |
+|10:50-11:50|2: BFCache (w/Fergal + Rakina) *plenary*|6: design principles *plenary*                            |10: Design principles *plenary*       |
 |11:50-13:00|Lunch|Lunch                                                   |Lunch                               |
-|13:00-14:40|3: Packaging (Kenji) plenary|7: Design review breakouts (a, b, c)                    |11: Design review breakouts (a, b, c)|
+|13:00-14:40|3: Packaging (w/Kenji et al) *plenary*|7: Design reviews *breakouts (a, b, c)*                    |11: Design reviews *breakouts (a, b, c)*|
 |14:40-15:00|Break|Break                                                   |Break                               |
-|15:00-16:00|4: Findings plenary|8: TAG Future plenary                                   |12: Privacy sandbox response plenary|
-|16:00-17:00|Wrap-up (Plenary)|Wrap-up (Plenary)                                       |Wrap-up (Plenary)                   |
-20 April - Day 2 - starting at 09:00 and ending at 17:00 local time
-
-21 Apirl - Day 3 - starting at 09:00 and ending at 17:00 local time
+|15:00-16:00|4: Findings *plenary*|8: TAG Future (w/Florian) *plenary*                                   |12: Privacy sandbox response *plenary*|
+|16:00-17:00|Wrap-up *Plenary*|Wrap-up *Plenary*                                       |Wrap-up *Plenary*                   |
