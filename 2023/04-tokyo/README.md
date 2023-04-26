@@ -34,18 +34,24 @@
 |16:00-17:00|Wrap-up *Plenary*|Wrap-up *Plenary*                                       |Wrap-up *Plenary*                   |
 
 ### Design Principles Breakout Assignments
-[HTML attributes](https://github.com/w3ctag/design-principles/pull/412):	Lea, Sangwhan	5a
-[Editorial](https://github.com/w3ctag/design-principles/pull/409):	Lea, Sangwhan	5a
-[Throwing exceptions](https://github.com/w3ctag/design-principles/pull/408):	Plenary	
-[Classes Data+Behavior](https://github.com/w3ctag/design-principles/pull/403):	Lea, Sangwhan	5a
-[Identity on the web](https://github.com/w3ctag/design-principles/pull/396):	Plenary	
-[Developer version](https://github.com/w3ctag/design-principles/pull/386): Lea	9a
-[Overloading](https://github.com/w3ctag/design-principles/pull/372):	Dan, Tess	5b
-[Serialization](https://github.com/w3ctag/design-principles/pull/372):	Dan, Tess	5b
-[Restrictions](https://github.com/w3ctag/design-principles/pull/363): Max, Peter	5
-[Backwards Compatibility](https://github.com/w3ctag/design-principles/pull/354):	Lea, Sangwhan	9a
-[Interop and Implementability](https://github.com/w3ctag/design-principles/pull/290):	Dan, Tess	5b
-New principle: Guidance on User Activation	https://github.com/w3ctag/design-principles/issues/314	Dan, Tess	9b
-New principle: When to use client hints	https://github.com/w3ctag/design-principles/issues/307	Dan, Tess	9b
-New principle: Naming of factory methods	https://github.com/w3ctag/design-principles/issues/378	Lea, Sangwhan	9a
-New principle: New features must not break existing ones	https://github.com/w3ctag/design-principles/issues/297	Dan, Tess	9b
+* [HTML attributes](https://github.com/w3ctag/design-principles/pull/412):	Lea, Sangwhan	5a 
+* [Editorial](https://github.com/w3ctag/design-principles/pull/409):	Lea, Sangwhan	5a
+* [Throwing exceptions](https://github.com/w3ctag/design-principles/pull/408):	Plenary	  
+* [Classes Data+Behavior](https://github.com/w3ctag/design-principles/pull/403):	Lea, Sangwhan	5a
+* [Identity on the web](https://github.com/w3ctag/design-principles/pull/396):	Plenary	
+* [Developer version](https://github.com/w3ctag/design-principles/pull/386): Lea	9a
+* [Overloading](https://github.com/w3ctag/design-principles/pull/372):	Dan, Tess	5b
+* [Serialization](https://github.com/w3ctag/design-principles/pull/372):	Dan, Tess	5b
+* [Restrictions](https://github.com/w3ctag/design-principles/pull/363): Max, Peter	5
+* [Backwards Compatibility](https://github.com/w3ctag/design-principles/pull/354):	Lea, Sangwhan	9a
+* [Interop and Implementability](https://github.com/w3ctag/design-principles/pull/290):	Dan, Tess	5b
+* [New principle: Guidance on User Activation](https://github.com/w3ctag/design-principles/issues/314):	Dan, Tess	9b
+* [New principle: When to use client hints](https://github.com/w3ctag/design-principles/issues/307):	Dan, Tess	9b
+* [New principle: Naming of factory methods](https://github.com/w3ctag/design-principles/issues/378):	Lea, Sangwhan	9a
+* [New principle: New features must not break existing ones](https://github.com/w3ctag/design-principles/issues/297):	Dan, Tess	9b
+
+
+
+
+
+
