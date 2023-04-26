@@ -50,7 +50,40 @@
 * [New principle: Naming of factory methods](https://github.com/w3ctag/design-principles/issues/378):	Lea, Sangwhan	9a
 * [New principle: New features must not break existing ones](https://github.com/w3ctag/design-principles/issues/297):	Dan, Tess	9b
 
-
+### Design Reviews Breakout Assignments:
+* [762 MiniApp Packaging](https://github.com/w3ctag/design-reviews/issues/762): 03a
+* [616 Early design review: Subresource loading with Web Bundles](https://github.com/w3ctag/design-reviews/issues/616): 03a
+* [523 MiniApp Lifecycle](https://github.com/w3ctag/design-reviews/issues/523): 03a
+* [823 Early design review request: IPA](https://github.com/w3ctag/design-reviews/issues/823): 12a
+* [808 requestStorageAccessFor](https://github.com/w3ctag/design-reviews/issues/808): 12a
+* [747 Shared Storage API](https://github.com/w3ctag/design-reviews/issues/747): 12a
+* [726 Early design review for the Topics API](https://github.com/w3ctag/design-reviews/issues/726): 12a
+* [724 Review Request for Attribution Reporting API](https://github.com/w3ctag/design-reviews/issues/724): 12a
+* [723 Review request for TURTLEDOVE](https://github.com/w3ctag/design-reviews/issues/723): 12a
+* [342 First-Party Sets](https://github.com/w3ctag/design-reviews/issues/342): 12a
+* [809 WebAssembly JavaScript Promise Integration API](https://github.com/w3ctag/design-reviews/issues/809): 11c
+* [734 Element.checkVisibility review](https://github.com/w3ctag/design-reviews/issues/734): 11c
+* [831 Eligibility for autofill](https://github.com/w3ctag/design-reviews/issues/831): 01a
+* [805 Moving local files with the File System Access API](https://github.com/w3ctag/design-reviews/issues/805): 01a
+* [795 Compute Pressure Specification Review](https://github.com/w3ctag/design-reviews/issues/795): 01a
+* [772 Sync Methods for FileSystemSyncAccessHandle in File System Access API](https://github.com/w3ctag/design-reviews/issues/772): 01a
+* [832 TAG review of the proposal to use the RegExp `v` flag instead of `u` for the HTML `pattern` attribute](https://github.com/w3ctag/design-reviews/issues/832): 01b
+* [829 Entry and Exit Animations](https://github.com/w3ctag/design-reviews/issues/829): 01b
+* [828 Spec review for Scroll-driven Animations](https://github.com/w3ctag/design-reviews/issues/828): 01b
+* [827 Early design review: scheduler.yield()](https://github.com/w3ctag/design-reviews/issues/827): 01c
+* [760 COOP: restrict-properties early review](https://github.com/w3ctag/design-reviews/issues/760): 01c
+* [657 Pre-CR review: HTML Review Draft — Published 18 January 2021](https://github.com/w3ctag/design-reviews/issues/657): 01c
+* [525 Overall review of features which enable/disable subframe or subresource capabilities](https://github.com/w3ctag/design-reviews/issues/525): 01c
+* [786 early design review: bfcache/prerendering eviction APIs](https://github.com/w3ctag/design-reviews/issues/786): 07a
+* [738 early design review: Permissions-Policy: unload](https://github.com/w3ctag/design-reviews/issues/738): 07a
+* [819 (Document Subtitle): Early review for adding a new value to the standard list of `name`s for a meta tag](https://github.com/w3ctag/design-reviews/issues/819): 07a
+* [776 Early Design Review: Pending Beacon API](https://github.com/w3ctag/design-reviews/issues/776): 07a
+* [721 Design Review: Speculation Rules (Prefetch)](https://github.com/w3ctag/design-reviews/issues/721): 07a
+* [798 Early design review: Document Picture-in-Picture](https://github.com/w3ctag/design-reviews/issues/798): 07b
+* [765 Wildcards in Permissions Policy Origins](https://github.com/w3ctag/design-reviews/issues/765): 07b
+* [830 Web Bluetooth exclusionFilters option in requestDevice()](https://github.com/w3ctag/design-reviews/issues/830): 07c
+* [820 Web Authentication: Large Blob extension](https://github.com/w3ctag/design-reviews/issues/820): 07c
+* [813 FedCM Auto Re-authentication API](https://github.com/w3ctag/design-reviews/issues/813): 07c
 
 
 
