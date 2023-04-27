@@ -66,21 +66,21 @@
 * [805 Moving local files with the File System Access API](https://github.com/w3ctag/design-reviews/issues/805): 01a
 * [795 Compute Pressure Specification Review](https://github.com/w3ctag/design-reviews/issues/795): 01a
 * [772 Sync Methods for FileSystemSyncAccessHandle in File System Access API](https://github.com/w3ctag/design-reviews/issues/772): 01a
-* [832 TAG review of the proposal to use the RegExp `v` flag instead of `u` for the HTML `pattern` attribute](https://github.com/w3ctag/design-reviews/issues/832): 01b
+* [832 TAG review of the proposal to use the RegExp `v` flag instead of `u` for the HTML `pattern` attribute](https://github.com/w3ctag/design-reviews/issues/832): 01b **CLOSED**
 * [829 Entry and Exit Animations](https://github.com/w3ctag/design-reviews/issues/829): 01b
 * [828 Spec review for Scroll-driven Animations](https://github.com/w3ctag/design-reviews/issues/828): 01b
 * [827 Early design review: scheduler.yield()](https://github.com/w3ctag/design-reviews/issues/827): 01c
 * [760 COOP: restrict-properties early review](https://github.com/w3ctag/design-reviews/issues/760): 01c
-* [657 Pre-CR review: HTML Review Draft — Published 18 January 2021](https://github.com/w3ctag/design-reviews/issues/657): 01c
+* [657 Pre-CR review: HTML Review Draft — Published 18 January 2021](https://github.com/w3ctag/design-reviews/issues/657): 01c **CLOSED**
 * [525 Overall review of features which enable/disable subframe or subresource capabilities](https://github.com/w3ctag/design-reviews/issues/525): 01c
 * [786 early design review: bfcache/prerendering eviction APIs](https://github.com/w3ctag/design-reviews/issues/786): 07a
 * [738 early design review: Permissions-Policy: unload](https://github.com/w3ctag/design-reviews/issues/738): 07a
-* [819 (Document Subtitle): Early review for adding a new value to the standard list of `name`s for a meta tag](https://github.com/w3ctag/design-reviews/issues/819): 07a
+* [819 (Document Subtitle): Early review for adding a new value to the standard list of `name`s for a meta tag](https://github.com/w3ctag/design-reviews/issues/819): 07a **CLOSED**
 * [776 Early Design Review: Pending Beacon API](https://github.com/w3ctag/design-reviews/issues/776): 07a
 * [721 Design Review: Speculation Rules (Prefetch)](https://github.com/w3ctag/design-reviews/issues/721): 07a
 * [798 Early design review: Document Picture-in-Picture](https://github.com/w3ctag/design-reviews/issues/798): 07b
-* [765 Wildcards in Permissions Policy Origins](https://github.com/w3ctag/design-reviews/issues/765): 07b
-* [830 Web Bluetooth exclusionFilters option in requestDevice()](https://github.com/w3ctag/design-reviews/issues/830): 07c
+* [765 Wildcards in Permissions Policy Origins](https://github.com/w3ctag/design-reviews/issues/765): 07b **CLOSED**
+* [830 Web Bluetooth exclusionFilters option in requestDevice()](https://github.com/w3ctag/design-reviews/issues/830): 07c **CLOSED**
 * [820 Web Authentication: Large Blob extension](https://github.com/w3ctag/design-reviews/issues/820): 07c
 * [813 FedCM Auto Re-authentication API](https://github.com/w3ctag/design-reviews/issues/813): 07c
 
