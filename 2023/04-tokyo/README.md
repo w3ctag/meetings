@@ -38,7 +38,6 @@
 * [Editorial](https://github.com/w3ctag/design-principles/pull/409):	Lea, Sangwhan	[5a](https://github.com/w3ctag/meetings/blob/gh-pages/2023/04-tokyo/minutes.md#5a)
 * [Throwing exceptions](https://github.com/w3ctag/design-principles/pull/408):	[Plenary](https://github.com/w3ctag/meetings/blob/gh-pages/2023/04-tokyo/minutes.md#design-principles-plenary)
 * [Classes Data+Behavior](https://github.com/w3ctag/design-principles/pull/403):	Lea, Sangwhan	[5a](https://github.com/w3ctag/meetings/blob/gh-pages/2023/04-tokyo/minutes.md#5a)
-* [Identity on the web](https://github.com/w3ctag/design-principles/pull/396):	Plenary	
 * [Developer version](https://github.com/w3ctag/design-principles/pull/386): Lea	[9a](https://github.com/w3ctag/meetings/blob/gh-pages/2023/04-tokyo/minutes.md#9a)
 * [Overloading](https://github.com/w3ctag/design-principles/pull/372):	Dan, Tess	[5b](https://github.com/w3ctag/meetings/blob/gh-pages/2023/04-tokyo/minutes.md#5b)
 * [Serialization](https://github.com/w3ctag/design-principles/pull/372):	Dan, Tess	[5b](https://github.com/w3ctag/meetings/blob/gh-pages/2023/04-tokyo/minutes.md#5b)
