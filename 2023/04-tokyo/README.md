@@ -46,7 +46,7 @@
 * [New principle: Guidance on User Activation](https://github.com/w3ctag/design-principles/issues/314):	Dan, Tess	[9b](https://github.com/w3ctag/meetings/blob/gh-pages/2023/04-tokyo/minutes.md#9b)
 * [New principle: When to use client hints](https://github.com/w3ctag/design-principles/issues/307):	Dan, Tess	[9b](https://github.com/w3ctag/meetings/blob/gh-pages/2023/04-tokyo/minutes.md#9b)
 * [New principle: Naming of factory methods](https://github.com/w3ctag/design-principles/issues/378):	Lea, Sangwhan	[9a](https://github.com/w3ctag/meetings/blob/gh-pages/2023/04-tokyo/minutes.md#9a)
-* [New principle: New features must not break existing ones](https://github.com/w3ctag/design-principles/issues/297):	Dan, Tess	[9a](https://github.com/w3ctag/meetings/blob/gh-pages/2023/04-tokyo/minutes.md#9a)
+* [New principle: New features must not break existing ones](https://github.com/w3ctag/design-principles/issues/297):	Dan, Tess	[9b](https://github.com/w3ctag/meetings/blob/gh-pages/2023/04-tokyo/minutes.md#9b)
 
 ### Design Reviews Breakout Assignments:
 * [762 MiniApp Packaging](https://github.com/w3ctag/design-reviews/issues/762): 03a
