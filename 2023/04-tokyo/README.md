@@ -26,19 +26,19 @@
 |---|-----|--------------------------------------------------------|------------------------------------|
 |9:00-10:30|1: High-pri design review *breakouts (a, b, c)*|5: design principles *breakouts*                          |9: design principles *breakouts*      |
 |10:30-10:50|Break|Break                                                   |Break                               |
-|10:50-11:50|2: BFCache (w/Fergal + Rakina) *plenary*|6: design principles *plenary*                            |10: Design principles *plenary*       |
+|10:50-11:50|2: BFCache (w/Fergal + Rakina) *plenary*|6: design principles *plenary*                            |10: Caching & Bundling Finding *plenary*       |
 |11:50-13:00|Lunch|Lunch                                                   |Lunch                               |
 |13:00-14:40|3: Packaging (w/Kenji et al) *plenary*|7: Design reviews *breakouts (a, b, c)*                    |11: Design reviews *breakouts (a, b, c)*|
 |14:40-15:00|Break|Break                                                   |Break                               |
-|15:00-16:00|4: Findings *plenary*|8: TAG Future (w/Florian) *plenary*                                   |12: Privacy sandbox response *plenary*|
+|15:00-16:00|4: Web without 3rd Party Cookies Findings *plenary*|8: TAG Future (w/Florian) *plenary*                                   |12: Privacy sandbox response *plenary*|
 |16:00-17:00|Wrap-up *Plenary*|Wrap-up *Plenary*                                       |Wrap-up *Plenary*                   |
 
 ### Findings
 
 The TAG worked on two draft findings during this meeting. Both of these are intended to be finalized in the coming weeks:
 
-* [Improving the web without third-party cookies](https://w3ctag.github.io/web-without-3p-cookies/)
-* [Sustainability of Bundling and Caching](https://w3ctag.github.io/caching-bundling-sustainability/)
+* [Improving the web without third-party cookies](https://w3ctag.github.io/web-without-3p-cookies/) - [Session 4](https://github.com/w3ctag/meetings/blob/gh-pages/2023/04-tokyo/minutes.md#findings)
+* [Sustainability of Bundling and Caching](https://w3ctag.github.io/caching-bundling-sustainability/) - [Session 10](https://github.com/w3ctag/meetings/blob/gh-pages/2023/04-tokyo/minutes.md#caching-and-bundling-finding)
 
 ### Design Principles Breakout Assignments
 * [HTML attributes](https://github.com/w3ctag/design-principles/pull/412):	Lea, Sangwhan	[5a](https://github.com/w3ctag/meetings/blob/gh-pages/2023/04-tokyo/minutes.md#5a) 
