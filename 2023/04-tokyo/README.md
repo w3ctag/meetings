@@ -33,6 +33,13 @@
 |15:00-16:00|4: Findings *plenary*|8: TAG Future (w/Florian) *plenary*                                   |12: Privacy sandbox response *plenary*|
 |16:00-17:00|Wrap-up *Plenary*|Wrap-up *Plenary*                                       |Wrap-up *Plenary*                   |
 
+### Findings
+
+The TAG worked on two draft findings during this meeting. Both of these are intended to be finalized in the coming weeks:
+
+* [Improving the web without third-party cookies](https://w3ctag.github.io/web-without-3p-cookies/)
+* [Sustainability of Bundling and Caching](https://w3ctag.github.io/caching-bundling-sustainability/)
+
 ### Design Principles Breakout Assignments
 * [HTML attributes](https://github.com/w3ctag/design-principles/pull/412):	Lea, Sangwhan	[5a](https://github.com/w3ctag/meetings/blob/gh-pages/2023/04-tokyo/minutes.md#5a) 
 * [Editorial](https://github.com/w3ctag/design-principles/pull/409):	Lea, Sangwhan	[5a](https://github.com/w3ctag/meetings/blob/gh-pages/2023/04-tokyo/minutes.md#5a)
