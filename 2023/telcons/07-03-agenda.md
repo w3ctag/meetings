@@ -5,38 +5,38 @@ This agenda can be viewed and updated on [Github](https://github.com/w3ctag/meet
 If you would like to add an item to the agenda or volunteer to scribe please open a pull request against this agenda.
 
 ### Breakout A (Europe / US) - [2023-07-03](https://www.timeanddate.com/worldclock/converter.html?iso=20230703T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
-
-### Breakout C (APAC / Europe) - [2023-07-04](https://www.timeanddate.com/worldclock/converter.html?iso=20230704T070000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
-
-### Plenary Session - [2023-07-05](https://www.timeanddate.com/worldclock/converter.html?iso=20230705T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
-
 * [First-Party Sets](https://github.com/w3ctag/design-reviews/issues/342) - @hober, @torgo, @rhiaro, @hadleybeeman
-* [Review Request for Attribution Reporting API](https://github.com/w3ctag/design-reviews/issues/724) - @torgo, @rhiaro, @hadleybeeman
 * [Early design review for the Topics API](https://github.com/w3ctag/design-reviews/issues/726) - @torgo, @rhiaro, @hadleybeeman
-* [early design review: Permissions-Policy: unload](https://github.com/w3ctag/design-reviews/issues/738) - @cynthia, @torgo
 * [Shared Storage API](https://github.com/w3ctag/design-reviews/issues/747) - @torgo, @rhiaro, @hadleybeeman, @atanassov
 * [Sync Methods for FileSystemSyncAccessHandle in File System Access API](https://github.com/w3ctag/design-reviews/issues/772) - @hober, @cynthia
 * [early design review: bfcache/prerendering eviction APIs](https://github.com/w3ctag/design-reviews/issues/786) - @hober, @cynthia
 * [Early design review: Document Picture-in-Picture](https://github.com/w3ctag/design-reviews/issues/798) - @LeaVerou, @torgo, @rhiaro
-* [requestStorageAccessFor](https://github.com/w3ctag/design-reviews/issues/808) - @torgo, @rhiaro, @hadleybeeman
-* [Early design review request: IPA](https://github.com/w3ctag/design-reviews/issues/823) - @hober, @rhiaro, @hadleybeeman
-* [Eligibility for autofill](https://github.com/w3ctag/design-reviews/issues/831) - @cynthia, @torgo
-* [WebRTC Codec selection API](https://github.com/w3ctag/design-reviews/issues/836) - @torgo, @maxpassion, @plinss
 * [Specification review for fenced frames](https://github.com/w3ctag/design-reviews/issues/838) - @hober, @rhiaro, @hadleybeeman, @plinss
-* [Isolated Web Apps](https://github.com/w3ctag/design-reviews/issues/842) - @cynthia, @LeaVerou, @torgo
 * [Private Aggregation API](https://github.com/w3ctag/design-reviews/issues/846) - @hober, @hadleybeeman
 * [Specification review for CSS Anchor Positioning](https://github.com/w3ctag/design-reviews/issues/848) - @LeaVerou, @plinss
 * [Incremental Font Transfer: Patch Subset](https://github.com/w3ctag/design-reviews/issues/849) - @hober, @LeaVerou
-* [Specification review request for Verifiable Credential Data Integrity](https://github.com/w3ctag/design-reviews/issues/850) - @torgo, @rhiaro, @hadleybeeman
 * [Cross-document View Transitions API](https://github.com/w3ctag/design-reviews/issues/851) - @LeaVerou, @atanassov
+
+### Breakout C (APAC / Europe) - [2023-07-04](https://www.timeanddate.com/worldclock/converter.html?iso=20230704T070000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+* [Review Request for Attribution Reporting API](https://github.com/w3ctag/design-reviews/issues/724) - @torgo, @rhiaro, @hadleybeeman
+* [early design review: Permissions-Policy: unload](https://github.com/w3ctag/design-reviews/issues/738) - @cynthia, @torgo
+* [requestStorageAccessFor](https://github.com/w3ctag/design-reviews/issues/808) - @torgo, @rhiaro, @hadleybeeman
+* [Early design review request: IPA](https://github.com/w3ctag/design-reviews/issues/823) - @hober, @rhiaro, @hadleybeeman
+* [Eligibility for autofill](https://github.com/w3ctag/design-reviews/issues/831) - @cynthia, @torgo
+* [Specification review request for Verifiable Credential Data Integrity](https://github.com/w3ctag/design-reviews/issues/850) - @torgo, @rhiaro, @hadleybeeman
 * [Borderless mode](https://github.com/w3ctag/design-reviews/issues/852) - @cynthia, @ylafon, @hadleybeeman
+* [VC-JWT](https://github.com/w3ctag/design-reviews/issues/857) - @rhiaro, @hadleybeeman
+* [VC JSON Schema](https://github.com/w3ctag/design-reviews/issues/859) - @rhiaro, @hadleybeeman
+
+### Plenary Session - [2023-07-05](https://www.timeanddate.com/worldclock/converter.html?iso=20230705T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+
+* [Isolated Web Apps](https://github.com/w3ctag/design-reviews/issues/842) - @cynthia, @LeaVerou, @torgo
+* [WebRTC Codec selection API](https://github.com/w3ctag/design-reviews/issues/836) - @torgo, @maxpassion, @plinss
 * [HTTPS Upgrades](https://github.com/w3ctag/design-reviews/issues/853) - @torgo, @plinss
 * [Bluetooth RFCOMM in Web Serial API](https://github.com/w3ctag/design-reviews/issues/854) - @cynthia, @torgo
 * [RDF Canonicalization](https://github.com/w3ctag/design-reviews/issues/855) - @rhiaro, @hadleybeeman
 * [API for capturing all screens](https://github.com/w3ctag/design-reviews/issues/856) - @torgo, @rhiaro, @hadleybeeman
-* [VC-JWT](https://github.com/w3ctag/design-reviews/issues/857) - @rhiaro, @hadleybeeman
 * [deliveryType (Resource Timing)](https://github.com/w3ctag/design-reviews/issues/858) - @hober, @atanassov
-* [VC JSON Schema](https://github.com/w3ctag/design-reviews/issues/859) - @rhiaro, @hadleybeeman
 
 * Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
