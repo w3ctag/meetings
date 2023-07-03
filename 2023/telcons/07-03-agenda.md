@@ -37,7 +37,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [RDF Canonicalization](https://github.com/w3ctag/design-reviews/issues/855) - @rhiaro, @hadleybeeman
 * [API for capturing all screens](https://github.com/w3ctag/design-reviews/issues/856) - @torgo, @rhiaro, @hadleybeeman
 * [deliveryType (Resource Timing)](https://github.com/w3ctag/design-reviews/issues/858) - @hober, @atanassov
-
 * Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
 
