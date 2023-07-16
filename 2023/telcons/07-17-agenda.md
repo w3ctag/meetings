@@ -12,7 +12,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Detect UA Transitions on Same-Document Navigations](https://github.com/w3ctag/design-reviews/issues/834) - @hober
 * [Disabling UA transitions for same-document navigations](https://github.com/w3ctag/design-reviews/issues/835) - @hober, @LeaVerou
 * [WebRTC-SVC (Scalable Video Coding) ](https://github.com/w3ctag/design-reviews/issues/837) - @hober, @torgo
-* [Specification review for fenced frames](https://github.com/w3ctag/design-reviews/issues/838) - @hober, @rhiaro, @hadleybeeman, @plinss
 * [Fullscreen Popup Windows](https://github.com/w3ctag/design-reviews/issues/840) - @hadleybeeman, @atanassov
 * [Tabbed web apps](https://github.com/w3ctag/design-reviews/issues/841) - @hober, @LeaVerou
 * [Specification review for CSS Anchor Positioning](https://github.com/w3ctag/design-reviews/issues/848) - @LeaVerou, @plinss
@@ -33,6 +32,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Plenary Session - [2023-07-19](https://www.timeanddate.com/worldclock/converter.html?iso=20230719T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
+* [Specification review for fenced frames](https://github.com/w3ctag/design-reviews/issues/838) - @hober, @rhiaro, @hadleybeeman, @plinss
 * [Shared Storage API](https://github.com/w3ctag/design-reviews/issues/747) - @torgo, @rhiaro, @hadleybeeman, @atanassov
 * [HTTPS Upgrades](https://github.com/w3ctag/design-reviews/issues/853) - @torgo, @plinss
 * Breakout Rollup
