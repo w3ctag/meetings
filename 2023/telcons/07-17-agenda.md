@@ -8,6 +8,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout C (APAC / Europe) - [2023-07-18](https://www.timeanddate.com/worldclock/converter.html?iso=20230718T070000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
+* [Sustainability of Bundling and Caching](https://w3ctag.github.io/caching-bundling-sustainability/)
+
 ### Plenary Session - [2023-07-19](https://www.timeanddate.com/worldclock/converter.html?iso=20230719T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
 * [Early design review: Subresource loading with Web Bundles](https://github.com/w3ctag/design-reviews/issues/616) - @hober, @torgo
