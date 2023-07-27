@@ -73,7 +73,8 @@ Participants: Amy, Dan, Hadley
 6. [Relationship with Design Principles](https://github.com/w3ctag/ethical-web-principles/issues/37)
 ### Slot 09B
 Participants: Sangwhan, Yves
-No issues
+
+Issue Triage
 ### Slot 10A
 Participants: Amy, Dan, Hadley
 1. [Link to EWP](https://github.com/w3ctag/societal-impact-questionnaire/issues/1)
@@ -102,13 +103,15 @@ Participants: Max, Rossen, Tess
 2. [EditContext API](https://github.com/w3ctag/design-reviews/issues/416)
 ### Slot 15B
 Participants: Amy, Hadley
-No issues
+
+15B - triaging / privacy sandbox and ethical web (etc) overflow
 ### Slot 15A
 Participants: Dan, Lea, Sangwhan
 1. [Isolated Web Apps](https://github.com/w3ctag/design-reviews/issues/842)
 ### Slot 16B
 Participants: Amy, Dan
-No issues
+
+16B - triaging / privacy sandbox and ethical web (etc) overflow
 ### Slot 16A
 Participants: Hadley, Lea, Sangwhan
 1. [Specification review for CSS Anchor Positioning](https://github.com/w3ctag/design-reviews/issues/848)
