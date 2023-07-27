@@ -62,7 +62,7 @@ Participants: Max, Rossen
 Participants: Peter, Tess
 1. [Early design review: scheduler.yield()](https://github.com/w3ctag/design-reviews/issues/827)
 2. [Portable Network Graphics (PNG), Third Edition.](https://github.com/w3ctag/design-reviews/issues/873)
-3. [Exclusive accordion (<details name="">)](https://github.com/w3ctag/design-reviews/issues/866)
+3. [Exclusive accordion (`<details name="">`)](https://github.com/w3ctag/design-reviews/issues/866)
 ### Slot 09A
 Participants: Amy, Dan, Hadley
 1. [Find a voice](https://github.com/w3ctag/ethical-web-principles/issues/79)
