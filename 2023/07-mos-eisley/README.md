@@ -6,6 +6,8 @@ The TAG will hold a virtual face-to-face the week starting 31-July-2023. The sch
 
 *26 breakouts and 71 issues shown*
 
+[Full minutes](minutes.md)
+
 ### Slot 01A
 Participants: Max, Peter, Sangwhan, Tess
 1. [Missing guidance for handling steps that are run "in parallel"](https://github.com/w3ctag/bfcache-guide/issues/2)
