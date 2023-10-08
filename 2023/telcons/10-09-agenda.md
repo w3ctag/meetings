@@ -18,9 +18,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [deliveryType (Resource Timing)](https://github.com/w3ctag/design-reviews/issues/858) - @hober, @ylafon, @atanassov
 * [systemEntropy addition to PerformanceNavigationTiming](https://github.com/w3ctag/design-reviews/issues/878) - @plinss, @atanassov
 * [Soft Navigations](https://github.com/w3ctag/design-reviews/issues/879) - @LeaVerou, @plinss
-* [Extending the PointerEvent with Unique DeviceId Attribute](https://github.com/w3ctag/design-reviews/issues/880) - @torgo, @atanassov
-* [`prefers-reduced-transparency` CSS Media Query](https://github.com/w3ctag/design-reviews/issues/881) - @torgo, @atanassov
-* [`inverted-colors` CSS Media Query](https://github.com/w3ctag/design-reviews/issues/883) - @torgo, @atanassov
 * [CSS State Container Queries](https://github.com/w3ctag/design-reviews/issues/885) - @LeaVerou, @atanassov
 * [Document Render-Blocking](https://github.com/w3ctag/design-reviews/issues/886) - @hober, @atanassov
 
@@ -40,6 +37,10 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 
 ### Plenary Session - [2023-10-11](https://www.timeanddate.com/worldclock/converter.html?iso=20231011T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+
+* [Extending the PointerEvent with Unique DeviceId Attribute](https://github.com/w3ctag/design-reviews/issues/880) - @torgo, @atanassov
+* [`inverted-colors` CSS Media Query](https://github.com/w3ctag/design-reviews/issues/883) - @torgo, @atanassov
+* [`prefers-reduced-transparency` CSS Media Query](https://github.com/w3ctag/design-reviews/issues/881) - @torgo, @atanassov
 
 
 * Breakout Rollup
