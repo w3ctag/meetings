@@ -42,6 +42,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [`inverted-colors` CSS Media Query](https://github.com/w3ctag/design-reviews/issues/883) - @torgo, @atanassov
 * [`prefers-reduced-transparency` CSS Media Query](https://github.com/w3ctag/design-reviews/issues/881) - @torgo, @atanassov
 * Offer from Google to talk about real-world-identity on the web.
+* Solid charter review
 
 * Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
