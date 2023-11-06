@@ -8,8 +8,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 * [[Meta] Tackling design problems earlier than design review / A Q&A section for API design](https://github.com/w3ctag/design-principles/issues/319)
 * [New principle: Discourage overloading (in HTML)](https://github.com/w3ctag/design-principles/issues/370) - @hober
-* [Add info to device apis section about privacy](https://github.com/w3ctag/design-principles/issues/398) - @torgo
-* [New principle: Data Minimization](https://github.com/w3ctag/design-principles/issues/399) - @torgo
 
 ### Breakout C (APAC / Europe) - [2023-11-07](https://www.timeanddate.com/worldclock/converter.html?iso=20231107T083000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
@@ -18,6 +16,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Classes (WebIDL interfaces) should only be used when you have both data and behavior](https://github.com/w3ctag/design-principles/issues/11) - @cynthia, @LeaVerou, @atanassov
 * [General principle around time measurement units/formats for various domains (JS, HTTP, HTML, etc)?](https://github.com/w3ctag/design-principles/issues/344) - @cynthia, @torgo
 * [New principle: Naming of factory methods](https://github.com/w3ctag/design-principles/issues/378) - @cynthia
+* [Add info to device apis section about privacy](https://github.com/w3ctag/design-principles/issues/398) - @torgo
+* [New principle: Data Minimization](https://github.com/w3ctag/design-principles/issues/399) - @torgo
 
 ### Plenary Session - [2023-11-08](https://www.timeanddate.com/worldclock/converter.html?iso=20231108T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
