@@ -6,23 +6,28 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (Europe / US) - [2023-12-04](https://www.timeanddate.com/worldclock/converter.html?iso=20231204T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
+
+* [New principle: Guidance on when to use a child element vs an attribute](https://github.com/w3ctag/design-principles/issues/270) - @hober, @LeaVerou
+* [Guidance about which state properties should be reflected as HTML attributes](https://github.com/w3ctag/design-principles/issues/289) - @hober, @LeaVerou, @plinss
+* [New principle: Discourage overloading (in HTML)](https://github.com/w3ctag/design-principles/issues/370) - @hober
+* [New principle: Guidance on options dictionaries and default values](https://github.com/w3ctag/design-principles/issues/391) - @LeaVerou
+* [Web platform features that augment HTML elements en masse](https://github.com/w3ctag/design-principles/issues/423) - @LeaVerou
+* [New principle: Text-based syntaxes should be designed to be usable by humans](https://github.com/w3ctag/design-principles/issues/453)
+* [New principle: Avoid adding (non-constructor) functions to the global scope](https://github.com/w3ctag/design-principles/issues/426)
+
 ### Breakout C (APAC / Europe) - [2023-12-05](https://www.timeanddate.com/worldclock/converter.html?iso=20231205T073000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+
+* [General principle around time measurement units/formats for various domains (JS, HTTP, HTML, etc)?](https://github.com/w3ctag/design-principles/issues/344) - @cynthia, @torgo
+* [New principle: Naming of factory methods](https://github.com/w3ctag/design-principles/issues/378) - @cynthia
+
 
 ### Plenary Session - [2023-12-06](https://www.timeanddate.com/worldclock/converter.html?iso=20231206T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
 * [Classes (WebIDL interfaces) should only be used when you have both data and behavior](https://github.com/w3ctag/design-principles/issues/11) - @cynthia, @LeaVerou, @atanassov
-* [New principle: Guidance on when to use a child element vs an attribute](https://github.com/w3ctag/design-principles/issues/270) - @hober, @LeaVerou
-* [Guidance about which state properties should be reflected as HTML attributes](https://github.com/w3ctag/design-principles/issues/289) - @hober, @LeaVerou, @plinss
-* [[Meta] Tackling design problems earlier than design review / A Q&A section for API design](https://github.com/w3ctag/design-principles/issues/319)
-* [General principle around time measurement units/formats for various domains (JS, HTTP, HTML, etc)?](https://github.com/w3ctag/design-principles/issues/344) - @cynthia, @torgo
-* [New principle: Discourage overloading (in HTML)](https://github.com/w3ctag/design-principles/issues/370) - @hober
-* [New principle: Naming of factory methods](https://github.com/w3ctag/design-principles/issues/378) - @cynthia
-* [New principle: Guidance on options dictionaries and default values](https://github.com/w3ctag/design-principles/issues/391) - @LeaVerou
-* [Add info to device apis section about privacy](https://github.com/w3ctag/design-principles/issues/398) - @torgo
-* [New principle: Data Minimization](https://github.com/w3ctag/design-principles/issues/399) - @torgo
-* [Web platform features that augment HTML elements en masse](https://github.com/w3ctag/design-principles/issues/423) - @LeaVerou
-* [New principle: Avoid adding (non-constructor) functions to the global scope](https://github.com/w3ctag/design-principles/issues/426)
-* [New principle: Text-based syntaxes should be designed to be usable by humans](https://github.com/w3ctag/design-principles/issues/453)
+* Web is not Versioned Finding
+* Sustainability of Bundling & Caching Finding
+* Privacy Principles
+* Finalizing dates & venue for January f2f
 
 * Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
