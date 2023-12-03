@@ -19,7 +19,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 * [General principle around time measurement units/formats for various domains (JS, HTTP, HTML, etc)?](https://github.com/w3ctag/design-principles/issues/344) - @cynthia, @torgo
 * [New principle: Naming of factory methods](https://github.com/w3ctag/design-principles/issues/378) - @cynthia
-
+* [ethical web prunciples open issues](https://github.com/w3ctag/ethical-web-principles/issues)
 
 ### Plenary Session - [2023-12-06](https://www.timeanddate.com/worldclock/converter.html?iso=20231206T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
@@ -28,6 +28,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * Sustainability of Bundling & Caching Finding
 * Privacy Principles
 * Finalizing dates & venue for January f2f
+
 * Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
 
