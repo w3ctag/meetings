@@ -6,30 +6,33 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (Europe / US) - [2023-12-18](https://www.timeanddate.com/worldclock/converter.html?iso=20231218T170000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
-
-
+triage breakout 1  
 * [text-wrap: pretty](https://github.com/w3ctag/design-reviews/issues/864) - @LeaVerou, @plinss
 * [navigateEvent.sourceElement](https://github.com/w3ctag/design-reviews/issues/867) - @leaverou, @torgo
 * [The `FileSystemObserver` interface](https://github.com/w3ctag/design-reviews/issues/868) - @hober, @torgo
-* [Captured Mouse Events](https://github.com/w3ctag/design-reviews/issues/872) - @hadleybeeman, @atanassov
-* [systemEntropy addition to PerformanceNavigationTiming](https://github.com/w3ctag/design-reviews/issues/878) - @plinss, @atanassov
 * [Soft Navigations](https://github.com/w3ctag/design-reviews/issues/879) - @LeaVerou, @plinss
-* [Extending the PointerEvent with Unique DeviceId Attribute](https://github.com/w3ctag/design-reviews/issues/880) - @torgo, @atanassov
-* [TAG review request for the IDP signin status API](https://github.com/w3ctag/design-reviews/issues/884) - @rhiaro, @hadleybeeman, @plinss
 * [Web Install API](https://github.com/w3ctag/design-reviews/issues/888) - @hober, @cynthia, @LeaVerou
 * [`field-sizing` CSS property](https://github.com/w3ctag/design-reviews/issues/890) - @LeaVerou, @rhiaro
-* [The CSS `word-break: auto-phrase` property](https://github.com/w3ctag/design-reviews/issues/891) - @rhiaro, @atanassov
 * [Relative Color Syntax (RCS)](https://github.com/w3ctag/design-reviews/issues/894) - @LeaVerou, @torgo, @rhiaro
+* [HTMLSelectElement showPicker()](https://github.com/w3ctag/design-reviews/issues/900) - @cynthia, @LeaVerou
+* [View Transitions: list of types](https://github.com/w3ctag/design-reviews/issues/908) - @hober, @LeaVerou
+* [Long Animation Frame API (LoAF)](https://github.com/w3ctag/design-reviews/issues/911) - @hober, @atanassov
+
+triage breakout 2  
+* [Captured Mouse Events](https://github.com/w3ctag/design-reviews/issues/872) - @hadleybeeman, @atanassov
+* [systemEntropy addition to PerformanceNavigationTiming](https://github.com/w3ctag/design-reviews/issues/878) - @plinss, @atanassov
+* [Extending the PointerEvent with Unique DeviceId Attribute](https://github.com/w3ctag/design-reviews/issues/880) - @torgo, @atanassov
+* [TAG review request for the IDP signin status API](https://github.com/w3ctag/design-reviews/issues/884) - @rhiaro, @hadleybeeman, @plinss
+* [The CSS `word-break: auto-phrase` property](https://github.com/w3ctag/design-reviews/issues/891) - @rhiaro, @atanassov
 * [Partitioning :visited links history](https://github.com/w3ctag/design-reviews/issues/896) - @rhiaro, @plinss
 * [Securing Verifiable Credentials using JOSE and COSE](https://github.com/w3ctag/design-reviews/issues/899) - @hober, @hadleybeeman
-* [HTMLSelectElement showPicker()](https://github.com/w3ctag/design-reviews/issues/900) - @cynthia, @LeaVerou
 * [Feature detection for supported clipboard formats](https://github.com/w3ctag/design-reviews/issues/901) - @LeaVerou, @torgo, @rhiaro
 * [Observable API design review](https://github.com/w3ctag/design-reviews/issues/902) - @hober, @atanassov
 * [Side Panel](https://github.com/w3ctag/design-reviews/issues/903) - @plinss, @atanassov
-* [View Transitions: list of types](https://github.com/w3ctag/design-reviews/issues/908) - @hober, @LeaVerou
-* [Long Animation Frame API (LoAF)](https://github.com/w3ctag/design-reviews/issues/911) - @hober, @atanassov
 * [CSS ::selection Inheritance Model](https://github.com/w3ctag/design-reviews/issues/914) - @LeaVerou, @torgo
 * [Adding support for High Dynamic Range (HDR) imagery to HTML Canvas](https://github.com/w3ctag/design-reviews/issues/917) - @LeaVerou, @plinss
+
+triage breakout 3  
 * [entry and exit animations](https://github.com/w3ctag/design-reviews/issues/829)
 * [incremental font transfer patch subset](https://github.com/w3ctag/design-reviews/issues/849)
 * [bfvache prerendering eviction](https://github.com/w3ctag/design-reviews/issues/786)
@@ -56,7 +59,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Allow transferring ArrayBuffer into WebCodecs object constructors](https://github.com/w3ctag/design-reviews/issues/889) - @cynthia, @torgo
 * [TAG review for web app `scope_extensions`](https://github.com/w3ctag/design-reviews/issues/875) - @torgo, @ylafon
 * [coop: restrict properties](https://github.com/w3ctag/design-reviews/issues/760)
-* 
 
 ### Plenary Session - [2023-12-20](https://www.timeanddate.com/worldclock/converter.html?iso=20231220T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
