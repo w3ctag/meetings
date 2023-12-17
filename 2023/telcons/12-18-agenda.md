@@ -62,8 +62,7 @@ triage breakout 3
 
 ### Plenary Session - [2023-12-20](https://www.timeanddate.com/worldclock/converter.html?iso=20231220T160000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
-
-
+* Agenda to be built from issues re-triaged ub Breakouts A and C
 * Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
 
