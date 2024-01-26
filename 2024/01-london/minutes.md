@@ -877,6 +877,475 @@ RESOLVED: Gratitude to Tess for hosting us abounds.
 
 
 
+### W3C TAG - Breakouts B - Tue, 23 January 2024
+
+## 2b
+
+Present: Matthew, Lea, Dan, Tess
+
+### [Feature detection for supported clipboard formats](https://github.com/w3ctag/design-reviews/issues/901)
+
+Lea: feature is legit -- not sure about the naming pattern... some privacy concerns...  but you can already detect it it's just the developer exp is bad.  They now have a s&p self-review. But LGTM as functionality.
+
+Dan: takes a look at the [s&p doc](https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/ClipboardAPI/tag-security-privacy-clipboard-supports.md)
+
+Lea: the naming is probably fine, consistent with `CSS.supports()`, even if different than `HTMLMediaElement.prototype.canPlayType()`
+
+Tess: *reading linked issues*
+
+Lea: But testing MIME type support is a very specific thing, whereas `supports()` is a pretty generic name. What if we want other support criteria in the future?
+
+
+<blockquote>
+
+Hi there, 
+
+We looked at this today in a breakout during our London F2F. We overall think the feature is a good addition to the web platform and a low hanging fruit for improving DX.
+  
+One concern that came up is that `supports()` is a rather generic name, but the type of support being tested is very specific. This could hinder both learnability and future extensibility. One way to address that would be to adopt a dictionary argument (e.g. `ClipboardItem.supports({type: "image/webp"})`). If it later becomes clear that MIME type is the primary criteria that support queries are used for, a string argument could be supported as an overloaded shortcut.
+  
+Btw we had a lot of trouble reviewing this feature because the explainer was a GitHub issue, and the only way to see what was actually proposed was to read the spec. It wou;d be helpful for both us and others to have [an explainer](https://tag.w3.org/explainers/), even if brief.
+  
+</blockquote>
+
+### [systemEntropy addition to PerformanceNavigationTiming](https://github.com/w3ctag/design-reviews/issues/878)
+
+Dan: nothing to do here - still pending - assigned Hadley to the issue
+
+### [Side Panel](https://github.com/w3ctag/design-reviews/issues/903)
+
+Lea & Tess: we already have window.open so why are we re-inventing something new 
+
+Tess: Why isn't this a target?
+
+Matthew: it's something that's separate to the other site... This is for a seperate web app which isn't related to the site... Goals are to app promoted as a side-by-side web app... other goal: whether they're rendered in a side panel.  Wouldn't that be a media query?   Why would they want it to behave differently because it's in a side panel?
+
+Tess: If we need anything at all it should be in the manifest... ok optimise appearance & behaviour - 
+
+Matthew: the behaviour - if a side panel app is designed to allow you to perform some specific flow .. it could be useful to go to that flow?
+
+Lea: this is an API so developers can expose things in the Edge feature...  This actually reminds me of a more general issue...  There should be a way for people to agree on what an API should look like ... platforms that do want to implement...  
+
+Tess: anyone can write a spec....  They're adding a display override field... that doesn't feel right.  That looks weird to me.  The name side panel feels very specific to Edge's proprietary feature.  We need a generic name.
+
+Lea: agree to that.
+
+Matthew: one is discoverability - marketed to the user as being suitable for a side panel... 
+
+Tess: feels wrong... this is just another web view that happens to be a different width... we have responsive design.
+
+Matthew: varying the behaviour -- app running in the side panel doesn't have back-and-forth... Seems like another thing you could have done a different way.
+
+<blockquote>
+
+Hi there, @hober, @torgo, @matatk, and I looked at this today during a breakout at our London F2F.
+  
+We have some concerns that the way this feature is designed [overfits](https://bootcamp.uxdesign.cc/overfitting-and-the-problem-with-use-cases-337d9f4bf4d7) to Edge's specific side panel feature. We generally prefer Web platform features to be designed in a more general way to be able to encompass different designs for the same purpose, including designs that may conceivably emerge down the line. 
+
+Furthermore, we are not 100% sure that a new feature is needed at all. Adapting the UI design of the app for the smaller viewport can be done with existing web platform primitives. Is there something fundamentally different about this use case that requires a new display mode, and if so, what is the core of it? If we understand what is fundamentally different about this display mode over others (either existing, or potential future extensions) we may be able to give you more actionable design advice.
+
+</blockquote>
+
+### [tabbed web apps](https://github.com/w3ctag/design-reviews/issues/841)
+
+*noting no signals of support from other implementers*
+
+Matthew: noting display:override again ... 
+
+Tess: existing... I don't understand why this is desktop only...
+
+Lea: also do we want to add keys to the manifest for anything people want to turn on or off?
+
+Tess: this doesn't feel like something that should be exposed ... it feels like it's on you (the implementer) to create a tabbed experience if you 
+
+Dan: this should be UI in your ap
+
+Tess: you want tabs that should be vended by the underlying platform - or tabs that your web app controls... One justification is .. command-click or control-click where does it get opened... Add to homescreen web apps are isolated by default on most browsers... 
+
+Lea: their concept is they have a home tab and any number of new tabs... 
+
+*new tab button is - this is the URL that it goes to...*
+
+Lea: I don't think this needs a new display mode... 
+
+Tess: agree.  If you need this feature at all it's just the tab strip...  Not convinced that you need this at all..
+
+Dan: something about developer complexity... 
+
+Lea: complexity doesn't seem to be warranted by the use cases
+
+Lea: *arguing that there are some cases for this feature*... I can see value in giving authors a way to express their intent about whether a tab strip is useful for the given app. E.g. you're in a map app and you want to keep your existing state but yet start a new search at the same time...  Makes sense for this app to do that...  
+
+Tess: this just feels like a browser feature request... Also, all apps benefit from tabs.
+
+Lea: True. And back/forward. And reload. So then how are PWAs different from having a regular browser chrome around the app? Is it only the address bar that should really be hidden? That doesn't seem to be what authors want though. 
+
+Dan: could be worthwhile exposing it to the author to hint...
+
+Tess: in this specific case it feels like the only reason we're looking for a hint is that the feature doesn't exist in browsers...  Feels like a missing browser feature and we're trying to solve that with this ... which doesn't feel necessary.
+
+Initial draft comment:
+
+<blockquote>
+
+Hi there,
+  
+While we see some value in the app developer being able to specify which browser chrome is available by default, and to open links within the PWA, we have some reservations about this particular design.
+
+In addition to our earlier concerns about desktop vs mobile, we do not see why a new display mode is warranted. It's still the existing display modes, with certain parts of the browser chrome visible by default.
+  
+Furthermore, the complexity of the current syntax does not seem to be warranted by the use cases, we'd recommend exploring a simpler syntax to cover the majority of use cases, which room to grow as we learn more about how authors use this feature. It may even be worth it to add a more general feature for toggling certain parts of browser chrome on or off, e.g. many apps also need back/forward navigation or reload as well, and we probably don't want to be adding top-level manifest fields for all of these.
+  
+</blockquote>
+
+Subsequent draft comment:
+
+<blockquote>
+  
+Hi,
+  
+@torgo, @leaverou, @matatk, and I took a look at this during our F2F today, and it's unclear why tabs-for-PWAs need any author opt-in at all. If a browser wants to enable Cmd/Ctrl-clicking in a PWA to open in a tab in the PWA window, or for `a target=_blank href` to do so, there's nothing stopping them from doing so today. (And it may be worth filing feature requests on the browsers so that they consider doing so.) The existing display mode values are possibly sufficient to control this. For instance, the `fullscreen` display mode probably shouldn't get such tabs.
+  
+If the concern is that only links that are still within the PWA should open in tabs, and links to outside the PWA should open in the system browser, the browser already has all the information it needs to enable that behavior by default.
+  
+It might be worth pursuing a more limited feature proposal for simply supplying a URL other than the app's root URL for use when the new tab button is activated.
+
+It's entirely possible we've missed some other justification for having an explicit author opt-in here that goes beyond the existing Web App Manifest feature set. If we have, please let us know, and we'll reopen the review.
+  
+</blockquote>
+  
+*we agree to close as unsatisfied*
+
+### [adding close event to message port API](https://github.com/w3ctag/design-reviews/issues/923)
+  
+Dan: Can we close?
+  
+Tess: not great but... in the s&p answers it says - it exposes when GC happens.. but that might be unavoidable.  It's fine...
+  
+*we agree to close with satisfied*
+
+### [DisplayMediaStreamOptions monitorTypeSurfaces](https://github.com/w3ctag/design-reviews/issues/892)
+  
+Dan: Should have been closed before. *closed*
+  
+### [CSS Selection inheritence](https://github.com/w3ctag/design-reviews/issues/914)
+  
+### [entry & exit animations](https://github.com/w3ctag/design-reviews/issues/829)
+ 
+  
+### [Document PiP](https://github.com/w3ctag/design-reviews/issues/798)
+  
+### [view transitions list](https://github.com/w3ctag/design-reviews/issues/908)
+  
+## 7b
+
+Present: Dan, Sangwhan, Yves, Lea
+  
+### [web install](https://github.com/w3ctag/design-reviews/issues/888)
+  
+Dan: We received feedback from Diego...
+
+## 10b
+
+Present: Hadley, Amy, Tess, Martin, Matthew
+
+### [Review request for Protected Audience](https://github.com/w3ctag/design-reviews/issues/723)
+
+Martin: doesn't make sense to do protected audience without fenced frames
+
+Matthew: they haven't responded to our questions asked in November
+
+Amy: There are a lot of issues with this, I don't want us to waste loads of time and effort to find a path forward when it's fundamentally flawed
+
+Hadley: nudged them, labelled as stalled
+
+### [Early design review for the Topics API](https://github.com/w3ctag/design-reviews/issues/726)
+
+Martin: [insert short explanation of difference between topics and protected audience]
+
+Matthew: Topics does the work of collecting data about the user and classifying them, and protected audience does that and also the auctions, attribution, and displaying the ad (with fenced frame)
+
+Martin: correct. Topics gets away with that by collecting information and giving it away in the clear. Protected Audience takes the information into the box and it doesn't leave that box.
+
+Amy: can we close it? We've left them feedback.. not sure what more we can do
+
+Tess: is there harm reduction we can do? it takes a lot of effort
+
+Matthew: if we say no, we have little control. If we try to harm reduce, we still have little control. Is there another appropriate venue?
+
+Hadley: PATCG
+
+Martin: we have lot of topics, but we're mostly discussing attribution because we have wide agreement that there's something salvageable. We're building trust on that.
+
+Martin: when does the line end for standardisation on the web? Where does w3c or TAG influence end in an API? Someone builds an API .execute() that takes a string - "kitten" or "puppy" - is it up to the browser to decide whether to do it? Do we have an opinion on that?
+
+Tess: stop energy is sometimes the right thing
+
+Amy: ethical web principles, privacy principles are our way of having opinions on this
+
+Hadley: referring back to these as authoritive documents is helpful
+
+Tess: what differentiates w3c from other standards bodies? There are many SDOs which are value neutral places where companies can show up and hand them money and get specifications out. There's no vetting of what kind of work happens or holding it to any standards. W3C is not that place. It has never been value neutral, we're getting better at expressing those values. It's not a place without scope. In this case,it's in scope, but not within our values align
+
+Martin: disagreements - do we have to resolve, or can we accept it? In this case we can say we don't have to worry about this - the fight can continue, but outside of w3c
+
+Hadley: the progression of these reviews has been frustrating. Practically what can we do?
+
+Tess: risk of losing wider interaction with google...
+
+Martin: propose we just close it linking back to [Amy's first reivew](https://github.com/w3ctag/design-reviews/issues/726#issuecomment-1379908459)
+
+Amy: +1
+
+Martin: let's discuss in plenary
+
+Matthew: what are the effects on the platform for any of these outcomes? 
+
+Amy: impossible to know
+
+### [VISS (Vehicle Information Service Specification) 2 Core and VISS 2 Transport](https://github.com/w3ctag/design-reviews/issues/768)
+
+Martin: WG has closed
+
+[poke around what status the spec got to, doesn't seem to be far]
+
+Hadley: closes
+
+### [Review Request for Attribution Reporting API](https://github.com/w3ctag/design-reviews/issues/724https://github.com/w3ctag/design-reviews/issues/724)
+
+Martin: This API is several things, which each have different properties and should be dealt with separately. We can provide that feedback. Also it's under active discussion i PATCG and no resolution has been made. Not sure it's good to spend TAG time on this
+
+Tess: don't want to accidentally swing something that is being worked on in an engaged community
+
+Martin: we should decline to say much, and say there are some promising prospects in this area, and encourage continuing to work in PATCG
+
+Amy: can draft and propose close
+
+
+### [requestStorageAccessFor](https://github.com/w3ctag/design-reviews/issues/808)
+
+Martin: there's been a lot of churn in this area
+
+Amy: we are waiting for an update from them
+
+Martin: leaves nudge, propose close
+
+### [Early Design Review: Opener Protections](https://github.com/w3ctag/design-reviews/issues/916)
+
+Matthew: they have updated their explainer as asked
+
+Amy: update milestone and read the updates?
+
+Matthew: this is a substantial update
+
+## 11b
+
+Present: Dan, Matthew, Amy, Hadley
+
+### [Add info to device apis section about privacy](https://github.com/w3ctag/design-principles/issues/398)
+
+Dan: High level threats. https://w3ctag.github.io/privacy-principles/#threats Should this be what we link to for the "threats" link in 9.1 of the Design Principles?
+
+Amy: General question - is this specific to devices/sensors - wouldn't we always want to _not_ disclose whether the user declined permission vs the thing being missing?
+
+Matthew: Had a look at the docs; Geolocation API _does_ say if the permission was denied: https://developer.mozilla.org/en-US/docs/Web/API/GeolocationPositionError - is this a concern? Should we follow up on this separately/more widely?
+
+**Action:** we should follow up on this (did we have a problem with it when we reviewed it? We should get in touch with the Geolocation folks)
+
+Proposed text
+
+<blockquote>
+  
+The web app should not be able to determine whether the user has 
+rejected permission to use a device API vs the capability (e.g. a sensor) 
+not existing.
+  
+  tell whether a user has rejected a device API or whether their machine doesn't have that device. 
+  
+  should not be able to distinguish between: the user rejecting permission to use a sensor/capability; and that sensor/capability not being present
+
+</blockquote>
+
+Dan: *creates [PR470](https://github.com/w3ctag/design-principles/pull/470)*
+
+### [Data Minimization PR](github.com/w3ctag/design-principles/pulls/465)
+
+Dan: do we need this? We say it in privacy principles
+
+Amy: we should pick out the specific part that is applicable to api designers, then link off to privacy principles
+
+Hadley: yes
+
+
+
+# W3C TAG - Breakouts C - Tue, 23 January 2024
+
+## Breakout 2c
+
+Present: Martin, Sangwhan, Yves, Amy, (Max later)
+
+### [DisplayMediaStreamOptions monitorTypeSurfaces](https://github.com/w3ctag/design-reviews/issues/892)
+
+*discussion about accessibility and privacy/security implications*
+
+Sangwhan: this seems fine to me
+
+Martin: I see no major issues
+
+Yves: ...
+
+Martin: what is seen is what is shared
+
+Sangwhan: if you wanted to exfiltrate informaton you could run an ocr engine on the other end... orthogonal. It's an optional feature for browsers, can just ignore it.
+
+Martin: pop something up from another website which password manager autofills and they don't use password masking, so you can grab the password
+
+Sangwhan: *writes closing comment*
+
+### [Fullscreen Popup Windows](https://github.com/w3ctag/design-reviews/issues/840)
+
+Amy: last comment from Hadley was that we can close it. It's been proposed close since last week
+
+Yves: needs accessibility review... it's resolution no comment because we don't know if it's ther ight solution - we want the wg to do its work and come back when they have the right solution. We can close at plenary.
+
+### [MiniApp Packaging](https://github.com/w3ctag/design-reviews/issues/762)
+
+Yves: could be zip or something else..
+
+Sangwhan: container format is least of my concerns. Don't like that it's zip but can see why they use it
+
+Yves: agree
+
+Sangwhan: the other problems are bigger. The allow the app store to be the verifier of the origin, which we disagree with
+
+Martin: yeap..
+
+Sangwhan: delegates origin verification to the app store, dangerous
+
+Yves: if you look at the ecosystem for regular apps on apple and android, that's basically what they're doing. All the deep linking is checked by the app store. There was nothing in the proposal about how to do it.
+
+Sangwhan: and their manifest had no compatibility with existing manifest proposal.
+
+Amy: any progress?
+
+Sangwhan: manifest and ?? have been reworked
+
+Yves: mini app adressing is being reworked but they haven't asked for a review yet. There is an issue related to context extension - how to extend the url space you are handling from webapps to other origins - how do you trust that you have the right to serve those origins from those webapps. Same issue with origin model
+
+Martin: seems like you provided the feedback they requested and there's a resolution. Does it get closed, or are they expecting it to remain open?
+
+Yves: we kept it open to track what was going on and ensure they were doing the right thing with the origin model
+
+Martin: is that a typical approach? That could take forever
+
+Yves: it depends. In this case, we had ongoing discussion to explain how important the origin model was for powerful apis
+
+Sangwhan: there has been progress made in the other proposals
+
+Yves: they were positive about our feedback
+
+Sangwhan: keeping it open is probably fine. our job to remind them to do the right thing.
+
+Martin: I'd have thought the obligation is now on them, then to come back with a new design review
+
+Yves: if they come up with a new request for feedback once they publish the fpwd, we can close this one as overtaken. We'll see how it goes. It's a special case.
+
+Sangwhan: with packaging, it's likely the miniapp wg is liekly to make faster progress in this space, we may need to connect the dots for people
+
+### [Web Audio API: RenderCapacity API](https://github.com/w3ctag/design-reviews/issues/843)
+
+Sangwhan: similar to compute pressure, but bound to audio worker. Exposes less information. All you know is given the peak compute capacity of the audio worker, where are you sitting when it comes to the amount of pressure, you get that through an event. A level of anonymity where... you could do a side channel from a different tab, but less rewarding than doing it through compute pressure. Use case proposed is to reduce the amount of compute time allocated in the event you are experiencing pressure on the audio worker. If you have high pressure on the audio worker and you're not adequately responding to that, audio glitches. I think it's unfortunate we're trying to introduce two different patterns for this, I've comment. A related proposal on webworkers.. so 3 conflictingish things related to compute capacity and quality of service guarantees. If we let all 3 ship we're going to have inconsistencies in the platform. COmmented but don't think there has been any progress made. I don't think audio wg will revisit this with a new design.
+
+Martin: seems like it provides a lot of granular informationa bout the load on the machine that does escape the sandbox - dependant on what others are doing as much as on what this particular app is doing.
+
+Sangwhan: correct, you can use it as a side channel, from a different origin.. most people have only one audio device so only one audio worker. Compute pressure has a much bigger problem in that sense. Doesn't mean this proposal has zero issues.
+
+Martin: one of the nice things about an audio worker is it runs in a very high priority context, so it has access to very good timing information typically. You are less likely to be preempted by workers operating in other threads or processes, so it provides you a very clean source of timing signal. Not necessarily as much information about what the load is ordinarily. 
+
+Yves: the higher priority means you don't really know the real load of all the other things needed for the browser. That's why the compute pressure api can give completely different results from the web audio render capacity one because of that.
+
+Sangwhan: definite characteristics specific to audio workers. Strong preference to have it not migrated across cpus. Cost to that. Quite likely pinned to the cpu
+
+Yves: depends on architecture of the machine
+
+Sangwhan: Valid use case. Don't like the fact we're reinventing things
+
+Yves: it's measuring different things in different contexts. THe thing is, having the same kind of api would be good. Or a general api that sets to the context. Is the context high priority web audo things, or a web rendering thing, or something else?
+
+Martin: alternative api, off the top of my head, if you have the ability to scale you can provide multiple implementions of your audio context and the browser can pick which one it execustes based on load. If one starts lagging it executes the one that's supposed to be faster
+
+Yves: can this be abused to get some information?
+
+Martin: absolutely
+
+Yves: using the webaudio api no signal just to check what is the current load of the signal
+
+Sangwhan: interesting appraoch.. would have the same problems.. when you switch from one version to another and it happens as a side effect from a different origin you're going to expose the same information..
+
+Martin: not necessarily at the ame granularity
+
+Sangwhan: wouldn't alleviate the problem of timer granularity guarantees, unless you start adding nosie which I think is a bad idea for an audio worklet. Taking a scalar and quantizing it to different buckets, so in that sense your'e reducing the amount of entropy exposed. I have bigger concerns about the inconsistencies across apis for mechanisms for providing such functionality, than privacy concerns.
+
+Martin: explain further
+
+Sangwhan: capacity event and compute pressure should be more consistent so there's interop, and the QoS api which takes a different approach to solve a different problem. It's a wob worker proposal so doesn't fit into this context - audio workers are less webby, this is more attached to the DOM. Maybe we can let that one slide
+
+Amy: they responded to this with some reasons why.. Are we at a place we can close with concerns, or is there more work to be done?
+
+Sangwhan: 20 buckets would be fine, maybe..
+
+Martin: substantial number who say 'might'.. out of 31 people 12 said maybe.. not resounding support
+
+Sangwhan: 100 buckets is as good as having no buckets
+
+Yves: inconsistent responses.. 20 buckets nobody says inconsistent for my needs, but not for 100 buckets
+
+Martin: this is one angle on the problem. Not sure this analysis is the right one to be applying in this context.
+
+Sangwhan: maybe a way forward is to gate more granular information behind a permission and by default do it through buckets. Then we could potentially align the apis.
+
+Amy: should we push on this? Or just close with concerns/unsatisfied?
+
+Sangwhan: I'd want us to push - it's still malleable and they might be receiptive
+
+*drafts comment*
+
+Martin: I'd like to see some sort of analysis of what the leakage risk is. Arbritary criteria for number of buckets doesn't capture the privacy situation very well at all. What Yves was talking about before - high pri process with limited processing capacity, so less subject to compute pressure by things at a lower priority
+
+Yves: if you see the number of buckets of .... of the signal there are studies that show that 2 buckets is enough to reconstruct the signal, you just need more time and more samples. Not really a big issue
+
+Sangwhan: is it already not possible as of today?
+
+Martin: that's the wrong line of argumentation to take. If it's already possible that's a vulnerability in the platform, not an excuse to not bother
+
+Sangwhan: there has been work done by compute pressure, they've experimented with different buckets, tried to do a cross origin side channel communication. They have a proof of concept. How much time proportionate to the granularity of the bucket
+
+Martin: that would be useful
+
+Sangwhan: I can share that. How that works in an rt priority single threaded setup like this is unclear. I'd imagine similarly.
+
+Martin: keep in mind that the individuals producing such analysis are motivated for it to produce a certain result. I'd be more confident if it were independant. If someone contracted an academic to try to break their stuff.
+
+### [WebAssembly JavaScript Promise Integration API](https://github.com/w3ctag/design-reviews/issues/809)
+
+Sangwhan: it's big.
+
+Yves: similar in spirit to the work adding hooks for web assembly. More complext for the promise thing
+
+Martin: sounds like they're looking at 2 ways of handling promises. One being essentially freezing the web assembly for a period while the promise goes off and does its business. The other is nativey having some sort of async system.
+
+Sangwhan: suspending part is uncontentious... Latter I don't have any expertise on
+
+Amy: we've been bumping this to a year.. do we need a focused breakout this week?
+
+Sangwhan: we need someone dedicated for web assembly / tc39 stuff
+
+Martin: I won't have time to get up to speed in the next 24 hours
+
+Amy: see what everyone else thinks. Useful to have someone come to one of our calls and talk us through it?
+
+Sangwhan: Maybe. We'd have to read up a bit on the context.
+
 
 
 
