@@ -17,7 +17,10 @@
 
 ## Day 1 (full day, room is booked 9 AM – 6 PM)
 
-### Slot 01a
+### Slot 01 (Plenary)
+
+We re-triaged the following issues:
+
 1. [HTMLSelectElement showPicker()](https://github.com/w3ctag/design-reviews/issues/900)
 2. [HTML Modules](https://github.com/w3ctag/design-reviews/issues/334)
 3. [Long Animation Frame API (LoAF)](https://github.com/w3ctag/design-reviews/issues/911)
@@ -28,12 +31,12 @@
 8. [Update 010-specification-review.md](https://github.com/w3ctag/design-reviews/pull/844)
 9. [Synergy with i18n short checklist?](https://github.com/w3ctag/accessibility-questionnaire/issues/3)
 
-### Slot 02a
+### Breakout 02a 
 1. [Verifiable Credential Status List 2021](https://github.com/w3ctag/design-reviews/issues/874)
 2. [Verifiable Credentials Data Model v2.0](https://github.com/w3ctag/design-reviews/issues/860)
 3. [Securing Verifiable Credentials using JOSE and COSE](https://github.com/w3ctag/design-reviews/issues/899)
 4. [BBS Cryptosuite v2023 Securing Verifiable Credentials with Selective Disclosure using BBS Signatures](https://github.com/w3ctag/design-reviews/issues/922)
-### Slot 02b
+### Breakout 02b
 Participants: Dan, Lea, Matthew, Tess
 1. [Feature detection for supported clipboard formats](https://github.com/w3ctag/design-reviews/issues/901)
 2. [systemEntropy addition to PerformanceNavigationTiming](https://github.com/w3ctag/design-reviews/issues/878)
@@ -44,7 +47,7 @@ Participants: Dan, Lea, Matthew, Tess
 7. [Early design review: Document Picture-in-Picture](https://github.com/w3ctag/design-reviews/issues/798)
 8. [View Transitions: list of types](https://github.com/w3ctag/design-reviews/issues/908)
 9. [Adding a close event to MessagePort API](https://github.com/w3ctag/design-reviews/issues/923)
-### Slot 02c
+### Breakout 02c
 Participants: Amy, Martin, Max, Sangwhan, Yves
 1. [DisplayMediaStreamOptions monitorTypeSurfaces](https://github.com/w3ctag/design-reviews/issues/892)
 2. [Fullscreen Popup Windows](https://github.com/w3ctag/design-reviews/issues/840)
@@ -52,7 +55,8 @@ Participants: Amy, Martin, Max, Sangwhan, Yves
 4. [Web Audio API: RenderCapacity API](https://github.com/w3ctag/design-reviews/issues/843)
 5. [WebAssembly JavaScript Promise Integration API](https://github.com/w3ctag/design-reviews/issues/809)
 
-### Slot 03a
+### Breakout 03a
+Participants: Sangwhan, Lea, Matthew, Tess, Yves
 1. [Add guide for "in parallel"](https://github.com/w3ctag/bfcache-guide/pull/3)
 2. [Missing guidance for handling steps that are run "in parallel"](https://github.com/w3ctag/bfcache-guide/issues/2)
 3. [Include security and privacy issues addressed by partitioned caching](https://github.com/w3ctag/caching-bundling-sustainability/issues/8)
@@ -64,7 +68,11 @@ Participants: Amy, Martin, Max, Sangwhan, Yves
 9. [Mention QUIC?](https://github.com/w3ctag/caching-bundling-sustainability/issues/5)
 10. [Don't throw the baby out with the bathwater](https://github.com/w3ctag/caching-bundling-sustainability/issues/4)
 11. [Section 3 - bandwidth costs](https://github.com/w3ctag/caching-bundling-sustainability/issues/3)
-### Slot 03b
+### Breakout 03b
+Participants: Dan, Amy
+
+Re-triaging issues from the Ethical Web Principles
+
 1. [Document should discourage features that'd lead to a more centralized web](https://github.com/w3ctag/ethical-web-principles/issues/94)
 2. [Find a voice](https://github.com/w3ctag/ethical-web-principles/issues/79)
 3. [Say something about resisting interpersonal abuse](https://github.com/w3ctag/ethical-web-principles/issues/44)
@@ -158,6 +166,9 @@ Participants: Amy, Dan, Hadley, Matthew
 
 
 ### Slot 10b
+
+Participants: Hadley, Tess, Amy, Martin, Matthew
+
 1. [VISS (Vehicle Information Service Specification) 2 Core and VISS 2 Transport](https://github.com/w3ctag/design-reviews/issues/768)
 2. [TAG spec review of Storage Access Heuristics](https://github.com/w3ctag/design-reviews/issues/919)
 3. [Early Design Review: Opener Protections](https://github.com/w3ctag/design-reviews/issues/916)
