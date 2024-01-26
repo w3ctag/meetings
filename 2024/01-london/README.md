@@ -19,7 +19,7 @@
 
 ### Slot 01 (Plenary)
 
-We re-triaged the following issues:
+Re-triaged of the following issues:
 
 1. [HTMLSelectElement showPicker()](https://github.com/w3ctag/design-reviews/issues/900)
 2. [HTML Modules](https://github.com/w3ctag/design-reviews/issues/334)
