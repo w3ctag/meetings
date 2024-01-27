@@ -1,57 +1,58 @@
 # W3C TAG - Breakouts A & Plenary Sessions - Tue, 23 January 2024
 
-## 1a 
+## 1a
 
 Present: Sangwhan, Yves, Tess, Dan, Matthew, Max, Martin, Lea
 
-[web install](https://github.com/w3ctag/design-reviews/issues/888)
+Re-triaging the following issues:
+
+### [web install](https://github.com/w3ctag/design-reviews/issues/888)
 
 *assigned to Tess & Lea - noting that we got feedback from Diego and should therefor discuss this week assigned to 7b*
 
-
-[HTMLSelectElement showPicker()](https://github.com/w3ctag/design-reviews/issues/900)
+### [HTMLSelectElement showPicker()](https://github.com/w3ctag/design-reviews/issues/900)
 
 *reassigned and we decided not to talk about it this week*
 
-[clipboard formats feature detection](https://github.com/w3ctag/design-reviews/issues/901)
+### [clipboard formats feature detection](https://github.com/w3ctag/design-reviews/issues/901)
 
 *assigned to 2a*
 
-[DisplayMediaStreamOptions monitorTypeSurfaces](https://github.com/w3ctag/design-reviews/issues/892)
+### [DisplayMediaStreamOptions monitorTypeSurfaces](https://github.com/w3ctag/design-reviews/issues/892)
 
-https://github.com/w3ctag/design-reviews/issues/762
+### https://github.com/w3ctag/design-reviews/issues/762
 
 *not assigned to today*
 
-https://github.com/w3ctag/design-reviews/issues/776
+### https://github.com/w3ctag/design-reviews/issues/776
 
 *closed*
 
-https://github.com/w3ctag/design-reviews/issues/843
+### https://github.com/w3ctag/design-reviews/issues/843
 
 Dan: we need to re-assign ...
 
 *reassigned to Tess & Matthew*
 
-https://github.com/w3ctag/design-reviews/issues/334
+### https://github.com/w3ctag/design-reviews/issues/334
 
 *reassigned to Lea & Tess*
 
-https://github.com/w3ctag/design-reviews/issues/911
+### https://github.com/w3ctag/design-reviews/issues/911
 
 
 
-https://github.com/w3ctag/design-reviews/issues/902
+### https://github.com/w3ctag/design-reviews/issues/902
 
 *reassigned to Lea & Tess*
 
-https://github.com/w3ctag/design-reviews/issues/525
+### https://github.com/w3ctag/design-reviews/issues/525
 
 *we discuss closing this since we haven't made progress*
 
 Lea: could it be a principle?
 
-Tess: we are the right group to do this -- 
+Tess: we are the right group to do this --
 
 Sangwhan: it would take an entire f2f...
 
@@ -61,19 +62,19 @@ Sangwhan: We have to go through all that's currently available - requires a focu
 
 Tess: 468 is also similar.....
 
-https://github.com/w3ctag/design-reviews/issues/468
+### https://github.com/w3ctag/design-reviews/issues/468
 
 *reassigned to Matthew & Tess*
 
 **Both 525 & 468 assigned to TAG future discussion - added "deep thoughts" TAG**
 
-https://github.com/w3ctag/design-reviews/pull/844
+### https://github.com/w3ctag/design-reviews/pull/844
 
 *merged & closed*
 
-https://github.com/w3ctag/design-reviews/pull/898
+### https://github.com/w3ctag/design-reviews/pull/898
 
-*sangwhan merges & closes*
+*sangwhan merges & closed*
 
 ## 02b
 
@@ -94,14 +95,14 @@ Lea: But testing MIME type support is a very specific thing, whereas `supports()
 
 <blockquote>
 
-Hi there, 
+Hi there,
 
 We looked at this today in a breakout during our London F2F. We overall think the feature is a good addition to the web platform and a low hanging fruit for improving DX.
-  
+
 One concern that came up is that `supports()` is a rather generic name, but the type of support being tested is very specific. This could hinder both learnability and future extensibility. One way to address that would be to adopt a dictionary argument (e.g. `ClipboardItem.supports({type: "image/webp"})`). If it later becomes clear that MIME type is the primary criteria that support queries are used for, a string argument could be supported as an overloaded shortcut.
-  
+
 Btw we had a lot of trouble reviewing this feature because the explainer was a GitHub issue, and the only way to see what was actually proposed was to read the spec. It wou;d be helpful for both us and others to have [an explainer](https://tag.w3.org/explainers/), even if brief.
-  
+
 </blockquote>
 
 ### [systemEntropy addition to PerformanceNavigationTiming](https://github.com/w3ctag/design-reviews/issues/878)
@@ -110,23 +111,23 @@ Dan: nothing to do here - still pending - assigned Hadley to the issue
 
 ### [Side Panel](https://github.com/w3ctag/design-reviews/issues/903)
 
-Lea & Tess: we already have window.open so why are we re-inventing something new 
+Lea & Tess: we already have window.open so why are we re-inventing something new
 
 Tess: Why isn't this a target?
 
 Matthew: it's something that's separate to the other site... This is for a seperate web app which isn't related to the site... Goals are to app promoted as a side-by-side web app... other goal: whether they're rendered in a side panel.  Wouldn't that be a media query?   Why would they want it to behave differently because it's in a side panel?
 
-Tess: If we need anything at all it should be in the manifest... ok optimise appearance & behaviour - 
+Tess: If we need anything at all it should be in the manifest... ok optimise appearance & behaviour -
 
 Matthew: the behaviour - if a side panel app is designed to allow you to perform some specific flow .. it could be useful to go to that flow?
 
-Lea: this is an API so developers can expose things in the Edge feature...  This actually reminds me of a more general issue...  There should be a way for people to agree on what an API should look like ... platforms that do want to implement...  
+Lea: this is an API so developers can expose things in the Edge feature...  This actually reminds me of a more general issue...  There should be a way for people to agree on what an API should look like ... platforms that do want to implement...
 
 Tess: anyone can write a spec....  They're adding a display override field... that doesn't feel right.  That looks weird to me.  The name side panel feels very specific to Edge's proprietary feature.  We need a generic name.
 
 Lea: agree to that.
 
-Matthew: one is discoverability - marketed to the user as being suitable for a side panel... 
+Matthew: one is discoverability - marketed to the user as being suitable for a side panel...
 
 Tess: feels wrong... this is just another web view that happens to be a different width... we have responsive design.
 
@@ -135,8 +136,8 @@ Matthew: varying the behaviour -- app running in the side panel doesn't have bac
 <blockquote>
 
 Hi there, @hober, @torgo, @matatk, and I looked at this today during a breakout at our London F2F.
-  
-We have some concerns that the way this feature is designed [overfits](https://bootcamp.uxdesign.cc/overfitting-and-the-problem-with-use-cases-337d9f4bf4d7) to Edge's specific side panel feature. We generally prefer Web platform features to be designed in a more general way to be able to encompass different designs for the same purpose, including designs that may conceivably emerge down the line. 
+
+We have some concerns that the way this feature is designed [overfits](https://bootcamp.uxdesign.cc/overfitting-and-the-problem-with-use-cases-337d9f4bf4d7) to Edge's specific side panel feature. We generally prefer Web platform features to be designed in a more general way to be able to encompass different designs for the same purpose, including designs that may conceivably emerge down the line.
 
 Furthermore, we are not 100% sure that a new feature is needed at all. Adapting the UI design of the app for the smaller viewport can be done with existing web platform primitives. Is there something fundamentally different about this use case that requires a new display mode, and if so, what is the core of it? If we understand what is fundamentally different about this display mode over others (either existing, or potential future extensions) we may be able to give you more actionable design advice.
 
@@ -146,35 +147,35 @@ Furthermore, we are not 100% sure that a new feature is needed at all. Adapting 
 
 *noting no signals of support from other implementers*
 
-Matthew: noting display:override again ... 
+Matthew: noting display:override again ...
 
 Tess: existing... I don't understand why this is desktop only...
 
 Lea: also do we want to add keys to the manifest for anything people want to turn on or off?
 
-Tess: this doesn't feel like something that should be exposed ... it feels like it's on you (the implementer) to create a tabbed experience if you 
+Tess: this doesn't feel like something that should be exposed ... it feels like it's on you (the implementer) to create a tabbed experience if you
 
 Dan: this should be UI in your ap
 
-Tess: you want tabs that should be vended by the underlying platform - or tabs that your web app controls... One justification is .. command-click or control-click where does it get opened... Add to homescreen web apps are isolated by default on most browsers... 
+Tess: you want tabs that should be vended by the underlying platform - or tabs that your web app controls... One justification is .. command-click or control-click where does it get opened... Add to homescreen web apps are isolated by default on most browsers...
 
-Lea: their concept is they have a home tab and any number of new tabs... 
+Lea: their concept is they have a home tab and any number of new tabs...
 
 *new tab button is - this is the URL that it goes to...*
 
-Lea: I don't think this needs a new display mode... 
+Lea: I don't think this needs a new display mode...
 
 Tess: agree.  If you need this feature at all it's just the tab strip...  Not convinced that you need this at all..
 
-Dan: something about developer complexity... 
+Dan: something about developer complexity...
 
 Lea: complexity doesn't seem to be warranted by the use cases
 
-Lea: *arguing that there are some cases for this feature*... I can see value in giving authors a way to express their intent about whether a tab strip is useful for the given app. E.g. you're in a map app and you want to keep your existing state but yet start a new search at the same time...  Makes sense for this app to do that...  
+Lea: *arguing that there are some cases for this feature*... I can see value in giving authors a way to express their intent about whether a tab strip is useful for the given app. E.g. you're in a map app and you want to keep your existing state but yet start a new search at the same time...  Makes sense for this app to do that...
 
 Tess: this just feels like a browser feature request... Also, all apps benefit from tabs.
 
-Lea: True. And back/forward. And reload. So then how are PWAs different from having a regular browser chrome around the app? Is it only the address bar that should really be hidden? That doesn't seem to be what authors want though. 
+Lea: True. And back/forward. And reload. So then how are PWAs different from having a regular browser chrome around the app? Is it only the address bar that should really be hidden? That doesn't seem to be what authors want though.
 
 Dan: could be worthwhile exposing it to the author to hint...
 
@@ -185,55 +186,55 @@ Initial draft comment:
 <blockquote>
 
 Hi there,
-  
+
 While we see some value in the app developer being able to specify which browser chrome is available by default, and to open links within the PWA, we have some reservations about this particular design.
 
 In addition to our earlier concerns about desktop vs mobile, we do not see why a new display mode is warranted. It's still the existing display modes, with certain parts of the browser chrome visible by default.
-  
+
 Furthermore, the complexity of the current syntax does not seem to be warranted by the use cases, we'd recommend exploring a simpler syntax to cover the majority of use cases, which room to grow as we learn more about how authors use this feature. It may even be worth it to add a more general feature for toggling certain parts of browser chrome on or off, e.g. many apps also need back/forward navigation or reload as well, and we probably don't want to be adding top-level manifest fields for all of these.
-  
+
 </blockquote>
 
 Subsequent draft comment:
 
 <blockquote>
-  
+
 Hi,
-  
+
 @torgo, @leaverou, @matatk, and I took a look at this during our F2F today, and it's unclear why tabs-for-PWAs need any author opt-in at all. If a browser wants to enable Cmd/Ctrl-clicking in a PWA to open in a tab in the PWA window, or for `a target=_blank href` to do so, there's nothing stopping them from doing so today. (And it may be worth filing feature requests on the browsers so that they consider doing so.) The existing display mode values are possibly sufficient to control this. For instance, the `fullscreen` display mode probably shouldn't get such tabs.
-  
+
 If the concern is that only links that are still within the PWA should open in tabs, and links to outside the PWA should open in the system browser, the browser already has all the information it needs to enable that behavior by default.
-  
+
 It might be worth pursuing a more limited feature proposal for simply supplying a URL other than the app's root URL for use when the new tab button is activated.
 
 It's entirely possible we've missed some other justification for having an explicit author opt-in here that goes beyond the existing Web App Manifest feature set. If we have, please let us know, and we'll reopen the review.
-  
+
 </blockquote>
-  
+
 *we agree to close as unsatisfied*
 
 ### [adding close event to message port API](https://github.com/w3ctag/design-reviews/issues/923)
-  
+
 Dan: Can we close?
-  
+
 Tess: not great but... in the s&p answers it says - it exposes when GC happens.. but that might be unavoidable.  It's fine...
-  
+
 *we agree to close with satisfied*
 
 ### [DisplayMediaStreamOptions monitorTypeSurfaces](https://github.com/w3ctag/design-reviews/issues/892)
-  
+
 Dan: Should have been closed before. *closed*
-  
+
 ### [CSS Selection inheritence](https://github.com/w3ctag/design-reviews/issues/914)
-  
+
 ### [entry & exit animations](https://github.com/w3ctag/design-reviews/issues/829)
- 
-  
+
+
 ### [Document PiP](https://github.com/w3ctag/design-reviews/issues/798)
-  
+
 ### [view transitions list](https://github.com/w3ctag/design-reviews/issues/908)
 
-## 02c 
+## 02c
 
 
 Present: Martin, Sangwhan, Yves, Amy, (Max later)
@@ -314,7 +315,7 @@ Martin: seems like it provides a lot of granular informationa bout the load on t
 
 Sangwhan: correct, you can use it as a side channel, from a different origin.. most people have only one audio device so only one audio worker. Compute pressure has a much bigger problem in that sense. Doesn't mean this proposal has zero issues.
 
-Martin: one of the nice things about an audio worker is it runs in a very high priority context, so it has access to very good timing information typically. You are less likely to be preempted by workers operating in other threads or processes, so it provides you a very clean source of timing signal. Not necessarily as much information about what the load is ordinarily. 
+Martin: one of the nice things about an audio worker is it runs in a very high priority context, so it has access to very good timing information typically. You are less likely to be preempted by workers operating in other threads or processes, so it provides you a very clean source of timing signal. Not necessarily as much information about what the load is ordinarily.
 
 Yves: the higher priority means you don't really know the real load of all the other things needed for the browser. That's why the compute pressure api can give completely different results from the web audio render capacity one because of that.
 
@@ -411,11 +412,11 @@ Sangwhan: if there's not enough time then we could delay the review... if others
 
 Martin: I would say "the TAG is looking for as much info as possible for any given proposal - the implementers work is useful input but the TAG can make it up its own mind...  if we lack the info then we can ask for it... "... Radio silence - you can infer lack of interest... Don't create a dependency....
 
-Sangwhan: cases where ... there's a niche use case .,.. we ask for multi-implementer support ... there's no response .. then we say "we have serious concerns." 
+Sangwhan: cases where ... there's a niche use case .,.. we ask for multi-implementer support ... there's no response .. then we say "we have serious concerns."
 
 *discussion on what we're asking about*
 
-Sangwhan: try to make it easier for other implementers to say "we're not interested, case closed"... And when there's a signal "this is a bad idea" we should know how bad it is...  I would like better signals from us... and potentially also the implementers... 
+Sangwhan: try to make it easier for other implementers to say "we're not interested, case closed"... And when there's a signal "this is a bad idea" we should know how bad it is...  I would like better signals from us... and potentially also the implementers...
 
 Martin: I hear this complaint from new participants in IETF - it's no-one's obligation to pay attention to your proposal... if you're unable to get ...
 
@@ -425,7 +426,7 @@ Martin: I hear this complaint from new participants in IETF - it's no-one's obli
 
 Tess: I'm concerned .. the first time you go to a site that embeds from tracker.example ... In a world where you're emulating partitioning ... you're vending the personalized resource... now you have a cross-site tracking vector.
 
-Yves: one signal could be cache-control public ... or allow-list of sites... 
+Yves: one signal could be cache-control public ... or allow-list of sites...
 
 Tess: or you load the resource multiple times... and only if you've loaded it multiple times and it's the same every time... a heuristics...
 
@@ -435,7 +436,7 @@ Tess: load it partitioned... on like 15 page loads it comes back with the same b
 
 Sangwhhan: wouldn't SRI mitigate this?   If you have a hash then there's no way to inject an identifier...
 
-Dan: is there any wording about possible mitigations? 
+Dan: is there any wording about possible mitigations?
 
 Tess: we're trying to invite someone to investigate this for us
 
@@ -469,7 +470,7 @@ Lea: what if we slot it in tomorrow? We could get it to a place we're happy with
 
 We got some feedback from Jeffrey and Coralie.
 
-[general agreement]: Web 2.0 part needs to be more nuanced - web 2.0 was good, but it shouldn't have been called web 2.0, that was harmful in retrospect. It's always been the same web. Rolling release with a very long deprecation pathway. 
+[general agreement]: Web 2.0 part needs to be more nuanced - web 2.0 was good, but it shouldn't have been called web 2.0, that was harmful in retrospect. It's always been the same web. Rolling release with a very long deprecation pathway.
 
 Martin: please don't rush out versioning finding...
 
@@ -563,19 +564,19 @@ Present: Dan, Yves, Martin, Sangwhan, Lea, Tess, Amy, Matthew, Max
 
 Martin: forwards/backwards compat but I am light on the forward in this...
 
-Tess: Backwards and forwards should be kept separate... 
+Tess: Backwards and forwards should be kept separate...
 
 Sangwhan: actions that have to be taken are very different
 
-Martin: 2 is right 
+Martin: 2 is right
 
 Sangwhan: fold this into martin's PR?
 
 *we discuss Lea's proposed changes*
 
-Lea: I think adding a list makes it more concrete. 
+Lea: I think adding a list makes it more concrete.
 
-Martin: I was hoping to make it an inline list... 
+Martin: I was hoping to make it an inline list...
 
 Lea: I just want it to be more concrete.
 
@@ -589,7 +590,7 @@ Tess: there's a feature - you want to remove it - if lots of web content depends
 
 Lea: don't just assume, verify with research that changes would actually break the web.
 
-Max: [on adding new feature] .. is that on all new features .. 
+Max: [on adding new feature] .. is that on all new features ..
 
 Sangwhan: adding or changes...
 
@@ -599,7 +600,7 @@ We agree to close 354 and potentially lift some of the examples ... into a furth
 
 ### Bundling and caching finding
 
-Martin: we spent an inordinate amount of time on the topic of bundling content. 
+Martin: we spent an inordinate amount of time on the topic of bundling content.
 
 Dan: we have a long history with packaging
 
@@ -613,7 +614,7 @@ Martin: that's not the message I get from having read this. It's my view that th
 
 Dan: a finding is our word for an opinion. An opinion can be we think there's something broken and some people oughta fix it
 
-Martin: it needs to say that more clearly if that's what it's saying, and I"ll probably disagree with that. The next layer of things is that we think there are .. there's something to be explored in terms of opportunities for resource reuse on the web. 
+Martin: it needs to say that more clearly if that's what it's saying, and I"ll probably disagree with that. The next layer of things is that we think there are .. there's something to be explored in terms of opportunities for resource reuse on the web.
 
 Sangwhan: correct
 
@@ -667,7 +668,7 @@ Amy: yes. All of our feedback on Topics applies to Protected Audience, but PA do
 
 Tess: ... paste the representation that makes sense. At the time you hit cut or copy you don't know where the thing is going to get pasted and theremight be some representations that could be useful to generate that are computationally expensive to generate so you don't want to compute that representation until it turns out you need it. So you want to put a promise into the clipboard saying if youc ome back to me and tell me to produce one of these expensive thingsI'll do it then, but I don't want to do it upfront.
 
-Matthew: they've answered our query and updated the explainer. Only applicable if copy, not paste, is being performend in a webapp. 
+Matthew: they've answered our query and updated the explainer. Only applicable if copy, not paste, is being performend in a webapp.
 
 Tess: the website where you hit cut or copy doesn't get to know about what app ro website is receiving the paste. All it gets to know the preferred format
 
@@ -715,7 +716,7 @@ Matthew: want to make sure they're considering that. Will suggest they include a
 
 ### [Writing assistance](https://github.com/w3ctag/design-reviews/issues/924)
 
-Matthew: the UI for suggestions already exists. 
+Matthew: the UI for suggestions already exists.
 
 Tess: this is giving the page the ability to opt in or out depending on where in the page. Cynicism aside, this is a good idea we should do it. Similar scenario with different input methods. If you have a complex IME it may or may not interact with the page well. The page may provide its own IME, which might be more specialised. The values of on or off are not good. Feels like it should be boolean. THe downside would be there's no explicit opt out in that case. It's presence or absence. If it were boolean you couldn't be saying outright don't do, only defnitely do it. If the default is do it there's no way to turn it off
 
@@ -777,7 +778,7 @@ Matthew: we can't tell the ua what options to have, but don't we want to use thi
 
 Tess: we could try to say something, but worried about giving advice that makes it less likely that their PR lands. Might be reluctance to add advice about user interfaces.
 
-Sangwhan: and might be a much larger change to do it right. 
+Sangwhan: and might be a much larger change to do it right.
 
 Tess: you end up with a potential explosion of the site wanting to say these but not this one, and the user the same.. gets hairy. The opt out is probably sufficient.
 
@@ -786,22 +787,22 @@ Tess: *drafts closing comment*
 <blockquote>
 
 Hi @sanketj!
-  
+
 @matatk, @rhiaro, and I took a look at this during a breakout at the TAG F2F today, and we're overall supportive of where you've ended up with the proposal. Have you run this by the i18n folk? We suspect they'll have relevant thoughts.
 
-Thanks for bringing this to us. Please don't hesitate to ask us to take another look should things substantively change. 
-  
+Thanks for bringing this to us. Please don't hesitate to ask us to take another look should things substantively change.
+
 Incidentally, we asked Google Bard to draft a supportive closing comment for us and here's what it came up with:
 
 > **Strong support for writingsuggestions! Granular control & user/developer focus are excellent. Looking forward to implementation! @sanketj **
-  
+
 </blockquote>
 
 ### Bundling and caching again
 
 Dan: Tess suggested splitting up bundling and caching and donig them one at a time
 
-Tess: Dan suggested something similar to secure the web forward - the bundling case, we can make a stronger recommendation, which is now we're in a world with h3 and all these other things, bundling really is thoroughly obsolete and here's what to do instead. Maybe stronger than if it's paired with the partioning one, which is muddling. 
+Tess: Dan suggested something similar to secure the web forward - the bundling case, we can make a stronger recommendation, which is now we're in a world with h3 and all these other things, bundling really is thoroughly obsolete and here's what to do instead. Maybe stronger than if it's paired with the partioning one, which is muddling.
 
 Yves: they have an implication on resource usage
 
@@ -816,20 +817,20 @@ Yves: it's at the point as when people were alerting that there were privacy iss
 Dan: let's consider this in plenary, how to take it forward after Sangwhan's term ends
 
 Present: Dan, Sangwhan, Yves, Lea
-  
+
 ### [web install](https://github.com/w3ctag/design-reviews/issues/888)
-  
+
 Dan: We received feedback from Diego...
 
 
 
-## 08-09 Retro and Future 
+## 08-09 Retro and Future
 
 ### Topics
 
 Suggested topics that were not chosen for discussion:
 
-* Meeting times 
+* Meeting times
 * "The firehose" - relationship with the blink project
 * Meeting attendence *
 * Agenda Creation & Tooling
@@ -844,8 +845,8 @@ Suggested topics that were not chosen for discussion:
 * Is it TAG's responsibility to identify gaps in the web platform, and, if not, whose is it?
 * TAG associates/interns/... **
 * TAG's relationship to chartering
-* Succession planning 
-* Standings / enforcement 
+* Succession planning
+* Standings / enforcement
 * Prioritization *
 
 Topics chosen for discussion from those suggested:
@@ -874,7 +875,7 @@ Rules for preventing round robin rabbit holes:
 #### Not so well
 
 * The positive meeting mentioned was the exception; we don't put ourselves in the position to meet with the AB and AC often enough.
-* That we didn't get the appointed seat we asked for, which resulted in confusion over should the appointed people run, and related rules 
+* That we didn't get the appointed seat we asked for, which resulted in confusion over should the appointed people run, and related rules
 * Getting involved in FO councils. Makes TAG political.
 * There's still no mechanism for us to influence the technical direction of the W3C
 * Nobody is identifying gaps in the web platform right now.
@@ -1134,7 +1135,7 @@ Sangwhan: I am OK with this
 
 Yves: use case is OK....
 
-Yves: it says on the local file system... def of local file system may be Origin-controlled.  Looks OK but depeneds on whether other stakeholders... 
+Yves: it says on the local file system... def of local file system may be Origin-controlled.  Looks OK but depeneds on whether other stakeholders...
 
 Dan: does it have a dependency on local filesystem?
 
@@ -1176,7 +1177,7 @@ when there is a source object expected to be
 converted to a target object.
 For example, `Foo.fromBar()` would imply
 that a `Foo` object will be created using a `Bar` object.
- 
+
 Inventing other prefixes
 and usage of legacy prefixes should be avoided
 unless there is a strong reason to do so.
@@ -1239,7 +1240,7 @@ Amy: +1
 
 Martin: let's discuss in plenary
 
-Matthew: what are the effects on the platform for any of these outcomes? 
+Matthew: what are the effects on the platform for any of these outcomes?
 
 Amy: impossible to know
 
@@ -1295,13 +1296,13 @@ Matthew: Had a look at the docs; Geolocation API _does_ say if the permission wa
 Proposed text
 
 <blockquote>
-  
-The web app should not be able to determine whether the user has 
-rejected permission to use a device API vs the capability (e.g. a sensor) 
+
+The web app should not be able to determine whether the user has
+rejected permission to use a device API vs the capability (e.g. a sensor)
 not existing.
-  
-  tell whether a user has rejected a device API or whether their machine doesn't have that device. 
-  
+
+  tell whether a user has rejected a device API or whether their machine doesn't have that device.
+
   should not be able to distinguish between: the user rejecting permission to use a sensor/capability; and that sensor/capability not being present
 
 </blockquote>
@@ -1337,5 +1338,3 @@ Matthew: Not entirely sure if this is relevant: https://blog.mozilla.org/netpoli
 ## Fin.
 
 RESOLVED: Gratitude to Tess for hosting us abounds.
-
-
