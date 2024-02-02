@@ -4,7 +4,7 @@ This agenda can be viewed and updated on [Github](https://github.com/w3ctag/meet
 
 If you would like to add an item to the agenda or volunteer to scribe please open a pull request against this agenda.
 
-### Breakout A (Europe / California) - [2024-02-05](https://www.timeanddate.com/worldclock/converter.html?iso=20240205T100000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+### Breakout A (Europe / China) - [2024-02-05](https://www.timeanddate.com/worldclock/converter.html?iso=20240205T100000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
 ### Breakout B (California / Europe) - [2024-02-05](https://www.timeanddate.com/worldclock/converter.html?iso=20240205T210000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
@@ -42,7 +42,7 @@ Raw minutes: ...
 
 ### Local Call Times
 
-#### Breakout A (Europe / US)
+#### Breakout A (Europe / China)
 
 <table>
 <tr><td> San Francisco (U.S.A. - California) <td> Monday, 5 February at 02:00 GMT-8</td></tr>
@@ -56,7 +56,7 @@ Raw minutes: ...
 <tr><td> Corresponding UTC (GMT) <td> Monday, 5 February at 10:00 UTC</td></tr>
 </table>
 
-#### Breakout B (APAC / Europe)
+#### Breakout B (California / Europe) 
 
 <table>
 <tr><td> San Francisco (U.S.A. - California) <td> Monday, 5 February at 09:00 GMT-8</td></tr>
@@ -70,7 +70,7 @@ Raw minutes: ...
 <tr><td> Corresponding UTC (GMT) <td> Monday, 5 February at 17:00 UTC</td></tr>
 </table>
 
-#### Breakout C (APAC / Europe)
+#### Breakout C (California / Australia)
 
 <table>
 <tr><td> San Francisco (U.S.A. - California) <td> Monday, 5 February at 13:00 GMT-8</td></tr>
@@ -84,7 +84,7 @@ Raw minutes: ...
 <tr><td> Corresponding UTC (GMT) <td> Monday, 5 February at 21:00 UTC</td></tr>
 </table>
 
-#### Breakout D (APAC / Europe)
+#### Breakout D (California / Australia)
 
 <table>
 <tr><td> San Francisco (U.S.A. - California) <td> Tuesday, 6 February at 12:00 GMT-8</td></tr>
@@ -98,7 +98,7 @@ Raw minutes: ...
 <tr><td> Corresponding UTC (GMT) <td> Tuesday, 6 February at 20:00 UTC</td></tr>
 </table>
 
-#### Breakout E (APAC / Europe)
+#### Breakout E (Europe / China)
 
 <table>
 <tr><td> San Francisco (U.S.A. - California) <td> Wednesday, 7 February at 00:30 GMT-8</td></tr>
