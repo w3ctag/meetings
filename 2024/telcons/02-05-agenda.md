@@ -4,19 +4,18 @@ This agenda can be viewed and updated on [Github](https://github.com/w3ctag/meet
 
 If you would like to add an item to the agenda or volunteer to scribe please open a pull request against this agenda.
 
-### Breakout A (Europe / US) - [2024-02-05](https://www.timeanddate.com/worldclock/converter.html?iso=20240205T100000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+### Breakout A (Europe / California) - [2024-02-05](https://www.timeanddate.com/worldclock/converter.html?iso=20240205T100000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
-### Breakout B (APAC / Europe) - [2024-02-05](https://www.timeanddate.com/worldclock/converter.html?iso=20240205T210000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+### Breakout B (California / Europe) - [2024-02-05](https://www.timeanddate.com/worldclock/converter.html?iso=20240205T210000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
-### Breakout C (APAC / Europe) - [2024-02-05](https://www.timeanddate.com/worldclock/converter.html?iso=20240205T210000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+### Breakout C (California / Australia) - [2024-02-05](https://www.timeanddate.com/worldclock/converter.html?iso=20240205T210000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
-### Breakout D (APAC / Europe) - [2024-02-06](https://www.timeanddate.com/worldclock/converter.html?iso=20240205T210000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+### Breakout D (California / Australia) - [2024-02-06](https://www.timeanddate.com/worldclock/converter.html?iso=20240205T210000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
-### Breakout E (APAC / Europe) - [2024-02-07](https://www.timeanddate.com/worldclock/converter.html?iso=20240205T210000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+### Breakout E (Europe / China) - [2024-02-07](https://www.timeanddate.com/worldclock/converter.html?iso=20240205T210000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
 ### Plenary Session - [2024-02-07](https://www.timeanddate.com/worldclock/converter.html?iso=20240207T200000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
-* ["With Credentials" flag possibly inconsistent with web architecture](https://github.com/w3ctag/design-reviews/issues/76) - @ylafon
 * [COOP: restrict-properties early review](https://github.com/w3ctag/design-reviews/issues/760) - @hober, @torgo, @maxpassion
 * [Spec review for CSS Nesting](https://github.com/w3ctag/design-reviews/issues/791) - @LeaVerou, @plinss
 * [requestStorageAccessFor](https://github.com/w3ctag/design-reviews/issues/808) - @torgo, @rhiaro, @hadleybeeman
