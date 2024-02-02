@@ -53,6 +53,7 @@ Raw minutes: ...
 <tr><td> Athens (Greece) <td> Monday, 5 February at 12:00 EET</td></tr>
 <tr><td> Beijing (China) <td> Monday, 5 February at 18:00 GMT+8</td></tr>
 <tr><td> Tokyo (Japan) <td> Monday, 5 February at 19:00 GMT+9</td></tr>
+<tr><td> Sydney (Australia) <td> Monday, 5 February at 21:00 GMT+11</td></tr>
 <tr><td> Corresponding UTC (GMT) <td> Monday, 5 February at 10:00 UTC</td></tr>
 </table>
 
@@ -66,6 +67,7 @@ Raw minutes: ...
 <tr><td> Athens (Greece) <td> Monday, 5 February at 19:00 EET</td></tr>
 <tr><td> Beijing (China) <td> Tuesday, 6 February at 01:00 GMT+8</td></tr>
 <tr><td> Tokyo (Japan) <td> Tuesday, 6 February at 02:00 GMT+9</td></tr>
+<tr><td> Sydney (Australia) <td> Tuesday, 6 February at 04:00 GMT+11</td></tr>
 <tr><td> Corresponding UTC (GMT) <td> Monday, 5 February at 17:00 UTC</td></tr>
 </table>
 
@@ -79,6 +81,7 @@ Raw minutes: ...
 <tr><td> Athens (Greece) <td> Monday, 5 February at 23:00 EET</td></tr>
 <tr><td> Beijing (China) <td> Tuesday, 6 February at 05:00 GMT+8</td></tr>
 <tr><td> Tokyo (Japan) <td> Tuesday, 6 February at 06:00 GMT+9</td></tr>
+<tr><td> Sydney (Australia) <td> Tuesday, 6 February at 08:00 GMT+11</td></tr>
 <tr><td> Corresponding UTC (GMT) <td> Monday, 5 February at 21:00 UTC</td></tr>
 </table>
 
@@ -92,6 +95,7 @@ Raw minutes: ...
 <tr><td> Athens (Greece) <td> Tuesday, 6 February at 22:00 EET</td></tr>
 <tr><td> Beijing (China) <td> Wednesday, 7 February at 04:00 GMT+8</td></tr>
 <tr><td> Tokyo (Japan) <td> Wednesday, 7 February at 05:00 GMT+9</td></tr>
+<tr><td> Sydney (Australia) <td> Wednesday, 7 February at 07:00 GMT+11</td></tr>
 <tr><td> Corresponding UTC (GMT) <td> Tuesday, 6 February at 20:00 UTC</td></tr>
 </table>
 
@@ -105,6 +109,7 @@ Raw minutes: ...
 <tr><td> Athens (Greece) <td> Wednesday, 7 February at 10:30 EET</td></tr>
 <tr><td> Beijing (China) <td> Wednesday, 7 February at 16:30 GMT+8</td></tr>
 <tr><td> Tokyo (Japan) <td> Wednesday, 7 February at 17:30 GMT+9</td></tr>
+<tr><td> Sydney (Australia) <td> Wednesday, 7 February at 19:30 GMT+11</td></tr>
 <tr><td> Corresponding UTC (GMT) <td> Wednesday, 7 February at 08:30 UTC</td></tr>
 </table>
 
@@ -118,6 +123,6 @@ Raw minutes: ...
 <tr><td> Athens (Greece) <td> Wednesday, 7 February at 22:00 EET</td></tr>
 <tr><td> Beijing (China) <td> Thursday, 8 February at 04:00 GMT+8</td></tr>
 <tr><td> Tokyo (Japan) <td> Thursday, 8 February at 05:00 GMT+9</td></tr>
-<tr><td> Seoul (Korea) <td> Monday, 5 February at 19:00 GMT+9</td></tr>
+<tr><td> Sydney (Australia) <td> Thursday, 8 February at 07:00 GMT+11</td></tr>
 <tr><td> Corresponding UTC (GMT) <td> Wednesday, 7 February at 20:00 UTC</td></tr>
 </table>
