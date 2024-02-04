@@ -6,27 +6,33 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (Europe / China) - [2024-02-05](https://www.timeanddate.com/worldclock/converter.html?iso=20240205T100000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
+* [Review request for Protected Audience](https://github.com/w3ctag/design-reviews/issues/723) - @torgo, @rhiaro, @hadleybeeman
+* [requestStorageAccessFor](https://github.com/w3ctag/design-reviews/issues/808) - @torgo, @rhiaro, @hadleybeeman
+* [Feature detection for supported clipboard formats](https://github.com/w3ctag/design-reviews/issues/901) - @LeaVerou, @torgo, @rhiaro
+
 ### Breakout B (California / Europe)  - [2024-02-05](https://www.timeanddate.com/worldclock/converter.html?iso=20240205T210000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+
+* [Spec review for CSS Nesting](https://github.com/w3ctag/design-reviews/issues/791) - @LeaVerou, @plinss
+* [Isolated Web Apps](https://github.com/w3ctag/design-reviews/issues/842) - @cynthia, @LeaVerou, @torgo
+* [`field-sizing` CSS property](https://github.com/w3ctag/design-reviews/issues/890) - @LeaVerou, @rhiaro
 
 ### Breakout C (California / Australia) - [2024-02-05](https://www.timeanddate.com/worldclock/converter.html?iso=20240205T210000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
+* [Delayed Clipboard Rendering](https://github.com/w3ctag/design-reviews/issues/925) - @hober, @hadleybeeman, @plinss
+* [Adding support for High Dynamic Range (HDR) imagery to HTML Canvas](https://github.com/w3ctag/design-reviews/issues/917) - @LeaVerou, @plinss
+
 ### Breakout D (California / Australia) - [2024-02-06](https://www.timeanddate.com/worldclock/converter.html?iso=20240205T210000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+
+* Open Design Principles PRs?
+* Review additional reviews [pending external feedback](https://github.com/w3ctag/design-reviews/issues?q=is%3Aopen+is%3Aissue+label%3A%22Progress%3A+pending+external+feedback%22) to see if feedback has come in?
 
 ### Breakout E (Europe / China) - [2024-02-07](https://www.timeanddate.com/worldclock/converter.html?iso=20240205T210000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
-### Plenary Session - [2024-02-07](https://www.timeanddate.com/worldclock/converter.html?iso=20240207T200000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
-
-* [Review request for Protected Audience](https://github.com/w3ctag/design-reviews/issues/723) - @torgo, @rhiaro, @hadleybeeman
 * [COOP: restrict-properties early review](https://github.com/w3ctag/design-reviews/issues/760) - @hober, @torgo, @maxpassion
-* [Spec review for CSS Nesting](https://github.com/w3ctag/design-reviews/issues/791) - @LeaVerou, @plinss
-* [requestStorageAccessFor](https://github.com/w3ctag/design-reviews/issues/808) - @torgo, @rhiaro, @hadleybeeman
-* [Isolated Web Apps](https://github.com/w3ctag/design-reviews/issues/842) - @cynthia, @LeaVerou, @torgo
-* [`field-sizing` CSS property](https://github.com/w3ctag/design-reviews/issues/890) - @LeaVerou, @rhiaro
-* [Feature detection for supported clipboard formats](https://github.com/w3ctag/design-reviews/issues/901) - @LeaVerou, @torgo, @rhiaro
-* [Adding support for High Dynamic Range (HDR) imagery to HTML Canvas](https://github.com/w3ctag/design-reviews/issues/917) - @LeaVerou, @plinss
-* [TAG spec review of Storage Access Heuristics](https://github.com/w3ctag/design-reviews/issues/919) - @torgo, @rhiaro, @hadleybeeman
 * [BBS Cryptosuite v2023 Securing Verifiable Credentials with Selective Disclosure using BBS Signatures](https://github.com/w3ctag/design-reviews/issues/922) - @rhiaro, @hadleybeeman
-* [Delayed Clipboard Rendering](https://github.com/w3ctag/design-reviews/issues/925) - @hober, @hadleybeeman, @plinss
+* [TAG spec review of Storage Access Heuristics](https://github.com/w3ctag/design-reviews/issues/919) - @torgo, @rhiaro, @hadleybeeman
+
+### Plenary Session - [2024-02-07](https://www.timeanddate.com/worldclock/converter.html?iso=20240207T200000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
 * Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
