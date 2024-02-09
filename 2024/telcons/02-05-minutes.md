@@ -192,11 +192,15 @@ Present: Dan, Matthew, Max, Yves
 
 #### [TAG spec review of Storage Access Heuristics](https://github.com/w3ctag/design-reviews/issues/919) - @torgo, @rhiaro, @hadleybeeman
 
-Dan: proposes close.  *polls TAG out of band*
+Dan: proposes close.  *polls TAG in chat*
 
-Martin: (out of band): +1
+Martin: (via chat): +1
 
 Matthew: the changes in the explainer look good. In user signals & preferences section it talks about how Firefox does it. so they have listened to the feedback.
+
+Tess (via chat): +1
+
+Amy (via chat): +1
 
 *We held additional discussions in chat and agreed to close this with a positive review, emphasizing the continued need for cross-browser engagement and consensus.*
 
