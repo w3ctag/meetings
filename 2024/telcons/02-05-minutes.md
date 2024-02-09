@@ -198,6 +198,7 @@ Martin: (out of band): +1
 
 Matthew: the changes in the explainer look good. In user signals & preferences section it talks about how Firefox does it. so they have listened to the feedback.
 
+*We held additional discussions in chat and agreed to close this with a positive review, emphasizing the continued need for cross-browser engagement and consensus.*
 
 #### Triaging
 
