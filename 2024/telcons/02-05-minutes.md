@@ -5,7 +5,6 @@
 ### Breakout A (Europe / China) - [2024-02-05](https://www.timeanddate.com/worldclock/converter.html?iso=20240205T100000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
 * [Review request for Protected Audience](https://github.com/w3ctag/design-reviews/issues/723) - @torgo, @rhiaro, @hadleybeeman
-
 * [requestStorageAccessFor](https://github.com/w3ctag/design-reviews/issues/808) - @torgo, @rhiaro, @hadleybeeman
 * [Feature detection for supported clipboard formats](https://github.com/w3ctag/design-reviews/issues/901) - @LeaVerou, @torgo, @rhiaro
 
