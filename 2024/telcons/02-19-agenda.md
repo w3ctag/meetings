@@ -9,7 +9,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Verifiable Credentials Data Model v2.0](https://github.com/w3ctag/design-reviews/issues/860) - @hober, @torgo, @rhiaro, @hadleybeeman
 * [Verifiable Credential Status List 2021](https://github.com/w3ctag/design-reviews/issues/874) - @rhiaro, @maxpassion, @hadleybeeman
 * [ARIA](https://github.com/w3ctag/design-reviews/issues/927) - @matatk, @maxpassion
-
+* [ewp new issue on data harvests](https://github.com/w3ctag/ethical-web-principles/issues/109)
+  
 ### Breakout B (California / Europe)  - [2024-02-19](https://www.timeanddate.com/worldclock/converter.html?iso=20240219T210000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
 * [FedCM multi IDP support](https://github.com/w3ctag/design-reviews/issues/803) - @rhiaro, @plinss
