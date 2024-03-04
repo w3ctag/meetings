@@ -6,7 +6,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (Europe / China) - [2024-03-04](https://www.timeanddate.com/worldclock/converter.html?iso=20240304T100000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
-* [New principle: Identity on the web](https://github.com/w3ctag/design-principles/pull/396) - @rhiaro
 * [Restrictions](https://github.com/w3ctag/design-principles/pull/363) - @maxpassion
 * ["while a JavaScript event loop is running." is probably not intended](https://github.com/w3ctag/design-principles/issues/456) - @cynthia, @torgo
 * [Add info to 9.1 & change link](https://github.com/w3ctag/design-principles/pull/470)
@@ -35,6 +34,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout E (Europe / China) - [2024-03-06](https://www.timeanddate.com/worldclock/converter.html?iso=20240304T210000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
+* [New principle: Identity on the web](https://github.com/w3ctag/design-principles/pull/396) - @rhiaro
 * Work on Ethical Web Principles Pull Requests and Issues - put forward for wide revview?
 
 ### Plenary Session - [2024-03-06](https://www.timeanddate.com/worldclock/converter.html?iso=20240306T200000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
