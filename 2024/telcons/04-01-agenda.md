@@ -51,6 +51,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 * Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
+* W3C @ AC Meeting
 
 ### Logistics
 
