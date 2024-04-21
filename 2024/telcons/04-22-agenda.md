@@ -11,7 +11,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Updated review of WebNN API](https://github.com/w3ctag/design-reviews/issues/933) - @torgo, @matatk, @maxpassion
 * [Early design review: Document Picture-in-Picture](https://github.com/w3ctag/design-reviews/issues/798) - @LeaVerou, @torgo, @rhiaro
 * [COOP: restrict-properties early review](https://github.com/w3ctag/design-reviews/issues/760) - @hober, @torgo, @maxpassion
-
+* charter: [Sustainable Web](https://w3c.github.io/sustyweb/wg/charter.html)
+* https://github.com/w3c/strategy/issues/450
 
 ### Breakout B (California / Europe)  - [2024-04-22](https://www.timeanddate.com/worldclock/converter.html?iso=20240422T200000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
