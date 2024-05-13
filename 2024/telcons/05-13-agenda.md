@@ -9,7 +9,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Local Peer-to-Peer API](https://github.com/w3ctag/design-reviews/issues/932) - @LeaVerou, @ylafon, @maxpassion
 * [Updated review of WebNN API](https://github.com/w3ctag/design-reviews/issues/933) - @torgo, @matatk, @maxpassion
 
-### Breakout B (California / Europe)  - [2024-05-13](https://www.timeanddate.com/worldclock/converter.html?iso=20240513T163000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+### Breakout B (California / Europe)  - [2024-05-13](https://www.timeanddate.com/worldclock/converter.html?iso=20240513T153000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
 * [Early design review: Document Picture-in-Picture](https://github.com/w3ctag/design-reviews/issues/798) - @LeaVerou, @torgo, @rhiaro
 * [Entry and Exit Animations](https://github.com/w3ctag/design-reviews/issues/829) - @LeaVerou, @torgo
@@ -72,15 +72,15 @@ Raw minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/QQVoiQsF2QQghei8i7jM
 #### Breakout B (California / Europe) 
 
 <table>
-<tr><td> San Francisco (U.S.A. - California) <td> Monday, 13 May at 09:30 GMT-7</td></tr>
-<tr><td> Boston (U.S.A. - Massachusetts) <td> Monday, 13 May at 12:30 GMT-4</td></tr>
-<tr><td> London (United Kingdom - England) <td> Monday, 13 May at 17:30 BST</td></tr>
-<tr><td> Paris (France) <td> Monday, 13 May at 18:30 CEST</td></tr>
-<tr><td> Athens (Greece) <td> Monday, 13 May at 19:30 EEST</td></tr>
-<tr><td> Beijing (China) <td> Tuesday, 14 May at 00:30 GMT+8</td></tr>
-<tr><td> Tokyo (Japan) <td> Tuesday, 14 May at 01:30 GMT+9</td></tr>
-<tr><td> Sydney (Australia) <td> Tuesday, 14 May at 02:30 GMT+10</td></tr>
-<tr><td> Corresponding UTC (GMT) <td> Monday, 13 May at 16:30 UTC</td></tr>
+<tr><td> San Francisco (U.S.A. - California) <td> Monday, 13 May at 08:30 GMT-7</td></tr>
+<tr><td> Boston (U.S.A. - Massachusetts) <td> Monday, 13 May at 11:30 GMT-4</td></tr>
+<tr><td> London (United Kingdom - England) <td> Monday, 13 May at 16:30 BST</td></tr>
+<tr><td> Paris (France) <td> Monday, 13 May at 17:30 CEST</td></tr>
+<tr><td> Athens (Greece) <td> Monday, 13 May at 18:30 EEST</td></tr>
+<tr><td> Beijing (China) <td> Monday, 13 May at 23:30 GMT+8</td></tr>
+<tr><td> Tokyo (Japan) <td> Tuesday, 14 May at 00:30 GMT+9</td></tr>
+<tr><td> Sydney (Australia) <td> Tuesday, 14 May at 01:30 GMT+10</td></tr>
+<tr><td> Corresponding UTC (GMT) <td> Monday, 13 May at 15:30 UTC</td></tr>
 </table>
 
 #### Breakout C (California / Australia)
