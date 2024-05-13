@@ -50,7 +50,7 @@ Bridge: https://whereby.com/w3ctag first then going to https://meet.jit.si/w3cta
 
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2024/telcons/05-13-minutes.md
 
-Raw minutes: ...
+Raw minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/QQVoiQsF2QQghei8i7jMyUbqNlbMgM5eC21hxeqgPdk/
 
 
 ### Local Call Times
