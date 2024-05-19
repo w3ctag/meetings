@@ -14,7 +14,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 ### Breakout B (California / Europe)  - [2024-05-20](https://www.timeanddate.com/worldclock/converter.html?iso=20240520T153000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 * [Entry and Exit Animations](https://github.com/w3ctag/design-reviews/issues/829) - @LeaVerou, @torgo
 * [Adding support for High Dynamic Range (HDR) imagery to HTML Canvas](https://github.com/w3ctag/design-reviews/issues/917) - @LeaVerou, @plinss
-* [Local Peer-to-Peer API](https://github.com/w3ctag/design-reviews/issues/932) - @LeaVerou, @ylafon, @maxpassion
 * [FedCM API extension: Button Mode and User Other Account API](https://github.com/w3ctag/design-reviews/issues/935) - @rhiaro, @plinss
 * [FedCM bundle: Continuation API, account labels, custom parameters, scopes](https://github.com/w3ctag/design-reviews/issues/945) - @rhiaro, @plinss
 
@@ -34,6 +33,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Web Install API - Same Origin](https://github.com/w3ctag/design-reviews/issues/888) - @hober, @LeaVerou
 * [Observable API](https://github.com/w3ctag/design-reviews/issues/902) - @hober, @LeaVerou
 * [View Transitions: list of types](https://github.com/w3ctag/design-reviews/issues/908) - @hober, @LeaVerou
+* [Local Peer-to-Peer API](https://github.com/w3ctag/design-reviews/issues/932) - @LeaVerou, @ylafon, @maxpassion
 
 ### Breakout E (Europe / China) - [2024-05-22](https://www.timeanddate.com/worldclock/converter.html?iso=20240522T070000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 * [Review Request for Attribution Reporting API](https://github.com/w3ctag/design-reviews/issues/724) - @torgo, @rhiaro, @hadleybeeman
