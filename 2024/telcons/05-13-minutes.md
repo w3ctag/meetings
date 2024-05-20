@@ -396,13 +396,13 @@ Martin: i suggest no response...
 
 #### Breakout A
 
-Local peer-to-peer - call time?
+Local peer-to-peer - call time? [NB: we actually punted this discussion to next week]
 
 #### Breakout B
 
 #### Breakout C
 
-Reviewing and hopefully posting CSS Anchor Positioning feedback
+Reviewing and hopefully posting CSS Anchor Positioning feedback [NB: we reviewed but did not post yet]
 
 #### Breakout D
 
