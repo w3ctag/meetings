@@ -270,3 +270,8 @@ Dan: [adds comment](https://github.com/w3ctag/design-reviews/issues/931#issuecom
 ## Recorded Consensus in Privacy Principles Transition Request
 
 *The TAG supports the Privacy Task Force’s call to issue a transition request for the Privacy Principles to W3C Statement status.*
+
+## Recorded Consensus in Ethical Web Principles Transition Request
+
+*In asynchrnous discussion this week, the TAG has agreed to issue a transition request for the Ethical Web Principles to W3C Statement status.*
+
