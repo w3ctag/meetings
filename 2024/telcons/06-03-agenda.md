@@ -54,7 +54,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Harmonize with WebAppSec Powerful Features Draft](https://github.com/w3ctag/design-principles/issues/481)
 * EWP transition status / additional work
 
-### Plenary Session - [2024-06-05](https://www.timeanddate.com/worldclock/converter.html?iso=20240605T210000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+### Plenary Session - [2024-06-05](https://www.timeanddate.com/worldclock/converter.html?iso=20240605T150000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
 * [Add principle on use of delta seconds](https://github.com/w3ctag/design-principles/pull/467) (close?)
   * [General principle around time measurement units/formats for various domains (JS, HTTP, HTML, etc)?](https://github.com/w3ctag/design-principles/issues/344) - @cynthia, @torgo
@@ -157,13 +157,13 @@ Raw minutes: ...
 #### Plenary
 
 <table>
-<tr><td> San Francisco (U.S.A. - California) <td> Wednesday, 5 June at 14:00 GMT-7</td></tr>
-<tr><td> Boston (U.S.A. - Massachusetts) <td> Wednesday, 5 June at 17:00 GMT-4</td></tr>
-<tr><td> London (United Kingdom - England) <td> Wednesday, 5 June at 22:00 BST</td></tr>
-<tr><td> Paris (France) <td> Wednesday, 5 June at 23:00 CEST</td></tr>
-<tr><td> Athens (Greece) <td> Thursday, 6 June at 00:00 EEST</td></tr>
-<tr><td> Beijing (China) <td> Thursday, 6 June at 05:00 GMT+8</td></tr>
-<tr><td> Tokyo (Japan) <td> Thursday, 6 June at 06:00 GMT+9</td></tr>
-<tr><td> Sydney (Australia) <td> Thursday, 6 June at 07:00 GMT+10</td></tr>
-<tr><td> Corresponding UTC (GMT) <td> Wednesday, 5 June at 21:00 UTC</td></tr>
+<tr><td> San Francisco (U.S.A. - California) <td> Wednesday, 5 June at 08:00 GMT-7</td></tr>
+<tr><td> Boston (U.S.A. - Massachusetts) <td> Wednesday, 5 June at 11:00 GMT-4</td></tr>
+<tr><td> London (United Kingdom - England) <td> Wednesday, 5 June at 16:00 BST</td></tr>
+<tr><td> Paris (France) <td> Wednesday, 5 June at 17:00 CEST</td></tr>
+<tr><td> Athens (Greece) <td> Wednesday, 5 June at 18:00 EEST</td></tr>
+<tr><td> Beijing (China) <td> Wednesday, 5 June at 23:00 GMT+8</td></tr>
+<tr><td> Tokyo (Japan) <td> Wednesday, 5 June at 00:00 GMT+9</td></tr>
+<tr><td> Sydney (Australia) <td> Wednesday, 5 June at 01:00 GMT+10</td></tr>
+<tr><td> Corresponding UTC (GMT) <td> Wednesday, 5 June at 15:00 UTC</td></tr>
 </table>
