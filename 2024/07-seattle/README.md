@@ -2,7 +2,12 @@
 
 The TAG is currently proposing a meeting in Seattle on the 15-18 of July 2024, to be hosted by Google and scheduled in parallel with BoD and AB meetings.
 
-Location: Google Seattle South Lake Union (SLU) office, Valley Building. See also [AB Wiki Page](https://www.w3.org/Member/wiki/AB/Agenda/2024-07-Seattle)
+Location: Google Seattle South Lake Union (SLU) office, Valley Building.
+
+See also:
+
+* the [AB’s meeting page](https://www.w3.org/Member/wiki/AB/Agenda/2024-07-Seattle)
+* the [BoD’s meeting page](https://www.w3.org/Member/wiki/BoD/Seattle202407)
 
 ## Day 0 - 15 July 2024 - Agenda Setting (Half Day)
 
