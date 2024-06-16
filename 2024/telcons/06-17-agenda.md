@@ -33,7 +33,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [JS String Builtins for WebAssembly](https://github.com/w3ctag/design-reviews/issues/940) - @hober, @ylafon
 * [Support Video Chapter in MediaMetadata](https://github.com/w3ctag/design-reviews/issues/952) - @hober
 * [Requesting review of HTML Ruby Markup Extensions](https://github.com/w3ctag/design-reviews/issues/959) - @hober, @LeaVerou
-* [improvements to <details> styling (widget structure)](https://github.com/w3ctag/design-reviews/issues/965) - @hober, @LeaVerou, @matatk
+* [improvements to `<details>` styling (widget structure)](https://github.com/w3ctag/design-reviews/issues/965) - @hober, @LeaVerou, @matatk
 
 ### Breakout D (California / Australia) - [2024-06-18](https://www.timeanddate.com/worldclock/converter.html?iso=20240618T220000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 * [Incremental Font Transfer: Patch Subset](https://github.com/w3ctag/design-reviews/issues/849) - @hober, @LeaVerou
