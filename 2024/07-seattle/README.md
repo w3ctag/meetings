@@ -32,7 +32,15 @@ _(Alphabetical order by first name)_
 
 ### Regrets
 
-_(None so far)_
+- Hadley Beeman
+- Tim Berners-Lee
+
+### Unknown
+
+If you’re in this list, please move yourselves to the right place above.
+
+- Dapeng (Max) Liu
+- Matthew Atkinson
 
 ## Day 0 - 15 July 2024 - Agenda Setting (Half Day)
 
