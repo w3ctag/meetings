@@ -42,18 +42,18 @@ If you’re in this list, please move yourselves to the right place above.
 - Dapeng (Max) Liu
 - Matthew Atkinson
 
-## Day 0 - 15 July 2024
+## Day 1 - Monday, 15 July 2024
 
 * **Warning:** Regular day, NOT agenda planning!
 
-## Day 1 - 16 July 2024
+## Day 2 - Tuesday, 16 July 2024
 
 * Some joint meetings with AB and BoD tbd
 
-## Day 2 - 17 July 2024
+## Day 3 - Wednesday, 17 July 2024
 
 * TBD
 
-## Day 3 - 18 July 2024
+## Day 4 - Thursday, 18 July 2024
 
 * TBD
