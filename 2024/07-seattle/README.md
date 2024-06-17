@@ -21,7 +21,7 @@ _(Alphabetical order by first name)_
 | Lea Verou | ? | ? | ? | Omnivore, low carb | |
 | Martin Thomson | ? | ? | ? | ? | |
 | Peter Linss | ? | ? | ? | ? | |
-| Tess O’Connor | ? | ? | ? | ? | |
+| Theresa O’Connor | 14 July (afternoon) | 18 July (evening) | The Westin | omnivore | AS520 / AS167 |
 | Yves Lafon | ? | ? | ? | ? | |
 
 ### Virtual
