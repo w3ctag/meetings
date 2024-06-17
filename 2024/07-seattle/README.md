@@ -9,9 +9,34 @@ See also:
 * the [AB’s meeting page](https://www.w3.org/Member/wiki/AB/Agenda/2024-07-Seattle)
 * the [BoD’s meeting page](https://www.w3.org/Member/wiki/BoD/Seattle202407)
 
+## Participants
+
+### In-person
+
+_(Alphabetical order by first name)_
+
+| Name | Arrival | Departure | Hotel | Dietary restrictions | Flights or other notes |
+|------|---------|-----------|-------|----------------------|------------------------|
+| Dan Appelquist | ? | ? | ? | ? | |
+| Lea Verou | ? | ? | ? | Omnivore, low carb | |
+| Martin Thomson | ? | ? | ? | ? | |
+| Peter Linss | ? | ? | ? | ? | |
+| Tess O’Connor | ? | ? | ? | ? | |
+| Yves Lafon | ? | ? | ? | ? | |
+
+### Virtual
+
+| Name | Timezone | PST Availability | Other Notes |
+|------|----------|------------------|-------------|
+| Amy Guy | GMT | ? | |
+
+### Regrets
+
+_(None so far)_
+
 ## Day 0 - 15 July 2024 - Agenda Setting (Half Day)
 
-* 12:00 - 17:00 - Agenda Setting and Organizational
+* **Warning:** Regular day, NOT agenda planning!
 
 ## Day 1 - 16 July 2024
 
@@ -19,4 +44,8 @@ See also:
 
 ## Day 2 - 17 July 2024
 
+* TBD
+
 ## Day 3 - 18 July 2024
+
+* TBD
