@@ -42,7 +42,7 @@ If you’re in this list, please move yourselves to the right place above.
 - Dapeng (Max) Liu
 - Matthew Atkinson
 
-## Day 0 - 15 July 2024 - Agenda Setting (Half Day)
+## Day 0 - 15 July 2024
 
 * **Warning:** Regular day, NOT agenda planning!
 
