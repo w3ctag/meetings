@@ -29,6 +29,7 @@ _(Alphabetical order by first name)_
 | Name | Timezone | PST Availability | Other Notes |
 |------|----------|------------------|-------------|
 | Amy Guy | GMT | ? | |
+|Dapeng (Max) Liu| UTC+8|NO|
 
 ### Regrets
 
@@ -38,8 +39,6 @@ _(Alphabetical order by first name)_
 ### Unknown
 
 If you’re in this list, please move yourselves to the right place above.
-
-- Dapeng (Max) Liu
 - Matthew Atkinson
 
 ## Day 1 - Monday, 15 July 2024
