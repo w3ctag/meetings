@@ -30,6 +30,7 @@ _(Alphabetical order by first name)_
 |------|----------|------------------|-------------|
 | Amy Guy | GMT | ? | |
 |Dapeng (Max) Liu| UTC+8|NO|
+| Matthew Atkinson | BST (UTC+1) | Monday: 0800-1400; Tuesday: 0800-1200 | Unavailable Wednesday-Friday |
 
 ### Regrets
 
@@ -39,7 +40,7 @@ _(Alphabetical order by first name)_
 ### Unknown
 
 If you’re in this list, please move yourselves to the right place above.
-- Matthew Atkinson
+- ...
 
 ## Day 1 - Monday, 15 July 2024
 
