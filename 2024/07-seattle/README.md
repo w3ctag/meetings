@@ -37,11 +37,6 @@ _(Alphabetical order by first name)_
 - Hadley Beeman
 - Tim Berners-Lee
 
-### Unknown
-
-If you’re in this list, please move yourselves to the right place above.
-- ...
-
 ## Day 1 - Monday, 15 July 2024
 
 * **Warning:** Regular day, NOT agenda planning!
