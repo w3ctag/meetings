@@ -20,7 +20,7 @@ _(Alphabetical order by first name)_
 | Dan Appelquist | ? | ? | ? | ? | |
 | Lea Verou | ? | ? | ? | Omnivore, low carb | |
 | Martin Thomson | ? | ? | ? | ? | |
-| Peter Linss | ? | ? | ? | ? | |
+| Peter Linss | 14 July | 19 July | ? | Omnivore | |
 | Theresa O’Connor | 14 July (afternoon) | 18 July (evening) | The Westin | omnivore | AS520 / AS167 |
 | Yves Lafon | ? | ? | ? | ? | |
 
