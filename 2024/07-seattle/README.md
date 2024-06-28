@@ -17,7 +17,7 @@ _(Alphabetical order by first name)_
 
 | Name | Arrival | Departure | Hotel | Dietary restrictions | Flights or other notes |
 |------|---------|-----------|-------|----------------------|------------------------|
-| Dan Appelquist | ? | ? | ? | ? | |
+| Dan Appelquist | Saturday | Thursday 16:30 | Hilton Curio something something | none | will have to leave early thursday afternoon |
 | Lea Verou | ? | ? | ? | Omnivore, low carb | |
 | Martin Thomson | ? | ? | ? | ? | |
 | Peter Linss | 14 July | 19 July | ? | Omnivore | |
