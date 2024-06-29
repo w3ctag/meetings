@@ -18,7 +18,7 @@ _(Alphabetical order by first name)_
 | Name | Arrival | Departure | Hotel | Dietary restrictions | Flights or other notes |
 |------|---------|-----------|-------|----------------------|------------------------|
 | Dan Appelquist | Saturday | Thursday 16:30 | Hilton Curio something something | none | will have to leave early thursday afternoon |
-| Lea Verou | ? | ? | ? | Omnivore, low carb | |
+| Lea Verou | 14 July (10:30 pm) | 19 July (1:30 pm) | ? | Omnivore, low carb | AA 2361 / AA 6909 |
 | Martin Thomson | ? | ? | ? | ? | |
 | Peter Linss | 14 July | 19 July | ? | Omnivore | |
 | Theresa O’Connor | 14 July (afternoon) | 18 July (evening) | The Westin | omnivore | AS520 / AS167 |
