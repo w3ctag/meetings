@@ -5,22 +5,13 @@ This agenda can be viewed and updated on [Github](https://github.com/w3ctag/meet
 If you would like to add an item to the agenda or volunteer to scribe please open a pull request against this agenda.
 
 ### Breakout A (Europe / China) - [2024-07-01](https://www.timeanddate.com/worldclock/converter.html?iso=20240701T090000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
-* [Web Install API - Same Origin](https://github.com/w3ctag/design-reviews/issues/888) - @hober, @LeaVerou
-* [HTMLSelectElement showPicker()](https://github.com/w3ctag/design-reviews/issues/900) - @LeaVerou, @matatk
 * [View Transition Classes](https://github.com/w3ctag/design-reviews/issues/938) - @matatk, @plinss
 * [Early TAG review request for Playout Statistics API for WebAudio](https://github.com/w3ctag/design-reviews/issues/939) - @hober, @matatk
 * [Web Install API - Cross-Origin](https://github.com/w3ctag/design-reviews/issues/946) - @hober, @LeaVerou
-* [Web Translation API](https://github.com/w3ctag/design-reviews/issues/948) - @LeaVerou, @matatk
-* [Conversion to RGB in VideoFrame.copyTo()](https://github.com/w3ctag/design-reviews/issues/951) - @LeaVerou
-* [A layer attribute for layering of linked CSS style sheets in HTML](https://github.com/w3ctag/design-reviews/issues/970) - @LeaVerou
 * [TAG review for web app `scope_extensions`](https://github.com/w3ctag/design-reviews/issues/875) - @torgo, @ylafon
+* [Permissions Policy Reporting and Report-Only mode](https://github.com/w3ctag/design-reviews/issues/909) - @torgo, @hadleybeeman
 
 ### Breakout B (California / Europe)  - [2024-07-01](https://www.timeanddate.com/worldclock/converter.html?iso=20240701T153000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
-* [Securing Verifiable Credentials using JOSE and COSE](https://github.com/w3ctag/design-reviews/issues/899) - @hober, @rhiaro
-* [Observable API](https://github.com/w3ctag/design-reviews/issues/902) - @hober, @LeaVerou
-* [Adding support for High Dynamic Range (HDR) imagery to HTML Canvas](https://github.com/w3ctag/design-reviews/issues/917) - @LeaVerou, @plinss
-* [CSS calc-size() function](https://github.com/w3ctag/design-reviews/issues/955) - @LeaVerou
-* [Requesting review of HTML Ruby Markup Extensions](https://github.com/w3ctag/design-reviews/issues/959) - @hober, @LeaVerou
 * F2F Agenda Planning
 
 ### Breakout C (California / Australia) - [2024-07-01](https://www.timeanddate.com/worldclock/converter.html?iso=20240701T210000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
@@ -30,24 +21,29 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Incremental Font Transfer: Patch Subset](https://github.com/w3ctag/design-reviews/issues/849) - @hober, @LeaVerou
 * [View Transitions: list of types](https://github.com/w3ctag/design-reviews/issues/908) - @hober, @LeaVerou
 * [Support Video Chapter in MediaMetadata](https://github.com/w3ctag/design-reviews/issues/952) - @hober
+* [Web Install API - Same Origin](https://github.com/w3ctag/design-reviews/issues/888) - @hober, @LeaVerou
 
 ### Breakout D (California / Australia) - [2024-07-02](https://www.timeanddate.com/worldclock/converter.html?iso=20240702T220000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 * [Isolated Web Apps](https://github.com/w3ctag/design-reviews/issues/842) - @martinthomson, @LeaVerou
 * [systemEntropy addition to PerformanceNavigationTiming](https://github.com/w3ctag/design-reviews/issues/878) - @hadleybeeman, @plinss
 * [Constructors for RTC encoded frames with custom metadata](https://github.com/w3ctag/design-reviews/issues/942) - @martinthomson
+* [JS String Builtins for WebAssembly](https://github.com/w3ctag/design-reviews/issues/940) - @hober, @ylafon
+* [`noopener-allow-popups` value in COOP](https://github.com/w3ctag/design-reviews/issues/964) - @martinthomson, @torgo
+* [Specification review for CSS Anchor Positioning](https://github.com/w3ctag/design-reviews/issues/848) - @LeaVerou, @plinss
+* [text-wrap: pretty](https://github.com/w3ctag/design-reviews/issues/864) - @LeaVerou, @plinss
 * F2F Agenda Planning
 
 ### Breakout E (Europe / China) - [2024-07-03](https://www.timeanddate.com/worldclock/converter.html?iso=20240703T070000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
 * [WebAssembly JavaScript Promise Integration API](https://github.com/w3ctag/design-reviews/issues/809) - @LeaVerou
 * [Entry and Exit Animations](https://github.com/w3ctag/design-reviews/issues/829) - @LeaVerou, @torgo
-* [Specification review for CSS Anchor Positioning](https://github.com/w3ctag/design-reviews/issues/848) - @LeaVerou, @plinss
-* [text-wrap: pretty](https://github.com/w3ctag/design-reviews/issues/864) - @LeaVerou, @plinss
 * [Speculation rules: target_hint field](https://github.com/w3ctag/design-reviews/issues/931) - @hober, @torgo
-* [JS String Builtins for WebAssembly](https://github.com/w3ctag/design-reviews/issues/940) - @hober, @ylafon
 * [Timing Info for ServiceWorker static routing API](https://github.com/w3ctag/design-reviews/issues/958) - @martinthomson, @torgo, @maxpassion
-* [`noopener-allow-popups` value in COOP](https://github.com/w3ctag/design-reviews/issues/964) - @martinthomson, @torgo
-* [Permissions Policy Reporting and Report-Only mode](https://github.com/w3ctag/design-reviews/issues/909) - @torgo, @hadleybeeman
+* [HTMLSelectElement showPicker()](https://github.com/w3ctag/design-reviews/issues/900) - @LeaVerou, @matatk
+* [Conversion to RGB in VideoFrame.copyTo()](https://github.com/w3ctag/design-reviews/issues/951) - @LeaVerou
+* [A layer attribute for layering of linked CSS style sheets in HTML](https://github.com/w3ctag/design-reviews/issues/970) - @LeaVerou
+* [Web Translation API](https://github.com/w3ctag/design-reviews/issues/948) - @LeaVerou, @matatk
+
 
 ### Logistics
 
