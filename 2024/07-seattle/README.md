@@ -29,7 +29,7 @@ _(Alphabetical order by first name)_
 | Name | Timezone | PST Availability | Other Notes |
 |------|----------|------------------|-------------|
 | Amy Guy | BST (UTC+1) | Monday: 0800-1200; Tuesday: 0900-1200; Thursday: 0800-1200 | |
-|Dapeng (Max) Liu| UTC+8||
+| Dapeng (Max) Liu|CST(UTC+8)|Monday:0800-0900;Tuesday:0800-0900;Wednesday:0800-0900|
 | Matthew Atkinson | BST (UTC+1) | Monday: 0800-1400; Tuesday: 0800-1200 | Unavailable Wednesday-Friday |
 
 ### Regrets
