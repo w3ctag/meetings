@@ -11,13 +11,14 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Private Aggregation API](https://github.com/w3ctag/design-reviews/issues/846) - @hober, @hadleybeeman
 * [Specification review for CSS Anchor Positioning](https://github.com/w3ctag/design-reviews/issues/848) - @LeaVerou, @plinss
 * [text-wrap: pretty](https://github.com/w3ctag/design-reviews/issues/864) - @LeaVerou, @plinss
-* [Web Install API - Same Origin](https://github.com/w3ctag/design-reviews/issues/888) - @hober, @LeaVerou
 * [Early TAG review request for Playout Statistics API for WebAudio](https://github.com/w3ctag/design-reviews/issues/939) - @hober, @matatk
+* [Web Install API - Same Origin](https://github.com/w3ctag/design-reviews/issues/888) - @hober, @LeaVerou
 * [Web Install API - Cross-Origin](https://github.com/w3ctag/design-reviews/issues/946) - @hober, @LeaVerou
 * [A layer attribute for layering of linked CSS style sheets in HTML](https://github.com/w3ctag/design-reviews/issues/970) - @LeaVerou
 
 ### Breakout D (California / Australia) - [2024-08-27](https://www.timeanddate.com/worldclock/converter.html?iso=20240827T220000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 * [Early design review: Storage Access Headers](https://github.com/w3ctag/design-reviews/issues/982) - @hober, @martinthomson, @jyasskin
+* App Stores Finding Discussion
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
 
 ### Breakout E (Europe / China) - [2024-08-28](https://www.timeanddate.com/worldclock/converter.html?iso=20240828T070000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
@@ -29,6 +30,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Add Skip-Ad media session action](https://github.com/w3ctag/design-reviews/issues/957) - @torgo, @matatk
 * [Reference Target](https://github.com/w3ctag/design-reviews/issues/961) - @LeaVerou, @matatk
 * [WebXR Device API (delta/aiming 2nd CRS)](https://github.com/w3ctag/design-reviews/issues/983) - @torgo
+* 3p Cookies Finding Issues & PRs
 
 ### Plenary Session - [2024-08-29](https://www.timeanddate.com/worldclock/converter.html?iso=20240829T060000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
