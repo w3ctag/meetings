@@ -18,6 +18,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout D (California / Australia) - [2024-08-27](https://www.timeanddate.com/worldclock/converter.html?iso=20240827T220000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 * [Early design review: Storage Access Headers](https://github.com/w3ctag/design-reviews/issues/982) - @hober, @martinthomson, @jyasskin
+* [Controller Documents v1.0](https://github.com/w3ctag/design-reviews/issues/960) - @jyasskin, @rhiaro, @hadleybeeman
 * App Stores Finding Discussion
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
 
@@ -54,7 +55,7 @@ Raw minutes: ...
 
 ### Local Call Times
 
-#### Breakout B (California / Europe) 
+#### Breakout B (California / Europe)
 
 <table>
 <tr><td> San Francisco (U.S.A. - California) <td> Monday 26 August at 09:30 GMT-7</td></tr>
