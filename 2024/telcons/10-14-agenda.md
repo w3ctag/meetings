@@ -34,7 +34,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Document-Isolation-Policy](https://github.com/w3ctag/design-reviews/issues/995) - @martinthomson, @torgo
 * [Review for CR transition of WebAssembly specifications for version 2.0 features ](https://github.com/w3ctag/design-reviews/issues/1002) - @torgo, @matatk
 
-### Plenary Session - [2024-10-16](https://www.timeanddate.com/worldclock/converter.html?iso=20241016T200000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+### Plenary Session - [2024-10-17](https://www.timeanddate.com/worldclock/converter.html?iso=20241017T060000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
 2024-10-14-week
 
@@ -100,12 +100,12 @@ Raw minutes: ...
 #### Plenary
 
 <table>
-<tr><td> San Francisco (U.S.A. - California) <td> Wednesday 16 October at 13:00 GMT-7</td></tr>
-<tr><td> Boston (U.S.A. - Massachusetts) <td> Wednesday 16 October at 16:00 GMT-4</td></tr>
-<tr><td> London (United Kingdom - England) <td> Wednesday 16 October at 21:00 BST</td></tr>
-<tr><td> Paris (France) <td> Wednesday 16 October at 22:00 CEST</td></tr>
-<tr><td> Athens (Greece) <td> Wednesday 16 October at 23:00 EEST</td></tr>
-<tr><td> Beijing (China) <td> Thursday 17 October at 04:00 GMT+8</td></tr>
-<tr><td> Sydney (Australia) <td> Thursday 17 October at 07:00 GMT+11</td></tr>
-<tr><td> Corresponding UTC (GMT) <td> Wednesday 16 October at 20:00 UTC</td></tr>
+<tr><td> San Francisco (U.S.A. - California) <td> Wednesday 16 October at 23:00 GMT-7</td></tr>
+<tr><td> Boston (U.S.A. - Massachusetts) <td> Thursday 17 October at 02:00 GMT-4</td></tr>
+<tr><td> London (United Kingdom - England) <td> Thursday 17 October at 07:00 BST</td></tr>
+<tr><td> Paris (France) <td> Thursday 17 October at 08:00 CEST</td></tr>
+<tr><td> Athens (Greece) <td> Thursday 17 October at 09:00 EEST</td></tr>
+<tr><td> Beijing (China) <td> Thursday 17 October at 14:00 GMT+8</td></tr>
+<tr><td> Sydney (Australia) <td> Thursday 17 October at 17:00 GMT+11</td></tr>
+<tr><td> Corresponding UTC (GMT) <td> Thursday 17 October at 06:00 UTC</td></tr>
 </table>
