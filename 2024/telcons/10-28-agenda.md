@@ -12,6 +12,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [CSS reading-flow property](https://github.com/w3ctag/design-reviews/issues/978) - @hober, @nitot, @matatk
 * [Web Authentication's PublicKeyCredential signal methods](https://github.com/w3ctag/design-reviews/issues/996)
 * [HTML Canvas place element](https://github.com/w3ctag/design-reviews/issues/997) - @hober, @matatk
+* [Accessibility conformance Testing (ACT) Rules Format 1.1](https://github.com/w3ctag/design-reviews/issues/977) - @rhiaro, @matatk
 
 ### Breakout B (California / Australia) - [2024-10-29](https://www.timeanddate.com/worldclock/converter.html?iso=20241029T220000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
@@ -20,16 +21,18 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Spec review for Animation.progress](https://github.com/w3ctag/design-reviews/issues/994) - @jyasskin, @LeaVerou
 * [Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute](https://github.com/w3ctag/design-reviews/issues/1000) - @hober, @LeaVerou
 * [CSS view transition auto name generation](https://github.com/w3ctag/design-reviews/issues/1001) - @martinthomson, @jyasskin, @plinss
+* [Dispatching Toggle Events for Dialog open/close](https://github.com/w3ctag/design-reviews/issues/1005)
 
 ### Breakout C (Europe / China) - [2024-10-30](https://www.timeanddate.com/worldclock/converter.html?iso=20241030T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
 * [Captured Surface Control](https://github.com/w3ctag/design-reviews/issues/962) - @martinthomson, @maxpassion
-* [Accessibility conformance Testing (ACT) Rules Format 1.1](https://github.com/w3ctag/design-reviews/issues/977) - @rhiaro, @matatk
 * [Review for CR transition of WebAssembly specifications for version 2.0 features ](https://github.com/w3ctag/design-reviews/issues/1002) - @torgo, @matatk
 
 ### Plenary Session - [2024-10-30](https://www.timeanddate.com/worldclock/converter.html?iso=20241030T220000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
 * Breakout Rollup
+* ["With Credentials" flag possibly inconsistent with web architecture](https://github.com/w3ctag/design-reviews/issues/76)
+* [Adjust TimBL's TAG status](https://github.com/w3c/process/pull/791)
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
 
 ### Logistics
@@ -49,7 +52,7 @@ Raw minutes: ...
 
 ### Local Call Times
 
-#### Breakout A (California / Europe) 
+#### Breakout A (California / Europe)
 
 <table>
 <tr><td> San Francisco (U.S.A. - California) <td> Monday 28 October at 10:30 GMT-7</td></tr>
