@@ -14,7 +14,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 ### Breakout B (California / Australia) - [2024-11-05](https://www.timeanddate.com/worldclock/converter.html?iso=20241105T230000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
 * [Reference Target](https://github.com/w3ctag/design-reviews/issues/961) - @LeaVerou, @matatk
-
 * [CSS :open pseudo-class](https://github.com/w3ctag/design-reviews/issues/1010) - @LeaVerou
 * [Spec review for Animation.progress](https://github.com/w3ctag/design-reviews/issues/994) - @jyasskin, @LeaVerou
 
