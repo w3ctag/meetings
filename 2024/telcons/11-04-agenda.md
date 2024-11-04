@@ -6,16 +6,15 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (California / Europe)  - [2024-11-04](https://www.timeanddate.com/worldclock/converter.html?iso=20241104T173000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
-* [Reference Target](https://github.com/w3ctag/design-reviews/issues/961) - @LeaVerou, @matatk
-
 * [CSS reading-flow property](https://github.com/w3ctag/design-reviews/issues/978) - @hober, @nitot, @matatk
 * [Review for Protected Audiences Bidding and Auction Services API](https://github.com/w3ctag/design-reviews/issues/1009) - @jyasskin
-
+* [Fenced frames with local unpartitioned data access](https://github.com/w3ctag/design-reviews/issues/975) - @martinthomson, @jyasskin
+* [Dispatching Toggle Events for Dialog open/close](https://github.com/w3ctag/design-reviews/issues/1005) - @martinthomson, @jyasskin, @plinss
 
 ### Breakout B (California / Australia) - [2024-11-05](https://www.timeanddate.com/worldclock/converter.html?iso=20241105T230000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
-* [Fenced frames with local unpartitioned data access](https://github.com/w3ctag/design-reviews/issues/975) - @martinthomson, @jyasskin
-* [Dispatching Toggle Events for Dialog open/close](https://github.com/w3ctag/design-reviews/issues/1005) - @martinthomson, @jyasskin, @plinss
+* [Reference Target](https://github.com/w3ctag/design-reviews/issues/961) - @LeaVerou, @matatk
+
 * [CSS :open pseudo-class](https://github.com/w3ctag/design-reviews/issues/1010) - @LeaVerou
 * [Spec review for Animation.progress](https://github.com/w3ctag/design-reviews/issues/994) - @jyasskin, @LeaVerou
 
