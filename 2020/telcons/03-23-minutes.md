@@ -29,15 +29,15 @@ Rossen: I would give it a couple of weeks.
 
 #### [URL Protocol Handler Registration for PWAs](https://github.com/w3ctag/design-reviews/issues/482) - @hober, @dbaron, @torgo, @kenchris
 
-Kenneth: looked at this and it seems sensible. Similar to register protocol handler but in the web app manifest... all can be done at "install" time. Same mitigation that exists in `registerProtocolHandler`. Not all protocols.  Thinking about extending that a bit.  Registering a scheme.. associated a title + and icon.. 
+Kenneth: looked at this and it seems sensible. Similar to register protocol handler but in the web app manifest... all can be done at "install" time. Same mitigation that exists in `registerProtocolHandler`. Not all protocols.  Thinking about extending that a bit.  Registering a scheme.. associated a title + and icon..
 
 Dan: Tess said " could this be syntactic sugar on top of `registerProtocolHandler`"?
 
-Ken: not totally – eg you can't associated an icon. 
+Ken: not totally – eg you can't associated an icon.
 
 peter: you can have a tittle with `registerProtocolHandler`. I'd like to see the two things be more integrated. Maybe turn it to an options dictionary.
 
-Ken: yes –  also I'm worried that people will register a handler and use an icon and title that makes it look like another application. Something like that could be solved in the UI... 
+Ken: yes –  also I'm worried that people will register a handler and use an icon and title that makes it look like another application. Something like that could be solved in the UI...
 
 Yves: my comment last week was more about the use case section - e.g. for powerpoint. For magnet it's OK because it's a protocol to retrieve something. But web+powerpoint is a media type – there should be an option for what you encounter when you use a media type.
 
@@ -49,13 +49,13 @@ Yves: if it's in the link header you can ...
 
 Ken: [file handling](https://github.com/WICG/file-handling/blob/master/explainer.md) proposal ([#371](https://github.com/w3ctag/design-reviews/issues/371)). Instead of protocol handlers you have file handlers... so why are these not working the same way?  Action thing instead of a URL. No icon associated with the file handler – should there be?  Maybe these could just be "handlers" ...
 
-Dan: feels like it could be confusing for the developer – different ways to do similar things. 
+Dan: feels like it could be confusing for the developer – different ways to do similar things.
 
 Yves: if you're abusing media types and the way you're doing things based on content then it's another way of doing things differently from the current way of the web.
 
 David: the file handling proposal is tied to the native filesystem API - lets the web page read and write files. Some concerns about native filesystem.
 
-Ken: I still think the APIs could be similar. 
+Ken: I still think the APIs could be similar.
 
 Yves: [official URI scheme](https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml) – doesn't contain powerpoint, etc...
 
@@ -69,7 +69,7 @@ Ken: the UI should mitigate against misuse of this to confuse users.
 
 David: that might involve something like showing the origin.
 
-Peter: related topic: the list of safe listed schemes is being managed in the HTML spec... This should be an external registry. 
+Peter: related topic: the list of safe listed schemes is being managed in the HTML spec... This should be an external registry.
 
 Dan: isn't this encompassed in the evergreen /ever blue / ever teal / whatever color we are using proposal?
 
@@ -93,7 +93,7 @@ Rossen: animated example at https://github.com/MicrosoftEdge/MSEdgeExplainers/bl
 
 Ken: what i didn't understand from that GIF - is it trusted UI or not. At a minimum people should be able to provide different formats. Web site, markdown?
 
-Rossen: I'm not sure why the full richness of html would be required here. If you compare this to a lot of the extension model type UIs, this is the closest I would compare with. I wouldn't compare it to native apps. Perhaps something like markdown would be sufficient here. 
+Rossen: I'm not sure why the full richness of html would be required here. If you compare this to a lot of the extension model type UIs, this is the closest I would compare with. I wouldn't compare it to native apps. Perhaps something like markdown would be sufficient here.
 
 Ken: for accessibility purposes it might make sense that it works across ...
 
@@ -107,7 +107,7 @@ Rossen: i don't see a solid justification in the explainer itself.
 
 Ken: I don't like they dictionary is called Resource – too generic.
 
-Ken: also - if it's a standardized format like markdown you could implement search and make sure it works... 
+Ken: also - if it's a standardized format like markdown you could implement search and make sure it works...
 
 [debate between low-formatting change log and using a HTML web resource]
 
@@ -119,10 +119,10 @@ Dan: I will write up some notes based on this conversation.
 
 #### [Intersection Observer review](https://github.com/w3ctag/design-reviews/issues/197) - @dbaron
 
-Rossen: This is a shipped feature... what's remaining. 
+Rossen: This is a shipped feature... what's remaining.
 
-David: Specifying what's actually shipped and if it is interoperable. My concern was that the HTML event loop spec is not specified clearly enough and not very interoperable. So then, how intersection observer fits into all of this. I recall writing one event loop test and that failed everywhere. 
-Don't think keeping the issue open is going to do anything else other than nag me to look at it. 
+David: Specifying what's actually shipped and if it is interoperable. My concern was that the HTML event loop spec is not specified clearly enough and not very interoperable. So then, how intersection observer fits into all of this. I recall writing one event loop test and that failed everywhere.
+Don't think keeping the issue open is going to do anything else other than nag me to look at it.
 
 Peter: Specifying the event loop has been a long time coming :) and not there still.
 
@@ -171,16 +171,16 @@ Dan: agreed.
 Ken: We talked about schemes with microsoft. If you open something with a protocol handler, that has to be a different scheme. How does that tie in?
 
 Ken: why does this need to be specified? Interop?  Not really a whole new thing – just about moving people to https. If there's something else here than it needs to be pointed out – something more fundamentally different.
-  
+
 #### [WebCodecs](https://github.com/w3ctag/design-reviews/issues/433) - @cynthia, @dbaron
 
 [bumped but we can still chat in the plenary]
 
 ## Plenary Session - [2020-03-25](https://www.timeanddate.com/worldclock/converter.html?iso=20200325T210000&p1=224&p2=43&p3=136&p4=195&p5=248&p6=240)
 
-Present: Dan Kenneth David Rossen Yves Peter Tess
+Present: Dan, Kenneth, David, Rossen, Yves, Peter, Tess
 
-Regrets: Alice Sangwhan Hadley
+Regrets: Alice, Sangwhan, Hadley
 
 * Breakout Rollup
 
@@ -291,21 +291,21 @@ Dan: feels like this should be a elaboration on secure contexts..
 
 Peter: yes it is.  Takes the existing notion of secure contexts and redefining it as secure context: transport.
 
-Yves: parameterize things ... 
+Yves: parameterize things ...
 
-Dan: issue of complexity for the developer... 
+Dan: issue of complexity for the developer...
 
 Peter: i gave this feedback - confusing for authors - mike's response is that a lot of these switches are orthogonal.  Having these as primitive switches as a starting point.. and then simplifying. that's reasonable.
 
-Dan: my concern is that there is an unintended consequence of some kind because of the complexity - 
+Dan: my concern is that there is an unintended consequence of some kind because of the complexity -
 
 Peter: it'll be more an issue of author/developer confusion..... a feature will not work, they will find they have to turn off a switch (e.g. cors) and people will add a header without understanding it which could witch could cause additional issues. With that said I do think it's worth locking down some stuff.
 
-Dan: could we encourage them to do something more for developers - a wizard or flow chart of some kind... that could help peo (e.g. cors) and people will add a header without understanding it which could 
+Dan: could we encourage them to do something more for developers - a wizard or flow chart of some kind... that could help peo (e.g. cors) and people will add a header without understanding it which could
 
 Yves: here... in our feedback we can say we don't want this to have the same fate as  hpkp  - so guidance for developers is needed.
 
-Dan: can we leave that feedback and then say but other than that it looks good to us.  
+Dan: can we leave that feedback and then say but other than that it looks good to us.
 
 Peter: they do see a path to having a higher level path for setting these modes. having one place to go to to help them use this feature would be a good thing.
 

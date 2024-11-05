@@ -44,7 +44,7 @@ Raw minutes: ...
 
 ## Call Minutes
 
-### Breakout A 
+### Breakout A
 
 Present: Dan, Ken, Amy, Peter, Yves, Hadley, Rossen
 Guests: Kaustubha Govind, Harneet Sidhana
@@ -125,7 +125,7 @@ Dan: is that wording about user journesy centered in the... how do you define.. 
 
 Kaustubha: the original intent was to support these common user journeys, whether its consent management or login, use cases in the explainer. if you look at the policy document, we talk about common user journeys being one of the things we considered as a policy requirement and eliminated it. I've brought this up in privacy cg, if folks could think of a way to enforce it we'd be happy to reconsider. The challenge when we were analysing this in google was unless you had someone auditing all of your server code for the same journey it's harder to do that. It's a recommendation to the site owner rather than a requirement. Only form a first party set where you need to create this common user journey across these domains.
 
-Amy: wrapping my head around org having disjoint sets but still sharing data that's come through both of those sets internally.  
+Amy: wrapping my head around org having disjoint sets but still sharing data that's come through both of those sets internally.
 
 Kaustubha: when we talk generally about 3p cookies or any interventions, we assume sites are using clinetside state to share data across those domains, they don't have to use clientside, they could do backend joins on the server. I'd say that's out of scope for fps. We're specifically talkinga bout what clientside mechanisms or state you could have to share across those domains and how we can organise that and restrict that.
 
@@ -139,7 +139,7 @@ Kaustubha: I think it's gonna have to be a manual test... Get current position .
 
 Amy: Yeah from my perspective it's not about what the UI looks like (also because of non-visual UIs). Important to get it into the spec.
 
-Kaustubha: The third issue [about corporate structures]... Amy you refered to [UA policy document](https://github.com/privacycg/first-party-sets/blob/main/ua_policy_proposal.md) .. we have 4 diff bullet points - when there is an independent enforcement entity they will do work to enforce thos. When it comes to the actual enforcement we will need to talk to folks like Disconnect.me - to operationalize enforcement.  We were trying to navigate that balance... listed 4 different options - how to bubble up group identity to users.  Parent company just one of them. Co-branding slighlty different.  We use parent company loosely... intent to 
+Kaustubha: The third issue [about corporate structures]... Amy you refered to [UA policy document](https://github.com/privacycg/first-party-sets/blob/main/ua_policy_proposal.md) .. we have 4 diff bullet points - when there is an independent enforcement entity they will do work to enforce thos. When it comes to the actual enforcement we will need to talk to folks like Disconnect.me - to operationalize enforcement.  We were trying to navigate that balance... listed 4 different options - how to bubble up group identity to users.  Parent company just one of them. Co-branding slighlty different.  We use parent company loosely... intent to
 
 Dan: feedback rooted in discussion of the ways that different countries think about corporate structures that may or may not relate to data ownership. I have a concern about how it works across borders. How does this work in a country where there are frosty relationships with say the enforcement agency is a US nonprofit - what if now I as an Iranian media company want to use fps? There are laws in the US that forbid US orgs fromw working with Iranian orgs. This came up a couple of years ago because there were people of IRanian background and Slack was banning their accounts because they seemed to have been connecting to Slack from Iranian IP addresses when they were Iranian expats possibly in the UK who happened t have been visiting their families. That incident resonated with me. How does it work in these international scenarios?
 
@@ -151,7 +151,7 @@ K: I don't know how it works in the pki world, the CAs are different from the re
 
 Dan: I do feel .. what we build.. we have this One Web principle, and we're also trying to make sure what we build is applicable to small web providers as well as large web providers. FPS should work for a chain of barbershops in manchester as much as it works for facebook and all the facebook properties. It should work across international borders. Anything we build should be applicable to small web as well as large web.
 
-K: stuff to think about - will find out about PKI.  I did want to dig on the question on the random spot checks.  If someomne abuses that - then originally - when we proposed the policy a site would submit a list of domains and someone would check - including checking ownership.  Some of the TAG feedback was that it doesn't seem scalable.  In the dieconnect case it's not the entire web - they first have a blocklist and then an allowlist on top of it - and so we talked to some lawyers and .. common privacy policy common identity... were discussed. We could perceive tech checks but ownership is the hard one. Legal counsel says: if a company misrepresents the ownership structure that's in the pervue of the regulatory body they operate under - there are implications. We should make the definition crisper - and an org asserts that this is correct then the legal implications are a deterrent. We have built in abuse reporting as well - revoking - block list for misuers... 
+K: stuff to think about - will find out about PKI.  I did want to dig on the question on the random spot checks.  If someomne abuses that - then originally - when we proposed the policy a site would submit a list of domains and someone would check - including checking ownership.  Some of the TAG feedback was that it doesn't seem scalable.  In the dieconnect case it's not the entire web - they first have a blocklist and then an allowlist on top of it - and so we talked to some lawyers and .. common privacy policy common identity... were discussed. We could perceive tech checks but ownership is the hard one. Legal counsel says: if a company misrepresents the ownership structure that's in the pervue of the regulatory body they operate under - there are implications. We should make the definition crisper - and an org asserts that this is correct then the legal implications are a deterrent. We have built in abuse reporting as well - revoking - block list for misuers...
 
 Dan: is that documented in the explainer?
 
@@ -167,7 +167,7 @@ Dan: Can I encourage you write something?
 
 #### [SameParty cookie attribute](https://github.com/w3ctag/design-reviews/issues/595) - @hober, @ylafon, @hadleybeeman, @atanassov
 
-### Breakout B 
+### Breakout B
 
 Present: Peter, Rossen
 
@@ -192,7 +192,7 @@ Amy: suggesting a "dystopia avoidance" questionnaire which also includes environ
 
 Sangwhan: possible for inclusiuon in this doc: Anything should not have an exponential increase of energy as you use it.  Toxic pattern: Bundling of JS applications ; How do we fix this? Https has higher overhead because of these inefficiencies and how do we address this?  https is here to stay but how do we make it better?
 
-Dan: steers the conversation in a more positive direction. 
+Dan: steers the conversation in a more positive direction.
 
 Yves: many cahce ineffeciences are not due to secure contexts, but timing
 
@@ -214,7 +214,7 @@ Dan: I'm hearing two documents coming out of this discussion. Finding about cach
 
 ### Plenary Session
 
-Present: Dan, Peter, Yves, Sangwhan Lea, Hadley, Amy
+Present: Dan, Peter, Yves, Sangwhan, Lea, Hadley, Amy
 
 #### https://github.com/w3ctag/design-reviews/issues/414 Trust Token
 
@@ -228,7 +228,7 @@ Dan: We will discuss next week.
 
 ##### Breakout A
 
-Amy: discussion with FPS. Felt like K went through the points left in my feedback but still some doubts. Also left a comment on more things we'd like to hear from them on. 
+Amy: discussion with FPS. Felt like K went through the points left in my feedback but still some doubts. Also left a comment on more things we'd like to hear from them on.
 
 Dan: response about international applicability was something like not everyone has to use this. But aren't we building stuff everyone wants to use? Eg. if you had an org in a particular country repsonsible for curating fps and judging whether certain parties are part of the same party how is that going to work when certain countries bar commerce with other countries, vs dns where yes there are questionsa bout centralisation but at least individual countries control their own name registries so you don't have that issue. That was one thing they were going to come back to us on.
 

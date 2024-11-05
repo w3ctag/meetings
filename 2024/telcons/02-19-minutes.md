@@ -59,7 +59,7 @@ Present: Dan, Yves, Matthew, Amy
 
 Amy: I read Manu's feedback.  I think it's fine.  The group have thought about it... However I don't havea  strong opinion about the polyglot issue. And it's clear that Tess does. https://tess.oconnor.cx/2023/09/polyglots-and-interoperability  Manu asked for an official TAG perspective. We have [this issue](https://github.com/w3ctag/design-principles/issues/239)
 
-Dan: one outcome for this could be that we say "no consensus"... 
+Dan: one outcome for this could be that we say "no consensus"...
 
 Amy: feels like a debate that has been going on for many years without a wrong or right answer...
 
@@ -73,7 +73,7 @@ Amy: I'll draft a comment, and put it in design reviews chat and ping Tess
 
 <blockquote>
 Thanks for your detailed reply, and patience as we work our way through our backlog. Sorry that we missed your CR deadline.
-  
+
 * We have a general concern about the potential harm caused by malicious issuers, but that applies to the whole ecosystem, rather than the data model spec specifically.
 * We don't have a consensus position on polyglot formats, and we don't think the TAG can add anything of value by getting involved in the debate in the context of this spec. We note [an open design principles issue on the topic here](https://github.com/w3ctag/design-principles/issues/239).
 </blockquote>
@@ -82,13 +82,13 @@ Thanks for your detailed reply, and patience as we work our way through our back
 
 Amy: feedback from ping is that this could be a cross-origin unique identifier and they should stop. https://github.com/w3cping/privacy-request/issues/127#issuecomment-1932531261  The spec acknowledges the privacy concerns...
 
-Dan: Ok with *satisfied with concerns* 
+Dan: Ok with *satisfied with concerns*
 
 Amy: will make it clear that we're satisfied that you're thinking about this - not because we don't think it needs to be resolved - specifically the privacy issue - not that we don't think it needs to be resolved.
 
 <blockquote>
 Thanks for your comprehensive reply, and for your patience while we loaded this back into our collective heads.
-  
+
 We think it's important that you continue to explore and elaborate on mitigations for the privacy concerns raised in this thread, and [in the horizontal review with PING](https://github.com/w3cping/privacy-request/issues/127). We're closing this as 'satisfied with concerns' because it's clear that you intend to do so, though we think it's important that these issues are resolved before the spec goes to REC.
 </blockquote>
 
@@ -104,11 +104,11 @@ Dan: doesn't sound like it's worth it
 
 Matthew: agree. I don't think it can be improved by making the obvious change. I think it would end up being more confusing. Also label, labelledBy, description, describedBy map to the two most important things about an element. Name and description being consistent with each other is more important than other things are.
 
-Matthew: Yves asked about translation wrt to the properties like description, role description and label, and the fact the attirbute value is a user facing string. 
+Matthew: Yves asked about translation wrt to the properties like description, role description and label, and the fact the attirbute value is a user facing string.
 
 Yves: my main concern was i18n's reaction to that kind of thing - just a string with no indication of language
 
-Matthew: good question. I didn't find any discussion around concerns raised by i18n. There have been these flat string attributes in for a very long time, so plenty of time for i18n to object if they were going to. Did want to spend more time looking at how translation works. It's not my area of expertise. I did find [a section in the spec about translatable attributes](https://www.w3.org/TR/wai-aria-1.3/#translatable-attributes) and it does talk about how that works, which attributes are expected to be localisable, and it gives a list. Minor bug - aria-description which is new isn't included in that list, which is clearly a bug, it's obviously supposed to be. I'll file an issue on the spec. 
+Matthew: good question. I didn't find any discussion around concerns raised by i18n. There have been these flat string attributes in for a very long time, so plenty of time for i18n to object if they were going to. Did want to spend more time looking at how translation works. It's not my area of expertise. I did find [a section in the spec about translatable attributes](https://www.w3.org/TR/wai-aria-1.3/#translatable-attributes) and it does talk about how that works, which attributes are expected to be localisable, and it gives a list. Minor bug - aria-description which is new isn't included in that list, which is clearly a bug, it's obviously supposed to be. I'll file an issue on the spec.
 
 Matthew: for APA specifically - consider recommending adding slightly stronger wording against the use of things like aria label, description, role description - I've seen a lot of misuse of them. But it's valid that it's there, people need to use it right. There's pretty good guidence on how to do that. Maybe APA should add a stronger note to discourage that. We see a lot of overuse of aria label. There is a really strong note against over use of braille label and braille description.
 
@@ -128,7 +128,7 @@ Dan: it's asking us to weigh in about copyright and licensing. of content hoover
 
 Yves: https://www.theverge.com/24067997/robots-txt-ai-text-file-web-crawlers-spiders
 
-Amy: I agree - weighing in on copyright and IP is too low level for the Ethical Web Principles... the higher level issue is the extractive use of labour ... which would cover that... 
+Amy: I agree - weighing in on copyright and IP is too low level for the Ethical Web Principles... the higher level issue is the extractive use of labour ... which would cover that...
 
 Yves: also copyright is not the same in all countries...
 
@@ -136,7 +136,7 @@ Amy: sort of covered by harm to society, freedom of expression, individual contr
 
 ### Breakout B (California / Europe)  - [2024-02-19](https://www.timeanddate.com/worldclock/converter.html?iso=20240219T210000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
-Present: Amy, Peter, Yves, 
+Present: Amy, Peter, Yves,
 Regrets: Lea, Hadley
 
 #### [FedCM multi IDP support](https://github.com/w3ctag/design-reviews/issues/803) - @rhiaro, @plinss
@@ -167,11 +167,11 @@ Peter: [leaves comment]
 
 Amy: they replied to Dan's questions...
 
-Peter: it's been renamed to LoginStatus API and there's an [open issue on privacy cg](https://github.com/privacycg/is-logged-in/issues/55).. there's a pr about merging ipd sign in status to the api... 
+Peter: it's been renamed to LoginStatus API and there's an [open issue on privacy cg](https://github.com/privacycg/is-logged-in/issues/55).. there's a pr about merging ipd sign in status to the api...
 
 Amy: looks like they made some progress at tpac, but don't say what it is
 
-Peter: inclination is to ask them for current status, exlpainer is 404 and things seem to be in flux. The privacy cg has an explainer in it now... 
+Peter: inclination is to ask them for current status, exlpainer is 404 and things seem to be in flux. The privacy cg has an explainer in it now...
 
 Amy: last update was 3 years ago that can't be it
 
@@ -327,7 +327,7 @@ Regrets:
 
 #### [TAG review for web app `scope_extensions`](https://github.com/w3ctag/design-reviews/issues/875) - @torgo, @ylafon
 
-Max: read this proposal... seems that we asked a question about uniqueness of the identifier -- they gave an answer abnout that... 
+Max: read this proposal... seems that we asked a question about uniqueness of the identifier -- they gave an answer abnout that...
 
 Yves: it's not clear that IDs can't be spoofed - if it's a hash for example it's potentially fake-able. Also the scope extension is to extend the origin - the URL plus other origins... If the ID is tied to the URL then do they have multiple APP ids?  I'll look at that more closely to see how they are doing that...  If an app served from site-a,com wants to serve content rom site-b.com, site-b.com must be aware and accepting that...   Maybe we could have them on a call?
 
@@ -335,7 +335,7 @@ Dan: I will reach out to Diego...
 
 #### [Early Design Review: Opener Protections](https://github.com/w3ctag/design-reviews/issues/916) - @torgo, @matatk, @hadleybeeman
 
-Dan: they've updated their explainer with some additional examples... https://github.com/arichiv/opener-storage-partitioning/pull/3 
+Dan: they've updated their explainer with some additional examples... https://github.com/arichiv/opener-storage-partitioning/pull/3
 
 Max: they have 2 proposals in their explainer... do they want both proposals reviewed?
 
@@ -344,7 +344,7 @@ Max: they have 2 proposals in their explainer... do they want both proposals rev
 
 ### Plenary Session - [2024-02-21](https://www.timeanddate.com/worldclock/converter.html?iso=20240221T200000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
-Present: Amy, Matthew, Dan, Martin, Yves, Peter, Hadley  
+Present: Amy, Matthew, Dan, Martin, Yves, Peter, Hadley
 Regrets: Lea, Max, Tess
 
 #### New TAG Work Mode Proposal
@@ -399,9 +399,9 @@ Dan: isn't this the same problem that miniapps folks are trying to solve?
 
 Martin: it may be in the same kind of space... miniapps are you have an app and you want to ship it by an intermediary... in this case an intermediary may be a solution.. but that's the part where [it's vague].
 
-Matthew: similar problem... to distribute apps via and app store .. but they are trying to do this without a designated party that everyone trusts... 
+Matthew: similar problem... to distribute apps via and app store .. but they are trying to do this without a designated party that everyone trusts...
 
-Peter: i get what they're trying to do but a lot of holes in the technology... 
+Peter: i get what they're trying to do but a lot of holes in the technology...
 
 Matthew: I got the impression that they didn't necesarilly have much agreement about the UI stuff that we talked about.  The user journey from something super powerful and something you just added to the home screen...
 
@@ -413,7 +413,7 @@ Dan: i get the use case ... but it feels like they could work on that use case..
 
 Martin: the other use case is raw sockets... tcp and udp directly... the answer to that is well.. don't. use the network capabilities that respect the security model...
 
-Peter: this sort of thing has come up before and will come up again... OS's don't even get this right so where we draw the line ... 
+Peter: this sort of thing has come up before and will come up again... OS's don't even get this right so where we draw the line ...
 
 #### AOB
 
@@ -427,7 +427,7 @@ Dan: the broader thing seems to be the topic of multi engine support on iOS. Reg
 
 Martin: encourage you to think about the core arguments you'd be making and whether or not they are web arguments or if they're outside of the web. Do they affect the web? Are they aspects of the web that are being changed by these decisions? Certainly the PWA example fits within that. If this is a question about cntrol of the platform and questions like that I'm not sure.. we'd have to be very careful
 
-Dan: for me it's about the web. 
+Dan: for me it's about the web.
 
 Yves: is it related to what engine will run an installed web app?
 

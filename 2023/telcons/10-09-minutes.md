@@ -145,7 +145,7 @@ Lea: It's so incremental, doesn't require TAG review
 
 Peter: agree
 
-Lea: fast track? 
+Lea: fast track?
 
 Peter: naming is unfortunate, but good to close
 
@@ -172,13 +172,13 @@ As part of the review we also looked at the [fingerprinting concerns raised by W
 
 Thank you for flying TAG!
 
-  
+
 </blockquote>
 
 
 ## Breakout C
 
-Present: Dan Max Yves Amy Sangwhan
+Present: Dan, Max, Yves, Amy, Sangwhan
 
 Regrets:
 
@@ -197,7 +197,7 @@ Sanghwan: *to follow up with Fergal*
 
 Amy: Did anyone meet with them at tpac? I completely forgot we said we'd do this, and didn't make it to any of their meetings. Can we punt this? It doesn't feel like a priority, although it's an opportunity to get ahead of the game for their next charter..
 
-Dan: to my knowledge nobody talked to WoT people at TPAC... 
+Dan: to my knowledge nobody talked to WoT people at TPAC...
 
 Dan: considering how much we have on our plate right now I suggest we apologise and let them know we haven't been able to get to it but they should send us a review request during next charter period...
 
@@ -209,17 +209,17 @@ We're really sorry we didn't manage to arrange a time to meet with you at TPAC. 
 
 Dan: there was some discussion about this at TPAC - reflected by [Rick Byers's comment from 3 weeks ago](https://github.com/w3ctag/design-reviews/issues/831#issuecomment-1723578050).
 
-Sangwhan: I am mroe of a pragmatist... 
+Sangwhan: I am mroe of a pragmatist...
 
-Dan: they want to switch to a trust model for embedding user data... they talked about PII Input as a name.. but it's a loaded term... but that's bikeshedding, the idea behind it sounded really good. Decouples the isue from autofill and makes it more about 
+Dan: they want to switch to a trust model for embedding user data... they talked about PII Input as a name.. but it's a loaded term... but that's bikeshedding, the idea behind it sounded really good. Decouples the isue from autofill and makes it more about
 
-Sangwhan: 
+Sangwhan:
 
 Yves: question - is auto-fill only available on form inputs that re visible? Or can it be done for hidden fields?
 
-Sagnwhan: i believe it can be done for hidden but in a "hackey" way... there are some hacks ... not standard behavior. 
+Sagnwhan: i believe it can be done for hidden but in a "hackey" way... there are some hacks ... not standard behavior.
 
-Yves: auto-fill credit card info in a hidden field feels quite unsafe... 
+Yves: auto-fill credit card info in a hidden field feels quite unsafe...
 
 Sangwhan: agreed. I'm okay with what they're doing here
 
@@ -259,7 +259,7 @@ Sangwhan: can I get back to you in a week? I misunderstood what this is.
 
 ### [ServiceWorker static routing API](https://github.com/w3ctag/design-reviews/issues/863) - @torgo, @maxpassion
 
-Max: No response from comment...  We gave them the comment that there is no standardization for URLPattern.  They gave some feedback...  
+Max: No response from comment...  We gave them the comment that there is no standardization for URLPattern.  They gave some feedback...
 
 Dan: I don't think it's appropriate for the TAG to go chasing other browser vendors on behalf of Google...  My propoosal is to close this with "satisfied with concerns" - the concerns being that this is built on top of a spec that is not being standardized anywhere...  The design is fine and considering that as [Ken said](https://github.com/w3ctag/design-reviews/issues/863#issuecomment-1706146215) on sep 5, there's a polyfill available...
 
@@ -281,7 +281,7 @@ Amy: let's punt and I can get some explainers... Tess wrote a blog post about po
 
 Dan: ...same origin.. malicious apps.. exploits? Manifest file that in some ways mirrors the functions of FPS.. but on a web app basis.. we want to be clear about the scope
 
-Yves: basically that. Also wondering why they don't do cryptographic verification of the other origin they want to add in like it's done for some other places. Like what we ask from miniapps. We want to ensure that the other origin that we want to cover allows being embedded in this web app. Nothing there that talks about that. 
+Yves: basically that. Also wondering why they don't do cryptographic verification of the other origin they want to add in like it's done for some other places. Like what we ask from miniapps. We want to ensure that the other origin that we want to cover allows being embedded in this web app. Nothing there that talks about that.
 
 Dan: given the response could you leave that feedback?
 
@@ -334,13 +334,13 @@ Rossen: Closed 2 issues in breakout C- short CSS proprosals for media features -
 
 Amy: 3 other privacy sandbox ones - "Chrome plans to gate this behind ... method..." Reg process... you have to get a number (a company number) - it seems problematic for web platform.
 
-Amy: first party sets -> related web sets. Spec has changed a lot. notes in the slack... 
+Amy: first party sets -> related web sets. Spec has changed a lot. notes in the slack...
 
 Dan: let's discuss further and maybe we can have a focused call on this with Privacy Sandbox folks...
 
-Any: still want to close Topics... 
+Any: still want to close Topics...
 
-Peter: 858 - marked as proposed closed... 
+Peter: 858 - marked as proposed closed...
 
 Rossen: will follow up offline with Tess and try to close.
 
