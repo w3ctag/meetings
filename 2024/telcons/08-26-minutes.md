@@ -159,7 +159,8 @@ Dan: we can review at the plenary.
 
 ### Breakout D (California / Australia) - [2024-08-27](https://www.timeanddate.com/worldclock/converter.html?iso=20240827T220000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
-Present: Tess, Jeffrey; Regrets: Martin
+Present: Tess, Jeffrey
+Regrets: Martin
 
 #### [Early design review: Storage Access Headers](https://github.com/w3ctag/design-reviews/issues/982) - @hober, @martinthomson, @jyasskin
 
