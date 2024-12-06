@@ -5,8 +5,6 @@
 Present: Dan, Peter, Hadley, Amy, Martin, Jeffrey, Matthew, Lea
 Guest: Henry Thompson (TAG alumnus)
 
-https://docs.google.com/spreadsheets/d/1D7low9ygKMXzzFcClTh5Q75JQwHTLdzpW0qPv1BSsUU/edit?gid=2137553177#gid=2137553177
-
 ## Discussion on Related Website Sets feedback
 
 We agree to revise the "first party sets" feedback to reflect that it's called related web site sets.
