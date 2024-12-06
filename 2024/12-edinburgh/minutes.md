@@ -5,7 +5,7 @@
 Present: Dan, Peter, Hadley, Amy, Martin, Jeffrey, Matthew, Lea
 Guest: Henry Thompson (TAG alumnus)
 
-## Discussion on Related Website Sets feedback
+### Discussion on Related Website Sets feedback
 
 We agree to revise the "first party sets" feedback to reflect that it's called related web site sets.
 
@@ -13,11 +13,11 @@ https://github.com/w3ctag/design-reviews/pull/1022
 
 *consensus to merge - we merge*
 
-## Design reviews vs other topics
+### Design reviews vs other topics
 
 *consensus to focus on other topics in this f2f - especially design principles*
 
-## We discuss Design Principles for Web Developers
+### We discuss Design Principles for Web Developers
 
 Dan: we could use the same approach that we have used in the privacy principles document - labels.
 
@@ -329,7 +329,7 @@ Martin: let's float it with the larger group?
 
 https://github.com/w3ctag/design-reviews/pull/1025/files
 
-### Google antitrust response
+### Taps
 
 
 ```
@@ -364,7 +364,6 @@ We have solved it. Write a standard.
 
 Side discussion: toilet flush buttons
 
-### Feedback from AC forum
 
 ### Retro
 
@@ -388,7 +387,7 @@ Topics:
 * Relevance
 
 
-### Technical leadership
+#### Technical leadership
 
 Henry Thompson: when did the TAG start providing technical leadership? The Team used to do that
 
@@ -436,7 +435,7 @@ Round question: How can we provide technical leadership?
 one issue per topic, with an owner, to track the progress on it. 
 * Git projects board, run like an open source project.
 
-### Time allocation
+#### Time allocation
 
 Dan: in the context of the list of possibilities above, what should be spending our time on? We've said we don't want to drop design reviews, how should we be prioritising?
 
@@ -856,8 +855,6 @@ This should probably be part of the run-to-completion section (see https://githu
 *We discuss the situation with the Security & Privacy questionnaire and **agree** to hand this document over to become jointly owned by Security Interest Group / Privacy Working Group.*
 
 
-### LUNCH BREAK
-
 ### Web as a Commons
 
 Present: Dan, Hadley, Yves, Matthew, Peter, Jeffrey, Amy, Martin, Tess, Henry Thompson
@@ -1079,13 +1076,13 @@ Martin: not convinced. When someone is trying to do a good job they'll say they'
 
 Lea: we should link to thinks. Sounds like you have consensus.
 
-*merge 505 and close 472*
+**merge 505 and close 472**
 
 Martin: I will get other issues open.
 
 **[TAG alum](https://github.com/w3ctag/design-principles/pull/530)**
 
-*merged*
+**merged**
 
 **[Restrictions](https://github.com/w3ctag/design-principles/pull/363)**
 
@@ -1102,8 +1099,6 @@ Martin: didn't follow up on some of this. legend caption and figcaption as same 
 Lea: adding another example is not a blocker for merging. Leave a comment.
 
 Tess: Anne left a comment about adding some nuance .. input element as example. Discrimination based on type attribute was a hideous mistake and we're all very sad about it but we shouldn't slam the door completely shut on making small enhancements to input. There are cases eg the switch control which are arguably preferable
-
-Jeffrey: lol
 
 Lea: the reason input is such an antipattern is because the different modes require different api surface. Applies to some modes and not others which creates mode errors - where users make mistakes because they think theyr'e in one mode and actually in another, so discouraged. This is the same thing but applied to syntax. Attributes that only apply when other attributes are present. Same thing in CSS. a property that only works when another propery is set that leads to confusion. If the api makes sense and you just need a different presentation like switch then it's fine. Problem with input link is that you have to add all these different properites and attributes. That's why caption figcaption and legend should have been the same element, no different API surface.
 
@@ -1596,7 +1591,7 @@ ACTION: Tess writeup for AC about link previews gap and send to Dan
 
 ACTION: Dan write summary email to AC about the face-to-face
 
-### In thunder in lightning or in rain
+### In thunder in lightning or in rain (wrap-up session)
 
 #### When shall we [12] meet again
 
@@ -1612,15 +1607,15 @@ Agreed: 3-7 March, holding for next f2f. Venue pending new TAG members and trave
 
 <blockquote>
   
-## TAG Associate Program
+### TAG Associate Program
 
-### Purpose
+#### Purpose
 
 In order to build a community around the TAG, help to make TAG design reviews more impactful, and create a pipeline for prospective new TAG members, the TAG have agreed to create a TAG Associate mechanism. TAG Associates would be officially designated and would have specific duties and responsibilities, but would not be considered TAG members. 
 
 A larger community will help us do the work we do. More people make it easier for us to do more design reviews. A broader set of expertise allows us to provide more substantive technical leadership.
   
-### Process
+#### Process
 
 The TAG may appoint "associate members" by consensus. 
 
@@ -1651,7 +1646,7 @@ Launch via coralie email to AC. Frame carefully so it's clearly not bypassing el
 
 [Definition](https://docs.google.com/document/d/1DcN1IkdxKPbTZFa2vzqEaYgyP9LTqQEjjIBY3PXLbV0/edit?usp=sharing)
 
-[Lots of iteration]
+*Lots of iteration*
 
 There's consensus on the above definition.
 
