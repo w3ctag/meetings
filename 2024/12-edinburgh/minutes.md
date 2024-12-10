@@ -983,7 +983,7 @@ What needs to change in this doc before we're ready to share with academics?
 
 Broader engagement? With commons experts?
 
-Find someone to do a PhD on this. ISC Conference in June. CfP is closed. But we are special. Could attend.
+Find someone to do a PhD on this. ISC Conference in June. CfP is closed, but maybe we can participate or attend in a way that doesn't need a paper.
 
 "Stop exploiting the web" finding - but framed as "web as a commons" ... we could publish something quite small and comparatively quickly - that leans on this work. Buttress it later with academic involvement.
 
