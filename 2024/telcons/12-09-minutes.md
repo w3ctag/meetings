@@ -17,11 +17,8 @@
 * [Early Design Review: Partitioned Popins](https://github.com/w3ctag/design-reviews/issues/956) - @LeaVerou, @matatk, @hadleybeeman
 * [Web Authentication's PublicKeyCredential signal methods](https://github.com/w3ctag/design-reviews/issues/996) - @jyasskin, @maxpassion
 * [ Vision for W3C: request horizontal architectural review and wide TAG review](https://github.com/w3ctag/design-reviews/issues/1008) - @hober, @jyasskin, @rhiaro
-
 * Releasing ballots?
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
-
-
 
 ## Plenary Session
 
