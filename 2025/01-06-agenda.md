@@ -26,6 +26,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Local Peer-to-Peer API](https://github.com/w3ctag/design-reviews/issues/932) - @LeaVerou, @ylafon, @maxpassion
 * [ClipboardChange event API](https://github.com/w3ctag/design-reviews/issues/1017) - @torgo, @matatk
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
+* Societal Impacts
 
 ### Plenary Session - [2025-01-09](https://www.timeanddate.com/worldclock/converter.html?iso=20250109T070000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
