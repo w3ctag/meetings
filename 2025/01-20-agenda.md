@@ -33,18 +33,13 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Logistics
 
-Chair: Peter
-
-Scribe:
-
-Bridge: https://whereby.com/w3ctag first then going to https://meet.jit.si/w3ctag as a back-up
+Chair: Dan
 
 *Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2025/telcons/01-20-minutes.md
 
-Raw minutes: ...
-
+Raw minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/D-MhP8GW4JEteeYhJ8CxfW-CI7QnxfIqq4E8hZo2saM/
 
 ### Local Call Times
 
