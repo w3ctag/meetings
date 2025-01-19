@@ -22,6 +22,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Final Review Request of seven (7) W3C VCWG Specifications](https://github.com/w3ctag/design-reviews/issues/1029) - @torgo, @hadleybeeman
 
 ### Plenary Session - [2025-01-23](https://www.timeanddate.com/worldclock/converter.html?iso=20250123T070000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+* Appointees discussion with team [30 mins] 
 * [User-defined script "entry points" for performance timing](https://github.com/w3ctag/design-reviews/issues/1012)
 * [Paint/presentation timestamps in performance APIs](https://github.com/w3ctag/design-reviews/issues/1013)
 * [Document-Policy: expect-no-linked-resources](https://github.com/w3ctag/design-reviews/issues/1014)
