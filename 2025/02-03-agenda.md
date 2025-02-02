@@ -6,6 +6,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (California / Europe)  - [2025-02-03](https://www.timeanddate.com/worldclock/converter.html?iso=20250203T173000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 * [Document-Policy: expect-no-linked-resources](https://github.com/w3ctag/design-reviews/issues/1014) - @jyasskin, @torgo
+* Web as a Commons update?
 
 ### Breakout B (California / Australia) - [2025-02-04](https://www.timeanddate.com/worldclock/converter.html?iso=20250204T230000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 * [Delegation-oriented FedCM](https://github.com/w3ctag/design-reviews/issues/1039) - @martinthomson, @jyasskin, @marcoscaceres
@@ -19,20 +20,19 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Payment link type in HTML](https://github.com/w3ctag/design-reviews/issues/1015) - @torgo, @maxpassion, @hadleybeeman
 * [ClipboardChange event API](https://github.com/w3ctag/design-reviews/issues/1017) - @torgo, @matatk
 * [Final Review Request of seven (7) W3C VCWG Specifications](https://github.com/w3ctag/design-reviews/issues/1029) - @torgo, @hadleybeeman
+* Societal Impacts Questionnaire
 
 ### Plenary Session - [2025-02-06](https://www.timeanddate.com/worldclock/converter.html?iso=20250206T070000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
+* Breakout Rollup
 * reassign [Specification review for fenced frames](https://github.com/w3ctag/design-reviews/issues/838) - @hober, @rhiaro, @hadleybeeman, @plinss
 * reassign [Adding support for High Dynamic Range (HDR) imagery to HTML Canvas](https://github.com/w3ctag/design-reviews/issues/917) - @LeaVerou, @plinss
 * reassign [View Transition Classes](https://github.com/w3ctag/design-reviews/issues/938) - @martinthomson, @LeaVerou, @plinss
 * reassign [CSS if() function](https://github.com/w3ctag/design-reviews/issues/1045) - @LeaVerou
 * [User-defined script "entry points" for performance timing](https://github.com/w3ctag/design-reviews/issues/1012)
 * [Paint/presentation timestamps in performance APIs](https://github.com/w3ctag/design-reviews/issues/1013)
-
-2025-02-03-week
-
-* Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
+* Face-to-face update
 
 ### Logistics
 
@@ -46,7 +46,7 @@ Bridge: Meet URLs as listed in the meeting invites in the W3C calendar system
 
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2025/telcons/02-03-minutes.md
 
-Raw minutes: ...
+Raw minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/6syiOp5g3CngPEiCAcYDiOHx3unT9oc4+rb3Z9WG4ZA/
 
 
 ### Local Call Times
