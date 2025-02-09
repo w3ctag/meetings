@@ -38,7 +38,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Plenary Session - [2025-02-13](https://www.timeanddate.com/worldclock/converter.html?iso=20250213T070000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
-* Design Principles needs a new Editor
 * Design Principles PR: [New principle: A Promise represents completion or a value, not a callback (#342)](https://github.com/w3ctag/design-principles/pull/496) 
 * Design Principles PR: [Guidance about reflecting state in HTML attributes](https://github.com/w3ctag/design-principles/pull/501)
 * Design Principles PR: [Merge the HTTP guidance into the "consult other specs" section.](https://github.com/w3ctag/design-principles/pull/546)
