@@ -44,6 +44,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * Design Principles PR: [Merge the HTTP guidance into the "consult other specs" section.](https://github.com/w3ctag/design-principles/pull/546)
 * Design Principles PR: [Auto-publish the Design Principles.](https://github.com/w3ctag/design-principles/pull/549)
 * Design Principles PR: [Use names that describe purpose](https://github.com/w3ctag/design-principles/pull/550)
+* Call times discussion (proposal to be floated ahead of time based on member input)
 * Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
 
