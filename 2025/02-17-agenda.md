@@ -24,6 +24,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Plenary Session - [2025-02-20](https://www.timeanddate.com/worldclock/converter.html?iso=20250220T070000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
+* Chairs
 * [Final Review Request of seven (7) W3C VCWG Specifications](https://github.com/w3ctag/design-reviews/issues/1029) - @torgo, @marcoscaceres, @hadleybeeman
 * Agenda planning for f2f
 * Breakout Rollup
