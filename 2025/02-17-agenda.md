@@ -6,25 +6,26 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout A (California / Europe)  - [2025-02-17](https://www.timeanddate.com/worldclock/converter.html?iso=20250217T173000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
+* [Eligibility for autofill](https://github.com/w3ctag/design-reviews/issues/831) - @jyasskin, @torgo
+* [Signature-Based Integrity.](https://github.com/w3ctag/design-reviews/issues/1041) - @jyasskin, @csarven
+* [Unicode MessageFormat 2.0](https://github.com/w3ctag/design-reviews/issues/1042) - @jyasskin, @torgo
+* Agenda planning for f2f
+
 ### Breakout B (California / Australia) - [2025-02-18](https://www.timeanddate.com/worldclock/converter.html?iso=20250218T230000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+* [Delegation-oriented FedCM](https://github.com/w3ctag/design-reviews/issues/1039) - @martinthomson, @jyasskin, @marcoscaceres
+* Agenda planning for f2f
 
 ### Breakout C (Europe / China) - [2025-02-19](https://www.timeanddate.com/worldclock/converter.html?iso=20250219T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
-
-### Plenary Session - [2025-02-20](https://www.timeanddate.com/worldclock/converter.html?iso=20250220T070000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
-
-
-2025-02-17-week
-* [Eligibility for autofill](https://github.com/w3ctag/design-reviews/issues/831) - @jyasskin, @torgo
 * [Payment link type in HTML](https://github.com/w3ctag/design-reviews/issues/1015) - @torgo, @maxpassion, @hadleybeeman
 * [Normative Changes of the Input Events Level 2](https://github.com/w3ctag/design-reviews/issues/1019) - @matatk
 * [WebRTC API Proposed Amendments](https://github.com/w3ctag/design-reviews/issues/1026) - @matatk, @lolaodelola
 * [CSS `dynamic-range-limit`](https://github.com/w3ctag/design-reviews/issues/1027) - @torgo, @xiaochengh
-* [Final Review Request of seven (7) W3C VCWG Specifications](https://github.com/w3ctag/design-reviews/issues/1029) - @torgo, @marcoscaceres, @hadleybeeman
-* [Delegation-oriented FedCM](https://github.com/w3ctag/design-reviews/issues/1039) - @martinthomson, @jyasskin, @marcoscaceres
-* [Signature-Based Integrity.](https://github.com/w3ctag/design-reviews/issues/1041) - @jyasskin, @csarven
-* [Unicode MessageFormat 2.0](https://github.com/w3ctag/design-reviews/issues/1042) - @jyasskin, @torgo
 * [CSS.highlights.highlightsFromPoint API](https://github.com/w3ctag/design-reviews/issues/1043) - @torgo, @xiaochengh
 
+### Plenary Session - [2025-02-20](https://www.timeanddate.com/worldclock/converter.html?iso=20250220T070000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+
+* [Final Review Request of seven (7) W3C VCWG Specifications](https://github.com/w3ctag/design-reviews/issues/1029) - @torgo, @marcoscaceres, @hadleybeeman
+* Agenda planning for f2f
 * Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
 
