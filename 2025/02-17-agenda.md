@@ -9,6 +9,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Eligibility for autofill](https://github.com/w3ctag/design-reviews/issues/831) - @jyasskin, @torgo
 * [Signature-Based Integrity.](https://github.com/w3ctag/design-reviews/issues/1041) - @jyasskin, @csarven
 * [Unicode MessageFormat 2.0](https://github.com/w3ctag/design-reviews/issues/1042) - @jyasskin, @torgo
+* [New Install API](https://github.com/w3ctag/design-reviews/issues/1051) - @torgo
 * Agenda planning for f2f
 
 ### Breakout B (California / Australia) - [2025-02-18](https://www.timeanddate.com/worldclock/converter.html?iso=20250218T230000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
