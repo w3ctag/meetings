@@ -269,7 +269,7 @@ Matthew: our [APA]'s RTC experts have looked at it and I think are ok with it, b
 
 Present: Jeffrey, Hadley, Matthew, Dan, Christian, Sarven
 
-Regrets: Xiaocheng, Martin
+Regrets: Xiaocheng, Martin, Max
 
 #### Chairing
 
