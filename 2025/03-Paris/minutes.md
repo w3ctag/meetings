@@ -1,7 +1,7 @@
 # <abbr title="Technical Architecture Group">TAG</abbr> Minutes - March 2025 <abbr title="Face-to-face">F2F</abbr>
 
 * Present: Amy, Dan, Hadley, Jeffrey<!--, Lea-->, Lola, Marcos, Martin, Matthew<!--, Max-->, Peter, Sarven, Tess, Tristan, Xiaocheng, Yves
-* Regrets: 
+* Regrets: Max
 * Scribe: Amy
 
 ## Architecture of the Web ([slides](https://docs.google.com/presentation/u/0/d/1JNHUnDlnwCDbQAFc8SHdAM--cbC943XaYyCz3oxxHSE/edit))
