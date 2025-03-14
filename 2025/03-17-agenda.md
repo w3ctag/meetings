@@ -5,30 +5,25 @@ This agenda can be viewed and updated on [Github](https://github.com/w3ctag/meet
 If you would like to add an item to the agenda or volunteer to scribe please open a pull request against this agenda.
 
 ### Breakout A (California / Europe)  - [2025-03-17](https://www.timeanddate.com/worldclock/converter.html?iso=20250317T173000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
-
-### Breakout B (California / Australia) - [2025-03-18](https://www.timeanddate.com/worldclock/converter.html?iso=20250318T230000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
-
-* [CSS Overflow Navigation Controls](https://github.com/w3ctag/design-reviews/issues/1037) - @xiaochengh (with guest joining)
-
-### Breakout C (Europe / China) - [2025-03-19](https://www.timeanddate.com/worldclock/converter.html?iso=20250319T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
-
-### Plenary Session - [2025-03-19](https://www.timeanddate.com/worldclock/converter.html?iso=20250319T210000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
-
-
-2025-03-17-week
-* [Specification review for fenced frames](https://github.com/w3ctag/design-reviews/issues/838) - @hadleybeeman, @lolaodelola
 * [Accessibility conformance Testing (ACT) Rules Format 1.1](https://github.com/w3ctag/design-reviews/issues/977) - @jyasskin, @matatk
 * [User-defined script "entry points" for performance timing](https://github.com/w3ctag/design-reviews/issues/1012) - @matatk
 * [Paint/presentation timestamps in performance APIs](https://github.com/w3ctag/design-reviews/issues/1013) - @matatk
-* [ClipboardChange event API](https://github.com/w3ctag/design-reviews/issues/1017) - @torgo, @matatk
+
+### Breakout B (California / Australia) - [2025-03-18](https://www.timeanddate.com/worldclock/converter.html?iso=20250318T230000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 * [CSS Inline `text-box`, `text-box-trim`, and `text-box-edge` properties](https://github.com/w3ctag/design-reviews/issues/1021) - @xiaochengh
-* [Final Review Request of seven (7) W3C VCWG Specifications](https://github.com/w3ctag/design-reviews/issues/1029) - @torgo, @marcoscaceres, @hadleybeeman
-* [Unicode MessageFormat 2.0](https://github.com/w3ctag/design-reviews/issues/1042) - @jyasskin, @torgo
+* [CSS Overflow Navigation Controls](https://github.com/w3ctag/design-reviews/issues/1037) - @xiaochengh (with guest joining)
 * [CSS if() function](https://github.com/w3ctag/design-reviews/issues/1045) - @xiaochengh
-* [(brand new ✨) Web Install API](https://github.com/w3ctag/design-reviews/issues/1051) - @torgo
 * [CSS Scroll Buttons](https://github.com/w3ctag/design-reviews/issues/1054) - @xiaochengh
 * [CSS inert](https://github.com/w3ctag/design-reviews/issues/1055) - @xiaochengh
 
+### Breakout C (Europe / China) - [2025-03-19](https://www.timeanddate.com/worldclock/converter.html?iso=20250319T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+* [Specification review for fenced frames](https://github.com/w3ctag/design-reviews/issues/838) - @hadleybeeman, @lolaodelola
+* [Final Review Request of seven (7) W3C VCWG Specifications](https://github.com/w3ctag/design-reviews/issues/1029) - @torgo, @marcoscaceres, @hadleybeeman
+
+### Plenary Session - [2025-03-19](https://www.timeanddate.com/worldclock/converter.html?iso=20250319T210000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
+* [ClipboardChange event API](https://github.com/w3ctag/design-reviews/issues/1017) - @torgo, @matatk
+* [Unicode MessageFormat 2.0](https://github.com/w3ctag/design-reviews/issues/1042) - @jyasskin, @torgo
+* [(brand new ✨) Web Install API](https://github.com/w3ctag/design-reviews/issues/1051) - @torgo
 * Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
 
