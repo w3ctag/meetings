@@ -8,6 +8,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout B (California / Australia) - [2025-03-18](https://www.timeanddate.com/worldclock/converter.html?iso=20250318T230000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
+* [CSS Overflow Navigation Controls](https://github.com/w3ctag/design-reviews/issues/1037) - @xiaochengh (with guest joining)
+
 ### Breakout C (Europe / China) - [2025-03-19](https://www.timeanddate.com/worldclock/converter.html?iso=20250319T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 
 ### Plenary Session - [2025-03-19](https://www.timeanddate.com/worldclock/converter.html?iso=20250319T210000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
@@ -21,7 +23,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [ClipboardChange event API](https://github.com/w3ctag/design-reviews/issues/1017) - @torgo, @matatk
 * [CSS Inline `text-box`, `text-box-trim`, and `text-box-edge` properties](https://github.com/w3ctag/design-reviews/issues/1021) - @xiaochengh
 * [Final Review Request of seven (7) W3C VCWG Specifications](https://github.com/w3ctag/design-reviews/issues/1029) - @torgo, @marcoscaceres, @hadleybeeman
-* [CSS Overflow Navigation Controls](https://github.com/w3ctag/design-reviews/issues/1037) - @xiaochengh
 * [Unicode MessageFormat 2.0](https://github.com/w3ctag/design-reviews/issues/1042) - @jyasskin, @torgo
 * [CSS if() function](https://github.com/w3ctag/design-reviews/issues/1045) - @xiaochengh
 * [(brand new ✨) Web Install API](https://github.com/w3ctag/design-reviews/issues/1051) - @torgo
