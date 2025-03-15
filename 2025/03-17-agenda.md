@@ -24,6 +24,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 ### Breakout C (Europe / China) - [2025-03-19](https://www.timeanddate.com/worldclock/converter.html?iso=20250319T080000&p1=224&p2=43&p3=136&p4=195&p5=26&p6=33&p7=248&p8=235)
 * [Specification review for fenced frames](https://github.com/w3ctag/design-reviews/issues/838) - @hadleybeeman, @lolaodelola
 * [Final Review Request of seven (7) W3C VCWG Specifications](https://github.com/w3ctag/design-reviews/issues/1029) - @torgo, @marcoscaceres, @hadleybeeman
+* [Early Design Review for Device Bound Session Credentials](https://github.com/w3ctag/design-reviews/issues/1052) - @lolaodelola, @martinthomson, @jyasskin
 * [Clarify which websites will be well internationalized.](https://github.com/w3ctag/ethical-web-principles/issues/146) - @torgo, @hadleybeeman, @jyasskin
 * [Improve Baseline text](https://github.com/w3ctag/the-web-is-not-versioned/pull/9) - @martinthomson, @jyasskin
 
@@ -32,6 +33,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [Unicode MessageFormat 2.0](https://github.com/w3ctag/design-reviews/issues/1042) - @jyasskin, @torgo
 * [(brand new ✨) Web Install API](https://github.com/w3ctag/design-reviews/issues/1051) - @torgo
 * Privacy principles consensus: [Rework retaliation text](https://github.com/w3ctag/privacy-principles/pull/458) and [Ancillary definition](https://github.com/w3ctag/privacy-principles/pull/459)
+* [Payment link type in HTML](https://github.com/w3ctag/design-reviews/issues/1015) - @hadleybeeman, @csarven, @martinthomson, @jyasskin, 
 * Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
 
