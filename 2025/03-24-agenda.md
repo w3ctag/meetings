@@ -22,18 +22,18 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 ### Breakout C (Europe / China) - [2025-03-26](https://www.timeanddate.com/worldclock/converter.html?iso=20250326T080000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 * [design-reviews: CSS Inline `text-box`, `text-box-trim`, and `text-box-edge` properties](https://github.com/w3ctag/design-reviews/issues/1021) - @xiaochengh
 * [design-reviews: Custom Functions (@function)](https://github.com/w3ctag/design-reviews/issues/1031) - @xiaochengh
-* [design-reviews: CSS Overflow Navigation Controls](https://github.com/w3ctag/design-reviews/issues/1037) - @xiaochengh
 * [design-reviews: CSS.highlights.highlightsFromPoint API](https://github.com/w3ctag/design-reviews/issues/1043) - @torgo, @xiaochengh
-* [design-reviews: CSS inert](https://github.com/w3ctag/design-reviews/issues/1055) - @xiaochengh
 * [design-reviews: CSS View Transitions - Nested View Transition Groups](https://github.com/w3ctag/design-reviews/issues/1061) - @xiaochengh
 * [design-reviews#1068: CSS Values and Units: sibling-count() and sibling-index()](https://github.com/w3ctag/design-reviews/issues/1068) - @xiaochengh
-* [design-reviews#1054: CSS Scroll Buttons](https://github.com/w3ctag/design-reviews/issues/1054) - @xiaochengh
-* [design-reviews#1056: CSS Stylable Columns](https://github.com/w3ctag/design-reviews/issues/1056) - @xiaochengh
-* [design-reviews#1053: CSS Scroll Markers](https://github.com/w3ctag/design-reviews/issues/1053) - @xiaochengh
 * [ethical-web-principles#146: Clarify which websites will be well internationalized.](https://github.com/w3ctag/ethical-web-principles/pull/146) - @jyasskin
 * [ethical-web-principles#143: Clarify informing a broader scope of technical and community reports](https://github.com/w3ctag/ethical-web-principles/pull/143) - @csarven, @torgo
 
 ### Plenary Session - [2025-03-27](https://www.timeanddate.com/worldclock/converter.html?iso=20250327T070000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
+* [design-reviews: CSS Overflow Navigation Controls](https://github.com/w3ctag/design-reviews/issues/1037) - @xiaochengh
+  * [design-reviews#1053: CSS Scroll Markers](https://github.com/w3ctag/design-reviews/issues/1053) - @xiaochengh
+  * [design-reviews#1054: CSS Scroll Buttons](https://github.com/w3ctag/design-reviews/issues/1054) - @xiaochengh
+  * [design-reviews: CSS inert](https://github.com/w3ctag/design-reviews/issues/1055) - @xiaochengh
+  * [design-reviews#1056: CSS Stylable Columns](https://github.com/w3ctag/design-reviews/issues/1056) - @xiaochengh
 * [design-reviews#1052: Early Design Review for Device Bound Session Credentials](https://github.com/w3ctag/design-reviews/issues/1052) - @martinthomson, @jyasskin, @lolaodelola
 * [design-reviews#1049: WebRTC Encoded Transform Timestamps](https://github.com/w3ctag/design-reviews/issues/1049) - @martinthomson, @lolaodelola
 * [design-principles#564: Add guidance for layout-forcing apis](https://github.com/w3ctag/design-principles/pull/564) - @xiaochengh
