@@ -206,7 +206,7 @@ Could be three documents, need to decide when and how to publish. Keep thinking 
 
 ## Needs for this week
 
-*See also the photo of the flip chart - I tried to ensure these are a superset, but may be msising things.*
+*See also the [photo of the flip chart](https://github.com/w3ctag/meetings/blob/gh-pages/2025/03-Paris/photos/flipchart%20what%20do%20we%20need%20from%20eachotherJPG.JPG) - I tried to ensure these are a superset, but may be msising things.*
 
 * Patience, love, respect (earned)
 
@@ -254,7 +254,7 @@ Could be three documents, need to decide when and how to publish. Keep thinking 
 
 ## What do we need from our chairs over the next few days?
 
-*See also the photo of the flip chart - I tried to ensure these are a superset, but may be msising things.*
+*See also the [photo of the flip chart](https://github.com/w3ctag/meetings/blob/gh-pages/2025/03-Paris/photos/flipchart%20what%20do%20we%20need%20from%20chairs.JPG) - I tried to ensure these are a superset, but may be msising things.*
 
 * Q: Or after that?
 
