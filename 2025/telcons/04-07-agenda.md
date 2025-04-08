@@ -71,21 +71,16 @@ Design Reviews
 * [design-reviews#525: Overall review of features which enable/disable subframe or subresource capabilities](https://github.com/w3ctag/design-reviews/issues/525) - @marcoscaceres, @lolaodelola
 
   
-### Plenary Session - [2025-04-09](https://www.timeanddate.com/worldclock/converter.html?iso=20250409T060000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
+### Plenary Session - [2025-04-10](https://www.timeanddate.com/worldclock/converter.html?iso=20250410T130000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 
 <!-- Design Reviews -->
 
 * Breakout B Rollup
-  * 
 * Breakout C Rollup
-  * 
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
 
 ### Logistics
 
-Chair:
-
-Scribe:
 
 Bridge: https://meet.google.com/vvu-apdo-hrj
 
@@ -130,12 +125,11 @@ Cancelled
 #### Plenary Session
 
 <table>
-<tr><td> San Francisco (U.S.A. - California) <td> Tuesday, April 8 at 11:00 PM PDT</td></tr>
-<tr><td> Boston (U.S.A. - Massachusetts) <td> Wednesday, April 9 at 2:00 AM EDT</td></tr>
-<tr><td> London (United Kingdom - England) <td> Wednesday 9 April at 07:00 BST</td></tr>
-<tr><td> Paris (France) <td> mercredi 9 avril à 08:00 UTC+2</td></tr>
-<tr><td> Beijing (China) <td> 4月9日星期三 GMT+8 14:00</td></tr>
-<tr><td> Sydney (Australia) <td> Wednesday 9 April at 4:00 pm AEST</td></tr>
-<tr><td> Corresponding UTC (GMT) <td> Wednesday 9 April at 06:00 UTC</td></tr>
+<tr><td> San Francisco (U.S.A. - California) <td> Thursday, April 10 at 6:00 AM PDT</td></tr>
+<tr><td> Boston (U.S.A. - Massachusetts) <td> Thursday, April 10 at 9:00 AM EDT</td></tr>
+<tr><td> London (United Kingdom - England) <td> Thursday 10 April at 14:00 BST</td></tr>
+<tr><td> Paris (France) <td> jeudi 10 avril à 15:00 UTC+2</td></tr>
+<tr><td> Beijing (China) <td> 4月10日星期四 GMT+8 21:00</td></tr>
+<tr><td> Sydney (Australia) <td> Thursday 10 April at 11:00 pm AEST</td></tr>
+<tr><td> Corresponding UTC (GMT) <td> Thursday 10 April at 13:00 UTC</td></tr>
 </table>
-
