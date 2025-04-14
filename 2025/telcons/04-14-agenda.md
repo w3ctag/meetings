@@ -18,7 +18,6 @@ Design Reviews
 
 * [design-reviews#1078: Reduce Accept-Language](https://github.com/w3ctag/design-reviews/issues/1078) - @martinthomson, @jyasskin, @christianliebel
 * [design-reviews#991: Writing Assistance APIs](https://github.com/w3ctag/design-reviews/issues/991) - @martinthomson, @jyasskin, @marcoscaceres
-* [design-reviews#1061: CSS View Transitions - Nested View Transition Groups](https://github.com/w3ctag/design-reviews/issues/1061) - @xiaochengh
 * [design-reviews#1015: Payment link type in HTML](https://github.com/w3ctag/design-reviews/issues/1015) - @jyasskin, @torgo, @csarven, @maxpassion, @hadleybeeman
 * Try to finish up Carousel
    * [design-reviews#1055: CSS inert](https://github.com/w3ctag/design-reviews/issues/1055) - @xiaochengh
