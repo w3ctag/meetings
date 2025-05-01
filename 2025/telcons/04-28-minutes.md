@@ -235,11 +235,11 @@ Regrets: Lola, Christian, Sarven
 
 Scribe: DanA
 
-* [user-agents#9: Update Protection to clarify user control and access protection](https://github.com/w3ctag/user-agents/pull/9) - @csarven
+#### [user-agents#9: Update Protection to clarify user control and access protection](https://github.com/w3ctag/user-agents/pull/9) - @csarven
 
 *sarven working on a PR for next week*
 
-* [design-reviews#1062: TAG spec review of Stateless Bounce Tracking Mitigations](https://github.com/w3ctag/design-reviews/issues/1062) - @torgo, @matatk, @hadleybeeman, @lolaodelola
+#### [design-reviews#1062: TAG spec review of Stateless Bounce Tracking Mitigations](https://github.com/w3ctag/design-reviews/issues/1062) - @torgo, @matatk, @hadleybeeman, @lolaodelola
 
 Matthew: we did look at it - delta on the spec as a whole - explainer is missing \[moved to https://github.com/privacycg/nav-tracking-mitigations/blob/main/explainers/bounce-tracking-mitigations.md] - re: the stateless part : recognizing that some types of bounce tracking do not use local storage. It seems like a good delta on what was there.  We didn't see any architectural issues...
 
@@ -253,7 +253,7 @@ Jeffrey: also we want to recognize that several browsers shipped bounce tracking
 
 Jeffrey: +1
 
-* [design-reviews#1038: On-device Web Speech API](https://github.com/w3ctag/design-reviews/issues/1038) - @jyasskin
+#### [design-reviews#1038: On-device Web Speech API](https://github.com/w3ctag/design-reviews/issues/1038) - @jyasskin
 
 Jeffrey: we posted a comment .. the came back with some replies .. i went back to them to get some use cases added. I think it would be useful to say which pieces of the reply we're happy with. Also we need to check with Martin and draft a consensus reply comment. 
 
@@ -291,14 +291,14 @@ Matthew: *makes noises about drafting a PR*  It's not just performance, it's per
 
 *jeffrey to draft comment based on above*
 
-* [design-reviews#1034: Container Timing API](https://github.com/w3ctag/design-reviews/issues/1034) - @torgo, @hadleybeeman, @christianliebel
+#### [design-reviews#1034: Container Timing API](https://github.com/w3ctag/design-reviews/issues/1034) - @torgo, @hadleybeeman, @christianliebel
 
 DanA: Extension of Element Timing. I think this is good. Should give a thumbs-up. `satisfied`
 
 *DanA to post after hunting for comments*
 
-* [design-reviews#1082: [wg/media] Media Working Group Charter](https://github.com/w3ctag/design-reviews/issues/1082) - @lolaodelola
-* [design-reviews#1066: 'focus-without-user-activation' permissions policy](https://github.com/w3ctag/design-reviews/issues/1066) - @matatk, @heisenburger
+#### [design-reviews#1082: [wg/media] Media Working Group Charter](https://github.com/w3ctag/design-reviews/issues/1082) - @lolaodelola
+#### [design-reviews#1066: 'focus-without-user-activation' permissions policy](https://github.com/w3ctag/design-reviews/issues/1066) - @matatk, @heisenburger
 
 Matthew: DanC has clarified that it didn't actually ship.  Moz position is unknown. Webkit is supportive. Sounds good. They didn't list alternatives considered. It seems like this a good idea.
 
@@ -308,7 +308,7 @@ DanC: I know that they were trying to do this another way .. and were informed o
 
 Jeffrey: Matthew can you draft a comment .. [and adapt based on what DanC comes up with.]
 
-* [design-reviews#1058: The `interesttarget` attribute](https://github.com/w3ctag/design-reviews/issues/1058) - @matatk
+#### [design-reviews#1058: The `interesttarget` attribute](https://github.com/w3ctag/design-reviews/issues/1058) - @matatk
 
 *we discuss the draft comment that Matthew wrote up*
 
@@ -324,7 +324,7 @@ Jeffrey: I do think that the amount of internal lack of consensus means it's app
 
 Matthew: I can draft such a comment - I will do it in the private thread and ping internall and see where we get.
 
-* [design-reviews#1050: Permissions Policy reports for iframes](https://github.com/w3ctag/design-reviews/issues/1050) - @torgo, @yoavweiss, @hadleybeeman
+#### [design-reviews#1050: Permissions Policy reports for iframes](https://github.com/w3ctag/design-reviews/issues/1050) - @torgo, @yoavweiss, @hadleybeeman
 
 
 
@@ -336,9 +336,9 @@ Regrets: Lola, Max, Christian
 
 Scribe: 
 
-* [design-principles#563: Add Text: Mitigate defects when extending features.](https://github.com/w3ctag/design-principles/pull/563) - @lolaodelola, @martinthomson
-* [design-reviews#995: Document-Isolation-Policy](https://github.com/w3ctag/design-reviews/issues/995) - @martinthomson, @torgo
-* [design-reviews#1057: Incremental Font Transfer](https://github.com/w3ctag/design-reviews/issues/1057) - @lolaodelola, @xiaochengh
+#### [design-principles#563: Add Text: Mitigate defects when extending features.](https://github.com/w3ctag/design-principles/pull/563) - @lolaodelola, @martinthomson
+#### [design-reviews#995: Document-Isolation-Policy](https://github.com/w3ctag/design-reviews/issues/995) - @martinthomson, @torgo
+#### [design-reviews#1057: Incremental Font Transfer](https://github.com/w3ctag/design-reviews/issues/1057) - @lolaodelola, @xiaochengh
 
 Xiaocheng: this is a proposal for a new font format ... allows a new web font to be loaded incrementally. The motivation - fonts with large number of characters, eg. chinese, so the adoption rate for web fonts is lower for these.  This format allows a web font to be loaded incrementally. The basic design is ... incremental font file consists of a base file.. which is a normal font file plus a patch file... then patches can be loaded at runtime when needed. The patches are static. The server doesn't dynamically calculate... That's the basic design...  I think it's a good approach.. It's going to increase the adoption rate of web fonts and therefore increase interop. Also the current approach addresses several issues that have been raised .. and earlier approach uses dynamic patches and that is not as good for caching. The current approach uses static patches... server doesn't need any special implementaiton... My concerns are mostly related to ... security. Web font has always been used to fingerprint users. Also existing techniques that allow exfiltrating content of sensitive data by injecting malictious CSS..  Attack pattern is incremental inputs + malicious CSS... Patching process is recursive importing of new subsets, and the importing process depends on the page content... I feel like this part ... we should ask for more security review ...
 
@@ -362,7 +362,7 @@ Torgo: so they've done a reasonable job of saying this is the reason they aren't
 
 Xiaocheng: yes.  I'll draft a reply.
 
-* [design-reviews#1073: Column wrapping for multicol](https://github.com/w3ctag/design-reviews/issues/1073) - @matatk, @xiaochengh
+#### [design-reviews#1073: Column wrapping for multicol](https://github.com/w3ctag/design-reviews/issues/1073) - @matatk, @xiaochengh
 
 Xiaocheng: we raised 2 issues - one is that the explainer isn't good enough and also ... naiive usage of column wrapping may confused user... there is no clear indication which one is the next column...
 
@@ -394,10 +394,10 @@ I don't think it will have major consequences, and I don't think we should comme
 
 *Xiaocheng to leave a comment and hopefully we can close as satisfied.*
 
-* [design-principles#570: Don't require action within a Promise reaction microtask.](https://github.com/w3ctag/design-principles/pull/570) - @jan-ivar
-* [design-principles#501: Guidance about reflecting state in HTML attributes](https://github.com/w3ctag/design-principles/pull/501) - @LeaVerou, @martinthomson, @xiaochengh
-* [design-principles#443: Should conceptually ordered enums still be strings?](https://github.com/w3ctag/design-principles/issues/443) - @martinthomson
-* [design-reviews#1063: WebGPU Compatibility Mode](https://github.com/w3ctag/design-reviews/issues/1063) - @martinthomson, @torgo, @matatk
+#### [design-principles#570: Don't require action within a Promise reaction microtask.](https://github.com/w3ctag/design-principles/pull/570) - @jan-ivar
+#### [design-principles#501: Guidance about reflecting state in HTML attributes](https://github.com/w3ctag/design-principles/pull/501) - @LeaVerou, @martinthomson, @xiaochengh
+#### [design-principles#443: Should conceptually ordered enums still be strings?](https://github.com/w3ctag/design-principles/issues/443) - @martinthomson
+#### [design-reviews#1063: WebGPU Compatibility Mode](https://github.com/w3ctag/design-reviews/issues/1063) - @martinthomson, @torgo, @matatk
 
 Matthew: I proposed a comment.. in the private repo... 
 
@@ -407,7 +407,7 @@ Matthew: it means the user's GPU...
 
 *Matthew to post the comment and we can wait for feedback*
 
-* [design-reviews#1064: Expose contentEncoding in resourceTiming](https://github.com/w3ctag/design-reviews/issues/1064) - @yoavweiss, @xiaochengh
+#### [design-reviews#1064: Expose contentEncoding in resourceTiming](https://github.com/w3ctag/design-reviews/issues/1064) - @yoavweiss, @xiaochengh
 
 Xiaocheng: *discussing Martin's feedback* this is about content encoding... more of an output thing... the server decides the encoding... This proposal seems OK to me - guarding the content encoding behind CORS. This should have been in resource timing in the first place... 
 
@@ -417,7 +417,7 @@ Xiaocheng: yes.
 
 Torgo: *looks at the User research link in the issue*. This detail could have been surfaced in the explainer. But I still have the same question: what are we trying to protect users from? I'll leave that feedback. 
 
-* [web-no-papers](https://w3ctag.github.io/web-no-papers/)
+#### [web-no-papers](https://w3ctag.github.io/web-no-papers/)
 
 Hadley: I feel the title is "loaded"... I feel like it's distractibe...  finding might need a more dispassionate title.
 
