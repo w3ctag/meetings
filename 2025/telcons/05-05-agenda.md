@@ -51,6 +51,10 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 * Breakout Rollup from [previous week](https://github.com/w3ctag/meetings/blob/gh-pages/2025/telcons/04-28-minutes.md), if time.
 
+### EWP Editors' Session
+
+* Review PRs
+
 ### Logistics
 
 Chair:
