@@ -48,6 +48,9 @@
 
 * Breakout Rollup from [previous week](https://github.com/w3ctag/meetings/blob/gh-pages/2025/telcons/04-28-minutes.md), if time.
 
+### EWP Special Editors' Session - Friday at 10:00 London time
+
+* review PRs
 
 ## Minutes
 
@@ -771,3 +774,63 @@ Martin: the basic idea Mozilla has in mind ... a lot of these identity systems h
 
 
 #### Breakout Rollup from [previous week](https://github.com/w3ctag/meetings/blob/gh-pages/2025/telcons/04-28-minutes.md), if time.
+
+
+### EWP Editors' Confab - Fri 9 May 2025
+
+Present: DanA, Hadley
+
+#### Discussion on Ethical Web Principles PRs 
+
+##### https://github.com/w3ctag/ethical-web-principles/pull/123 
+
+*we work on a closing comment*
+
+> Hadley & I discussed this in a breakout today. Whilst we agree that Robin's comments and suggestions don't reflect where we want to take the document - the thinking (also reflected in Chris Wilson's comments) is that this document needs to be aspirational. We also note that, as Chris points out, documents such as the UN Declaration of Human Rights have a similar aspirational language.
+
+**we agree to close**
+
+##### https://github.com/w3ctag/ethical-web-principles/pull/126/files (referred to in 123)
+
+Hadley: I think martin's comments miss the point.  What Martin has done is to change it to more descriptive language... I don't disagree with the content but it's not what we're trying to do here. We're trying to describe our actions.
+
+DanA: Totally agree.
+
+*we work on a closing comment*
+
+> @martin we're minded to close this as we don't think it fits together with the language of the rest of the document. The document is very focused on our commitments and aspirations — we've tried to keep the language to a minimum — and it seems like the language you're proposing is descriptive. While we don't disagree with your proposed content, we'd like to keep this document as minimal as we can.
+> 
+> Also in general we think the current version of the document needs to play the role it needs be in use as a Statement for some time before we consider wording changes.
+
+**we agree to close**
+
+##### https://github.com/w3ctag/ethical-web-principles/pull/143
+
+DanA: I think it's fine.
+
+**we agree to merge**
+
+> We've agreed to merge and these changes into the Editors' draft. However we are not considering republishing at this time due to the approvals required for changes to a published Statement. This PR will propagate into the published version in the future, when the time comes to republish.
+
+##### https://github.com/w3ctag/ethical-web-principles/pull/146
+
+Hadley: when we wrote this we were thinking more broadly
+
+DanA: right. The idea was that anyone working on a specification can use this document, not just in the W3C. 
+
+He's saying "should be."
+
+Hadley: well we should [build internationalization and localization capabilities
+into our specifications and websites]. But I don't think that's what we were saying. It's too limited. It's not just us.
+
+**we agree to close**
+
+> @jyasskin Hadley & I reviewed today and we agreed to close this. The document should be applicable and available to people drafting specifications / building web site even outside of the W3C community.
+
+##### https://github.com/w3ctag/ethical-web-principles/issues/147
+
+**we agree to close this as it's out of scope for what we're working on here**
+
+##### https://github.com/w3ctag/ethical-web-principles/issues/147
+
+> Hi @j9t. Thanks for your contribution. We've tried to keep the focus of this document as tight as possible, and don't think the ethical schools of thought will help us to make our points here. We've appreciated your writing though, and found it thought-provoking. We hope to continue conversations with you in the future. 
