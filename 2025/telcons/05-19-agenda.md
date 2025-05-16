@@ -37,9 +37,10 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Plenary Session - [2025-05-21](https://www.timeanddate.com/worldclock/converter.html?iso=20250522T130000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 * [design-reviews#1094: Device-Bound Session Credentials Analysis](https://github.com/w3ctag/design-reviews/pull/1094) - @martinthomson, @jyasskin, @lolaodelola
+* Breakout Rollup
+* [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
 
-<!-- Design Reviews -->
-
+### Unsorted
 * [design-reviews#991: Writing Assistance APIs](https://github.com/w3ctag/design-reviews/issues/991) - @martinthomson, @jyasskin, @marcoscaceres
 * [design-reviews#1085: [wg/webauthn] Web Authentication Level 3](https://github.com/w3ctag/design-reviews/issues/1085) - @torgo, @matatk
 * [design-reviews#1084: media-playback-while-not-visible Permission Policy](https://github.com/w3ctag/design-reviews/issues/1084) - @torgo, @ylafon
@@ -61,8 +62,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [design-reviews#945: FedCM bundle: Continuation API, account labels, custom parameters, scopes](https://github.com/w3ctag/design-reviews/issues/945) - @rhiaro, @plinss
 * [design-reviews#935: FedCM API extension: Button Mode and User Other Account API](https://github.com/w3ctag/design-reviews/issues/935) - @rhiaro, @plinss
 
-* Breakout Rollup
-* [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
 
 ### Logistics
 
