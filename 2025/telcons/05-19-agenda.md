@@ -21,6 +21,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [design-reviews#1062: TAG spec review of Stateless Bounce Tracking Mitigations](https://github.com/w3ctag/design-reviews/issues/1062) - @torgo, @matatk, @hadleybeeman, @lolaodelola
 * [design-principles#572: Establish criteria for design principles](https://github.com/w3ctag/design-principles/issues/572)
 * [design-reviews#977: Accessibility conformance Testing (ACT) Rules Format 1.1](https://github.com/w3ctag/design-reviews/issues/977) - @jyasskin, @matatk
+* [explainers considered harmful?](https://github.com/w3ctag/explainer-explainer/issues/19) - @jyasskin, @torgo
 #### General
 * [design-reviews#1088: Add an accessibility self-review to TAG design reviews.](https://github.com/w3ctag/design-reviews/pull/1088) - @jyasskin, @matatk
 * [user-agents#19: Revise Protection section and examples](https://github.com/w3ctag/user-agents/pull/19) - @csarven
@@ -34,6 +35,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 #### General
 * [design-principles#501: Guidance about reflecting state in HTML attributes](https://github.com/w3ctag/design-principles/pull/501) - @LeaVerou, @martinthomson, @xiaochengh
 * [design-reviews#1060: Physical and logical resolution for screen-capture MediaStreamTracks](https://github.com/w3ctag/design-reviews/issues/1060) - @torgo, @maxpassion, @christianliebel
+* digital credentials finding
 
 ### Plenary Session - [2025-05-21](https://www.timeanddate.com/worldclock/converter.html?iso=20250522T130000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 * [design-reviews#1094: Device-Bound Session Credentials Analysis](https://github.com/w3ctag/design-reviews/pull/1094) - @martinthomson, @jyasskin, @lolaodelola
