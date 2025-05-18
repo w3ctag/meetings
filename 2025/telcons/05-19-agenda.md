@@ -15,6 +15,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [design-reviews#1015: Payment link type in HTML](https://github.com/w3ctag/design-reviews/issues/1015) - @jyasskin, @torgo, @csarven, @maxpassion, @hadleybeeman
 * [design-reviews#1048: `Integrity-Policy` header for scripts](https://github.com/w3ctag/design-reviews/issues/1048) - @martinthomson, @jyasskin
 * [design-reviews#831: Eligibility for autofill](https://github.com/w3ctag/design-reviews/issues/831) - @jyasskin, @torgo, @marcoscaceres
+* [design-reviews#843: Web Audio API: RenderCapacity API](https://github.com/w3ctag/design-reviews/issues/843) - @matatk
 
 
 ### Breakout B (America / Europe) - [2025-05-21](https://www.timeanddate.com/worldclock/converter.html?iso=20250521T170000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
@@ -29,6 +30,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [user-agents#19: Revise Protection section and examples](https://github.com/w3ctag/user-agents/pull/19) - @csarven
 * [design-principles#570: Don't require action within a Promise reaction microtask.](https://github.com/w3ctag/design-principles/pull/570) - @jan-ivar, @jyasskin
 * [promises-guide#68: Update the editor.](https://github.com/w3ctag/promises-guide/pull/68) - @hober
+* [design-reviews#1075: Review request for AriaNotify API](https://github.com/w3ctag/design-reviews/issues/1075) - @matatk, @lolaodelola
+* [design-reviews#1072: Updated review of Web Neural Network API](https://github.com/w3ctag/design-reviews/issues/1072) - @matatk, @lolaodelola
 
 ### Breakout C (Europe / Asia / Australia) - [2025-05-22](https://www.timeanddate.com/worldclock/converter.html?iso=20250522T090000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 #### Agenda+
@@ -41,26 +44,23 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [design-reviews#1037: CSS Overflow Navigation Controls (Carousels)](https://github.com/w3ctag/design-reviews/issues/1037) - @matatk, @lolaodelola, @xiaochengh
 * [design-reviews#1077: [ig/wai] WAI IG recharter](https://github.com/w3ctag/design-reviews/issues/1077) - @matatk, @maxpassion
 * [design-reviews#1080: [wg/payments] Web Payments Working Group Charter](https://github.com/w3ctag/design-reviews/issues/1080) - @marcoscaceres, @maxpassion
+* [design-reviews#1085: [wg/webauthn] Web Authentication Level 3](https://github.com/w3ctag/design-reviews/issues/1085) - @torgo, @matatk
+* [design-reviews#1084: media-playback-while-not-visible Permission Policy](https://github.com/w3ctag/design-reviews/issues/1084) - @torgo, @ylafon
+* [design-reviews#1071: Private Proof API](https://github.com/w3ctag/design-reviews/issues/1071) - @martinthomson, @hadleybeeman
+* [design-reviews#1050: Permissions Policy reports for iframes](https://github.com/w3ctag/design-reviews/issues/1050) - @torgo, @yoavweiss, @hadleybeeman
+
 
 ### Plenary Session - [2025-05-21](https://www.timeanddate.com/worldclock/converter.html?iso=20250522T130000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 * [design-reviews#1094: Device-Bound Session Credentials Analysis](https://github.com/w3ctag/design-reviews/pull/1094) - @martinthomson, @jyasskin, @lolaodelola
 * Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
 
-### Unsorted
-* [design-reviews#1085: [wg/webauthn] Web Authentication Level 3](https://github.com/w3ctag/design-reviews/issues/1085) - @torgo, @matatk
-* [design-reviews#1084: media-playback-while-not-visible Permission Policy](https://github.com/w3ctag/design-reviews/issues/1084) - @torgo, @ylafon
-* [design-reviews#1072: Updated review of Web Neural Network API](https://github.com/w3ctag/design-reviews/issues/1072) - @matatk, @lolaodelola
-* [design-reviews#1075: Review request for AriaNotify API](https://github.com/w3ctag/design-reviews/issues/1075) - @matatk, @lolaodelola
-* [design-reviews#1071: Private Proof API](https://github.com/w3ctag/design-reviews/issues/1071) - @martinthomson, @hadleybeeman
-* [design-reviews#468: Review the HTML spec's treatment of focus](https://github.com/w3ctag/design-reviews/issues/468) - @jyasskin, @matatk, @hadleybeeman
-* [design-reviews#1050: Permissions Policy reports for iframes](https://github.com/w3ctag/design-reviews/issues/1050) - @torgo, @yoavweiss, @hadleybeeman
-* [design-reviews#843: Web Audio API: RenderCapacity API](https://github.com/w3ctag/design-reviews/issues/843) - @matatk
-* [design-reviews#974: FedCM's IdP Registration API](https://github.com/w3ctag/design-reviews/issues/974) - @rhiaro, @plinss
-* [design-reviews#803: FedCM multi IDP support](https://github.com/w3ctag/design-reviews/issues/803) - @rhiaro, @plinss
-* [design-reviews#992: FedCM as a trust signal for the Storage Access API](https://github.com/w3ctag/design-reviews/issues/992) - @martinthomson, @torgo, @hadleybeeman
-* [design-reviews#945: FedCM bundle: Continuation API, account labels, custom parameters, scopes](https://github.com/w3ctag/design-reviews/issues/945) - @rhiaro, @plinss
-* [design-reviews#935: FedCM API extension: Button Mode and User Other Account API](https://github.com/w3ctag/design-reviews/issues/935) - @rhiaro, @plinss
+* FedCM Discussion
+  * [design-reviews#974: FedCM's IdP Registration API](https://github.com/w3ctag/design-reviews/issues/974) - @rhiaro, @plinss
+  * [design-reviews#803: FedCM multi IDP support](https://github.com/w3ctag/design-reviews/issues/803) - @rhiaro, @plinss
+  * [design-reviews#992: FedCM as a trust signal for the Storage Access API](https://github.com/w3ctag/design-reviews/issues/992) - @martinthomson, @torgo, @hadleybeeman
+  * [design-reviews#945: FedCM bundle: Continuation API, account labels, custom parameters, scopes](https://github.com/w3ctag/design-reviews/issues/945) - @rhiaro, @plinss
+  * [design-reviews#935: FedCM API extension: Button Mode and User Other Account API](https://github.com/w3ctag/design-reviews/issues/935) - @rhiaro, @plinss
 
 
 ### Logistics
