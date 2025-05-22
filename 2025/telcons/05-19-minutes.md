@@ -69,7 +69,7 @@ Present: Xiaocheng, Jeffrey, Max, Marcos, Martin
 Scribe: 
 
 #### Agenda+
-* [design-reviews#1090: CSS corner-shaping](https://github.com/w3ctag/design-reviews/issues/1090) - @xiaochengh
+##### [design-reviews#1090: CSS corner-shaping](https://github.com/w3ctag/design-reviews/issues/1090) - @xiaochengh
 
 Xiaocheng: Conventional CSS proposal. Extension to border-radius to create smoother corners. Fully scoped within CSS; no other concerns. Good extension to existing features? Yes. Compatible with border-radius; default value gives the same behavior as border-radius; allows customization.
 
@@ -81,7 +81,7 @@ Max: agree.
 
 Xiaocheng to do that.
 
-* [design-reviews#1089: Extended lifetime shared workers](https://github.com/w3ctag/design-reviews/issues/1089) - @xiaochengh
+##### [design-reviews#1089: Extended lifetime shared workers](https://github.com/w3ctag/design-reviews/issues/1089) - @xiaochengh
 
 Xiaocheng: Shared workers are bound to pages. If you close all the pages, worker might be terminated. But some pages want to do async work after the page closes. They can resort to Service Worker. This proposal adds a flag to give the shared worker a longer lifetime. Don't think there are privacy/security considerations. API design. Thoughts are that first, the behavior is quite reasonable. Using Service Worker for async work is not great. Service Worker shouldn't be doing heavy work. But, this API is unnecessary because existing Shared Worker spec allows UAs to extend lifetime to a certain extent. Don't need this. Implementers can just do this. Don't see necessity. Unless there are cases where lifetime extension is undesirable in some other cases, so we need this to explicitly switch it on, but I don't see such cases. Suggestion is to leave a comment and ask about the use cases that make this necessary.
 
@@ -103,13 +103,13 @@ Marcos: Yes, just worried that there is a privacy concern. Don't need to mention
 
 Xiaocheng: Will draft and send a comment.
 
-* [design-reviews#878: confidence reporting for PerformanceNavigationTiming](https://github.com/w3ctag/design-reviews/issues/878) - @jyasskin, @yoavweiss
+##### [design-reviews#878: confidence reporting for PerformanceNavigationTiming](https://github.com/w3ctag/design-reviews/issues/878) - @jyasskin, @yoavweiss
 
 Jeffrey: Martin already sent feedback; we'll wait for their response.
 
 #### General
-* [design-principles#567: Add 'Choose the Appropriate WebIDL Construct for Data and Behavior'](https://github.com/w3ctag/design-principles/pull/567) - @marcoscaceres
-* [design-reviews#991: Writing Assistance APIs](https://github.com/w3ctag/design-reviews/issues/991) - @martinthomson, @jyasskin, @marcoscaceres
+##### [design-principles#567: Add 'Choose the Appropriate WebIDL Construct for Data and Behavior'](https://github.com/w3ctag/design-principles/pull/567) - @marcoscaceres
+##### [design-reviews#991: Writing Assistance APIs](https://github.com/w3ctag/design-reviews/issues/991) - @martinthomson, @jyasskin, @marcoscaceres
 
 Jeffrey: I started drafting in a Google Doc but didn't finish. Would welcome help. Thinking that I might have a piece of an answer to Domenic's question of how to test these: Give the implementation some source text; check that it does a good-enough job.
 
@@ -169,11 +169,11 @@ Xiaocheng: There's also the privacy risk: if you have a small device, have to us
 
 Martin: If the model is part of the UA, that's part of the deal you migth make with the UA vendor. Apple's case does private cloud compute for inference. Some competitors are just taking all the activity and selling it.
 
-* [design-reviews#1015: Payment link type in HTML](https://github.com/w3ctag/design-reviews/issues/1015) - @jyasskin, @torgo, @csarven, @maxpassion, @hadleybeeman
+##### [design-reviews#1015: Payment link type in HTML](https://github.com/w3ctag/design-reviews/issues/1015) - @jyasskin, @torgo, @csarven, @maxpassion, @hadleybeeman
 
 Marcos to draft something on this and the Web Payments charter.
 
-* [design-reviews#1048: `Integrity-Policy` header for scripts](https://github.com/w3ctag/design-reviews/issues/1048) - @martinthomson, @jyasskin
+##### [design-reviews#1048: `Integrity-Policy` header for scripts](https://github.com/w3ctag/design-reviews/issues/1048) - @martinthomson, @jyasskin
 
 Martin: I think this is roughly fine. Would like a second opinion. Didn't look thoroughly, but it doesn't warrant one. Coming out of a good WG.
 
@@ -183,7 +183,7 @@ Martin: Aside from the general "Does this have to be this complicated?"
 
 Jeffrey: `satisfied` with a general "happy this is going through the right WGs". Will draft that and run it by the Slack channel.
 
-* [design-reviews#831: Eligibility for autofill](https://github.com/w3ctag/design-reviews/issues/831) - @jyasskin, @torgo, @marcoscaceres
+##### [design-reviews#831: Eligibility for autofill](https://github.com/w3ctag/design-reviews/issues/831) - @jyasskin, @torgo, @marcoscaceres
 
 Martin: I talked to John Wilander a while ago, and he thinks this is terrible. You have a form that looks like it's served by a particular page, but the fields are sent to a different destination. They do that for interesting reasons. Can send the payment information under the rules for payment. But send the home address to the website but then to the payment provider.
 
@@ -217,7 +217,7 @@ Of course, this is all-or-nothing, once a site has this permission, it gets all 
 The use of permissions policy seems appropriate here.  The decision to default to `'self'` could perhaps be better justified though.
 ~~~
 
-* [design-reviews#843: Web Audio API: RenderCapacity API](https://github.com/w3ctag/design-reviews/issues/843) - @matatk
+##### [design-reviews#843: Web Audio API: RenderCapacity API](https://github.com/w3ctag/design-reviews/issues/843) - @matatk
 
 Jeffrey: We should just ask the proponents what's going on with this. If this is being discussed in the Privacy WG, we don't need to add our own privacy opinions.
 
