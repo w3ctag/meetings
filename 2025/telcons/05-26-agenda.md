@@ -41,7 +41,7 @@ Agenda+
 * [design-reviews#1051: (brand new ✨) Web Install API](https://github.com/w3ctag/design-reviews/issues/1051) - @torgo, @marcoscaceres
 
 Other
-* [web-no-papers#1: Added some wording about overreach and EIDAS regulation.](https://github.com/w3ctag/web-no-papers/pull/1) - @torgo
+* [Digital Credentials Finding](https://github.com/w3ctag/web-no-papers/) Re-titled and much text added some wording about overreach and EIDAS regulation. Next steps?
 * [design-principles#567: Add 'Choose the Appropriate WebIDL Construct for Data and Behavior'](https://github.com/w3ctag/design-principles/pull/567) - @marcoscaceres
 * [design-principles#501: Guidance about reflecting state in HTML attributes](https://github.com/w3ctag/design-principles/pull/501) - @LeaVerou, @martinthomson, @xiaochengh
 * [promises-guide#68: Update the editor.](https://github.com/w3ctag/promises-guide/pull/68) - @hober, @jyasskin, @martinthomson
