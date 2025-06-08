@@ -70,21 +70,15 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Logistics
 
-Chair:
-
-Scribe:
-
 Bridge: https://meet.google.com/vvu-apdo-hrj
 
 *Please note*: this meeting is open to TAG members and invited guests. If you would like to participate, please email the chairs.
 
 Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2025/telcons/06-09-minutes.md
 
-Raw minutes: ...
-
+Raw minutes: https://cryptpad.w3ctag.org/code/#/2/code/view/zZ0v9A+6cblXTcVEZb4DwdF4FUgsMM9DbB3tsjdunQM/
 
 ### Local Call Times
-
 
 #### Breakout A (Asia / Australia / West America)
 
@@ -120,17 +114,5 @@ Raw minutes: ...
 <tr><td> Beijing (China) <td> 6月12日星期四 GMT+8 17:00</td></tr>
 <tr><td> Sydney (Australia) <td> Thursday 12 June at 19:00 AEST</td></tr>
 <tr><td> Corresponding UTC (GMT) <td> Thursday 12 June at 09:00 UTC</td></tr>
-</table>
-
-#### Plenary Session
-
-<table>
-<tr><td> San Francisco (U.S.A. - California) <td> Tuesday, June 10 at 23:00 PDT</td></tr>
-<tr><td> Boston (U.S.A. - Massachusetts) <td> Wednesday, June 11 at 02:00 EDT</td></tr>
-<tr><td> London (United Kingdom - England) <td> Wednesday 11 June at 07:00 BST</td></tr>
-<tr><td> Paris (France) <td> mercredi 11 juin à 08:00 UTC+2</td></tr>
-<tr><td> Beijing (China) <td> 6月11日星期三 GMT+8 14:00</td></tr>
-<tr><td> Sydney (Australia) <td> Wednesday 11 June at 16:00 AEST</td></tr>
-<tr><td> Corresponding UTC (GMT) <td> Wednesday 11 June at 06:00 UTC</td></tr>
 </table>
 
