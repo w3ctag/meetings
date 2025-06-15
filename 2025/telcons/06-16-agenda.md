@@ -42,7 +42,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [design-principles#575: Add Criteria for Design Principles to README](https://github.com/w3ctag/design-principles/pull/575) - @csarven
 * [design-reviews#1080: [wg/payments] Web Payments Working Group Charter](https://github.com/w3ctag/design-reviews/issues/1080) - @marcoscaceres, @maxpassion
 * [explainer-explainer#19: Explainers are an anti-pattern](https://github.com/w3ctag/explainer-explainer/issues/19) - @jyasskin, @torgo
-
 * Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
 
