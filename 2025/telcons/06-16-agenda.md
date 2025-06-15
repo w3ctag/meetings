@@ -9,6 +9,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 #### Agenda+
 * [design-reviews#1052: Early Design Review for Device Bound Session Credentials](https://github.com/w3ctag/design-reviews/issues/1052) - @martinthomson, @jyasskin, @lolaodelola
 * [design-reviews#1089: Extended lifetime shared workers](https://github.com/w3ctag/design-reviews/issues/1089) - @xiaochengh
+* [design-reviews#1058: The `interesttarget` attribute](https://github.com/w3ctag/design-reviews/issues/1058) - @matatk, @xiaochengh
 
 #### PRs
 * [design-principles#567: Add 'Choose the Appropriate WebIDL Construct for Data and Behavior'](https://github.com/w3ctag/design-principles/pull/567) - @marcoscaceres
@@ -21,8 +22,15 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 #### Agenda+
 * [design-reviews#906: Extending Storage Access API (SAA) to non-cookie storage](https://github.com/w3ctag/design-reviews/issues/906) - @zcorpan, @torgo, @lolaodelola
 
+#### PRs
+* [explainer-explainer#23: Auto-publish the explainer explainer to TR space.](https://github.com/w3ctag/explainer-explainer/pull/23) - @jyasskin
+* [explainer-explainer#25: Say that explainer contents should move into specifications.](https://github.com/w3ctag/explainer-explainer/pull/25) - @jyasskin, @torgo, @matatk
+* [design-principles#575: Add Criteria for Design Principles to README](https://github.com/w3ctag/design-principles/pull/575) - @csarven
+* [design-reviews#1102: Rethink the TAG's review intake process.](https://github.com/w3ctag/design-reviews/pull/1102) - @jyasskin
+
 #### Other
 * [IP Protection in Incognito](https://github.com/w3ctag/design-reviews/issues/1083) - @lolaodelola, @hadleybeeman
+* [explainer-explainer#19: Explainers are an anti-pattern](https://github.com/w3ctag/explainer-explainer/issues/19) - @jyasskin, @torgo
 
 ### Breakout C (Europe / Asia / Australia) - [2025-06-19](https://www.timeanddate.com/worldclock/converter.html?iso=20250619T090000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 
@@ -36,12 +44,9 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Plenary Session - [2025-06-19](https://www.timeanddate.com/worldclock/converter.html?iso=20250619T130000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 
-* [design-reviews#1102: Rethink the TAG's review intake process.](https://github.com/w3ctag/design-reviews/pull/1102) - @jyasskin
-* [explainer-explainer#23: Auto-publish the explainer explainer to TR space.](https://github.com/w3ctag/explainer-explainer/pull/23) - @jyasskin
-* [explainer-explainer#25: Say that explainer contents should move into specifications.](https://github.com/w3ctag/explainer-explainer/pull/25) - @jyasskin, @torgo, @matatk
-* [design-principles#575: Add Criteria for Design Principles to README](https://github.com/w3ctag/design-principles/pull/575) - @csarven
+* accessibility questionnaire - @matatk
+* digital credentials finding - @torgo, @martinthomson
 * [design-reviews#1080: [wg/payments] Web Payments Working Group Charter](https://github.com/w3ctag/design-reviews/issues/1080) - @marcoscaceres, @maxpassion
-* [explainer-explainer#19: Explainers are an anti-pattern](https://github.com/w3ctag/explainer-explainer/issues/19) - @jyasskin, @torgo
 * Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
 
@@ -73,7 +78,6 @@ Raw minutes: ...
 * [design-reviews#935: FedCM API extension: Button Mode and User Other Account API](https://github.com/w3ctag/design-reviews/issues/935) - @torgo, @hadleybeeman
 * [design-reviews#803: FedCM multi IDP support](https://github.com/w3ctag/design-reviews/issues/803) - @torgo, @hadleybeeman
 * [design-reviews#1093: Prompt API](https://github.com/w3ctag/design-reviews/issues/1093) - @martinthomson, @jyasskin, @marcoscaceres
-* [design-reviews#1058: The `interesttarget` attribute](https://github.com/w3ctag/design-reviews/issues/1058) - @matatk, @xiaochengh
 * [design-reviews#831: Eligibility for autofill](https://github.com/w3ctag/design-reviews/issues/831) - @jyasskin, @torgo, @marcoscaceres
 * [design-reviews#991: Writing Assistance APIs](https://github.com/w3ctag/design-reviews/issues/991) - @martinthomson, @jyasskin, @marcoscaceres
 * [design-reviews#1084: media-playback-while-not-visible Permission Policy](https://github.com/w3ctag/design-reviews/issues/1084) - @torgo, @ylafon
