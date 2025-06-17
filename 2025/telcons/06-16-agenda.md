@@ -47,6 +47,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * accessibility questionnaire - @matatk
 * digital credentials finding - @torgo, @martinthomson
 * [design-reviews#1080: [wg/payments] Web Payments Working Group Charter](https://github.com/w3ctag/design-reviews/issues/1080) - @marcoscaceres, @maxpassion
+* TPAC sessions
 * Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+label%3A%22Progress%3A+untriaged%22)
 
