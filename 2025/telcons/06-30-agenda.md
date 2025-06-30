@@ -16,7 +16,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout B (America / Europe) - [2025-07-02](https://www.timeanddate.com/worldclock/converter.html?iso=20250702T170000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 
-* [design-reviews#1112: [wg/social] Social Web Working Group new charter](https://github.com/w3ctag/design-reviews/issues/1112) - @csarven
 * [design-reviews#906: Extending Storage Access API (SAA) to non-cookie storage](https://github.com/w3ctag/design-reviews/issues/906) - @zcorpan, @torgo, @lolaodelola
 * [tag.w3.org#88: Add Ehsan Toreini as a TAG Associate.](https://github.com/w3ctag/tag.w3.org/pull/88) - @jyasskin
 * [design-reviews#1095: Canvas Text Metrics for Editing, Art and Design](https://github.com/w3ctag/design-reviews/issues/1095) - @jyasskin, @matatk, @dandclark
@@ -27,6 +26,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ### Breakout C (Europe / Asia / Australia) - [2025-07-03](https://www.timeanddate.com/worldclock/converter.html?iso=20250703T090000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 
+* [design-reviews#1112: [wg/social] Social Web Working Group new charter](https://github.com/w3ctag/design-reviews/issues/1112) - @csarven
 * [design-reviews#1097: Browser Bound Keys for Secure Payment Confirmation](https://github.com/w3ctag/design-reviews/issues/1097) - @torgo, @yoavweiss, @marcoscaceres
 * [web-no-papers#6: Phone numbers](https://github.com/w3ctag/web-no-papers/pull/6) - @martinthomson
 * [web-no-papers#3: Add some text about email addresses](https://github.com/w3ctag/web-no-papers/pull/3) - @martinthomson
