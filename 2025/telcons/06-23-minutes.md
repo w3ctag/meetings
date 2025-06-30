@@ -445,6 +445,10 @@ Marcos: +1
 
 ## Plenary Session - None
 
+## Special Note on Chair Selection
+
+*Note reflecting an async discussion regarding chair selection: Since Dan Appelquist is leaving at the end of the month, he took on the role of coordinating the selection of a 3rd co-chait to join Hadley and Jeffrey. After a consultaiton and nomination period, and an appropriate notice, Lola Odelola was chosen by consensus of the TAG to join Hadley and Jeffrey as group co-chairs. She will start on the 1st of July.*
+
 ## Unscheduled Design Reviews
 
 ### [design-reviews#945: FedCM bundle: Continuation API, account labels, custom parameters, scopes](https://github.com/w3ctag/design-reviews/issues/945) - @torgo, @hadleybeeman
