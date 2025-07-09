@@ -18,7 +18,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * Prioritize issues in https://github.com/orgs/w3ctag/projects/6/views/1. 
 * [explainer-explainer#7: Explain why to focus on the end-user's need, and/or moderate that advice](https://github.com/w3ctag/explainer-explainer/issues/7) - @torgo
 * [design-reviews#906: Extending Storage Access API (SAA) to non-cookie storage](https://github.com/w3ctag/design-reviews/issues/906) - @zcorpan, @torgo, @lolaodelola
-* [design-reviews#1085: [wg/webauthn] Web Authentication Level 3](https://github.com/w3ctag/design-reviews/issues/1085) - @torgo, @matatk, @toreini
 * [design-reviews#1107: echoCancellation mode](https://github.com/w3ctag/design-reviews/issues/1107) - @matatk, @christianliebel
 * FedCM:
   * [design-reviews#974: FedCM's IdP Registration API](https://github.com/w3ctag/design-reviews/issues/974) - @torgo, @hadleybeeman
@@ -29,7 +28,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ## Breakout C (Europe / Asia / Australia) - [2025-07-10](https://www.timeanddate.com/worldclock/converter.html?iso=20250710T090000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 
-* Prioritize issues in https://github.com/orgs/w3ctag/projects/6/views/1. 
+* Prioritize issues in https://github.com/orgs/w3ctag/projects/6/views/1.
+* [design-reviews#1085: [wg/webauthn] Web Authentication Level 3](https://github.com/w3ctag/design-reviews/issues/1085) - @torgo, @matatk, @toreini
 * [web-no-papers#10: Adding a conclusion](https://github.com/w3ctag/web-no-papers/pull/10) - @torgo
 * [web-no-papers#9: Add passport use case](https://github.com/w3ctag/web-no-papers/pull/9) - @torgo
 * [accessibility-questionnaire#7: Clarify title, and scope](https://github.com/w3ctag/accessibility-questionnaire/pull/7) - @matatk, @matatk
