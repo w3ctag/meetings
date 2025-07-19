@@ -4,6 +4,8 @@ This agenda can be viewed and updated on [Github](https://github.com/w3ctag/meet
 
 If you would like to add an item to the agenda or volunteer to scribe please open a pull request against this agenda.
 
+The minutes for this week are on [Cryptpad](https://cryptpad.w3ctag.org/code/#/2/code/edit/jT+cyYT8rYXWMXBE+qrs8s1D/)
+
 
 ### Breakout A (Asia / Australia / West America) - [2025-07-22](https://www.timeanddate.com/worldclock/converter.html?iso=20250722T030000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 #### Logistics
