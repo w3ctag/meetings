@@ -6,25 +6,6 @@ Regrets: Martin, Marcos, Max
 
 **Cancelled due to low expected attendance.**
 
-<!-- Agenda+ -->
-#### [process#43: GH issue forms might not be right for design reviews](https://github.com/w3ctag/process/issues/43)
-
-<!-- PRs -->
-#### **Callout for reviewers** [accessibility-screener#8: Update repo name in README.md](https://github.com/w3ctag/accessibility-screener/pull/8) - @matatk
-#### [w3ctagbot#64: Bump @eslint/plugin-kit from 0.3.1 to 0.3.3 in the npm_and_yarn group](https://github.com/w3ctag/w3ctagbot/pull/64) - @dependabot, @jyasskin
-
-<!-- Design Reviews -->
-#### [design-reviews#1052: Early Design Review for Device Bound Session Credentials](https://github.com/w3ctag/design-reviews/issues/1052) - @martinthomson, @jyasskin, @lolaodelola
-#### [design-reviews#1000: Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute](https://github.com/w3ctag/design-reviews/issues/1000) - @jyasskin, @dandclark
-#### [design-reviews#1015: Payment link type in HTML](https://github.com/w3ctag/design-reviews/issues/1015) - @jyasskin, @torgo, @csarven, @maxpassion
-#### [design-reviews#1043: CSS.highlights.highlightsFromPoint API](https://github.com/w3ctag/design-reviews/issues/1043) - @torgo, @xiaochengh
-#### [design-reviews#831: Eligibility for autofill](https://github.com/w3ctag/design-reviews/issues/831) - @jyasskin, @torgo, @marcoscaceres
-#### [design-reviews#1089: Extended lifetime shared workers](https://github.com/w3ctag/design-reviews/issues/1089) - @xiaochengh
-#### [design-reviews#1115: Expose unprintable areas via CSS](https://github.com/w3ctag/design-reviews/issues/1115) - @xiaochengh
-#### [design-reviews#1093: Prompt API](https://github.com/w3ctag/design-reviews/issues/1093) - @martinthomson, @jyasskin, @marcoscaceres
-#### [design-reviews#991: Writing Assistance APIs](https://github.com/w3ctag/design-reviews/issues/991) - @martinthomson, @jyasskin, @marcoscaceres
-
-
 ### Breakout B (America / Europe) - [2025-07-23](https://www.timeanddate.com/worldclock/converter.html?iso=20250723T170000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 
 Chair: Lola
