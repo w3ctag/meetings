@@ -631,7 +631,25 @@ Scribe: Matthew
 https://github.com/w3ctag/design-reviews/issues/1093#issuecomment-3222435561 includes quotes from the explainer that don't exist. How did this happen, and how can we prevent it from happening in the future?
 
 [discussion about next steps]
+Lola: ... In terms of using AI, we should be clear about what is acceptable.  I also use AI for a11y.  Difference between taking text from the LLM vs asking questions and exploring ideas.  We need to be more specific about what acceptable use looks like.
 
+Christian: Most of my texts go through an LLM for proofing; it's helpful for me as a non-native speaker, but factual content should be validated. ...
+
+...
+
+Jeffrey: ... I think 'Do not generate any parts of your proposed comments with an LLM' might be a good policy. They do a good job at answering questions to inform the review, but I think using them to generate text for discussion with TAG, or as output of the review, is out.
+
+Sarven: It's beyond just hallucinations that's an issue with these tools. If you ask a question about a spec, it may be referring to an older version, or something not even true, for example. Regarding Explainers, I know some of us can see where a feature may be going, but I find value in really studying the Explainer, so that when we're writing a response, we're talking about the same thing - puts us in the same mental space as the designers - even if we don't have all the details behind the spec. I think this is something that LLMs can't achieve. They may not even be referring to the Explainer.
+
+Jeffrey: I've had the experience of asking one to summarize an article, but it gave something one might expect that actually said the opposite of what the article was saying.
+
+Lola: Do we need to discuss this at the f2f? Are we happy with the position that we're not going to post public comments that have come from AI, or should we discuss this further?
+
+Jeffrey: May make sense for one of us to do a patch on the guide for new TAG members; I can work on this. Can discuss at f2f if it's not finished by then.
+
+Lola: +1
+
+Jeffrey: I'd welcome Christian's insight on how does one use LLMs safely.
 ---
 
 Christian: Resolution on this?
