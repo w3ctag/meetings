@@ -46,7 +46,7 @@ Special guest: PLH to discuss the W3C Technical Strategy Task Force
 ## Grab bag of design reviews for filling extra time
 
 * [design-reviews#1135: Incubation: Inline Integrity](https://github.com/w3ctag/design-reviews/issues/1135) - @toreini
-* [design-reviews#1142: Incubation: FormControlRange - Live ranges for <input> and <textarea>](https://github.com/w3ctag/design-reviews/issues/1142) - @csarven, @matatk
+* [design-reviews#1142: Incubation: FormControlRange - Live ranges for `<input>` and `<textarea>`](https://github.com/w3ctag/design-reviews/issues/1142) - @csarven, @matatk
 * [design-reviews#1130: Incubation: An `Origin` Object](https://github.com/w3ctag/design-reviews/issues/1130) - @csarven, @dandclark
 * [design-reviews#1140: Incubation: `<geolocation>` element (part of PEPC)](https://github.com/w3ctag/design-reviews/issues/1140) - @martinthomson, @marcoscaceres, @matatk, @lolaodelola
 * [design-reviews#1139: WG Revision: Dubbing and Audio description Profiles of TTML2 (for 2nd CRS)](https://github.com/w3ctag/design-reviews/issues/1139) - @matatk
