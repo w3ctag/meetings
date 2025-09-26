@@ -41,9 +41,9 @@ Lola: Consent and copyright... thinking aobut artists. AI using other content th
 
 JY: Security risks - there's risk of prompt injection from the websites themselves. 
 
-xh: There's a risk of user manipulation by the AI. Encouring people to act against their own interests. 
+xh: There's a risk of user manipulation by the AI. Encouraging people to act against their own interests. 
 
-yves: deploying something where the attack surface is unkown. I was reading about how two models can be trained in wildy different ways (e.g., what owls have to do with AI safety). 
+yves: deploying something where the attack surface is unknown. I was reading about how two models can be trained in wildy different ways (e.g., what owls have to do with AI safety). 
 https://medium.com/@arianrezai/what-do-owls-have-to-do-with-ai-safety-this-new-research-will-surprise-you-bceddc9db774
 
 Marcos: nothing to add
@@ -54,7 +54,7 @@ Lola: who is responsible for output? If the quality of output is actively harmfu
 
 JY: the EU has rules around certain outputs. 
 
-Mt: I rencently ran into an experiement around buying cars. The experiment was asking a bunch of people to pick a car, and then a week later the same people were told that they picked the less ideal choice.   And they defended that "choice" just as zealously as those who were correctly told what they chose.
+Mt: I rencently ran into an experiment around buying cars. The experiment was asking a bunch of people to pick a car, and then a week later the same people were told that they picked the less ideal choice.   And they defended that "choice" just as zealously as those who were correctly told what they chose.
 
 (Late addition): Laziness, people not learning to apply critical thinking of their own.
 
@@ -76,7 +76,7 @@ Marcos: Disagree.  Used a general model to nudge people through giving the LLM i
 
 Jeffrey: People who get psychoses were not usuing models that were instructed to give that.  People are just vulnerable to reinforcement.
 
-Macros: ChatGPT monday exists.  You can create an agent that people will fall in love with easily.  ChatGPT is instructed to always be on your side.
+Marcos: ChatGPT monday exists.  You can create an agent that people will fall in love with easily.  ChatGPT is instructed to always be on your side.
 
 Jeffrey: Risk is in people just being corrupted, flaws in their psychology being exploited by LLMs effectively.  Accidentally or intentionally, through instructions.
 
@@ -109,7 +109,7 @@ Jeffrey: Risk is in people just being corrupted, flaws in their psychology being
 
 Marcos: Increased job satisfaction and creativity and productivity.
 
-Yes: trustworthyness. You can verify information against the model - ask for extra information, additional sources, etc.
+Yes: trustworthiness. You can verify information against the model - ask for extra information, additional sources, etc.
 
 Xiaocheng: total social productivity, if done correctly. Releases people on less productive things, and lets them work on more interesting problems. 
 
@@ -276,15 +276,15 @@ Yves: better interaction with the content - asking things about the content, get
 
 Marcos: Hollistic integration outside of just consuming content, but having larger scope where it knows what your task is and integration with your environment. Customizing the environment to the task.  Content adapts to the task.  Looking over the shoulder when you do things and helping you do things.
 
-Martin: imporiving the user interaction with thigs. But it also changes what a website is, and can present the incentives of the website to the user - so like, if the website is trying to manipulate the user the agent can catch those motivations and relay them to the user. 
+Martin: improving the user interaction with thigs. But it also changes what a website is, and can present the incentives of the website to the user - so like, if the website is trying to manipulate the user the agent can catch those motivations and relay them to the user. 
 
-Matthew: +1 to Marcos and Martin; capabilies that do not exist, and like watching over your shoulder. Mashups of the future where you can ask things of sites could be very powerful. There is a tension with losing design, art, and branding, which is very important to people. 
+Matthew: +1 to Marcos and Martin; capabilities that do not exist, and like watching over your shoulder. Mashups of the future where you can ask things of sites could be very powerful. There is a tension with losing design, art, and branding, which is very important to people. 
 
 Max: From the content author's perspective, different content will be experienced in different/adaptive ways. The AI may change how to gather information. For ordinary users, they content creation experience will be changed a lot. Content producers will also need to change how they produce engaging content. For users, getting information can get easy with AI. 
 
 Lola: As AI improves, and hallucinations decrease, it can increase trust for both web developers and users. 
 
-Jeffrey: the AI reinforces the connnection between the reader and the writter - they can get paid for that, or get acknolegment that the author saw the content. 
+Jeffrey: the AI reinforces the connnection between the reader and the writter - they can get paid for that, or get acknowledgment that the author saw the content. 
 
 Xiaocheng: deprecation, the AI could polyfill features. 
 
@@ -298,19 +298,19 @@ MT: making the point that the technology gets out of the way, and we are just ab
 
 Sarven: We live in an information society. Lots of content to sort through. Transparency, the provanence records matter and the sources for the users. And it's good for transparency of what they are looking at. And the integrity... be able to protect authors from misrepresentation of content. This ties into the "authentic web" that the W3C is working on potentially. Credibility assessments. I think it will get better and better.      
 
-Jeffery: is the integrety part is the AI showing the user what the author wrote? 
+Jeffery: is the integrity part is the AI showing the user what the author wrote? 
 
-Sarven: yes, wether the AI is misrepresenting something. 
+Sarven: yes, whether the AI is misrepresenting something. 
 
-Lola: About deprecation, there is a posibility of improved security, it could help address those. 
+Lola: About deprecation, there is a possibility of improved security, it could help address those. 
 
 xiaocheng: it could also detect low quality content, generated by AI.
 
-MT: there's the possibily that AI could make more content more discoverable. AI is a regression to the mean, and tends to stereotypes - like with image generation, is reveals sociatal biases towards gender and racial steriotypes. But it could instead be the mechanism by which content is discovered, based more on the quality of that content and not its ability to access existing centralized channels.
+MT: there's the possibility that AI could make more content more discoverable. AI is a regression to the mean, and tends to stereotypes - like with image generation, is reveals societal biases towards gender and racial stereotypes. But it could instead be the mechanism by which content is discovered, based more on the quality of that content and not its ability to access existing centralized channels.
 
-Lola: there's a possiblity that AI could generate nobel web features. Potentially increased diversity of website creators.
+Lola: there's a possiblity that AI could generate novel web features. Potentially increased diversity of website creators.
 
-Jeffrey: that goes with the possiblity that tools are not restrictive
+Jeffrey: that goes with the possibility that tools are not restrictive
 
 
 #### Summary
@@ -360,7 +360,7 @@ Securing AI: Matthew, Ehsan
 
 1. High-level frameworks, approaches, concerns
 
-2. Sepecific facets of models/questions TAG et al have encountered
+2. Specific facets of models/questions TAG et al have encountered
 
 3. Human and accessibility issues
 
@@ -520,7 +520,7 @@ Maybe the force be with you.
 
 Matthew: might be worth looking at Google's SAIF.  Might be worth looking at the W3C work.  Then trust and accountability.  Prompt injection is a serious problem, which is not going to be mitigated by MCP and its ilk.  Privacy concerns we've discussed a lot, but they fact that WebML WG are seeking input right now means it could be a good time to provide input.  We might answer questions about user agent.  I really like the breakdown into where things run and for whom.  We really should be able to give people choices here.  If we don't bake that into APIs, it's not going to be possible.  This idea about whether models need to be sandboxed when run is interesting.  We don't tell user agents how to construct user interface, but it might be worth us understanding the situation we have today, and analogies with models to help people to understand or is there a more fundamental thing we need to do instead.  Like cryptominers, is there a way to know if a site is running a model.
 
-Jeffrey: there is potentially room for confusin when sites run a user's model.  Otherwise, sites are just running their code.
+Jeffrey: there is potentially room for confusion when sites run a user's model.  Otherwise, sites are just running their code.
 ...There's a question of how much information you reveal, over which models can operate.  If your model has context about you, an attacker that compromises that model, that's a problem.  Both of those are classic information theory problems that maybe we don't need to worry about here.
 
 Martin: Main one for me is who is the model for, and who does it serve.
@@ -529,17 +529,17 @@ Yves: And is it read-only, or is it learning. If it's read-only, it can be remot
 
 Martin: Depends on the shape of the context you provide it. Two ways for info to get in: (1) training set and (2) context you give it. In your read-only example the training set doesn't changem, but the context can.
 
-Jeffrey: But It hin k you're saying that as long as the data you give it doens't end up in the next model's training set, it is OK - if you trust it.
+Jeffrey: But I think you're saying that as long as the data you give it doesn't end up in the next model's training set, it is OK - if you trust it.
 
 Martin: We have beginnings of some tools for this. Apple's private compute runs models in an enclave and then has them attest that they ran the model. Then you can be sure the computer is running the model you care about.
 
-Yves: Avoids disclsoing things if you run the model from two different origins - context.
+Yves: Avoids disclosing things if you run the model from two different origins - context.
 
 Martin: Cross-talk between origins - Prompt API addresses this.
 
 Jeffrey: 'the model doesn't learn from your input' is a special case of 'we don't record your input' - they could still learn a lot about you from your input, even if they don't include it in the training. 'We don't record things you send us' is a general privacy question, not specific to AI, so we can skip it for today.
 
-Martin: Agree. It's a question of what info is revealed. Only possible way is a matter of degree (AI needs loads of info to work, so you give it more, whcih could be explaited, but not high on list of priorities).
+Martin: Agree. It's a question of what info is revealed. Only possible way is a matter of degree (AI needs loads of info to work, so you give it more, whcih could be exploited, but not high on list of priorities).
 
 Jeffrey: You had a second thing...
 
@@ -555,11 +555,11 @@ Jeffrey: We can say that: if a model is bundled with a browser, then it owes the
 
 Yves: The model provider is then the browser.
 
-Martin: Right now if the browwer makes a claim, there are ways to verify via source (which albeit is translated into machine code)
+Martin: Right now if the browser makes a claim, there are ways to verify via source (which albeit is translated into machine code)
 
 Yves: A bit like EME - black box
 
-Martin: Which is why we put a lot of safeguards in. Sandboxed. Can't access network,b ut it's not an agent like this.
+Martin: Which is why we put a lot of safeguards in. Sandboxed. Can't access network, but it's not an agent like this.
 
 Jeffrey: browsers could have an extension model where the user plugs their own model into the browser and it is passed Prompt API calls. Then the user can't inspect it, but they at least of a choice.
 
@@ -568,7 +568,7 @@ Martin: Leaning on the efficient markets idea. May not work. So far we've been l
 Jeffrey: possibility user can't afford to run the model locally so they run it in the cloud.  There might be more ways for an agent that is not working for end users to enter the system.  You might need to agree that it can inject ads into answers in order to pay for the service.
 ...I do feel like either having one with the browser or picking a model to run might work, given the current state of the ecosystem.
 
-Martin: Less optimistic there. Comes down to incencive models. Haven't seen a model that leads to good outcomes. Perplexity gets heat ... their CEO went in public and said he'd make a browser and would sell everything that happens to advertisers. The sorts of money in the industry, and where they're likely to get money (revenue?), no future avoids forcing them to do things we don't like. They act for shareholder interest.
+Martin: Less optimistic there. Comes down to incentive models. Haven't seen a model that leads to good outcomes. Perplexity gets heat ... their CEO went in public and said he'd make a browser and would sell everything that happens to advertisers. The sorts of money in the industry, and where they're likely to get money (revenue?), no future avoids forcing them to do things we don't like. They act for shareholder interest.
 
 Matthew: should we then sandbox them?
 
@@ -622,7 +622,7 @@ Martin: Colleague researching in this area says there is a pattern that may miti
 
 Yves: Many users would be happy to have a way to disble AI-related things.
 
-Martin: We've taken this into account; it has to be discretionary. Part of the problem si taht we're asking people to provide the resources to run the compute.
+Martin: We've taken this into account; it has to be discretionary. Part of the problem is that we're asking people to provide the resources to run the compute.
 
 ----
 
@@ -640,7 +640,7 @@ Jeffrey: User agents themselves must not be trivially subvertable.
 
 Jeffrey: Asking about where models can run is not specific to models.  User data is exposed in different ways, and people should be able to make choices about who gets their stuff.  Sites should provide users control over who gets it.
 
-Martin: THey do, and that's a problem.
+Martin: They do, and that's a problem.
 
 Jeffrey: Consent boxes? (yes)
 
@@ -659,7 +659,7 @@ Matthew: might generate privacy principles and design principles PRs
 
 Martin: Who are they talking to?
 
-Matthew: You could be looking at a page on amazon and talking to the AI, but the AI doesn't know about your purchase history.  Confusion possible, but also the side that concerns me, they think they are talking about amazon, but they are passing information to something else.  People might think they are talking to their computer.
+Matthew: You could be looking at a page on Amazon and talking to the AI, but the AI doesn't know about your purchase history.  Confusion possible, but also the side that concerns me, they think they are talking about Amazon, but they are passing information to something else.  People might think they are talking to their computer.
 
 Jeffrey: if they think the whole web is their computer, we might not be able to help
 
@@ -689,7 +689,7 @@ Jeffrey: It has the option to drop cookies and make private requests.
 
 Martin: but why would it?
 
-Jeffrey: I think they're making it so the default is private, and if it needs to it uses cookies. All or nothing. We don't want that but OAuth isn't able to do partial privilages
+Jeffrey: I think they're making it so the default is private, and if it needs to it uses cookies. All or nothing. We don't want that but OAuth isn't able to do partial privileges
 
 Matthew: Can we 'make that so'
 
@@ -697,11 +697,11 @@ Martin: It's more nuanced than that - e.g. NYT - you have to be able to get past
 
 Jeffrey: ...but then it could upgrade your subscription.
 
-... Same example as looking at facebook posts (need to be logged in), but those same cookies give the model the ability to create posts
+... Same example as looking at Facebook posts (need to be logged in), but those same cookies give the model the ability to create posts
 
-... It'd be nice if OAuth allowed you to reliablly ask for a lower scope. Perhaps the guardian model 
+... It'd be nice if OAuth allowed you to reliablly ask for a lower scope. Perhaps The Guardian model 
 
-Matthew: I don't why the guardian needs to be a model.
+Matthew: I don't why The Guardian needs to be a model.
 
 ...We just got a result: there needs to be some improvements to enable granular permission grants.  Heather Flanagan is doing some of that work.
 
@@ -711,11 +711,11 @@ Jeffrey: I feel OAuth model could be used for this purpose.
 
 Martin: Possibly
 
-Jeffrey: It has mechanisms to generate tokesn with scopes. You could ask for an attenuated token.
+Jeffrey: It has mechanisms to generate tokens with scopes. You could ask for an attenuated token.
 
 Martin: This isn't gneerally how it works. The browser provides a communications medium.
 
-Jeffrey: Usually you log into one website (the RP) with another website (the IDP). If instead we treat the local agent as the RP, and website it's interacting with as the IDP, I think oauth does what we want. I think this is what Heather has in mind, but I might have misunderstood.
+Jeffrey: Usually you log into one website (the RP) with another website (the IDP). If instead we treat the local agent as the RP, and website it's interacting with as the IDP, I think OAuth does what we want. I think this is what Heather has in mind, but I might have misunderstood.
 
 Martin: You'd need the tokens to expose what scopes a token has, and a whole language explaining them.
 
@@ -736,7 +736,7 @@ Jeffrey: if they are really talking to a UA, it can go out and get that info.  T
 
 Scribe: Lola
 
-Xiaocheng: If these protocals are succesful, they'll massively reshape the web, what do we expect the web to be like?
+Xiaocheng: If these protocols are successful, they'll massively reshape the web, what do we expect the web to be like?
 Let's list more specific questions; for example WebMCP? Do we think WebMCP is a good integration to the web?
 
 Marcos: What's WebMCP?
@@ -774,7 +774,7 @@ Lola: not all parts of the web would become agentic. A lot of parts would stay a
 
 Sarven: Introducing a new actor to the web (agent) is interesting. How do these new actors interact with the other actors on the web where they're faster, have access to more information. Not necessarily smarter but they operate on probabalistic sense of the content, where as there's more of a structured content. Humans do both. I'm curious of the interaction... Current MCP isn't going to be great. They're limited to trying to make sense of the content and will miss out a lot of stuff but they will get better with structured content. I think that's the point where it gets more interesting where they act with other actors like humans.
 
-Marcos: If we take it back to first principles, it'll be server to server over HTTP, structured the way APIs are structured now. The aspect of it having a model running there isn't particularly special, it's |"if" statements all the way down. It's all centralised, which isn't good, not enough competition = everyone getting the same garbage. I don't think the MCP part has any real impact, I might be wrong there, it's not any diffrnt to JSONRCP. It may be slightly better suited but I don't think it provides much more than that in general. Does it add anything beyond GraphQL for example? It can expose it's AI endpoints.
+Marcos: If we take it back to first principles, it'll be server to server over HTTP, structured the way APIs are structured now. The aspect of it having a model running there isn't particularly special, it's |"if" statements all the way down. It's all centralised, which isn't good, not enough competition = everyone getting the same garbage. I don't think the MCP part has any real impact, I might be wrong there, it's not any different to JSONRCP. It may be slightly better suited but I don't think it provides much more than that in general. Does it add anything beyond GraphQL for example? It can expose it's AI endpoints.
 
 Sarven: If they're acting on relatively even ground with humans, the question about accountability comes into play -- if they're creating content, how do you keep the AI agent or its creators accountable? As they get closer to acting in ways that are indistiguishable from humans, it becomes harder to diffrentiate. It's important to consider this, to what extent are they accountable?
 
@@ -870,7 +870,7 @@ Martin: Is it JS at all? Or is it a capabiltiy that's associated with the web ap
 
 Jeffrey: Client or server?
 
-Martin: that'st the question
+Martin: that's the question
 
 Jeffrey: Which is initiating
 
