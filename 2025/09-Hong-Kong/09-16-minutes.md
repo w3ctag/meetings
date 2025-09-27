@@ -699,9 +699,9 @@ Jeffrey: ...but then it could upgrade your subscription.
 
 ... Same example as looking at Facebook posts (need to be logged in), but those same cookies give the model the ability to create posts
 
-... It'd be nice if OAuth allowed you to reliablly ask for a lower scope. Perhaps The Guardian model 
+... It'd be nice if OAuth allowed you to reliably ask for a lower scope. Perhaps the guardian model can make this request.
 
-Matthew: I don't why The Guardian needs to be a model.
+Matthew: I don't why the guardian needs to be a model.
 
 ...We just got a result: there needs to be some improvements to enable granular permission grants.  Heather Flanagan is doing some of that work.
 
