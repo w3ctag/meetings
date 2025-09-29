@@ -45,11 +45,11 @@ Note: start person and order varying.
 * Impact of AI; Technology Strategy TF - whether/how it will bring a difference.
 * Moving findings forward toward publication so they can have a positive impact. Talking about what's happening next, and the developer meetup.
 * Not sure about looking _forward_ to AI topic, but it's an important discussion for us to have, and the Findings. And to having a break.
-* The AI stuff, new technology discussions. No papers, hopefully we can get that out. Geoloation stuff - there are some quick wins there. Revising what Findings we have on the go, in the limited time we have.
+* The AI stuff, new technology discussions. No papers, hopefully we can get that out. Geolocation stuff - there are some quick wins there. Revising what Findings we have on the go, in the limited time we have.
 
 ## What is a Standard?
 
-Yves: What 'standard' means varies based on where you are. W3C has recommendations. Standards could be requirements-driven, or research-driven, have a test suite, or be more exploratory rather than being based on wide implememtation experience.
+Yves: What 'standard' means varies based on where you are. W3C has recommendations. Standards could be requirements-driven, or research-driven, have a test suite, or be more exploratory rather than being based on wide implementation experience.
 
 IETF RFCs (their standards) - takes a long time to get to RFC, so there are many drafts and relatively fewer standards. The process here is based almost entirely on implementation. The bar is higher. Could take 10 years of careful debugging and implementation. Email may be a standard now. HTTP is, recently.
 
@@ -57,21 +57,21 @@ Martin: IETF standards need to meet a very very very high bar. Lots of interoper
 
 ... WHATWG has a view that is based on implementations.
 
-Yves: WHATWG are standards that are evolving over time, based on implementation reports, the needs of browsers changing over time. Different goal. Driven mostly around implementation and test reaults.
+Yves: WHATWG are standards that are evolving over time, based on implementation reports, the needs of browsers changing over time. Different goal. Driven mostly around implementation and test results.
 
-... So there are 3 different kinds of standards, moving at different paces, that interact with the Web platform. So as W3C TAG, how can we make things better? Better for W3C RECs, and what co-ordination to do we need to ensure standards are interoparable and evolving at compatible rates?
+... So there are 3 different kinds of standards, moving at different paces, that interact with the Web platform. So as W3C TAG, how can we make things better? Better for W3C RECs, and what co-ordination to do we need to ensure standards are interoperable and evolving at compatible rates?
 
 ... E.g. if you're a W3C WG, making a standard based on on RFC, what's the right way to interact?
 
-Marcos: There's a legal side, and a practical side. 'Standard' in the ISO side, to have an international standard, there are legal requirements for implementing it. W3C doesn't wnat to get involved in this.
+Marcos: There's a legal side, and a practical side. 'Standard' in the ISO side, to have an international standard, there are legal requirements for implementing it. W3C doesn't want to get involved in this.
 
 Yves: In a way, we did because web services became a US @@@@@ standard. But it's not our role to decide which standards get adopted (e.g. WCAG)
 
-Marcos: Some members view this as inherently dangerous. Even though there is an IP framework which we operate under, the W3C makes its recommendations, but there's no implication to not implement them, or wilfully violte them at times. Otherwise we'd be forced to do things we may not want to do.
+Marcos: Some members view this as inherently dangerous. Even though there is an IP framework which we operate under, the W3C makes its Recommendations, but there's no implication to not implement them, or willfully violate them at times. Otherwise we'd be forced to do things we may not want to do.
 
 Yves: Whole story around privacy here.
 
-Marcos: Framing around why they're called Recommendations at the W3C is valuable. The ratoinale for that is important. These are recommendations, rather than standards. Some specs have standards attached to them, which may become legally enforceable if someone like ISO takes them up.
+Marcos: Framing around why they're called Recommendations at the W3C is valuable. The rationale for that is important. These are recommendations, rather than standards. Some specs have standards attached to them, which may become legally enforceable if someone like ISO takes them up.
 
 Marcos: Voluntary adoption is key in this area.
 
@@ -85,21 +85,21 @@ Lola: What are the holes in this process? What does W3C want us to do to make it
 
 Yves: To me it's more keeping in the same voluntary standards, so W3C and IETF are in the same basket. The goal is what can the TAG recommend to W3C or even to IETF or WHATWG around specifications that are developed in those 3 groups. How can those specs be developed better for the consumers of those specs.
 
-Jeffrey: What questions do we want to answer in this session? e.g. how we make the various standards bodies work togetehr? What makes a good W3C standard?
+Jeffrey: What questions do we want to answer in this session? e.g. how we make the various standards bodies work together? What makes a good W3C standard?
 
-Yves: This relates to how to make things usuable by the other bodies, need a high bar. Need a good Explainer to help others who are not in the space understand what the spec is about, rather than trying to infer it.
+Yves: This relates to how to make things usable by the other bodies, need a high bar. Need a good Explainer to help others who are not in the space understand what the spec is about, rather than trying to infer it.
 
 Jeffrey: ... so there's that question, and then: how does the TAG want to guide that? Do we need a separate group? Like the QA group spin-off again. We could have views about what makes good standards without being the arbiters.
 
 Yves: TAG has good experience due to reviews. Sometimes IETF asks for details on certain things, also WHATWG, even TC39. We're in a position where we can talk to those different people and co-ordination. We can start something, even if we're not doing the work, TAG ist he right place to think about that.
 
-Martin: re voluntary adoption. A number of reasons it's good. It prevents drawing sharp lines of responsibilities across SDOs. So if one SDO does duplicative work of another SDO, the test of who's turf it is doesn't become a problem, beause what succeeds in the marketplace determines what becomes the reality, rather than saying 'this is the area of W3C' for example. Re Identity work, there's duplicative work going on in different groups. Partly becuase some people don't get on. Partly because there are different perspectives. We're doing the whole capitalism thing where we have 5 different products and seeing which does well in the marketplace.
+Martin: re voluntary adoption. A number of reasons it's good. It prevents drawing sharp lines of responsibilities across SDOs. So if one SDO does duplicative work of another SDO, the test of whose turf it is doesn't become a problem, because what succeeds in the marketplace determines what becomes the reality, rather than saying 'this is the area of W3C' for example. Re Identity work, there's duplicative work going on in different groups. Partly because some people don't get on. Partly because there are different perspectives. We're doing the whole capitalism thing where we have 5 different products and seeing which does well in the marketplace.
 
 ... One thing I added: if you look at the DID Methods tal Credentials work: the 'standard' as it were, is being developed as a framework with a hole in the middle. The real standards work is being done outside of W3C. These specs defined a framework, and a rough hole in it, but didn't define the things that go in the hole. Do we have a standard at this point? I still have this question about the URI: what a scheme means is undefined. The concrete schemes we tend to use on a daily basis are understood, but the new ones... why would you need some of those?
 
-Yves: There's the question about what even is a URI? (differing defintions)
+Yves: There's the question about what even is a URI? (differing definitions)
 
-Martion: Some maintain WHATWG's version is an abomination, but WHATWG would say this is what is shipping and what people are writing code to. They're both right though IETF not quite right. There are community uses of URIs that don't intersect with WHATWG's version.
+Martin: Some maintain WHATWG's version is an abomination, but WHATWG would say this is what is shipping and what people are writing code to. They're both right though IETF not quite right. There are community uses of URIs that don't intersect with WHATWG's version.
 
 Yves: Some people want to have hard distinctions, URI, IRI, ...
 
@@ -115,15 +115,15 @@ Matthew: Agree with the "hole in the framework" issue.
 
 Marcos: What motivated this session? E.g. concrete issues.
 
-Jeffre: One thing was we got a design review about 'should the DCs API spec have a registry in it?' - some thought everyone should define the approaches they want, and use UUIDs and search engines can find them, but I think this is foolish.
+Jeffrey: One thing was we got a design review about 'should the DCs API spec have a registry in it?' - some thought everyone should define the approaches they want, and use UUIDs and search engines can find them, but I think this is foolish.
 
 Yves: the registry is a search engine.
 
-Martin: At what point do you determine that those processes are an essential part of the spec. You could build the alternatives into the spec. Ultimately: what does it mean to standardise once you give away that capabilty? There's an amount of responsibiltiy when you take on the work of others to fill the hole.
+Martin: At what point do you determine that those processes are an essential part of the spec. You could build the alternatives into the spec. Ultimately: what does it mean to standardise once you give away that capability? There's an amount of responsibilty when you take on the work of others to fill the hole.
 
 Marcos: Makes sense as to how we got here, but wonder if we should narrow it.
 
-Yves: The other discussion that raised this was whether the Explainer be part of the spec at some pont - does it halp make it a better standard? The W3C process evolves all the time, e.g. with testing being included; the recent work by Dom & Francois about making sure the JS and IDL align; constraints on types. Many things done to make W3C RECs better, but can we do more?
+Yves: The other discussion that raised this was whether the Explainer be part of the spec at some point - does it help make it a better standard? The W3C process evolves all the time, e.g. with testing being included; the recent work by Dom & Francois about making sure the JS and IDL align; constraints on types. Many things done to make W3C RECs better, but can we do more?
 
 Jeffrey: Short answer to Marcos is: a lot of questions have come across our desk about spec quality, so it's looking at if there's anything we can generalise from these. What do we think about spec quality.
 
@@ -135,7 +135,7 @@ Marcos: We know the tooling, and the things we can check. This is broad - Explai
 
 Martin: They're processing standards, so fits their model.
 
-Marcos: THere are pocesses in the spec that interat with the OS/platform. Network protocols.
+Marcos: There are processes in the spec that interact with the OS/platform. Network protocols.
 
 Martin: fetch relates. Networking standards are a mix: you define the fields, and also how you expect entities to react to them.
 
@@ -147,7 +147,7 @@ Marcos: 3 types: data formats    ; browser API/feature; network protocol.
 
 Lola: What determines which group would be good to develop a particular standard? E.g. if you require an API? Guidance for groups: 'if you're doing a proto/networking standard, here's what you need to include'
 
-Martin: When developing for a platform like POSIX or a programming language stdlib, insturctions like 'when you get this, you raise this error' is needed; need preciseness about algorithmic processing. In W3C specs about a format, more important to be precise about the semantics rather than the algorithm.
+Martin: When developing for a platform like POSIX or a programming language stdlib, instructions like 'when you get this, you raise this error' is needed; need preciseness about algorithmic processing. In W3C specs about a format, more important to be precise about the semantics rather than the algorithm.
 
 Yves: I've seen some W3C stuff that ran into problems with the threading model; was not forward-looking.
 
@@ -157,7 +157,7 @@ Jeffrey: Everything in HTML is written as if on a single thread, but you can imp
 
 Martin: Fast, Comprehensible, Correct. We need Comprehensible and Correct.
 
-Jeffrey: One guideline that migth go into what is a good web spec document.
+Jeffrey: One guideline that might go into what is a good web spec document.
 
 Xiaocheng: Specs written without threading may be difficult to implement multi-threaded. You raise the parallel queue example. It's extremely difficult to parallelize in CSS, because so many things block layout, which is very bad. We need to have principles on good performance.
 
@@ -165,15 +165,15 @@ Jeffrey: Write the algorithm to be comprehensible, but pay attention to what the
 
 ... May be useful to move on to registry question.
 
-Xiaocheng: Can I add a subtopic about implementations. Martin mentioned competing standards. It's a very monopolised capitalism. When we have conficts, it's up to the choices of a few implementers as to which one we adopt.
+Xiaocheng: Can I add a subtopic about implementations. Martin mentioned competing standards. It's a very monopolised capitalism. When we have conflicts, it's up to the choices of a few implementers as to which one we adopt.
 
-Martin: Important question: When it comes to making decisoins, the market is not a health one. Some players have a veto over other options.  ALternatives therefore have no hope of success.
+Martin: Important question: When it comes to making decisions, the market is not a health one. Some players have a veto over other options.  Alternatives therefore have no hope of success.
 
 Jeffrey: True: but what's the question the TAG can answer that addresses that?
 
-Xiaocheng: We still need to be aware of different alterntives.
+Xiaocheng: We still need to be aware of different alternatives.
 
-Jeffrey: Like 'how can the TAG enocourage more alternatives?'
+Jeffrey: Like 'how can the TAG encourage more alternatives?'
 
 Xiaocheng: From TAG's perspective, we probably want to decrease the influence of powerful implementers, and focus on the best approach for a problem.
 
@@ -183,7 +183,7 @@ Xiaocheng: There is no judgment of a market.
 
 MT (agree)
 
-Lola: True that there's an unfair market, specifically in the W3C, a few companies make big decisions. Howvever, as TAG, we do have quite a few systems and levers we're not shy about pulling when we notice these things. Beyond that, not sure how we can influence. If we're thinking of what's best for web architecutre, it's up to spec authors to bring us suggestions. When we notice they're all from the same company, we ask them to show they covered alternatives.
+Lola: True that there's an unfair market, specifically in the W3C, a few companies make big decisions. However, as TAG, we do have quite a few systems and levers we're not shy about pulling when we notice these things. Beyond that, not sure how we can influence. If we're thinking of what's best for web architecture, it's up to spec authors to bring us suggestions. When we notice they're all from the same company, we ask them to show they covered alternatives.
 
 Jeffrey: Not sure if we would be good at this, but one way to decrease the influence of browsers is to create new ones.
 
@@ -195,7 +195,7 @@ Lola: I'm contributing to Servo at the moment. Igalia is too. We're all in W3C, 
 
 Marcos: Having an engine is no use if nobody uses it. Need a browser. Also finding a balance with DCs work. Brave made some valuable points. They're using a modified version of Chromium. Others, like Ladybird, need users.
 
-Lola: Brave has a user base. Vivaldi too. Not in comprison to other browsers though.
+Lola: Brave has a user base. Vivaldi too. Not in comparison to other browsers though.
 
 Martin: Opera has quite a few users.
 
@@ -213,7 +213,7 @@ Marcos: What budget would this have?
 
 Jeffrey: W3C would have to raise more money. But if it has a use for it, that's something to go to the members on. 'We'd like to coordinate you to produce some output' Personally I don't think we can be effective doing this.
 
-... What should we discuss for the rest of the session? I think we can make progress on when Registires are the right thing to do, and make progress on documenting that decision.
+... What should we discuss for the rest of the session? I think we can make progress on when Registries are the right thing to do, and make progress on documenting that decision.
 
 
 
@@ -222,7 +222,7 @@ Questions to answer this session:
 * How can we help SDOs work together?
 * What makes a good W3C standard? E.g. what the QAWG published in 2005
 * What group should guide standards quality? TAG? new QAWG? Something else?
-* How do registries fit in? E.g. DIDs vs DID Methods. Digital Credental protocol field. Etc.
+* How do registries fit in? E.g. DIDs vs DID Methods. Digital Credential protocol field. Etc.
 * How can the TAG decrease the power of centralized implementers?
 * What is Implementation Experience?
 
@@ -238,21 +238,21 @@ Martin: I think this is a scenario where we're talking about options in specs, a
 
 Jeffrey: ["Have one joint and keep it oiled"](https://www.imperialviolet.org/2016/05/16/agility.html)
 
-Marcos: Issues around JS, quality, defence of the W3C's mission, all these things come up as criterea for inclusion in the registry. The WG accepted the criteria. There is good intent there. Could talk about registries in general - what are their roles, and how they are governed by the W3C's mission.
+Marcos: Issues around JS, quality, defence of the W3C's mission, all these things come up as criteria for inclusion in the registry. The WG accepted the criteria. There is good intent there. Could talk about registries in general - what are their roles, and how they are governed by the W3C's mission.
 
 Martin: Good 'blog post, was based on TLS.
 
-Yves: Re extension points, issues around referecing, etc.
+Yves: Re extension points, issues around referencing, etc.
 
-Martin: Issue with URI schemes, you have to go back to first princpiles. All the infrastructure needed, rather than just having specific points for optionality/extension. There are specific pathologies in this domain that don't apply to others.
+Martin: Issue with URI schemes, you have to go back to first principles. All the infrastructure needed, rather than just having specific points for optionality/extension. There are specific pathologies in this domain that don't apply to others.
 
 Presenting: https://www.w3.org/TR/digital-credentials/#protocol-registry
 
-Marcos: With DCs API, the API itself tries to be agnostic of the protocols, which define formats, for which we have a registry. So we had to come up with a set of criterea for inclusion. Motivations included: practicality of how we work with other orgs; how these things can go awry; knowing that a lot of SDOs, like OpenID, they don't work within web browsers, so don't have a full understanding of how UAs work. Given that poast experience, we made it clear that: (1) there needs to be a formal liaison arrangement with W3C to cover IPR/legal issues; (2) it must be defined in a freely-available spec; (3) have a stable URL.
+Marcos: With DCs API, the API itself tries to be agnostic of the protocols, which define formats, for which we have a registry. So we had to come up with a set of criteria for inclusion. Motivations included: practicality of how we work with other orgs; how these things can go awry; knowing that a lot of SDOs, like OpenID, they don't work within web browsers, so don't have a full understanding of how UAs work. Given that past experience, we made it clear that: (1) there needs to be a formal liaison arrangement with W3C to cover IPR/legal issues; (2) it must be defined in a freely-available spec; (3) have a stable URL.
 
-... Practicallity of implementing: other SDOs weren't familiar with WebIDL or JSON. Needed to explain why these are important to the development of the spec - and the need to develop validation rules. OpenID had URLs and parsers a lot. Need to understand these are vectors for attack. Weren't considering e.g. what happens when you have a fragment identifier. Assumption that these are opaque and will be handed over as strings to wallets etc. Can let UA check this.
+... Practicality of implementing: other SDOs weren't familiar with WebIDL or JSON. Needed to explain why these are important to the development of the spec - and the need to develop validation rules. OpenID had URLs and parsers a lot. Need to understand these are vectors for attack. Weren't considering e.g. what happens when you have a fragment identifier. Assumption that these are opaque and will be handed over as strings to wallets etc. Can let UA check this.
 
-... Referred these defintions to HR groups such as privacy.
+... Referred these definitions to HR groups such as privacy.
 
 ... (4) implementation commitment: this one was a bit loose.
 
@@ -266,29 +266,29 @@ Martin: All of those are problematic; some are actively harmful.
 
 Jeffrey: would it help to list some other registry strategies?
 
-Martin: Experience with TLS, has a registry for cipher suites. Narrow defintion. Everyone understands the limits of that. With one exception, most fit that form, e.g. 'I want to use AES 128 with ...'
+Martin: Experience with TLS, has a registry for cipher suites. Narrow definition. Everyone understands the limits of that. With one exception, most fit that form, e.g. 'I want to use AES 128 with ...'
 
-... We found poeople defining code points without using the registry, because going to the registry was difficult. They had to ship code. Or they had legal reasons to use the cipher suite they used (e.g. mandated to be used); happens in different countries. So code points were getting used, and not published anywhere. We had at least one occasion where 3 TLS extensions used the same code points (16-bit integers).
+... We found people defining code points without using the registry, because going to the registry was difficult. They had to ship code. Or they had legal reasons to use the cipher suite they used (e.g. mandated to be used); happens in different countries. So code points were getting used, and not published anywhere. We had at least one occasion where 3 TLS extensions used the same code points (16-bit integers).
 
 Jeffrey: We've had the problem in MIME types also.
 
-Martin: The collisions were more of a problem, so we thought about controlling what goes into the registry. Other parts of IETF don't have the same problems, so are not doing this, but TLS decided that registries had to be more permissive so we could get away from the idea that you can place stipulations around access, because it doesn't work. This is especially true for string-based registries. This works better - unless you're defining a standard, whcih we'll get to.
+Martin: The collisions were more of a problem, so we thought about controlling what goes into the registry. Other parts of IETF don't have the same problems, so are not doing this, but TLS decided that registries had to be more permissive so we could get away from the idea that you can place stipulations around access, because it doesn't work. This is especially true for string-based registries. This works better - unless you're defining a standard, which we'll get to.
 
 Lola: if we acknowledge that part of the problem is the bar is too high, and now different countries etc have different ciphers, how has TLS addressed this?
 
 Martin: With TLS, as long as you have something in common, it'll work. Whether there is an overlap is generally something the market resolves. TLS mandates that you implement at least one cipher, which means everyone has a fallback. Problem is with 1.2 that the fallback is not something you would want to use.
 
-Lola: Is there an incentive to implemeneters to have a fallback? What about the fact the mandated fallback isn't usable?
+Lola: Is there an incentive to implementers to have a fallback? What about the fact the mandated fallback isn't usable?
 
 Martin: Over time, new de facto fallbacks have come about, and it works out.
 
-Jeffrey: 2 things we need to write down: (1) do we have a registry that is easy to put things in, so that everyone has a definition and code points don't colldie and (2) do you need a high bar so that only things that meet those high requirements go in.
+Jeffrey: 2 things we need to write down: (1) do we have a registry that is easy to put things in, so that everyone has a definition and code points don't collide and (2) do you need a high bar so that only things that meet those high requirements go in.
 
-... E.g. DID Methods and VCs define extension points. Some specs like these define registires and then put nothing in them. We should endorse a principle that there must be at least one.
+... E.g. DID Methods and VCs define extension points. Some specs like these define registries and then put nothing in them. We should endorse a principle that there must be at least one.
 
 Martin: For WebRTC we decided too early. (64-bit uncompressed audio)
 
-Jeffrey: Registires: Permissions (I think it's been successful in that people have provided a lot of strings for them, but there's no registry yet); URL schemes (successful, but registry has not been).
+Jeffrey: Registries: Permissions (I think it's been successful in that people have provided a lot of strings for them, but there's no registry yet); URL schemes (successful, but registry has not been).
 
 Martin: Dave Taylor at Microsoft went through an exercise of getting them together and registering them once, but nobody registers them.
 
@@ -304,17 +304,17 @@ Martin: I suspect again that the compliance rate is much lower, so the registry 
 
 Jeffrey: Anything else to add?
 
-Martin: The DCs one is an intersting one. The rules reflects the political reality of the WG when they were written, but the don't reflect what you'd have if you wanted to ensure interop. I would ask: what is the shape of the hole? And what is required to fill that hole directly? So there's a 'create' or 'isssue' and the retrieval operation. The definition of what activates each, and the nature of the response, isn't specified. I would expect these things to be written down, not whether the Privacy group has looked at it. 'Have some people looked at it' isn't a standard.
+Martin: The DCs one is an interesting one. The rules reflects the political reality of the WG when they were written, but the don't reflect what you'd have if you wanted to ensure interop. I would ask: what is the shape of the hole? And what is required to fill that hole directly? So there's a 'create' or 'issue' and the retrieval operation. The definition of what activates each, and the nature of the response, isn't specified. I would expect these things to be written down, not whether the Privacy group has looked at it. 'Have some people looked at it' isn't a standard.
 
 Marcos: There are HR requirements.
 
-Martin: Which should be checked for whether they've been met - not whether it's been looked at. Currently you don't have a 'how this meets this hole'. My expectation is that if you manage to register something, that'll lead to refining the criteara.
+Martin: Which should be checked for whether they've been met - not whether it's been looked at. Currently you don't have a 'how this meets this hole'. My expectation is that if you manage to register something, that'll lead to refining the criteria.
 
-... So we have registries for things like QUIC parameters or frame types (for which you don't need a registry, because you can't use frame types without negotiating them, so you can use the transprot parameter registry as a proxy).
+... So we have registries for things like QUIC parameters or frame types (for which you don't need a registry, because you can't use frame types without negotiating them, so you can use the transport parameter registry as a proxy).
 
-Jeffrey: I divided DCs registry reqs: 'is this an adequate standard for the code point' and 'is this specification a good idea (does it meet W3C goodness requirements, as wella s just promoting interoperability)'. We shouldn't just have 'I claimed this code point but won't tell you what it means'
+Jeffrey: I divided DCs registry reqs: 'is this an adequate standard for the code point' and 'is this specification a good idea (does it meet W3C goodness requirements, as well as just promoting interoperability)'. We shouldn't just have 'I claimed this code point but won't tell you what it means'
 
-Sarven: There may be more than one registry for URIs. Who gets to make the call/have governance over the web community. Mostly done through IETF/IANA, W3C and GS1 had one. The point is: if you have multiple registries operating, and different specs overalapping, registring at different places, that sort of fragementation may not be what people ware looking for. Parallel in my mind: URI spec - original at IETF, WHATWG has one that is reflected in the browser. Not overall great for the web community, but solving these problems. Some aspect of dagner.
+Sarven: There may be more than one registry for URIs. Who gets to make the call/have governance over the web community. Mostly done through IETF/IANA, W3C and GS1 had one. The point is: if you have multiple registries operating, and different specs overlapping, registering at different places, that sort of fragmentation may not be what people ware looking for. Parallel in my mind: URI spec - original at IETF, WHATWG has one that is reflected in the browser. Not overall great for the web community, but solving these problems. Some aspect of danger.
 
 Jeffrey: Not aware of parallel URI schemes.
 
@@ -324,17 +324,17 @@ Jeffrey: Forking a spec is a serious escalation, and should only happen in extre
 
 ... Question: do you do a registry of code points/defined strings _or_ just say put a URI in this field; doesn't need central agreement. Need to write down the cases where it makes sense. W3C has a community that over-uses URIs for that purpose.
 
-Martin: When you define JSON-LD and the schema link points to something, that's a great example of the open flexibiltiy that system provides without coordination; that's great. In other contexts, the application you're interested in has to behavie within a certain envelope. For something like DCs, it has to behave in a particular way, it has to have the 'get' and 'create' and follow a particular structure. So then you need to know it is going to behave a certain way. At this point, we are not building a standard?
+Martin: When you define JSON-LD and the schema link points to something, that's a great example of the open flexibilty that system provides without coordination; that's great. In other contexts, the application you're interested in has to behave within a certain envelope. For something like DCs, it has to behave in a particular way, it has to have the 'get' and 'create' and follow a particular structure. So then you need to know it is going to behave a certain way. At this point, we are not building a standard?
 
 Jeffrey: How to write this down? Start a doc about how to write standards? Re-start the QA work? Design Principles?
 
 Lola: Design Principles.
 
-Martin: A statement in the form of what TAG expects people to do when defining a registry. When you have a registry in a document, understand what it is that you're doing, there are multiple reaosns you may be doing this. What is needed in each case (of which I don't think there are more than 2).
+Martin: A statement in the form of what TAG expects people to do when defining a registry. When you have a registry in a document, understand what it is that you're doing, there are multiple reasons you may be doing this. What is needed in each case (of which I don't think there are more than 2).
 
 Jeffrey: Makes sense to start, especially with registries, in Design Principles, as you're doing that sort of design. If we have too much we can split it into a separate document.
 
-Martin: +1. Though there are 2 subsetions to it. I think we should duck the issue about defining new URI schemes.
+Martin: +1. Though there are 2 subsections to it. I think we should duck the issue about defining new URI schemes.
 
 Jeffrey: I'll file an issue. In fact, Wendy filed the issue!
 
@@ -358,7 +358,7 @@ Scribe: Martin
 https://github.com/w3ctag/meetings/blob/gh-pages/2025/telcons/09-08-minutes.md#plenary-session---2025-09-11 and https://www.w3.org/2025/06/w3c-2025-roadmap-to-develop-a-strategy/index.html#5-5-technology-strategy
 
 
-Jeffrey: THe W3C is trying to set a technology strategy.  Looking for 2 volunteers.  Wanted to hold a session here for us as a group to choose who to send to the task force and then to open discussion in this group on the questions that the group might address.  I suggest we do names at the end.
+Jeffrey: The W3C is trying to set a technology strategy.  Looking for 2 volunteers.  Wanted to hold a session here for us as a group to choose who to send to the task force and then to open discussion in this group on the questions that the group might address.  I suggest we do names at the end.
 ... Let's start by brainstorming questions that we want to address.  Doing this as a round.
 
 Matthew: Was on the call.  Should we summarize the output?
@@ -375,9 +375,9 @@ Lola: Even in this group, there isn't a clear idea on what a technology strategy
 
 Jeffrey: Should the W3C Strategy be bottom up?  defined by members.  Or top-down?  decided by a body like the TAG.  Or some mix?
 
-Xiaocheng: WHat are we going to do with the output?  How does that affect working groups?
+Xiaocheng: What are we going to do with the output?  How does that affect working groups?
 
-Matthew: Looking at discussion with PLH, I asked on the call about reacting to change.  THere is the CG process improvements.  I was wondering if W3C expectations are about being more outward facing and who to collaborate with.  I also got the impression it is about what technologies to focus on.  I really liked Martin's suggestion to make the W3C a really good place to do standards.  Struggling to come up with questions other than what Lola said.
+Matthew: Looking at discussion with PLH, I asked on the call about reacting to change.  There is the CG process improvements.  I was wondering if W3C expectations are about being more outward facing and who to collaborate with.  I also got the impression it is about what technologies to focus on.  I really liked Martin's suggestion to make the W3C a really good place to do standards.  Struggling to come up with questions other than what Lola said.
 
 Sarven: Touching on top-down vs bottom-up: identifying gaps and biases and dealing with them.  Whoever is providing some guidance will come to that table with views and their experience.  Worried about how that will influence the direction vs. community perspective (CGs or members).
 
@@ -398,7 +398,7 @@ Martin: I hear very clearly that this was 3 years, not 30.
 ...
 Martin: So in the short term, we can only focus on the components that are ahead of us. Some might accidentally be foundational. To some extent, the web stumbled on foundational things like URIs by accident. Don't want to go in expecting to find something with that lifespan.
 
-Marcos: A more worthwhile exercise might be to look hollistically at what things need more resources vs. not.  Make a case for investing in areas that are underserved.
+Marcos: A more worthwhile exercise might be to look holistically at what things need more resources vs. not.  Make a case for investing in areas that are underserved.
 
 Jeffrey: A tech strategy is a list of stuff and priorities with each.
 
@@ -412,13 +412,13 @@ Jeffrey: What would the output look like.  It would be a survey of all the work 
 
 Marcos: Automotive was there a while ago.  Maybe that might be deprioritized.  Identify new trends.
 
-Martin: THe W3C is not a corporation. Doesn't have resources to marshal. Membership dedicates resources based on each member's determination of importance.
+Martin: The W3C is not a corporation. Doesn't have resources to marshal. Membership dedicates resources based on each member's determination of importance.
 
 Marcos: But W3C can influence priorities.
 
 Martin: Corporation would look at resources, threats, etc. and try to align them. Slightly different here, since influence is indirect.
 
-Sarven: What the W3C is seeking to do is differentiate itself against other SDOs.  And hoping that one of these groups will help to influence some of that to be a key driver in standards.  THat has a lot to do with purpose.  GLobal credentials condeference in Geneva, you can really see in that room where there is a whole lot of things happening around wallets and credentials.  In some ways these are competing and collaborating.  W3C is setting out principles and visions, some of that work is not being taken seriously (even by some states/govs).  They might use some W3C work, but not always.  The task for needs to find a way to navigate that.  Identify how the W3C can take a role.  Big question is not about specific technology, but how the W3C maintains relevance.
+Sarven: What the W3C is seeking to do is differentiate itself against other SDOs.  And hoping that one of these groups will help to influence some of that to be a key driver in standards.  That has a lot to do with purpose.  Global credentials conference in Geneva, you can really see in that room where there is a whole lot of things happening around wallets and credentials.  In some ways these are competing and collaborating.  W3C is setting out principles and visions, some of that work is not being taken seriously (even by some states/govs).  They might use some W3C work, but not always.  The task for needs to find a way to navigate that.  Identify how the W3C can take a role.  Big question is not about specific technology, but how the W3C maintains relevance.
 
 Jeffrey: does that imply that a strategy is not a list of priorities?
 
@@ -430,7 +430,7 @@ Sarven: Context.
 
 Jeffrey: A description of the environment we are operating within.
 
-Xiaocheng: Comparing to corporate strategy planning.  Planning should have how do we evaluate how an investment in something is successful or not.  THere is a goal.  For a corp, the goal is to make money.  For W3C, it might be keeping relevance.  A company can switch business focus, but W3C dies if the web is no longer relevant.
+Xiaocheng: Comparing to corporate strategy planning.  Planning should have how do we evaluate how an investment in something is successful or not.  There is a goal.  For a corp, the goal is to make money.  For W3C, it might be keeping relevance.  A company can switch business focus, but W3C dies if the web is no longer relevant.
 
 Lola: Sarven said that strategy defines context. Agree with that. On Xiaocheng, disagree because the W3C moves slowly.  I don't know what could be measured in three years considering how slowly things move.
 
@@ -440,7 +440,7 @@ Lola: Sarven said that strategy defines context. Agree with that. On Xiaocheng, 
 
 Marcos: So.... what do you think you do here?
 
-Lola: How I interpret things at 3 years.  THe time is maybe too short a time to measure.  If there is a different measure, what would that be?
+Lola: How I interpret things at 3 years.  The time is maybe too short a time to measure.  If there is a different measure, what would that be?
 
 Lola: A potential audience is governments.  It might be helpful to tap into what their strategies are in order to help define our technical strategy.  For example, HMgov has priority technologies that it lists.  If we have an opportunity to inform that work or collaborate in those areas, that's positive.  Advances goals of working closer with government and other SDOs.
 
@@ -456,7 +456,7 @@ Yves: Yes, because of voluntary adoption.
 
 Sarven: To elaborate on context.  Points are touching on that, like risk.  Influence is another thing mentioned.  Accepting and being realistic about the W3C situation.  To determine whether a tech is worthy of investment, knowing that others are likely doing similar things.  Strategy needs to draw a line sometimes and say "too late for this" or decide to pursue something.  Need to assess whether we get buy in from the broader community.
 
-Matthew: Some things are small: cross-site data, mimization of heuristics, those might be too small for a tech strategy.  Large scale quality of life changes might be something that could be useful.
+Matthew: Some things are small: cross-site data, minimization of heuristics, those might be too small for a tech strategy.  Large scale quality of life changes might be something that could be useful.
 
 Sarven: Attention of dev community and making sure they are interested in the developments at W3C, and retaining. They play an important rule in shopping around and finding cool tech they can implement for their needs, or even convincing / making the argument to their orgs in which direction to move to.
 
@@ -464,7 +464,7 @@ Lola: PLH mentioned a developer survey as well as other surveys.
 
 Jeffrey: We didn't mention which inputs go into this effort.
 
-Matthew: We've mentioned other strategy arms.  Process, policy, etc...  (Five of them)  THe other one is about the W3C processes need constantly need improvement to ensure that we don't exclude parts of the community.
+Matthew: We've mentioned other strategy arms.  Process, policy, etc...  (Five of them)  The other one is about the W3C processes need constantly need improvement to ensure that we don't exclude parts of the community.
 
 Rough TAG answer:
 * 3-year scope, per PLH
@@ -489,7 +489,7 @@ Jeffrey: My perspective: I think we should start by describing what the membersh
 
 Martin: Like that.  They might find there is not a lot wrong with that, so no need to develop a top-down.
 
-Sarven: WHether is top-down or whatever, the bias there is that people are interested in developing certain tech.  Look at what people have already bought into.  We need to look at who we havent' been able to attract and the gap there.  Look at reduction in membership.  Other governments taking other technologies.  Need a more hollistic assessment than what the membership or CGS are doing.  Need to do both.
+Sarven: Whether is top-down or whatever, the bias there is that people are interested in developing certain tech.  Look at what people have already bought into.  We need to look at who we haven't been able to attract and the gap there.  Look at reduction in membership.  Other governments taking other technologies.  Need a more holistic assessment than what the membership or CGs are doing.  Need to do both.
 
 Jeffrey: Good point.  On the other hand, a thing that people outside the W3C do is screw threads.  Maybe this points to something else, which is decide what is conceptually in the W3c scope.  Look for what things are in that scope, but are happening else where.
 
