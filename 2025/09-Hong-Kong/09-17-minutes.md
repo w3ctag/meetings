@@ -18,7 +18,7 @@ Lola: Relating Marcos' point to issue #20, he's saying DCs shouldn't be used for
 
 Martin: Good to have examples of how these systems can create exclusionary effects. As you point out, it's not specific to it being digital.
 
-MArcos: Wasn't that it was excluding a particular group. Consequence was that.
+Marcos: Wasn't that it was excluding a particular group. Consequence was that.
 
 Lola: If you happen to be in the group, suddenly you can't get to Germany or Japan just because you have the wrong country.
 
@@ -34,7 +34,7 @@ Marcos: Computers check them.  Software is written by people for people.
 
 Jeffrey: Software is not written to be flexible.
 
-Lola: You migth make exceptions for date presentation changes.  Expiration tends to be hard.  Whereas a human might wave that through.
+Lola: You might make exceptions for date presentation changes.  Expiration tends to be hard.  Whereas a human might wave that through.
 
 Martin: Even if the system could accept an expired credential, some reject those.
 
@@ -44,9 +44,9 @@ Marcos: There is a much wider concern around who issues credentials.  If you hav
 
 Jeffrey: That's in there already.
 
-Marcos: Urugray example isn't strong, because it was fixable at other levels. Had a consequence of excluding because of reasons, ...
+Marcos: Uruguay example isn't strong, because it was fixable at other levels. Had a consequence of excluding because of reasons, ...
 
-Martin: RFC9413 might be interesting. Talks about what it is to have a standard. Very common situation where the practice and standard don't match. It makes the case that you need to put the work in to reconcile the differences. Doesn't say how to reconcile them. Can change practice or standards, and either is valid, but you do need to put the effort in, or the system rots. Urugray has matched the defacto standard, but the written standard hasn't been fixed.
+Martin: RFC9413 might be interesting. Talks about what it is to have a standard. Very common situation where the practice and standard don't match. It makes the case that you need to put the work in to reconcile the differences. Doesn't say how to reconcile them. Can change practice or standards, and either is valid, but you do need to put the effort in, or the system rots. Uruguay has matched the de facto standard, but the written standard hasn't been fixed.
 
 Jeffrey: So do we need to say that in this document?
 
@@ -129,11 +129,11 @@ Jeffrey: Says
 
 Xiaocheng: UA shouldn't be implemented to reject market competition. Facebook in-app browser is definitely not competing with Chrome or Firefox. They're taking different slots. 
 
-MArtin: Market definnitino is different. But they are user agents. You can browse the web in the facebook app.
+Martin: Market definition is different. But they are user agents. You can browse the web in the facebook app.
 
 Xiaocheng: Something is still off.
 
-Martin: The point about data portability is just one of many ways in which excercising user choice of browser might be achieved, but there are other things as well. Some are difficult. Integrations with things. access to basic capabilities. Web compatibility. What do we want to say? Should be easy for someone to move if that's their choice. But all sorts of things stop you from changing browsers. Mostly that most browsers are bad.
+Martin: The point about data portability is just one of many ways in which exercising user choice of browser might be achieved, but there are other things as well. Some are difficult. Integrations with things. Access to basic capabilities. Web compatibility. What do we want to say? Should be easy for someone to move if that's their choice. But all sorts of things stop you from changing browsers. Mostly that most browsers are bad.
 
 xiaocheng: "User agent should not obstruct its users from switching". For example, it must not block access. 
 
