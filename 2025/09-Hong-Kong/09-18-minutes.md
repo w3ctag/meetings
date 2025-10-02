@@ -46,7 +46,7 @@ Sarven: On timing, early March. Later would be better. Appointees need to have e
 
 Martin: Middle of March won't work: 14th is an IETF meeting.
 
-Yves: Mid-february might even be easier for some people.
+Yves: Mid-February might even be easier for some people.
 
 Sarven: Location: Preference for Europe. Several members in the UK.
 
@@ -64,7 +64,7 @@ Matthew: Early Feb or Early March but not Mid-Late February would be preferable 
 
 Lola: So Q1 F2F should happen early Feb or early March. I'm hearing Europe.
 
-Max: No strong opinion; Europe is fine. Early march has an IETF meeting or arrange it near the IETF meeting.
+Max: No strong opinion; Europe is fine. Early March has an IETF meeting or arrange it near the IETF meeting.
 
 Martin: IETF meeting is in Shenzhen.
 
@@ -76,7 +76,7 @@ Marcos: Difficult for me to get to Europe.
 
 Jeffrey: We had a [spreadsheet](https://docs.google.com/spreadsheets/d/1kct5cZQnWsgIF2K4UfOSMbZpo4eiT2xpekM-knPYBug/edit?gid=0#gid=0) last time. I don't think we can say what's missing until the election's done.
 
-Yves: We need to have an idea in advance, so we can try to select people. Of course the eletion might change things, but if we have an idea, we can be working on shortlist, and be ready quickly after an election. We can start contacting people, explain how TAG works etc.
+Yves: We need to have an idea in advance, so we can try to select people. Of course the election might change things, but if we have an idea, we can be working on shortlist, and be ready quickly after an election. We can start contacting people, explain how TAG works etc.
 
 Martin: Think this doesn't help as much as people's ability to adapt to things, and ability to work with people.
 
@@ -97,7 +97,7 @@ Lola: Previous TAG said no?
 
 Jeffrey: Last time we concluded that the AB should decide, but that they couldn't change the rules mid-election, but they did decide and we can maybe do it this time.
 
-Matthew: Fine with things not being in the process. Sounded like Marcos said it's up tot eh candidates to arrange it. 
+Matthew: Fine with things not being in the process. Sounded like Marcos said it's up to the candidates to arrange it. 
 
 Marcos: Seems like a good thing, but it's not a requirement.
 
@@ -115,7 +115,7 @@ Matthew: How can we tease out what's important to us? Meet the candidates suits 
 
 Sarven: Thought the questionnaire was fine. There was some overlap with the nomination statement. Interesting questions. Separate comment on determining who's nominated and how they do. Discussion about releasing anonymized ballots. I shared my views on the [ac-forum](https://lists.w3.org/Archives/Member/w3c-ac-forum/2024OctDec/0107.html). That gives another perspective on who might be a good addition. Can see patterns. If you're well-connected, might get votes because of that. "Who should be the TAG", not just technical ability. Diverse group. Team should work well. Set should work well together. Figuring that out is complicated, and ballot information might reveal some.
 
-Lola: We shouldJe continue the question thing. If we write the questions, we can make the process of thinking of questions better. Should have a question to assess people's potential for going into new domains. Something about communication. Could identify those who are stronger int hose areas, and avoid putting people into uncomfortable areas.
+Lola: We should continue the question thing. If we write the questions, we can make the process of thinking of questions better. Should have a question to assess people's potential for going into new domains. Something about communication. Could identify those who are stronger int hose areas, and avoid putting people into uncomfortable areas.
 
 Jeffrey: I think another thing we should do is try to convince good people to run. I think 2 of the associates have made a strong case to run by the work they are doing. But that's not the only source. Associates have positive bias due to having more time before they were elected. Maybe we should poll WG chairs.
 
