@@ -750,7 +750,7 @@ Lola: Should we reassign Dan?
 
 Jeffrey: Yes. And we can leave him assigned to the patching one because that's about ready to close.
 
-### [WG Revision: CSS Color Adjust Level 1] (https://github.com/w3ctag/design-reviews-private-brainstorming/issues/212)
+### [WG Revision: CSS Color Adjust Level 1](https://github.com/w3ctag/design-reviews-private-brainstorming/issues/212)
 
 Lola: We need reviewers.
 
