@@ -17,11 +17,11 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [design-reviews#1161: WG New Spec: RDF 1.2 N-Triples](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1161) ([Github](https://github.com/w3ctag/design-reviews/issues/1161)) - @csarven
 * [design-reviews#1160: WG New Spec: RDF 1.2 Semantics](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1160) ([Github](https://github.com/w3ctag/design-reviews/issues/1160)) - @csarven
 * [design-reviews#1159: WG New Spec: RDF 1.2 Concepts and Abstract Data Model](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1159) ([Github](https://github.com/w3ctag/design-reviews/issues/1159)) - @csarven
-* [design-reviews#1015: Payment link type in HTML](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1015) ([Github](https://github.com/w3ctag/design-reviews/issues/1015)) - @jyasskin, @torgo, @csarven, @maxpassion
 * [design-reviews#1095: Canvas Text Metrics for Editing, Art and Design](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1095) ([Github](https://github.com/w3ctag/design-reviews/issues/1095)) - @jyasskin, @matatk, @dandclark
 
 ## Breakout A (Asia / Australia / West America) - [2025-11-25](https://www.timeanddate.com/worldclock/converter.html?iso=20251125T040000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 
+* [process#49: Review Associates program](https://github.com/w3ctag/process/issues/49)
 * [w3ctagbot#127: Bump vite from 6.4.1 to 7.2.4](https://github.com/w3ctag/w3ctagbot/pull/127) - @dependabot, @jyasskin
 * [w3ctagbot#126: Bump @prisma/client from 6.19.0 to 7.0.0](https://github.com/w3ctag/w3ctagbot/pull/126) - @dependabot, @jyasskin
 * [w3ctagbot#125: Bump prisma from 6.19.0 to 7.0.0](https://github.com/w3ctag/w3ctagbot/pull/125) - @dependabot, @jyasskin
@@ -32,9 +32,11 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [design-principles#596: Recommend registries, and give some guidance on how to define them.](https://github.com/w3ctag/design-principles/pull/596) - @jyasskin, @martinthomson
 * [user-agents#27: Rework Honesty section](https://github.com/w3ctag/user-agents/pull/27) - @marcoscaceres
 * [design-reviews#1092: Web Authentication Immediate Mediation](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1092) ([Github](https://github.com/w3ctag/design-reviews/issues/1092)) - @martinthomson, @jyasskin, @marcoscaceres, @toreini
+* [design-reviews#1015: Payment link type in HTML](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1015) ([Github](https://github.com/w3ctag/design-reviews/issues/1015)) - @jyasskin, @marcoscaceres, @csarven, @maxpassion, @martinthomson
 
 ## Breakout C (Europe / Asia / Australia) - [2025-11-27](https://www.timeanddate.com/worldclock/converter.html?iso=20251127T090000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 
+* [process#49: Review Associates program](https://github.com/w3ctag/process/issues/49) (if there are outstanding reviews)
 * [design-reviews#1138: [wg/webextensions] Web Extensions Working Group](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1138) ([Github](https://github.com/w3ctag/design-reviews/issues/1138)) - @csarven, @matatk, @toreini, @christianliebel
 * [design-reviews-private-brainstorming#193: [wg/webextensions] Web Extensions Working Group](https://github.com/w3ctag/design-reviews-private-brainstorming/issues/193)
 * [societal-impact-questionnaire#2: Examples](https://github.com/w3ctag/societal-impact-questionnaire/issues/2) - @lolaodelola
