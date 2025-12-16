@@ -4,7 +4,7 @@
 
 ## Logistics
 
-[Google London, 6 Pancras Sq](https://maps.app.goo.gl/4LnCdiNYWrN11M9z5) (🍎)[https://maps.apple/p/NNRXb4W4EC0csw] 1-C Golden Years
+[Google London, 6 Pancras Sq](https://maps.app.goo.gl/4LnCdiNYWrN11M9z5) ([🍎🗺️](https://maps.apple/p/NNRXb4W4EC0csw)) 1-C Golden Years
 
 ## Daily Agenda
 
