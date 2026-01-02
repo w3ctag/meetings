@@ -17,7 +17,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [design-reviews#1177: Incubation: seamless page transition with deferred commit](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1177) ([Github](https://github.com/w3ctag/design-reviews/issues/1177)) - @matatk, @christianliebel
 * [design-reviews#1179: [wg/vc] Verifiable Credentials Working Group](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1179) ([Github](https://github.com/w3ctag/design-reviews/issues/1179)) - @csarven
 * [design-reviews#1095: Canvas Text Metrics for Editing, Art and Design](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1095) ([Github](https://github.com/w3ctag/design-reviews/issues/1095)) - @jyasskin, @matatk, @dandclark
-* [design-reviews#997: [HTML] Canvas place element](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/997) ([Github](https://github.com/w3ctag/design-reviews/issues/997)) - @matatk, @xiaochengh
+* [design-reviews#997: [HTML] Canvas place element](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/997) ([Github](https://github.com/w3ctag/design-reviews/issues/997)) - @matatk, @xiaochengh (pending for at least 6 months)
 * [design-reviews#1058: The `interesttarget` attribute](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1058) ([Github](https://github.com/w3ctag/design-reviews/issues/1058)) - @matatk, @xiaochengh
 * [design-reviews#1175: Other Spec Review: trigger-scope](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1175) ([Github](https://github.com/w3ctag/design-reviews/issues/1175)) - @matatk, @lolaodelola
 * [design-reviews#1152: Incubation: Scoped Focusgroup](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1152) ([Github](https://github.com/w3ctag/design-reviews/issues/1152)) - @matatk
@@ -28,7 +28,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 * [user-agents#33: Define "user agent" as distinct from "web user agent"](https://github.com/w3ctag/user-agents/issues/33) - @jyasskin
 * [user-agents#27: Rework Honesty section](https://github.com/w3ctag/user-agents/pull/27) - @marcoscaceres
-* [design-reviews#523: MiniApp Lifecycle](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/523) ([Github](https://github.com/w3ctag/design-reviews/issues/523)) - @maxpassion, @xiaochengh
+* [design-reviews#523: MiniApp Lifecycle](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/523) ([Github](https://github.com/w3ctag/design-reviews/issues/523)) - @maxpassion, @xiaochengh (pending for at least 6 months)
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue%20is%3Aopen%20(label%3A%22Progress%3A%20untriaged%22%20OR%20no%3Aassignee))
 
 ## Eurasia Breakout (Europe / Asia / Australia) - [2026-01-08](https://www.timeanddate.com/worldclock/converter.html?iso=20260108T090000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
@@ -46,7 +46,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [design-reviews#1013: Paint/presentation timestamps in performance APIs](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1013) ([Github](https://github.com/w3ctag/design-reviews/issues/1013)) - @matatk, @xiaochengh
 * [design-reviews#1176: Incubation: @supports at-rule](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1176) ([Github](https://github.com/w3ctag/design-reviews/issues/1176)) - @christianliebel, @lolaodelola
 * [design-reviews#1120: CSS find-in-page highlight pseudos](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1120) ([Github](https://github.com/w3ctag/design-reviews/issues/1120)) - @matatk, @xiaochengh
-* [design-reviews#762: MiniApp Packaging](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/762) ([Github](https://github.com/w3ctag/design-reviews/issues/762)) - @ylafon, @maxpassion, @xiaochengh
+* [design-reviews#762: MiniApp Packaging](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/762) ([Github](https://github.com/w3ctag/design-reviews/issues/762)) - @ylafon, @maxpassion, @xiaochengh (pending for at least 6 months)
 * [design-reviews#1164: Incubation: PWA (same-site) Origin Migration](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1164) ([Github](https://github.com/w3ctag/design-reviews/issues/1164)) - @ylafon, @hadleybeeman, @christianliebel
 * [design-reviews#1171: [wg/dx] Dataset Exchange Working Group Charter](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1171) ([Github](https://github.com/w3ctag/design-reviews/issues/1171)) - @csarven
 
