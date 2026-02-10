@@ -23,7 +23,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [design-principles#612: Disambiguate when to add global event handlers](https://github.com/w3ctag/design-principles/pull/612) - @jyasskin
 * [design-reviews#1134: Incubation: patching (interleaved out-of-order streaming)](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1134) ([Github](https://github.com/w3ctag/design-reviews/issues/1134)) - @jyasskin, @dandclark
 
-## Plenary Session - [2026-02-11](https://www.timeanddate.com/worldclock/converter.html?iso=20260211T060000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
+## Plenary Session - [2026-02-11](https://www.timeanddate.com/worldclock/converter.html?iso=20260211T220000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 
 * Intro to Brian Kardell, the TAG work mode, how everything can change if the TAG members want it to - @hadleybeeman, @lolaodelola, @jyasskin
 * Reminder that we’ll agree new call times once the second appointment is made
@@ -71,7 +71,7 @@ Raw minutes: ...
 <tr><td> Boston (U.S.A. - Massachusetts) <td> Monday, February 9 at 09:00 EST</td></tr>
 <tr><td> London (United Kingdom - England) <td> Monday 9 February at 14:00 GMT</td></tr>
 <tr><td> Paris (France) <td> lundi 9 février à 15:00 UTC+1</td></tr>
-<tr><td> Beijing (China) <td> 2月9日 星期一 GMT+8 22:00</td></tr>
+<tr><td> Beijing (China) <td> 2月9日星期一 GMT+8 22:00</td></tr>
 <tr><td> Sydney (Australia) <td> Tuesday 10 February at 01:00 AEDT</td></tr>
 <tr><td> Corresponding UTC (GMT) <td> Monday 9 February at 14:00 UTC</td></tr>
 </table>
@@ -83,7 +83,7 @@ Raw minutes: ...
 <tr><td> Boston (U.S.A. - Massachusetts) <td> Monday, February 9 at 23:00 EST</td></tr>
 <tr><td> London (United Kingdom - England) <td> Tuesday 10 February at 04:00 GMT</td></tr>
 <tr><td> Paris (France) <td> mardi 10 février à 05:00 UTC+1</td></tr>
-<tr><td> Beijing (China) <td> 2月10日 星期二 GMT+8 12:00</td></tr>
+<tr><td> Beijing (China) <td> 2月10日星期二 GMT+8 12:00</td></tr>
 <tr><td> Sydney (Australia) <td> Tuesday 10 February at 15:00 AEDT</td></tr>
 <tr><td> Corresponding UTC (GMT) <td> Tuesday 10 February at 04:00 UTC</td></tr>
 </table>
@@ -91,13 +91,13 @@ Raw minutes: ...
 ### Plenary Session
 
 <table>
-<tr><td> San Francisco (U.S.A. - California) <td> Tuesday, February 10 at 22:00 PST</td></tr>
-<tr><td> Boston (U.S.A. - Massachusetts) <td> Wednesday, February 11 at 01:00 EST</td></tr>
-<tr><td> London (United Kingdom - England) <td> Wednesday 11 February at 06:00 GMT</td></tr>
-<tr><td> Paris (France) <td> mercredi 11 février à 07:00 UTC+1</td></tr>
-<tr><td> Beijing (China) <td> 2月11日 星期三 GMT+8 14:00</td></tr>
-<tr><td> Sydney (Australia) <td> Wednesday 11 February at 17:00 AEDT</td></tr>
-<tr><td> Corresponding UTC (GMT) <td> Wednesday 11 February at 06:00 UTC</td></tr>
+<tr><td> San Francisco (U.S.A. - California) <td> Wednesday, February 11 at 14:00 PST</td></tr>
+<tr><td> Boston (U.S.A. - Massachusetts) <td> Wednesday, February 11 at 17:00 EST</td></tr>
+<tr><td> London (United Kingdom - England) <td> Wednesday 11 February at 22:00 GMT</td></tr>
+<tr><td> Paris (France) <td> mercredi 11 février à 23:00 UTC+1</td></tr>
+<tr><td> Beijing (China) <td> 2月12日星期四 GMT+8 06:00</td></tr>
+<tr><td> Sydney (Australia) <td> Thursday 12 February at 09:00 AEDT</td></tr>
+<tr><td> Corresponding UTC (GMT) <td> Wednesday 11 February at 22:00 UTC</td></tr>
 </table>
 
 ### Eurasia Breakout (Europe / Asia / Australia)
@@ -107,9 +107,7 @@ Raw minutes: ...
 <tr><td> Boston (U.S.A. - Massachusetts) <td> Thursday, February 12 at 04:00 EST</td></tr>
 <tr><td> London (United Kingdom - England) <td> Thursday 12 February at 09:00 GMT</td></tr>
 <tr><td> Paris (France) <td> jeudi 12 février à 10:00 UTC+1</td></tr>
-<tr><td> Beijing (China) <td> 2月12日 星期四 GMT+8 17:00</td></tr>
+<tr><td> Beijing (China) <td> 2月12日星期四 GMT+8 17:00</td></tr>
 <tr><td> Sydney (Australia) <td> Thursday 12 February at 20:00 AEDT</td></tr>
 <tr><td> Corresponding UTC (GMT) <td> Thursday 12 February at 09:00 UTC</td></tr>
 </table>
-
-The agenda was copied; paste it here.
