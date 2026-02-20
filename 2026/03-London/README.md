@@ -16,6 +16,7 @@
 ## Tuesday, 3 Mar 2026
 
 ### Morning
+
 ### Afternoon
 
 ## Wednesday, 4 Mar 2026
@@ -24,11 +25,17 @@
 
 ### Afternoon
 
+### Evening
+
+[Developer meetup](https://ti.to/web-standards/meet-the-w3c-tag) at [Samsung KX](https://maps.app.goo.gl/KX55hCjay4TXUrrn6)
+
 ## Thursday, 5 Mar 2026
 
 ### Morning
 
 ### Afternoon
+
+Social outing. Location TBD.
 
 ## Friday, 6 Mar 2026
 
