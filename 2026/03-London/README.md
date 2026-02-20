@@ -29,6 +29,11 @@
 
 [Developer meetup](https://ti.to/web-standards/meet-the-w3c-tag) at [Samsung KX](https://maps.app.goo.gl/KX55hCjay4TXUrrn6)
 
+* 19:00-19:30: Reception with light refreshments
+* 19:30-19:45: Opening by Samsung's Web Standards Group, from Samsung Research & Development Institute, UK
+* 19:45-21:15: W3C TAG panel discussion, Q&A
+* 21:15-21:30: Further networking, and departure
+
 ## Thursday, 5 Mar 2026
 
 ### Morning
@@ -36,6 +41,8 @@
 ### Afternoon
 
 Social outing. Location TBD.
+
+
 
 ## Friday, 6 Mar 2026
 
