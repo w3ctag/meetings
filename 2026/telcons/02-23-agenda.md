@@ -35,6 +35,9 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ## Plenary Session - [2026-02-25](https://www.timeanddate.com/worldclock/converter.html?iso=20260225T220000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 
+* Issues from breakout sessions?
+* F2F planning
+
 ## Eurasia Breakout (Europe / Asia / Australia) - [2026-02-26](https://www.timeanddate.com/worldclock/converter.html?iso=20260226T090000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 
 * [societal-impact-questionnaire#34: Add section for well being](https://github.com/w3ctag/societal-impact-questionnaire/pull/34) - @csarven
