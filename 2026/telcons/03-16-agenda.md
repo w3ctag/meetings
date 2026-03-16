@@ -14,14 +14,14 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
   * [user-agents#42: Webview: continuous capabilities style](https://github.com/w3ctag/user-agents/pull/42) - @imsenyu
   * [user-agents#40: Webview: risky navigation warning](https://github.com/w3ctag/user-agents/pull/40) - @imsenyu
   * [user-agents#39: Add sth about webview](https://github.com/w3ctag/user-agents/pull/39) - @imsenyu, @jyasskin
-* [design-reviews#1196: [wg/webperf] Web Performance Working Group Charter](http://localhost:4321/gh/w3ctag/design-reviews/1196) ([Github](https://github.com/w3ctag/design-reviews/issues/1196)) - @marcoscaceres
-* [design-reviews#1194: WG New Spec: HDR on the web (CSS, Canvas, WebGL, WebGPU)](http://localhost:4321/gh/w3ctag/design-reviews/1194) ([Github](https://github.com/w3ctag/design-reviews/issues/1194)) - @jyasskin, @xiaochengh
-* [design-reviews#1191: Incubation:  Spell Check Dictionary API](http://localhost:4321/gh/w3ctag/design-reviews/1191) ([Github](https://github.com/w3ctag/design-reviews/issues/1191)) - @marcoscaceres, @dandclark, @toreini
-* [design-reviews#1198: Incubation: CPU Performance API](http://localhost:4321/gh/w3ctag/design-reviews/1198) ([Github](https://github.com/w3ctag/design-reviews/issues/1198)) - @jyasskin, @marcoscaceres
-* [design-reviews#1193: Other Spec Review: The revert-rule keyword](http://localhost:4321/gh/w3ctag/design-reviews/1193) ([Github](https://github.com/w3ctag/design-reviews/issues/1193)) - @xiaochengh
-* [design-reviews#1197: Incubation: Autofill Event](http://localhost:4321/gh/w3ctag/design-reviews/1197) ([Github](https://github.com/w3ctag/design-reviews/issues/1197)) - @marcoscaceres, @hlflanagan, @christianliebel
-* [design-reviews#1195: Question: should `shadowrootadoptedstylesheets` perform a fetch?](http://localhost:4321/gh/w3ctag/design-reviews/1195) ([Github](https://github.com/w3ctag/design-reviews/issues/1195)) - @jyasskin, @bkardell, @dandclark
-* [design-reviews#1134: Incubation: patching (interleaved out-of-order streaming)](http://localhost:4321/gh/w3ctag/design-reviews/1134) ([Github](https://github.com/w3ctag/design-reviews/issues/1134)) - @jyasskin, @dandclark
+* [design-reviews#1196: [wg/webperf] Web Performance Working Group Charter](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1196) ([Github](https://github.com/w3ctag/design-reviews/issues/1196)) - @marcoscaceres
+* [design-reviews#1194: WG New Spec: HDR on the web (CSS, Canvas, WebGL, WebGPU)](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1194) ([Github](https://github.com/w3ctag/design-reviews/issues/1194)) - @jyasskin, @xiaochengh
+* [design-reviews#1191: Incubation:  Spell Check Dictionary API](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1191) ([Github](https://github.com/w3ctag/design-reviews/issues/1191)) - @marcoscaceres, @dandclark, @toreini
+* [design-reviews#1198: Incubation: CPU Performance API](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1198) ([Github](https://github.com/w3ctag/design-reviews/issues/1198)) - @jyasskin, @marcoscaceres
+* [design-reviews#1193: Other Spec Review: The revert-rule keyword](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1193) ([Github](https://github.com/w3ctag/design-reviews/issues/1193)) - @xiaochengh
+* [design-reviews#1197: Incubation: Autofill Event](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1197) ([Github](https://github.com/w3ctag/design-reviews/issues/1197)) - @marcoscaceres, @hlflanagan, @christianliebel
+* [design-reviews#1195: Question: should `shadowrootadoptedstylesheets` perform a fetch?](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1195) ([Github](https://github.com/w3ctag/design-reviews/issues/1195)) - @jyasskin, @bkardell, @dandclark
+* [design-reviews#1134: Incubation: patching (interleaved out-of-order streaming)](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1134) ([Github](https://github.com/w3ctag/design-reviews/issues/1134)) - @jyasskin, @dandclark
 
 
 ## Atlantic Breakout (America / Europe) - [2026-03-18](https://www.timeanddate.com/worldclock/converter.html?iso=20260318T180000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
@@ -33,29 +33,29 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [user-agents#29: Write an introduction](https://github.com/w3ctag/user-agents/issues/29) - @csarven
 * [user-agents#20: Meta: Make progress on this document.](https://github.com/w3ctag/user-agents/issues/20) - @jyasskin, @csarven
 * [explainer-explainer#31: Meta: Make progress on this document](https://github.com/w3ctag/explainer-explainer/issues/31) - @jyasskin, @matatk
-* [design-reviews#1161: WG New Spec: RDF 1.2 N-Triples](http://localhost:4321/gh/w3ctag/design-reviews/1161) ([Github](https://github.com/w3ctag/design-reviews/issues/1161)) - @csarven
-* [design-reviews#1190: Incubation: Cryptography usage in Web Standards](http://localhost:4321/gh/w3ctag/design-reviews/1190) ([Github](https://github.com/w3ctag/design-reviews/issues/1190)) - @toreini, @lolaodelola
-* [design-reviews#1152: Incubation: Scoped Focusgroup](http://localhost:4321/gh/w3ctag/design-reviews/1152) ([Github](https://github.com/w3ctag/design-reviews/issues/1152)) - @matatk
-* [design-reviews#1184: Incubation: IdP-Initiated FedCM](http://localhost:4321/gh/w3ctag/design-reviews/1184) ([Github](https://github.com/w3ctag/design-reviews/issues/1184)) - @hadleybeeman, @toreini
-* [design-reviews#1175: Other Spec Review: trigger-scope](http://localhost:4321/gh/w3ctag/design-reviews/1175) ([Github](https://github.com/w3ctag/design-reviews/issues/1175)) - @matatk, @lolaodelola
+* [design-reviews#1161: WG New Spec: RDF 1.2 N-Triples](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1161) ([Github](https://github.com/w3ctag/design-reviews/issues/1161)) - @csarven
+* [design-reviews#1190: Incubation: Cryptography usage in Web Standards](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1190) ([Github](https://github.com/w3ctag/design-reviews/issues/1190)) - @toreini, @lolaodelola
+* [design-reviews#1152: Incubation: Scoped Focusgroup](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1152) ([Github](https://github.com/w3ctag/design-reviews/issues/1152)) - @matatk
+* [design-reviews#1184: Incubation: IdP-Initiated FedCM](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1184) ([Github](https://github.com/w3ctag/design-reviews/issues/1184)) - @hadleybeeman, @toreini
+* [design-reviews#1175: Other Spec Review: trigger-scope](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1175) ([Github](https://github.com/w3ctag/design-reviews/issues/1175)) - @matatk, @lolaodelola
 
 ## Eurasia Breakout (Europe / Asia / Australia) - [2026-03-19](https://www.timeanddate.com/worldclock/converter.html?iso=20260319T090000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 
 * [societal-impact-questionnaire#35: Add use case diversity](https://github.com/w3ctag/societal-impact-questionnaire/pull/35) - @csarven
-* [design-reviews#1167: WG New Spec: Scroll-Triggered Animations](http://localhost:4321/gh/w3ctag/design-reviews/1167) ([Github](https://github.com/w3ctag/design-reviews/issues/1167)) - @matatk, @heisenburger, @lolaodelola
+* [design-reviews#1167: WG New Spec: Scroll-Triggered Animations](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1167) ([Github](https://github.com/w3ctag/design-reviews/issues/1167)) - @matatk, @heisenburger, @lolaodelola
 * [societal-impact-questionnaire#2: Examples](https://github.com/w3ctag/societal-impact-questionnaire/issues/2) - @lolaodelola
 * [societal-impact-questionnaire#20: Meta: Make progress on this document](https://github.com/w3ctag/societal-impact-questionnaire/issues/20) - @csarven, @lolaodelola
-* [design-reviews#1204: Incubation: [HTML] html-in-canvas](http://localhost:4321/gh/w3ctag/design-reviews/1204) ([Github](https://github.com/w3ctag/design-reviews/issues/1204)) - @matatk, @xiaochengh
-* [design-reviews#1189: Incubation: Web Speech API: On-Device Recognition Quality](http://localhost:4321/gh/w3ctag/design-reviews/1189) ([Github](https://github.com/w3ctag/design-reviews/issues/1189)) - @marcoscaceres, @matatk, @christianliebel
-* [design-reviews#1192: Incubation: speculation rules `form_submission` field for prerendering](http://localhost:4321/gh/w3ctag/design-reviews/1192) ([Github](https://github.com/w3ctag/design-reviews/issues/1192)) - @xiaochengh
-* [design-reviews#1173: Incubation: Connection Allowlists](http://localhost:4321/gh/w3ctag/design-reviews/1173) ([Github](https://github.com/w3ctag/design-reviews/issues/1173)) - @ylafon, @toreini
-* [design-reviews#1182: WG Revision: CSS Anchor Positioning Level 1](http://localhost:4321/gh/w3ctag/design-reviews/1182) ([Github](https://github.com/w3ctag/design-reviews/issues/1182)) - @matatk, @xiaochengh
-* [design-reviews#1035: CSS Gap Decorations](http://localhost:4321/gh/w3ctag/design-reviews/1035) ([Github](https://github.com/w3ctag/design-reviews/issues/1035)) - @matatk, @xiaochengh
-* [design-reviews#1191: Incubation:  Spell Check Dictionary API](http://localhost:4321/gh/w3ctag/design-reviews/1191) ([Github](https://github.com/w3ctag/design-reviews/issues/1191)) - @marcoscaceres, @dandclark, @toreini
-* [design-reviews#1197: Incubation: Autofill Event](http://localhost:4321/gh/w3ctag/design-reviews/1197) ([Github](https://github.com/w3ctag/design-reviews/issues/1197)) - @marcoscaceres, @hlflanagan, @christianliebel
-* [design-reviews#1164: Incubation: PWA (same-site) Origin Migration](http://localhost:4321/gh/w3ctag/design-reviews/1164) ([Github](https://github.com/w3ctag/design-reviews/issues/1164)) - @ylafon, @hadleybeeman, @christianliebel
-* [design-reviews#1120: CSS find-in-page highlight pseudos](http://localhost:4321/gh/w3ctag/design-reviews/1120) ([Github](https://github.com/w3ctag/design-reviews/issues/1120)) - @matatk, @xiaochengh
-* [design-reviews#1058: The `interesttarget` attribute](http://localhost:4321/gh/w3ctag/design-reviews/1058) ([Github](https://github.com/w3ctag/design-reviews/issues/1058)) - @matatk, @xiaochengh
+* [design-reviews#1204: Incubation: [HTML] html-in-canvas](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1204) ([Github](https://github.com/w3ctag/design-reviews/issues/1204)) - @matatk, @xiaochengh
+* [design-reviews#1189: Incubation: Web Speech API: On-Device Recognition Quality](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1189) ([Github](https://github.com/w3ctag/design-reviews/issues/1189)) - @marcoscaceres, @matatk, @christianliebel
+* [design-reviews#1192: Incubation: speculation rules `form_submission` field for prerendering](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1192) ([Github](https://github.com/w3ctag/design-reviews/issues/1192)) - @xiaochengh
+* [design-reviews#1173: Incubation: Connection Allowlists](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1173) ([Github](https://github.com/w3ctag/design-reviews/issues/1173)) - @ylafon, @toreini
+* [design-reviews#1182: WG Revision: CSS Anchor Positioning Level 1](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1182) ([Github](https://github.com/w3ctag/design-reviews/issues/1182)) - @matatk, @xiaochengh
+* [design-reviews#1035: CSS Gap Decorations](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1035) ([Github](https://github.com/w3ctag/design-reviews/issues/1035)) - @matatk, @xiaochengh
+* [design-reviews#1191: Incubation:  Spell Check Dictionary API](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1191) ([Github](https://github.com/w3ctag/design-reviews/issues/1191)) - @marcoscaceres, @dandclark, @toreini
+* [design-reviews#1197: Incubation: Autofill Event](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1197) ([Github](https://github.com/w3ctag/design-reviews/issues/1197)) - @marcoscaceres, @hlflanagan, @christianliebel
+* [design-reviews#1164: Incubation: PWA (same-site) Origin Migration](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1164) ([Github](https://github.com/w3ctag/design-reviews/issues/1164)) - @ylafon, @hadleybeeman, @christianliebel
+* [design-reviews#1120: CSS find-in-page highlight pseudos](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1120) ([Github](https://github.com/w3ctag/design-reviews/issues/1120)) - @matatk, @xiaochengh
+* [design-reviews#1058: The `interesttarget` attribute](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1058) ([Github](https://github.com/w3ctag/design-reviews/issues/1058)) - @matatk, @xiaochengh
 
 
 ## Plenary Session - None
