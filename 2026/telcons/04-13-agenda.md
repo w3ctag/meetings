@@ -22,7 +22,7 @@ This is a documents week for us, and some of the work is done asynchronously. So
  
 ### Third party cookies (edit or new doc). Editors: @lola and @bkardell. 
 
-### Global components. Editors: @Christian Liebel and @Marcos Caceres
+### Global components. Editors: @Ehsan Toreini, @Christian Liebel and @Marcos Caceres
 
 
 ## Logistics
