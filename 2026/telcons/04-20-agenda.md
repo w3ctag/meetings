@@ -9,7 +9,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 * RDF-1.2 versioning story
 
-<!-- Reviews that have been pending external action for at least 6 months -->
+Reviews that have been pending external action for at least 6 months
 * [design-reviews#1153: WG New Spec: Direction feature for `scroll-state()` query](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1153) ([Github](https://github.com/w3ctag/design-reviews/issues/1153)) - @matatk, @xiaochengh
 
 ## Pacific Breakout (Asia / Australia / West America) - [2026-04-22](https://www.timeanddate.com/worldclock/converter.html?iso=20260422T000000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
@@ -30,6 +30,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [design-reviews#1198: Incubation: CPU Performance API](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1198) ([Github](https://github.com/w3ctag/design-reviews/issues/1198)) - @jyasskin, @marcoscaceres
 * [design-reviews#1195: Question: should `shadowrootadoptedstylesheets` perform a fetch?](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1195) ([Github](https://github.com/w3ctag/design-reviews/issues/1195)) - @jyasskin, @bkardell, @dandclark
 * [design-reviews#1215: [wg/wot] Web of Things Working Group rechartering](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1215) ([Github](https://github.com/w3ctag/design-reviews/issues/1215)) - @jyasskin
+
+* [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+%28label%3A%22Progress%3A+untriaged%22+OR+no%3Aassignee%29)
 
 ## Eurasia Breakout (Europe / Asia / Australia) - [2026-04-23](https://www.timeanddate.com/worldclock/converter.html?iso=20260423T080000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 
@@ -54,6 +56,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [design-reviews#1197: Incubation: Autofill Event](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1197) ([Github](https://github.com/w3ctag/design-reviews/issues/1197)) - @marcoscaceres, @matatk, @hlflanagan, @christianliebel
 * [design-reviews#1204: Incubation: [HTML] html-in-canvas](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1204) ([Github](https://github.com/w3ctag/design-reviews/issues/1204)) - @matatk, @xiaochengh
 
+* [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+%28label%3A%22Progress%3A+untriaged%22+OR+no%3Aassignee%29)
 
 ## Atlantic Breakout (America / Europe) - [2026-04-24](https://www.timeanddate.com/worldclock/converter.html?iso=20260424T130000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 
@@ -74,8 +77,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [design-reviews#1197: Incubation: Autofill Event](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1197) ([Github](https://github.com/w3ctag/design-reviews/issues/1197)) - @marcoscaceres, @matatk, @hlflanagan, @christianliebel
 
 
-
-* Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+%28label%3A%22Progress%3A+untriaged%22+OR+no%3Aassignee%29)
 
 ## Logistics
