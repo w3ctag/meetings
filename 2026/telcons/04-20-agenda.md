@@ -8,6 +8,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 ## Plenary Session - [2026-04-21](https://www.timeanddate.com/worldclock/converter.html?iso=20260421T130000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 
 * RDF-1.2 versioning story
+* AI in design review process
 
 Reviews that have been pending external action for at least 6 months
 * [design-reviews#1153: WG New Spec: Direction feature for `scroll-state()` query](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1153) ([Github](https://github.com/w3ctag/design-reviews/issues/1153)) - @matatk, @xiaochengh
