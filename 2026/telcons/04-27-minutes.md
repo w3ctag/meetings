@@ -48,7 +48,7 @@ Xiaocheng: Understand the motivation. Is this really achievable, or do we need m
 
 Marcos: Poor PEPC people want to render browser-secure UI, and it wouldn't work with this. When you drop it, it reveals permission state. Can't render it. Assume they've come to you. On WebKit we can't use PEPC buttons in canvas since it circumvents whole PEPC thing.
 
-Philip: We have an answer for that class. There are similar issues with, in a normal <select>, with the popup drawn by the OS. Popups don't draw into HTML-in-canvas. Text IME doesn't draw into canvas. Browser security popups. Nothing cross-origin.
+Philip: We have an answer for that class. There are similar issues with, in a normal `<select>`, with the popup drawn by the OS. Popups don't draw into HTML-in-canvas. Text IME doesn't draw into canvas. Browser security popups. Nothing cross-origin.
 
 Xiaocheng: Another canvas?
 
@@ -149,13 +149,13 @@ Marcos: Brian and I and Jeffrey can iterate. I'll send an updated proposal that 
 ### [design-reviews#1213: Question: Capability Delegation stalled -- specs are implementing local workarounds](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1213) ([Github](https://github.com/w3ctag/design-reviews/issues/1213)) - @jyasskin, @hlflanagan
 
 jyasskin: Updates, or do we just go talk to specs?  
-<crickets>
+&lt;crickets>
 jyasskin: Ok, I guess we need to go talk to them
 
 ### [design-reviews#1207: Incubation: Prerendering cross-origin iframes](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1207) ([Github](https://github.com/w3ctag/design-reviews/issues/1207)) - @marcoscaceres, @hlflanagan
 
 jyasskin: Marcos, did you have any updates
-marcoscaceres: <looks>... I cannot recall where I was in this. I had opinions but I can't find them at themoment, I will try to come back to them
+marcoscaceres: &lt;looks>... I cannot recall where I was in this. I had opinions but I can't find them at themoment, I will try to come back to them
 
 ### [design-reviews#1198: Incubation: CPU Performance API](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1198) ([Github](https://github.com/w3ctag/design-reviews/issues/1198)) - @jyasskin, @marcoscaceres
 
