@@ -7,6 +7,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ## Plenary Session - [2026-06-02](https://www.timeanddate.com/worldclock/converter.html?iso=20260602T130000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 
+* [design-reviews#1058: The `interesttarget` attribute](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1058) ([Github](https://github.com/w3ctag/design-reviews/issues/1058)) - @matatk, @xiaochengh
 * AI in design review process
 
 <!-- Reviews that have been pending external action for at least 6 months -->
@@ -45,7 +46,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [design-reviews#1214: [wg/math] Math Group Charter](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1214) ([Github](https://github.com/w3ctag/design-reviews/issues/1214)) - @christianliebel
 * [design-reviews#1182: WG Revision: CSS Anchor Positioning Level 1](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1182) ([Github](https://github.com/w3ctag/design-reviews/issues/1182)) - @matatk, @xiaochengh, @lukewarlow
 * [design-reviews#1120: CSS find-in-page highlight pseudos](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1120) ([Github](https://github.com/w3ctag/design-reviews/issues/1120)) - @matatk, @xiaochengh
-* [design-reviews#1058: The `interesttarget` attribute](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1058) ([Github](https://github.com/w3ctag/design-reviews/issues/1058)) - @matatk, @xiaochengh
 
 ## Atlantic Breakout (America / Europe) - [2026-06-05](https://www.timeanddate.com/worldclock/converter.html?iso=20260605T130000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 
