@@ -55,9 +55,7 @@ Raw minutes: ...
 * [design-reviews#1235: WG New Spec: Soft Navigations and Interaction Contentful Paint](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1235) ([Github](https://github.com/w3ctag/design-reviews/issues/1235)) - @xiaochengh
 * [design-reviews#1222: Other Spec Review: Single-Axis Scroll Containers](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1222) ([Github](https://github.com/w3ctag/design-reviews/issues/1222)) - @xiaochengh, @lukewarlow
 * [design-reviews#1233: WG Revision: CSSPseudoElement](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1233) ([Github](https://github.com/w3ctag/design-reviews/issues/1233)) - @bkardell, @xiaochengh
-* [design-reviews#1208: Other Spec Review: [css-text] `text-fit` property](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1208) ([Github](https://github.com/w3ctag/design-reviews/issues/1208)) - @matatk, @xiaochengh
-* [design-reviews#1182: WG Revision: CSS Anchor Positioning Level 1](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1182) ([Github](https://github.com/w3ctag/design-reviews/issues/1182)) - @matatk, @xiaochengh, @lukewarlow
-* [design-reviews#1120: CSS find-in-page highlight pseudos](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1120) ([Github](https://github.com/w3ctag/design-reviews/issues/1120)) - @matatk, @xiaochengh
+
 
 ## Eurasia Breakout (Europe / Asia / Australia) - [2026-07-02](https://www.timeanddate.com/worldclock/converter.html?iso=20260702T090000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 
@@ -84,6 +82,9 @@ Raw minutes: ...
 * [design-reviews#1173: Incubation: Connection Allowlists](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1173) ([Github](https://github.com/w3ctag/design-reviews/issues/1173)) - @ylafon, @toreini
 * [design-reviews#1204: Incubation: [HTML] html-in-canvas](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1204) ([Github](https://github.com/w3ctag/design-reviews/issues/1204)) - @matatk, @xiaochengh, @lukewarlow
 * [design-reviews#1228: Other Spec Review: overscroll-behavior: chain](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1228) ([Github](https://github.com/w3ctag/design-reviews/issues/1228)) - @lolaodelola, @lukewarlow
+* [design-reviews#1208: Other Spec Review: [css-text] `text-fit` property](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1208) ([Github](https://github.com/w3ctag/design-reviews/issues/1208)) - @matatk, @xiaochengh
+* [design-reviews#1182: WG Revision: CSS Anchor Positioning Level 1](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1182) ([Github](https://github.com/w3ctag/design-reviews/issues/1182)) - @matatk, @xiaochengh, @lukewarlow
+* [design-reviews#1120: CSS find-in-page highlight pseudos](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1120) ([Github](https://github.com/w3ctag/design-reviews/issues/1120)) - @matatk, @xiaochengh
 
 
 ## Atlantic Breakout (America / Europe) - [2026-07-03](https://www.timeanddate.com/worldclock/converter.html?iso=20260703T130000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
