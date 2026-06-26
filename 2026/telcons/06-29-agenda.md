@@ -23,6 +23,7 @@ Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2026/telcons/
 Raw minutes: 
 
 * [design-reviews#1238: Incubation: WebMCP](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1238) ([Github](https://github.com/w3ctag/design-reviews/issues/1238)) - @marcoscaceres, @matatk, @toreini, @christianliebel
+* [design-reviews#1127: WebAuthn Level 3: Related Origin Requests](https://github.com/w3ctag/design-reviews/issues/1127) @ylafon
 * [meetings#60: Agenda building for the TAG f2f: 7–11 September 2026](https://github.com/w3ctag/meetings/issues/60)
 * Breakout Rollup
 * [Issue Triage](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+is%3Aopen+%28label%3A%22Progress%3A+untriaged%22+OR+no%3Aassignee%29)
