@@ -24,6 +24,8 @@ Raw minutes: ...
 * [user-agents#35: what constitutes a "credible commitment"?](https://github.com/w3ctag/user-agents/issues/35)
 * [user-agents#49: Init Introduction](https://github.com/w3ctag/user-agents/pull/49)
 * [user-agents#50: Add example for honest user agent communication](https://github.com/w3ctag/user-agents/pull/50)
+* [user-agents#51:fix 'should' appearing in example (only case flagged)](https://github.com/w3ctag/user-agents/pull/51
+* [user-agents#52:Cite [evergreen] finding](https://github.com/w3ctag/user-agents/pull/52)
 
 ## Open PRs
 
