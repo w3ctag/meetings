@@ -20,6 +20,10 @@ Archived minutes: https://github.com/w3ctag/meetings/blob/gh-pages/2026/telcons/
 Raw minutes: ...
 
 * [user-agents#36: Web views](https://github.com/w3ctag/user-agents/issues/36) - @jyasskin, @marcoscaceres, @bkardell
+* [user-agents#22: Implementing the web platform](https://github.com/w3ctag/user-agents/issues/22)
+* [user-agents#35: what constitutes a "credible commitment"?](https://github.com/w3ctag/user-agents/issues/35)
+* [user-agents#49: Init Introduction](https://github.com/w3ctag/user-agents/pull/49)
+* [user-agents#50: Add example for honest user agent communication](https://github.com/w3ctag/user-agents/pull/50)
 
 ## Open PRs
 
