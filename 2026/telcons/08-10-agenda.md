@@ -9,6 +9,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [design-reviews-private-brainstorming#284: WG New Spec: Attribution](https://github.com/w3ctag/design-reviews-private-brainstorming/issues/284)
 * [design-reviews-private-brainstorming#302: Question: can we better define the intention of the "disable scripting" user preference ](https://github.com/w3ctag/design-reviews-private-brainstorming/issues/302)
 * [user-agents#6: A duty of Negotiation](https://github.com/w3ctag/user-agents/issues/6)
+* [Incubation: Application Capability #1255](https://github.com/w3ctag/design-reviews/issues/1255)
 <!-- Reviews that have been pending external action for at least 6 months -->
 
 * [design-reviews#1166: WG Revision: SHACL 1.2 Core](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1166) ([Github](https://github.com/w3ctag/design-reviews/issues/1166)) - @jyasskin, @csarven
