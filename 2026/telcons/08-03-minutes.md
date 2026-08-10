@@ -11,51 +11,83 @@ Present: Brian, Dan, Marcos
     
 ## User agent examples
 Brian: the example callouts between sections is inconsistent
+
 Dan: yes, I can see that
+
 Marcos: agree
+
 Brian: can we make them consistent? 
+
 Marcos: yes
+
 ... discussion as to different options.... 
+
 Brian: I filed an issue to try to fix them up  https://github.com/w3ctag/user-agents/issues/53
 
 ### [user-agents#36: Web views](https://github.com/w3ctag/user-agents/issues/36) - @jyasskin, @marcoscaceres, @bkardell
 
 Brian: Not sure there's anything to do here. Heather was articulating it about navigations between origins. For webviews, is it still an origin?
+
 Marcos: Yes. But let me read the issue. The same origin policy still applies to webview. But on the webview running it on its own, there's no browser UI. But they have separate processes...the web security model still applies. 
+
 Brian: The UA definition won't match the legal one. Is the screen on your blender or the infotainment in your care a UA if it only serves pages from local filesystem.
+
 Marcos: Yes, if tries to serve mixed content, violates same origin policies.
+
 Brian: I largely like Heather's April 7 comment. Only question if we adopt that approach is if we can make it more general/flexible. And make it more behavior based rather than strict classifications. Do we need to care about embedded scenarios like these? Should we file sub-issue for that? Heather's approach is right that spec already contains the right guts but we could strengthen the bit about making it clear when you're a user agent when you're acting like one.
+
 Marcos: Yeah. List is good but it's too limiting. But it's hinting in the right direction.
+
 Brian: If you're using electron, using webviews, using Sublime text, you're not really acting as UA. 
+
 Marcos: I don't agree. Look at Slack or Visual Studio. In VS Code if you load a repo it asks if you trust the repo. That's UA behavior. 
+
 Dan: That's not same-origin policy
+
 Brian: Example of display on embedded device, communicating over protocol buffers...nothing about it has a sense of web pages or origins.
+
 Marcos: Is it rendering web pages?
+
 Brian: Rendering local pages
+
 Marcos: Do they update?
+
 Brian: It gets fuzzy. If you install cookbook, press a button and it fetches an update, fetches remote recipes, now it's a UA. But not if it's domain you control. 
+
 Marcos: Even in that case the choice the manufacturer made was to only nav local files. They acted on behalf of user in that. They might have been smart about what content to let in -- so decision was made on behalf of user.
+
 Brian: That's the same for smart TVs, they're basically running a web view. Is it a user agent?
+
 Marcos: Probably, they're mediating between user and content. If they're stopping from accessing particular content, they've made a choice and become a UA. Falls into the responsibilities as outlined in that law.
+
 Brian: That's where it gets tricky. Updating an embedded device, it's static files but it's like updating a serviceworker. Just using file protocol to load the content.
-<discussion of what happens with embedded device document viewer when you click links>
+
+&lt;discussion of what happens with embedded device document viewer when you click links&gt;
+
 Brian: I like the direction of Heather's work on this and would be happy to see that carry on.
 
 
 ### [user-agents#41: Webview: embedded area indicators](https://github.com/w3ctag/user-agents/pull/41) - @imsenyu
 
 Brian: How different are webviews from iframes? What the browser does with iframes you should do. Let's say you have your page and an embedded thing about payment. That's conceptually what it is. The UI requirements should be the same. Browser should tell you if domain other than the one you're on is asking permission.
+
 Marcos: Yes. There's a bunch of specs that deal with this problem like digital credentials and storage access and webauthn. If you were to embed a webview and it loaded a document with an iframe, with another iframe, the relationship should be expressed to the user even if they can't see URL bar.
+
 Brian: You end up with mixed content. Have a warning at the page level.
+
 Marcos: The principle is it's the responsibility of the API where it's embedded to express the relationship between the top page and the embedded content, where the API call is made. I don't think that's been expressed clearly.
+
 <Closed #41>
+
 We will put something like "When embedding a webview, the embedder takes on the duties of a user-agent and becomes responsible for privacy, security, etc."
 
 
 ### [design-reviews#1244: [wg/webappsec] Web Application Security Working Group Charter](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1244) ([Github](https://github.com/w3ctag/design-reviews/issues/1244)) - @hlflanagan
 
 Marcos: Haven't looked in a while but think we're pretty much done. 
+
 Brian: Can probably close
+
 Marcos: I'll take a look now but think we're OK with it.
 
 ### [design-reviews#1198: Incubation: CPU Performance API](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1198) ([Github](https://github.com/w3ctag/design-reviews/issues/1198)) - @jyasskin, @marcoscaceres
@@ -69,7 +101,9 @@ Marcos: I'll take a look now but think we're OK with it.
 ### Special Focus: [design-reviews#1238: Incubation: WebMCP](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1238) ([Github](https://github.com/w3ctag/design-reviews/issues/1238)) - @marcoscaceres, @matatk, @toreini, @christianliebel & guests
 
 Chair: Lola Odelola
+
 Scribe: Dan Clark
+
 Other Attendees:  Andrew Nahas, Andrew Nolan, Julia Pagnucco, Brandon Walderman, Brian Kardell, Christian Liebel, Johann Hoffman, Liad Yosef, Luke Warlow, Matthew Atkinson, Mike Pennisi, Domenic Farolino, Philippe Le Hegaret, Sarah Drasner
 
 Christian: When we screen proposals people who are interested assign themselves. For webcmp we are 4: marcos, ehsan, matthew, and me. Look at the proposal, explainer, early spec text, try to check them against design reviews and also the broader angle of 'is this a good fit for the web platform', does it make sense architecturally. Helpful to have various people on the review to get broad perspective. Regarding webmcp, also have the doc we shared with you. Can see the names of who wrote feedback text. I like the proposal. marcos and ehsan are critical. Points they raise are in that google doc. But they're not here, so hard for me to represent what they said but we'll try. How do we proceed?
@@ -173,7 +207,9 @@ Lola: Pepople who weren't here might need to go to MCP folks rather than the oth
 ## Eurasia Breakout (Europe / Asia / Australia) - [2026-08-06](https://www.timeanddate.com/worldclock/converter.html?iso=20260806T090000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 
 Chair: Lola
+
 Present: Marcos, Luke, Ehsan, Matthew, Christian, Hadley
+
 Scribe: Marcos
 
 ### [design-reviews#1212: WG Revision: WebTransport](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1212) ([Github](https://github.com/w3ctag/design-reviews/issues/1212)) - @toreini
