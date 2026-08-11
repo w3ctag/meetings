@@ -6,10 +6,11 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 
 ## Plenary Session - [2026-08-11](https://www.timeanddate.com/worldclock/converter.html?iso=20260811T130000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
-* [design-reviews-private-brainstorming#284: WG New Spec: Attribution](https://github.com/w3ctag/design-reviews-private-brainstorming/issues/284)
-* [design-reviews-private-brainstorming#302: Question: can we better define the intention of the "disable scripting" user preference ](https://github.com/w3ctag/design-reviews-private-brainstorming/issues/302)
+* [design-reviews#1229: WG New Spec: Attribution](https://github.com/w3ctag/design-reviews/issues/1229)
+* [design-reviews#1247: Question: can we better define the intention of the "disable scripting" user preference ](https://github.com/w3ctag/design-reviews/issues/1247)
 * [user-agents#6: A duty of Negotiation](https://github.com/w3ctag/user-agents/issues/6)
 * [Incubation: Application Capability #1255](https://github.com/w3ctag/design-reviews/issues/1255)
+  
 <!-- Reviews that have been pending external action for at least 6 months -->
 
 * [design-reviews#1166: WG Revision: SHACL 1.2 Core](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1166) ([Github](https://github.com/w3ctag/design-reviews/issues/1166)) - @jyasskin, @csarven
@@ -22,7 +23,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [user-agents#36: Web views](https://github.com/w3ctag/user-agents/issues/36) - @jyasskin, @marcoscaceres, @bkardell
 
 ## Atlantic Breakout (America / Europe) - [2026-08-12](https://www.timeanddate.com/worldclock/converter.html?iso=20260812T170000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
-* [design-reviews-private-brainstorming#217: WG New Spec: RDF 1.2 N-Triples](https://github.com/w3ctag/design-reviews-private-brainstorming/issues/217) - @csarven
+* [design-reviews#1161: WG New Spec: RDF 1.2 N-Triples](https://github.com/w3ctag/design-reviews/issues/1161) - @csarven
 * [user-agents#20: Meta: Make progress on this document.](https://github.com/w3ctag/user-agents/issues/20) - @jyasskin, @csarven, @bkardell
 * [societal-impact-questionnaire#2: Examples](https://github.com/w3ctag/societal-impact-questionnaire/issues/2) - @lolaodelola
 * [explainer-explainer#31: Meta: Make progress on this document](https://github.com/w3ctag/explainer-explainer/issues/31) - @jyasskin, @matatk
