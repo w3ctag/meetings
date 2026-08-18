@@ -39,7 +39,7 @@ Brian: Only that they'd take it under consideration. Issue originally opened by 
 
 Heather: We can do the review. They did request a review so they should ideally make it easier for us.
 
-Lola: Doesn't sound like this is something we are satisfied with. Sounds like this is probably an unsatisified but owuld like to also flag that there are conversation that are ongoing, like in Privacy. No pressure to have an answer, but if we want to close this it'd be unsatisified right now, but could give more time to deliberate longer.
+Lola: Doesn't sound like this is something we are satisfied with. Sounds like this is probably an unsatisfied but would like to also flag that there are conversation that are ongoing, like in Privacy. No pressure to have an answer, but if we want to close this it'd be unsatisfied right now, but could give more time to deliberate longer.
 
 Hadley: I think it is not unreasonable for us to burn more energy until a template they put together. A closing review like Lola described.
 
@@ -49,14 +49,14 @@ Matthew: I think we should ask for it and they should give. There was this big p
 
 Hadley: Not against that. There are two architectural points that'd be good to get feedback. 1) user-agent surving the advertise, and I think that massively violates duties and PoC. 2) Effectively it is a cross-origin leakage, and so I'm concerned.
 
-Brian: Some background on user benefits etc are in the spec. In prose and diagrams. Value in an explainer. Could tell them they have a lot of the information already but they need to put out more clearly. It is not cross-origin leakage. They're careful abotu that. Some things can be done / some debate on to what degree, but there are not a tonne of players in the space. THis is kind of a mash of some orgs..  worth digging into where people with different backgournd on designing something that fits. It'd be interesting to learn more.
+Brian: Some background on user benefits etc are in the spec. In prose and diagrams. Value in an explainer. Could tell them they have a lot of the information already but they need to put out more clearly. It is not cross-origin leakage. They're careful about that. Some things can be done / some debate on to what degree, but there are not a tonne of players in the space. This is kind of a mash of some orgs..  worth digging into where people with different background on designing something that fits. It'd be interesting to learn more.
 
-Heather: We could invite them to one of our meetings. Not a replacement for an Explainer. Essentialyl we don't have enough informatoin to settle so lets find out.
+Heather: We could invite them to one of our meetings. Not a replacement for an Explainer. Essentially we don't have enough information to settle so lets find out.
 
 
 ### [design-reviews-private-brainstorming#302: Question: can we better define the intention of the "disable scripting" user preference ](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1247)
 
-Marcos: Seems like we should defer to the HTML group. iNterested in discussions from the HTML side.
+Marcos: Seems like we should defer to the HTML group. interested in discussions from the HTML side.
 
 Lola: Agree to certain extent. But don't want to completely defer / not participate because it ultimately affects WebArch. We should have folks from TAG participating in those discussions.
 
@@ -82,7 +82,7 @@ Sarven: Noted, on my plate, can PR this week.
 
 Sarven: will try to make sure (similar to the Transparency duty proposal) so that it is not overlapping with existing text.
 
-### [Incubation: Application Capability #1255](https://github.com/w3ctag/design-reviews/issues/1255)
+### [Incubation: Application Capability](https://github.com/w3ctag/design-reviews/issues/1255)
 
 Sarven: There is an explainer in the repo. As the name implies, this is a structured way for apps to publish their capabilities, requirements, and policies which can be used by other apps, servers, or user agents. Publishing means, as a standalone resource, incorporated into the Web Application Manifest, or other ways, so the app itself or other users can make decisions based on that information, i.e., what an app needs or what it’s about to do.
 
@@ -138,7 +138,7 @@ Heather: My idea is that we focus on whatever the thing is, it's serving the bes
 
 Brian: Web views are a thing in the world, so it might be helpful to define something.
 
-Marcos: The separation of the web stuff - does that matter? The UA is the UA, regardless of the platform, as long as it meets the criteria we define. My proposal is "user agent concept" and the spec puts requirements on the UA for it to behave certain ways. Sometimes we go beyond what the UA is defined to do. For example, in Digital Credentials, when you have an iFrame and make a request from the top-level, you should show both origins. Making that relationship clear to the user is important. In geolocation, we ask the UA via the spec to show the origin. So, in that sense, the UA comes first and the specs direct / put conformance requirements on UAs. 
+Marcos: The separation of the web stuff - does that matter? The UA is the UA, regardless of the platform, as long as it meets the criteria we define. My proposal is "user agent concept" and the spec puts requirements on the UA for it to behave certain ways. Sometimes we go beyond what the UA is defined to do. For example, in Digital Credentials, when you have an iframe and make a request from the top-level, you should show both origins. Making that relationship clear to the user is important. In geolocation, we ask the UA via the spec to show the origin. So, in that sense, the UA comes first and the specs direct / put conformance requirements on UAs. 
 
 Brian: i think what Marcos is saying is that they are all UAs but they all share a base definition. You can have differing requirements depending on what you're implementing. But it's still tricky because the user doesn't know. 
 
