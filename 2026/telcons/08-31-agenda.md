@@ -8,7 +8,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 ## Pacific Breakout (Asia / Australia / West America) - [2026-09-02](https://www.timeanddate.com/worldclock/converter.html?iso=20260902T000000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 * [design-reviews#1207: Incubation: Prerendering cross-origin iframes](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1207) ([Github](https://github.com/w3ctag/design-reviews/issues/1207)) - @marcoscaceres, @hlflanagan
 * [user-agents#36: Web views](https://github.com/w3ctag/user-agents/issues/36) - @jyasskin, @marcoscaceres, @bkardell
-* [design-reviews#619: Question: can we better define the intention of the "disable scripting" user preference ](https://github.com/w3ctag/design-principles/issues/619) - @marcoscaceres
+* [design-principles#619: Question: can we better define the intention of the "disable scripting" user preference](https://github.com/w3ctag/design-principles/issues/619) - @marcoscaceres
 * [design-principles#620: Link to the Design Principles doc](https://github.com/w3ctag/design-principles/pull/620) - @tabatkins
 * [design-principles#621: Add new fragment directive guidance](https://github.com/w3ctag/design-principles/pull/621) - @tabatkins
 * [design-reviews#1224: Incubation: Lightweight and Conditional Tracing for long animation frame timing API](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1224) ([Github](https://github.com/w3ctag/design-reviews/issues/1224)) - @hlflanagan, @xiaochengh
@@ -19,7 +19,6 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 * [design-reviews#1251: Other Spec Review: JS Self-Profiling Markers (ProfilerSample.marker)](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1251) ([Github](https://github.com/w3ctag/design-reviews/issues/1251)) - @jugglinmike, @marcoscaceres, @bkardell
 * [design-reviews#1237: Other Spec Review: CSS Image Animation](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1237) ([Github](https://github.com/w3ctag/design-reviews/issues/1237)) - @bkardell, @matatk
 * [design-reviews#1265: WG New Spec: Global Privacy Control (GPC)](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1265) ([Github](https://github.com/w3ctag/design-reviews/issues/1265)) - @hadleybeeman, @toreini, @hlflanagan, @lolaodelola
-* [design-reviews#1161: WG New Spec: RDF 1.2 N-Triples](https://github.com/w3ctag/design-reviews/issues/1161) - @csarven
 * [design-reviews#1166: WG Revision: SHACL 1.2 Core](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1166) ([Github](https://github.com/w3ctag/design-reviews/issues/1166)) - @jyasskin, @csarven
 * [design-reviews#1246: WG New Spec: Additional Windowing Controls](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1246) ([Github](https://github.com/w3ctag/design-reviews/issues/1246)) - @jugglinmike, @bkardell
 * [design-reviews#1242: Other Spec Review: HTML menu elements](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1242) ([Github](https://github.com/w3ctag/design-reviews/issues/1242)) - @matatk, @christianliebel
@@ -138,5 +137,3 @@ Raw minutes: ...
 ### Plenary Session
 
 None
-
-The agenda was copied; paste it here.
