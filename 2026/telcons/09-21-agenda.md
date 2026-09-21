@@ -9,6 +9,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 <!-- Agenda+ -->
 * [process#52: Contact WGs to invite members to run for the TAG](https://github.com/w3ctag/process/issues/52)
+* Confirm next F2F dates of March 16–19, 2027 (Tuesday–Friday), in Karlsruhe, Germany.
 <!-- PRs -->
 <!-- Design Reviews -->
 * [design-reviews#1245: Question: Review manifest-first Web Install API](https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1245) ([Github](https://github.com/w3ctag/design-reviews/issues/1245)) - @ylafon, @marcoscaceres, @christianliebel, @lukewarlow
