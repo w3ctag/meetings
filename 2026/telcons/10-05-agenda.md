@@ -7,8 +7,7 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 
 ## Plenary Session - [2026-10-06](https://www.timeanddate.com/worldclock/converter.html?iso=20261006T130000&p1=224&p2=43&p3=136&p4=195&p5=33&p6=248&p7=240)
 
-* 
-[WebMCP Draft Review Comment](https://docs.google.com/document/d/1WWFmeylMPmUqTwhdfXligSMg9nZ8LeUFM5rjsyWjr00/edit?usp=sharing) - @christianliebel, @hlflanagan
+* [WebMCP Draft Review Comment](https://docs.google.com/document/d/1WWFmeylMPmUqTwhdfXligSMg9nZ8LeUFM5rjsyWjr00/edit?usp=sharing) - @christianliebel, @hlflanagan
 * [process#52: Contact WGs to invite members to run for the TAG](https://github.com/w3ctag/process/issues/52)
 * [process#50: Re-wording TAG review outcomes](https://github.com/w3ctag/process/issues/50)
 * [state-of-3pc#1: Retire this finding](https://github.com/w3ctag/state-of-3pc/issues/1)
