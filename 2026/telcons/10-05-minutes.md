@@ -1,4 +1,4 @@
-# Call Agenda - Week of 5 October 2026
+# TAG Minutes - Week of 5 October 2026
 
 This agenda can be viewed on [Github](https://github.com/w3ctag/meetings/blob/gh-pages/2026/telcons/10-05-agenda.md).
 
@@ -499,7 +499,7 @@ Scribe: Sarven, Ehsan
 Attendees: Sarven, Lola, Ehsan, Christian, Luke, Yves, Marcos
 
 
-### [design-reviews-private-brainstorming#329: [wg/lws] Linked Web Storage Working Group Charter](https://github.com/w3ctag/design-reviews-private-brainstorming/issues/329) - @csarven
+### [design-reviews#1275: [wg/lws] Linked Web Storage Working Group Charter](https://github.com/w3ctag/design-reviews/issues/1275) - @csarven, @marcoscaceres
 
 Sarven: I reviewed the charter, as Jeffrey and Marcos. I drafted a review which they approved, and also integrated their comments and suggestions. Made editorial updates. I can get into some details but I feel it is already in a good state. With Yves, we reached out to Pierre-Antoine to let him know the expected date for charter refinement was not clear as they posted two dates. Both informed me this is not a problem so if we agree after this meeting, we can post it and they'd be ok with it. What I noted, there are three areas that are concerning and the group should revise the charter (and possibly the work) based on them: interoperability, deliverables and scope, and data formats. The proposed charter is removing the guarantees for interoperability. Two conforming classes of products will not be guaranteed to interop with one another, while still hanging on to the justification in the motivation/scope that interop is important. The original charter contained incubated work and implenentation experience, and some guarantee of interop as it was building on prior work, but they removed that it in the new version, without actuall having similar or better demonstratable experience. The concern is that this will create clusters of implementations in the ecosystem not able to communicate with one another. Also, they are not building on existing specs without clarification on why there is a need for existance of another one.  The scope was another issue. They extended the deliverables - the restructuring is uneven -, and adding another about a year and half to the timeline for delivery while keeping the same scope, and there are concerns on that. The review request mentions that the initial charter was aggresively optimistic, but the proposed charter is more optimisitic and it is concerning (also keeping interop concern as mentioned). Data formats is another concern and it is clearly in conflict with the initial and proposed charter (i.e., new data format is out of scope) as the drafts introduce new media types. Last thing, in the fediverse/AP/social web ecosystem, there are a group of implementers that are concerned or confused about two media types to consider for AS2. That kind of awareness of the deployment experience doesn't seem to be taken into account before using that as one possible idea to rely on. In any case, besides introducing new media types in the drafted works, which violates the initial and proposed charter, which they shouldn't, the justification for it is not well grounded.
 
@@ -512,10 +512,6 @@ Christian: {thumbs up}
 Marcos: {thumbs up}
 
 Lola: ok, 
-
-### [design-reviews#1275: [wg/lws] Linked Web Storage Working Group Charter]
-
-(https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1275) ([Github](https://github.com/w3ctag/design-reviews/issues/1275)) - @csarven, @marcoscaceres
 
 
 
