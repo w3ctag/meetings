@@ -10,6 +10,8 @@ If you would like to add an item to the agenda or volunteer to scribe please ope
 <!-- Agenda+ -->
 
 * [process#50: Re-wording TAG review outcomes](https://github.com/w3ctag/process/issues/50)
+* [agentic-browsing-finding#3: Publish this finding](https://github.com/w3ctag/agentic-browsing-finding/issues/3) - @christianliebel, @toreini
+* [install-finding#9: Publish this finding](https://github.com/w3ctag/install-finding/issues/9) - @christianliebel
 * [state-of-3pc#1: Retire this finding](https://github.com/w3ctag/state-of-3pc/issues/1) - @lolaodelola
 
 <!-- PRs -->
